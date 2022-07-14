@@ -14,16 +14,17 @@ export default function Main() {
       
       {/*  論文検索フォーム */}
       <Box sx={{ margin: '40px' }}>
-          <Box sx={{ width: 300, height: 30 }}>
-            <TextField id="outlined-basic" label="論文検索" variant="outlined"
+          <Box sx={{ width: '100%', height: 30 }}>
+            <TextField fullWidth id="fullWidth" label="論文検索" variant="outlined"
             InputProps={{startAdornment:<InputAdornment position="start"><SearchIcon/></InputAdornment>}}/>
           </Box>
       </Box>
 
+    
       {/* キーワードビュー　*/}
       <div style={{ margin: '40px'}}>
           <p>キーワード検索</p> 
-          <svg viewBox="0 0 200 100" width = "350" height = "200" className='card'>
+          <svg viewBox="0 0 200 100" width = "100%" height = "300" className='card'>
               <circle cx="10" cy="10" r="10"/>
               <circle cx="30" cy="50" r="10"/>
               <circle cx="50" cy="70" r="10"/>
