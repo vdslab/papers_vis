@@ -9,8 +9,10 @@ import {
     Route,
 } from "react-router-dom";
 import Network from "./pages/network";
+import * as d3 from 'd3';
 
 export default function App() {
+    let a = d3.select();
     return (
         <div>
 
