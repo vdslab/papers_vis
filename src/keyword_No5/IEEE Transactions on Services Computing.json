@@ -1,0 +1,6508 @@
+{
+ "terms": [
+  {
+   "name": "data",
+   "count": 149
+  },
+  {
+   "name": "authority",
+   "count": 1
+  },
+  {
+   "name": "central",
+   "count": 2
+  },
+  {
+   "name": "repository",
+   "count": 2
+  },
+  {
+   "name": "central authority",
+   "count": 1
+  },
+  {
+   "name": "wsp",
+   "count": 1
+  },
+  {
+   "name": "security",
+   "count": 26
+  },
+  {
+   "name": "security sensitive",
+   "count": 1
+  },
+  {
+   "name": "sensitive",
+   "count": 1
+  },
+  {
+   "name": "iso",
+   "count": 1
+  },
+  {
+   "name": "access",
+   "count": 29
+  },
+  {
+   "name": "service",
+   "count": 366
+  },
+  {
+   "name": "secure",
+   "count": 4
+  },
+  {
+   "name": "secure access",
+   "count": 1
+  },
+  {
+   "name": "access control",
+   "count": 6
+  },
+  {
+   "name": "workflow",
+   "count": 21
+  },
+  {
+   "name": "execution",
+   "count": 10
+  },
+  {
+   "name": "distributed",
+   "count": 2
+  },
+  {
+   "name": "execution workflow",
+   "count": 1
+  },
+  {
+   "name": "selection",
+   "count": 7
+  },
+  {
+   "name": "request",
+   "count": 9
+  },
+  {
+   "name": "optimal",
+   "count": 7
+  },
+  {
+   "name": "system",
+   "count": 65
+  },
+  {
+   "name": "partner",
+   "count": 1
+  },
+  {
+   "name": "cooperation",
+   "count": 2
+  },
+  {
+   "name": "coopflow",
+   "count": 1
+  },
+  {
+   "name": "step",
+   "count": 1
+  },
+  {
+   "name": "reservation",
+   "count": 2
+  },
+  {
+   "name": "reservation system",
+   "count": 1
+  },
+  {
+   "name": "customer",
+   "count": 5
+  },
+  {
+   "name": "event",
+   "count": 15
+  },
+  {
+   "name": "notification",
+   "count": 1
+  },
+  {
+   "name": "soas",
+   "count": 1
+  },
+  {
+   "name": "dissemination",
+   "count": 2
+  },
+  {
+   "name": "driven",
+   "count": 1
+  },
+  {
+   "name": "web",
+   "count": 70
+  },
+  {
+   "name": "web service",
+   "count": 47
+  },
+  {
+   "name": "propose",
+   "count": 48
+  },
+  {
+   "name": "aggregated",
+   "count": 1
+  },
+  {
+   "name": "composition",
+   "count": 47
+  },
+  {
+   "name": "ai",
+   "count": 1
+  },
+  {
+   "name": "spreadsheet",
+   "count": 1
+  },
+  {
+   "name": "framework",
+   "count": 23
+  },
+  {
+   "name": "service composition",
+   "count": 16
+  },
+  {
+   "name": "contract",
+   "count": 13
+  },
+  {
+   "name": "call",
+   "count": 2
+  },
+  {
+   "name": "parameter",
+   "count": 5
+  },
+  {
+   "name": "change",
+   "count": 12
+  },
+  {
+   "name": "information",
+   "count": 9
+  },
+  {
+   "name": "query",
+   "count": 15
+  },
+  {
+   "name": "message",
+   "count": 6
+  },
+  {
+   "name": "soap",
+   "count": 3
+  },
+  {
+   "name": "smp",
+   "count": 1
+  },
+  {
+   "name": "soap message",
+   "count": 1
+  },
+  {
+   "name": "client",
+   "count": 11
+  },
+  {
+   "name": "implementation",
+   "count": 2
+  },
+  {
+   "name": "integrity",
+   "count": 5
+  },
+  {
+   "name": "monitor",
+   "count": 2
+  },
+  {
+   "name": "agreement",
+   "count": 3
+  },
+  {
+   "name": "manet",
+   "count": 1
+  },
+  {
+   "name": "compute",
+   "count": 14
+  },
+  {
+   "name": "mechanism",
+   "count": 7
+  },
+  {
+   "name": "control",
+   "count": 11
+  },
+  {
+   "name": "enterprise",
+   "count": 3
+  },
+  {
+   "name": "server",
+   "count": 10
+  },
+  {
+   "name": "scientific",
+   "count": 6
+  },
+  {
+   "name": "scientific workflow",
+   "count": 2
+  },
+  {
+   "name": "architecture",
+   "count": 8
+  },
+  {
+   "name": "monitoring",
+   "count": 5
+  },
+  {
+   "name": "requirement",
+   "count": 9
+  },
+  {
+   "name": "map",
+   "count": 3
+  },
+  {
+   "name": "choreography",
+   "count": 6
+  },
+  {
+   "name": "language",
+   "count": 3
+  },
+  {
+   "name": "checking",
+   "count": 3
+  },
+  {
+   "name": "context",
+   "count": 6
+  },
+  {
+   "name": "adaptive",
+   "count": 4
+  },
+  {
+   "name": "model",
+   "count": 71
+  },
+  {
+   "name": "method",
+   "count": 32
+  },
+  {
+   "name": "consumer",
+   "count": 10
+  },
+  {
+   "name": "discovery",
+   "count": 9
+  },
+  {
+   "name": "transaction",
+   "count": 4
+  },
+  {
+   "name": "business",
+   "count": 32
+  },
+  {
+   "name": "net",
+   "count": 3
+  },
+  {
+   "name": "petri",
+   "count": 2
+  },
+  {
+   "name": "petri net",
+   "count": 1
+  },
+  {
+   "name": "bpel",
+   "count": 4
+  },
+  {
+   "name": "cpn",
+   "count": 1
+  },
+  {
+   "name": "analysis",
+   "count": 13
+  },
+  {
+   "name": "approach",
+   "count": 82
+  },
+  {
+   "name": "evaluation",
+   "count": 4
+  },
+  {
+   "name": "adapter",
+   "count": 3
+  },
+  {
+   "name": "adaptation",
+   "count": 6
+  },
+  {
+   "name": "interface",
+   "count": 4
+  },
+  {
+   "name": "based",
+   "count": 30
+  },
+  {
+   "name": "qos",
+   "count": 46
+  },
+  {
+   "name": "qos based",
+   "count": 1
+  },
+  {
+   "name": "matchmaking",
+   "count": 2
+  },
+  {
+   "name": "ws",
+   "count": 8
+  },
+  {
+   "name": "engineering",
+   "count": 2
+  },
+  {
+   "name": "ontology",
+   "count": 3
+  },
+  {
+   "name": "semantic",
+   "count": 10
+  },
+  {
+   "name": "semantic web",
+   "count": 1
+  },
+  {
+   "name": "service system",
+   "count": 1
+  },
+  {
+   "name": "utility",
+   "count": 2
+  },
+  {
+   "name": "ability",
+   "count": 1
+  },
+  {
+   "name": "buying",
+   "count": 1
+  },
+  {
+   "name": "buying net",
+   "count": 1
+  },
+  {
+   "name": "ubiquitous",
+   "count": 3
+  },
+  {
+   "name": "network",
+   "count": 45
+  },
+  {
+   "name": "algorithm",
+   "count": 53
+  },
+  {
+   "name": "edge",
+   "count": 33
+  },
+  {
+   "name": "edge failure",
+   "count": 1
+  },
+  {
+   "name": "property",
+   "count": 2
+  },
+  {
+   "name": "process",
+   "count": 60
+  },
+  {
+   "name": "specification",
+   "count": 3
+  },
+  {
+   "name": "interesting",
+   "count": 1
+  },
+  {
+   "name": "intention",
+   "count": 1
+  },
+  {
+   "name": "human",
+   "count": 5
+  },
+  {
+   "name": "human intention",
+   "count": 1
+  },
+  {
+   "name": "communication",
+   "count": 7
+  },
+  {
+   "name": "mpi",
+   "count": 1
+  },
+  {
+   "name": "mpiws",
+   "count": 1
+  },
+  {
+   "name": "point",
+   "count": 1
+  },
+  {
+   "name": "asq",
+   "count": 1
+  },
+  {
+   "name": "consolidation",
+   "count": 5
+  },
+  {
+   "name": "server consolidation",
+   "count": 1
+  },
+  {
+   "name": "center",
+   "count": 10
+  },
+  {
+   "name": "dp",
+   "count": 2
+  },
+  {
+   "name": "dp service",
+   "count": 1
+  },
+  {
+   "name": "platform",
+   "count": 4
+  },
+  {
+   "name": "provide",
+   "count": 5
+  },
+  {
+   "name": "delivery",
+   "count": 4
+  },
+  {
+   "name": "delivery platform",
+   "count": 1
+  },
+  {
+   "name": "behavior",
+   "count": 4
+  },
+  {
+   "name": "interaction",
+   "count": 4
+  },
+  {
+   "name": "description",
+   "count": 4
+  },
+  {
+   "name": "intentional",
+   "count": 1
+  },
+  {
+   "name": "level",
+   "count": 13
+  },
+  {
+   "name": "dominant",
+   "count": 1
+  },
+  {
+   "name": "provider",
+   "count": 23
+  },
+  {
+   "name": "quality",
+   "count": 7
+  },
+  {
+   "name": "skyline",
+   "count": 3
+  },
+  {
+   "name": "software",
+   "count": 5
+  },
+  {
+   "name": "demand",
+   "count": 10
+  },
+  {
+   "name": "storage",
+   "count": 8
+  },
+  {
+   "name": "contain",
+   "count": 1
+  },
+  {
+   "name": "design",
+   "count": 6
+  },
+  {
+   "name": "aspect",
+   "count": 2
+  },
+  {
+   "name": "weave",
+   "count": 1
+  },
+  {
+   "name": "mashups",
+   "count": 1
+  },
+  {
+   "name": "create",
+   "count": 3
+  },
+  {
+   "name": "manage",
+   "count": 1
+  },
+  {
+   "name": "oriented",
+   "count": 6
+  },
+  {
+   "name": "service oriented",
+   "count": 2
+  },
+  {
+   "name": "computing",
+   "count": 4
+  },
+  {
+   "name": "current",
+   "count": 1
+  },
+  {
+   "name": "fault",
+   "count": 5
+  },
+  {
+   "name": "bitam",
+   "count": 1
+  },
+  {
+   "name": "bitam soa",
+   "count": 1
+  },
+  {
+   "name": "world",
+   "count": 2
+  },
+  {
+   "name": "real",
+   "count": 6
+  },
+  {
+   "name": "device",
+   "count": 17
+  },
+  {
+   "name": "real world",
+   "count": 1
+  },
+  {
+   "name": "match",
+   "count": 3
+  },
+  {
+   "name": "allow",
+   "count": 1
+  },
+  {
+   "name": "application",
+   "count": 67
+  },
+  {
+   "name": "score",
+   "count": 3
+  },
+  {
+   "name": "participant",
+   "count": 2
+  },
+  {
+   "name": "support",
+   "count": 5
+  },
+  {
+   "name": "provenance",
+   "count": 2
+  },
+  {
+   "name": "component",
+   "count": 12
+  },
+  {
+   "name": "sdl",
+   "count": 1
+  },
+  {
+   "name": "service data",
+   "count": 1
+  },
+  {
+   "name": "transactional",
+   "count": 2
+  },
+  {
+   "name": "attribute",
+   "count": 8
+  },
+  {
+   "name": "template",
+   "count": 1
+  },
+  {
+   "name": "metric",
+   "count": 5
+  },
+  {
+   "name": "cohesion",
+   "count": 2
+  },
+  {
+   "name": "study",
+   "count": 2
+  },
+  {
+   "name": "identity",
+   "count": 4
+  },
+  {
+   "name": "user",
+   "count": 71
+  },
+  {
+   "name": "identity management",
+   "count": 1
+  },
+  {
+   "name": "management",
+   "count": 10
+  },
+  {
+   "name": "scheme",
+   "count": 32
+  },
+  {
+   "name": "business process",
+   "count": 11
+  },
+  {
+   "name": "policy",
+   "count": 13
+  },
+  {
+   "name": "policy set",
+   "count": 1
+  },
+  {
+   "name": "rule",
+   "count": 4
+  },
+  {
+   "name": "set",
+   "count": 4
+  },
+  {
+   "name": "technique",
+   "count": 10
+  },
+  {
+   "name": "dependability",
+   "count": 3
+  },
+  {
+   "name": "activity",
+   "count": 2
+  },
+  {
+   "name": "cycle",
+   "count": 2
+  },
+  {
+   "name": "negotiation",
+   "count": 5
+  },
+  {
+   "name": "decision",
+   "count": 10
+  },
+  {
+   "name": "decision function",
+   "count": 1
+  },
+  {
+   "name": "configuration",
+   "count": 5
+  },
+  {
+   "name": "availability",
+   "count": 6
+  },
+  {
+   "name": "process availability",
+   "count": 1
+  },
+  {
+   "name": "eqsql",
+   "count": 1
+  },
+  {
+   "name": "reliability",
+   "count": 8
+  },
+  {
+   "name": "environment",
+   "count": 5
+  },
+  {
+   "name": "open",
+   "count": 1
+  },
+  {
+   "name": "new",
+   "count": 2
+  },
+  {
+   "name": "assurance",
+   "count": 2
+  },
+  {
+   "name": "data assurance",
+   "count": 1
+  },
+  {
+   "name": "commitment",
+   "count": 2
+  },
+  {
+   "name": "mapping",
+   "count": 3
+  },
+  {
+   "name": "mapping algorithm",
+   "count": 1
+  },
+  {
+   "name": "mapping module",
+   "count": 1
+  },
+  {
+   "name": "module",
+   "count": 2
+  },
+  {
+   "name": "use",
+   "count": 14
+  },
+  {
+   "name": "xacml",
+   "count": 1
+  },
+  {
+   "name": "rbac",
+   "count": 1
+  },
+  {
+   "name": "bandwidth",
+   "count": 6
+  },
+  {
+   "name": "checkpointing",
+   "count": 1
+  },
+  {
+   "name": "bw",
+   "count": 1
+  },
+  {
+   "name": "composite",
+   "count": 8
+  },
+  {
+   "name": "composite service",
+   "count": 5
+  },
+  {
+   "name": "efficient",
+   "count": 2
+  },
+  {
+   "name": "processing",
+   "count": 4
+  },
+  {
+   "name": "government",
+   "count": 1
+  },
+  {
+   "name": "citizen",
+   "count": 1
+  },
+  {
+   "name": "senior",
+   "count": 1
+  },
+  {
+   "name": "end",
+   "count": 7
+  },
+  {
+   "name": "pervasive",
+   "count": 2
+  },
+  {
+   "name": "pervasive system",
+   "count": 1
+  },
+  {
+   "name": "coordination",
+   "count": 2
+  },
+  {
+   "name": "trust",
+   "count": 15
+  },
+  {
+   "name": "rating",
+   "count": 4
+  },
+  {
+   "name": "aggregation",
+   "count": 3
+  },
+  {
+   "name": "represent",
+   "count": 1
+  },
+  {
+   "name": "vulnerability",
+   "count": 3
+  },
+  {
+   "name": "type",
+   "count": 1
+  },
+  {
+   "name": "vulnerability type",
+   "count": 1
+  },
+  {
+   "name": "compliance",
+   "count": 3
+  },
+  {
+   "name": "b2b",
+   "count": 1
+  },
+  {
+   "name": "os",
+   "count": 2
+  },
+  {
+   "name": "as3",
+   "count": 1
+  },
+  {
+   "name": "layer",
+   "count": 6
+  },
+  {
+   "name": "pattern",
+   "count": 5
+  },
+  {
+   "name": "cloud",
+   "count": 150
+  },
+  {
+   "name": "agent",
+   "count": 3
+  },
+  {
+   "name": "cloud service",
+   "count": 6
+  },
+  {
+   "name": "bootstrapping",
+   "count": 1
+  },
+  {
+   "name": "bowl",
+   "count": 1
+  },
+  {
+   "name": "task",
+   "count": 31
+  },
+  {
+   "name": "amazon",
+   "count": 1
+  },
+  {
+   "name": "amazon cloud",
+   "count": 1
+  },
+  {
+   "name": "test",
+   "count": 7
+  },
+  {
+   "name": "test service",
+   "count": 1
+  },
+  {
+   "name": "cloud application",
+   "count": 1
+  },
+  {
+   "name": "realm",
+   "count": 1
+  },
+  {
+   "name": "authentication",
+   "count": 4
+  },
+  {
+   "name": "protocol",
+   "count": 11
+  },
+  {
+   "name": "allocation",
+   "count": 19
+  },
+  {
+   "name": "energy",
+   "count": 21
+  },
+  {
+   "name": "resource",
+   "count": 56
+  },
+  {
+   "name": "esb",
+   "count": 1
+  },
+  {
+   "name": "jbi",
+   "count": 1
+  },
+  {
+   "name": "metamodel",
+   "count": 1
+  },
+  {
+   "name": "collaboration",
+   "count": 6
+  },
+  {
+   "name": "concrete",
+   "count": 2
+  },
+  {
+   "name": "concrete service",
+   "count": 2
+  },
+  {
+   "name": "abstract",
+   "count": 1
+  },
+  {
+   "name": "abstract service",
+   "count": 1
+  },
+  {
+   "name": "problem",
+   "count": 30
+  },
+  {
+   "name": "learning",
+   "count": 3
+  },
+  {
+   "name": "classification",
+   "count": 3
+  },
+  {
+   "name": "contract miner",
+   "count": 1
+  },
+  {
+   "name": "exception",
+   "count": 2
+  },
+  {
+   "name": "cost",
+   "count": 34
+  },
+  {
+   "name": "instance",
+   "count": 6
+  },
+  {
+   "name": "spot",
+   "count": 2
+  },
+  {
+   "name": "completion",
+   "count": 1
+  },
+  {
+   "name": "monetary",
+   "count": 1
+  },
+  {
+   "name": "plan",
+   "count": 2
+  },
+  {
+   "name": "ocrp",
+   "count": 1
+  },
+  {
+   "name": "port",
+   "count": 1
+  },
+  {
+   "name": "space",
+   "count": 2
+  },
+  {
+   "name": "rsm",
+   "count": 1
+  },
+  {
+   "name": "database",
+   "count": 7
+  },
+  {
+   "name": "reputation",
+   "count": 6
+  },
+  {
+   "name": "feedback",
+   "count": 2
+  },
+  {
+   "name": "malicious",
+   "count": 1
+  },
+  {
+   "name": "malicious feedback",
+   "count": 1
+  },
+  {
+   "name": "peer",
+   "count": 4
+  },
+  {
+   "name": "complex",
+   "count": 2
+  },
+  {
+   "name": "aim",
+   "count": 1
+  },
+  {
+   "name": "orchestration",
+   "count": 2
+  },
+  {
+   "name": "adaptive application",
+   "count": 1
+  },
+  {
+   "name": "rm",
+   "count": 1
+  },
+  {
+   "name": "fo",
+   "count": 1
+  },
+  {
+   "name": "performance",
+   "count": 21
+  },
+  {
+   "name": "service request",
+   "count": 1
+  },
+  {
+   "name": "mashup",
+   "count": 8
+  },
+  {
+   "name": "integrate",
+   "count": 2
+  },
+  {
+   "name": "multiple",
+   "count": 6
+  },
+  {
+   "name": "privacy",
+   "count": 31
+  },
+  {
+   "name": "social",
+   "count": 16
+  },
+  {
+   "name": "relationship",
+   "count": 2
+  },
+  {
+   "name": "share",
+   "count": 5
+  },
+  {
+   "name": "high",
+   "count": 3
+  },
+  {
+   "name": "temporal",
+   "count": 4
+  },
+  {
+   "name": "business collaboration",
+   "count": 1
+  },
+  {
+   "name": "cloud storage",
+   "count": 2
+  },
+  {
+   "name": "recovery",
+   "count": 3
+  },
+  {
+   "name": "snapshot",
+   "count": 1
+  },
+  {
+   "name": "vnsnap",
+   "count": 1
+  },
+  {
+   "name": "infrastructure",
+   "count": 4
+  },
+  {
+   "name": "virtual",
+   "count": 8
+  },
+  {
+   "name": "vni",
+   "count": 1
+  },
+  {
+   "name": "middleware",
+   "count": 2
+  },
+  {
+   "name": "networking",
+   "count": 1
+  },
+  {
+   "name": "knowledge",
+   "count": 6
+  },
+  {
+   "name": "complicate",
+   "count": 1
+  },
+  {
+   "name": "citv",
+   "count": 1
+  },
+  {
+   "name": "iptv",
+   "count": 1
+  },
+  {
+   "name": "iptv service",
+   "count": 1
+  },
+  {
+   "name": "chord4s",
+   "count": 1
+  },
+  {
+   "name": "service discovery",
+   "count": 2
+  },
+  {
+   "name": "formal",
+   "count": 1
+  },
+  {
+   "name": "discover",
+   "count": 1
+  },
+  {
+   "name": "exist",
+   "count": 5
+  },
+  {
+   "name": "contracts",
+   "count": 1
+  },
+  {
+   "name": "evolution",
+   "count": 2
+  },
+  {
+   "name": "resource allocation",
+   "count": 3
+  },
+  {
+   "name": "multimedia",
+   "count": 1
+  },
+  {
+   "name": "stream",
+   "count": 2
+  },
+  {
+   "name": "standard",
+   "count": 1
+  },
+  {
+   "name": "theory",
+   "count": 1
+  },
+  {
+   "name": "definition",
+   "count": 1
+  },
+  {
+   "name": "socioeconomic",
+   "count": 1
+  },
+  {
+   "name": "computational",
+   "count": 2
+  },
+  {
+   "name": "socioeconomic system",
+   "count": 1
+  },
+  {
+   "name": "acp",
+   "count": 1
+  },
+  {
+   "name": "budget",
+   "count": 2
+  },
+  {
+   "name": "risk",
+   "count": 2
+  },
+  {
+   "name": "strategy",
+   "count": 11
+  },
+  {
+   "name": "advertising",
+   "count": 2
+  },
+  {
+   "name": "campaign",
+   "count": 1
+  },
+  {
+   "name": "wss",
+   "count": 1
+  },
+  {
+   "name": "community",
+   "count": 9
+  },
+  {
+   "name": "time",
+   "count": 22
+  },
+  {
+   "name": "accuracy",
+   "count": 3
+  },
+  {
+   "name": "prevent",
+   "count": 1
+  },
+  {
+   "name": "audit",
+   "count": 6
+  },
+  {
+   "name": "audit service",
+   "count": 1
+  },
+  {
+   "name": "base",
+   "count": 10
+  },
+  {
+   "name": "credit",
+   "count": 1
+  },
+  {
+   "name": "approximation",
+   "count": 2
+  },
+  {
+   "name": "ws bpel",
+   "count": 1
+  },
+  {
+   "name": "bpel program",
+   "count": 1
+  },
+  {
+   "name": "mining",
+   "count": 4
+  },
+  {
+   "name": "mining algorithm",
+   "count": 1
+  },
+  {
+   "name": "change management",
+   "count": 1
+  },
+  {
+   "name": "lcs",
+   "count": 1
+  },
+  {
+   "name": "long",
+   "count": 3
+  },
+  {
+   "name": "long term",
+   "count": 2
+  },
+  {
+   "name": "tag",
+   "count": 3
+  },
+  {
+   "name": "content",
+   "count": 7
+  },
+  {
+   "name": "across",
+   "count": 2
+  },
+  {
+   "name": "become",
+   "count": 1
+  },
+  {
+   "name": "path",
+   "count": 4
+  },
+  {
+   "name": "social trust",
+   "count": 1
+  },
+  {
+   "name": "lrts",
+   "count": 1
+  },
+  {
+   "name": "reo",
+   "count": 1
+  },
+  {
+   "name": "saas",
+   "count": 2
+  },
+  {
+   "name": "iaas",
+   "count": 3
+  },
+  {
+   "name": "heartbeat",
+   "count": 1
+  },
+  {
+   "name": "mom",
+   "count": 1
+  },
+  {
+   "name": "verify",
+   "count": 2
+  },
+  {
+   "name": "assume",
+   "count": 1
+  },
+  {
+   "name": "run",
+   "count": 2
+  },
+  {
+   "name": "recommendation",
+   "count": 21
+  },
+  {
+   "name": "previous",
+   "count": 1
+  },
+  {
+   "name": "experiment",
+   "count": 2
+  },
+  {
+   "name": "data possession",
+   "count": 2
+  },
+  {
+   "name": "possession",
+   "count": 3
+  },
+  {
+   "name": "reconfigurable",
+   "count": 1
+  },
+  {
+   "name": "reconfigurable service",
+   "count": 1
+  },
+  {
+   "name": "sensor",
+   "count": 10
+  },
+  {
+   "name": "process mining",
+   "count": 1
+  },
+  {
+   "name": "simulation",
+   "count": 2
+  },
+  {
+   "name": "billing",
+   "count": 1
+  },
+  {
+   "name": "ba",
+   "count": 1
+  },
+  {
+   "name": "bft",
+   "count": 1
+  },
+  {
+   "name": "ws ba",
+   "count": 1
+  },
+  {
+   "name": "intensive",
+   "count": 2
+  },
+  {
+   "name": "cpu",
+   "count": 1
+  },
+  {
+   "name": "intensive workload",
+   "count": 1
+  },
+  {
+   "name": "workload",
+   "count": 9
+  },
+  {
+   "name": "partition",
+   "count": 3
+  },
+  {
+   "name": "avmm",
+   "count": 1
+  },
+  {
+   "name": "id",
+   "count": 2
+  },
+  {
+   "name": "read",
+   "count": 3
+  },
+  {
+   "name": "efficiency",
+   "count": 4
+  },
+  {
+   "name": "trajectory",
+   "count": 2
+  },
+  {
+   "name": "lbs",
+   "count": 3
+  },
+  {
+   "name": "asc",
+   "count": 1
+  },
+  {
+   "name": "social network",
+   "count": 2
+  },
+  {
+   "name": "mammalian",
+   "count": 1
+  },
+  {
+   "name": "amount",
+   "count": 1
+  },
+  {
+   "name": "robustness",
+   "count": 1
+  },
+  {
+   "name": "clone",
+   "count": 1
+  },
+  {
+   "name": "mobile",
+   "count": 28
+  },
+  {
+   "name": "error",
+   "count": 1
+  },
+  {
+   "name": "community cloud",
+   "count": 1
+  },
+  {
+   "name": "tex",
+   "count": 4
+  },
+  {
+   "name": "conflict",
+   "count": 1
+  },
+  {
+   "name": "ws agreement",
+   "count": 1
+  },
+  {
+   "name": "describe",
+   "count": 2
+  },
+  {
+   "name": "life",
+   "count": 1
+  },
+  {
+   "name": "slas",
+   "count": 1
+  },
+  {
+   "name": "salmonada",
+   "count": 1
+  },
+  {
+   "name": "sla",
+   "count": 5
+  },
+  {
+   "name": "violation",
+   "count": 1
+  },
+  {
+   "name": "relation",
+   "count": 2
+  },
+  {
+   "name": "process model",
+   "count": 7
+  },
+  {
+   "name": "collaborative",
+   "count": 2
+  },
+  {
+   "name": "cloud user",
+   "count": 1
+  },
+  {
+   "name": "machine",
+   "count": 6
+  },
+  {
+   "name": "bpel process",
+   "count": 1
+  },
+  {
+   "name": "bpelcube",
+   "count": 1
+  },
+  {
+   "name": "iot",
+   "count": 22
+  },
+  {
+   "name": "iot system",
+   "count": 1
+  },
+  {
+   "name": "constraint",
+   "count": 1
+  },
+  {
+   "name": "qos constraint",
+   "count": 1
+  },
+  {
+   "name": "license",
+   "count": 1
+  },
+  {
+   "name": "usage",
+   "count": 1
+  },
+  {
+   "name": "administration",
+   "count": 1
+  },
+  {
+   "name": "license administration",
+   "count": 1
+  },
+  {
+   "name": "business event",
+   "count": 1
+  },
+  {
+   "name": "cluster",
+   "count": 7
+  },
+  {
+   "name": "matchmaking time",
+   "count": 1
+  },
+  {
+   "name": "venue",
+   "count": 1
+  },
+  {
+   "name": "venue recommendation",
+   "count": 1
+  },
+  {
+   "name": "different",
+   "count": 9
+  },
+  {
+   "name": "failure",
+   "count": 8
+  },
+  {
+   "name": "service provider",
+   "count": 2
+  },
+  {
+   "name": "electricity",
+   "count": 2
+  },
+  {
+   "name": "case",
+   "count": 5
+  },
+  {
+   "name": "location",
+   "count": 11
+  },
+  {
+   "name": "daas",
+   "count": 2
+  },
+  {
+   "name": "daas composition",
+   "count": 1
+  },
+  {
+   "name": "diffusion",
+   "count": 3
+  },
+  {
+   "name": "influence",
+   "count": 4
+  },
+  {
+   "name": "node",
+   "count": 12
+  },
+  {
+   "name": "influence diffusion",
+   "count": 1
+  },
+  {
+   "name": "solution",
+   "count": 9
+  },
+  {
+   "name": "minimize",
+   "count": 1
+  },
+  {
+   "name": "latency",
+   "count": 9
+  },
+  {
+   "name": "atomic",
+   "count": 2
+  },
+  {
+   "name": "granularity",
+   "count": 1
+  },
+  {
+   "name": "methodology",
+   "count": 1
+  },
+  {
+   "name": "pms",
+   "count": 1
+  },
+  {
+   "name": "kpl",
+   "count": 1
+  },
+  {
+   "name": "cep",
+   "count": 1
+  },
+  {
+   "name": "complex event",
+   "count": 1
+  },
+  {
+   "name": "formula",
+   "count": 5
+  },
+  {
+   "name": "formula formulatype",
+   "count": 1
+  },
+  {
+   "name": "formulatype",
+   "count": 1
+  },
+  {
+   "name": "formulatype inline",
+   "count": 1
+  },
+  {
+   "name": "appliance",
+   "count": 1
+  },
+  {
+   "name": "virtual appliance",
+   "count": 1
+  },
+  {
+   "name": "mmvas",
+   "count": 1
+  },
+  {
+   "name": "paradigm",
+   "count": 2
+  },
+  {
+   "name": "compute paradigm",
+   "count": 1
+  },
+  {
+   "name": "graph",
+   "count": 10
+  },
+  {
+   "name": "commercial",
+   "count": 1
+  },
+  {
+   "name": "three",
+   "count": 1
+  },
+  {
+   "name": "fragment",
+   "count": 1
+  },
+  {
+   "name": "control structure",
+   "count": 1
+  },
+  {
+   "name": "annotation",
+   "count": 2
+  },
+  {
+   "name": "result",
+   "count": 5
+  },
+  {
+   "name": "job",
+   "count": 8
+  },
+  {
+   "name": "hadoop",
+   "count": 3
+  },
+  {
+   "name": "small",
+   "count": 2
+  },
+  {
+   "name": "small job",
+   "count": 1
+  },
+  {
+   "name": "data service",
+   "count": 1
+  },
+  {
+   "name": "non",
+   "count": 2
+  },
+  {
+   "name": "soap non",
+   "count": 1
+  },
+  {
+   "name": "candidate",
+   "count": 5
+  },
+  {
+   "name": "xml",
+   "count": 1
+  },
+  {
+   "name": "auction",
+   "count": 7
+  },
+  {
+   "name": "workflow management",
+   "count": 1
+  },
+  {
+   "name": "test case",
+   "count": 2
+  },
+  {
+   "name": "case prioritization",
+   "count": 1
+  },
+  {
+   "name": "configurable",
+   "count": 2
+  },
+  {
+   "name": "item",
+   "count": 4
+  },
+  {
+   "name": "technology",
+   "count": 1
+  },
+  {
+   "name": "trend",
+   "count": 1
+  },
+  {
+   "name": "patent",
+   "count": 1
+  },
+  {
+   "name": "analyze",
+   "count": 1
+  },
+  {
+   "name": "abstraction",
+   "count": 1
+  },
+  {
+   "name": "abstraction driven",
+   "count": 1
+  },
+  {
+   "name": "also",
+   "count": 3
+  },
+  {
+   "name": "tool",
+   "count": 1
+  },
+  {
+   "name": "detection",
+   "count": 9
+  },
+  {
+   "name": "benchmark",
+   "count": 3
+  },
+  {
+   "name": "input",
+   "count": 2
+  },
+  {
+   "name": "end users",
+   "count": 3
+  },
+  {
+   "name": "prove",
+   "count": 2
+  },
+  {
+   "name": "assessment",
+   "count": 4
+  },
+  {
+   "name": "category",
+   "count": 2
+  },
+  {
+   "name": "service category",
+   "count": 1
+  },
+  {
+   "name": "computation",
+   "count": 16
+  },
+  {
+   "name": "matrix",
+   "count": 3
+  },
+  {
+   "name": "service interface",
+   "count": 1
+  },
+  {
+   "name": "load",
+   "count": 3
+  },
+  {
+   "name": "host",
+   "count": 3
+  },
+  {
+   "name": "vms",
+   "count": 6
+  },
+  {
+   "name": "balance",
+   "count": 2
+  },
+  {
+   "name": "block",
+   "count": 7
+  },
+  {
+   "name": "panda",
+   "count": 1
+  },
+  {
+   "name": "block signature",
+   "count": 1
+  },
+  {
+   "name": "feature",
+   "count": 14
+  },
+  {
+   "name": "social service",
+   "count": 1
+  },
+  {
+   "name": "global",
+   "count": 1
+  },
+  {
+   "name": "gif",
+   "count": 1
+  },
+  {
+   "name": "large",
+   "count": 4
+  },
+  {
+   "name": "guarantee",
+   "count": 4
+  },
+  {
+   "name": "dpm",
+   "count": 1
+  },
+  {
+   "name": "as",
+   "count": 1
+  },
+  {
+   "name": "as service",
+   "count": 1
+  },
+  {
+   "name": "erp",
+   "count": 1
+  },
+  {
+   "name": "unusual",
+   "count": 1
+  },
+  {
+   "name": "operation",
+   "count": 4
+  },
+  {
+   "name": "change service",
+   "count": 1
+  },
+  {
+   "name": "thing",
+   "count": 2
+  },
+  {
+   "name": "smart",
+   "count": 5
+  },
+  {
+   "name": "smart thing",
+   "count": 1
+  },
+  {
+   "name": "footprint",
+   "count": 1
+  },
+  {
+   "name": "analysis approach",
+   "count": 1
+  },
+  {
+   "name": "big",
+   "count": 10
+  },
+  {
+   "name": "abe",
+   "count": 10
+  },
+  {
+   "name": "attribute based",
+   "count": 1
+  },
+  {
+   "name": "prototype",
+   "count": 1
+  },
+  {
+   "name": "building",
+   "count": 1
+  },
+  {
+   "name": "dpdp",
+   "count": 1
+  },
+  {
+   "name": "id dpdp",
+   "count": 1
+  },
+  {
+   "name": "landslide",
+   "count": 1
+  },
+  {
+   "name": "litmus",
+   "count": 1
+  },
+  {
+   "name": "mashup component",
+   "count": 1
+  },
+  {
+   "name": "cloud consumer",
+   "count": 1
+  },
+  {
+   "name": "criterion",
+   "count": 3
+  },
+  {
+   "name": "flow",
+   "count": 8
+  },
+  {
+   "name": "network related",
+   "count": 1
+  },
+  {
+   "name": "related",
+   "count": 1
+  },
+  {
+   "name": "average",
+   "count": 1
+  },
+  {
+   "name": "prediction",
+   "count": 9
+  },
+  {
+   "name": "share data",
+   "count": 1
+  },
+  {
+   "name": "re",
+   "count": 2
+  },
+  {
+   "name": "invocation",
+   "count": 1
+  },
+  {
+   "name": "art",
+   "count": 2
+  },
+  {
+   "name": "of",
+   "count": 1
+  },
+  {
+   "name": "prt",
+   "count": 1
+  },
+  {
+   "name": "disk",
+   "count": 2
+  },
+  {
+   "name": "science",
+   "count": 1
+  },
+  {
+   "name": "big data",
+   "count": 8
+  },
+  {
+   "name": "psm",
+   "count": 1
+  },
+  {
+   "name": "response",
+   "count": 3
+  },
+  {
+   "name": "qoe",
+   "count": 2
+  },
+  {
+   "name": "feedback rating",
+   "count": 1
+  },
+  {
+   "name": "workflows",
+   "count": 1
+  },
+  {
+   "name": "services",
+   "count": 2
+  },
+  {
+   "name": "preference",
+   "count": 4
+  },
+  {
+   "name": "transaction management",
+   "count": 1
+  },
+  {
+   "name": "zone",
+   "count": 1
+  },
+  {
+   "name": "availability zone",
+   "count": 1
+  },
+  {
+   "name": "view",
+   "count": 1
+  },
+  {
+   "name": "process view",
+   "count": 1
+  },
+  {
+   "name": "qos value",
+   "count": 4
+  },
+  {
+   "name": "value",
+   "count": 4
+  },
+  {
+   "name": "functional",
+   "count": 1
+  },
+  {
+   "name": "service selection",
+   "count": 3
+  },
+  {
+   "name": "transit",
+   "count": 1
+  },
+  {
+   "name": "spot transit",
+   "count": 1
+  },
+  {
+   "name": "price",
+   "count": 5
+  },
+  {
+   "name": "profit",
+   "count": 3
+  },
+  {
+   "name": "similarity",
+   "count": 6
+  },
+  {
+   "name": "ecosystem",
+   "count": 3
+  },
+  {
+   "name": "hybrid",
+   "count": 3
+  },
+  {
+   "name": "hybrid cloud",
+   "count": 2
+  },
+  {
+   "name": "cloudvs",
+   "count": 1
+  },
+  {
+   "name": "vm",
+   "count": 8
+  },
+  {
+   "name": "version",
+   "count": 3
+  },
+  {
+   "name": "commodity",
+   "count": 1
+  },
+  {
+   "name": "shimming",
+   "count": 1
+  },
+  {
+   "name": "insert",
+   "count": 1
+  },
+  {
+   "name": "consumption",
+   "count": 4
+  },
+  {
+   "name": "geographical",
+   "count": 1
+  },
+  {
+   "name": "geographical influence",
+   "count": 1
+  },
+  {
+   "name": "dynamic",
+   "count": 8
+  },
+  {
+   "name": "log",
+   "count": 9
+  },
+  {
+   "name": "event log",
+   "count": 4
+  },
+  {
+   "name": "variability",
+   "count": 1
+  },
+  {
+   "name": "challenge",
+   "count": 2
+  },
+  {
+   "name": "customizable",
+   "count": 1
+  },
+  {
+   "name": "unknown",
+   "count": 1
+  },
+  {
+   "name": "feed",
+   "count": 1
+  },
+  {
+   "name": "news",
+   "count": 1
+  },
+  {
+   "name": "news feed",
+   "count": 1
+  },
+  {
+   "name": "index",
+   "count": 4
+  },
+  {
+   "name": "service repository",
+   "count": 1
+  },
+  {
+   "name": "mapreduce",
+   "count": 4
+  },
+  {
+   "name": "mapreduce placement",
+   "count": 1
+  },
+  {
+   "name": "placement",
+   "count": 5
+  },
+  {
+   "name": "optimization",
+   "count": 1
+  },
+  {
+   "name": "placement optimization",
+   "count": 1
+  },
+  {
+   "name": "mt",
+   "count": 1
+  },
+  {
+   "name": "gips",
+   "count": 1
+  },
+  {
+   "name": "auto",
+   "count": 1
+  },
+  {
+   "name": "auto mt",
+   "count": 1
+  },
+  {
+   "name": "encryption",
+   "count": 7
+  },
+  {
+   "name": "proxy",
+   "count": 1
+  },
+  {
+   "name": "proxy re",
+   "count": 1
+  },
+  {
+   "name": "administrator",
+   "count": 1
+  },
+  {
+   "name": "cloud administrator",
+   "count": 1
+  },
+  {
+   "name": "cloud management",
+   "count": 1
+  },
+  {
+   "name": "feature selection",
+   "count": 1
+  },
+  {
+   "name": "icd",
+   "count": 1
+  },
+  {
+   "name": "public",
+   "count": 2
+  },
+  {
+   "name": "public cloud",
+   "count": 1
+  },
+  {
+   "name": "cloudlets",
+   "count": 3
+  },
+  {
+   "name": "effect",
+   "count": 1
+  },
+  {
+   "name": "dm",
+   "count": 1
+  },
+  {
+   "name": "dm vm",
+   "count": 1
+  },
+  {
+   "name": "traffic",
+   "count": 5
+  },
+  {
+   "name": "regularity",
+   "count": 1
+  },
+  {
+   "name": "document",
+   "count": 3
+  },
+  {
+   "name": "cda",
+   "count": 1
+  },
+  {
+   "name": "cda document",
+   "count": 1
+  },
+  {
+   "name": "hospital",
+   "count": 1
+  },
+  {
+   "name": "interoperability",
+   "count": 1
+  },
+  {
+   "name": "data block",
+   "count": 2
+  },
+  {
+   "name": "2015",
+   "count": 1
+  },
+  {
+   "name": "benchmarking",
+   "count": 1
+  },
+  {
+   "name": "deep",
+   "count": 4
+  },
+  {
+   "name": "clique",
+   "count": 1
+  },
+  {
+   "name": "maximal",
+   "count": 1
+  },
+  {
+   "name": "maximal clique",
+   "count": 1
+  },
+  {
+   "name": "reduce",
+   "count": 1
+  },
+  {
+   "name": "mapreduce workload",
+   "count": 1
+  },
+  {
+   "name": "compression",
+   "count": 1
+  },
+  {
+   "name": "file",
+   "count": 3
+  },
+  {
+   "name": "mobile application",
+   "count": 1
+  },
+  {
+   "name": "spfs",
+   "count": 1
+  },
+  {
+   "name": "tree",
+   "count": 3
+  },
+  {
+   "name": "cpss",
+   "count": 1
+  },
+  {
+   "name": "cyber",
+   "count": 3
+  },
+  {
+   "name": "cyber physical",
+   "count": 1
+  },
+  {
+   "name": "group",
+   "count": 8
+  },
+  {
+   "name": "physical",
+   "count": 1
+  },
+  {
+   "name": "heuristic",
+   "count": 1
+  },
+  {
+   "name": "controller",
+   "count": 3
+  },
+  {
+   "name": "cloud controller",
+   "count": 1
+  },
+  {
+   "name": "kriging",
+   "count": 1
+  },
+  {
+   "name": "term",
+   "count": 3
+  },
+  {
+   "name": "vod",
+   "count": 2
+  },
+  {
+   "name": "content reorganization",
+   "count": 1
+  },
+  {
+   "name": "patient",
+   "count": 3
+  },
+  {
+   "name": "synchronization",
+   "count": 2
+  },
+  {
+   "name": "work",
+   "count": 2
+  },
+  {
+   "name": "mobility",
+   "count": 1
+  },
+  {
+   "name": "analytical",
+   "count": 1
+  },
+  {
+   "name": "probability",
+   "count": 1
+  },
+  {
+   "name": "crossover",
+   "count": 1
+  },
+  {
+   "name": "msi",
+   "count": 3
+  },
+  {
+   "name": "crossover service",
+   "count": 1
+  },
+  {
+   "name": "china",
+   "count": 1
+  },
+  {
+   "name": "ant",
+   "count": 1
+  },
+  {
+   "name": "data intensive",
+   "count": 1
+  },
+  {
+   "name": "entity",
+   "count": 4
+  },
+  {
+   "name": "operator",
+   "count": 2
+  },
+  {
+   "name": "network node",
+   "count": 1
+  },
+  {
+   "name": "ebud",
+   "count": 1
+  },
+  {
+   "name": "cap",
+   "count": 1
+  },
+  {
+   "name": "make",
+   "count": 2
+  },
+  {
+   "name": "buffer",
+   "count": 1
+  },
+  {
+   "name": "completeness",
+   "count": 2
+  },
+  {
+   "name": "java",
+   "count": 1
+  },
+  {
+   "name": "nosql",
+   "count": 1
+  },
+  {
+   "name": "data store",
+   "count": 2
+  },
+  {
+   "name": "code",
+   "count": 4
+  },
+  {
+   "name": "qeck",
+   "count": 1
+  },
+  {
+   "name": "search",
+   "count": 19
+  },
+  {
+   "name": "code search",
+   "count": 1
+  },
+  {
+   "name": "expansion",
+   "count": 1
+  },
+  {
+   "name": "rescue",
+   "count": 1
+  },
+  {
+   "name": "disaster",
+   "count": 1
+  },
+  {
+   "name": "rescue wings",
+   "count": 1
+  },
+  {
+   "name": "decision maker",
+   "count": 1
+  },
+  {
+   "name": "data provenance",
+   "count": 1
+  },
+  {
+   "name": "domain",
+   "count": 3
+  },
+  {
+   "name": "simulate",
+   "count": 1
+  },
+  {
+   "name": "000",
+   "count": 1
+  },
+  {
+   "name": "distribute",
+   "count": 2
+  },
+  {
+   "name": "service entity",
+   "count": 1
+  },
+  {
+   "name": "correlation",
+   "count": 3
+  },
+  {
+   "name": "qos correlation",
+   "count": 1
+  },
+  {
+   "name": "achieve",
+   "count": 5
+  },
+  {
+   "name": "deep web",
+   "count": 1
+  },
+  {
+   "name": "link",
+   "count": 2
+  },
+  {
+   "name": "store",
+   "count": 3
+  },
+  {
+   "name": "developer",
+   "count": 1
+  },
+  {
+   "name": "ticrec",
+   "count": 1
+  },
+  {
+   "name": "introduce",
+   "count": 1
+  },
+  {
+   "name": "match algorithm",
+   "count": 1
+  },
+  {
+   "name": "ccaf",
+   "count": 1
+  },
+  {
+   "name": "layered",
+   "count": 1
+  },
+  {
+   "name": "ccaf multi",
+   "count": 1
+  },
+  {
+   "name": "geospatial",
+   "count": 1
+  },
+  {
+   "name": "connect",
+   "count": 2
+  },
+  {
+   "name": "middleware service",
+   "count": 1
+  },
+  {
+   "name": "domus",
+   "count": 1
+  },
+  {
+   "name": "channel",
+   "count": 1
+  },
+  {
+   "name": "compare",
+   "count": 1
+  },
+  {
+   "name": "development",
+   "count": 2
+  },
+  {
+   "name": "verchor",
+   "count": 1
+  },
+  {
+   "name": "cif",
+   "count": 1
+  },
+  {
+   "name": "scale",
+   "count": 3
+  },
+  {
+   "name": "wsfs",
+   "count": 1
+  },
+  {
+   "name": "smartclass",
+   "count": 1
+  },
+  {
+   "name": "programmer",
+   "count": 1
+  },
+  {
+   "name": "schedule",
+   "count": 3
+  },
+  {
+   "name": "classroom",
+   "count": 1
+  },
+  {
+   "name": "ads",
+   "count": 1
+  },
+  {
+   "name": "signature",
+   "count": 3
+  },
+  {
+   "name": "batch",
+   "count": 3
+  },
+  {
+   "name": "verification",
+   "count": 2
+  },
+  {
+   "name": "prefetching",
+   "count": 1
+  },
+  {
+   "name": "synchronization traffic",
+   "count": 1
+  },
+  {
+   "name": "epoc",
+   "count": 1
+  },
+  {
+   "name": "service description",
+   "count": 1
+  },
+  {
+   "name": "mean",
+   "count": 1
+  },
+  {
+   "name": "osn",
+   "count": 1
+  },
+  {
+   "name": "cloudnetsim",
+   "count": 1
+  },
+  {
+   "name": "deployment",
+   "count": 5
+  },
+  {
+   "name": "pricing",
+   "count": 4
+  },
+  {
+   "name": "pi",
+   "count": 1
+  },
+  {
+   "name": "congestion",
+   "count": 2
+  },
+  {
+   "name": "aware",
+   "count": 2
+  },
+  {
+   "name": "energy efficiency",
+   "count": 1
+  },
+  {
+   "name": "family",
+   "count": 1
+  },
+  {
+   "name": "process family",
+   "count": 1
+  },
+  {
+   "name": "unsuccessful",
+   "count": 1
+  },
+  {
+   "name": "class",
+   "count": 1
+  },
+  {
+   "name": "classify",
+   "count": 1
+  },
+  {
+   "name": "middleboxes",
+   "count": 1
+  },
+  {
+   "name": "outsource",
+   "count": 6
+  },
+  {
+   "name": "anomaly",
+   "count": 1
+  },
+  {
+   "name": "runtime",
+   "count": 1
+  },
+  {
+   "name": "runtime anomaly",
+   "count": 1
+  },
+  {
+   "name": "coefficient",
+   "count": 1
+  },
+  {
+   "name": "emergency",
+   "count": 2
+  },
+  {
+   "name": "evacuation",
+   "count": 1
+  },
+  {
+   "name": "route",
+   "count": 2
+  },
+  {
+   "name": "evacuee",
+   "count": 1
+  },
+  {
+   "name": "delivery time",
+   "count": 1
+  },
+  {
+   "name": "attack",
+   "count": 15
+  },
+  {
+   "name": "distance",
+   "count": 3
+  },
+  {
+   "name": "nc",
+   "count": 1
+  },
+  {
+   "name": "macs",
+   "count": 1
+  },
+  {
+   "name": "opacity",
+   "count": 1
+  },
+  {
+   "name": "sog",
+   "count": 1
+  },
+  {
+   "name": "first",
+   "count": 3
+  },
+  {
+   "name": "migration",
+   "count": 9
+  },
+  {
+   "name": "revenue",
+   "count": 2
+  },
+  {
+   "name": "friend",
+   "count": 1
+  },
+  {
+   "name": "key",
+   "count": 8
+  },
+  {
+   "name": "product",
+   "count": 1
+  },
+  {
+   "name": "place",
+   "count": 1
+  },
+  {
+   "name": "aq",
+   "count": 1
+  },
+  {
+   "name": "question",
+   "count": 1
+  },
+  {
+   "name": "answer",
+   "count": 1
+  },
+  {
+   "name": "qq",
+   "count": 1
+  },
+  {
+   "name": "sbss",
+   "count": 1
+  },
+  {
+   "name": "failover",
+   "count": 1
+  },
+  {
+   "name": "cloud system",
+   "count": 1
+  },
+  {
+   "name": "inference",
+   "count": 2
+  },
+  {
+   "name": "race",
+   "count": 1
+  },
+  {
+   "name": "antipatterns",
+   "count": 1
+  },
+  {
+   "name": "service antipatterns",
+   "count": 1
+  },
+  {
+   "name": "trade",
+   "count": 1
+  },
+  {
+   "name": "autoscaling",
+   "count": 2
+  },
+  {
+   "name": "objective",
+   "count": 1
+  },
+  {
+   "name": "performance reliability",
+   "count": 1
+  },
+  {
+   "name": "service network",
+   "count": 1
+  },
+  {
+   "name": "simt",
+   "count": 1
+  },
+  {
+   "name": "adaptor",
+   "count": 1
+  },
+  {
+   "name": "source",
+   "count": 2
+  },
+  {
+   "name": "source location",
+   "count": 1
+  },
+  {
+   "name": "ridesharing",
+   "count": 1
+  },
+  {
+   "name": "sarg",
+   "count": 1
+  },
+  {
+   "name": "calculus",
+   "count": 1
+  },
+  {
+   "name": "cdl",
+   "count": 1
+  },
+  {
+   "name": "compensation",
+   "count": 2
+  },
+  {
+   "name": "address",
+   "count": 2
+  },
+  {
+   "name": "offload",
+   "count": 4
+  },
+  {
+   "name": "trace",
+   "count": 2
+  },
+  {
+   "name": "tracebench",
+   "count": 1
+  },
+  {
+   "name": "investment",
+   "count": 1
+  },
+  {
+   "name": "elicitation",
+   "count": 1
+  },
+  {
+   "name": "movement",
+   "count": 1
+  },
+  {
+   "name": "recognition",
+   "count": 1
+  },
+  {
+   "name": "dietary",
+   "count": 1
+  },
+  {
+   "name": "dietary assessment",
+   "count": 1
+  },
+  {
+   "name": "consistency",
+   "count": 2
+  },
+  {
+   "name": "consistency model",
+   "count": 1
+  },
+  {
+   "name": "data analysis",
+   "count": 1
+  },
+  {
+   "name": "cooking",
+   "count": 1
+  },
+  {
+   "name": "cooking safe",
+   "count": 1
+  },
+  {
+   "name": "safe",
+   "count": 2
+  },
+  {
+   "name": "inter",
+   "count": 3
+  },
+  {
+   "name": "inter cloud",
+   "count": 2
+  },
+  {
+   "name": "scenario",
+   "count": 2
+  },
+  {
+   "name": "catrust",
+   "count": 1
+  },
+  {
+   "name": "lack",
+   "count": 1
+  },
+  {
+   "name": "distribution",
+   "count": 1
+  },
+  {
+   "name": "key distribution",
+   "count": 1
+  },
+  {
+   "name": "apply",
+   "count": 1
+  },
+  {
+   "name": "equalization",
+   "count": 1
+  },
+  {
+   "name": "equalization strategy",
+   "count": 1
+  },
+  {
+   "name": "service strategy",
+   "count": 1
+  },
+  {
+   "name": "preference profile",
+   "count": 1
+  },
+  {
+   "name": "profile",
+   "count": 2
+  },
+  {
+   "name": "crowdsourcing",
+   "count": 7
+  },
+  {
+   "name": "intelligence",
+   "count": 1
+  },
+  {
+   "name": "elastic",
+   "count": 1
+  },
+  {
+   "name": "mdp",
+   "count": 2
+  },
+  {
+   "name": "multi",
+   "count": 8
+  },
+  {
+   "name": "nfps",
+   "count": 1
+  },
+  {
+   "name": "summary",
+   "count": 1
+  },
+  {
+   "name": "elasticity",
+   "count": 1
+  },
+  {
+   "name": "article",
+   "count": 1
+  },
+  {
+   "name": "cloud computing",
+   "count": 2
+  },
+  {
+   "name": "top",
+   "count": 1
+  },
+  {
+   "name": "aggregate",
+   "count": 2
+  },
+  {
+   "name": "cross",
+   "count": 2
+  },
+  {
+   "name": "cross aggregate",
+   "count": 1
+  },
+  {
+   "name": "funnel",
+   "count": 1
+  },
+  {
+   "name": "software change",
+   "count": 1
+  },
+  {
+   "name": "ltrf",
+   "count": 1
+  },
+  {
+   "name": "yarn",
+   "count": 1
+  },
+  {
+   "name": "amp",
+   "count": 2
+  },
+  {
+   "name": "gt",
+   "count": 4
+  },
+  {
+   "name": "lt",
+   "count": 4
+  },
+  {
+   "name": "iisg",
+   "count": 1
+  },
+  {
+   "name": "worker",
+   "count": 8
+  },
+  {
+   "name": "factor",
+   "count": 3
+  },
+  {
+   "name": "tenant",
+   "count": 4
+  },
+  {
+   "name": "issue",
+   "count": 1
+  },
+  {
+   "name": "post",
+   "count": 2
+  },
+  {
+   "name": "android",
+   "count": 1
+  },
+  {
+   "name": "virtual machine",
+   "count": 2
+  },
+  {
+   "name": "vdc",
+   "count": 1
+  },
+  {
+   "name": "learn",
+   "count": 3
+  },
+  {
+   "name": "micro",
+   "count": 1
+  },
+  {
+   "name": "learner",
+   "count": 1
+  },
+  {
+   "name": "micro learn",
+   "count": 1
+  },
+  {
+   "name": "cloudlet",
+   "count": 1
+  },
+  {
+   "name": "mobile device",
+   "count": 2
+  },
+  {
+   "name": "goal",
+   "count": 2
+  },
+  {
+   "name": "video",
+   "count": 3
+  },
+  {
+   "name": "accelerator",
+   "count": 2
+  },
+  {
+   "name": "million",
+   "count": 1
+  },
+  {
+   "name": "eavesdropper",
+   "count": 1
+  },
+  {
+   "name": "wireless",
+   "count": 2
+  },
+  {
+   "name": "adopt",
+   "count": 1
+  },
+  {
+   "name": "capability",
+   "count": 3
+  },
+  {
+   "name": "mode",
+   "count": 1
+  },
+  {
+   "name": "oscc",
+   "count": 1
+  },
+  {
+   "name": "service mode",
+   "count": 1
+  },
+  {
+   "name": "topology",
+   "count": 1
+  },
+  {
+   "name": "columnar",
+   "count": 1
+  },
+  {
+   "name": "columnar storage",
+   "count": 1
+  },
+  {
+   "name": "predictive",
+   "count": 3
+  },
+  {
+   "name": "spectrum",
+   "count": 2
+  },
+  {
+   "name": "secondary",
+   "count": 1
+  },
+  {
+   "name": "inline",
+   "count": 2
+  },
+  {
+   "name": "xlink",
+   "count": 1
+  },
+  {
+   "name": "keyword",
+   "count": 11
+  },
+  {
+   "name": "spatial",
+   "count": 3
+  },
+  {
+   "name": "road",
+   "count": 1
+  },
+  {
+   "name": "road network",
+   "count": 1
+  },
+  {
+   "name": "component service",
+   "count": 2
+  },
+  {
+   "name": "dependency",
+   "count": 3
+  },
+  {
+   "name": "runnerpal",
+   "count": 1
+  },
+  {
+   "name": "heart",
+   "count": 1
+  },
+  {
+   "name": "music",
+   "count": 1
+  },
+  {
+   "name": "runner",
+   "count": 1
+  },
+  {
+   "name": "hierarchy",
+   "count": 1
+  },
+  {
+   "name": "healthcare",
+   "count": 5
+  },
+  {
+   "name": "se",
+   "count": 1
+  },
+  {
+   "name": "alternative",
+   "count": 2
+  },
+  {
+   "name": "client utility",
+   "count": 1
+  },
+  {
+   "name": "fbde",
+   "count": 1
+  },
+  {
+   "name": "cbdm",
+   "count": 1
+  },
+  {
+   "name": "p2p",
+   "count": 1
+  },
+  {
+   "name": "process change",
+   "count": 1
+  },
+  {
+   "name": "research",
+   "count": 3
+  },
+  {
+   "name": "file search",
+   "count": 1
+  },
+  {
+   "name": "scheduler",
+   "count": 2
+  },
+  {
+   "name": "host machine",
+   "count": 1
+  },
+  {
+   "name": "container",
+   "count": 4
+  },
+  {
+   "name": "megautz",
+   "count": 1
+  },
+  {
+   "name": "container network",
+   "count": 1
+  },
+  {
+   "name": "best",
+   "count": 1
+  },
+  {
+   "name": "crs",
+   "count": 1
+  },
+  {
+   "name": "ees",
+   "count": 1
+  },
+  {
+   "name": "hmrep",
+   "count": 1
+  },
+  {
+   "name": "carbon",
+   "count": 1
+  },
+  {
+   "name": "data placement",
+   "count": 1
+  },
+  {
+   "name": "datasets",
+   "count": 1
+  },
+  {
+   "name": "consensus",
+   "count": 2
+  },
+  {
+   "name": "online",
+   "count": 4
+  },
+  {
+   "name": "online service",
+   "count": 1
+  },
+  {
+   "name": "available",
+   "count": 1
+  },
+  {
+   "name": "available resource",
+   "count": 1
+  },
+  {
+   "name": "transcoding",
+   "count": 1
+  },
+  {
+   "name": "fairness",
+   "count": 3
+  },
+  {
+   "name": "flex",
+   "count": 1
+  },
+  {
+   "name": "efficiency fairness",
+   "count": 1
+  },
+  {
+   "name": "stage",
+   "count": 2
+  },
+  {
+   "name": "alternate",
+   "count": 1
+  },
+  {
+   "name": "alternate direction",
+   "count": 1
+  },
+  {
+   "name": "lag",
+   "count": 1
+  },
+  {
+   "name": "time lag",
+   "count": 1
+  },
+  {
+   "name": "behavioral",
+   "count": 1
+  },
+  {
+   "name": "business value",
+   "count": 1
+  },
+  {
+   "name": "vod service",
+   "count": 1
+  },
+  {
+   "name": "blockchain",
+   "count": 16
+  },
+  {
+   "name": "order",
+   "count": 1
+  },
+  {
+   "name": "causeinfer",
+   "count": 1
+  },
+  {
+   "name": "cause",
+   "count": 2
+  },
+  {
+   "name": "root",
+   "count": 1
+  },
+  {
+   "name": "root cause",
+   "count": 1
+  },
+  {
+   "name": "o2o",
+   "count": 1
+  },
+  {
+   "name": "o2o service",
+   "count": 1
+  },
+  {
+   "name": "update",
+   "count": 3
+  },
+  {
+   "name": "find",
+   "count": 1
+  },
+  {
+   "name": "intermediate",
+   "count": 1
+  },
+  {
+   "name": "aliyun",
+   "count": 1
+  },
+  {
+   "name": "flow table",
+   "count": 1
+  },
+  {
+   "name": "sdn",
+   "count": 3
+  },
+  {
+   "name": "table",
+   "count": 1
+  },
+  {
+   "name": "function",
+   "count": 5
+  },
+  {
+   "name": "cgs",
+   "count": 2
+  },
+  {
+   "name": "based search",
+   "count": 1
+  },
+  {
+   "name": "vm consolidation",
+   "count": 1
+  },
+  {
+   "name": "improvement",
+   "count": 1
+  },
+  {
+   "name": "switch",
+   "count": 1
+  },
+  {
+   "name": "elephant",
+   "count": 1
+  },
+  {
+   "name": "elephant flow",
+   "count": 1
+  },
+  {
+   "name": "hyperco",
+   "count": 1
+  },
+  {
+   "name": "throughput",
+   "count": 2
+  },
+  {
+   "name": "pdp",
+   "count": 2
+  },
+  {
+   "name": "iaid",
+   "count": 1
+  },
+  {
+   "name": "iaid pdp",
+   "count": 1
+  },
+  {
+   "name": "fog",
+   "count": 10
+  },
+  {
+   "name": "ran",
+   "count": 1
+  },
+  {
+   "name": "ran node",
+   "count": 1
+  },
+  {
+   "name": "sos",
+   "count": 1
+  },
+  {
+   "name": "lfgs",
+   "count": 1
+  },
+  {
+   "name": "lfgs system",
+   "count": 1
+  },
+  {
+   "name": "spatial data",
+   "count": 1
+  },
+  {
+   "name": "muit",
+   "count": 1
+  },
+  {
+   "name": "develop",
+   "count": 3
+  },
+  {
+   "name": "memory",
+   "count": 2
+  },
+  {
+   "name": "memcached",
+   "count": 1
+  },
+  {
+   "name": "calcification",
+   "count": 1
+  },
+  {
+   "name": "two",
+   "count": 2
+  },
+  {
+   "name": "token",
+   "count": 1
+  },
+  {
+   "name": "detect",
+   "count": 1
+  },
+  {
+   "name": "dimensional",
+   "count": 1
+  },
+  {
+   "name": "hgapso",
+   "count": 1
+  },
+  {
+   "name": "edge cloud",
+   "count": 2
+  },
+  {
+   "name": "abc",
+   "count": 1
+  },
+  {
+   "name": "semantic annotation",
+   "count": 1
+  },
+  {
+   "name": "qosa",
+   "count": 1
+  },
+  {
+   "name": "preserve",
+   "count": 1
+  },
+  {
+   "name": "mobile web",
+   "count": 1
+  },
+  {
+   "name": "apps",
+   "count": 3
+  },
+  {
+   "name": "web apps",
+   "count": 1
+  },
+  {
+   "name": "requester",
+   "count": 1
+  },
+  {
+   "name": "service requester",
+   "count": 1
+  },
+  {
+   "name": "incentive",
+   "count": 1
+  },
+  {
+   "name": "candidate service",
+   "count": 1
+  },
+  {
+   "name": "complementarity",
+   "count": 1
+  },
+  {
+   "name": "code snippet",
+   "count": 1
+  },
+  {
+   "name": "snippet",
+   "count": 1
+  },
+  {
+   "name": "topic",
+   "count": 2
+  },
+  {
+   "name": "co",
+   "count": 3
+  },
+  {
+   "name": "co occurrence",
+   "count": 1
+  },
+  {
+   "name": "occurrence",
+   "count": 1
+  },
+  {
+   "name": "miaas",
+   "count": 1
+  },
+  {
+   "name": "assumption",
+   "count": 3
+  },
+  {
+   "name": "common",
+   "count": 1
+  },
+  {
+   "name": "phase",
+   "count": 4
+  },
+  {
+   "name": "slo",
+   "count": 2
+  },
+  {
+   "name": "io",
+   "count": 1
+  },
+  {
+   "name": "consolidated",
+   "count": 1
+  },
+  {
+   "name": "consolidated vms",
+   "count": 1
+  },
+  {
+   "name": "straggler",
+   "count": 2
+  },
+  {
+   "name": "percent",
+   "count": 1
+  },
+  {
+   "name": "maintain",
+   "count": 1
+  },
+  {
+   "name": "organization",
+   "count": 2
+  },
+  {
+   "name": "bpaas",
+   "count": 1
+  },
+  {
+   "name": "sw",
+   "count": 1
+  },
+  {
+   "name": "datacenters",
+   "count": 2
+  },
+  {
+   "name": "expectation",
+   "count": 1
+  },
+  {
+   "name": "mitigate",
+   "count": 1
+  },
+  {
+   "name": "human service",
+   "count": 1
+  },
+  {
+   "name": "efficiently",
+   "count": 1
+  },
+  {
+   "name": "sensing",
+   "count": 2
+  },
+  {
+   "name": "edge node",
+   "count": 3
+  },
+  {
+   "name": "response process",
+   "count": 1
+  },
+  {
+   "name": "data item",
+   "count": 1
+  },
+  {
+   "name": "equilibrium",
+   "count": 2
+  },
+  {
+   "name": "gsp",
+   "count": 1
+  },
+  {
+   "name": "ib",
+   "count": 1
+  },
+  {
+   "name": "ib strategy",
+   "count": 1
+  },
+  {
+   "name": "ad",
+   "count": 1
+  },
+  {
+   "name": "target",
+   "count": 1
+  },
+  {
+   "name": "resident",
+   "count": 1
+  },
+  {
+   "name": "cssc",
+   "count": 1
+  },
+  {
+   "name": "cssc mdp",
+   "count": 1
+  },
+  {
+   "name": "select",
+   "count": 1
+  },
+  {
+   "name": "certification",
+   "count": 1
+  },
+  {
+   "name": "consensus protocol",
+   "count": 1
+  },
+  {
+   "name": "hftsa",
+   "count": 1
+  },
+  {
+   "name": "fault tolerant",
+   "count": 1
+  },
+  {
+   "name": "annpdp",
+   "count": 1
+  },
+  {
+   "name": "review",
+   "count": 2
+  },
+  {
+   "name": "accurate",
+   "count": 3
+  },
+  {
+   "name": "skycube",
+   "count": 1
+  },
+  {
+   "name": "parcube",
+   "count": 1
+  },
+  {
+   "name": "sse",
+   "count": 2
+  },
+  {
+   "name": "sse scheme",
+   "count": 1
+  },
+  {
+   "name": "tensor",
+   "count": 2
+  },
+  {
+   "name": "hids",
+   "count": 1
+  },
+  {
+   "name": "hids tensor",
+   "count": 1
+  },
+  {
+   "name": "collaborative storage",
+   "count": 1
+  },
+  {
+   "name": "fog compute",
+   "count": 2
+  },
+  {
+   "name": "dopiv",
+   "count": 1
+  },
+  {
+   "name": "tpa",
+   "count": 2
+  },
+  {
+   "name": "invariant",
+   "count": 1
+  },
+  {
+   "name": "precision",
+   "count": 1
+  },
+  {
+   "name": "recall",
+   "count": 1
+  },
+  {
+   "name": "abks",
+   "count": 2
+  },
+  {
+   "name": "vc",
+   "count": 1
+  },
+  {
+   "name": "core",
+   "count": 1
+  },
+  {
+   "name": "defense",
+   "count": 1
+  },
+  {
+   "name": "based defense",
+   "count": 1
+  },
+  {
+   "name": "data audit",
+   "count": 1
+  },
+  {
+   "name": "blockchain security",
+   "count": 1
+  },
+  {
+   "name": "blockons",
+   "count": 1
+  },
+  {
+   "name": "permissioned",
+   "count": 1
+  },
+  {
+   "name": "permissioned blockchain",
+   "count": 1
+  },
+  {
+   "name": "rdma",
+   "count": 1
+  },
+  {
+   "name": "oil",
+   "count": 1
+  },
+  {
+   "name": "buoy",
+   "count": 1
+  },
+  {
+   "name": "cyberattack",
+   "count": 1
+  },
+  {
+   "name": "autoscaling method",
+   "count": 1
+  },
+  {
+   "name": "burst",
+   "count": 1
+  },
+  {
+   "name": "sup",
+   "count": 2
+  },
+  {
+   "name": "chronos",
+   "count": 1
+  },
+  {
+   "name": "chronos sup",
+   "count": 1
+  },
+  {
+   "name": "charge",
+   "count": 3
+  },
+  {
+   "name": "evs",
+   "count": 1
+  },
+  {
+   "name": "charge station",
+   "count": 1
+  },
+  {
+   "name": "miner",
+   "count": 1
+  },
+  {
+   "name": "energy service",
+   "count": 1
+  },
+  {
+   "name": "task processing",
+   "count": 1
+  },
+  {
+   "name": "hop",
+   "count": 1
+  },
+  {
+   "name": "loop",
+   "count": 1
+  },
+  {
+   "name": "free",
+   "count": 1
+  },
+  {
+   "name": "loop free",
+   "count": 1
+  },
+  {
+   "name": "state",
+   "count": 2
+  },
+  {
+   "name": "handover",
+   "count": 1
+  },
+  {
+   "name": "ethereum",
+   "count": 1
+  },
+  {
+   "name": "contractguard",
+   "count": 1
+  },
+  {
+   "name": "grid",
+   "count": 1
+  },
+  {
+   "name": "smart grid",
+   "count": 1
+  },
+  {
+   "name": "power",
+   "count": 1
+  },
+  {
+   "name": "network security",
+   "count": 1
+  },
+  {
+   "name": "deal",
+   "count": 1
+  },
+  {
+   "name": "long tail",
+   "count": 1
+  },
+  {
+   "name": "tail",
+   "count": 1
+  },
+  {
+   "name": "caching",
+   "count": 1
+  },
+  {
+   "name": "deadline",
+   "count": 4
+  },
+  {
+   "name": "deduplication",
+   "count": 3
+  },
+  {
+   "name": "ks",
+   "count": 1
+  },
+  {
+   "name": "data governance",
+   "count": 1
+  },
+  {
+   "name": "grant",
+   "count": 1
+  },
+  {
+   "name": "research grant",
+   "count": 1
+  },
+  {
+   "name": "microservice",
+   "count": 1
+  },
+  {
+   "name": "real time",
+   "count": 1
+  },
+  {
+   "name": "soft",
+   "count": 1
+  },
+  {
+   "name": "keywords",
+   "count": 1
+  },
+  {
+   "name": "replica",
+   "count": 1
+  },
+  {
+   "name": "esync",
+   "count": 1
+  },
+  {
+   "name": "fl",
+   "count": 1
+  },
+  {
+   "name": "party",
+   "count": 3
+  },
+  {
+   "name": "encrypt",
+   "count": 2
+  },
+  {
+   "name": "encrypt data",
+   "count": 1
+  },
+  {
+   "name": "multi tenant",
+   "count": 1
+  },
+  {
+   "name": "tar",
+   "count": 1
+  },
+  {
+   "name": "tar computation",
+   "count": 1
+  },
+  {
+   "name": "orh",
+   "count": 1
+  },
+  {
+   "name": "rider",
+   "count": 1
+  },
+  {
+   "name": "taxi",
+   "count": 1
+  },
+  {
+   "name": "arrive",
+   "count": 1
+  },
+  {
+   "name": "fuzzy",
+   "count": 1
+  },
+  {
+   "name": "fuzzy search",
+   "count": 1
+  },
+  {
+   "name": "keyword fuzzy",
+   "count": 1
+  },
+  {
+   "name": "data dynamic",
+   "count": 1
+  },
+  {
+   "name": "wsns",
+   "count": 1
+  },
+  {
+   "name": "crucial",
+   "count": 1
+  },
+  {
+   "name": "vector",
+   "count": 1
+  },
+  {
+   "name": "allocate",
+   "count": 2
+  },
+  {
+   "name": "load balance",
+   "count": 1
+  },
+  {
+   "name": "dna",
+   "count": 1
+  },
+  {
+   "name": "recommend",
+   "count": 1
+  },
+  {
+   "name": "app",
+   "count": 1
+  },
+  {
+   "name": "decryption",
+   "count": 1
+  },
+  {
+   "name": "outsourced",
+   "count": 1
+  },
+  {
+   "name": "outsourced decryption",
+   "count": 1
+  },
+  {
+   "name": "iaas provider",
+   "count": 1
+  },
+  {
+   "name": "groupchain",
+   "count": 1
+  },
+  {
+   "name": "program",
+   "count": 2
+  },
+  {
+   "name": "subscription",
+   "count": 1
+  },
+  {
+   "name": "99",
+   "count": 1
+  },
+  {
+   "name": "eeg",
+   "count": 1
+  },
+  {
+   "name": "98",
+   "count": 1
+  },
+  {
+   "name": "apis",
+   "count": 7
+  },
+  {
+   "name": "web apis",
+   "count": 2
+  },
+  {
+   "name": "disruption",
+   "count": 1
+  },
+  {
+   "name": "service job",
+   "count": 1
+  },
+  {
+   "name": "job security",
+   "count": 1
+  },
+  {
+   "name": "cloud security",
+   "count": 1
+  },
+  {
+   "name": "security service",
+   "count": 1
+  },
+  {
+   "name": "direct",
+   "count": 1
+  },
+  {
+   "name": "direct succession",
+   "count": 1
+  },
+  {
+   "name": "representation",
+   "count": 2
+  },
+  {
+   "name": "service representation",
+   "count": 1
+  },
+  {
+   "name": "diagnosis",
+   "count": 1
+  },
+  {
+   "name": "lpme",
+   "count": 1
+  },
+  {
+   "name": "trial",
+   "count": 1
+  },
+  {
+   "name": "modal",
+   "count": 1
+  },
+  {
+   "name": "minimal",
+   "count": 1
+  },
+  {
+   "name": "inequality",
+   "count": 1
+  },
+  {
+   "name": "redundancy",
+   "count": 1
+  },
+  {
+   "name": "reliability requirement",
+   "count": 1
+  },
+  {
+   "name": "online reputation",
+   "count": 1
+  },
+  {
+   "name": "service goal",
+   "count": 1
+  },
+  {
+   "name": "enable",
+   "count": 1
+  },
+  {
+   "name": "rewinding",
+   "count": 1
+  },
+  {
+   "name": "categorization",
+   "count": 1
+  },
+  {
+   "name": "label",
+   "count": 1
+  },
+  {
+   "name": "thing categorization",
+   "count": 1
+  },
+  {
+   "name": "latent",
+   "count": 1
+  },
+  {
+   "name": "bug",
+   "count": 1
+  },
+  {
+   "name": "localization",
+   "count": 1
+  },
+  {
+   "name": "bug localization",
+   "count": 1
+  },
+  {
+   "name": "dimension",
+   "count": 1
+  },
+  {
+   "name": "construction",
+   "count": 1
+  },
+  {
+   "name": "rate",
+   "count": 2
+  },
+  {
+   "name": "ddos",
+   "count": 1
+  },
+  {
+   "name": "stake",
+   "count": 1
+  },
+  {
+   "name": "pots",
+   "count": 1
+  },
+  {
+   "name": "proof",
+   "count": 1
+  },
+  {
+   "name": "digital",
+   "count": 2
+  },
+  {
+   "name": "helpfulness",
+   "count": 1
+  },
+  {
+   "name": "prime",
+   "count": 1
+  },
+  {
+   "name": "integration",
+   "count": 1
+  },
+  {
+   "name": "continuity",
+   "count": 1
+  },
+  {
+   "name": "sensor cloud",
+   "count": 2
+  },
+  {
+   "name": "owners",
+   "count": 3
+  },
+  {
+   "name": "sensor owners",
+   "count": 2
+  },
+  {
+   "name": "iiot",
+   "count": 2
+  },
+  {
+   "name": "fso",
+   "count": 1
+  },
+  {
+   "name": "local",
+   "count": 1
+  },
+  {
+   "name": "attacker",
+   "count": 1
+  },
+  {
+   "name": "im",
+   "count": 1
+  },
+  {
+   "name": "incomplete",
+   "count": 1
+  },
+  {
+   "name": "mec",
+   "count": 5
+  },
+  {
+   "name": "periodical",
+   "count": 1
+  },
+  {
+   "name": "resource utilization",
+   "count": 1
+  },
+  {
+   "name": "utilization",
+   "count": 1
+  },
+  {
+   "name": "monospace",
+   "count": 1
+  },
+  {
+   "name": "measurement",
+   "count": 2
+  },
+  {
+   "name": "monospace ssl",
+   "count": 1
+  },
+  {
+   "name": "sensor node",
+   "count": 1
+  },
+  {
+   "name": "aggregate flow",
+   "count": 1
+  },
+  {
+   "name": "cod",
+   "count": 1
+  },
+  {
+   "name": "propose method",
+   "count": 2
+  },
+  {
+   "name": "vehicle",
+   "count": 2
+  },
+  {
+   "name": "exchange",
+   "count": 1
+  },
+  {
+   "name": "ownership",
+   "count": 1
+  },
+  {
+   "name": "data deduplication",
+   "count": 1
+  },
+  {
+   "name": "milp",
+   "count": 1
+  },
+  {
+   "name": "ms",
+   "count": 1
+  },
+  {
+   "name": "ms rank",
+   "count": 1
+  },
+  {
+   "name": "rank",
+   "count": 2
+  },
+  {
+   "name": "diagnostic",
+   "count": 1
+  },
+  {
+   "name": "may",
+   "count": 2
+  },
+  {
+   "name": "sensor may",
+   "count": 1
+  },
+  {
+   "name": "vary",
+   "count": 1
+  },
+  {
+   "name": "market",
+   "count": 1
+  },
+  {
+   "name": "vulnerability market",
+   "count": 1
+  },
+  {
+   "name": "mobile vulnerability",
+   "count": 1
+  },
+  {
+   "name": "fhe",
+   "count": 1
+  },
+  {
+   "name": "sort",
+   "count": 1
+  },
+  {
+   "name": "stanza",
+   "count": 1
+  },
+  {
+   "name": "train",
+   "count": 1
+  },
+  {
+   "name": "job failure",
+   "count": 1
+  },
+  {
+   "name": "gold",
+   "count": 1
+  },
+  {
+   "name": "gold task",
+   "count": 1
+  },
+  {
+   "name": "number",
+   "count": 1
+  },
+  {
+   "name": "oram",
+   "count": 1
+  },
+  {
+   "name": "peak",
+   "count": 1
+  },
+  {
+   "name": "base station",
+   "count": 1
+  },
+  {
+   "name": "station",
+   "count": 1
+  },
+  {
+   "name": "predictor",
+   "count": 1
+  },
+  {
+   "name": "forecasting",
+   "count": 3
+  },
+  {
+   "name": "data center",
+   "count": 3
+  },
+  {
+   "name": "gdpr",
+   "count": 1
+  },
+  {
+   "name": "service user",
+   "count": 1
+  },
+  {
+   "name": "compute resource",
+   "count": 1
+  },
+  {
+   "name": "commerce",
+   "count": 1
+  },
+  {
+   "name": "crowd",
+   "count": 2
+  },
+  {
+   "name": "flash",
+   "count": 1
+  },
+  {
+   "name": "flash crowd",
+   "count": 1
+  },
+  {
+   "name": "jd",
+   "count": 1
+  },
+  {
+   "name": "adac",
+   "count": 1
+  },
+  {
+   "name": "remote",
+   "count": 1
+  },
+  {
+   "name": "remote data",
+   "count": 1
+  },
+  {
+   "name": "service ecosystem",
+   "count": 2
+  },
+  {
+   "name": "image",
+   "count": 3
+  },
+  {
+   "name": "image owner",
+   "count": 1
+  },
+  {
+   "name": "owner",
+   "count": 2
+  },
+  {
+   "name": "derivation",
+   "count": 1
+  },
+  {
+   "name": "topic derivation",
+   "count": 1
+  },
+  {
+   "name": "tweet",
+   "count": 2
+  },
+  {
+   "name": "record",
+   "count": 1
+  },
+  {
+   "name": "institution",
+   "count": 1
+  },
+  {
+   "name": "medical",
+   "count": 2
+  },
+  {
+   "name": "providers",
+   "count": 1
+  },
+  {
+   "name": "quantum",
+   "count": 1
+  },
+  {
+   "name": "post quantum",
+   "count": 1
+  },
+  {
+   "name": "end user",
+   "count": 1
+  },
+  {
+   "name": "drift",
+   "count": 1
+  },
+  {
+   "name": "drift detection",
+   "count": 1
+  },
+  {
+   "name": "edge network",
+   "count": 1
+  },
+  {
+   "name": "move",
+   "count": 1
+  },
+  {
+   "name": "crowdsourced",
+   "count": 2
+  },
+  {
+   "name": "legal",
+   "count": 1
+  },
+  {
+   "name": "logic",
+   "count": 1
+  },
+  {
+   "name": "19",
+   "count": 3
+  },
+  {
+   "name": "covid",
+   "count": 3
+  },
+  {
+   "name": "covid 19",
+   "count": 3
+  },
+  {
+   "name": "96",
+   "count": 1
+  },
+  {
+   "name": "scheduling",
+   "count": 1
+  },
+  {
+   "name": "cf",
+   "count": 1
+  },
+  {
+   "name": "splitting",
+   "count": 1
+  },
+  {
+   "name": "vnrs",
+   "count": 1
+  },
+  {
+   "name": "dsse",
+   "count": 1
+  },
+  {
+   "name": "acf",
+   "count": 1
+  },
+  {
+   "name": "td",
+   "count": 1
+  },
+  {
+   "name": "td acf",
+   "count": 1
+  },
+  {
+   "name": "crowd sense",
+   "count": 1
+  },
+  {
+   "name": "bp",
+   "count": 2
+  },
+  {
+   "name": "bps",
+   "count": 2
+  },
+  {
+   "name": "brute",
+   "count": 1
+  },
+  {
+   "name": "containment",
+   "count": 1
+  },
+  {
+   "name": "set containment",
+   "count": 1
+  },
+  {
+   "name": "data packet",
+   "count": 1
+  },
+  {
+   "name": "packet",
+   "count": 1
+  },
+  {
+   "name": "discard",
+   "count": 1
+  },
+  {
+   "name": "ccf",
+   "count": 1
+  },
+  {
+   "name": "federation",
+   "count": 2
+  },
+  {
+   "name": "rest",
+   "count": 1
+  },
+  {
+   "name": "500",
+   "count": 1
+  },
+  {
+   "name": "adherence",
+   "count": 1
+  },
+  {
+   "name": "savmrm",
+   "count": 1
+  },
+  {
+   "name": "next",
+   "count": 1
+  },
+  {
+   "name": "check",
+   "count": 2
+  },
+  {
+   "name": "check in",
+   "count": 1
+  },
+  {
+   "name": "in",
+   "count": 2
+  },
+  {
+   "name": "lstm",
+   "count": 1
+  },
+  {
+   "name": "cloud resource",
+   "count": 1
+  },
+  {
+   "name": "dashboard",
+   "count": 1
+  },
+  {
+   "name": "mse",
+   "count": 1
+  },
+  {
+   "name": "al",
+   "count": 1
+  },
+  {
+   "name": "et",
+   "count": 1
+  },
+  {
+   "name": "et al",
+   "count": 1
+  },
+  {
+   "name": "peng",
+   "count": 1
+  },
+  {
+   "name": "peng et",
+   "count": 1
+  },
+  {
+   "name": "one",
+   "count": 2
+  },
+  {
+   "name": "slot",
+   "count": 1
+  },
+  {
+   "name": "transparency",
+   "count": 1
+  },
+  {
+   "name": "math",
+   "count": 2
+  },
+  {
+   "name": "mml",
+   "count": 4
+  },
+  {
+   "name": "define",
+   "count": 1
+  },
+  {
+   "name": "bib",
+   "count": 1
+  },
+  {
+   "name": "bib mks",
+   "count": 1
+  },
+  {
+   "name": "miss",
+   "count": 1
+  },
+  {
+   "name": "miss event",
+   "count": 1
+  },
+  {
+   "name": "kp",
+   "count": 1
+  },
+  {
+   "name": "browser",
+   "count": 2
+  },
+  {
+   "name": "determine",
+   "count": 1
+  },
+  {
+   "name": "cars",
+   "count": 1
+  },
+  {
+   "name": "csbr",
+   "count": 1
+  },
+  {
+   "name": "package",
+   "count": 1
+  },
+  {
+   "name": "adaptation technique",
+   "count": 1
+  },
+  {
+   "name": "reward",
+   "count": 1
+  },
+  {
+   "name": "corpa",
+   "count": 1
+  },
+  {
+   "name": "discrete",
+   "count": 1
+  },
+  {
+   "name": "provable",
+   "count": 1
+  },
+  {
+   "name": "provable data",
+   "count": 1
+  },
+  {
+   "name": "csi",
+   "count": 1
+  },
+  {
+   "name": "low",
+   "count": 1
+  },
+  {
+   "name": "cedc",
+   "count": 1
+  },
+  {
+   "name": "cache",
+   "count": 2
+  },
+  {
+   "name": "api",
+   "count": 1
+  },
+  {
+   "name": "user input",
+   "count": 1
+  },
+  {
+   "name": "input parameter",
+   "count": 1
+  },
+  {
+   "name": "probabilistic",
+   "count": 1
+  },
+  {
+   "name": "colocation",
+   "count": 1
+  },
+  {
+   "name": "transfer",
+   "count": 1
+  },
+  {
+   "name": "bandwidth cost",
+   "count": 1
+  },
+  {
+   "name": "rb",
+   "count": 1
+  },
+  {
+   "name": "discharge",
+   "count": 1
+  },
+  {
+   "name": "noise",
+   "count": 1
+  },
+  {
+   "name": "cdp",
+   "count": 1
+  },
+  {
+   "name": "eua",
+   "count": 1
+  },
+  {
+   "name": "cp",
+   "count": 2
+  },
+  {
+   "name": "cp abe",
+   "count": 2
+  },
+  {
+   "name": "cybersecurity",
+   "count": 1
+  },
+  {
+   "name": "sequence",
+   "count": 1
+  },
+  {
+   "name": "trajectory sequence",
+   "count": 1
+  },
+  {
+   "name": "dtc",
+   "count": 1
+  },
+  {
+   "name": "chop",
+   "count": 1
+  },
+  {
+   "name": "receiver",
+   "count": 1
+  },
+  {
+   "name": "recommender",
+   "count": 2
+  },
+  {
+   "name": "recommender system",
+   "count": 1
+  },
+  {
+   "name": "based iot",
+   "count": 1
+  },
+  {
+   "name": "iot service",
+   "count": 1
+  },
+  {
+   "name": "predictive monitoring",
+   "count": 1
+  },
+  {
+   "name": "adversarial",
+   "count": 1
+  },
+  {
+   "name": "example",
+   "count": 1
+  },
+  {
+   "name": "adversarial example",
+   "count": 1
+  },
+  {
+   "name": "co resident",
+   "count": 1
+  },
+  {
+   "name": "delay",
+   "count": 3
+  },
+  {
+   "name": "multicast",
+   "count": 2
+  },
+  {
+   "name": "destination",
+   "count": 1
+  },
+  {
+   "name": "destination delay",
+   "count": 1
+  },
+  {
+   "name": "authorization",
+   "count": 1
+  },
+  {
+   "name": "membership",
+   "count": 1
+  },
+  {
+   "name": "membership inference",
+   "count": 1
+  },
+  {
+   "name": "conformance",
+   "count": 1
+  },
+  {
+   "name": "wbans",
+   "count": 1
+  },
+  {
+   "name": "household",
+   "count": 1
+  },
+  {
+   "name": "adversary",
+   "count": 1
+  },
+  {
+   "name": "drone",
+   "count": 1
+  },
+  {
+   "name": "spatiotemporal",
+   "count": 1
+  },
+  {
+   "name": "scsp",
+   "count": 1
+  },
+  {
+   "name": "edge server",
+   "count": 2
+  },
+  {
+   "name": "access policy",
+   "count": 2
+  },
+  {
+   "name": "abs",
+   "count": 1
+  },
+  {
+   "name": "range",
+   "count": 1
+  },
+  {
+   "name": "range query",
+   "count": 1
+  },
+  {
+   "name": "quality correlation",
+   "count": 1
+  },
+  {
+   "name": "edge data",
+   "count": 1
+  },
+  {
+   "name": "buyer",
+   "count": 1
+  },
+  {
+   "name": "pot",
+   "count": 1
+  },
+  {
+   "name": "telco",
+   "count": 1
+  },
+  {
+   "name": "telco service",
+   "count": 1
+  },
+  {
+   "name": "mi",
+   "count": 1
+  },
+  {
+   "name": "mi mml",
+   "count": 1
+  },
+  {
+   "name": "mml mi",
+   "count": 1
+  },
+  {
+   "name": "mml mrow",
+   "count": 1
+  },
+  {
+   "name": "multi resource",
+   "count": 1
+  },
+  {
+   "name": "location recommendation",
+   "count": 1
+  },
+  {
+   "name": "notion",
+   "count": 1
+  },
+  {
+   "name": "nfv",
+   "count": 1
+  },
+  {
+   "name": "energy consumption",
+   "count": 1
+  },
+  {
+   "name": "processor",
+   "count": 1
+  },
+  {
+   "name": "frame",
+   "count": 1
+  },
+  {
+   "name": "camera",
+   "count": 1
+  },
+  {
+   "name": "enpec",
+   "count": 1
+  },
+  {
+   "name": "lt gt",
+   "count": 2
+  },
+  {
+   "name": "estimation",
+   "count": 1
+  },
+  {
+   "name": "osp",
+   "count": 1
+  },
+  {
+   "name": "chaining",
+   "count": 1
+  },
+  {
+   "name": "network latency",
+   "count": 1
+  },
+  {
+   "name": "capacity",
+   "count": 1
+  },
+  {
+   "name": "uncertain",
+   "count": 1
+  },
+  {
+   "name": "sgx",
+   "count": 1
+  },
+  {
+   "name": "polynomial",
+   "count": 1
+  },
+  {
+   "name": "proposal",
+   "count": 1
+  },
+  {
+   "name": "assignment",
+   "count": 2
+  },
+  {
+   "name": "ota",
+   "count": 1
+  },
+  {
+   "name": "ota update",
+   "count": 1
+  },
+  {
+   "name": "dnn",
+   "count": 1
+  },
+  {
+   "name": "5g",
+   "count": 1
+  },
+  {
+   "name": "fogspot",
+   "count": 1
+  },
+  {
+   "name": "negative",
+   "count": 1
+  },
+  {
+   "name": "non negative",
+   "count": 1
+  },
+  {
+   "name": "neural",
+   "count": 2
+  },
+  {
+   "name": "forest",
+   "count": 1
+  },
+  {
+   "name": "gradient",
+   "count": 1
+  },
+  {
+   "name": "boost",
+   "count": 1
+  },
+  {
+   "name": "grapha",
+   "count": 1
+  },
+  {
+   "name": "qos prediction",
+   "count": 2
+  },
+  {
+   "name": "online cache",
+   "count": 1
+  },
+  {
+   "name": "downtime",
+   "count": 1
+  },
+  {
+   "name": "bbus",
+   "count": 1
+  },
+  {
+   "name": "heterogeneous",
+   "count": 1
+  },
+  {
+   "name": "inp",
+   "count": 1
+  },
+  {
+   "name": "important",
+   "count": 1
+  },
+  {
+   "name": "gpu",
+   "count": 2
+  },
+  {
+   "name": "kem",
+   "count": 1
+  },
+  {
+   "name": "parallel",
+   "count": 1
+  },
+  {
+   "name": "parallel application",
+   "count": 1
+  },
+  {
+   "name": "twitter",
+   "count": 1
+  },
+  {
+   "name": "insurance",
+   "count": 2
+  },
+  {
+   "name": "claim",
+   "count": 1
+  },
+  {
+   "name": "logchain",
+   "count": 1
+  },
+  {
+   "name": "blockchains",
+   "count": 1
+  },
+  {
+   "name": "truth",
+   "count": 1
+  },
+  {
+   "name": "truth discovery",
+   "count": 1
+  },
+  {
+   "name": "cps",
+   "count": 2
+  },
+  {
+   "name": "nsp",
+   "count": 1
+  },
+  {
+   "name": "entity summarization",
+   "count": 1
+  },
+  {
+   "name": "fca",
+   "count": 1
+  },
+  {
+   "name": "summarization",
+   "count": 1
+  },
+  {
+   "name": "ies",
+   "count": 1
+  },
+  {
+   "name": "revocation",
+   "count": 1
+  },
+  {
+   "name": "ehr",
+   "count": 2
+  },
+  {
+   "name": "marginal",
+   "count": 1
+  },
+  {
+   "name": "marginal resource",
+   "count": 1
+  },
+  {
+   "name": "conceptual",
+   "count": 1
+  },
+  {
+   "name": "sns",
+   "count": 1
+  },
+  {
+   "name": "multi source",
+   "count": 1
+  },
+  {
+   "name": "pair",
+   "count": 1
+  },
+  {
+   "name": "shuffle",
+   "count": 1
+  },
+  {
+   "name": "la",
+   "count": 1
+  },
+  {
+   "name": "lksm",
+   "count": 1
+  },
+  {
+   "name": "spatio",
+   "count": 1
+  },
+  {
+   "name": "spatio temporal",
+   "count": 1
+  },
+  {
+   "name": "lyric",
+   "count": 1
+  },
+  {
+   "name": "recipe",
+   "count": 1
+  },
+  {
+   "name": "tfidf",
+   "count": 1
+  },
+  {
+   "name": "documentation",
+   "count": 1
+  },
+  {
+   "name": "software documentation",
+   "count": 1
+  },
+  {
+   "name": "cncxl2rcncxl2r",
+   "count": 1
+  },
+  {
+   "name": "mobile user",
+   "count": 1
+  },
+  {
+   "name": "lmf",
+   "count": 1
+  },
+  {
+   "name": "lmf pp",
+   "count": 1
+  },
+  {
+   "name": "pp",
+   "count": 1
+  },
+  {
+   "name": "competitive",
+   "count": 1
+  },
+  {
+   "name": "platform scenario",
+   "count": 1
+  },
+  {
+   "name": "competitive platform",
+   "count": 1
+  },
+  {
+   "name": "mtfm",
+   "count": 1
+  },
+  {
+   "name": "ehr sharing",
+   "count": 1
+  },
+  {
+   "name": "mespaconfig",
+   "count": 1
+  },
+  {
+   "name": "financial",
+   "count": 1
+  },
+  {
+   "name": "microservices",
+   "count": 1
+  },
+  {
+   "name": "monolithic",
+   "count": 1
+  },
+  {
+   "name": "delay cost",
+   "count": 1
+  },
+  {
+   "name": "batching",
+   "count": 1
+  },
+  {
+   "name": "interested",
+   "count": 1
+  },
+  {
+   "name": "exemplar",
+   "count": 1
+  },
+  {
+   "name": "interested community",
+   "count": 1
+  },
+  {
+   "name": "mmapo",
+   "count": 1
+  },
+  {
+   "name": "analytics",
+   "count": 1
+  },
+  {
+   "name": "bda",
+   "count": 1
+  },
+  {
+   "name": "application owner",
+   "count": 1
+  },
+  {
+   "name": "edge content",
+   "count": 1
+  },
+  {
+   "name": "gpus",
+   "count": 1
+  },
+  {
+   "name": "perspective",
+   "count": 1
+  },
+  {
+   "name": "bgp",
+   "count": 1
+  },
+  {
+   "name": "contextual",
+   "count": 1
+  },
+  {
+   "name": "crowdsensing",
+   "count": 1
+  },
+  {
+   "name": "blockchain provider",
+   "count": 1
+  },
+  {
+   "name": "asp",
+   "count": 1
+  },
+  {
+   "name": "individual",
+   "count": 1
+  },
+  {
+   "name": "on",
+   "count": 1
+  },
+  {
+   "name": "on demand",
+   "count": 1
+  },
+  {
+   "name": "autonomic",
+   "count": 1
+  },
+  {
+   "name": "autonomic manager",
+   "count": 1
+  },
+  {
+   "name": "outsource service",
+   "count": 1
+  },
+  {
+   "name": "bpay",
+   "count": 1
+  },
+  {
+   "name": "payment",
+   "count": 1
+  },
+  {
+   "name": "pdlm",
+   "count": 1
+  },
+  {
+   "name": "ppfilter",
+   "count": 1
+  },
+  {
+   "name": "filtering",
+   "count": 1
+  },
+  {
+   "name": "federated",
+   "count": 1
+  },
+  {
+   "name": "di",
+   "count": 1
+  },
+  {
+   "name": "di level",
+   "count": 1
+  },
+  {
+   "name": "email",
+   "count": 1
+  },
+  {
+   "name": "encrypted",
+   "count": 2
+  },
+  {
+   "name": "encrypted email",
+   "count": 1
+  },
+  {
+   "name": "lrs",
+   "count": 1
+  },
+  {
+   "name": "peneus",
+   "count": 1
+  },
+  {
+   "name": "classifier",
+   "count": 1
+  },
+  {
+   "name": "ope",
+   "count": 1
+  },
+  {
+   "name": "pprnn",
+   "count": 1
+  },
+  {
+   "name": "preserving",
+   "count": 1
+  },
+  {
+   "name": "pptr",
+   "count": 1
+  },
+  {
+   "name": "driver",
+   "count": 1
+  },
+  {
+   "name": "report",
+   "count": 1
+  },
+  {
+   "name": "dt",
+   "count": 1
+  },
+  {
+   "name": "dt pdp",
+   "count": 1
+  },
+  {
+   "name": "users",
+   "count": 1
+  },
+  {
+   "name": "rsw",
+   "count": 1
+  },
+  {
+   "name": "ncr",
+   "count": 1
+  },
+  {
+   "name": "characteristic",
+   "count": 1
+  },
+  {
+   "name": "consider",
+   "count": 1
+  },
+  {
+   "name": "csps",
+   "count": 1
+  },
+  {
+   "name": "cloud federation",
+   "count": 1
+  },
+  {
+   "name": "service pattern",
+   "count": 1
+  },
+  {
+   "name": "ldos",
+   "count": 1
+  },
+  {
+   "name": "ldos attack",
+   "count": 1
+  },
+  {
+   "name": "identify",
+   "count": 1
+  },
+  {
+   "name": "repnet",
+   "count": 1
+  },
+  {
+   "name": "flow replication",
+   "count": 1
+  },
+  {
+   "name": "remidvne",
+   "count": 1
+  },
+  {
+   "name": "vne",
+   "count": 1
+  },
+  {
+   "name": "embed",
+   "count": 1
+  },
+  {
+   "name": "replicated",
+   "count": 1
+  },
+  {
+   "name": "dominance",
+   "count": 1
+  },
+  {
+   "name": "dominance relationship",
+   "count": 1
+  },
+  {
+   "name": "sfc",
+   "count": 1
+  },
+  {
+   "name": "drp",
+   "count": 1
+  },
+  {
+   "name": "drp sfc",
+   "count": 1
+  },
+  {
+   "name": "centralized",
+   "count": 1
+  },
+  {
+   "name": "fully",
+   "count": 1
+  },
+  {
+   "name": "trading",
+   "count": 1
+  },
+  {
+   "name": "resource trading",
+   "count": 1
+  },
+  {
+   "name": "based resource",
+   "count": 1
+  },
+  {
+   "name": "grained",
+   "count": 1
+  },
+  {
+   "name": "fine",
+   "count": 2
+  },
+  {
+   "name": "fine grained",
+   "count": 2
+  },
+  {
+   "name": "dynamic graph",
+   "count": 1
+  },
+  {
+   "name": "data owner",
+   "count": 1
+  },
+  {
+   "name": "solar",
+   "count": 1
+  },
+  {
+   "name": "fpga",
+   "count": 1
+  },
+  {
+   "name": "hardware",
+   "count": 1
+  },
+  {
+   "name": "spesc",
+   "count": 1
+  },
+  {
+   "name": "smart contract",
+   "count": 1
+  },
+  {
+   "name": "paas",
+   "count": 1
+  },
+  {
+   "name": "generic",
+   "count": 1
+  },
+  {
+   "name": "start",
+   "count": 1
+  },
+  {
+   "name": "rf",
+   "count": 1
+  },
+  {
+   "name": "ecoflow",
+   "count": 1
+  },
+  {
+   "name": "gt lt",
+   "count": 1
+  },
+  {
+   "name": "lt mml",
+   "count": 1
+  },
+  {
+   "name": "certificate",
+   "count": 1
+  },
+  {
+   "name": "data group",
+   "count": 1
+  },
+  {
+   "name": "health",
+   "count": 1
+  },
+  {
+   "name": "smart health",
+   "count": 1
+  },
+  {
+   "name": "security privacy",
+   "count": 1
+  },
+  {
+   "name": "appropriate",
+   "count": 1
+  },
+  {
+   "name": "eliminate",
+   "count": 1
+  },
+  {
+   "name": "keyword search",
+   "count": 1
+  },
+  {
+   "name": "cyber insurance",
+   "count": 1
+  },
+  {
+   "name": "bundle",
+   "count": 1
+  },
+  {
+   "name": "present",
+   "count": 1
+  },
+  {
+   "name": "service workflow",
+   "count": 1
+  },
+  {
+   "name": "internet",
+   "count": 1
+  },
+  {
+   "name": "internet application",
+   "count": 1
+  },
+  {
+   "name": "silentdelivery",
+   "count": 1
+  },
+  {
+   "name": "future",
+   "count": 1
+  },
+  {
+   "name": "mds",
+   "count": 1
+  },
+  {
+   "name": "rt",
+   "count": 1
+  },
+  {
+   "name": "construct",
+   "count": 1
+  },
+  {
+   "name": "pake",
+   "count": 1
+  },
+  {
+   "name": "social data",
+   "count": 1
+  },
+  {
+   "name": "medium",
+   "count": 1
+  },
+  {
+   "name": "idl",
+   "count": 1
+  },
+  {
+   "name": "cloud plan",
+   "count": 1
+  },
+  {
+   "name": "cell",
+   "count": 1
+  },
+  {
+   "name": "small cell",
+   "count": 1
+  },
+  {
+   "name": "tarco",
+   "count": 1
+  },
+  {
+   "name": "network distance",
+   "count": 1
+  },
+  {
+   "name": "interval",
+   "count": 1
+  },
+  {
+   "name": "apis services",
+   "count": 1
+  },
+  {
+   "name": "human object",
+   "count": 1
+  },
+  {
+   "name": "fault tolerance",
+   "count": 1
+  },
+  {
+   "name": "methods",
+   "count": 1
+  },
+  {
+   "name": "in network",
+   "count": 1
+  },
+  {
+   "name": "kgsg",
+   "count": 1
+  },
+  {
+   "name": "sir",
+   "count": 1
+  },
+  {
+   "name": "propose scheme",
+   "count": 1
+  },
+  {
+   "name": "color",
+   "count": 1
+  },
+  {
+   "name": "color red",
+   "count": 1
+  },
+  {
+   "name": "red",
+   "count": 1
+  },
+  {
+   "name": "uncertainty",
+   "count": 1
+  },
+  {
+   "name": "rosa",
+   "count": 1
+  },
+  {
+   "name": "limit",
+   "count": 1
+  },
+  {
+   "name": "benefit",
+   "count": 1
+  },
+  {
+   "name": "ues",
+   "count": 1
+  },
+  {
+   "name": "mecs",
+   "count": 1
+  },
+  {
+   "name": "vfirm",
+   "count": 1
+  },
+  {
+   "name": "variation",
+   "count": 1
+  },
+  {
+   "name": "css",
+   "count": 1
+  },
+  {
+   "name": "srms",
+   "count": 1
+  },
+  {
+   "name": "estimate",
+   "count": 1
+  },
+  {
+   "name": "operational",
+   "count": 1
+  },
+  {
+   "name": "slice",
+   "count": 1
+  },
+  {
+   "name": "block structuredness",
+   "count": 1
+  },
+  {
+   "name": "concurrency",
+   "count": 1
+  },
+  {
+   "name": "structuredness",
+   "count": 1
+  },
+  {
+   "name": "xbis",
+   "count": 1
+  },
+  {
+   "name": "yishan",
+   "count": 1
+  },
+  {
+   "name": "rds",
+   "count": 1
+  },
+  {
+   "name": "tier",
+   "count": 1
+  },
+  {
+   "name": "replication",
+   "count": 1
+  },
+  {
+   "name": "spare",
+   "count": 1
+  },
+  {
+   "name": "faas",
+   "count": 1
+  },
+  {
+   "name": "execute",
+   "count": 1
+  },
+  {
+   "name": "faas system",
+   "count": 1
+  }
+ ]
+}

@@ -1,0 +1,5172 @@
+{
+ "terms": [
+  {
+   "name": "problem",
+   "count": 92
+  },
+  {
+   "name": "gradient",
+   "count": 5
+  },
+  {
+   "name": "gradient method",
+   "count": 1
+  },
+  {
+   "name": "method",
+   "count": 20
+  },
+  {
+   "name": "num",
+   "count": 1
+  },
+  {
+   "name": "qi",
+   "count": 2
+  },
+  {
+   "name": "system",
+   "count": 92
+  },
+  {
+   "name": "algebraic",
+   "count": 2
+  },
+  {
+   "name": "analysis",
+   "count": 19
+  },
+  {
+   "name": "controller",
+   "count": 41
+  },
+  {
+   "name": "algorithm",
+   "count": 128
+  },
+  {
+   "name": "asynchronous",
+   "count": 5
+  },
+  {
+   "name": "communication",
+   "count": 42
+  },
+  {
+   "name": "convergence",
+   "count": 18
+  },
+  {
+   "name": "network",
+   "count": 189
+  },
+  {
+   "name": "packet",
+   "count": 5
+  },
+  {
+   "name": "policy",
+   "count": 10
+  },
+  {
+   "name": "sensor",
+   "count": 35
+  },
+  {
+   "name": "optimal",
+   "count": 21
+  },
+  {
+   "name": "transmission",
+   "count": 8
+  },
+  {
+   "name": "user",
+   "count": 7
+  },
+  {
+   "name": "approach",
+   "count": 24
+  },
+  {
+   "name": "primary",
+   "count": 1
+  },
+  {
+   "name": "result",
+   "count": 6
+  },
+  {
+   "name": "motion",
+   "count": 6
+  },
+  {
+   "name": "agent",
+   "count": 121
+  },
+  {
+   "name": "circular",
+   "count": 2
+  },
+  {
+   "name": "circular motion",
+   "count": 1
+  },
+  {
+   "name": "control",
+   "count": 151
+  },
+  {
+   "name": "decision",
+   "count": 11
+  },
+  {
+   "name": "ddm",
+   "count": 1
+  },
+  {
+   "name": "model",
+   "count": 42
+  },
+  {
+   "name": "couple",
+   "count": 1
+  },
+  {
+   "name": "decision making",
+   "count": 2
+  },
+  {
+   "name": "transient",
+   "count": 1
+  },
+  {
+   "name": "power",
+   "count": 42
+  },
+  {
+   "name": "power system",
+   "count": 2
+  },
+  {
+   "name": "stability",
+   "count": 15
+  },
+  {
+   "name": "consensus",
+   "count": 42
+  },
+  {
+   "name": "stochastic",
+   "count": 2
+  },
+  {
+   "name": "coherence",
+   "count": 3
+  },
+  {
+   "name": "first",
+   "count": 1
+  },
+  {
+   "name": "node",
+   "count": 44
+  },
+  {
+   "name": "control node",
+   "count": 2
+  },
+  {
+   "name": "energy",
+   "count": 16
+  },
+  {
+   "name": "relaxation",
+   "count": 3
+  },
+  {
+   "name": "convex",
+   "count": 16
+  },
+  {
+   "name": "convex relaxation",
+   "count": 3
+  },
+  {
+   "name": "flow",
+   "count": 13
+  },
+  {
+   "name": "sup",
+   "count": 7
+  },
+  {
+   "name": "attack",
+   "count": 35
+  },
+  {
+   "name": "detector",
+   "count": 2
+  },
+  {
+   "name": "sup detector",
+   "count": 1
+  },
+  {
+   "name": "structure",
+   "count": 6
+  },
+  {
+   "name": "constraint",
+   "count": 24
+  },
+  {
+   "name": "control design",
+   "count": 1
+  },
+  {
+   "name": "son",
+   "count": 1
+  },
+  {
+   "name": "functionality",
+   "count": 1
+  },
+  {
+   "name": "son functionality",
+   "count": 1
+  },
+  {
+   "name": "coordinate",
+   "count": 2
+  },
+  {
+   "name": "weight",
+   "count": 7
+  },
+  {
+   "name": "propose",
+   "count": 47
+  },
+  {
+   "name": "distribute",
+   "count": 12
+  },
+  {
+   "name": "formation",
+   "count": 26
+  },
+  {
+   "name": "time",
+   "count": 51
+  },
+  {
+   "name": "time varying",
+   "count": 2
+  },
+  {
+   "name": "varying",
+   "count": 1
+  },
+  {
+   "name": "varying formation",
+   "count": 1
+  },
+  {
+   "name": "social",
+   "count": 4
+  },
+  {
+   "name": "centrality",
+   "count": 4
+  },
+  {
+   "name": "hic",
+   "count": 1
+  },
+  {
+   "name": "variable",
+   "count": 2
+  },
+  {
+   "name": "find",
+   "count": 2
+  },
+  {
+   "name": "show",
+   "count": 6
+  },
+  {
+   "name": "affect",
+   "count": 2
+  },
+  {
+   "name": "hard",
+   "count": 1
+  },
+  {
+   "name": "distance",
+   "count": 2
+  },
+  {
+   "name": "apply",
+   "count": 2
+  },
+  {
+   "name": "delay",
+   "count": 21
+  },
+  {
+   "name": "controllable",
+   "count": 1
+  },
+  {
+   "name": "one",
+   "count": 1
+  },
+  {
+   "name": "one step",
+   "count": 1
+  },
+  {
+   "name": "set",
+   "count": 9
+  },
+  {
+   "name": "graph",
+   "count": 30
+  },
+  {
+   "name": "observability",
+   "count": 4
+  },
+  {
+   "name": "bipartite",
+   "count": 1
+  },
+  {
+   "name": "regular",
+   "count": 1
+  },
+  {
+   "name": "regular graph",
+   "count": 1
+  },
+  {
+   "name": "dynamic",
+   "count": 35
+  },
+  {
+   "name": "average",
+   "count": 11
+  },
+  {
+   "name": "average dynamic",
+   "count": 1
+  },
+  {
+   "name": "endogenously",
+   "count": 1
+  },
+  {
+   "name": "general",
+   "count": 4
+  },
+  {
+   "name": "degree",
+   "count": 2
+  },
+  {
+   "name": "internal",
+   "count": 1
+  },
+  {
+   "name": "internal model",
+   "count": 1
+  },
+  {
+   "name": "relative",
+   "count": 3
+  },
+  {
+   "name": "state",
+   "count": 34
+  },
+  {
+   "name": "transportation",
+   "count": 3
+  },
+  {
+   "name": "transportation network",
+   "count": 1
+  },
+  {
+   "name": "resource",
+   "count": 4
+  },
+  {
+   "name": "process",
+   "count": 6
+  },
+  {
+   "name": "battery",
+   "count": 2
+  },
+  {
+   "name": "cycle",
+   "count": 6
+  },
+  {
+   "name": "breaking",
+   "count": 1
+  },
+  {
+   "name": "cycle breaking",
+   "count": 1
+  },
+  {
+   "name": "breaking connectivity",
+   "count": 1
+  },
+  {
+   "name": "connectivity",
+   "count": 7
+  },
+  {
+   "name": "synchronization",
+   "count": 17
+  },
+  {
+   "name": "decentralize",
+   "count": 7
+  },
+  {
+   "name": "order",
+   "count": 6
+  },
+  {
+   "name": "obtain",
+   "count": 1
+  },
+  {
+   "name": "level",
+   "count": 5
+  },
+  {
+   "name": "optimization",
+   "count": 16
+  },
+  {
+   "name": "optimization problem",
+   "count": 1
+  },
+  {
+   "name": "quantized",
+   "count": 1
+  },
+  {
+   "name": "channel",
+   "count": 14
+  },
+  {
+   "name": "scenario",
+   "count": 1
+  },
+  {
+   "name": "channel feedback",
+   "count": 1
+  },
+  {
+   "name": "feedback",
+   "count": 3
+  },
+  {
+   "name": "condition",
+   "count": 30
+  },
+  {
+   "name": "data",
+   "count": 24
+  },
+  {
+   "name": "data rate",
+   "count": 2
+  },
+  {
+   "name": "plant",
+   "count": 5
+  },
+  {
+   "name": "rate",
+   "count": 10
+  },
+  {
+   "name": "co",
+   "count": 4
+  },
+  {
+   "name": "communication motion",
+   "count": 1
+  },
+  {
+   "name": "output",
+   "count": 13
+  },
+  {
+   "name": "output synchronization",
+   "count": 3
+  },
+  {
+   "name": "sub",
+   "count": 24
+  },
+  {
+   "name": "input",
+   "count": 11
+  },
+  {
+   "name": "input delay",
+   "count": 1
+  },
+  {
+   "name": "distribution",
+   "count": 11
+  },
+  {
+   "name": "opf",
+   "count": 5
+  },
+  {
+   "name": "robustness",
+   "count": 6
+  },
+  {
+   "name": "cluster",
+   "count": 6
+  },
+  {
+   "name": "localizable",
+   "count": 1
+  },
+  {
+   "name": "distance measurement",
+   "count": 1
+  },
+  {
+   "name": "compartment",
+   "count": 1
+  },
+  {
+   "name": "guarantee",
+   "count": 2
+  },
+  {
+   "name": "algorithm guarantee",
+   "count": 1
+  },
+  {
+   "name": "leader",
+   "count": 15
+  },
+  {
+   "name": "euler",
+   "count": 1
+  },
+  {
+   "name": "euler lagrange",
+   "count": 1
+  },
+  {
+   "name": "lagrange",
+   "count": 1
+  },
+  {
+   "name": "backpressure",
+   "count": 2
+  },
+  {
+   "name": "capacity",
+   "count": 6
+  },
+  {
+   "name": "backpressure control",
+   "count": 1
+  },
+  {
+   "name": "congestion",
+   "count": 2
+  },
+  {
+   "name": "closed",
+   "count": 2
+  },
+  {
+   "name": "feedback matrix",
+   "count": 1
+  },
+  {
+   "name": "matrix",
+   "count": 10
+  },
+  {
+   "name": "completion",
+   "count": 1
+  },
+  {
+   "name": "finite",
+   "count": 11
+  },
+  {
+   "name": "equilibrium",
+   "count": 15
+  },
+  {
+   "name": "failure",
+   "count": 8
+  },
+  {
+   "name": "link",
+   "count": 6
+  },
+  {
+   "name": "link failure",
+   "count": 1
+  },
+  {
+   "name": "dimensional",
+   "count": 1
+  },
+  {
+   "name": "number",
+   "count": 8
+  },
+  {
+   "name": "allow",
+   "count": 2
+  },
+  {
+   "name": "generator",
+   "count": 3
+  },
+  {
+   "name": "solution",
+   "count": 9
+  },
+  {
+   "name": "unit",
+   "count": 1
+  },
+  {
+   "name": "addition",
+   "count": 1
+  },
+  {
+   "name": "use",
+   "count": 13
+  },
+  {
+   "name": "achieve",
+   "count": 6
+  },
+  {
+   "name": "achieve consensus",
+   "count": 1
+  },
+  {
+   "name": "action",
+   "count": 5
+  },
+  {
+   "name": "action achieve",
+   "count": 1
+  },
+  {
+   "name": "fault",
+   "count": 8
+  },
+  {
+   "name": "sensor fault",
+   "count": 1
+  },
+  {
+   "name": "algorithms",
+   "count": 1
+  },
+  {
+   "name": "analyze",
+   "count": 2
+  },
+  {
+   "name": "base",
+   "count": 8
+  },
+  {
+   "name": "optimal flow",
+   "count": 1
+  },
+  {
+   "name": "sign",
+   "count": 2
+  },
+  {
+   "name": "negative",
+   "count": 2
+  },
+  {
+   "name": "deterministic",
+   "count": 1
+  },
+  {
+   "name": "randomization",
+   "count": 1
+  },
+  {
+   "name": "stable",
+   "count": 2
+  },
+  {
+   "name": "consider",
+   "count": 14
+  },
+  {
+   "name": "absence",
+   "count": 1
+  },
+  {
+   "name": "global",
+   "count": 5
+  },
+  {
+   "name": "specify",
+   "count": 1
+  },
+  {
+   "name": "desired",
+   "count": 1
+  },
+  {
+   "name": "search",
+   "count": 2
+  },
+  {
+   "name": "cooperative",
+   "count": 4
+  },
+  {
+   "name": "cooperative search",
+   "count": 1
+  },
+  {
+   "name": "follower",
+   "count": 5
+  },
+  {
+   "name": "exchange",
+   "count": 1
+  },
+  {
+   "name": "overload",
+   "count": 1
+  },
+  {
+   "name": "sip",
+   "count": 1
+  },
+  {
+   "name": "server",
+   "count": 4
+  },
+  {
+   "name": "ms",
+   "count": 1
+  },
+  {
+   "name": "performance",
+   "count": 10
+  },
+  {
+   "name": "torus",
+   "count": 1
+  },
+  {
+   "name": "ms performance",
+   "count": 1
+  },
+  {
+   "name": "gas",
+   "count": 3
+  },
+  {
+   "name": "pipeline",
+   "count": 1
+  },
+  {
+   "name": "compressor",
+   "count": 1
+  },
+  {
+   "name": "natural",
+   "count": 2
+  },
+  {
+   "name": "natural gas",
+   "count": 2
+  },
+  {
+   "name": "game",
+   "count": 20
+  },
+  {
+   "name": "acyclic",
+   "count": 1
+  },
+  {
+   "name": "acyclic provide",
+   "count": 1
+  },
+  {
+   "name": "certain",
+   "count": 1
+  },
+  {
+   "name": "certain technical",
+   "count": 1
+  },
+  {
+   "name": "message",
+   "count": 2
+  },
+  {
+   "name": "cost",
+   "count": 23
+  },
+  {
+   "name": "requirement",
+   "count": 2
+  },
+  {
+   "name": "design",
+   "count": 24
+  },
+  {
+   "name": "electric",
+   "count": 2
+  },
+  {
+   "name": "traffic",
+   "count": 10
+  },
+  {
+   "name": "anomaly",
+   "count": 1
+  },
+  {
+   "name": "normal",
+   "count": 2
+  },
+  {
+   "name": "normal traffic",
+   "count": 1
+  },
+  {
+   "name": "loss",
+   "count": 3
+  },
+  {
+   "name": "behavior",
+   "count": 6
+  },
+  {
+   "name": "scheme",
+   "count": 5
+  },
+  {
+   "name": "based",
+   "count": 17
+  },
+  {
+   "name": "event",
+   "count": 15
+  },
+  {
+   "name": "based communication",
+   "count": 1
+  },
+  {
+   "name": "strategy",
+   "count": 10
+  },
+  {
+   "name": "field",
+   "count": 2
+  },
+  {
+   "name": "susd",
+   "count": 1
+  },
+  {
+   "name": "direction",
+   "count": 2
+  },
+  {
+   "name": "protocol",
+   "count": 7
+  },
+  {
+   "name": "bad",
+   "count": 1
+  },
+  {
+   "name": "group",
+   "count": 8
+  },
+  {
+   "name": "human",
+   "count": 1
+  },
+  {
+   "name": "local",
+   "count": 11
+  },
+  {
+   "name": "randomized",
+   "count": 1
+  },
+  {
+   "name": "droop",
+   "count": 1
+  },
+  {
+   "name": "droop control",
+   "count": 1
+  },
+  {
+   "name": "economic",
+   "count": 1
+  },
+  {
+   "name": "layer",
+   "count": 4
+  },
+  {
+   "name": "load",
+   "count": 12
+  },
+  {
+   "name": "lifo",
+   "count": 1
+  },
+  {
+   "name": "agc",
+   "count": 2
+  },
+  {
+   "name": "ed",
+   "count": 1
+  },
+  {
+   "name": "area",
+   "count": 4
+  },
+  {
+   "name": "control area",
+   "count": 1
+  },
+  {
+   "name": "antenna",
+   "count": 1
+  },
+  {
+   "name": "distributed",
+   "count": 14
+  },
+  {
+   "name": "parameter",
+   "count": 5
+  },
+  {
+   "name": "compute",
+   "count": 3
+  },
+  {
+   "name": "signal",
+   "count": 4
+  },
+  {
+   "name": "source",
+   "count": 2
+  },
+  {
+   "name": "disturbance",
+   "count": 13
+  },
+  {
+   "name": "subspace",
+   "count": 2
+  },
+  {
+   "name": "assume",
+   "count": 1
+  },
+  {
+   "name": "case",
+   "count": 16
+  },
+  {
+   "name": "oscillator",
+   "count": 5
+  },
+  {
+   "name": "phase",
+   "count": 4
+  },
+  {
+   "name": "frequency",
+   "count": 7
+  },
+  {
+   "name": "duration",
+   "count": 1
+  },
+  {
+   "name": "flexibility",
+   "count": 2
+  },
+  {
+   "name": "service",
+   "count": 1
+  },
+  {
+   "name": "robot",
+   "count": 10
+  },
+  {
+   "name": "base station",
+   "count": 1
+  },
+  {
+   "name": "p2p",
+   "count": 1
+  },
+  {
+   "name": "peer",
+   "count": 1
+  },
+  {
+   "name": "file",
+   "count": 1
+  },
+  {
+   "name": "complex",
+   "count": 3
+  },
+  {
+   "name": "complex network",
+   "count": 1
+  },
+  {
+   "name": "topology",
+   "count": 12
+  },
+  {
+   "name": "intrinsic",
+   "count": 1
+  },
+  {
+   "name": "observer",
+   "count": 12
+  },
+  {
+   "name": "estimate",
+   "count": 3
+  },
+  {
+   "name": "optimal leader",
+   "count": 2
+  },
+  {
+   "name": "actuator",
+   "count": 4
+  },
+  {
+   "name": "filter",
+   "count": 4
+  },
+  {
+   "name": "degradation",
+   "count": 1
+  },
+  {
+   "name": "error",
+   "count": 9
+  },
+  {
+   "name": "gain",
+   "count": 6
+  },
+  {
+   "name": "rule",
+   "count": 2
+  },
+  {
+   "name": "stopping",
+   "count": 1
+  },
+  {
+   "name": "stopping rule",
+   "count": 1
+  },
+  {
+   "name": "freeway",
+   "count": 1
+  },
+  {
+   "name": "subsystem",
+   "count": 7
+  },
+  {
+   "name": "placement",
+   "count": 2
+  },
+  {
+   "name": "controllability",
+   "count": 15
+  },
+  {
+   "name": "controllability observability",
+   "count": 2
+  },
+  {
+   "name": "admm",
+   "count": 3
+  },
+  {
+   "name": "adpm",
+   "count": 1
+  },
+  {
+   "name": "framework",
+   "count": 8
+  },
+  {
+   "name": "aim",
+   "count": 1
+  },
+  {
+   "name": "collective",
+   "count": 2
+  },
+  {
+   "name": "affine",
+   "count": 1
+  },
+  {
+   "name": "minimum",
+   "count": 3
+  },
+  {
+   "name": "minimum time",
+   "count": 1
+  },
+  {
+   "name": "desynchronization",
+   "count": 1
+  },
+  {
+   "name": "coupled",
+   "count": 3
+  },
+  {
+   "name": "coupled oscillator",
+   "count": 2
+  },
+  {
+   "name": "impulse",
+   "count": 1
+  },
+  {
+   "name": "modularity",
+   "count": 1
+  },
+  {
+   "name": "information",
+   "count": 22
+  },
+  {
+   "name": "opinion",
+   "count": 8
+  },
+  {
+   "name": "balance",
+   "count": 3
+  },
+  {
+   "name": "relationship",
+   "count": 2
+  },
+  {
+   "name": "robust",
+   "count": 2
+  },
+  {
+   "name": "linear",
+   "count": 7
+  },
+  {
+   "name": "traffic network",
+   "count": 1
+  },
+  {
+   "name": "computation",
+   "count": 2
+  },
+  {
+   "name": "adversarial",
+   "count": 2
+  },
+  {
+   "name": "adversarial strategy",
+   "count": 1
+  },
+  {
+   "name": "payoff",
+   "count": 4
+  },
+  {
+   "name": "coverage",
+   "count": 3
+  },
+  {
+   "name": "point",
+   "count": 2
+  },
+  {
+   "name": "control system",
+   "count": 5
+  },
+  {
+   "name": "qss",
+   "count": 1
+  },
+  {
+   "name": "qss model",
+   "count": 1
+  },
+  {
+   "name": "long",
+   "count": 1
+  },
+  {
+   "name": "function",
+   "count": 21
+  },
+  {
+   "name": "dynamical",
+   "count": 4
+  },
+  {
+   "name": "dynamical structure",
+   "count": 1
+  },
+  {
+   "name": "structure function",
+   "count": 1
+  },
+  {
+   "name": "network selection",
+   "count": 1
+  },
+  {
+   "name": "selection",
+   "count": 2
+  },
+  {
+   "name": "multiobjective",
+   "count": 1
+  },
+  {
+   "name": "band",
+   "count": 1
+  },
+  {
+   "name": "polynomial",
+   "count": 1
+  },
+  {
+   "name": "favor",
+   "count": 1
+  },
+  {
+   "name": "address",
+   "count": 2
+  },
+  {
+   "name": "synchronizability",
+   "count": 1
+  },
+  {
+   "name": "coupling",
+   "count": 1
+  },
+  {
+   "name": "criterion",
+   "count": 3
+  },
+  {
+   "name": "hji",
+   "count": 1
+  },
+  {
+   "name": "cascade",
+   "count": 2
+  },
+  {
+   "name": "grid",
+   "count": 12
+  },
+  {
+   "name": "line",
+   "count": 6
+  },
+  {
+   "name": "latency",
+   "count": 1
+  },
+  {
+   "name": "pota",
+   "count": 1
+  },
+  {
+   "name": "sub sub",
+   "count": 8
+  },
+  {
+   "name": "estimation",
+   "count": 18
+  },
+  {
+   "name": "attitude",
+   "count": 4
+  },
+  {
+   "name": "spacecraft",
+   "count": 1
+  },
+  {
+   "name": "average state",
+   "count": 1
+  },
+  {
+   "name": "botnet",
+   "count": 1
+  },
+  {
+   "name": "cara",
+   "count": 1
+  },
+  {
+   "name": "csi",
+   "count": 1
+  },
+  {
+   "name": "access",
+   "count": 4
+  },
+  {
+   "name": "coding",
+   "count": 2
+  },
+  {
+   "name": "coding matrix",
+   "count": 1
+  },
+  {
+   "name": "architecture",
+   "count": 4
+  },
+  {
+   "name": "atomic",
+   "count": 1
+  },
+  {
+   "name": "communication free",
+   "count": 1
+  },
+  {
+   "name": "budget",
+   "count": 2
+  },
+  {
+   "name": "firm",
+   "count": 2
+  },
+  {
+   "name": "product",
+   "count": 1
+  },
+  {
+   "name": "quality",
+   "count": 2
+  },
+  {
+   "name": "newton",
+   "count": 2
+  },
+  {
+   "name": "measure",
+   "count": 5
+  },
+  {
+   "name": "concern",
+   "count": 1
+  },
+  {
+   "name": "eigenvalue",
+   "count": 1
+  },
+  {
+   "name": "connect",
+   "count": 3
+  },
+  {
+   "name": "formation control",
+   "count": 5
+  },
+  {
+   "name": "privacy",
+   "count": 4
+  },
+  {
+   "name": "mechanism",
+   "count": 8
+  },
+  {
+   "name": "average consensus",
+   "count": 3
+  },
+  {
+   "name": "asymptotically",
+   "count": 1
+  },
+  {
+   "name": "mtdc",
+   "count": 1
+  },
+  {
+   "name": "voronoi",
+   "count": 1
+  },
+  {
+   "name": "avoidance",
+   "count": 1
+  },
+  {
+   "name": "among",
+   "count": 1
+  },
+  {
+   "name": "among agent",
+   "count": 1
+  },
+  {
+   "name": "finite time",
+   "count": 8
+  },
+  {
+   "name": "spectrum",
+   "count": 1
+  },
+  {
+   "name": "define",
+   "count": 1
+  },
+  {
+   "name": "laplacian",
+   "count": 2
+  },
+  {
+   "name": "player",
+   "count": 8
+  },
+  {
+   "name": "location",
+   "count": 1
+  },
+  {
+   "name": "location attack",
+   "count": 1
+  },
+  {
+   "name": "recommendation",
+   "count": 1
+  },
+  {
+   "name": "flipping",
+   "count": 1
+  },
+  {
+   "name": "state flipping",
+   "count": 1
+  },
+  {
+   "name": "lifetime",
+   "count": 3
+  },
+  {
+   "name": "rout",
+   "count": 3
+  },
+  {
+   "name": "dos",
+   "count": 3
+  },
+  {
+   "name": "etc",
+   "count": 2
+  },
+  {
+   "name": "dos attack",
+   "count": 2
+  },
+  {
+   "name": "implement",
+   "count": 2
+  },
+  {
+   "name": "incentive",
+   "count": 2
+  },
+  {
+   "name": "convergence time",
+   "count": 1
+  },
+  {
+   "name": "obstacle",
+   "count": 1
+  },
+  {
+   "name": "bilinear",
+   "count": 2
+  },
+  {
+   "name": "request",
+   "count": 1
+  },
+  {
+   "name": "task",
+   "count": 5
+  },
+  {
+   "name": "module",
+   "count": 1
+  },
+  {
+   "name": "algebraic connectivity",
+   "count": 1
+  },
+  {
+   "name": "allocation",
+   "count": 6
+  },
+  {
+   "name": "allocation implement",
+   "count": 1
+  },
+  {
+   "name": "tree",
+   "count": 1
+  },
+  {
+   "name": "binary",
+   "count": 2
+  },
+  {
+   "name": "error probability",
+   "count": 1
+  },
+  {
+   "name": "edge",
+   "count": 8
+  },
+  {
+   "name": "consensus network",
+   "count": 1
+  },
+  {
+   "name": "connection",
+   "count": 2
+  },
+  {
+   "name": "cost optimal",
+   "count": 1
+  },
+  {
+   "name": "moveright",
+   "count": 1
+  },
+  {
+   "name": "remote",
+   "count": 5
+  },
+  {
+   "name": "attack strategy",
+   "count": 2
+  },
+  {
+   "name": "covariance",
+   "count": 1
+  },
+  {
+   "name": "effect",
+   "count": 3
+  },
+  {
+   "name": "disease",
+   "count": 1
+  },
+  {
+   "name": "epidemic",
+   "count": 3
+  },
+  {
+   "name": "exponential",
+   "count": 3
+  },
+  {
+   "name": "node trajectory",
+   "count": 1
+  },
+  {
+   "name": "consumer",
+   "count": 3
+  },
+  {
+   "name": "operator",
+   "count": 3
+  },
+  {
+   "name": "curtail",
+   "count": 1
+  },
+  {
+   "name": "amount",
+   "count": 1
+  },
+  {
+   "name": "leader selection",
+   "count": 1
+  },
+  {
+   "name": "matchings",
+   "count": 1
+  },
+  {
+   "name": "maximum",
+   "count": 2
+  },
+  {
+   "name": "maximum matchings",
+   "count": 1
+  },
+  {
+   "name": "mean",
+   "count": 2
+  },
+  {
+   "name": "mean square",
+   "count": 1
+  },
+  {
+   "name": "square",
+   "count": 1
+  },
+  {
+   "name": "multiplicative",
+   "count": 1
+  },
+  {
+   "name": "closed loop",
+   "count": 1
+  },
+  {
+   "name": "loop",
+   "count": 4
+  },
+  {
+   "name": "part",
+   "count": 1
+  },
+  {
+   "name": "nonlinear",
+   "count": 7
+  },
+  {
+   "name": "environment",
+   "count": 2
+  },
+  {
+   "name": "learning",
+   "count": 1
+  },
+  {
+   "name": "multirobot",
+   "count": 1
+  },
+  {
+   "name": "attacker",
+   "count": 8
+  },
+  {
+   "name": "interference",
+   "count": 1
+  },
+  {
+   "name": "subset",
+   "count": 1
+  },
+  {
+   "name": "state estimation",
+   "count": 2
+  },
+  {
+   "name": "defender",
+   "count": 3
+  },
+  {
+   "name": "der",
+   "count": 3
+  },
+  {
+   "name": "der node",
+   "count": 1
+  },
+  {
+   "name": "stage",
+   "count": 1
+  },
+  {
+   "name": "analysis design",
+   "count": 1
+  },
+  {
+   "name": "fake",
+   "count": 1
+  },
+  {
+   "name": "fake traffic",
+   "count": 1
+  },
+  {
+   "name": "malicious",
+   "count": 4
+  },
+  {
+   "name": "quadratic",
+   "count": 1
+  },
+  {
+   "name": "team",
+   "count": 2
+  },
+  {
+   "name": "output formation",
+   "count": 2
+  },
+  {
+   "name": "bearing",
+   "count": 2
+  },
+  {
+   "name": "der pol",
+   "count": 1
+  },
+  {
+   "name": "individual",
+   "count": 3
+  },
+  {
+   "name": "coalition",
+   "count": 2
+  },
+  {
+   "name": "se",
+   "count": 2
+  },
+  {
+   "name": "component",
+   "count": 4
+  },
+  {
+   "name": "component function",
+   "count": 1
+  },
+  {
+   "name": "pattern",
+   "count": 1
+  },
+  {
+   "name": "logic",
+   "count": 2
+  },
+  {
+   "name": "spatial",
+   "count": 1
+  },
+  {
+   "name": "checking",
+   "count": 1
+  },
+  {
+   "name": "sdps",
+   "count": 1
+  },
+  {
+   "name": "sdp",
+   "count": 1
+  },
+  {
+   "name": "theory",
+   "count": 2
+  },
+  {
+   "name": "polya",
+   "count": 1
+  },
+  {
+   "name": "classical",
+   "count": 3
+  },
+  {
+   "name": "classical polya",
+   "count": 1
+  },
+  {
+   "name": "destination",
+   "count": 1
+  },
+  {
+   "name": "assignment",
+   "count": 1
+  },
+  {
+   "name": "unicycle",
+   "count": 1
+  },
+  {
+   "name": "onboard",
+   "count": 1
+  },
+  {
+   "name": "present",
+   "count": 3
+  },
+  {
+   "name": "arbitrary",
+   "count": 2
+  },
+  {
+   "name": "power flow",
+   "count": 6
+  },
+  {
+   "name": "fixed",
+   "count": 3
+  },
+  {
+   "name": "solvability",
+   "count": 1
+  },
+  {
+   "name": "four",
+   "count": 1
+  },
+  {
+   "name": "adaptation",
+   "count": 3
+  },
+  {
+   "name": "propagation",
+   "count": 2
+  },
+  {
+   "name": "malware",
+   "count": 1
+  },
+  {
+   "name": "malware propagation",
+   "count": 1
+  },
+  {
+   "name": "intermittent",
+   "count": 1
+  },
+  {
+   "name": "intermittent communication",
+   "count": 1
+  },
+  {
+   "name": "aggregate",
+   "count": 2
+  },
+  {
+   "name": "classification",
+   "count": 1
+  },
+  {
+   "name": "monotone",
+   "count": 2
+  },
+  {
+   "name": "platoon",
+   "count": 2
+  },
+  {
+   "name": "cacc",
+   "count": 1
+  },
+  {
+   "name": "adaptive",
+   "count": 7
+  },
+  {
+   "name": "sink",
+   "count": 1
+  },
+  {
+   "name": "online",
+   "count": 2
+  },
+  {
+   "name": "online algorithm",
+   "count": 1
+  },
+  {
+   "name": "vehicle",
+   "count": 8
+  },
+  {
+   "name": "highway",
+   "count": 1
+  },
+  {
+   "name": "malicious vehicle",
+   "count": 1
+  },
+  {
+   "name": "profile",
+   "count": 1
+  },
+  {
+   "name": "ln",
+   "count": 1
+  },
+  {
+   "name": "contingency",
+   "count": 1
+  },
+  {
+   "name": "contingency analysis",
+   "count": 1
+  },
+  {
+   "name": "reference",
+   "count": 2
+  },
+  {
+   "name": "reference sensor",
+   "count": 1
+  },
+  {
+   "name": "calibration",
+   "count": 1
+  },
+  {
+   "name": "noise",
+   "count": 7
+  },
+  {
+   "name": "cutset",
+   "count": 1
+  },
+  {
+   "name": "critical",
+   "count": 3
+  },
+  {
+   "name": "index",
+   "count": 1
+  },
+  {
+   "name": "differential",
+   "count": 1
+  },
+  {
+   "name": "differential privacy",
+   "count": 1
+  },
+  {
+   "name": "bound",
+   "count": 8
+  },
+  {
+   "name": "repository",
+   "count": 1
+  },
+  {
+   "name": "co design",
+   "count": 1
+  },
+  {
+   "name": "sensing",
+   "count": 2
+  },
+  {
+   "name": "cs",
+   "count": 1
+  },
+  {
+   "name": "cs measurement",
+   "count": 1
+  },
+  {
+   "name": "biological",
+   "count": 4
+  },
+  {
+   "name": "prove",
+   "count": 1
+  },
+  {
+   "name": "abstraction",
+   "count": 4
+  },
+  {
+   "name": "measurement",
+   "count": 10
+  },
+  {
+   "name": "psse",
+   "count": 1
+  },
+  {
+   "name": "geometric",
+   "count": 1
+  },
+  {
+   "name": "event triggered",
+   "count": 6
+  },
+  {
+   "name": "triggered",
+   "count": 6
+  },
+  {
+   "name": "dual",
+   "count": 2
+  },
+  {
+   "name": "disutility",
+   "count": 1
+  },
+  {
+   "name": "dual algorithm",
+   "count": 1
+  },
+  {
+   "name": "spike",
+   "count": 1
+  },
+  {
+   "name": "statistical",
+   "count": 1
+  },
+  {
+   "name": "gene",
+   "count": 2
+  },
+  {
+   "name": "expression",
+   "count": 1
+  },
+  {
+   "name": "control law",
+   "count": 6
+  },
+  {
+   "name": "law",
+   "count": 2
+  },
+  {
+   "name": "bcns",
+   "count": 1
+  },
+  {
+   "name": "controllability matrix",
+   "count": 1
+  },
+  {
+   "name": "boolean",
+   "count": 6
+  },
+  {
+   "name": "boolean network",
+   "count": 6
+  },
+  {
+   "name": "orbit",
+   "count": 1
+  },
+  {
+   "name": "dema",
+   "count": 1
+  },
+  {
+   "name": "dema system",
+   "count": 1
+  },
+  {
+   "name": "perform",
+   "count": 2
+  },
+  {
+   "name": "agent aim",
+   "count": 1
+  },
+  {
+   "name": "agent perform",
+   "count": 1
+  },
+  {
+   "name": "pd",
+   "count": 2
+  },
+  {
+   "name": "primal",
+   "count": 2
+  },
+  {
+   "name": "primal dual",
+   "count": 1
+  },
+  {
+   "name": "oda",
+   "count": 1
+  },
+  {
+   "name": "agent implement",
+   "count": 1
+  },
+  {
+   "name": "neighbor",
+   "count": 3
+  },
+  {
+   "name": "propose framework",
+   "count": 1
+  },
+  {
+   "name": "poa",
+   "count": 1
+  },
+  {
+   "name": "detect",
+   "count": 2
+  },
+  {
+   "name": "private",
+   "count": 2
+  },
+  {
+   "name": "total",
+   "count": 1
+  },
+  {
+   "name": "total cost",
+   "count": 1
+  },
+  {
+   "name": "esc",
+   "count": 2
+  },
+  {
+   "name": "disturbance rejection",
+   "count": 1
+  },
+  {
+   "name": "driven",
+   "count": 2
+  },
+  {
+   "name": "event driven",
+   "count": 1
+  },
+  {
+   "name": "approach time",
+   "count": 1
+  },
+  {
+   "name": "relational",
+   "count": 1
+  },
+  {
+   "name": "active",
+   "count": 2
+  },
+  {
+   "name": "active power",
+   "count": 1
+  },
+  {
+   "name": "injection",
+   "count": 3
+  },
+  {
+   "name": "balanced",
+   "count": 1
+  },
+  {
+   "name": "probability",
+   "count": 4
+  },
+  {
+   "name": "sensor network",
+   "count": 1
+  },
+  {
+   "name": "governor",
+   "count": 1
+  },
+  {
+   "name": "solve",
+   "count": 2
+  },
+  {
+   "name": "reconfiguration",
+   "count": 1
+  },
+  {
+   "name": "able",
+   "count": 3
+  },
+  {
+   "name": "approximate",
+   "count": 2
+  },
+  {
+   "name": "approximate average",
+   "count": 1
+  },
+  {
+   "name": "choose",
+   "count": 1
+  },
+  {
+   "name": "transmit",
+   "count": 1
+  },
+  {
+   "name": "beamforming",
+   "count": 1
+  },
+  {
+   "name": "owf",
+   "count": 2
+  },
+  {
+   "name": "water",
+   "count": 5
+  },
+  {
+   "name": "graph structure",
+   "count": 1
+  },
+  {
+   "name": "dcopf",
+   "count": 1
+  },
+  {
+   "name": "acopf",
+   "count": 1
+  },
+  {
+   "name": "dcopf model",
+   "count": 1
+  },
+  {
+   "name": "deadline",
+   "count": 1
+  },
+  {
+   "name": "actuation",
+   "count": 2
+  },
+  {
+   "name": "crh",
+   "count": 1
+  },
+  {
+   "name": "crh controller",
+   "count": 1
+  },
+  {
+   "name": "trajectory",
+   "count": 4
+  },
+  {
+   "name": "2n",
+   "count": 1
+  },
+  {
+   "name": "trade",
+   "count": 1
+  },
+  {
+   "name": "price",
+   "count": 3
+  },
+  {
+   "name": "propose trade",
+   "count": 1
+  },
+  {
+   "name": "abstract",
+   "count": 1
+  },
+  {
+   "name": "abstract system",
+   "count": 1
+  },
+  {
+   "name": "nonlinear system",
+   "count": 1
+  },
+  {
+   "name": "data flow",
+   "count": 1
+  },
+  {
+   "name": "internet",
+   "count": 1
+  },
+  {
+   "name": "convergence rate",
+   "count": 2
+  },
+  {
+   "name": "csma",
+   "count": 1
+  },
+  {
+   "name": "chain",
+   "count": 2
+  },
+  {
+   "name": "markov",
+   "count": 2
+  },
+  {
+   "name": "identify",
+   "count": 1
+  },
+  {
+   "name": "experimental",
+   "count": 1
+  },
+  {
+   "name": "nash",
+   "count": 4
+  },
+  {
+   "name": "stackelberg",
+   "count": 1
+  },
+  {
+   "name": "trusted",
+   "count": 1
+  },
+  {
+   "name": "trusted node",
+   "count": 1
+  },
+  {
+   "name": "potential",
+   "count": 2
+  },
+  {
+   "name": "continuous",
+   "count": 3
+  },
+  {
+   "name": "transfer",
+   "count": 3
+  },
+  {
+   "name": "appliance",
+   "count": 1
+  },
+  {
+   "name": "demand",
+   "count": 7
+  },
+  {
+   "name": "device",
+   "count": 3
+  },
+  {
+   "name": "investment",
+   "count": 2
+  },
+  {
+   "name": "security",
+   "count": 2
+  },
+  {
+   "name": "challenge",
+   "count": 2
+  },
+  {
+   "name": "la",
+   "count": 1
+  },
+  {
+   "name": "la sdg",
+   "count": 1
+  },
+  {
+   "name": "sdg",
+   "count": 1
+  },
+  {
+   "name": "scheduler",
+   "count": 1
+  },
+  {
+   "name": "detection",
+   "count": 4
+  },
+  {
+   "name": "lrb",
+   "count": 1
+  },
+  {
+   "name": "lrb scheduler",
+   "count": 1
+  },
+  {
+   "name": "cost function",
+   "count": 4
+  },
+  {
+   "name": "router",
+   "count": 1
+  },
+  {
+   "name": "hopf",
+   "count": 1
+  },
+  {
+   "name": "tcp",
+   "count": 1
+  },
+  {
+   "name": "stabilization",
+   "count": 4
+  },
+  {
+   "name": "technique",
+   "count": 1
+  },
+  {
+   "name": "video",
+   "count": 1
+  },
+  {
+   "name": "bitrate",
+   "count": 1
+  },
+  {
+   "name": "give",
+   "count": 4
+  },
+  {
+   "name": "order reduction",
+   "count": 1
+  },
+  {
+   "name": "reduction",
+   "count": 2
+  },
+  {
+   "name": "reduction method",
+   "count": 1
+  },
+  {
+   "name": "coordination",
+   "count": 8
+  },
+  {
+   "name": "making",
+   "count": 1
+  },
+  {
+   "name": "frobenius",
+   "count": 1
+  },
+  {
+   "name": "end",
+   "count": 2
+  },
+  {
+   "name": "manifest",
+   "count": 1
+  },
+  {
+   "name": "transfer function",
+   "count": 2
+  },
+  {
+   "name": "critical line",
+   "count": 1
+  },
+  {
+   "name": "sampling",
+   "count": 2
+  },
+  {
+   "name": "moment",
+   "count": 1
+  },
+  {
+   "name": "employ",
+   "count": 1
+  },
+  {
+   "name": "homotopy",
+   "count": 1
+  },
+  {
+   "name": "bus",
+   "count": 4
+  },
+  {
+   "name": "actuated",
+   "count": 1
+  },
+  {
+   "name": "actuated variable",
+   "count": 1
+  },
+  {
+   "name": "claim",
+   "count": 1
+  },
+  {
+   "name": "claim existing",
+   "count": 1
+  },
+  {
+   "name": "orientation",
+   "count": 4
+  },
+  {
+   "name": "regret",
+   "count": 2
+  },
+  {
+   "name": "multiplayer",
+   "count": 1
+  },
+  {
+   "name": "voltage",
+   "count": 3
+  },
+  {
+   "name": "also",
+   "count": 2
+  },
+  {
+   "name": "bias",
+   "count": 4
+  },
+  {
+   "name": "cps",
+   "count": 1
+  },
+  {
+   "name": "horizon",
+   "count": 2
+  },
+  {
+   "name": "optimal control",
+   "count": 1
+  },
+  {
+   "name": "si",
+   "count": 2
+  },
+  {
+   "name": "si sub",
+   "count": 1
+  },
+  {
+   "name": "cnns",
+   "count": 1
+  },
+  {
+   "name": "estimation scheme",
+   "count": 1
+  },
+  {
+   "name": "metric",
+   "count": 1
+  },
+  {
+   "name": "zone",
+   "count": 2
+  },
+  {
+   "name": "rate adaptation",
+   "count": 1
+  },
+  {
+   "name": "cooperatively",
+   "count": 1
+  },
+  {
+   "name": "proximal",
+   "count": 1
+  },
+  {
+   "name": "ne",
+   "count": 1
+  },
+  {
+   "name": "sharing",
+   "count": 2
+  },
+  {
+   "name": "cost sharing",
+   "count": 1
+  },
+  {
+   "name": "share",
+   "count": 1
+  },
+  {
+   "name": "center",
+   "count": 1
+  },
+  {
+   "name": "fusion",
+   "count": 1
+  },
+  {
+   "name": "fusion center",
+   "count": 1
+  },
+  {
+   "name": "cusum",
+   "count": 1
+  },
+  {
+   "name": "require",
+   "count": 1
+  },
+  {
+   "name": "maas",
+   "count": 1
+  },
+  {
+   "name": "maas system",
+   "count": 1
+  },
+  {
+   "name": "resilient",
+   "count": 2
+  },
+  {
+   "name": "error system",
+   "count": 1
+  },
+  {
+   "name": "multirate",
+   "count": 1
+  },
+  {
+   "name": "single",
+   "count": 2
+  },
+  {
+   "name": "single rate",
+   "count": 1
+  },
+  {
+   "name": "gap",
+   "count": 1
+  },
+  {
+   "name": "gap metric",
+   "count": 1
+  },
+  {
+   "name": "iqcs",
+   "count": 1
+  },
+  {
+   "name": "equivalent",
+   "count": 1
+  },
+  {
+   "name": "cascaded",
+   "count": 1
+  },
+  {
+   "name": "cascaded system",
+   "count": 1
+  },
+  {
+   "name": "client",
+   "count": 2
+  },
+  {
+   "name": "section",
+   "count": 1
+  },
+  {
+   "name": "dlkcf",
+   "count": 1
+  },
+  {
+   "name": "station",
+   "count": 2
+  },
+  {
+   "name": "secure",
+   "count": 1
+  },
+  {
+   "name": "dtfos",
+   "count": 1
+  },
+  {
+   "name": "enable",
+   "count": 1
+  },
+  {
+   "name": "edge weight",
+   "count": 2
+  },
+  {
+   "name": "application",
+   "count": 3
+  },
+  {
+   "name": "amp",
+   "count": 2
+  },
+  {
+   "name": "academic",
+   "count": 1
+  },
+  {
+   "name": "academic temperature",
+   "count": 1
+  },
+  {
+   "name": "structural",
+   "count": 3
+  },
+  {
+   "name": "unknown",
+   "count": 1
+  },
+  {
+   "name": "available",
+   "count": 1
+  },
+  {
+   "name": "ncss",
+   "count": 1
+  },
+  {
+   "name": "certification",
+   "count": 1
+  },
+  {
+   "name": "dissipativity",
+   "count": 1
+  },
+  {
+   "name": "exploit",
+   "count": 1
+  },
+  {
+   "name": "interconnection",
+   "count": 1
+  },
+  {
+   "name": "input matrix",
+   "count": 1
+  },
+  {
+   "name": "formula",
+   "count": 5
+  },
+  {
+   "name": "inline",
+   "count": 4
+  },
+  {
+   "name": "inline formula",
+   "count": 4
+  },
+  {
+   "name": "math",
+   "count": 2
+  },
+  {
+   "name": "tex",
+   "count": 3
+  },
+  {
+   "name": "step",
+   "count": 1
+  },
+  {
+   "name": "dlms",
+   "count": 1
+  },
+  {
+   "name": "retrofit",
+   "count": 1
+  },
+  {
+   "name": "retrofit controller",
+   "count": 1
+  },
+  {
+   "name": "expansion",
+   "count": 1
+  },
+  {
+   "name": "key",
+   "count": 1
+  },
+  {
+   "name": "random",
+   "count": 5
+  },
+  {
+   "name": "interaction",
+   "count": 3
+  },
+  {
+   "name": "invariance",
+   "count": 1
+  },
+  {
+   "name": "cardinality",
+   "count": 1
+  },
+  {
+   "name": "content",
+   "count": 2
+  },
+  {
+   "name": "crawling",
+   "count": 1
+  },
+  {
+   "name": "crawling policy",
+   "count": 1
+  },
+  {
+   "name": "ephemeral",
+   "count": 1
+  },
+  {
+   "name": "cournot",
+   "count": 2
+  },
+  {
+   "name": "cournot nash",
+   "count": 1
+  },
+  {
+   "name": "influence",
+   "count": 5
+  },
+  {
+   "name": "driver",
+   "count": 4
+  },
+  {
+   "name": "sharing network",
+   "count": 1
+  },
+  {
+   "name": "class",
+   "count": 4
+  },
+  {
+   "name": "compensation",
+   "count": 1
+  },
+  {
+   "name": "leader trajectory",
+   "count": 1
+  },
+  {
+   "name": "electricity",
+   "count": 2
+  },
+  {
+   "name": "distribute algorithm",
+   "count": 1
+  },
+  {
+   "name": "improve",
+   "count": 1
+  },
+  {
+   "name": "mode",
+   "count": 2
+  },
+  {
+   "name": "mod",
+   "count": 1
+  },
+  {
+   "name": "mod system",
+   "count": 1
+  },
+  {
+   "name": "gt",
+   "count": 1
+  },
+  {
+   "name": "lt",
+   "count": 1
+  },
+  {
+   "name": "pulse",
+   "count": 1
+  },
+  {
+   "name": "pulse coupled",
+   "count": 1
+  },
+  {
+   "name": "attractor",
+   "count": 1
+  },
+  {
+   "name": "bn",
+   "count": 1
+  },
+  {
+   "name": "stabilizability",
+   "count": 1
+  },
+  {
+   "name": "measurement loss",
+   "count": 1
+  },
+  {
+   "name": "cactus",
+   "count": 1
+  },
+  {
+   "name": "cactus graph",
+   "count": 1
+  },
+  {
+   "name": "wind",
+   "count": 1
+  },
+  {
+   "name": "ahead",
+   "count": 1
+  },
+  {
+   "name": "case study",
+   "count": 1
+  },
+  {
+   "name": "controllability driftless",
+   "count": 1
+  },
+  {
+   "name": "size",
+   "count": 1
+  },
+  {
+   "name": "off",
+   "count": 2
+  },
+  {
+   "name": "sdbcns",
+   "count": 1
+  },
+  {
+   "name": "observability sdbcns",
+   "count": 1
+  },
+  {
+   "name": "network topology",
+   "count": 3
+  },
+  {
+   "name": "form",
+   "count": 1
+  },
+  {
+   "name": "demand shape",
+   "count": 1
+  },
+  {
+   "name": "shape",
+   "count": 1
+  },
+  {
+   "name": "ax",
+   "count": 1
+  },
+  {
+   "name": "flexible",
+   "count": 2
+  },
+  {
+   "name": "flexible demand",
+   "count": 1
+  },
+  {
+   "name": "coordination problem",
+   "count": 1
+  },
+  {
+   "name": "body",
+   "count": 1
+  },
+  {
+   "name": "fault detection",
+   "count": 3
+  },
+  {
+   "name": "gne",
+   "count": 1
+  },
+  {
+   "name": "utility",
+   "count": 1
+  },
+  {
+   "name": "capacity constraint",
+   "count": 1
+  },
+  {
+   "name": "frame",
+   "count": 1
+  },
+  {
+   "name": "containment",
+   "count": 2
+  },
+  {
+   "name": "design controller",
+   "count": 1
+  },
+  {
+   "name": "tvof",
+   "count": 1
+  },
+  {
+   "name": "ambiguity",
+   "count": 1
+  },
+  {
+   "name": "ambiguity set",
+   "count": 1
+  },
+  {
+   "name": "chance",
+   "count": 2
+  },
+  {
+   "name": "period",
+   "count": 1
+  },
+  {
+   "name": "multiagent",
+   "count": 5
+  },
+  {
+   "name": "behavioral",
+   "count": 1
+  },
+  {
+   "name": "object",
+   "count": 1
+  },
+  {
+   "name": "target",
+   "count": 13
+  },
+  {
+   "name": "target object",
+   "count": 1
+  },
+  {
+   "name": "length",
+   "count": 1
+  },
+  {
+   "name": "hierarchy",
+   "count": 1
+  },
+  {
+   "name": "bidding",
+   "count": 1
+  },
+  {
+   "name": "iso",
+   "count": 2
+  },
+  {
+   "name": "market",
+   "count": 1
+  },
+  {
+   "name": "second",
+   "count": 1
+  },
+  {
+   "name": "offer",
+   "count": 1
+  },
+  {
+   "name": "public",
+   "count": 1
+  },
+  {
+   "name": "public opinion",
+   "count": 1
+  },
+  {
+   "name": "probe",
+   "count": 1
+  },
+  {
+   "name": "inverter",
+   "count": 1
+  },
+  {
+   "name": "following",
+   "count": 1
+  },
+  {
+   "name": "correlation",
+   "count": 2
+  },
+  {
+   "name": "notion",
+   "count": 1
+  },
+  {
+   "name": "consensus scheme",
+   "count": 1
+  },
+  {
+   "name": "control control",
+   "count": 1
+  },
+  {
+   "name": "directed",
+   "count": 1
+  },
+  {
+   "name": "directed dynamical",
+   "count": 1
+  },
+  {
+   "name": "recovery",
+   "count": 2
+  },
+  {
+   "name": "path",
+   "count": 2
+  },
+  {
+   "name": "consensus protocol",
+   "count": 1
+  },
+  {
+   "name": "cooperative output",
+   "count": 1
+  },
+  {
+   "name": "output regulation",
+   "count": 1
+  },
+  {
+   "name": "distribution system",
+   "count": 1
+  },
+  {
+   "name": "admittance",
+   "count": 1
+  },
+  {
+   "name": "mfg",
+   "count": 1
+  },
+  {
+   "name": "admissible",
+   "count": 1
+  },
+  {
+   "name": "data transmission",
+   "count": 1
+  },
+  {
+   "name": "select",
+   "count": 1
+  },
+  {
+   "name": "exist",
+   "count": 2
+  },
+  {
+   "name": "facts",
+   "count": 1
+  },
+  {
+   "name": "flexibility set",
+   "count": 1
+  },
+  {
+   "name": "good",
+   "count": 1
+  },
+  {
+   "name": "large",
+   "count": 2
+  },
+  {
+   "name": "infection",
+   "count": 1
+  },
+  {
+   "name": "induced",
+   "count": 1
+  },
+  {
+   "name": "infection rate",
+   "count": 1
+  },
+  {
+   "name": "propose approach",
+   "count": 1
+  },
+  {
+   "name": "3c",
+   "count": 1
+  },
+  {
+   "name": "pin",
+   "count": 1
+  },
+  {
+   "name": "density",
+   "count": 3
+  },
+  {
+   "name": "uncertainty",
+   "count": 2
+  },
+  {
+   "name": "ac",
+   "count": 3
+  },
+  {
+   "name": "generation",
+   "count": 1
+  },
+  {
+   "name": "uncertain",
+   "count": 2
+  },
+  {
+   "name": "ders",
+   "count": 1
+  },
+  {
+   "name": "electrical",
+   "count": 1
+  },
+  {
+   "name": "multiagent system",
+   "count": 4
+  },
+  {
+   "name": "renewable",
+   "count": 1
+  },
+  {
+   "name": "commitment",
+   "count": 1
+  },
+  {
+   "name": "contract",
+   "count": 2
+  },
+  {
+   "name": "rpp",
+   "count": 1
+  },
+  {
+   "name": "charge",
+   "count": 2
+  },
+  {
+   "name": "charge station",
+   "count": 1
+  },
+  {
+   "name": "wireless",
+   "count": 2
+  },
+  {
+   "name": "brockett",
+   "count": 1
+  },
+  {
+   "name": "brockett oscillator",
+   "count": 1
+  },
+  {
+   "name": "deformation",
+   "count": 1
+  },
+  {
+   "name": "quadcopter",
+   "count": 1
+  },
+  {
+   "name": "continuum",
+   "count": 1
+  },
+  {
+   "name": "continuum deformation",
+   "count": 1
+  },
+  {
+   "name": "adversary",
+   "count": 2
+  },
+  {
+   "name": "localization",
+   "count": 2
+  },
+  {
+   "name": "two",
+   "count": 1
+  },
+  {
+   "name": "local minimum",
+   "count": 1
+  },
+  {
+   "name": "reaction",
+   "count": 1
+  },
+  {
+   "name": "reaction network",
+   "count": 1
+  },
+  {
+   "name": "chemical",
+   "count": 1
+  },
+  {
+   "name": "chemical reaction",
+   "count": 1
+  },
+  {
+   "name": "network structure",
+   "count": 2
+  },
+  {
+   "name": "oscillatority",
+   "count": 1
+  },
+  {
+   "name": "combination",
+   "count": 1
+  },
+  {
+   "name": "combination drug",
+   "count": 1
+  },
+  {
+   "name": "current",
+   "count": 1
+  },
+  {
+   "name": "temperature",
+   "count": 1
+  },
+  {
+   "name": "ac power",
+   "count": 1
+  },
+  {
+   "name": "decision previous",
+   "count": 1
+  },
+  {
+   "name": "saa",
+   "count": 1
+  },
+  {
+   "name": "saa selection",
+   "count": 1
+  },
+  {
+   "name": "eigenvalues",
+   "count": 1
+  },
+  {
+   "name": "erasure",
+   "count": 1
+  },
+  {
+   "name": "estimator",
+   "count": 6
+  },
+  {
+   "name": "dc",
+   "count": 1
+  },
+  {
+   "name": "modification",
+   "count": 1
+  },
+  {
+   "name": "numerical",
+   "count": 1
+  },
+  {
+   "name": "group based",
+   "count": 1
+  },
+  {
+   "name": "regulation",
+   "count": 1
+  },
+  {
+   "name": "voltage control",
+   "count": 1
+  },
+  {
+   "name": "virus",
+   "count": 1
+  },
+  {
+   "name": "nash equilibrium",
+   "count": 2
+  },
+  {
+   "name": "aggregative",
+   "count": 1
+  },
+  {
+   "name": "block",
+   "count": 2
+  },
+  {
+   "name": "hybrid",
+   "count": 3
+  },
+  {
+   "name": "mas",
+   "count": 2
+  },
+  {
+   "name": "position",
+   "count": 1
+  },
+  {
+   "name": "position synchronization",
+   "count": 1
+  },
+  {
+   "name": "queue",
+   "count": 3
+  },
+  {
+   "name": "bid",
+   "count": 1
+  },
+  {
+   "name": "lqf",
+   "count": 1
+  },
+  {
+   "name": "cyber",
+   "count": 2
+  },
+  {
+   "name": "cyber physical",
+   "count": 1
+  },
+  {
+   "name": "physical",
+   "count": 1
+  },
+  {
+   "name": "adaptive protocol",
+   "count": 1
+  },
+  {
+   "name": "memory",
+   "count": 1
+  },
+  {
+   "name": "memory occupation",
+   "count": 1
+  },
+  {
+   "name": "occupation",
+   "count": 1
+  },
+  {
+   "name": "aggregate fluctuation",
+   "count": 1
+  },
+  {
+   "name": "propose mechanism",
+   "count": 1
+  },
+  {
+   "name": "branch",
+   "count": 1
+  },
+  {
+   "name": "cascading",
+   "count": 2
+  },
+  {
+   "name": "coordination vector",
+   "count": 1
+  },
+  {
+   "name": "local function",
+   "count": 1
+  },
+  {
+   "name": "asynchrony",
+   "count": 1
+  },
+  {
+   "name": "iteration",
+   "count": 1
+  },
+  {
+   "name": "cns",
+   "count": 1
+  },
+  {
+   "name": "average detectability",
+   "count": 1
+  },
+  {
+   "name": "logic task",
+   "count": 1
+  },
+  {
+   "name": "temporal",
+   "count": 1
+  },
+  {
+   "name": "bayesian",
+   "count": 1
+  },
+  {
+   "name": "belief",
+   "count": 1
+  },
+  {
+   "name": "asset",
+   "count": 1
+  },
+  {
+   "name": "corrupt",
+   "count": 1
+  },
+  {
+   "name": "toll",
+   "count": 1
+  },
+  {
+   "name": "fi",
+   "count": 1
+  },
+  {
+   "name": "wi",
+   "count": 1
+  },
+  {
+   "name": "wi fi",
+   "count": 1
+  },
+  {
+   "name": "collision",
+   "count": 1
+  },
+  {
+   "name": "approximation",
+   "count": 2
+  },
+  {
+   "name": "topology variation",
+   "count": 1
+  },
+  {
+   "name": "variation",
+   "count": 1
+  },
+  {
+   "name": "assumption",
+   "count": 1
+  },
+  {
+   "name": "rendezvous",
+   "count": 1
+  },
+  {
+   "name": "direct",
+   "count": 3
+  },
+  {
+   "name": "mass",
+   "count": 1
+  },
+  {
+   "name": "activity",
+   "count": 1
+  },
+  {
+   "name": "cloud",
+   "count": 1
+  },
+  {
+   "name": "self",
+   "count": 1
+  },
+  {
+   "name": "self triggered",
+   "count": 1
+  },
+  {
+   "name": "communication delay",
+   "count": 2
+  },
+  {
+   "name": "anticoordination",
+   "count": 1
+  },
+  {
+   "name": "control effort",
+   "count": 1
+  },
+  {
+   "name": "effort",
+   "count": 3
+  },
+  {
+   "name": "swarm",
+   "count": 3
+  },
+  {
+   "name": "parent",
+   "count": 1
+  },
+  {
+   "name": "edge function",
+   "count": 1
+  },
+  {
+   "name": "head",
+   "count": 1
+  },
+  {
+   "name": "overlap",
+   "count": 1
+  },
+  {
+   "name": "aladin",
+   "count": 1
+  },
+  {
+   "name": "decentralized",
+   "count": 1
+  },
+  {
+   "name": "intruder",
+   "count": 2
+  },
+  {
+   "name": "subgroup",
+   "count": 1
+  },
+  {
+   "name": "track",
+   "count": 2
+  },
+  {
+   "name": "passing",
+   "count": 1
+  },
+  {
+   "name": "mobile",
+   "count": 1
+  },
+  {
+   "name": "continuous time",
+   "count": 1
+  },
+  {
+   "name": "chordal",
+   "count": 1
+  },
+  {
+   "name": "isolation",
+   "count": 1
+  },
+  {
+   "name": "fault isolation",
+   "count": 1
+  },
+  {
+   "name": "multiplex",
+   "count": 1
+  },
+  {
+   "name": "distributed kalman",
+   "count": 1
+  },
+  {
+   "name": "kalman",
+   "count": 1
+  },
+  {
+   "name": "centroid",
+   "count": 1
+  },
+  {
+   "name": "fault tolerant",
+   "count": 1
+  },
+  {
+   "name": "rigidity",
+   "count": 2
+  },
+  {
+   "name": "sense",
+   "count": 1
+  },
+  {
+   "name": "train",
+   "count": 2
+  },
+  {
+   "name": "submodular",
+   "count": 1
+  },
+  {
+   "name": "submodular function",
+   "count": 1
+  },
+  {
+   "name": "loadability",
+   "count": 1
+  },
+  {
+   "name": "loadability region",
+   "count": 1
+  },
+  {
+   "name": "harmonic",
+   "count": 1
+  },
+  {
+   "name": "converter",
+   "count": 1
+  },
+  {
+   "name": "fcms",
+   "count": 1
+  },
+  {
+   "name": "impact",
+   "count": 1
+  },
+  {
+   "name": "assessment",
+   "count": 1
+  },
+  {
+   "name": "calculate",
+   "count": 1
+  },
+  {
+   "name": "arbitrary nodal",
+   "count": 1
+  },
+  {
+   "name": "extremum",
+   "count": 1
+  },
+  {
+   "name": "false",
+   "count": 1
+  },
+  {
+   "name": "trigger",
+   "count": 1
+  },
+  {
+   "name": "hybrid system",
+   "count": 1
+  },
+  {
+   "name": "output information",
+   "count": 1
+  },
+  {
+   "name": "chps",
+   "count": 1
+  },
+  {
+   "name": "convex hull",
+   "count": 1
+  },
+  {
+   "name": "hull",
+   "count": 1
+  },
+  {
+   "name": "generalization",
+   "count": 1
+  },
+  {
+   "name": "lie",
+   "count": 1
+  },
+  {
+   "name": "lie group",
+   "count": 1
+  },
+  {
+   "name": "new",
+   "count": 1
+  },
+  {
+   "name": "control strategy",
+   "count": 1
+  },
+  {
+   "name": "desire",
+   "count": 1
+  },
+  {
+   "name": "autonomous",
+   "count": 3
+  },
+  {
+   "name": "autonomous vehicle",
+   "count": 1
+  },
+  {
+   "name": "increase",
+   "count": 1
+  },
+  {
+   "name": "antagonistic",
+   "count": 1
+  },
+  {
+   "name": "control loop",
+   "count": 1
+  },
+  {
+   "name": "distribution grid",
+   "count": 1
+  },
+  {
+   "name": "vertex",
+   "count": 1
+  },
+  {
+   "name": "composite",
+   "count": 1
+  },
+  {
+   "name": "silc",
+   "count": 1
+  },
+  {
+   "name": "near",
+   "count": 1
+  },
+  {
+   "name": "channel statistic",
+   "count": 1
+  },
+  {
+   "name": "statistic",
+   "count": 1
+  },
+  {
+   "name": "impedance",
+   "count": 1
+  },
+  {
+   "name": "dispatch",
+   "count": 1
+  },
+  {
+   "name": "dispatch set",
+   "count": 1
+  },
+  {
+   "name": "safe",
+   "count": 1
+  },
+  {
+   "name": "safe dispatch",
+   "count": 1
+  },
+  {
+   "name": "type",
+   "count": 2
+  },
+  {
+   "name": "avs",
+   "count": 1
+  },
+  {
+   "name": "hvs",
+   "count": 1
+  },
+  {
+   "name": "ride",
+   "count": 1
+  },
+  {
+   "name": "profit",
+   "count": 1
+  },
+  {
+   "name": "control energy",
+   "count": 1
+  },
+  {
+   "name": "paper",
+   "count": 1
+  },
+  {
+   "name": "rigid",
+   "count": 1
+  },
+  {
+   "name": "rigid formation",
+   "count": 1
+  },
+  {
+   "name": "contagion",
+   "count": 1
+  },
+  {
+   "name": "complex contagion",
+   "count": 1
+  },
+  {
+   "name": "gf",
+   "count": 1
+  },
+  {
+   "name": "pressure",
+   "count": 2
+  },
+  {
+   "name": "solver",
+   "count": 1
+  },
+  {
+   "name": "gaussian",
+   "count": 1
+  },
+  {
+   "name": "gaussian random",
+   "count": 1
+  },
+  {
+   "name": "antiwindup",
+   "count": 1
+  },
+  {
+   "name": "amod",
+   "count": 2
+  },
+  {
+   "name": "amod system",
+   "count": 1
+  },
+  {
+   "name": "percolation",
+   "count": 1
+  },
+  {
+   "name": "dynamical system",
+   "count": 1
+  },
+  {
+   "name": "df",
+   "count": 1
+  },
+  {
+   "name": "df model",
+   "count": 1
+  },
+  {
+   "name": "dropout",
+   "count": 1
+  },
+  {
+   "name": "condition number",
+   "count": 1
+  },
+  {
+   "name": "scheduling",
+   "count": 1
+  },
+  {
+   "name": "corresponding",
+   "count": 1
+  },
+  {
+   "name": "wds",
+   "count": 2
+  },
+  {
+   "name": "iot",
+   "count": 1
+  },
+  {
+   "name": "iot network",
+   "count": 1
+  },
+  {
+   "name": "network network",
+   "count": 1
+  },
+  {
+   "name": "pbcns",
+   "count": 1
+  },
+  {
+   "name": "bit",
+   "count": 1
+  },
+  {
+   "name": "event triggering",
+   "count": 1
+  },
+  {
+   "name": "triggering",
+   "count": 1
+  },
+  {
+   "name": "triggering condition",
+   "count": 1
+  },
+  {
+   "name": "performance measure",
+   "count": 1
+  },
+  {
+   "name": "airspace",
+   "count": 1
+  },
+  {
+   "name": "uas",
+   "count": 1
+  },
+  {
+   "name": "article",
+   "count": 3
+  },
+  {
+   "name": "logical",
+   "count": 1
+  },
+  {
+   "name": "logical system",
+   "count": 1
+  },
+  {
+   "name": "placement problem",
+   "count": 1
+  },
+  {
+   "name": "target node",
+   "count": 1
+  },
+  {
+   "name": "valve",
+   "count": 1
+  },
+  {
+   "name": "wdn",
+   "count": 1
+  },
+  {
+   "name": "reconstructibility",
+   "count": 1
+  },
+  {
+   "name": "bns",
+   "count": 1
+  },
+  {
+   "name": "reconstructible",
+   "count": 1
+  },
+  {
+   "name": "alternative",
+   "count": 1
+  },
+  {
+   "name": "containment control",
+   "count": 1
+  },
+  {
+   "name": "place",
+   "count": 1
+  },
+  {
+   "name": "place sensor",
+   "count": 1
+  },
+  {
+   "name": "maximum field",
+   "count": 1
+  },
+  {
+   "name": "dac",
+   "count": 1
+  },
+  {
+   "name": "communication link",
+   "count": 1
+  },
+  {
+   "name": "consist",
+   "count": 1
+  },
+  {
+   "name": "iss",
+   "count": 1
+  },
+  {
+   "name": "domain",
+   "count": 1
+  },
+  {
+   "name": "hybrid domain",
+   "count": 1
+  },
+  {
+   "name": "on",
+   "count": 1
+  },
+  {
+   "name": "on off",
+   "count": 1
+  },
+  {
+   "name": "malicious sensor",
+   "count": 1
+  },
+  {
+   "name": "snl",
+   "count": 1
+  },
+  {
+   "name": "snl problem",
+   "count": 1
+  },
+  {
+   "name": "arma",
+   "count": 1
+  },
+  {
+   "name": "optimality",
+   "count": 1
+  },
+  {
+   "name": "facility",
+   "count": 1
+  },
+  {
+   "name": "sparsity",
+   "count": 1
+  },
+  {
+   "name": "cluster synchronization",
+   "count": 1
+  },
+  {
+   "name": "wnr",
+   "count": 1
+  },
+  {
+   "name": "spread",
+   "count": 2
+  },
+  {
+   "name": "ncs",
+   "count": 1
+  },
+  {
+   "name": "property",
+   "count": 1
+  },
+  {
+   "name": "control signal",
+   "count": 1
+  },
+  {
+   "name": "cover",
+   "count": 1
+  },
+  {
+   "name": "issue",
+   "count": 1
+  },
+  {
+   "name": "digraph",
+   "count": 4
+  },
+  {
+   "name": "send",
+   "count": 1
+  },
+  {
+   "name": "send time",
+   "count": 1
+  },
+  {
+   "name": "move",
+   "count": 1
+  },
+  {
+   "name": "address problem",
+   "count": 1
+  },
+  {
+   "name": "worker",
+   "count": 2
+  },
+  {
+   "name": "requester",
+   "count": 1
+  },
+  {
+   "name": "crowdsourcing",
+   "count": 1
+  },
+  {
+   "name": "jammer",
+   "count": 1
+  },
+  {
+   "name": "collection",
+   "count": 1
+  },
+  {
+   "name": "delay co",
+   "count": 1
+  },
+  {
+   "name": "string",
+   "count": 1
+  },
+  {
+   "name": "combine",
+   "count": 1
+  },
+  {
+   "name": "sat",
+   "count": 1
+  },
+  {
+   "name": "efficient",
+   "count": 1
+  },
+  {
+   "name": "local cost",
+   "count": 1
+  },
+  {
+   "name": "control input",
+   "count": 1
+  },
+  {
+   "name": "homogeneity",
+   "count": 1
+  },
+  {
+   "name": "bear",
+   "count": 1
+  },
+  {
+   "name": "actuator sensor",
+   "count": 1
+  },
+  {
+   "name": "dfe",
+   "count": 1
+  },
+  {
+   "name": "sufficient",
+   "count": 1
+  },
+  {
+   "name": "sufficient condition",
+   "count": 1
+  },
+  {
+   "name": "asymptotic",
+   "count": 1
+  },
+  {
+   "name": "smart",
+   "count": 1
+  },
+  {
+   "name": "potentially",
+   "count": 1
+  },
+  {
+   "name": "asgd",
+   "count": 1
+  },
+  {
+   "name": "asynchronous stochastic",
+   "count": 1
+  },
+  {
+   "name": "estimation error",
+   "count": 1
+  },
+  {
+   "name": "autonomous synchronization",
+   "count": 1
+  },
+  {
+   "name": "mcp",
+   "count": 1
+  },
+  {
+   "name": "bne",
+   "count": 1
+  },
+  {
+   "name": "mcp model",
+   "count": 1
+  },
+  {
+   "name": "command",
+   "count": 1
+  },
+  {
+   "name": "confidence",
+   "count": 2
+  },
+  {
+   "name": "confidence interval",
+   "count": 1
+  },
+  {
+   "name": "interval",
+   "count": 2
+  },
+  {
+   "name": "mgs",
+   "count": 1
+  },
+  {
+   "name": "blockchain",
+   "count": 1
+  },
+  {
+   "name": "management",
+   "count": 1
+  },
+  {
+   "name": "convexity",
+   "count": 1
+  },
+  {
+   "name": "anarchy",
+   "count": 1
+  },
+  {
+   "name": "synthesis",
+   "count": 2
+  },
+  {
+   "name": "controller synthesis",
+   "count": 1
+  },
+  {
+   "name": "local algorithm",
+   "count": 1
+  },
+  {
+   "name": "cell",
+   "count": 1
+  },
+  {
+   "name": "soc",
+   "count": 1
+  },
+  {
+   "name": "repair",
+   "count": 1
+  },
+  {
+   "name": "fully",
+   "count": 1
+  },
+  {
+   "name": "configuration",
+   "count": 1
+  },
+  {
+   "name": "formation system",
+   "count": 1
+  },
+  {
+   "name": "opportunistic",
+   "count": 1
+  },
+  {
+   "name": "opportunistic transmission",
+   "count": 1
+  },
+  {
+   "name": "goal",
+   "count": 1
+  },
+  {
+   "name": "startup",
+   "count": 1
+  },
+  {
+   "name": "interdiction",
+   "count": 1
+  },
+  {
+   "name": "interdiction problem",
+   "count": 1
+  },
+  {
+   "name": "formulation",
+   "count": 2
+  },
+  {
+   "name": "dcs",
+   "count": 1
+  },
+  {
+   "name": "workload",
+   "count": 1
+  },
+  {
+   "name": "cross",
+   "count": 1
+  },
+  {
+   "name": "correlation structure",
+   "count": 1
+  },
+  {
+   "name": "dean",
+   "count": 1
+  },
+  {
+   "name": "dean algorithm",
+   "count": 1
+  },
+  {
+   "name": "pevs",
+   "count": 1
+  },
+  {
+   "name": "uam",
+   "count": 1
+  },
+  {
+   "name": "atm",
+   "count": 1
+  },
+  {
+   "name": "provide",
+   "count": 4
+  },
+  {
+   "name": "air",
+   "count": 1
+  },
+  {
+   "name": "based control",
+   "count": 1
+  },
+  {
+   "name": "experiment",
+   "count": 1
+  },
+  {
+   "name": "real",
+   "count": 1
+  },
+  {
+   "name": "graphical",
+   "count": 1
+  },
+  {
+   "name": "graphical game",
+   "count": 1
+  },
+  {
+   "name": "diffusion",
+   "count": 1
+  },
+  {
+   "name": "population",
+   "count": 4
+  },
+  {
+   "name": "pdm",
+   "count": 1
+  },
+  {
+   "name": "alc",
+   "count": 1
+  },
+  {
+   "name": "alc algorithm",
+   "count": 1
+  },
+  {
+   "name": "sign network",
+   "count": 1
+  },
+  {
+   "name": "constrain",
+   "count": 1
+  },
+  {
+   "name": "impulsive",
+   "count": 1
+  },
+  {
+   "name": "impulsive control",
+   "count": 1
+  },
+  {
+   "name": "learn",
+   "count": 1
+  },
+  {
+   "name": "ensemble",
+   "count": 1
+  },
+  {
+   "name": "node error",
+   "count": 1
+  },
+  {
+   "name": "difference",
+   "count": 1
+  },
+  {
+   "name": "alpha",
+   "count": 1
+  },
+  {
+   "name": "formula tex",
+   "count": 1
+  },
+  {
+   "name": "tex alpha",
+   "count": 1
+  },
+  {
+   "name": "influence intensity",
+   "count": 1
+  },
+  {
+   "name": "intensity",
+   "count": 1
+  },
+  {
+   "name": "connected",
+   "count": 1
+  },
+  {
+   "name": "ecn",
+   "count": 1
+  },
+  {
+   "name": "response",
+   "count": 1
+  },
+  {
+   "name": "resilience",
+   "count": 1
+  },
+  {
+   "name": "dn",
+   "count": 1
+  },
+  {
+   "name": "evaluate",
+   "count": 1
+  },
+  {
+   "name": "byzantine",
+   "count": 1
+  },
+  {
+   "name": "byzantine agent",
+   "count": 1
+  },
+  {
+   "name": "cans",
+   "count": 1
+  },
+  {
+   "name": "dat",
+   "count": 1
+  },
+  {
+   "name": "mans",
+   "count": 1
+  },
+  {
+   "name": "rl",
+   "count": 1
+  },
+  {
+   "name": "hdm",
+   "count": 1
+  },
+  {
+   "name": "homogeneous",
+   "count": 1
+  },
+  {
+   "name": "cem",
+   "count": 1
+  },
+  {
+   "name": "synchronized",
+   "count": 1
+  },
+  {
+   "name": "time synchronized",
+   "count": 1
+  },
+  {
+   "name": "integrator",
+   "count": 1
+  },
+  {
+   "name": "laplacian function",
+   "count": 1
+  },
+  {
+   "name": "positive",
+   "count": 1
+  },
+  {
+   "name": "action player",
+   "count": 1
+  },
+  {
+   "name": "action set",
+   "count": 1
+  },
+  {
+   "name": "detectability",
+   "count": 1
+  },
+  {
+   "name": "detectability isolability",
+   "count": 1
+  },
+  {
+   "name": "isolability",
+   "count": 1
+  },
+  {
+   "name": "attitude track",
+   "count": 1
+  },
+  {
+   "name": "cgrns",
+   "count": 1
+  },
+  {
+   "name": "constant",
+   "count": 1
+  },
+  {
+   "name": "several",
+   "count": 1
+  },
+  {
+   "name": "collaborative",
+   "count": 1
+  },
+  {
+   "name": "collaborative agent",
+   "count": 1
+  },
+  {
+   "name": "confidence threshold",
+   "count": 1
+  },
+  {
+   "name": "threshold",
+   "count": 1
+  },
+  {
+   "name": "community",
+   "count": 1
+  },
+  {
+   "name": "competitive",
+   "count": 1
+  },
+  {
+   "name": "competitive information",
+   "count": 1
+  },
+  {
+   "name": "route",
+   "count": 1
+  },
+  {
+   "name": "majority",
+   "count": 1
+  },
+  {
+   "name": "cdma",
+   "count": 1
+  },
+  {
+   "name": "efficiency",
+   "count": 1
+  },
+  {
+   "name": "lqr",
+   "count": 2
+  },
+  {
+   "name": "time delay",
+   "count": 1
+  },
+  {
+   "name": "information gain",
+   "count": 1
+  },
+  {
+   "name": "random graph",
+   "count": 1
+  },
+  {
+   "name": "approximators",
+   "count": 1
+  },
+  {
+   "name": "congruity",
+   "count": 1
+  },
+  {
+   "name": "locality",
+   "count": 1
+  },
+  {
+   "name": "capture",
+   "count": 1
+  },
+  {
+   "name": "develop",
+   "count": 1
+  },
+  {
+   "name": "sls",
+   "count": 1
+  },
+  {
+   "name": "pump",
+   "count": 1
+  },
+  {
+   "name": "wf",
+   "count": 1
+  },
+  {
+   "name": "diversity",
+   "count": 1
+  },
+  {
+   "name": "electric amod",
+   "count": 1
+  },
+  {
+   "name": "fleet",
+   "count": 1
+  },
+  {
+   "name": "pdns",
+   "count": 1
+  },
+  {
+   "name": "three",
+   "count": 1
+  },
+  {
+   "name": "three phase",
+   "count": 1
+  },
+  {
+   "name": "codistflow",
+   "count": 1
+  },
+  {
+   "name": "every",
+   "count": 1
+  },
+  {
+   "name": "every agent",
+   "count": 1
+  },
+  {
+   "name": "opacity",
+   "count": 1
+  },
+  {
+   "name": "amenable",
+   "count": 1
+  },
+  {
+   "name": "attack covariance",
+   "count": 1
+  },
+  {
+   "name": "building",
+   "count": 1
+  },
+  {
+   "name": "optimal sampling",
+   "count": 1
+  },
+  {
+   "name": "instant",
+   "count": 1
+  },
+  {
+   "name": "dictionary",
+   "count": 1
+  },
+  {
+   "name": "invariant",
+   "count": 1
+  },
+  {
+   "name": "koopman",
+   "count": 1
+  },
+  {
+   "name": "state delay",
+   "count": 1
+  },
+  {
+   "name": "plug",
+   "count": 1
+  },
+  {
+   "name": "and",
+   "count": 1
+  },
+  {
+   "name": "and play",
+   "count": 1
+  },
+  {
+   "name": "filtering",
+   "count": 1
+  },
+  {
+   "name": "distributed filtering",
+   "count": 1
+  },
+  {
+   "name": "candidate",
+   "count": 1
+  },
+  {
+   "name": "imitation",
+   "count": 1
+  },
+  {
+   "name": "high",
+   "count": 1
+  },
+  {
+   "name": "rational",
+   "count": 1
+  },
+  {
+   "name": "wait",
+   "count": 1
+  },
+  {
+   "name": "objective",
+   "count": 1
+  },
+  {
+   "name": "stc",
+   "count": 1
+  },
+  {
+   "name": "region",
+   "count": 1
+  },
+  {
+   "name": "strategic",
+   "count": 1
+  },
+  {
+   "name": "strategic sensor",
+   "count": 1
+  },
+  {
+   "name": "phd",
+   "count": 1
+  },
+  {
+   "name": "impersonation",
+   "count": 1
+  },
+  {
+   "name": "impersonation attack",
+   "count": 1
+  },
+  {
+   "name": "estimation algorithm",
+   "count": 1
+  },
+  {
+   "name": "rp",
+   "count": 1
+  },
+  {
+   "name": "follower system",
+   "count": 1
+  },
+  {
+   "name": "leader follower",
+   "count": 1
+  },
+  {
+   "name": "satisfaction",
+   "count": 1
+  },
+  {
+   "name": "mse",
+   "count": 1
+  },
+  {
+   "name": "satisfaction equilibrium",
+   "count": 1
+  },
+  {
+   "name": "transition",
+   "count": 1
+  },
+  {
+   "name": "accordingly",
+   "count": 1
+  },
+  {
+   "name": "ni",
+   "count": 1
+  },
+  {
+   "name": "biped",
+   "count": 1
+  },
+  {
+   "name": "biped robot",
+   "count": 1
+  },
+  {
+   "name": "unintended",
+   "count": 1
+  },
+  {
+   "name": "unintended interaction",
+   "count": 1
+  },
+  {
+   "name": "sample",
+   "count": 1
+  },
+  {
+   "name": "dimension",
+   "count": 1
+  },
+  {
+   "name": "scalability",
+   "count": 1
+  },
+  {
+   "name": "study",
+   "count": 2
+  },
+  {
+   "name": "gcn",
+   "count": 1
+  },
+  {
+   "name": "cascading failure",
+   "count": 1
+  },
+  {
+   "name": "attack signal",
+   "count": 1
+  },
+  {
+   "name": "homologous",
+   "count": 1
+  },
+  {
+   "name": "optimal set",
+   "count": 1
+  },
+  {
+   "name": "set stabilization",
+   "count": 1
+  },
+  {
+   "name": "party",
+   "count": 1
+  },
+  {
+   "name": "necessary",
+   "count": 1
+  },
+  {
+   "name": "condition stability",
+   "count": 1
+  },
+  {
+   "name": "fractional",
+   "count": 1
+  },
+  {
+   "name": "fractional order",
+   "count": 1
+  },
+  {
+   "name": "global stabilization",
+   "count": 1
+  },
+  {
+   "name": "chance constraint",
+   "count": 1
+  },
+  {
+   "name": "surveillance",
+   "count": 1
+  },
+  {
+   "name": "structural controllability",
+   "count": 1
+  },
+  {
+   "name": "graphon",
+   "count": 1
+  },
+  {
+   "name": "lqr problem",
+   "count": 1
+  },
+  {
+   "name": "integral",
+   "count": 1
+  },
+  {
+   "name": "degrade",
+   "count": 1
+  },
+  {
+   "name": "adversary influence",
+   "count": 1
+  },
+  {
+   "name": "news",
+   "count": 1
+  },
+  {
+   "name": "aggregator",
+   "count": 1
+  },
+  {
+   "name": "payment",
+   "count": 1
+  },
+  {
+   "name": "agent independently",
+   "count": 1
+  },
+  {
+   "name": "aggregation",
+   "count": 1
+  },
+  {
+   "name": "describe",
+   "count": 1
+  },
+  {
+   "name": "population density",
+   "count": 1
+  },
+  {
+   "name": "angle",
+   "count": 1
+  },
+  {
+   "name": "partition",
+   "count": 1
+  }
+ ]
+}
