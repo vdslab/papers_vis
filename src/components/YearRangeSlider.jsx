@@ -5,7 +5,7 @@ import * as React from 'react';
 
 
 const YearRangeSlider = () => {
-  const [value, setValue] = React.useState([1970, 1990]);
+  const [value, setValue] = React.useState([1955, 2021]);
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -23,7 +23,7 @@ const YearRangeSlider = () => {
               onChange={handleChange}
               valueLabelDisplay="on"
               getAriaValueText={valuetext}
-              min={1953}
+              min={1955}
               max={2021}
             />
           </Box>
