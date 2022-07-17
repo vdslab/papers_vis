@@ -1,0 +1,4372 @@
+{
+ "terms": [
+  {
+   "name": "ac",
+   "count": 3
+  },
+  {
+   "name": "affect",
+   "count": 24
+  },
+  {
+   "name": "emotion",
+   "count": 150
+  },
+  {
+   "name": "theory",
+   "count": 3
+  },
+  {
+   "name": "affect detection",
+   "count": 2
+  },
+  {
+   "name": "detection",
+   "count": 12
+  },
+  {
+   "name": "broaden",
+   "count": 1
+  },
+  {
+   "name": "inference",
+   "count": 2
+  },
+  {
+   "name": "emoticon",
+   "count": 1
+  },
+  {
+   "name": "system",
+   "count": 20
+  },
+  {
+   "name": "database",
+   "count": 16
+  },
+  {
+   "name": "area",
+   "count": 1
+  },
+  {
+   "name": "data",
+   "count": 26
+  },
+  {
+   "name": "evaluation",
+   "count": 5
+  },
+  {
+   "name": "cross",
+   "count": 4
+  },
+  {
+   "name": "disjunctive",
+   "count": 1
+  },
+  {
+   "name": "haf",
+   "count": 1
+  },
+  {
+   "name": "eeg",
+   "count": 24
+  },
+  {
+   "name": "haf hoc",
+   "count": 1
+  },
+  {
+   "name": "hoc",
+   "count": 1
+  },
+  {
+   "name": "touch",
+   "count": 4
+  },
+  {
+   "name": "user",
+   "count": 29
+  },
+  {
+   "name": "agent",
+   "count": 17
+  },
+  {
+   "name": "squeeze",
+   "count": 1
+  },
+  {
+   "name": "corpus",
+   "count": 9
+  },
+  {
+   "name": "emotional",
+   "count": 32
+  },
+  {
+   "name": "hmi",
+   "count": 3
+  },
+  {
+   "name": "affected",
+   "count": 1
+  },
+  {
+   "name": "communication",
+   "count": 4
+  },
+  {
+   "name": "heartbeat",
+   "count": 2
+  },
+  {
+   "name": "intimate",
+   "count": 2
+  },
+  {
+   "name": "study",
+   "count": 8
+  },
+  {
+   "name": "communication intimate",
+   "count": 1
+  },
+  {
+   "name": "state",
+   "count": 16
+  },
+  {
+   "name": "cognitive",
+   "count": 5
+  },
+  {
+   "name": "affective",
+   "count": 52
+  },
+  {
+   "name": "arousal",
+   "count": 20
+  },
+  {
+   "name": "social",
+   "count": 14
+  },
+  {
+   "name": "agitation",
+   "count": 1
+  },
+  {
+   "name": "subject",
+   "count": 6
+  },
+  {
+   "name": "confidence",
+   "count": 2
+  },
+  {
+   "name": "svm",
+   "count": 1
+  },
+  {
+   "name": "startle",
+   "count": 1
+  },
+  {
+   "name": "use",
+   "count": 38
+  },
+  {
+   "name": "feature",
+   "count": 78
+  },
+  {
+   "name": "blink",
+   "count": 1
+  },
+  {
+   "name": "aspect",
+   "count": 6
+  },
+  {
+   "name": "opinion",
+   "count": 4
+  },
+  {
+   "name": "aspect based",
+   "count": 1
+  },
+  {
+   "name": "based",
+   "count": 13
+  },
+  {
+   "name": "customer",
+   "count": 1
+  },
+  {
+   "name": "moment",
+   "count": 2
+  },
+  {
+   "name": "boredom",
+   "count": 1
+  },
+  {
+   "name": "automatic",
+   "count": 11
+  },
+  {
+   "name": "biosignal",
+   "count": 1
+  },
+  {
+   "name": "constraint",
+   "count": 1
+  },
+  {
+   "name": "approach",
+   "count": 35
+  },
+  {
+   "name": "different",
+   "count": 16
+  },
+  {
+   "name": "propose",
+   "count": 28
+  },
+  {
+   "name": "fusion",
+   "count": 3
+  },
+  {
+   "name": "human",
+   "count": 31
+  },
+  {
+   "name": "class",
+   "count": 9
+  },
+  {
+   "name": "positive",
+   "count": 6
+  },
+  {
+   "name": "dcbb",
+   "count": 1
+  },
+  {
+   "name": "frame",
+   "count": 3
+  },
+  {
+   "name": "recognition",
+   "count": 35
+  },
+  {
+   "name": "ap",
+   "count": 1
+  },
+  {
+   "name": "ap based",
+   "count": 1
+  },
+  {
+   "name": "content",
+   "count": 13
+  },
+  {
+   "name": "pcg",
+   "count": 1
+  },
+  {
+   "name": "content generation",
+   "count": 1
+  },
+  {
+   "name": "experience",
+   "count": 3
+  },
+  {
+   "name": "generation",
+   "count": 1
+  },
+  {
+   "name": "modality",
+   "count": 10
+  },
+  {
+   "name": "one",
+   "count": 8
+  },
+  {
+   "name": "facial",
+   "count": 75
+  },
+  {
+   "name": "expression",
+   "count": 65
+  },
+  {
+   "name": "facial expression",
+   "count": 22
+  },
+  {
+   "name": "information",
+   "count": 10
+  },
+  {
+   "name": "subjectivity",
+   "count": 3
+  },
+  {
+   "name": "extraction",
+   "count": 1
+  },
+  {
+   "name": "information extraction",
+   "count": 1
+  },
+  {
+   "name": "parameter",
+   "count": 4
+  },
+  {
+   "name": "voice",
+   "count": 3
+  },
+  {
+   "name": "production",
+   "count": 1
+  },
+  {
+   "name": "relate",
+   "count": 1
+  },
+  {
+   "name": "base",
+   "count": 5
+  },
+  {
+   "name": "percent",
+   "count": 7
+  },
+  {
+   "name": "accuracy",
+   "count": 7
+  },
+  {
+   "name": "classifier",
+   "count": 7
+  },
+  {
+   "name": "machine",
+   "count": 7
+  },
+  {
+   "name": "linguistic",
+   "count": 2
+  },
+  {
+   "name": "result",
+   "count": 4
+  },
+  {
+   "name": "space",
+   "count": 2
+  },
+  {
+   "name": "sentiment",
+   "count": 13
+  },
+  {
+   "name": "new",
+   "count": 2
+  },
+  {
+   "name": "compound",
+   "count": 1
+  },
+  {
+   "name": "sentiful",
+   "count": 1
+  },
+  {
+   "name": "word",
+   "count": 7
+  },
+  {
+   "name": "webpage",
+   "count": 1
+  },
+  {
+   "name": "response",
+   "count": 9
+  },
+  {
+   "name": "vc",
+   "count": 2
+  },
+  {
+   "name": "view",
+   "count": 2
+  },
+  {
+   "name": "pattern",
+   "count": 5
+  },
+  {
+   "name": "thermal",
+   "count": 2
+  },
+  {
+   "name": "aus",
+   "count": 6
+  },
+  {
+   "name": "action",
+   "count": 11
+  },
+  {
+   "name": "gesture",
+   "count": 6
+  },
+  {
+   "name": "framework",
+   "count": 7
+  },
+  {
+   "name": "dynamic",
+   "count": 10
+  },
+  {
+   "name": "experiment",
+   "count": 7
+  },
+  {
+   "name": "video",
+   "count": 22
+  },
+  {
+   "name": "artificial",
+   "count": 2
+  },
+  {
+   "name": "artificial emotion",
+   "count": 1
+  },
+  {
+   "name": "decision",
+   "count": 5
+  },
+  {
+   "name": "empathy",
+   "count": 2
+  },
+  {
+   "name": "parallel",
+   "count": 1
+  },
+  {
+   "name": "emotional expression",
+   "count": 2
+  },
+  {
+   "name": "robot",
+   "count": 6
+  },
+  {
+   "name": "entity",
+   "count": 2
+  },
+  {
+   "name": "good",
+   "count": 2
+  },
+  {
+   "name": "trait",
+   "count": 3
+  },
+  {
+   "name": "attribute",
+   "count": 4
+  },
+  {
+   "name": "personality",
+   "count": 19
+  },
+  {
+   "name": "speaker",
+   "count": 8
+  },
+  {
+   "name": "correspond",
+   "count": 1
+  },
+  {
+   "name": "analysis",
+   "count": 14
+  },
+  {
+   "name": "behavior",
+   "count": 16
+  },
+  {
+   "name": "domain",
+   "count": 7
+  },
+  {
+   "name": "sal",
+   "count": 2
+  },
+  {
+   "name": "nonverbal",
+   "count": 2
+  },
+  {
+   "name": "scenario",
+   "count": 1
+  },
+  {
+   "name": "knowledge",
+   "count": 2
+  },
+  {
+   "name": "concept",
+   "count": 2
+  },
+  {
+   "name": "measure",
+   "count": 7
+  },
+  {
+   "name": "physical",
+   "count": 1
+  },
+  {
+   "name": "lt",
+   "count": 3
+  },
+  {
+   "name": "mental",
+   "count": 4
+  },
+  {
+   "name": "duty",
+   "count": 1
+  },
+  {
+   "name": "kant",
+   "count": 1
+  },
+  {
+   "name": "ethic",
+   "count": 1
+  },
+  {
+   "name": "machine ethic",
+   "count": 1
+  },
+  {
+   "name": "attention",
+   "count": 12
+  },
+  {
+   "name": "extraversion",
+   "count": 1
+  },
+  {
+   "name": "time",
+   "count": 8
+  },
+  {
+   "name": "context",
+   "count": 10
+  },
+  {
+   "name": "anger",
+   "count": 3
+  },
+  {
+   "name": "commercial",
+   "count": 2
+  },
+  {
+   "name": "analyze",
+   "count": 1
+  },
+  {
+   "name": "collect",
+   "count": 2
+  },
+  {
+   "name": "participant",
+   "count": 6
+  },
+  {
+   "name": "affective state",
+   "count": 7
+  },
+  {
+   "name": "also",
+   "count": 5
+  },
+  {
+   "name": "ecg",
+   "count": 4
+  },
+  {
+   "name": "signal",
+   "count": 11
+  },
+  {
+   "name": "active",
+   "count": 1
+  },
+  {
+   "name": "eysenck",
+   "count": 1
+  },
+  {
+   "name": "behavioral",
+   "count": 5
+  },
+  {
+   "name": "smile",
+   "count": 5
+  },
+  {
+   "name": "frustrating",
+   "count": 1
+  },
+  {
+   "name": "two",
+   "count": 4
+  },
+  {
+   "name": "acted",
+   "count": 2
+  },
+  {
+   "name": "delight",
+   "count": 1
+  },
+  {
+   "name": "sound",
+   "count": 5
+  },
+  {
+   "name": "artifact",
+   "count": 1
+  },
+  {
+   "name": "manipulation",
+   "count": 1
+  },
+  {
+   "name": "body",
+   "count": 12
+  },
+  {
+   "name": "web",
+   "count": 1
+  },
+  {
+   "name": "resource",
+   "count": 2
+  },
+  {
+   "name": "usage",
+   "count": 1
+  },
+  {
+   "name": "web usage",
+   "count": 1
+  },
+  {
+   "name": "access",
+   "count": 1
+  },
+  {
+   "name": "nature",
+   "count": 1
+  },
+  {
+   "name": "synchrony",
+   "count": 2
+  },
+  {
+   "name": "robotics",
+   "count": 1
+  },
+  {
+   "name": "current",
+   "count": 2
+  },
+  {
+   "name": "developmental",
+   "count": 1
+  },
+  {
+   "name": "rating",
+   "count": 4
+  },
+  {
+   "name": "rating inference",
+   "count": 1
+  },
+  {
+   "name": "valence",
+   "count": 8
+  },
+  {
+   "name": "three",
+   "count": 1
+  },
+  {
+   "name": "stress",
+   "count": 14
+  },
+  {
+   "name": "algorithm",
+   "count": 3
+  },
+  {
+   "name": "surgeon",
+   "count": 1
+  },
+  {
+   "name": "associate",
+   "count": 1
+  },
+  {
+   "name": "detector",
+   "count": 1
+  },
+  {
+   "name": "multi",
+   "count": 6
+  },
+  {
+   "name": "multi user",
+   "count": 1
+  },
+  {
+   "name": "application",
+   "count": 3
+  },
+  {
+   "name": "emotional state",
+   "count": 3
+  },
+  {
+   "name": "individual",
+   "count": 4
+  },
+  {
+   "name": "network",
+   "count": 14
+  },
+  {
+   "name": "pill",
+   "count": 1
+  },
+  {
+   "name": "blue",
+   "count": 1
+  },
+  {
+   "name": "blue pill",
+   "count": 1
+  },
+  {
+   "name": "pill robot",
+   "count": 1
+  },
+  {
+   "name": "respiration",
+   "count": 1
+  },
+  {
+   "name": "respiration signal",
+   "count": 1
+  },
+  {
+   "name": "love",
+   "count": 1
+  },
+  {
+   "name": "erotic",
+   "count": 1
+  },
+  {
+   "name": "paper",
+   "count": 3
+  },
+  {
+   "name": "artificial agent",
+   "count": 1
+  },
+  {
+   "name": "induction",
+   "count": 1
+  },
+  {
+   "name": "induction task",
+   "count": 1
+  },
+  {
+   "name": "intensity",
+   "count": 9
+  },
+  {
+   "name": "scooter",
+   "count": 1
+  },
+  {
+   "name": "student",
+   "count": 2
+  },
+  {
+   "name": "exist",
+   "count": 1
+  },
+  {
+   "name": "technology",
+   "count": 1
+  },
+  {
+   "name": "record",
+   "count": 1
+  },
+  {
+   "name": "speech",
+   "count": 13
+  },
+  {
+   "name": "10",
+   "count": 2
+  },
+  {
+   "name": "acoustic",
+   "count": 4
+  },
+  {
+   "name": "music",
+   "count": 13
+  },
+  {
+   "name": "arm",
+   "count": 1
+  },
+  {
+   "name": "collection",
+   "count": 1
+  },
+  {
+   "name": "model",
+   "count": 63
+  },
+  {
+   "name": "music collection",
+   "count": 1
+  },
+  {
+   "name": "dialog",
+   "count": 2
+  },
+  {
+   "name": "pd",
+   "count": 2
+  },
+  {
+   "name": "pd signal",
+   "count": 1
+  },
+  {
+   "name": "computer",
+   "count": 2
+  },
+  {
+   "name": "audience",
+   "count": 3
+  },
+  {
+   "name": "virtual",
+   "count": 4
+  },
+  {
+   "name": "attitude",
+   "count": 4
+  },
+  {
+   "name": "image",
+   "count": 15
+  },
+  {
+   "name": "anchor",
+   "count": 2
+  },
+  {
+   "name": "anchor model",
+   "count": 1
+  },
+  {
+   "name": "performance",
+   "count": 9
+  },
+  {
+   "name": "movement",
+   "count": 6
+  },
+  {
+   "name": "affective expression",
+   "count": 1
+  },
+  {
+   "name": "manifold",
+   "count": 3
+  },
+  {
+   "name": "emotional speech",
+   "count": 1
+  },
+  {
+   "name": "face",
+   "count": 13
+  },
+  {
+   "name": "component",
+   "count": 6
+  },
+  {
+   "name": "dictionary",
+   "count": 1
+  },
+  {
+   "name": "architecture",
+   "count": 3
+  },
+  {
+   "name": "proposal",
+   "count": 1
+  },
+  {
+   "name": "emotion theory",
+   "count": 1
+  },
+  {
+   "name": "action unit",
+   "count": 3
+  },
+  {
+   "name": "facial action",
+   "count": 3
+  },
+  {
+   "name": "prior",
+   "count": 2
+  },
+  {
+   "name": "prior model",
+   "count": 1
+  },
+  {
+   "name": "au",
+   "count": 11
+  },
+  {
+   "name": "depression",
+   "count": 18
+  },
+  {
+   "name": "vocal",
+   "count": 1
+  },
+  {
+   "name": "prosody",
+   "count": 1
+  },
+  {
+   "name": "severity",
+   "count": 1
+  },
+  {
+   "name": "mood",
+   "count": 8
+  },
+  {
+   "name": "conductance",
+   "count": 1
+  },
+  {
+   "name": "skin",
+   "count": 2
+  },
+  {
+   "name": "skin conductance",
+   "count": 1
+  },
+  {
+   "name": "case",
+   "count": 1
+  },
+  {
+   "name": "familiarity",
+   "count": 1
+  },
+  {
+   "name": "game",
+   "count": 17
+  },
+  {
+   "name": "opponent",
+   "count": 1
+  },
+  {
+   "name": "defeat",
+   "count": 1
+  },
+  {
+   "name": "friend",
+   "count": 1
+  },
+  {
+   "name": "partner",
+   "count": 2
+  },
+  {
+   "name": "show",
+   "count": 4
+  },
+  {
+   "name": "fer",
+   "count": 8
+  },
+  {
+   "name": "age",
+   "count": 2
+  },
+  {
+   "name": "computational",
+   "count": 5
+  },
+  {
+   "name": "influence",
+   "count": 6
+  },
+  {
+   "name": "expression recognition",
+   "count": 3
+  },
+  {
+   "name": "adaptation",
+   "count": 3
+  },
+  {
+   "name": "duration",
+   "count": 3
+  },
+  {
+   "name": "affective adaptation",
+   "count": 1
+  },
+  {
+   "name": "issue",
+   "count": 2
+  },
+  {
+   "name": "adolescent",
+   "count": 2
+  },
+  {
+   "name": "dim",
+   "count": 1
+  },
+  {
+   "name": "normalization",
+   "count": 1
+  },
+  {
+   "name": "ifn",
+   "count": 1
+  },
+  {
+   "name": "activity",
+   "count": 8
+  },
+  {
+   "name": "daily",
+   "count": 3
+  },
+  {
+   "name": "activation",
+   "count": 3
+  },
+  {
+   "name": "estimate",
+   "count": 2
+  },
+  {
+   "name": "appraisal",
+   "count": 4
+  },
+  {
+   "name": "differentiate",
+   "count": 1
+  },
+  {
+   "name": "language",
+   "count": 4
+  },
+  {
+   "name": "subjectivity analysis",
+   "count": 1
+  },
+  {
+   "name": "english",
+   "count": 1
+  },
+  {
+   "name": "mirror",
+   "count": 2
+  },
+  {
+   "name": "repeatable",
+   "count": 1
+  },
+  {
+   "name": "affective dimension",
+   "count": 1
+  },
+  {
+   "name": "correlation",
+   "count": 2
+  },
+  {
+   "name": "twitter",
+   "count": 1
+  },
+  {
+   "name": "context topical",
+   "count": 1
+  },
+  {
+   "name": "variability",
+   "count": 3
+  },
+  {
+   "name": "ordinal",
+   "count": 3
+  },
+  {
+   "name": "scale",
+   "count": 1
+  },
+  {
+   "name": "dimension",
+   "count": 3
+  },
+  {
+   "name": "method",
+   "count": 34
+  },
+  {
+   "name": "adjective",
+   "count": 2
+  },
+  {
+   "name": "appreciation",
+   "count": 1
+  },
+  {
+   "name": "synesketch",
+   "count": 1
+  },
+  {
+   "name": "act",
+   "count": 1
+  },
+  {
+   "name": "dialogue",
+   "count": 3
+  },
+  {
+   "name": "dialogue act",
+   "count": 1
+  },
+  {
+   "name": "goal",
+   "count": 1
+  },
+  {
+   "name": "agreement",
+   "count": 2
+  },
+  {
+   "name": "anger happiness",
+   "count": 1
+  },
+  {
+   "name": "happiness",
+   "count": 1
+  },
+  {
+   "name": "smartphone",
+   "count": 1
+  },
+  {
+   "name": "automatic personality",
+   "count": 1
+  },
+  {
+   "name": "environment",
+   "count": 3
+  },
+  {
+   "name": "learn",
+   "count": 7
+  },
+  {
+   "name": "learning",
+   "count": 8
+  },
+  {
+   "name": "engagement",
+   "count": 7
+  },
+  {
+   "name": "value",
+   "count": 2
+  },
+  {
+   "name": "component image",
+   "count": 1
+  },
+  {
+   "name": "community",
+   "count": 2
+  },
+  {
+   "name": "online",
+   "count": 3
+  },
+  {
+   "name": "topic",
+   "count": 1
+  },
+  {
+   "name": "ban",
+   "count": 1
+  },
+  {
+   "name": "ans",
+   "count": 2
+  },
+  {
+   "name": "3d",
+   "count": 3
+  },
+  {
+   "name": "3d video",
+   "count": 1
+  },
+  {
+   "name": "term",
+   "count": 4
+  },
+  {
+   "name": "text",
+   "count": 4
+  },
+  {
+   "name": "differentiation",
+   "count": 1
+  },
+  {
+   "name": "five",
+   "count": 1
+  },
+  {
+   "name": "dyad",
+   "count": 1
+  },
+  {
+   "name": "high",
+   "count": 4
+  },
+  {
+   "name": "interaction",
+   "count": 10
+  },
+  {
+   "name": "audio",
+   "count": 15
+  },
+  {
+   "name": "visual",
+   "count": 8
+  },
+  {
+   "name": "audio visual",
+   "count": 2
+  },
+  {
+   "name": "musical",
+   "count": 4
+  },
+  {
+   "name": "musical feature",
+   "count": 1
+  },
+  {
+   "name": "science",
+   "count": 2
+  },
+  {
+   "name": "advance",
+   "count": 1
+  },
+  {
+   "name": "compute",
+   "count": 2
+  },
+  {
+   "name": "personality science",
+   "count": 1
+  },
+  {
+   "name": "device",
+   "count": 6
+  },
+  {
+   "name": "contact",
+   "count": 3
+  },
+  {
+   "name": "physiological",
+   "count": 6
+  },
+  {
+   "name": "sto2",
+   "count": 1
+  },
+  {
+   "name": "task",
+   "count": 12
+  },
+  {
+   "name": "bandwidth",
+   "count": 1
+  },
+  {
+   "name": "compression",
+   "count": 1
+  },
+  {
+   "name": "representation",
+   "count": 5
+  },
+  {
+   "name": "gsr",
+   "count": 1
+  },
+  {
+   "name": "hr",
+   "count": 2
+  },
+  {
+   "name": "selection",
+   "count": 2
+  },
+  {
+   "name": "emotion recognition",
+   "count": 10
+  },
+  {
+   "name": "event",
+   "count": 4
+  },
+  {
+   "name": "gamygdala",
+   "count": 1
+  },
+  {
+   "name": "npc",
+   "count": 1
+  },
+  {
+   "name": "conflict",
+   "count": 3
+  },
+  {
+   "name": "head",
+   "count": 3
+  },
+  {
+   "name": "angular",
+   "count": 2
+  },
+  {
+   "name": "head motion",
+   "count": 2
+  },
+  {
+   "name": "motion",
+   "count": 5
+  },
+  {
+   "name": "variation",
+   "count": 1
+  },
+  {
+   "name": "gaze",
+   "count": 2
+  },
+  {
+   "name": "joint",
+   "count": 1
+  },
+  {
+   "name": "joint attention",
+   "count": 1
+  },
+  {
+   "name": "recognition accuracy",
+   "count": 1
+  },
+  {
+   "name": "texture",
+   "count": 1
+  },
+  {
+   "name": "tactile",
+   "count": 1
+  },
+  {
+   "name": "tactile texture",
+   "count": 1
+  },
+  {
+   "name": "product",
+   "count": 1
+  },
+  {
+   "name": "wright",
+   "count": 1
+  },
+  {
+   "name": "align",
+   "count": 1
+  },
+  {
+   "name": "align personality",
+   "count": 1
+  },
+  {
+   "name": "predict",
+   "count": 3
+  },
+  {
+   "name": "predict conflict",
+   "count": 1
+  },
+  {
+   "name": "observer",
+   "count": 4
+  },
+  {
+   "name": "mm",
+   "count": 1
+  },
+  {
+   "name": "node",
+   "count": 1
+  },
+  {
+   "name": "zapping",
+   "count": 1
+  },
+  {
+   "name": "zap",
+   "count": 1
+  },
+  {
+   "name": "perceive",
+   "count": 2
+  },
+  {
+   "name": "brain",
+   "count": 5
+  },
+  {
+   "name": "fmri",
+   "count": 2
+  },
+  {
+   "name": "comment",
+   "count": 1
+  },
+  {
+   "name": "autism",
+   "count": 1
+  },
+  {
+   "name": "blog",
+   "count": 1
+  },
+  {
+   "name": "personal",
+   "count": 1
+  },
+  {
+   "name": "modulation",
+   "count": 1
+  },
+  {
+   "name": "frequency",
+   "count": 1
+  },
+  {
+   "name": "modulation spectral",
+   "count": 1
+  },
+  {
+   "name": "patch",
+   "count": 3
+  },
+  {
+   "name": "facial patch",
+   "count": 1
+  },
+  {
+   "name": "aesthetic",
+   "count": 3
+  },
+  {
+   "name": "consensus",
+   "count": 2
+  },
+  {
+   "name": "kurtosis",
+   "count": 1
+  },
+  {
+   "name": "expressive",
+   "count": 3
+  },
+  {
+   "name": "continuous",
+   "count": 2
+  },
+  {
+   "name": "annotation",
+   "count": 13
+  },
+  {
+   "name": "decaf",
+   "count": 1
+  },
+  {
+   "name": "data set",
+   "count": 2
+  },
+  {
+   "name": "meg",
+   "count": 1
+  },
+  {
+   "name": "musical emotion",
+   "count": 1
+  },
+  {
+   "name": "character",
+   "count": 1
+  },
+  {
+   "name": "facs",
+   "count": 1
+  },
+  {
+   "name": "infant",
+   "count": 2
+  },
+  {
+   "name": "mother",
+   "count": 1
+  },
+  {
+   "name": "coefficient",
+   "count": 1
+  },
+  {
+   "name": "mer",
+   "count": 2
+  },
+  {
+   "name": "people",
+   "count": 2
+  },
+  {
+   "name": "avatar",
+   "count": 3
+  },
+  {
+   "name": "respondent",
+   "count": 1
+  },
+  {
+   "name": "negotiation",
+   "count": 2
+  },
+  {
+   "name": "reaction",
+   "count": 1
+  },
+  {
+   "name": "source",
+   "count": 6
+  },
+  {
+   "name": "large",
+   "count": 2
+  },
+  {
+   "name": "accede",
+   "count": 2
+  },
+  {
+   "name": "emotion influence",
+   "count": 1
+  },
+  {
+   "name": "aeg",
+   "count": 1
+  },
+  {
+   "name": "length",
+   "count": 2
+  },
+  {
+   "name": "characteristic",
+   "count": 3
+  },
+  {
+   "name": "heart",
+   "count": 1
+  },
+  {
+   "name": "heart rate",
+   "count": 1
+  },
+  {
+   "name": "rate",
+   "count": 2
+  },
+  {
+   "name": "baseline",
+   "count": 2
+  },
+  {
+   "name": "laughter",
+   "count": 7
+  },
+  {
+   "name": "perception",
+   "count": 2
+  },
+  {
+   "name": "ad",
+   "count": 1
+  },
+  {
+   "name": "facial response",
+   "count": 1
+  },
+  {
+   "name": "effectiveness",
+   "count": 2
+  },
+  {
+   "name": "punctual",
+   "count": 1
+  },
+  {
+   "name": "hrv",
+   "count": 1
+  },
+  {
+   "name": "subjective",
+   "count": 1
+  },
+  {
+   "name": "outcome",
+   "count": 1
+  },
+  {
+   "name": "objective",
+   "count": 2
+  },
+  {
+   "name": "objective outcome",
+   "count": 1
+  },
+  {
+   "name": "emotionally",
+   "count": 1
+  },
+  {
+   "name": "emotion perception",
+   "count": 1
+  },
+  {
+   "name": "affective content",
+   "count": 1
+  },
+  {
+   "name": "evoke",
+   "count": 1
+  },
+  {
+   "name": "embed",
+   "count": 1
+  },
+  {
+   "name": "impression",
+   "count": 1
+  },
+  {
+   "name": "big",
+   "count": 1
+  },
+  {
+   "name": "micro",
+   "count": 6
+  },
+  {
+   "name": "mdmo",
+   "count": 2
+  },
+  {
+   "name": "micro expression",
+   "count": 2
+  },
+  {
+   "name": "group",
+   "count": 5
+  },
+  {
+   "name": "entrainment",
+   "count": 2
+  },
+  {
+   "name": "waus",
+   "count": 1
+  },
+  {
+   "name": "cert",
+   "count": 1
+  },
+  {
+   "name": "biomedical",
+   "count": 1
+  },
+  {
+   "name": "circadian",
+   "count": 1
+  },
+  {
+   "name": "rhythm",
+   "count": 1
+  },
+  {
+   "name": "eeg signal",
+   "count": 3
+  },
+  {
+   "name": "cdr",
+   "count": 1
+  },
+  {
+   "name": "compare",
+   "count": 1
+  },
+  {
+   "name": "defense",
+   "count": 1
+  },
+  {
+   "name": "condition",
+   "count": 3
+  },
+  {
+   "name": "virtual human",
+   "count": 1
+  },
+  {
+   "name": "dance",
+   "count": 1
+  },
+  {
+   "name": "design",
+   "count": 2
+  },
+  {
+   "name": "animal",
+   "count": 1
+  },
+  {
+   "name": "father",
+   "count": 1
+  },
+  {
+   "name": "episode",
+   "count": 1
+  },
+  {
+   "name": "ot",
+   "count": 1
+  },
+  {
+   "name": "improvement",
+   "count": 1
+  },
+  {
+   "name": "genre",
+   "count": 1
+  },
+  {
+   "name": "actwg",
+   "count": 1
+  },
+  {
+   "name": "adaptive",
+   "count": 3
+  },
+  {
+   "name": "genre adaptive",
+   "count": 1
+  },
+  {
+   "name": "technique",
+   "count": 2
+  },
+  {
+   "name": "annotator",
+   "count": 4
+  },
+  {
+   "name": "many",
+   "count": 1
+  },
+  {
+   "name": "processing",
+   "count": 1
+  },
+  {
+   "name": "gait",
+   "count": 2
+  },
+  {
+   "name": "xlink",
+   "count": 2
+  },
+  {
+   "name": "annotate",
+   "count": 1
+  },
+  {
+   "name": "iteration",
+   "count": 1
+  },
+  {
+   "name": "intervention",
+   "count": 1
+  },
+  {
+   "name": "transition",
+   "count": 1
+  },
+  {
+   "name": "expression transition",
+   "count": 1
+  },
+  {
+   "name": "partial",
+   "count": 2
+  },
+  {
+   "name": "partial expression",
+   "count": 1
+  },
+  {
+   "name": "inertial",
+   "count": 1
+  },
+  {
+   "name": "assessment",
+   "count": 7
+  },
+  {
+   "name": "trailer",
+   "count": 1
+  },
+  {
+   "name": "dislike",
+   "count": 1
+  },
+  {
+   "name": "like",
+   "count": 1
+  },
+  {
+   "name": "movie",
+   "count": 3
+  },
+  {
+   "name": "prediction",
+   "count": 5
+  },
+  {
+   "name": "label",
+   "count": 10
+  },
+  {
+   "name": "exercise",
+   "count": 1
+  },
+  {
+   "name": "monitoring",
+   "count": 1
+  },
+  {
+   "name": "health",
+   "count": 2
+  },
+  {
+   "name": "patient",
+   "count": 5
+  },
+  {
+   "name": "level",
+   "count": 15
+  },
+  {
+   "name": "convey",
+   "count": 2
+  },
+  {
+   "name": "vowel",
+   "count": 1
+  },
+  {
+   "name": "disorder",
+   "count": 3
+  },
+  {
+   "name": "reduced",
+   "count": 1
+  },
+  {
+   "name": "sentence",
+   "count": 6
+  },
+  {
+   "name": "automatically",
+   "count": 1
+  },
+  {
+   "name": "problem",
+   "count": 3
+  },
+  {
+   "name": "coverage",
+   "count": 1
+  },
+  {
+   "name": "lexica",
+   "count": 1
+  },
+  {
+   "name": "polarity",
+   "count": 1
+  },
+  {
+   "name": "odor",
+   "count": 1
+  },
+  {
+   "name": "classification",
+   "count": 21
+  },
+  {
+   "name": "pain",
+   "count": 5
+  },
+  {
+   "name": "behaviour",
+   "count": 3
+  },
+  {
+   "name": "chronic",
+   "count": 1
+  },
+  {
+   "name": "chronic pain",
+   "count": 1
+  },
+  {
+   "name": "set",
+   "count": 3
+  },
+  {
+   "name": "parameter set",
+   "count": 1
+  },
+  {
+   "name": "question",
+   "count": 2
+  },
+  {
+   "name": "extraverted",
+   "count": 1
+  },
+  {
+   "name": "open",
+   "count": 1
+  },
+  {
+   "name": "build",
+   "count": 2
+  },
+  {
+   "name": "detect",
+   "count": 2
+  },
+  {
+   "name": "emg",
+   "count": 2
+  },
+  {
+   "name": "inline",
+   "count": 1
+  },
+  {
+   "name": "formula",
+   "count": 3
+  },
+  {
+   "name": "inline formula",
+   "count": 1
+  },
+  {
+   "name": "math",
+   "count": 3
+  },
+  {
+   "name": "suicidal",
+   "count": 1
+  },
+  {
+   "name": "non",
+   "count": 3
+  },
+  {
+   "name": "non suicidal",
+   "count": 1
+  },
+  {
+   "name": "suicidal non",
+   "count": 1
+  },
+  {
+   "name": "controller",
+   "count": 1
+  },
+  {
+   "name": "animation",
+   "count": 1
+  },
+  {
+   "name": "address",
+   "count": 2
+  },
+  {
+   "name": "auc",
+   "count": 1
+  },
+  {
+   "name": "mental state",
+   "count": 1
+  },
+  {
+   "name": "emotion classification",
+   "count": 1
+  },
+  {
+   "name": "neural",
+   "count": 1
+  },
+  {
+   "name": "effect",
+   "count": 1
+  },
+  {
+   "name": "disambiguation",
+   "count": 1
+  },
+  {
+   "name": "drive",
+   "count": 2
+  },
+  {
+   "name": "asd",
+   "count": 5
+  },
+  {
+   "name": "cognitive load",
+   "count": 1
+  },
+  {
+   "name": "emotional response",
+   "count": 1
+  },
+  {
+   "name": "player",
+   "count": 1
+  },
+  {
+   "name": "regression",
+   "count": 3
+  },
+  {
+   "name": "dataset",
+   "count": 7
+  },
+  {
+   "name": "semantic",
+   "count": 1
+  },
+  {
+   "name": "medium",
+   "count": 3
+  },
+  {
+   "name": "social medium",
+   "count": 1
+  },
+  {
+   "name": "mean",
+   "count": 1
+  },
+  {
+   "name": "results",
+   "count": 1
+  },
+  {
+   "name": "vibration",
+   "count": 1
+  },
+  {
+   "name": "behavior recognition",
+   "count": 1
+  },
+  {
+   "name": "lexicon",
+   "count": 1
+  },
+  {
+   "name": "profile",
+   "count": 2
+  },
+  {
+   "name": "layer",
+   "count": 2
+  },
+  {
+   "name": "positive emotion",
+   "count": 3
+  },
+  {
+   "name": "stimulation",
+   "count": 1
+  },
+  {
+   "name": "microexpression",
+   "count": 1
+  },
+  {
+   "name": "sequence",
+   "count": 3
+  },
+  {
+   "name": "microexpressions",
+   "count": 1
+  },
+  {
+   "name": "categorize",
+   "count": 1
+  },
+  {
+   "name": "multisense",
+   "count": 1
+  },
+  {
+   "name": "nonverbal behavior",
+   "count": 1
+  },
+  {
+   "name": "instance",
+   "count": 1
+  },
+  {
+   "name": "instance learning",
+   "count": 1
+  },
+  {
+   "name": "multiple",
+   "count": 2
+  },
+  {
+   "name": "multimedia",
+   "count": 3
+  },
+  {
+   "name": "coherence",
+   "count": 1
+  },
+  {
+   "name": "rapport",
+   "count": 2
+  },
+  {
+   "name": "cue",
+   "count": 2
+  },
+  {
+   "name": "subtle",
+   "count": 1
+  },
+  {
+   "name": "subtle emotion",
+   "count": 1
+  },
+  {
+   "name": "binary",
+   "count": 1
+  },
+  {
+   "name": "spontaneous",
+   "count": 3
+  },
+  {
+   "name": "picture",
+   "count": 1
+  },
+  {
+   "name": "favorite",
+   "count": 1
+  },
+  {
+   "name": "arousal level",
+   "count": 1
+  },
+  {
+   "name": "path",
+   "count": 1
+  },
+  {
+   "name": "child",
+   "count": 1
+  },
+  {
+   "name": "hfa",
+   "count": 1
+  },
+  {
+   "name": "87",
+   "count": 1
+  },
+  {
+   "name": "linear",
+   "count": 1
+  },
+  {
+   "name": "ascertain",
+   "count": 1
+  },
+  {
+   "name": "content analysis",
+   "count": 1
+  },
+  {
+   "name": "number",
+   "count": 1
+  },
+  {
+   "name": "psychologist",
+   "count": 1
+  },
+  {
+   "name": "competence",
+   "count": 1
+  },
+  {
+   "name": "asynchronous",
+   "count": 1
+  },
+  {
+   "name": "fusion strategy",
+   "count": 1
+  },
+  {
+   "name": "adapted",
+   "count": 1
+  },
+  {
+   "name": "granularity",
+   "count": 1
+  },
+  {
+   "name": "adapted class",
+   "count": 1
+  },
+  {
+   "name": "interview",
+   "count": 2
+  },
+  {
+   "name": "appearance",
+   "count": 1
+  },
+  {
+   "name": "appearance dynamic",
+   "count": 1
+  },
+  {
+   "name": "expressions",
+   "count": 1
+  },
+  {
+   "name": "macro",
+   "count": 1
+  },
+  {
+   "name": "expressions micro",
+   "count": 1
+  },
+  {
+   "name": "emotional valence",
+   "count": 1
+  },
+  {
+   "name": "evaluate",
+   "count": 1
+  },
+  {
+   "name": "facial image",
+   "count": 1
+  },
+  {
+   "name": "beauty",
+   "count": 1
+  },
+  {
+   "name": "apa",
+   "count": 1
+  },
+  {
+   "name": "challenge",
+   "count": 4
+  },
+  {
+   "name": "aggression",
+   "count": 1
+  },
+  {
+   "name": "clip",
+   "count": 2
+  },
+  {
+   "name": "work",
+   "count": 2
+  },
+  {
+   "name": "classification accuracy",
+   "count": 1
+  },
+  {
+   "name": "quadrant",
+   "count": 1
+  },
+  {
+   "name": "user confidence",
+   "count": 1
+  },
+  {
+   "name": "situation",
+   "count": 1
+  },
+  {
+   "name": "decision maker",
+   "count": 1
+  },
+  {
+   "name": "maker",
+   "count": 1
+  },
+  {
+   "name": "risk",
+   "count": 3
+  },
+  {
+   "name": "gaze related",
+   "count": 1
+  },
+  {
+   "name": "index",
+   "count": 1
+  },
+  {
+   "name": "transfer",
+   "count": 1
+  },
+  {
+   "name": "coordinate",
+   "count": 1
+  },
+  {
+   "name": "recommendation",
+   "count": 1
+  },
+  {
+   "name": "recommender",
+   "count": 1
+  },
+  {
+   "name": "conference",
+   "count": 1
+  },
+  {
+   "name": "attendee",
+   "count": 1
+  },
+  {
+   "name": "aware",
+   "count": 1
+  },
+  {
+   "name": "increase",
+   "count": 3
+  },
+  {
+   "name": "stroop",
+   "count": 1
+  },
+  {
+   "name": "vrst",
+   "count": 1
+  },
+  {
+   "name": "find",
+   "count": 1
+  },
+  {
+   "name": "ground",
+   "count": 1
+  },
+  {
+   "name": "ground truth",
+   "count": 1
+  },
+  {
+   "name": "truth",
+   "count": 1
+  },
+  {
+   "name": "present",
+   "count": 1
+  },
+  {
+   "name": "audiovisual",
+   "count": 1
+  },
+  {
+   "name": "chalearn",
+   "count": 1
+  },
+  {
+   "name": "emotion tempo",
+   "count": 1
+  },
+  {
+   "name": "viewer",
+   "count": 1
+  },
+  {
+   "name": "image emotion",
+   "count": 1
+  },
+  {
+   "name": "piece",
+   "count": 1
+  },
+  {
+   "name": "emotion music",
+   "count": 1
+  },
+  {
+   "name": "music piece",
+   "count": 1
+  },
+  {
+   "name": "real",
+   "count": 2
+  },
+  {
+   "name": "depth",
+   "count": 1
+  },
+  {
+   "name": "committee",
+   "count": 1
+  },
+  {
+   "name": "recent",
+   "count": 1
+  },
+  {
+   "name": "allow",
+   "count": 1
+  },
+  {
+   "name": "mes",
+   "count": 1
+  },
+  {
+   "name": "modeling",
+   "count": 1
+  },
+  {
+   "name": "non verbal",
+   "count": 1
+  },
+  {
+   "name": "verbal",
+   "count": 1
+  },
+  {
+   "name": "within",
+   "count": 1
+  },
+  {
+   "name": "level scheme",
+   "count": 1
+  },
+  {
+   "name": "scheme",
+   "count": 1
+  },
+  {
+   "name": "contain",
+   "count": 1
+  },
+  {
+   "name": "define",
+   "count": 2
+  },
+  {
+   "name": "algorithm visual",
+   "count": 1
+  },
+  {
+   "name": "emotional content",
+   "count": 1
+  },
+  {
+   "name": "dependency",
+   "count": 2
+  },
+  {
+   "name": "emotion tag",
+   "count": 1
+  },
+  {
+   "name": "gender",
+   "count": 1
+  },
+  {
+   "name": "factor",
+   "count": 1
+  },
+  {
+   "name": "forests",
+   "count": 1
+  },
+  {
+   "name": "random",
+   "count": 1
+  },
+  {
+   "name": "random forests",
+   "count": 1
+  },
+  {
+   "name": "vlrs",
+   "count": 1
+  },
+  {
+   "name": "region",
+   "count": 3
+  },
+  {
+   "name": "research",
+   "count": 1
+  },
+  {
+   "name": "key",
+   "count": 1
+  },
+  {
+   "name": "image schema",
+   "count": 1
+  },
+  {
+   "name": "schema",
+   "count": 1
+  },
+  {
+   "name": "au detection",
+   "count": 2
+  },
+  {
+   "name": "change",
+   "count": 2
+  },
+  {
+   "name": "fhofo",
+   "count": 1
+  },
+  {
+   "name": "temporal",
+   "count": 3
+  },
+  {
+   "name": "across",
+   "count": 2
+  },
+  {
+   "name": "across subject",
+   "count": 1
+  },
+  {
+   "name": "analyse",
+   "count": 1
+  },
+  {
+   "name": "interest",
+   "count": 1
+  },
+  {
+   "name": "motivation",
+   "count": 1
+  },
+  {
+   "name": "deformation",
+   "count": 1
+  },
+  {
+   "name": "4d",
+   "count": 1
+  },
+  {
+   "name": "tension",
+   "count": 1
+  },
+  {
+   "name": "long",
+   "count": 2
+  },
+  {
+   "name": "part",
+   "count": 2
+  },
+  {
+   "name": "action recognition",
+   "count": 1
+  },
+  {
+   "name": "datasets",
+   "count": 3
+  },
+  {
+   "name": "life",
+   "count": 2
+  },
+  {
+   "name": "audio feature",
+   "count": 2
+  },
+  {
+   "name": "reader",
+   "count": 1
+  },
+  {
+   "name": "reader emotion",
+   "count": 1
+  },
+  {
+   "name": "reliability",
+   "count": 1
+  },
+  {
+   "name": "regularity",
+   "count": 1
+  },
+  {
+   "name": "cluster",
+   "count": 2
+  },
+  {
+   "name": "negation",
+   "count": 1
+  },
+  {
+   "name": "demonstrate",
+   "count": 1
+  },
+  {
+   "name": "improve",
+   "count": 3
+  },
+  {
+   "name": "leadership",
+   "count": 1
+  },
+  {
+   "name": "vector",
+   "count": 1
+  },
+  {
+   "name": "tlsl",
+   "count": 1
+  },
+  {
+   "name": "subspace",
+   "count": 1
+  },
+  {
+   "name": "biofeedback",
+   "count": 4
+  },
+  {
+   "name": "skill",
+   "count": 1
+  },
+  {
+   "name": "smartwatch",
+   "count": 1
+  },
+  {
+   "name": "discrete",
+   "count": 1
+  },
+  {
+   "name": "componential",
+   "count": 1
+  },
+  {
+   "name": "discrete emotion",
+   "count": 1
+  },
+  {
+   "name": "ensemble",
+   "count": 1
+  },
+  {
+   "name": "ambiguous",
+   "count": 1
+  },
+  {
+   "name": "ambiguous image",
+   "count": 1
+  },
+  {
+   "name": "identification",
+   "count": 3
+  },
+  {
+   "name": "represent",
+   "count": 1
+  },
+  {
+   "name": "reward",
+   "count": 1
+  },
+  {
+   "name": "attentional",
+   "count": 1
+  },
+  {
+   "name": "ahas",
+   "count": 1
+  },
+  {
+   "name": "related",
+   "count": 1
+  },
+  {
+   "name": "reward related",
+   "count": 1
+  },
+  {
+   "name": "example",
+   "count": 1
+  },
+  {
+   "name": "inter",
+   "count": 2
+  },
+  {
+   "name": "inter speaker",
+   "count": 1
+  },
+  {
+   "name": "language model",
+   "count": 1
+  },
+  {
+   "name": "employ",
+   "count": 1
+  },
+  {
+   "name": "interactive",
+   "count": 1
+  },
+  {
+   "name": "liris",
+   "count": 1
+  },
+  {
+   "name": "liris accede",
+   "count": 1
+  },
+  {
+   "name": "mmdqen",
+   "count": 1
+  },
+  {
+   "name": "lstm",
+   "count": 1
+  },
+  {
+   "name": "atdd",
+   "count": 1
+  },
+  {
+   "name": "atdd lstm",
+   "count": 1
+  },
+  {
+   "name": "phonetic",
+   "count": 1
+  },
+  {
+   "name": "partition",
+   "count": 1
+  },
+  {
+   "name": "cold",
+   "count": 1
+  },
+  {
+   "name": "cold speech",
+   "count": 1
+  },
+  {
+   "name": "cyberbullying",
+   "count": 1
+  },
+  {
+   "name": "cyberbullying detection",
+   "count": 1
+  },
+  {
+   "name": "actual",
+   "count": 1
+  },
+  {
+   "name": "actual hr",
+   "count": 1
+  },
+  {
+   "name": "photo",
+   "count": 1
+  },
+  {
+   "name": "people asd",
+   "count": 1
+  },
+  {
+   "name": "photo take",
+   "count": 1
+  },
+  {
+   "name": "taste",
+   "count": 1
+  },
+  {
+   "name": "cohesion",
+   "count": 1
+  },
+  {
+   "name": "group level",
+   "count": 1
+  },
+  {
+   "name": "cohesiveness",
+   "count": 1
+  },
+  {
+   "name": "field",
+   "count": 2
+  },
+  {
+   "name": "20",
+   "count": 1
+  },
+  {
+   "name": "20 year",
+   "count": 1
+  },
+  {
+   "name": "clinical",
+   "count": 2
+  },
+  {
+   "name": "delivery",
+   "count": 1
+  },
+  {
+   "name": "art",
+   "count": 1
+  },
+  {
+   "name": "pronunciation",
+   "count": 1
+  },
+  {
+   "name": "emotional pronunciation",
+   "count": 1
+  },
+  {
+   "name": "series",
+   "count": 2
+  },
+  {
+   "name": "time series",
+   "count": 2
+  },
+  {
+   "name": "entropy",
+   "count": 1
+  },
+  {
+   "name": "stimulus",
+   "count": 4
+  },
+  {
+   "name": "co",
+   "count": 1
+  },
+  {
+   "name": "clustering",
+   "count": 1
+  },
+  {
+   "name": "material",
+   "count": 1
+  },
+  {
+   "name": "category",
+   "count": 2
+  },
+  {
+   "name": "material category",
+   "count": 1
+  },
+  {
+   "name": "sensory",
+   "count": 1
+  },
+  {
+   "name": "session",
+   "count": 2
+  },
+  {
+   "name": "sliced",
+   "count": 1
+  },
+  {
+   "name": "thin",
+   "count": 1
+  },
+  {
+   "name": "thin sliced",
+   "count": 1
+  },
+  {
+   "name": "contagion",
+   "count": 2
+  },
+  {
+   "name": "emotional contagion",
+   "count": 2
+  },
+  {
+   "name": "affective valence",
+   "count": 1
+  },
+  {
+   "name": "confirm",
+   "count": 1
+  },
+  {
+   "name": "deep",
+   "count": 10
+  },
+  {
+   "name": "deep fer",
+   "count": 1
+  },
+  {
+   "name": "fer system",
+   "count": 1
+  },
+  {
+   "name": "provide",
+   "count": 1
+  },
+  {
+   "name": "function",
+   "count": 1
+  },
+  {
+   "name": "affect recognition",
+   "count": 1
+  },
+  {
+   "name": "synthesize",
+   "count": 1
+  },
+  {
+   "name": "mood disorder",
+   "count": 1
+  },
+  {
+   "name": "digital",
+   "count": 1
+  },
+  {
+   "name": "lifestyle",
+   "count": 1
+  },
+  {
+   "name": "productivity",
+   "count": 1
+  },
+  {
+   "name": "relationship",
+   "count": 3
+  },
+  {
+   "name": "eeg emotion",
+   "count": 1
+  },
+  {
+   "name": "channel",
+   "count": 3
+  },
+  {
+   "name": "sentiment emotion",
+   "count": 1
+  },
+  {
+   "name": "contextual",
+   "count": 2
+  },
+  {
+   "name": "bag",
+   "count": 1
+  },
+  {
+   "name": "bag of",
+   "count": 1
+  },
+  {
+   "name": "happy",
+   "count": 2
+  },
+  {
+   "name": "intention",
+   "count": 1
+  },
+  {
+   "name": "drink",
+   "count": 1
+  },
+  {
+   "name": "regular",
+   "count": 1
+  },
+  {
+   "name": "computational paralinguistics",
+   "count": 1
+  },
+  {
+   "name": "annotated",
+   "count": 1
+  },
+  {
+   "name": "au classifier",
+   "count": 1
+  },
+  {
+   "name": "psa",
+   "count": 1
+  },
+  {
+   "name": "tex",
+   "count": 2
+  },
+  {
+   "name": "vr",
+   "count": 2
+  },
+  {
+   "name": "neonatal",
+   "count": 1
+  },
+  {
+   "name": "descriptor",
+   "count": 2
+  },
+  {
+   "name": "local",
+   "count": 3
+  },
+  {
+   "name": "edge",
+   "count": 1
+  },
+  {
+   "name": "nedp",
+   "count": 1
+  },
+  {
+   "name": "film",
+   "count": 2
+  },
+  {
+   "name": "scene",
+   "count": 1
+  },
+  {
+   "name": "breathing",
+   "count": 2
+  },
+  {
+   "name": "paced",
+   "count": 1
+  },
+  {
+   "name": "score",
+   "count": 2
+  },
+  {
+   "name": "depression score",
+   "count": 1
+  },
+  {
+   "name": "intensity duration",
+   "count": 1
+  },
+  {
+   "name": "haptic",
+   "count": 1
+  },
+  {
+   "name": "mrse",
+   "count": 1
+  },
+  {
+   "name": "estimation",
+   "count": 1
+  },
+  {
+   "name": "mrse estimation",
+   "count": 1
+  },
+  {
+   "name": "idiom",
+   "count": 1
+  },
+  {
+   "name": "automate",
+   "count": 1
+  },
+  {
+   "name": "similarity",
+   "count": 2
+  },
+  {
+   "name": "depression detection",
+   "count": 1
+  },
+  {
+   "name": "collaborative",
+   "count": 1
+  },
+  {
+   "name": "facial emotion",
+   "count": 1
+  },
+  {
+   "name": "follower",
+   "count": 1
+  },
+  {
+   "name": "facial movement",
+   "count": 1
+  },
+  {
+   "name": "interpretation",
+   "count": 1
+  },
+  {
+   "name": "moral",
+   "count": 1
+  },
+  {
+   "name": "foundation",
+   "count": 1
+  },
+  {
+   "name": "kind",
+   "count": 1
+  },
+  {
+   "name": "moral foundation",
+   "count": 1
+  },
+  {
+   "name": "esfe",
+   "count": 1
+  },
+  {
+   "name": "meda",
+   "count": 1
+  },
+  {
+   "name": "audio video",
+   "count": 1
+  },
+  {
+   "name": "norm",
+   "count": 1
+  },
+  {
+   "name": "multiagent",
+   "count": 1
+  },
+  {
+   "name": "aesthetic quality",
+   "count": 1
+  },
+  {
+   "name": "quality",
+   "count": 1
+  },
+  {
+   "name": "logistic",
+   "count": 1
+  },
+  {
+   "name": "bcmi",
+   "count": 1
+  },
+  {
+   "name": "mtl",
+   "count": 1
+  },
+  {
+   "name": "persuasion",
+   "count": 1
+  },
+  {
+   "name": "persuasive",
+   "count": 1
+  },
+  {
+   "name": "attitude intention",
+   "count": 1
+  },
+  {
+   "name": "observation",
+   "count": 1
+  },
+  {
+   "name": "modifier",
+   "count": 1
+  },
+  {
+   "name": "phrase",
+   "count": 1
+  },
+  {
+   "name": "shift",
+   "count": 1
+  },
+  {
+   "name": "book",
+   "count": 1
+  },
+  {
+   "name": "tag",
+   "count": 1
+  },
+  {
+   "name": "preference",
+   "count": 1
+  },
+  {
+   "name": "unit",
+   "count": 2
+  },
+  {
+   "name": "mouse",
+   "count": 2
+  },
+  {
+   "name": "mouse motion",
+   "count": 1
+  },
+  {
+   "name": "real time",
+   "count": 1
+  },
+  {
+   "name": "actions",
+   "count": 1
+  },
+  {
+   "name": "end",
+   "count": 1
+  },
+  {
+   "name": "spatial",
+   "count": 1
+  },
+  {
+   "name": "segment",
+   "count": 1
+  },
+  {
+   "name": "attribute detection",
+   "count": 1
+  },
+  {
+   "name": "supervised",
+   "count": 1
+  },
+  {
+   "name": "training",
+   "count": 1
+  },
+  {
+   "name": "dnn",
+   "count": 1
+  },
+  {
+   "name": "synthesis",
+   "count": 1
+  },
+  {
+   "name": "360",
+   "count": 1
+  },
+  {
+   "name": "crowd",
+   "count": 1
+  },
+  {
+   "name": "vehicle",
+   "count": 1
+  },
+  {
+   "name": "drive behavior",
+   "count": 1
+  },
+  {
+   "name": "flow",
+   "count": 2
+  },
+  {
+   "name": "employee",
+   "count": 1
+  },
+  {
+   "name": "measurement",
+   "count": 1
+  },
+  {
+   "name": "anxiety",
+   "count": 1
+  },
+  {
+   "name": "social anxiety",
+   "count": 1
+  },
+  {
+   "name": "anxiety status",
+   "count": 1
+  },
+  {
+   "name": "motor",
+   "count": 1
+  },
+  {
+   "name": "rehabilitation",
+   "count": 1
+  },
+  {
+   "name": "nova",
+   "count": 1
+  },
+  {
+   "name": "well",
+   "count": 1
+  },
+  {
+   "name": "fake",
+   "count": 1
+  },
+  {
+   "name": "fake smile",
+   "count": 1
+  },
+  {
+   "name": "diagnosis",
+   "count": 2
+  },
+  {
+   "name": "dialogue system",
+   "count": 1
+  },
+  {
+   "name": "laughable",
+   "count": 1
+  },
+  {
+   "name": "elicit",
+   "count": 1
+  },
+  {
+   "name": "bidann",
+   "count": 1
+  },
+  {
+   "name": "meditation",
+   "count": 1
+  },
+  {
+   "name": "focus",
+   "count": 1
+  },
+  {
+   "name": "process",
+   "count": 3
+  },
+  {
+   "name": "adapt",
+   "count": 1
+  },
+  {
+   "name": "graph",
+   "count": 2
+  },
+  {
+   "name": "personality recognition",
+   "count": 1
+  },
+  {
+   "name": "affect dynamic",
+   "count": 1
+  },
+  {
+   "name": "nonlinear",
+   "count": 1
+  },
+  {
+   "name": "driver",
+   "count": 2
+  },
+  {
+   "name": "driving",
+   "count": 1
+  },
+  {
+   "name": "ter",
+   "count": 1
+  },
+  {
+   "name": "deep learning",
+   "count": 1
+  },
+  {
+   "name": "heatmap",
+   "count": 1
+  },
+  {
+   "name": "gt",
+   "count": 2
+  },
+  {
+   "name": "lt gt",
+   "count": 2
+  },
+  {
+   "name": "gt lt",
+   "count": 1
+  },
+  {
+   "name": "instagram",
+   "count": 1
+  },
+  {
+   "name": "heterogeneity",
+   "count": 1
+  },
+  {
+   "name": "person",
+   "count": 2
+  },
+  {
+   "name": "acute",
+   "count": 1
+  },
+  {
+   "name": "acute stress",
+   "count": 1
+  },
+  {
+   "name": "eda",
+   "count": 2
+  },
+  {
+   "name": "computer application",
+   "count": 1
+  },
+  {
+   "name": "microstate",
+   "count": 1
+  },
+  {
+   "name": "mdds",
+   "count": 1
+  },
+  {
+   "name": "discuss",
+   "count": 2
+  },
+  {
+   "name": "mml",
+   "count": 2
+  },
+  {
+   "name": "probabilistic",
+   "count": 1
+  },
+  {
+   "name": "probabilistic programming",
+   "count": 1
+  },
+  {
+   "name": "affect analysis",
+   "count": 1
+  },
+  {
+   "name": "conversation",
+   "count": 2
+  },
+  {
+   "name": "conversation transcript",
+   "count": 1
+  },
+  {
+   "name": "emotional change",
+   "count": 1
+  },
+  {
+   "name": "mml mo",
+   "count": 1
+  },
+  {
+   "name": "mo",
+   "count": 1
+  },
+  {
+   "name": "mo mml",
+   "count": 1
+  },
+  {
+   "name": "au intensity",
+   "count": 1
+  },
+  {
+   "name": "bio",
+   "count": 1
+  },
+  {
+   "name": "facial aesthetic",
+   "count": 1
+  },
+  {
+   "name": "overarousal",
+   "count": 1
+  },
+  {
+   "name": "pt",
+   "count": 1
+  },
+  {
+   "name": "connectivity",
+   "count": 2
+  },
+  {
+   "name": "elicitation",
+   "count": 1
+  },
+  {
+   "name": "sleep",
+   "count": 1
+  },
+  {
+   "name": "vary",
+   "count": 1
+  },
+  {
+   "name": "gbci",
+   "count": 1
+  },
+  {
+   "name": "attractive",
+   "count": 1
+  },
+  {
+   "name": "control",
+   "count": 2
+  },
+  {
+   "name": "gan",
+   "count": 1
+  },
+  {
+   "name": "emotion label",
+   "count": 1
+  },
+  {
+   "name": "distribution",
+   "count": 3
+  },
+  {
+   "name": "memory",
+   "count": 1
+  },
+  {
+   "name": "speaker variability",
+   "count": 1
+  },
+  {
+   "name": "marker",
+   "count": 1
+  },
+  {
+   "name": "observational",
+   "count": 1
+  },
+  {
+   "name": "cultural",
+   "count": 1
+  },
+  {
+   "name": "debate",
+   "count": 1
+  },
+  {
+   "name": "multimodal",
+   "count": 3
+  },
+  {
+   "name": "collegiate",
+   "count": 1
+  },
+  {
+   "name": "deception",
+   "count": 1
+  },
+  {
+   "name": "sincerity",
+   "count": 1
+  },
+  {
+   "name": "perceive sincerity",
+   "count": 1
+  },
+  {
+   "name": "spatiotemporal",
+   "count": 2
+  },
+  {
+   "name": "probe",
+   "count": 1
+  },
+  {
+   "name": "esm",
+   "count": 1
+  },
+  {
+   "name": "self",
+   "count": 2
+  },
+  {
+   "name": "anorexia",
+   "count": 1
+  },
+  {
+   "name": "express",
+   "count": 1
+  },
+  {
+   "name": "aspect term",
+   "count": 1
+  },
+  {
+   "name": "fau",
+   "count": 1
+  },
+  {
+   "name": "self supervision",
+   "count": 1
+  },
+  {
+   "name": "supervision",
+   "count": 1
+  },
+  {
+   "name": "landmark",
+   "count": 2
+  },
+  {
+   "name": "au recognition",
+   "count": 1
+  },
+  {
+   "name": "fatigue",
+   "count": 1
+  },
+  {
+   "name": "cnn",
+   "count": 3
+  },
+  {
+   "name": "eeg feature",
+   "count": 1
+  },
+  {
+   "name": "difficulty",
+   "count": 1
+  },
+  {
+   "name": "difficulty level",
+   "count": 1
+  },
+  {
+   "name": "search",
+   "count": 1
+  },
+  {
+   "name": "nas",
+   "count": 1
+  },
+  {
+   "name": "96",
+   "count": 1
+  },
+  {
+   "name": "97",
+   "count": 1
+  },
+  {
+   "name": "structure",
+   "count": 2
+  },
+  {
+   "name": "connectivity structure",
+   "count": 1
+  },
+  {
+   "name": "breakdown",
+   "count": 1
+  },
+  {
+   "name": "engagement breakdown",
+   "count": 1
+  },
+  {
+   "name": "mdd",
+   "count": 1
+  },
+  {
+   "name": "itg",
+   "count": 1
+  },
+  {
+   "name": "mdd patient",
+   "count": 1
+  },
+  {
+   "name": "embeddings",
+   "count": 2
+  },
+  {
+   "name": "target",
+   "count": 2
+  },
+  {
+   "name": "target aspect",
+   "count": 1
+  },
+  {
+   "name": "robot model",
+   "count": 1
+  },
+  {
+   "name": "ser",
+   "count": 2
+  },
+  {
+   "name": "emoset",
+   "count": 1
+  },
+  {
+   "name": "26",
+   "count": 1
+  },
+  {
+   "name": "cvae",
+   "count": 1
+  },
+  {
+   "name": "cvae model",
+   "count": 1
+  },
+  {
+   "name": "emo",
+   "count": 2
+  },
+  {
+   "name": "mrd",
+   "count": 1
+  },
+  {
+   "name": "listener",
+   "count": 1
+  },
+  {
+   "name": "conduct",
+   "count": 1
+  },
+  {
+   "name": "consistency",
+   "count": 1
+  },
+  {
+   "name": "expression motion",
+   "count": 1
+  },
+  {
+   "name": "difference",
+   "count": 1
+  },
+  {
+   "name": "eda feature",
+   "count": 1
+  },
+  {
+   "name": "noise",
+   "count": 1
+  },
+  {
+   "name": "reverberation",
+   "count": 1
+  },
+  {
+   "name": "empathic",
+   "count": 1
+  },
+  {
+   "name": "neutral",
+   "count": 1
+  },
+  {
+   "name": "therapist",
+   "count": 1
+  },
+  {
+   "name": "tweet",
+   "count": 1
+  },
+  {
+   "name": "agency",
+   "count": 1
+  },
+  {
+   "name": "suicide",
+   "count": 2
+  },
+  {
+   "name": "background",
+   "count": 1
+  },
+  {
+   "name": "attention model",
+   "count": 1
+  },
+  {
+   "name": "cognition",
+   "count": 1
+  },
+  {
+   "name": "addog",
+   "count": 1
+  },
+  {
+   "name": "dilemma",
+   "count": 1
+  },
+  {
+   "name": "emotion class",
+   "count": 1
+  },
+  {
+   "name": "entry",
+   "count": 1
+  },
+  {
+   "name": "attraction",
+   "count": 1
+  },
+  {
+   "name": "body movement",
+   "count": 1
+  },
+  {
+   "name": "inter brain",
+   "count": 1
+  },
+  {
+   "name": "01",
+   "count": 1
+  },
+  {
+   "name": "integration",
+   "count": 1
+  },
+  {
+   "name": "constant",
+   "count": 1
+  },
+  {
+   "name": "delay",
+   "count": 1
+  },
+  {
+   "name": "quaternion",
+   "count": 1
+  },
+  {
+   "name": "multilayered",
+   "count": 1
+  },
+  {
+   "name": "in",
+   "count": 1
+  },
+  {
+   "name": "in context",
+   "count": 1
+  },
+  {
+   "name": "cross corpus",
+   "count": 1
+  },
+  {
+   "name": "post",
+   "count": 1
+  },
+  {
+   "name": "achieve",
+   "count": 1
+  },
+  {
+   "name": "hashtags",
+   "count": 1
+  },
+  {
+   "name": "affective information",
+   "count": 1
+  },
+  {
+   "name": "workload",
+   "count": 1
+  },
+  {
+   "name": "wild",
+   "count": 1
+  },
+  {
+   "name": "ability",
+   "count": 1
+  },
+  {
+   "name": "negative",
+   "count": 1
+  },
+  {
+   "name": "distress",
+   "count": 1
+  },
+  {
+   "name": "psychological",
+   "count": 1
+  },
+  {
+   "name": "mdn",
+   "count": 1
+  },
+  {
+   "name": "encode",
+   "count": 1
+  },
+  {
+   "name": "fe",
+   "count": 1
+  },
+  {
+   "name": "mfn",
+   "count": 1
+  },
+  {
+   "name": "morphological",
+   "count": 1
+  },
+  {
+   "name": "several",
+   "count": 1
+  },
+  {
+   "name": "ccc",
+   "count": 1
+  },
+  {
+   "name": "comics",
+   "count": 1
+  },
+  {
+   "name": "physiology",
+   "count": 1
+  },
+  {
+   "name": "environmental",
+   "count": 1
+  },
+  {
+   "name": "impaired",
+   "count": 1
+  },
+  {
+   "name": "engagement classifier",
+   "count": 1
+  },
+  {
+   "name": "document",
+   "count": 1
+  },
+  {
+   "name": "emotion regulation",
+   "count": 1
+  },
+  {
+   "name": "sophie",
+   "count": 1
+  },
+  {
+   "name": "physician",
+   "count": 1
+  },
+  {
+   "name": "formation",
+   "count": 1
+  },
+  {
+   "name": "involvement",
+   "count": 1
+  },
+  {
+   "name": "bias",
+   "count": 1
+  },
+  {
+   "name": "apparent",
+   "count": 1
+  },
+  {
+   "name": "apparent personality",
+   "count": 1
+  },
+  {
+   "name": "reinforcement",
+   "count": 1
+  },
+  {
+   "name": "pz",
+   "count": 1
+  },
+  {
+   "name": "dynamic image",
+   "count": 1
+  },
+  {
+   "name": "extract",
+   "count": 1
+  },
+  {
+   "name": "hotspot",
+   "count": 1
+  },
+  {
+   "name": "car",
+   "count": 1
+  },
+  {
+   "name": "car design",
+   "count": 1
+  },
+  {
+   "name": "implicit",
+   "count": 1
+  },
+  {
+   "name": "emotional similarity",
+   "count": 1
+  },
+  {
+   "name": "mediated",
+   "count": 1
+  },
+  {
+   "name": "send",
+   "count": 1
+  },
+  {
+   "name": "induced",
+   "count": 1
+  },
+  {
+   "name": "induced emotion",
+   "count": 1
+  },
+  {
+   "name": "among",
+   "count": 1
+  },
+  {
+   "name": "symptom",
+   "count": 1
+  },
+  {
+   "name": "schizophrenia",
+   "count": 1
+  },
+  {
+   "name": "person specific",
+   "count": 1
+  },
+  {
+   "name": "shyness",
+   "count": 1
+  },
+  {
+   "name": "shyness trait",
+   "count": 1
+  },
+  {
+   "name": "coppelia",
+   "count": 1
+  },
+  {
+   "name": "silicon",
+   "count": 1
+  },
+  {
+   "name": "silicon coppelia",
+   "count": 1
+  },
+  {
+   "name": "mdmo feature",
+   "count": 1
+  },
+  {
+   "name": "sparse",
+   "count": 2
+  },
+  {
+   "name": "dgcnn",
+   "count": 1
+  },
+  {
+   "name": "sparse dgcnn",
+   "count": 1
+  },
+  {
+   "name": "band",
+   "count": 1
+  },
+  {
+   "name": "th",
+   "count": 1
+  },
+  {
+   "name": "th cnn",
+   "count": 1
+  },
+  {
+   "name": "csg",
+   "count": 1
+  },
+  {
+   "name": "csg emo",
+   "count": 1
+  },
+  {
+   "name": "body gesture",
+   "count": 1
+  },
+  {
+   "name": "style",
+   "count": 1
+  },
+  {
+   "name": "load",
+   "count": 1
+  },
+  {
+   "name": "type",
+   "count": 1
+  },
+  {
+   "name": "load level",
+   "count": 1
+  },
+  {
+   "name": "matchnmingle",
+   "count": 1
+  },
+  {
+   "name": "feedback",
+   "count": 1
+  },
+  {
+   "name": "trust",
+   "count": 1
+  },
+  {
+   "name": "general",
+   "count": 1
+  },
+  {
+   "name": "musician",
+   "count": 1
+  },
+  {
+   "name": "acorn",
+   "count": 1
+  },
+  {
+   "name": "pc",
+   "count": 1
+  },
+  {
+   "name": "coder",
+   "count": 1
+  },
+  {
+   "name": "member",
+   "count": 1
+  },
+  {
+   "name": "audience member",
+   "count": 1
+  },
+  {
+   "name": "sensor",
+   "count": 1
+  },
+  {
+   "name": "aggregated",
+   "count": 1
+  },
+  {
+   "name": "aggregated ear",
+   "count": 1
+  },
+  {
+   "name": "automation",
+   "count": 1
+  },
+  {
+   "name": "pressure",
+   "count": 1
+  },
+  {
+   "name": "pulse",
+   "count": 1
+  },
+  {
+   "name": "arousal valence",
+   "count": 1
+  },
+  {
+   "name": "plane",
+   "count": 1
+  },
+  {
+   "name": "circular",
+   "count": 1
+  },
+  {
+   "name": "branch",
+   "count": 1
+  },
+  {
+   "name": "element",
+   "count": 1
+  },
+  {
+   "name": "ii",
+   "count": 1
+  }
+ ]
+}

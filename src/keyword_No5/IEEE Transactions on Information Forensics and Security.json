@@ -1,0 +1,14204 @@
+{
+ "terms": [
+  {
+   "name": "signature",
+   "count": 28
+  },
+  {
+   "name": "phase",
+   "count": 9
+  },
+  {
+   "name": "use",
+   "count": 125
+  },
+  {
+   "name": "algorithm",
+   "count": 127
+  },
+  {
+   "name": "forgery",
+   "count": 10
+  },
+  {
+   "name": "watermark",
+   "count": 28
+  },
+  {
+   "name": "compression",
+   "count": 24
+  },
+  {
+   "name": "constraint",
+   "count": 12
+  },
+  {
+   "name": "hierarchy",
+   "count": 2
+  },
+  {
+   "name": "image",
+   "count": 301
+  },
+  {
+   "name": "hash",
+   "count": 21
+  },
+  {
+   "name": "perceptual",
+   "count": 3
+  },
+  {
+   "name": "clustering",
+   "count": 4
+  },
+  {
+   "name": "spread",
+   "count": 4
+  },
+  {
+   "name": "scs",
+   "count": 2
+  },
+  {
+   "name": "spectrum",
+   "count": 10
+  },
+  {
+   "name": "spread spectrum",
+   "count": 3
+  },
+  {
+   "name": "method",
+   "count": 173
+  },
+  {
+   "name": "similarity",
+   "count": 6
+  },
+  {
+   "name": "fingerprint",
+   "count": 104
+  },
+  {
+   "name": "feature",
+   "count": 157
+  },
+  {
+   "name": "triangle",
+   "count": 1
+  },
+  {
+   "name": "feature set",
+   "count": 2
+  },
+  {
+   "name": "authentication",
+   "count": 90
+  },
+  {
+   "name": "code",
+   "count": 52
+  },
+  {
+   "name": "secure",
+   "count": 23
+  },
+  {
+   "name": "approach",
+   "count": 106
+  },
+  {
+   "name": "based",
+   "count": 99
+  },
+  {
+   "name": "tex",
+   "count": 16
+  },
+  {
+   "name": "message",
+   "count": 38
+  },
+  {
+   "name": "tex tex",
+   "count": 1
+  },
+  {
+   "name": "amacs",
+   "count": 1
+  },
+  {
+   "name": "ary",
+   "count": 1
+  },
+  {
+   "name": "facial",
+   "count": 22
+  },
+  {
+   "name": "expression",
+   "count": 8
+  },
+  {
+   "name": "facial expression",
+   "count": 3
+  },
+  {
+   "name": "stream",
+   "count": 10
+  },
+  {
+   "name": "system",
+   "count": 128
+  },
+  {
+   "name": "collusion",
+   "count": 13
+  },
+  {
+   "name": "analyze",
+   "count": 5
+  },
+  {
+   "name": "multimedia",
+   "count": 4
+  },
+  {
+   "name": "user",
+   "count": 127
+  },
+  {
+   "name": "biometric",
+   "count": 83
+  },
+  {
+   "name": "security",
+   "count": 83
+  },
+  {
+   "name": "application",
+   "count": 26
+  },
+  {
+   "name": "identity",
+   "count": 12
+  },
+  {
+   "name": "issue",
+   "count": 6
+  },
+  {
+   "name": "noise",
+   "count": 22
+  },
+  {
+   "name": "lattice",
+   "count": 2
+  },
+  {
+   "name": "strategy",
+   "count": 14
+  },
+  {
+   "name": "attacker",
+   "count": 22
+  },
+  {
+   "name": "error",
+   "count": 20
+  },
+  {
+   "name": "steganalysis",
+   "count": 7
+  },
+  {
+   "name": "present",
+   "count": 4
+  },
+  {
+   "name": "video",
+   "count": 51
+  },
+  {
+   "name": "camera",
+   "count": 31
+  },
+  {
+   "name": "pattern",
+   "count": 13
+  },
+  {
+   "name": "pattern noise",
+   "count": 1
+  },
+  {
+   "name": "protection",
+   "count": 8
+  },
+  {
+   "name": "achieve",
+   "count": 17
+  },
+  {
+   "name": "channel",
+   "count": 187
+  },
+  {
+   "name": "content",
+   "count": 25
+  },
+  {
+   "name": "mask",
+   "count": 6
+  },
+  {
+   "name": "propose",
+   "count": 192
+  },
+  {
+   "name": "detector",
+   "count": 23
+  },
+  {
+   "name": "performance",
+   "count": 34
+  },
+  {
+   "name": "scheme",
+   "count": 205
+  },
+  {
+   "name": "endpoint",
+   "count": 1
+  },
+  {
+   "name": "transmission",
+   "count": 13
+  },
+  {
+   "name": "measurement",
+   "count": 6
+  },
+  {
+   "name": "network",
+   "count": 124
+  },
+  {
+   "name": "iris",
+   "count": 39
+  },
+  {
+   "name": "eyecert",
+   "count": 1
+  },
+  {
+   "name": "document",
+   "count": 9
+  },
+  {
+   "name": "asymmetry",
+   "count": 1
+  },
+  {
+   "name": "domain",
+   "count": 31
+  },
+  {
+   "name": "classification",
+   "count": 14
+  },
+  {
+   "name": "frequency",
+   "count": 16
+  },
+  {
+   "name": "finger",
+   "count": 14
+  },
+  {
+   "name": "fake",
+   "count": 6
+  },
+  {
+   "name": "fake finger",
+   "count": 1
+  },
+  {
+   "name": "distortion",
+   "count": 22
+  },
+  {
+   "name": "base",
+   "count": 51
+  },
+  {
+   "name": "data",
+   "count": 247
+  },
+  {
+   "name": "data base",
+   "count": 1
+  },
+  {
+   "name": "distance",
+   "count": 14
+  },
+  {
+   "name": "audio",
+   "count": 28
+  },
+  {
+   "name": "audio clip",
+   "count": 1
+  },
+  {
+   "name": "clip",
+   "count": 2
+  },
+  {
+   "name": "spectral",
+   "count": 3
+  },
+  {
+   "name": "password",
+   "count": 27
+  },
+  {
+   "name": "click",
+   "count": 1
+  },
+  {
+   "name": "click point",
+   "count": 1
+  },
+  {
+   "name": "discretization",
+   "count": 2
+  },
+  {
+   "name": "face",
+   "count": 156
+  },
+  {
+   "name": "measure",
+   "count": 8
+  },
+  {
+   "name": "recognition",
+   "count": 66
+  },
+  {
+   "name": "face recognition",
+   "count": 20
+  },
+  {
+   "name": "cod",
+   "count": 10
+  },
+  {
+   "name": "coding",
+   "count": 8
+  },
+  {
+   "name": "collusion resistance",
+   "count": 1
+  },
+  {
+   "name": "embed",
+   "count": 51
+  },
+  {
+   "name": "efficiency",
+   "count": 8
+  },
+  {
+   "name": "one",
+   "count": 8
+  },
+  {
+   "name": "and",
+   "count": 1
+  },
+  {
+   "name": "and scan",
+   "count": 1
+  },
+  {
+   "name": "multilevel",
+   "count": 1
+  },
+  {
+   "name": "agent",
+   "count": 8
+  },
+  {
+   "name": "plaintext",
+   "count": 4
+  },
+  {
+   "name": "show",
+   "count": 14
+  },
+  {
+   "name": "agent employ",
+   "count": 1
+  },
+  {
+   "name": "agent operate",
+   "count": 1
+  },
+  {
+   "name": "class",
+   "count": 21
+  },
+  {
+   "name": "identification",
+   "count": 43
+  },
+  {
+   "name": "match",
+   "count": 9
+  },
+  {
+   "name": "hand",
+   "count": 9
+  },
+  {
+   "name": "geometry",
+   "count": 5
+  },
+  {
+   "name": "hand geometry",
+   "count": 4
+  },
+  {
+   "name": "tesla",
+   "count": 1
+  },
+  {
+   "name": "multicast",
+   "count": 1
+  },
+  {
+   "name": "key",
+   "count": 123
+  },
+  {
+   "name": "attack",
+   "count": 294
+  },
+  {
+   "name": "reversible",
+   "count": 2
+  },
+  {
+   "name": "vq",
+   "count": 1
+  },
+  {
+   "name": "framework",
+   "count": 22
+  },
+  {
+   "name": "hashing",
+   "count": 6
+  },
+  {
+   "name": "dither",
+   "count": 1
+  },
+  {
+   "name": "signal",
+   "count": 57
+  },
+  {
+   "name": "watermarked",
+   "count": 3
+  },
+  {
+   "name": "watermarked signal",
+   "count": 1
+  },
+  {
+   "name": "dither signal",
+   "count": 1
+  },
+  {
+   "name": "ar",
+   "count": 1
+  },
+  {
+   "name": "model",
+   "count": 101
+  },
+  {
+   "name": "host",
+   "count": 11
+  },
+  {
+   "name": "white",
+   "count": 2
+  },
+  {
+   "name": "cover",
+   "count": 13
+  },
+  {
+   "name": "dependency",
+   "count": 1
+  },
+  {
+   "name": "hidden",
+   "count": 2
+  },
+  {
+   "name": "hidden message",
+   "count": 1
+  },
+  {
+   "name": "dental",
+   "count": 3
+  },
+  {
+   "name": "segmentation",
+   "count": 4
+  },
+  {
+   "name": "teeth",
+   "count": 2
+  },
+  {
+   "name": "teeth segmentation",
+   "count": 1
+  },
+  {
+   "name": "boneh",
+   "count": 1
+  },
+  {
+   "name": "boneh shaw",
+   "count": 1
+  },
+  {
+   "name": "ntmac",
+   "count": 2
+  },
+  {
+   "name": "crc",
+   "count": 1
+  },
+  {
+   "name": "crc ntmac",
+   "count": 1
+  },
+  {
+   "name": "authentication code",
+   "count": 2
+  },
+  {
+   "name": "message authentication",
+   "count": 1
+  },
+  {
+   "name": "risk",
+   "count": 4
+  },
+  {
+   "name": "paper",
+   "count": 13
+  },
+  {
+   "name": "selfish",
+   "count": 1
+  },
+  {
+   "name": "synchronization",
+   "count": 2
+  },
+  {
+   "name": "mark",
+   "count": 4
+  },
+  {
+   "name": "synchronization mark",
+   "count": 1
+  },
+  {
+   "name": "information",
+   "count": 81
+  },
+  {
+   "name": "warp",
+   "count": 1
+  },
+  {
+   "name": "range",
+   "count": 4
+  },
+  {
+   "name": "range image",
+   "count": 1
+  },
+  {
+   "name": "local",
+   "count": 20
+  },
+  {
+   "name": "point",
+   "count": 13
+  },
+  {
+   "name": "cloud",
+   "count": 66
+  },
+  {
+   "name": "parameterization",
+   "count": 1
+  },
+  {
+   "name": "geodesic",
+   "count": 1
+  },
+  {
+   "name": "plate",
+   "count": 1
+  },
+  {
+   "name": "module",
+   "count": 2
+  },
+  {
+   "name": "cascade",
+   "count": 2
+  },
+  {
+   "name": "quality",
+   "count": 19
+  },
+  {
+   "name": "fingerprint image",
+   "count": 4
+  },
+  {
+   "name": "image quality",
+   "count": 3
+  },
+  {
+   "name": "function",
+   "count": 10
+  },
+  {
+   "name": "detection",
+   "count": 109
+  },
+  {
+   "name": "give",
+   "count": 1
+  },
+  {
+   "name": "robustness",
+   "count": 5
+  },
+  {
+   "name": "matching",
+   "count": 6
+  },
+  {
+   "name": "optimal",
+   "count": 13
+  },
+  {
+   "name": "alignment",
+   "count": 2
+  },
+  {
+   "name": "robust",
+   "count": 5
+  },
+  {
+   "name": "change",
+   "count": 11
+  },
+  {
+   "name": "change track",
+   "count": 1
+  },
+  {
+   "name": "track",
+   "count": 2
+  },
+  {
+   "name": "dnmf",
+   "count": 1
+  },
+  {
+   "name": "algorithm employ",
+   "count": 1
+  },
+  {
+   "name": "subspace",
+   "count": 7
+  },
+  {
+   "name": "matrix",
+   "count": 14
+  },
+  {
+   "name": "supervised",
+   "count": 2
+  },
+  {
+   "name": "work",
+   "count": 2
+  },
+  {
+   "name": "minutia",
+   "count": 13
+  },
+  {
+   "name": "database",
+   "count": 41
+  },
+  {
+   "name": "delaunay",
+   "count": 2
+  },
+  {
+   "name": "pixel",
+   "count": 15
+  },
+  {
+   "name": "iris image",
+   "count": 3
+  },
+  {
+   "name": "group",
+   "count": 20
+  },
+  {
+   "name": "key management",
+   "count": 2
+  },
+  {
+   "name": "management",
+   "count": 3
+  },
+  {
+   "name": "feature vector",
+   "count": 1
+  },
+  {
+   "name": "characteristic",
+   "count": 6
+  },
+  {
+   "name": "two",
+   "count": 22
+  },
+  {
+   "name": "bound",
+   "count": 10
+  },
+  {
+   "name": "discriminant",
+   "count": 6
+  },
+  {
+   "name": "kernel",
+   "count": 8
+  },
+  {
+   "name": "problem",
+   "count": 37
+  },
+  {
+   "name": "large",
+   "count": 9
+  },
+  {
+   "name": "technique",
+   "count": 33
+  },
+  {
+   "name": "watermarking",
+   "count": 17
+  },
+  {
+   "name": "face detection",
+   "count": 1
+  },
+  {
+   "name": "component",
+   "count": 18
+  },
+  {
+   "name": "aac",
+   "count": 1
+  },
+  {
+   "name": "capture",
+   "count": 6
+  },
+  {
+   "name": "decoding",
+   "count": 2
+  },
+  {
+   "name": "traffic",
+   "count": 16
+  },
+  {
+   "name": "inject",
+   "count": 1
+  },
+  {
+   "name": "inject traffic",
+   "count": 1
+  },
+  {
+   "name": "cover image",
+   "count": 3
+  },
+  {
+   "name": "assumption",
+   "count": 6
+  },
+  {
+   "name": "bias",
+   "count": 3
+  },
+  {
+   "name": "detect",
+   "count": 31
+  },
+  {
+   "name": "relationship",
+   "count": 2
+  },
+  {
+   "name": "anomalous",
+   "count": 1
+  },
+  {
+   "name": "interference",
+   "count": 6
+  },
+  {
+   "name": "host interference",
+   "count": 1
+  },
+  {
+   "name": "digital",
+   "count": 18
+  },
+  {
+   "name": "light",
+   "count": 4
+  },
+  {
+   "name": "approximate",
+   "count": 2
+  },
+  {
+   "name": "approximate complex",
+   "count": 1
+  },
+  {
+   "name": "correlation",
+   "count": 9
+  },
+  {
+   "name": "face image",
+   "count": 10
+  },
+  {
+   "name": "person",
+   "count": 9
+  },
+  {
+   "name": "template",
+   "count": 18
+  },
+  {
+   "name": "transform",
+   "count": 6
+  },
+  {
+   "name": "silhouette",
+   "count": 1
+  },
+  {
+   "name": "2dpca",
+   "count": 1
+  },
+  {
+   "name": "analysis",
+   "count": 50
+  },
+  {
+   "name": "tooth",
+   "count": 1
+  },
+  {
+   "name": "radiograph",
+   "count": 1
+  },
+  {
+   "name": "graph",
+   "count": 16
+  },
+  {
+   "name": "discriminant feature",
+   "count": 1
+  },
+  {
+   "name": "cycle",
+   "count": 2
+  },
+  {
+   "name": "wireless",
+   "count": 9
+  },
+  {
+   "name": "dimensionality",
+   "count": 3
+  },
+  {
+   "name": "filter",
+   "count": 12
+  },
+  {
+   "name": "side",
+   "count": 14
+  },
+  {
+   "name": "side channel",
+   "count": 6
+  },
+  {
+   "name": "device",
+   "count": 60
+  },
+  {
+   "name": "employ",
+   "count": 1
+  },
+  {
+   "name": "identify",
+   "count": 8
+  },
+  {
+   "name": "optical",
+   "count": 3
+  },
+  {
+   "name": "optical watermark",
+   "count": 1
+  },
+  {
+   "name": "probability",
+   "count": 10
+  },
+  {
+   "name": "empirical",
+   "count": 1
+  },
+  {
+   "name": "empirical moment",
+   "count": 1
+  },
+  {
+   "name": "jnd",
+   "count": 1
+  },
+  {
+   "name": "property",
+   "count": 4
+  },
+  {
+   "name": "sup",
+   "count": 18
+  },
+  {
+   "name": "line",
+   "count": 8
+  },
+  {
+   "name": "dc",
+   "count": 1
+  },
+  {
+   "name": "qim",
+   "count": 3
+  },
+  {
+   "name": "also",
+   "count": 9
+  },
+  {
+   "name": "practical",
+   "count": 2
+  },
+  {
+   "name": "secure sketch",
+   "count": 1
+  },
+  {
+   "name": "angle",
+   "count": 3
+  },
+  {
+   "name": "liveness",
+   "count": 4
+  },
+  {
+   "name": "set",
+   "count": 21
+  },
+  {
+   "name": "time",
+   "count": 25
+  },
+  {
+   "name": "map",
+   "count": 5
+  },
+  {
+   "name": "coordinate",
+   "count": 2
+  },
+  {
+   "name": "block",
+   "count": 20
+  },
+  {
+   "name": "high",
+   "count": 17
+  },
+  {
+   "name": "latent",
+   "count": 11
+  },
+  {
+   "name": "detail",
+   "count": 1
+  },
+  {
+   "name": "good",
+   "count": 1
+  },
+  {
+   "name": "insider",
+   "count": 5
+  },
+  {
+   "name": "node",
+   "count": 45
+  },
+  {
+   "name": "jet",
+   "count": 1
+  },
+  {
+   "name": "gait",
+   "count": 21
+  },
+  {
+   "name": "gait recognition",
+   "count": 1
+  },
+  {
+   "name": "subject",
+   "count": 7
+  },
+  {
+   "name": "evidence",
+   "count": 1
+  },
+  {
+   "name": "prc",
+   "count": 1
+  },
+  {
+   "name": "bit",
+   "count": 31
+  },
+  {
+   "name": "bit plane",
+   "count": 1
+  },
+  {
+   "name": "pose",
+   "count": 9
+  },
+  {
+   "name": "parameter",
+   "count": 9
+  },
+  {
+   "name": "mesh",
+   "count": 3
+  },
+  {
+   "name": "communication",
+   "count": 30
+  },
+  {
+   "name": "layer",
+   "count": 12
+  },
+  {
+   "name": "relay",
+   "count": 33
+  },
+  {
+   "name": "adversarial",
+   "count": 21
+  },
+  {
+   "name": "image hashing",
+   "count": 3
+  },
+  {
+   "name": "valumetric",
+   "count": 1
+  },
+  {
+   "name": "fidelity",
+   "count": 1
+  },
+  {
+   "name": "svm",
+   "count": 1
+  },
+  {
+   "name": "bayesian",
+   "count": 2
+  },
+  {
+   "name": "curve",
+   "count": 6
+  },
+  {
+   "name": "dynamic",
+   "count": 18
+  },
+  {
+   "name": "protocol",
+   "count": 67
+  },
+  {
+   "name": "web",
+   "count": 5
+  },
+  {
+   "name": "buyer",
+   "count": 5
+  },
+  {
+   "name": "ear",
+   "count": 3
+  },
+  {
+   "name": "seller",
+   "count": 2
+  },
+  {
+   "name": "search",
+   "count": 14
+  },
+  {
+   "name": "iris code",
+   "count": 2
+  },
+  {
+   "name": "ridge",
+   "count": 4
+  },
+  {
+   "name": "sensor",
+   "count": 26
+  },
+  {
+   "name": "mobile",
+   "count": 17
+  },
+  {
+   "name": "difference",
+   "count": 4
+  },
+  {
+   "name": "expansion",
+   "count": 2
+  },
+  {
+   "name": "difference expansion",
+   "count": 1
+  },
+  {
+   "name": "expansion method",
+   "count": 1
+  },
+  {
+   "name": "region",
+   "count": 22
+  },
+  {
+   "name": "result",
+   "count": 22
+  },
+  {
+   "name": "3d",
+   "count": 19
+  },
+  {
+   "name": "score",
+   "count": 10
+  },
+  {
+   "name": "geometric",
+   "count": 5
+  },
+  {
+   "name": "geometric distortion",
+   "count": 1
+  },
+  {
+   "name": "value",
+   "count": 6
+  },
+  {
+   "name": "level",
+   "count": 25
+  },
+  {
+   "name": "assess",
+   "count": 1
+  },
+  {
+   "name": "assess demonstrate",
+   "count": 1
+  },
+  {
+   "name": "architecture",
+   "count": 14
+  },
+  {
+   "name": "chart",
+   "count": 1
+  },
+  {
+   "name": "dental chart",
+   "count": 1
+  },
+  {
+   "name": "interpolation",
+   "count": 3
+  },
+  {
+   "name": "resampling",
+   "count": 1
+  },
+  {
+   "name": "capable",
+   "count": 2
+  },
+  {
+   "name": "chaotic",
+   "count": 2
+  },
+  {
+   "name": "speech",
+   "count": 9
+  },
+  {
+   "name": "para",
+   "count": 2
+  },
+  {
+   "name": "dsa",
+   "count": 2
+  },
+  {
+   "name": "extraction",
+   "count": 4
+  },
+  {
+   "name": "feature extraction",
+   "count": 1
+  },
+  {
+   "name": "color",
+   "count": 9
+  },
+  {
+   "name": "cryptographic",
+   "count": 10
+  },
+  {
+   "name": "cost",
+   "count": 20
+  },
+  {
+   "name": "intrusion",
+   "count": 9
+  },
+  {
+   "name": "intrusion detection",
+   "count": 3
+  },
+  {
+   "name": "jpeg",
+   "count": 20
+  },
+  {
+   "name": "vector",
+   "count": 8
+  },
+  {
+   "name": "accurate",
+   "count": 4
+  },
+  {
+   "name": "test",
+   "count": 16
+  },
+  {
+   "name": "prnu",
+   "count": 7
+  },
+  {
+   "name": "dust",
+   "count": 1
+  },
+  {
+   "name": "lens",
+   "count": 2
+  },
+  {
+   "name": "dust spot",
+   "count": 1
+  },
+  {
+   "name": "frames",
+   "count": 1
+  },
+  {
+   "name": "ac",
+   "count": 3
+  },
+  {
+   "name": "intrinsic",
+   "count": 2
+  },
+  {
+   "name": "flow",
+   "count": 13
+  },
+  {
+   "name": "fusion",
+   "count": 21
+  },
+  {
+   "name": "center",
+   "count": 4
+  },
+  {
+   "name": "fusion center",
+   "count": 2
+  },
+  {
+   "name": "secret",
+   "count": 40
+  },
+  {
+   "name": "without",
+   "count": 1
+  },
+  {
+   "name": "location",
+   "count": 20
+  },
+  {
+   "name": "challenge",
+   "count": 6
+  },
+  {
+   "name": "awareness",
+   "count": 1
+  },
+  {
+   "name": "fragile",
+   "count": 1
+  },
+  {
+   "name": "fuse",
+   "count": 2
+  },
+  {
+   "name": "bipartite",
+   "count": 1
+  },
+  {
+   "name": "bipartite graph",
+   "count": 1
+  },
+  {
+   "name": "article",
+   "count": 2
+  },
+  {
+   "name": "article special",
+   "count": 1
+  },
+  {
+   "name": "focus",
+   "count": 1
+  },
+  {
+   "name": "focus statistical",
+   "count": 1
+  },
+  {
+   "name": "forensics",
+   "count": 2
+  },
+  {
+   "name": "forensic",
+   "count": 18
+  },
+  {
+   "name": "benchmark",
+   "count": 2
+  },
+  {
+   "name": "linear",
+   "count": 5
+  },
+  {
+   "name": "wavelet",
+   "count": 2
+  },
+  {
+   "name": "insert",
+   "count": 1
+  },
+  {
+   "name": "color space",
+   "count": 1
+  },
+  {
+   "name": "space",
+   "count": 5
+  },
+  {
+   "name": "client",
+   "count": 18
+  },
+  {
+   "name": "double",
+   "count": 8
+  },
+  {
+   "name": "compressed",
+   "count": 2
+  },
+  {
+   "name": "single",
+   "count": 2
+  },
+  {
+   "name": "multiscale",
+   "count": 1
+  },
+  {
+   "name": "link",
+   "count": 15
+  },
+  {
+   "name": "rfr",
+   "count": 1
+  },
+  {
+   "name": "power",
+   "count": 37
+  },
+  {
+   "name": "client server",
+   "count": 1
+  },
+  {
+   "name": "server",
+   "count": 14
+  },
+  {
+   "name": "encode",
+   "count": 2
+  },
+  {
+   "name": "copy",
+   "count": 10
+  },
+  {
+   "name": "break",
+   "count": 2
+  },
+  {
+   "name": "permutation",
+   "count": 3
+  },
+  {
+   "name": "reorder",
+   "count": 1
+  },
+  {
+   "name": "accuracy",
+   "count": 20
+  },
+  {
+   "name": "fingerprint recognition",
+   "count": 1
+  },
+  {
+   "name": "design",
+   "count": 39
+  },
+  {
+   "name": "physical",
+   "count": 5
+  },
+  {
+   "name": "alert",
+   "count": 3
+  },
+  {
+   "name": "attack track",
+   "count": 1
+  },
+  {
+   "name": "ids",
+   "count": 5
+  },
+  {
+   "name": "dft",
+   "count": 3
+  },
+  {
+   "name": "dft rdm",
+   "count": 1
+  },
+  {
+   "name": "rdm",
+   "count": 2
+  },
+  {
+   "name": "view",
+   "count": 7
+  },
+  {
+   "name": "label",
+   "count": 6
+  },
+  {
+   "name": "regressor",
+   "count": 1
+  },
+  {
+   "name": "sample",
+   "count": 19
+  },
+  {
+   "name": "access",
+   "count": 40
+  },
+  {
+   "name": "collision",
+   "count": 5
+  },
+  {
+   "name": "terminal",
+   "count": 1
+  },
+  {
+   "name": "semifragile",
+   "count": 1
+  },
+  {
+   "name": "integrity",
+   "count": 11
+  },
+  {
+   "name": "cooperation",
+   "count": 2
+  },
+  {
+   "name": "game",
+   "count": 18
+  },
+  {
+   "name": "devise",
+   "count": 1
+  },
+  {
+   "name": "rout",
+   "count": 3
+  },
+  {
+   "name": "rout information",
+   "count": 1
+  },
+  {
+   "name": "internet",
+   "count": 6
+  },
+  {
+   "name": "ravs",
+   "count": 1
+  },
+  {
+   "name": "secret key",
+   "count": 10
+  },
+  {
+   "name": "formula",
+   "count": 19
+  },
+  {
+   "name": "mlsb",
+   "count": 2
+  },
+  {
+   "name": "rate",
+   "count": 45
+  },
+  {
+   "name": "compromise",
+   "count": 1
+  },
+  {
+   "name": "biometric data",
+   "count": 1
+  },
+  {
+   "name": "capacity",
+   "count": 31
+  },
+  {
+   "name": "compress",
+   "count": 4
+  },
+  {
+   "name": "encrypt",
+   "count": 6
+  },
+  {
+   "name": "source",
+   "count": 33
+  },
+  {
+   "name": "combination",
+   "count": 2
+  },
+  {
+   "name": "combination method",
+   "count": 1
+  },
+  {
+   "name": "sound",
+   "count": 3
+  },
+  {
+   "name": "game theoretical",
+   "count": 1
+  },
+  {
+   "name": "control",
+   "count": 18
+  },
+  {
+   "name": "control flow",
+   "count": 1
+  },
+  {
+   "name": "obfuscation",
+   "count": 6
+  },
+  {
+   "name": "program",
+   "count": 9
+  },
+  {
+   "name": "hypothesis",
+   "count": 3
+  },
+  {
+   "name": "correlation structure",
+   "count": 1
+  },
+  {
+   "name": "structure",
+   "count": 8
+  },
+  {
+   "name": "false",
+   "count": 4
+  },
+  {
+   "name": "describe",
+   "count": 2
+  },
+  {
+   "name": "seat",
+   "count": 1
+  },
+  {
+   "name": "different",
+   "count": 30
+  },
+  {
+   "name": "human",
+   "count": 7
+  },
+  {
+   "name": "demosaicing",
+   "count": 1
+  },
+  {
+   "name": "demosaicing algorithm",
+   "count": 1
+  },
+  {
+   "name": "adversary",
+   "count": 16
+  },
+  {
+   "name": "scenario",
+   "count": 2
+  },
+  {
+   "name": "designer",
+   "count": 1
+  },
+  {
+   "name": "surveillance",
+   "count": 7
+  },
+  {
+   "name": "distribution",
+   "count": 20
+  },
+  {
+   "name": "host distribution",
+   "count": 1
+  },
+  {
+   "name": "malware",
+   "count": 28
+  },
+  {
+   "name": "scanning",
+   "count": 1
+  },
+  {
+   "name": "construction",
+   "count": 10
+  },
+  {
+   "name": "zhang",
+   "count": 1
+  },
+  {
+   "name": "zzw",
+   "count": 1
+  },
+  {
+   "name": "10th",
+   "count": 1
+  },
+  {
+   "name": "side information",
+   "count": 2
+  },
+  {
+   "name": "fusion algorithm",
+   "count": 1
+  },
+  {
+   "name": "evaluation",
+   "count": 7
+  },
+  {
+   "name": "leakage",
+   "count": 19
+  },
+  {
+   "name": "privacy",
+   "count": 115
+  },
+  {
+   "name": "privacy leakage",
+   "count": 2
+  },
+  {
+   "name": "audit",
+   "count": 10
+  },
+  {
+   "name": "stage",
+   "count": 7
+  },
+  {
+   "name": "count",
+   "count": 3
+  },
+  {
+   "name": "outcome",
+   "count": 2
+  },
+  {
+   "name": "sybil",
+   "count": 2
+  },
+  {
+   "name": "number",
+   "count": 15
+  },
+  {
+   "name": "cover signal",
+   "count": 1
+  },
+  {
+   "name": "response",
+   "count": 8
+  },
+  {
+   "name": "software",
+   "count": 11
+  },
+  {
+   "name": "motion",
+   "count": 9
+  },
+  {
+   "name": "frame",
+   "count": 8
+  },
+  {
+   "name": "video stream",
+   "count": 1
+  },
+  {
+   "name": "voting",
+   "count": 4
+  },
+  {
+   "name": "election",
+   "count": 6
+  },
+  {
+   "name": "formal",
+   "count": 2
+  },
+  {
+   "name": "provote",
+   "count": 1
+  },
+  {
+   "name": "image source",
+   "count": 1
+  },
+  {
+   "name": "batch",
+   "count": 5
+  },
+  {
+   "name": "trinomial",
+   "count": 1
+  },
+  {
+   "name": "receipt",
+   "count": 2
+  },
+  {
+   "name": "machine",
+   "count": 7
+  },
+  {
+   "name": "make",
+   "count": 2
+  },
+  {
+   "name": "recognizability",
+   "count": 1
+  },
+  {
+   "name": "compression quality",
+   "count": 1
+  },
+  {
+   "name": "partial",
+   "count": 4
+  },
+  {
+   "name": "address",
+   "count": 12
+  },
+  {
+   "name": "dslda",
+   "count": 1
+  },
+  {
+   "name": "dslda method",
+   "count": 1
+  },
+  {
+   "name": "fht",
+   "count": 1
+  },
+  {
+   "name": "projection",
+   "count": 2
+  },
+  {
+   "name": "representation",
+   "count": 11
+  },
+  {
+   "name": "spectral minutia",
+   "count": 1
+  },
+  {
+   "name": "fingerprinting",
+   "count": 5
+  },
+  {
+   "name": "achievable",
+   "count": 8
+  },
+  {
+   "name": "code family",
+   "count": 1
+  },
+  {
+   "name": "family",
+   "count": 3
+  },
+  {
+   "name": "payload",
+   "count": 5
+  },
+  {
+   "name": "share",
+   "count": 21
+  },
+  {
+   "name": "visual",
+   "count": 6
+  },
+  {
+   "name": "diffusion",
+   "count": 3
+  },
+  {
+   "name": "scaling",
+   "count": 2
+  },
+  {
+   "name": "apply",
+   "count": 4
+  },
+  {
+   "name": "idss",
+   "count": 2
+  },
+  {
+   "name": "multiple",
+   "count": 15
+  },
+  {
+   "name": "spectral range",
+   "count": 1
+  },
+  {
+   "name": "broadband",
+   "count": 1
+  },
+  {
+   "name": "scanner",
+   "count": 4
+  },
+  {
+   "name": "scan",
+   "count": 7
+  },
+  {
+   "name": "level fusion",
+   "count": 2
+  },
+  {
+   "name": "active",
+   "count": 10
+  },
+  {
+   "name": "party",
+   "count": 11
+  },
+  {
+   "name": "case",
+   "count": 26
+  },
+  {
+   "name": "emphasis",
+   "count": 1
+  },
+  {
+   "name": "boldital",
+   "count": 1
+  },
+  {
+   "name": "comparison",
+   "count": 6
+  },
+  {
+   "name": "band",
+   "count": 7
+  },
+  {
+   "name": "color band",
+   "count": 1
+  },
+  {
+   "name": "behaviour",
+   "count": 1
+  },
+  {
+   "name": "dos",
+   "count": 3
+  },
+  {
+   "name": "manets",
+   "count": 1
+  },
+  {
+   "name": "certification",
+   "count": 2
+  },
+  {
+   "name": "self",
+   "count": 1
+  },
+  {
+   "name": "desynchronization",
+   "count": 2
+  },
+  {
+   "name": "estimation",
+   "count": 24
+  },
+  {
+   "name": "deterministic",
+   "count": 4
+  },
+  {
+   "name": "randomization",
+   "count": 3
+  },
+  {
+   "name": "randomized",
+   "count": 1
+  },
+  {
+   "name": "fourier",
+   "count": 1
+  },
+  {
+   "name": "radix",
+   "count": 1
+  },
+  {
+   "name": "claim",
+   "count": 3
+  },
+  {
+   "name": "pair",
+   "count": 8
+  },
+  {
+   "name": "binary",
+   "count": 13
+  },
+  {
+   "name": "iris recognition",
+   "count": 7
+  },
+  {
+   "name": "fpga",
+   "count": 4
+  },
+  {
+   "name": "bit error",
+   "count": 1
+  },
+  {
+   "name": "derive",
+   "count": 4
+  },
+  {
+   "name": "noise distribution",
+   "count": 1
+  },
+  {
+   "name": "surface",
+   "count": 5
+  },
+  {
+   "name": "approach personal",
+   "count": 1
+  },
+  {
+   "name": "card",
+   "count": 2
+  },
+  {
+   "name": "remote",
+   "count": 5
+  },
+  {
+   "name": "voter",
+   "count": 5
+  },
+  {
+   "name": "end",
+   "count": 5
+  },
+  {
+   "name": "intermediate",
+   "count": 2
+  },
+  {
+   "name": "intermediate hash",
+   "count": 1
+  },
+  {
+   "name": "hash value",
+   "count": 2
+  },
+  {
+   "name": "colluders",
+   "count": 4
+  },
+  {
+   "name": "focused",
+   "count": 1
+  },
+  {
+   "name": "cluster",
+   "count": 12
+  },
+  {
+   "name": "critical",
+   "count": 5
+  },
+  {
+   "name": "ballot",
+   "count": 4
+  },
+  {
+   "name": "confirmation",
+   "count": 1
+  },
+  {
+   "name": "confirmation code",
+   "count": 1
+  },
+  {
+   "name": "rating",
+   "count": 7
+  },
+  {
+   "name": "unfair",
+   "count": 1
+  },
+  {
+   "name": "unfair rating",
+   "count": 1
+  },
+  {
+   "name": "electoral",
+   "count": 1
+  },
+  {
+   "name": "secret image",
+   "count": 2
+  },
+  {
+   "name": "reconstructed",
+   "count": 1
+  },
+  {
+   "name": "vote",
+   "count": 1
+  },
+  {
+   "name": "rank",
+   "count": 4
+  },
+  {
+   "name": "secret parameter",
+   "count": 1
+  },
+  {
+   "name": "procedure",
+   "count": 1
+  },
+  {
+   "name": "os",
+   "count": 2
+  },
+  {
+   "name": "connecticut",
+   "count": 1
+  },
+  {
+   "name": "yass",
+   "count": 2
+  },
+  {
+   "name": "yass algorithm",
+   "count": 1
+  },
+  {
+   "name": "spv",
+   "count": 1
+  },
+  {
+   "name": "tpm",
+   "count": 3
+  },
+  {
+   "name": "cepstrum",
+   "count": 2
+  },
+  {
+   "name": "derivative",
+   "count": 1
+  },
+  {
+   "name": "mel",
+   "count": 1
+  },
+  {
+   "name": "board",
+   "count": 1
+  },
+  {
+   "name": "bulletin",
+   "count": 1
+  },
+  {
+   "name": "uvw",
+   "count": 1
+  },
+  {
+   "name": "commitment",
+   "count": 1
+  },
+  {
+   "name": "pav",
+   "count": 1
+  },
+  {
+   "name": "ps",
+   "count": 2
+  },
+  {
+   "name": "ga",
+   "count": 2
+  },
+  {
+   "name": "order",
+   "count": 10
+  },
+  {
+   "name": "confidentiality",
+   "count": 1
+  },
+  {
+   "name": "downlink",
+   "count": 1
+  },
+  {
+   "name": "uplink",
+   "count": 1
+  },
+  {
+   "name": "nap",
+   "count": 1
+  },
+  {
+   "name": "jfa",
+   "count": 1
+  },
+  {
+   "name": "speaker",
+   "count": 6
+  },
+  {
+   "name": "variability",
+   "count": 1
+  },
+  {
+   "name": "spam",
+   "count": 4
+  },
+  {
+   "name": "image spam",
+   "count": 1
+  },
+  {
+   "name": "bep",
+   "count": 1
+  },
+  {
+   "name": "gaussian",
+   "count": 6
+  },
+  {
+   "name": "learn",
+   "count": 13
+  },
+  {
+   "name": "hybrid",
+   "count": 2
+  },
+  {
+   "name": "appropriate",
+   "count": 1
+  },
+  {
+   "name": "bit rate",
+   "count": 2
+  },
+  {
+   "name": "steganography",
+   "count": 5
+  },
+  {
+   "name": "medium",
+   "count": 6
+  },
+  {
+   "name": "type",
+   "count": 4
+  },
+  {
+   "name": "bsw",
+   "count": 1
+  },
+  {
+   "name": "anonymous",
+   "count": 4
+  },
+  {
+   "name": "bsw protocol",
+   "count": 1
+  },
+  {
+   "name": "dct",
+   "count": 7
+  },
+  {
+   "name": "embedding",
+   "count": 6
+  },
+  {
+   "name": "pseudo",
+   "count": 1
+  },
+  {
+   "name": "p2p",
+   "count": 3
+  },
+  {
+   "name": "miss",
+   "count": 2
+  },
+  {
+   "name": "modality",
+   "count": 11
+  },
+  {
+   "name": "miss modality",
+   "count": 1
+  },
+  {
+   "name": "contract",
+   "count": 4
+  },
+  {
+   "name": "fair",
+   "count": 1
+  },
+  {
+   "name": "file",
+   "count": 19
+  },
+  {
+   "name": "classifier",
+   "count": 14
+  },
+  {
+   "name": "find",
+   "count": 5
+  },
+  {
+   "name": "facial video",
+   "count": 1
+  },
+  {
+   "name": "security performance",
+   "count": 1
+  },
+  {
+   "name": "fingerprint individuality",
+   "count": 1
+  },
+  {
+   "name": "size",
+   "count": 3
+  },
+  {
+   "name": "enf",
+   "count": 15
+  },
+  {
+   "name": "mimo",
+   "count": 6
+  },
+  {
+   "name": "generation",
+   "count": 11
+  },
+  {
+   "name": "splice",
+   "count": 2
+  },
+  {
+   "name": "crf",
+   "count": 1
+  },
+  {
+   "name": "anomaly",
+   "count": 11
+  },
+  {
+   "name": "processing",
+   "count": 4
+  },
+  {
+   "name": "composite",
+   "count": 3
+  },
+  {
+   "name": "print",
+   "count": 2
+  },
+  {
+   "name": "albedo",
+   "count": 1
+  },
+  {
+   "name": "depth",
+   "count": 5
+  },
+  {
+   "name": "coefficient",
+   "count": 7
+  },
+  {
+   "name": "chip",
+   "count": 7
+  },
+  {
+   "name": "hardware",
+   "count": 14
+  },
+  {
+   "name": "trojans",
+   "count": 2
+  },
+  {
+   "name": "planar",
+   "count": 1
+  },
+  {
+   "name": "step",
+   "count": 5
+  },
+  {
+   "name": "automatic",
+   "count": 3
+  },
+  {
+   "name": "quantization",
+   "count": 6
+  },
+  {
+   "name": "artifact",
+   "count": 5
+  },
+  {
+   "name": "metric",
+   "count": 13
+  },
+  {
+   "name": "sub",
+   "count": 29
+  },
+  {
+   "name": "edge",
+   "count": 4
+  },
+  {
+   "name": "log",
+   "count": 4
+  },
+  {
+   "name": "log polar",
+   "count": 1
+  },
+  {
+   "name": "polar",
+   "count": 1
+  },
+  {
+   "name": "sub sub",
+   "count": 15
+  },
+  {
+   "name": "rotation",
+   "count": 1
+  },
+  {
+   "name": "rescale",
+   "count": 1
+  },
+  {
+   "name": "image rescale",
+   "count": 1
+  },
+  {
+   "name": "facial mark",
+   "count": 3
+  },
+  {
+   "name": "ghsa",
+   "count": 1
+  },
+  {
+   "name": "global",
+   "count": 1
+  },
+  {
+   "name": "global harmonic",
+   "count": 1
+  },
+  {
+   "name": "age",
+   "count": 25
+  },
+  {
+   "name": "gap",
+   "count": 2
+  },
+  {
+   "name": "mapping",
+   "count": 2
+  },
+  {
+   "name": "discriminability",
+   "count": 1
+  },
+  {
+   "name": "vulnerability",
+   "count": 6
+  },
+  {
+   "name": "human age",
+   "count": 1
+  },
+  {
+   "name": "estimate",
+   "count": 9
+  },
+  {
+   "name": "embed efficiency",
+   "count": 2
+  },
+  {
+   "name": "page",
+   "count": 2
+  },
+  {
+   "name": "distortion function",
+   "count": 2
+  },
+  {
+   "name": "render",
+   "count": 1
+  },
+  {
+   "name": "text",
+   "count": 8
+  },
+  {
+   "name": "character",
+   "count": 3
+  },
+  {
+   "name": "filtering",
+   "count": 4
+  },
+  {
+   "name": "frft",
+   "count": 1
+  },
+  {
+   "name": "encryption",
+   "count": 28
+  },
+  {
+   "name": "attenuation",
+   "count": 1
+  },
+  {
+   "name": "attenuation factor",
+   "count": 1
+  },
+  {
+   "name": "average",
+   "count": 8
+  },
+  {
+   "name": "factor",
+   "count": 6
+  },
+  {
+   "name": "memoryless",
+   "count": 1
+  },
+  {
+   "name": "symmetric",
+   "count": 1
+  },
+  {
+   "name": "fading",
+   "count": 2
+  },
+  {
+   "name": "process",
+   "count": 5
+  },
+  {
+   "name": "associate",
+   "count": 2
+  },
+  {
+   "name": "environment",
+   "count": 5
+  },
+  {
+   "name": "threat",
+   "count": 4
+  },
+  {
+   "name": "action",
+   "count": 7
+  },
+  {
+   "name": "image forensics",
+   "count": 1
+  },
+  {
+   "name": "tracker",
+   "count": 2
+  },
+  {
+   "name": "object",
+   "count": 16
+  },
+  {
+   "name": "candidate",
+   "count": 4
+  },
+  {
+   "name": "candidate tracker",
+   "count": 1
+  },
+  {
+   "name": "continuous",
+   "count": 5
+  },
+  {
+   "name": "ink",
+   "count": 1
+  },
+  {
+   "name": "ra",
+   "count": 1
+  },
+  {
+   "name": "me",
+   "count": 1
+  },
+  {
+   "name": "area",
+   "count": 8
+  },
+  {
+   "name": "technology",
+   "count": 2
+  },
+  {
+   "name": "carpy",
+   "count": 1
+  },
+  {
+   "name": "establishment",
+   "count": 2
+  },
+  {
+   "name": "key establishment",
+   "count": 2
+  },
+  {
+   "name": "rsa",
+   "count": 1
+  },
+  {
+   "name": "member",
+   "count": 4
+  },
+  {
+   "name": "proactive",
+   "count": 1
+  },
+  {
+   "name": "secrecy",
+   "count": 72
+  },
+  {
+   "name": "secrecy capacity",
+   "count": 3
+  },
+  {
+   "name": "eavesdropper",
+   "count": 36
+  },
+  {
+   "name": "social",
+   "count": 12
+  },
+  {
+   "name": "anonymity",
+   "count": 7
+  },
+  {
+   "name": "computing",
+   "count": 1
+  },
+  {
+   "name": "surgery",
+   "count": 1
+  },
+  {
+   "name": "plastic",
+   "count": 2
+  },
+  {
+   "name": "plastic surgery",
+   "count": 2
+  },
+  {
+   "name": "network feature",
+   "count": 1
+  },
+  {
+   "name": "peer",
+   "count": 1
+  },
+  {
+   "name": "sdt",
+   "count": 1
+  },
+  {
+   "name": "peer to",
+   "count": 1
+  },
+  {
+   "name": "attention",
+   "count": 7
+  },
+  {
+   "name": "change rate",
+   "count": 1
+  },
+  {
+   "name": "quotation",
+   "count": 1
+  },
+  {
+   "name": "efficient",
+   "count": 4
+  },
+  {
+   "name": "registration",
+   "count": 5
+  },
+  {
+   "name": "hiding",
+   "count": 1
+  },
+  {
+   "name": "roughness",
+   "count": 1
+  },
+  {
+   "name": "surface roughness",
+   "count": 1
+  },
+  {
+   "name": "method detect",
+   "count": 1
+  },
+  {
+   "name": "client side",
+   "count": 2
+  },
+  {
+   "name": "spn",
+   "count": 4
+  },
+  {
+   "name": "spns",
+   "count": 1
+  },
+  {
+   "name": "lsb",
+   "count": 2
+  },
+  {
+   "name": "vcs",
+   "count": 2
+  },
+  {
+   "name": "formula formulatype",
+   "count": 1
+  },
+  {
+   "name": "formulatype",
+   "count": 1
+  },
+  {
+   "name": "kpss",
+   "count": 1
+  },
+  {
+   "name": "complexity",
+   "count": 7
+  },
+  {
+   "name": "degree",
+   "count": 2
+  },
+  {
+   "name": "connection",
+   "count": 4
+  },
+  {
+   "name": "connection degree",
+   "count": 1
+  },
+  {
+   "name": "sketch",
+   "count": 9
+  },
+  {
+   "name": "lc",
+   "count": 1
+  },
+  {
+   "name": "lc approach",
+   "count": 1
+  },
+  {
+   "name": "blind",
+   "count": 1
+  },
+  {
+   "name": "blind watermark",
+   "count": 1
+  },
+  {
+   "name": "decoder",
+   "count": 2
+  },
+  {
+   "name": "buyer seller",
+   "count": 1
+  },
+  {
+   "name": "geometric transformation",
+   "count": 1
+  },
+  {
+   "name": "transformation",
+   "count": 5
+  },
+  {
+   "name": "jammer",
+   "count": 8
+  },
+  {
+   "name": "jammer relay",
+   "count": 1
+  },
+  {
+   "name": "recovered",
+   "count": 1
+  },
+  {
+   "name": "recovered image",
+   "count": 1
+  },
+  {
+   "name": "contrast",
+   "count": 5
+  },
+  {
+   "name": "geometry feature",
+   "count": 1
+  },
+  {
+   "name": "trojan",
+   "count": 7
+  },
+  {
+   "name": "trojan detection",
+   "count": 1
+  },
+  {
+   "name": "experiment",
+   "count": 3
+  },
+  {
+   "name": "delay",
+   "count": 5
+  },
+  {
+   "name": "fpgas",
+   "count": 3
+  },
+  {
+   "name": "primary",
+   "count": 4
+  },
+  {
+   "name": "primary user",
+   "count": 4
+  },
+  {
+   "name": "secondary",
+   "count": 5
+  },
+  {
+   "name": "secondary user",
+   "count": 2
+  },
+  {
+   "name": "anti",
+   "count": 15
+  },
+  {
+   "name": "packet",
+   "count": 12
+  },
+  {
+   "name": "median",
+   "count": 4
+  },
+  {
+   "name": "median filtering",
+   "count": 1
+  },
+  {
+   "name": "line segment",
+   "count": 1
+  },
+  {
+   "name": "segment",
+   "count": 2
+  },
+  {
+   "name": "criterion",
+   "count": 4
+  },
+  {
+   "name": "list",
+   "count": 2
+  },
+  {
+   "name": "reduction",
+   "count": 2
+  },
+  {
+   "name": "candidate list",
+   "count": 1
+  },
+  {
+   "name": "tracking",
+   "count": 1
+  },
+  {
+   "name": "tree",
+   "count": 4
+  },
+  {
+   "name": "mkd",
+   "count": 1
+  },
+  {
+   "name": "kernel control",
+   "count": 1
+  },
+  {
+   "name": "control data",
+   "count": 1
+  },
+  {
+   "name": "en",
+   "count": 1
+  },
+  {
+   "name": "en route",
+   "count": 1
+  },
+  {
+   "name": "route",
+   "count": 2
+  },
+  {
+   "name": "aware",
+   "count": 2
+  },
+  {
+   "name": "worm",
+   "count": 4
+  },
+  {
+   "name": "internet worm",
+   "count": 1
+  },
+  {
+   "name": "estimator",
+   "count": 6
+  },
+  {
+   "name": "infer",
+   "count": 1
+  },
+  {
+   "name": "motion vector",
+   "count": 3
+  },
+  {
+   "name": "access pattern",
+   "count": 2
+  },
+  {
+   "name": "jpeg image",
+   "count": 2
+  },
+  {
+   "name": "recompression",
+   "count": 1
+  },
+  {
+   "name": "image model",
+   "count": 1
+  },
+  {
+   "name": "image signature",
+   "count": 1
+  },
+  {
+   "name": "dcs",
+   "count": 1
+  },
+  {
+   "name": "new",
+   "count": 13
+  },
+  {
+   "name": "ecg",
+   "count": 4
+  },
+  {
+   "name": "biometric system",
+   "count": 2
+  },
+  {
+   "name": "evcs",
+   "count": 1
+  },
+  {
+   "name": "compare",
+   "count": 4
+  },
+  {
+   "name": "evcss",
+   "count": 1
+  },
+  {
+   "name": "antenna",
+   "count": 19
+  },
+  {
+   "name": "equip",
+   "count": 1
+  },
+  {
+   "name": "social network",
+   "count": 3
+  },
+  {
+   "name": "channel state",
+   "count": 1
+  },
+  {
+   "name": "fingerprint message",
+   "count": 1
+  },
+  {
+   "name": "printer",
+   "count": 5
+  },
+  {
+   "name": "descriptor",
+   "count": 6
+  },
+  {
+   "name": "ridge feature",
+   "count": 1
+  },
+  {
+   "name": "1470",
+   "count": 1
+  },
+  {
+   "name": "1470 nm",
+   "count": 1
+  },
+  {
+   "name": "nm",
+   "count": 1
+  },
+  {
+   "name": "tm",
+   "count": 1
+  },
+  {
+   "name": "hdr",
+   "count": 1
+  },
+  {
+   "name": "hdr image",
+   "count": 1
+  },
+  {
+   "name": "texture",
+   "count": 4
+  },
+  {
+   "name": "shadow",
+   "count": 2
+  },
+  {
+   "name": "extract",
+   "count": 4
+  },
+  {
+   "name": "matte",
+   "count": 1
+  },
+  {
+   "name": "prediction",
+   "count": 5
+  },
+  {
+   "name": "context",
+   "count": 6
+  },
+  {
+   "name": "radiometric",
+   "count": 1
+  },
+  {
+   "name": "retrieval",
+   "count": 3
+  },
+  {
+   "name": "transmitter",
+   "count": 6
+  },
+  {
+   "name": "public",
+   "count": 7
+  },
+  {
+   "name": "arq",
+   "count": 1
+  },
+  {
+   "name": "develop",
+   "count": 3
+  },
+  {
+   "name": "snr",
+   "count": 3
+  },
+  {
+   "name": "original",
+   "count": 3
+  },
+  {
+   "name": "original image",
+   "count": 1
+  },
+  {
+   "name": "approach fingerprint",
+   "count": 1
+  },
+  {
+   "name": "glc",
+   "count": 1
+  },
+  {
+   "name": "gate",
+   "count": 3
+  },
+  {
+   "name": "equation",
+   "count": 1
+  },
+  {
+   "name": "linear equation",
+   "count": 1
+  },
+  {
+   "name": "element",
+   "count": 2
+  },
+  {
+   "name": "growth",
+   "count": 1
+  },
+  {
+   "name": "48",
+   "count": 1
+  },
+  {
+   "name": "criminal",
+   "count": 5
+  },
+  {
+   "name": "modulation",
+   "count": 3
+  },
+  {
+   "name": "pulse",
+   "count": 1
+  },
+  {
+   "name": "emitter",
+   "count": 5
+  },
+  {
+   "name": "symbol",
+   "count": 6
+  },
+  {
+   "name": "amplitude",
+   "count": 1
+  },
+  {
+   "name": "combining",
+   "count": 1
+  },
+  {
+   "name": "outage",
+   "count": 5
+  },
+  {
+   "name": "ratio",
+   "count": 4
+  },
+  {
+   "name": "receiver",
+   "count": 12
+  },
+  {
+   "name": "legitimate",
+   "count": 7
+  },
+  {
+   "name": "legitimate receiver",
+   "count": 1
+  },
+  {
+   "name": "chosen",
+   "count": 1
+  },
+  {
+   "name": "optical network",
+   "count": 1
+  },
+  {
+   "name": "stego",
+   "count": 2
+  },
+  {
+   "name": "stego image",
+   "count": 1
+  },
+  {
+   "name": "optimum",
+   "count": 1
+  },
+  {
+   "name": "pixel expansion",
+   "count": 1
+  },
+  {
+   "name": "peda",
+   "count": 1
+  },
+  {
+   "name": "execution",
+   "count": 3
+  },
+  {
+   "name": "overhead",
+   "count": 4
+  },
+  {
+   "name": "portrait",
+   "count": 1
+  },
+  {
+   "name": "periocular",
+   "count": 6
+  },
+  {
+   "name": "effect",
+   "count": 2
+  },
+  {
+   "name": "af",
+   "count": 1
+  },
+  {
+   "name": "af scheme",
+   "count": 1
+  },
+  {
+   "name": "amplify",
+   "count": 1
+  },
+  {
+   "name": "amplify and",
+   "count": 1
+  },
+  {
+   "name": "jam",
+   "count": 4
+  },
+  {
+   "name": "cause",
+   "count": 2
+  },
+  {
+   "name": "jam node",
+   "count": 1
+  },
+  {
+   "name": "allocation",
+   "count": 6
+  },
+  {
+   "name": "nus",
+   "count": 1
+  },
+  {
+   "name": "query",
+   "count": 22
+  },
+  {
+   "name": "could",
+   "count": 6
+  },
+  {
+   "name": "covert",
+   "count": 20
+  },
+  {
+   "name": "covert channel",
+   "count": 5
+  },
+  {
+   "name": "ofe",
+   "count": 2
+  },
+  {
+   "name": "accountability",
+   "count": 3
+  },
+  {
+   "name": "exchange",
+   "count": 7
+  },
+  {
+   "name": "third",
+   "count": 1
+  },
+  {
+   "name": "cross",
+   "count": 6
+  },
+  {
+   "name": "cross matching",
+   "count": 1
+  },
+  {
+   "name": "biomedical",
+   "count": 1
+  },
+  {
+   "name": "biomedical signal",
+   "count": 1
+  },
+  {
+   "name": "biometric measurement",
+   "count": 1
+  },
+  {
+   "name": "design approach",
+   "count": 1
+  },
+  {
+   "name": "tag",
+   "count": 10
+  },
+  {
+   "name": "blocker",
+   "count": 1
+  },
+  {
+   "name": "rfid",
+   "count": 6
+  },
+  {
+   "name": "blocker tag",
+   "count": 1
+  },
+  {
+   "name": "vw",
+   "count": 1
+  },
+  {
+   "name": "resolution",
+   "count": 6
+  },
+  {
+   "name": "degrade",
+   "count": 1
+  },
+  {
+   "name": "gradient",
+   "count": 4
+  },
+  {
+   "name": "gradient vector",
+   "count": 1
+  },
+  {
+   "name": "direction",
+   "count": 8
+  },
+  {
+   "name": "kp",
+   "count": 2
+  },
+  {
+   "name": "term",
+   "count": 5
+  },
+  {
+   "name": "kp protocol",
+   "count": 1
+  },
+  {
+   "name": "law",
+   "count": 2
+  },
+  {
+   "name": "public communication",
+   "count": 1
+  },
+  {
+   "name": "mosaic",
+   "count": 1
+  },
+  {
+   "name": "mosaic image",
+   "count": 1
+  },
+  {
+   "name": "sequence",
+   "count": 8
+  },
+  {
+   "name": "destination",
+   "count": 8
+  },
+  {
+   "name": "secret sharing",
+   "count": 1
+  },
+  {
+   "name": "adaptive",
+   "count": 8
+  },
+  {
+   "name": "implementation",
+   "count": 14
+  },
+  {
+   "name": "beamforming",
+   "count": 11
+  },
+  {
+   "name": "satellite",
+   "count": 2
+  },
+  {
+   "name": "csi",
+   "count": 13
+  },
+  {
+   "name": "fc",
+   "count": 5
+  },
+  {
+   "name": "tbma",
+   "count": 1
+  },
+  {
+   "name": "enemy",
+   "count": 1
+  },
+  {
+   "name": "ally",
+   "count": 1
+  },
+  {
+   "name": "throughput",
+   "count": 2
+  },
+  {
+   "name": "effective",
+   "count": 2
+  },
+  {
+   "name": "overlapped",
+   "count": 2
+  },
+  {
+   "name": "overlapped fingerprint",
+   "count": 2
+  },
+  {
+   "name": "alice",
+   "count": 12
+  },
+  {
+   "name": "bob",
+   "count": 11
+  },
+  {
+   "name": "rss",
+   "count": 4
+  },
+  {
+   "name": "variance",
+   "count": 1
+  },
+  {
+   "name": "etap",
+   "count": 1
+  },
+  {
+   "name": "rss variance",
+   "count": 1
+  },
+  {
+   "name": "speculation",
+   "count": 1
+  },
+  {
+   "name": "ipss",
+   "count": 1
+  },
+  {
+   "name": "parallel",
+   "count": 2
+  },
+  {
+   "name": "inactive",
+   "count": 1
+  },
+  {
+   "name": "neighbor",
+   "count": 2
+  },
+  {
+   "name": "erasure",
+   "count": 2
+  },
+  {
+   "name": "ddp",
+   "count": 1
+  },
+  {
+   "name": "cooperative",
+   "count": 1
+  },
+  {
+   "name": "cooperative jamming",
+   "count": 1
+  },
+  {
+   "name": "jamming",
+   "count": 15
+  },
+  {
+   "name": "connectivity",
+   "count": 2
+  },
+  {
+   "name": "puf",
+   "count": 19
+  },
+  {
+   "name": "authentic",
+   "count": 1
+  },
+  {
+   "name": "probe",
+   "count": 2
+  },
+  {
+   "name": "collection",
+   "count": 4
+  },
+  {
+   "name": "event",
+   "count": 5
+  },
+  {
+   "name": "ims",
+   "count": 1
+  },
+  {
+   "name": "ip",
+   "count": 16
+  },
+  {
+   "name": "obpwd",
+   "count": 1
+  },
+  {
+   "name": "skin",
+   "count": 3
+  },
+  {
+   "name": "private",
+   "count": 8
+  },
+  {
+   "name": "watermark data",
+   "count": 1
+  },
+  {
+   "name": "access privacy",
+   "count": 1
+  },
+  {
+   "name": "dimensional",
+   "count": 6
+  },
+  {
+   "name": "shape",
+   "count": 4
+  },
+  {
+   "name": "subsignals",
+   "count": 1
+  },
+  {
+   "name": "sv",
+   "count": 2
+  },
+  {
+   "name": "description",
+   "count": 2
+  },
+  {
+   "name": "aes",
+   "count": 7
+  },
+  {
+   "name": "aes data",
+   "count": 1
+  },
+  {
+   "name": "entity",
+   "count": 3
+  },
+  {
+   "name": "conficker",
+   "count": 1
+  },
+  {
+   "name": "defense",
+   "count": 8
+  },
+  {
+   "name": "revocation",
+   "count": 3
+  },
+  {
+   "name": "certificate",
+   "count": 5
+  },
+  {
+   "name": "certificate revocation",
+   "count": 1
+  },
+  {
+   "name": "three",
+   "count": 3
+  },
+  {
+   "name": "puzzle",
+   "count": 3
+  },
+  {
+   "name": "bandwidth",
+   "count": 3
+  },
+  {
+   "name": "bandwidth puzzle",
+   "count": 1
+  },
+  {
+   "name": "de",
+   "count": 3
+  },
+  {
+   "name": "digit",
+   "count": 2
+  },
+  {
+   "name": "core",
+   "count": 2
+  },
+  {
+   "name": "ip core",
+   "count": 2
+  },
+  {
+   "name": "ip protection",
+   "count": 1
+  },
+  {
+   "name": "decisional",
+   "count": 1
+  },
+  {
+   "name": "assumption decisional",
+   "count": 1
+  },
+  {
+   "name": "transparency",
+   "count": 2
+  },
+  {
+   "name": "vc",
+   "count": 3
+  },
+  {
+   "name": "vc scheme",
+   "count": 1
+  },
+  {
+   "name": "crps",
+   "count": 3
+  },
+  {
+   "name": "anti forensic",
+   "count": 4
+  },
+  {
+   "name": "forensic attack",
+   "count": 1
+  },
+  {
+   "name": "gt",
+   "count": 11
+  },
+  {
+   "name": "lt",
+   "count": 6
+  },
+  {
+   "name": "gt lt",
+   "count": 3
+  },
+  {
+   "name": "vss",
+   "count": 2
+  },
+  {
+   "name": "vss scheme",
+   "count": 2
+  },
+  {
+   "name": "evil",
+   "count": 1
+  },
+  {
+   "name": "evil twin",
+   "count": 1
+  },
+  {
+   "name": "twin",
+   "count": 2
+  },
+  {
+   "name": "activity",
+   "count": 9
+  },
+  {
+   "name": "person identification",
+   "count": 1
+  },
+  {
+   "name": "age estimation",
+   "count": 7
+  },
+  {
+   "name": "asms",
+   "count": 1
+  },
+  {
+   "name": "landmarking",
+   "count": 1
+  },
+  {
+   "name": "string",
+   "count": 1
+  },
+  {
+   "name": "analytical",
+   "count": 2
+  },
+  {
+   "name": "bit string",
+   "count": 1
+  },
+  {
+   "name": "holistic",
+   "count": 1
+  },
+  {
+   "name": "localization",
+   "count": 6
+  },
+  {
+   "name": "copy move",
+   "count": 4
+  },
+  {
+   "name": "decrease",
+   "count": 1
+  },
+  {
+   "name": "update",
+   "count": 3
+  },
+  {
+   "name": "imss",
+   "count": 1
+  },
+  {
+   "name": "mss",
+   "count": 1
+  },
+  {
+   "name": "reconstruct",
+   "count": 3
+  },
+  {
+   "name": "identical",
+   "count": 2
+  },
+  {
+   "name": "identical twin",
+   "count": 2
+  },
+  {
+   "name": "data point",
+   "count": 1
+  },
+  {
+   "name": "data set",
+   "count": 11
+  },
+  {
+   "name": "antivirus",
+   "count": 2
+  },
+  {
+   "name": "antivirus software",
+   "count": 1
+  },
+  {
+   "name": "terminate",
+   "count": 1
+  },
+  {
+   "name": "wkg",
+   "count": 1
+  },
+  {
+   "name": "alice bob",
+   "count": 3
+  },
+  {
+   "name": "binary template",
+   "count": 1
+  },
+  {
+   "name": "best",
+   "count": 1
+  },
+  {
+   "name": "attack strategy",
+   "count": 1
+  },
+  {
+   "name": "context related",
+   "count": 1
+  },
+  {
+   "name": "cr\u00eape",
+   "count": 1
+  },
+  {
+   "name": "related",
+   "count": 1
+  },
+  {
+   "name": "pump",
+   "count": 1
+  },
+  {
+   "name": "hu",
+   "count": 1
+  },
+  {
+   "name": "invariant",
+   "count": 2
+  },
+  {
+   "name": "csw",
+   "count": 1
+  },
+  {
+   "name": "lcks",
+   "count": 1
+  },
+  {
+   "name": "coupled",
+   "count": 1
+  },
+  {
+   "name": "discriminant analysis",
+   "count": 2
+  },
+  {
+   "name": "normalization",
+   "count": 5
+  },
+  {
+   "name": "message bit",
+   "count": 1
+  },
+  {
+   "name": "hide",
+   "count": 1
+  },
+  {
+   "name": "macroblock",
+   "count": 1
+  },
+  {
+   "name": "cj",
+   "count": 2
+  },
+  {
+   "name": "direct",
+   "count": 2
+  },
+  {
+   "name": "direct component",
+   "count": 1
+  },
+  {
+   "name": "circuit",
+   "count": 11
+  },
+  {
+   "name": "source code",
+   "count": 1
+  },
+  {
+   "name": "jpeg compression",
+   "count": 2
+  },
+  {
+   "name": "session",
+   "count": 4
+  },
+  {
+   "name": "training",
+   "count": 7
+  },
+  {
+   "name": "computation",
+   "count": 13
+  },
+  {
+   "name": "outsource",
+   "count": 4
+  },
+  {
+   "name": "outsource computation",
+   "count": 1
+  },
+  {
+   "name": "sensor fingerprint",
+   "count": 1
+  },
+  {
+   "name": "additional",
+   "count": 5
+  },
+  {
+   "name": "additional secure",
+   "count": 1
+  },
+  {
+   "name": "ci",
+   "count": 2
+  },
+  {
+   "name": "router",
+   "count": 1
+  },
+  {
+   "name": "bgp",
+   "count": 1
+  },
+  {
+   "name": "tbgp",
+   "count": 1
+  },
+  {
+   "name": "attestation",
+   "count": 2
+  },
+  {
+   "name": "train",
+   "count": 1
+  },
+  {
+   "name": "ensemble",
+   "count": 4
+  },
+  {
+   "name": "trajectory",
+   "count": 3
+  },
+  {
+   "name": "icao",
+   "count": 1
+  },
+  {
+   "name": "iso",
+   "count": 4
+  },
+  {
+   "name": "standard",
+   "count": 2
+  },
+  {
+   "name": "cohort",
+   "count": 4
+  },
+  {
+   "name": "demographic",
+   "count": 1
+  },
+  {
+   "name": "palmprint",
+   "count": 5
+  },
+  {
+   "name": "multispectral",
+   "count": 1
+  },
+  {
+   "name": "storage",
+   "count": 8
+  },
+  {
+   "name": "alteration",
+   "count": 1
+  },
+  {
+   "name": "crime",
+   "count": 1
+  },
+  {
+   "name": "cue",
+   "count": 2
+  },
+  {
+   "name": "quantitative",
+   "count": 1
+  },
+  {
+   "name": "quantitative steganalyzers",
+   "count": 1
+  },
+  {
+   "name": "steganalyzers",
+   "count": 1
+  },
+  {
+   "name": "ic",
+   "count": 3
+  },
+  {
+   "name": "gc",
+   "count": 2
+  },
+  {
+   "name": "delegation",
+   "count": 1
+  },
+  {
+   "name": "abdalla",
+   "count": 1
+  },
+  {
+   "name": "service",
+   "count": 19
+  },
+  {
+   "name": "recommendation",
+   "count": 3
+  },
+  {
+   "name": "access control",
+   "count": 6
+  },
+  {
+   "name": "attribute",
+   "count": 26
+  },
+  {
+   "name": "iris feature",
+   "count": 1
+  },
+  {
+   "name": "thfb",
+   "count": 1
+  },
+  {
+   "name": "diffuse",
+   "count": 1
+  },
+  {
+   "name": "biometrics",
+   "count": 9
+  },
+  {
+   "name": "djpg",
+   "count": 1
+  },
+  {
+   "name": "demosaicking",
+   "count": 1
+  },
+  {
+   "name": "duplicate",
+   "count": 2
+  },
+  {
+   "name": "near",
+   "count": 2
+  },
+  {
+   "name": "near duplicate",
+   "count": 1
+  },
+  {
+   "name": "fault",
+   "count": 13
+  },
+  {
+   "name": "dfa",
+   "count": 4
+  },
+  {
+   "name": "category",
+   "count": 2
+  },
+  {
+   "name": "dfa attack",
+   "count": 1
+  },
+  {
+   "name": "operation",
+   "count": 10
+  },
+  {
+   "name": "removal",
+   "count": 2
+  },
+  {
+   "name": "rf",
+   "count": 3
+  },
+  {
+   "name": "dna",
+   "count": 3
+  },
+  {
+   "name": "index",
+   "count": 1
+  },
+  {
+   "name": "broadcast",
+   "count": 6
+  },
+  {
+   "name": "intermediate node",
+   "count": 1
+  },
+  {
+   "name": "meta",
+   "count": 2
+  },
+  {
+   "name": "meta recognition",
+   "count": 1
+  },
+  {
+   "name": "art",
+   "count": 6
+  },
+  {
+   "name": "art image",
+   "count": 1
+  },
+  {
+   "name": "biometric trait",
+   "count": 2
+  },
+  {
+   "name": "swir",
+   "count": 1
+  },
+  {
+   "name": "dataset",
+   "count": 6
+  },
+  {
+   "name": "patch",
+   "count": 5
+  },
+  {
+   "name": "manipulation",
+   "count": 5
+  },
+  {
+   "name": "key size",
+   "count": 1
+  },
+  {
+   "name": "contact",
+   "count": 4
+  },
+  {
+   "name": "contact record",
+   "count": 1
+  },
+  {
+   "name": "overlap",
+   "count": 2
+  },
+  {
+   "name": "fr",
+   "count": 4
+  },
+  {
+   "name": "local feature",
+   "count": 1
+  },
+  {
+   "name": "monogenic",
+   "count": 1
+  },
+  {
+   "name": "multibiometric",
+   "count": 1
+  },
+  {
+   "name": "riemannian",
+   "count": 1
+  },
+  {
+   "name": "coarse",
+   "count": 1
+  },
+  {
+   "name": "channel selection",
+   "count": 1
+  },
+  {
+   "name": "rule",
+   "count": 7
+  },
+  {
+   "name": "selection",
+   "count": 4
+  },
+  {
+   "name": "selection rule",
+   "count": 1
+  },
+  {
+   "name": "fault sensitivity",
+   "count": 1
+  },
+  {
+   "name": "fsa",
+   "count": 1
+  },
+  {
+   "name": "fsa attack",
+   "count": 1
+  },
+  {
+   "name": "approximation",
+   "count": 2
+  },
+  {
+   "name": "head",
+   "count": 1
+  },
+  {
+   "name": "infection",
+   "count": 3
+  },
+  {
+   "name": "child",
+   "count": 2
+  },
+  {
+   "name": "glift",
+   "count": 1
+  },
+  {
+   "name": "glift logic",
+   "count": 1
+  },
+  {
+   "name": "logic",
+   "count": 3
+  },
+  {
+   "name": "solution",
+   "count": 19
+  },
+  {
+   "name": "ksac",
+   "count": 1
+  },
+  {
+   "name": "agreement",
+   "count": 3
+  },
+  {
+   "name": "agreement scheme",
+   "count": 1
+  },
+  {
+   "name": "recovery",
+   "count": 1
+  },
+  {
+   "name": "characterization",
+   "count": 1
+  },
+  {
+   "name": "characterization method",
+   "count": 1
+  },
+  {
+   "name": "ethernet",
+   "count": 1
+  },
+  {
+   "name": "consider",
+   "count": 9
+  },
+  {
+   "name": "packet pad",
+   "count": 1
+  },
+  {
+   "name": "pad",
+   "count": 5
+  },
+  {
+   "name": "consumer",
+   "count": 4
+  },
+  {
+   "name": "proof",
+   "count": 10
+  },
+  {
+   "name": "lock",
+   "count": 2
+  },
+  {
+   "name": "cell",
+   "count": 8
+  },
+  {
+   "name": "cell phone",
+   "count": 1
+  },
+  {
+   "name": "phone",
+   "count": 4
+  },
+  {
+   "name": "reconstruction",
+   "count": 5
+  },
+  {
+   "name": "part",
+   "count": 3
+  },
+  {
+   "name": "exist",
+   "count": 6
+  },
+  {
+   "name": "rich",
+   "count": 1
+  },
+  {
+   "name": "overlap fingerprint",
+   "count": 1
+  },
+  {
+   "name": "background",
+   "count": 3
+  },
+  {
+   "name": "gray",
+   "count": 3
+  },
+  {
+   "name": "gray level",
+   "count": 1
+  },
+  {
+   "name": "afc",
+   "count": 3
+  },
+  {
+   "name": "low",
+   "count": 12
+  },
+  {
+   "name": "well",
+   "count": 2
+  },
+  {
+   "name": "eavesdropper channel",
+   "count": 1
+  },
+  {
+   "name": "is",
+   "count": 1
+  },
+  {
+   "name": "is graph",
+   "count": 1
+  },
+  {
+   "name": "aggregation",
+   "count": 5
+  },
+  {
+   "name": "aggregate",
+   "count": 1
+  },
+  {
+   "name": "security message",
+   "count": 1
+  },
+  {
+   "name": "additional data",
+   "count": 1
+  },
+  {
+   "name": "study",
+   "count": 4
+  },
+  {
+   "name": "affect",
+   "count": 2
+  },
+  {
+   "name": "gait database",
+   "count": 1
+  },
+  {
+   "name": "host signal",
+   "count": 1
+  },
+  {
+   "name": "micropayment",
+   "count": 1
+  },
+  {
+   "name": "nice",
+   "count": 1
+  },
+  {
+   "name": "evaluate",
+   "count": 2
+  },
+  {
+   "name": "joint",
+   "count": 5
+  },
+  {
+   "name": "attempt",
+   "count": 1
+  },
+  {
+   "name": "score normalization",
+   "count": 1
+  },
+  {
+   "name": "provide",
+   "count": 8
+  },
+  {
+   "name": "subsequence",
+   "count": 1
+  },
+  {
+   "name": "skip",
+   "count": 1
+  },
+  {
+   "name": "opass",
+   "count": 1
+  },
+  {
+   "name": "website",
+   "count": 3
+  },
+  {
+   "name": "occlusion",
+   "count": 3
+  },
+  {
+   "name": "handle",
+   "count": 1
+  },
+  {
+   "name": "reputation",
+   "count": 5
+  },
+  {
+   "name": "feedback",
+   "count": 6
+  },
+  {
+   "name": "malicious",
+   "count": 22
+  },
+  {
+   "name": "datasets",
+   "count": 5
+  },
+  {
+   "name": "knowledge",
+   "count": 4
+  },
+  {
+   "name": "preserve",
+   "count": 3
+  },
+  {
+   "name": "mining",
+   "count": 4
+  },
+  {
+   "name": "tool",
+   "count": 4
+  },
+  {
+   "name": "available",
+   "count": 3
+  },
+  {
+   "name": "master",
+   "count": 2
+  },
+  {
+   "name": "input",
+   "count": 10
+  },
+  {
+   "name": "eeg",
+   "count": 11
+  },
+  {
+   "name": "cit",
+   "count": 1
+  },
+  {
+   "name": "gait silhouette",
+   "count": 1
+  },
+  {
+   "name": "auction",
+   "count": 7
+  },
+  {
+   "name": "auction system",
+   "count": 1
+  },
+  {
+   "name": "electronic",
+   "count": 1
+  },
+  {
+   "name": "electronic auction",
+   "count": 1
+  },
+  {
+   "name": "lbs",
+   "count": 2
+  },
+  {
+   "name": "circular",
+   "count": 2
+  },
+  {
+   "name": "histogram",
+   "count": 3
+  },
+  {
+   "name": "rdh",
+   "count": 2
+  },
+  {
+   "name": "error reconciliation",
+   "count": 1
+  },
+  {
+   "name": "key rate",
+   "count": 1
+  },
+  {
+   "name": "handheld",
+   "count": 1
+  },
+  {
+   "name": "handheld device",
+   "count": 1
+  },
+  {
+   "name": "monitoring",
+   "count": 1
+  },
+  {
+   "name": "clustered",
+   "count": 1
+  },
+  {
+   "name": "clustered structure",
+   "count": 1
+  },
+  {
+   "name": "community",
+   "count": 3
+  },
+  {
+   "name": "bit require",
+   "count": 1
+  },
+  {
+   "name": "ca",
+   "count": 3
+  },
+  {
+   "name": "csma",
+   "count": 1
+  },
+  {
+   "name": "csma ca",
+   "count": 1
+  },
+  {
+   "name": "spyware",
+   "count": 1
+  },
+  {
+   "name": "deterministic noise",
+   "count": 1
+  },
+  {
+   "name": "bad",
+   "count": 2
+  },
+  {
+   "name": "eve",
+   "count": 5
+  },
+  {
+   "name": "role",
+   "count": 4
+  },
+  {
+   "name": "oob",
+   "count": 1
+  },
+  {
+   "name": "proposal",
+   "count": 2
+  },
+  {
+   "name": "as",
+   "count": 1
+  },
+  {
+   "name": "as oob",
+   "count": 1
+  },
+  {
+   "name": "recording",
+   "count": 4
+  },
+  {
+   "name": "acoustic",
+   "count": 3
+  },
+  {
+   "name": "audio recording",
+   "count": 3
+  },
+  {
+   "name": "latent fingerprint",
+   "count": 5
+  },
+  {
+   "name": "algorithm ida",
+   "count": 1
+  },
+  {
+   "name": "decode",
+   "count": 1
+  },
+  {
+   "name": "decode algorithm",
+   "count": 1
+  },
+  {
+   "name": "teoae",
+   "count": 2
+  },
+  {
+   "name": "emission",
+   "count": 2
+  },
+  {
+   "name": "wavelength",
+   "count": 1
+  },
+  {
+   "name": "heavily",
+   "count": 1
+  },
+  {
+   "name": "heavily pigment",
+   "count": 1
+  },
+  {
+   "name": "264",
+   "count": 3
+  },
+  {
+   "name": "cctv",
+   "count": 1
+  },
+  {
+   "name": "biometric reading",
+   "count": 1
+  },
+  {
+   "name": "semantic",
+   "count": 6
+  },
+  {
+   "name": "attribute action",
+   "count": 1
+  },
+  {
+   "name": "abe",
+   "count": 11
+  },
+  {
+   "name": "decryption",
+   "count": 5
+  },
+  {
+   "name": "background noise",
+   "count": 1
+  },
+  {
+   "name": "authenticate",
+   "count": 1
+  },
+  {
+   "name": "sensitive",
+   "count": 6
+  },
+  {
+   "name": "assisted",
+   "count": 1
+  },
+  {
+   "name": "coke",
+   "count": 1
+  },
+  {
+   "name": "wiretapper",
+   "count": 2
+  },
+  {
+   "name": "active wiretapper",
+   "count": 1
+  },
+  {
+   "name": "baggage",
+   "count": 1
+  },
+  {
+   "name": "baggage detection",
+   "count": 1
+  },
+  {
+   "name": "decision",
+   "count": 7
+  },
+  {
+   "name": "cyber",
+   "count": 10
+  },
+  {
+   "name": "cyber attack",
+   "count": 1
+  },
+  {
+   "name": "honeypot",
+   "count": 1
+  },
+  {
+   "name": "acceptable",
+   "count": 1
+  },
+  {
+   "name": "compactness",
+   "count": 1
+  },
+  {
+   "name": "propagation",
+   "count": 1
+  },
+  {
+   "name": "sup sup",
+   "count": 3
+  },
+  {
+   "name": "eye",
+   "count": 7
+  },
+  {
+   "name": "eye movement",
+   "count": 3
+  },
+  {
+   "name": "component based",
+   "count": 1
+  },
+  {
+   "name": "image hash",
+   "count": 1
+  },
+  {
+   "name": "transparency order",
+   "count": 1
+  },
+  {
+   "name": "boxes",
+   "count": 1
+  },
+  {
+   "name": "hypothesis test",
+   "count": 1
+  },
+  {
+   "name": "slot",
+   "count": 2
+  },
+  {
+   "name": "tcp",
+   "count": 2
+  },
+  {
+   "name": "trigger",
+   "count": 3
+  },
+  {
+   "name": "touchless",
+   "count": 1
+  },
+  {
+   "name": "microaggregation",
+   "count": 2
+  },
+  {
+   "name": "concept",
+   "count": 1
+  },
+  {
+   "name": "distributed",
+   "count": 2
+  },
+  {
+   "name": "computer",
+   "count": 5
+  },
+  {
+   "name": "input encrypt",
+   "count": 1
+  },
+  {
+   "name": "electric",
+   "count": 1
+  },
+  {
+   "name": "electric network",
+   "count": 1
+  },
+  {
+   "name": "twitter",
+   "count": 2
+  },
+  {
+   "name": "spammer",
+   "count": 1
+  },
+  {
+   "name": "twitter spammer",
+   "count": 1
+  },
+  {
+   "name": "broker",
+   "count": 2
+  },
+  {
+   "name": "sectoring",
+   "count": 1
+  },
+  {
+   "name": "exif",
+   "count": 1
+  },
+  {
+   "name": "cryptanalysis",
+   "count": 1
+  },
+  {
+   "name": "sha",
+   "count": 2
+  },
+  {
+   "name": "call",
+   "count": 7
+  },
+  {
+   "name": "call pattern",
+   "count": 1
+  },
+  {
+   "name": "require",
+   "count": 1
+  },
+  {
+   "name": "participatory",
+   "count": 1
+  },
+  {
+   "name": "carrier",
+   "count": 1
+  },
+  {
+   "name": "radio",
+   "count": 2
+  },
+  {
+   "name": "android",
+   "count": 10
+  },
+  {
+   "name": "marked",
+   "count": 1
+  },
+  {
+   "name": "marked signal",
+   "count": 1
+  },
+  {
+   "name": "minutia template",
+   "count": 1
+  },
+  {
+   "name": "cipher",
+   "count": 10
+  },
+  {
+   "name": "platform",
+   "count": 2
+  },
+  {
+   "name": "base scheme",
+   "count": 1
+  },
+  {
+   "name": "verification",
+   "count": 13
+  },
+  {
+   "name": "interaction",
+   "count": 2
+  },
+  {
+   "name": "mutual",
+   "count": 1
+  },
+  {
+   "name": "mutual information",
+   "count": 1
+  },
+  {
+   "name": "rg",
+   "count": 1
+  },
+  {
+   "name": "fast",
+   "count": 3
+  },
+  {
+   "name": "birthmark",
+   "count": 1
+  },
+  {
+   "name": "javascript",
+   "count": 1
+  },
+  {
+   "name": "javascript program",
+   "count": 1
+  },
+  {
+   "name": "convex",
+   "count": 4
+  },
+  {
+   "name": "runtime",
+   "count": 3
+  },
+  {
+   "name": "policy",
+   "count": 8
+  },
+  {
+   "name": "static",
+   "count": 1
+  },
+  {
+   "name": "enforce",
+   "count": 1
+  },
+  {
+   "name": "pin",
+   "count": 3
+  },
+  {
+   "name": "pin pad",
+   "count": 1
+  },
+  {
+   "name": "atm",
+   "count": 1
+  },
+  {
+   "name": "freedom",
+   "count": 1
+  },
+  {
+   "name": "traffic classification",
+   "count": 1
+  },
+  {
+   "name": "accord",
+   "count": 1
+  },
+  {
+   "name": "acquisition",
+   "count": 6
+  },
+  {
+   "name": "condition",
+   "count": 4
+  },
+  {
+   "name": "ml",
+   "count": 3
+  },
+  {
+   "name": "ber",
+   "count": 1
+  },
+  {
+   "name": "ml receiver",
+   "count": 1
+  },
+  {
+   "name": "dimensionality reduction",
+   "count": 1
+  },
+  {
+   "name": "trust",
+   "count": 12
+  },
+  {
+   "name": "wsns",
+   "count": 1
+  },
+  {
+   "name": "chs",
+   "count": 1
+  },
+  {
+   "name": "latents",
+   "count": 2
+  },
+  {
+   "name": "full",
+   "count": 4
+  },
+  {
+   "name": "node replication",
+   "count": 1
+  },
+  {
+   "name": "lpp",
+   "count": 1
+  },
+  {
+   "name": "legal",
+   "count": 1
+  },
+  {
+   "name": "advisor",
+   "count": 2
+  },
+  {
+   "name": "composite sketch",
+   "count": 1
+  },
+  {
+   "name": "monitor",
+   "count": 2
+  },
+  {
+   "name": "failure",
+   "count": 3
+  },
+  {
+   "name": "cascade effect",
+   "count": 1
+  },
+  {
+   "name": "encoder",
+   "count": 2
+  },
+  {
+   "name": "willems",
+   "count": 1
+  },
+  {
+   "name": "malicious relay",
+   "count": 1
+  },
+  {
+   "name": "energy",
+   "count": 21
+  },
+  {
+   "name": "partial secrecy",
+   "count": 1
+  },
+  {
+   "name": "binary host",
+   "count": 1
+  },
+  {
+   "name": "hypergraph",
+   "count": 1
+  },
+  {
+   "name": "anonymization",
+   "count": 3
+  },
+  {
+   "name": "two different",
+   "count": 1
+  },
+  {
+   "name": "packet pair",
+   "count": 1
+  },
+  {
+   "name": "second",
+   "count": 1
+  },
+  {
+   "name": "first",
+   "count": 3
+  },
+  {
+   "name": "digital signature",
+   "count": 1
+  },
+  {
+   "name": "beamformer",
+   "count": 2
+  },
+  {
+   "name": "beamformer weight",
+   "count": 1
+  },
+  {
+   "name": "grayscale",
+   "count": 2
+  },
+  {
+   "name": "nrvcs",
+   "count": 1
+  },
+  {
+   "name": "pufs",
+   "count": 7
+  },
+  {
+   "name": "strong",
+   "count": 4
+  },
+  {
+   "name": "arbiter",
+   "count": 2
+  },
+  {
+   "name": "previously",
+   "count": 1
+  },
+  {
+   "name": "small",
+   "count": 2
+  },
+  {
+   "name": "pixel group",
+   "count": 1
+  },
+  {
+   "name": "trace",
+   "count": 11
+  },
+  {
+   "name": "location tag",
+   "count": 1
+  },
+  {
+   "name": "proximity",
+   "count": 1
+  },
+  {
+   "name": "meter",
+   "count": 4
+  },
+  {
+   "name": "threshold",
+   "count": 2
+  },
+  {
+   "name": "residual",
+   "count": 1
+  },
+  {
+   "name": "co",
+   "count": 3
+  },
+  {
+   "name": "co occurrence",
+   "count": 1
+  },
+  {
+   "name": "inner",
+   "count": 2
+  },
+  {
+   "name": "ring",
+   "count": 2
+  },
+  {
+   "name": "ring signature",
+   "count": 1
+  },
+  {
+   "name": "authentication protocol",
+   "count": 3
+  },
+  {
+   "name": "recursive",
+   "count": 1
+  },
+  {
+   "name": "grain",
+   "count": 1
+  },
+  {
+   "name": "128",
+   "count": 1
+  },
+  {
+   "name": "embed data",
+   "count": 1
+  },
+  {
+   "name": "match score",
+   "count": 1
+  },
+  {
+   "name": "median filter",
+   "count": 2
+  },
+  {
+   "name": "addition",
+   "count": 2
+  },
+  {
+   "name": "duplicate region",
+   "count": 1
+  },
+  {
+   "name": "relay node",
+   "count": 1
+  },
+  {
+   "name": "precoding",
+   "count": 4
+  },
+  {
+   "name": "csit",
+   "count": 2
+  },
+  {
+   "name": "output",
+   "count": 2
+  },
+  {
+   "name": "channel estimation",
+   "count": 2
+  },
+  {
+   "name": "passive",
+   "count": 3
+  },
+  {
+   "name": "ownership",
+   "count": 1
+  },
+  {
+   "name": "key generation",
+   "count": 4
+  },
+  {
+   "name": "keystroke",
+   "count": 3
+  },
+  {
+   "name": "continuous verification",
+   "count": 1
+  },
+  {
+   "name": "facial curve",
+   "count": 1
+  },
+  {
+   "name": "confidential",
+   "count": 3
+  },
+  {
+   "name": "bidirectional",
+   "count": 1
+  },
+  {
+   "name": "confidential message",
+   "count": 1
+  },
+  {
+   "name": "age rank",
+   "count": 1
+  },
+  {
+   "name": "rppvsm",
+   "count": 2
+  },
+  {
+   "name": "back",
+   "count": 2
+  },
+  {
+   "name": "crowd",
+   "count": 1
+  },
+  {
+   "name": "fluid",
+   "count": 1
+  },
+  {
+   "name": "temporal",
+   "count": 4
+  },
+  {
+   "name": "among",
+   "count": 1
+  },
+  {
+   "name": "touch",
+   "count": 3
+  },
+  {
+   "name": "behavioral",
+   "count": 4
+  },
+  {
+   "name": "infrastructure",
+   "count": 2
+  },
+  {
+   "name": "scheduler",
+   "count": 1
+  },
+  {
+   "name": "cloud infrastructure",
+   "count": 1
+  },
+  {
+   "name": "participators",
+   "count": 1
+  },
+  {
+   "name": "trajectory privacy",
+   "count": 1
+  },
+  {
+   "name": "ciphertexts",
+   "count": 2
+  },
+  {
+   "name": "block cipher",
+   "count": 2
+  },
+  {
+   "name": "scene",
+   "count": 2
+  },
+  {
+   "name": "appearance",
+   "count": 3
+  },
+  {
+   "name": "appearance variation",
+   "count": 1
+  },
+  {
+   "name": "user detection",
+   "count": 1
+  },
+  {
+   "name": "nulling",
+   "count": 1
+  },
+  {
+   "name": "nulling scheme",
+   "count": 1
+  },
+  {
+   "name": "capacity unicast",
+   "count": 1
+  },
+  {
+   "name": "clone",
+   "count": 4
+  },
+  {
+   "name": "clone attack",
+   "count": 1
+  },
+  {
+   "name": "mouse",
+   "count": 2
+  },
+  {
+   "name": "coresidence",
+   "count": 1
+  },
+  {
+   "name": "utility",
+   "count": 7
+  },
+  {
+   "name": "spatio",
+   "count": 1
+  },
+  {
+   "name": "multi",
+   "count": 5
+  },
+  {
+   "name": "multi view",
+   "count": 1
+  },
+  {
+   "name": "cp",
+   "count": 5
+  },
+  {
+   "name": "cp abe",
+   "count": 3
+  },
+  {
+   "name": "abe system",
+   "count": 1
+  },
+  {
+   "name": "specs",
+   "count": 1
+  },
+  {
+   "name": "vehicle",
+   "count": 8
+  },
+  {
+   "name": "enf signal",
+   "count": 2
+  },
+  {
+   "name": "record",
+   "count": 6
+  },
+  {
+   "name": "fluctuation",
+   "count": 1
+  },
+  {
+   "name": "profile",
+   "count": 5
+  },
+  {
+   "name": "profilr",
+   "count": 1
+  },
+  {
+   "name": "assurance",
+   "count": 1
+  },
+  {
+   "name": "error sub",
+   "count": 1
+  },
+  {
+   "name": "ht",
+   "count": 2
+  },
+  {
+   "name": "current",
+   "count": 2
+  },
+  {
+   "name": "ciphertext",
+   "count": 4
+  },
+  {
+   "name": "delaunay quadrangle",
+   "count": 1
+  },
+  {
+   "name": "quadrangle",
+   "count": 1
+  },
+  {
+   "name": "dma",
+   "count": 1
+  },
+  {
+   "name": "frequency resolution",
+   "count": 1
+  },
+  {
+   "name": "uncertainty",
+   "count": 2
+  },
+  {
+   "name": "state",
+   "count": 12
+  },
+  {
+   "name": "hi",
+   "count": 2
+  },
+  {
+   "name": "wt",
+   "count": 4
+  },
+  {
+   "name": "wt hi",
+   "count": 1
+  },
+  {
+   "name": "svc",
+   "count": 1
+  },
+  {
+   "name": "base layer",
+   "count": 1
+  },
+  {
+   "name": "lsda",
+   "count": 1
+  },
+  {
+   "name": "disclosure",
+   "count": 2
+  },
+  {
+   "name": "hcdd",
+   "count": 1
+  },
+  {
+   "name": "sketch method",
+   "count": 1
+  },
+  {
+   "name": "antipodal",
+   "count": 1
+  },
+  {
+   "name": "antipodal binary",
+   "count": 1
+  },
+  {
+   "name": "binning",
+   "count": 1
+  },
+  {
+   "name": "day",
+   "count": 2
+  },
+  {
+   "name": "maximum",
+   "count": 2
+  },
+  {
+   "name": "norm",
+   "count": 2
+  },
+  {
+   "name": "sub norm",
+   "count": 1
+  },
+  {
+   "name": "trait",
+   "count": 3
+  },
+  {
+   "name": "audio watermarking",
+   "count": 1
+  },
+  {
+   "name": "androgenic",
+   "count": 1
+  },
+  {
+   "name": "androgenic hair",
+   "count": 1
+  },
+  {
+   "name": "hair",
+   "count": 1
+  },
+  {
+   "name": "hair pattern",
+   "count": 1
+  },
+  {
+   "name": "content fingerprinting",
+   "count": 1
+  },
+  {
+   "name": "digital watermarking",
+   "count": 1
+  },
+  {
+   "name": "aoms",
+   "count": 1
+  },
+  {
+   "name": "aams",
+   "count": 1
+  },
+  {
+   "name": "orientation",
+   "count": 2
+  },
+  {
+   "name": "fragment",
+   "count": 3
+  },
+  {
+   "name": "dictionary",
+   "count": 8
+  },
+  {
+   "name": "learning",
+   "count": 15
+  },
+  {
+   "name": "factor authentication",
+   "count": 1
+  },
+  {
+   "name": "authentication scheme",
+   "count": 1
+  },
+  {
+   "name": "sclera",
+   "count": 1
+  },
+  {
+   "name": "command",
+   "count": 1
+  },
+  {
+   "name": "command control",
+   "count": 1
+  },
+  {
+   "name": "seam",
+   "count": 3
+  },
+  {
+   "name": "carving",
+   "count": 1
+  },
+  {
+   "name": "collusion attack",
+   "count": 2
+  },
+  {
+   "name": "additive",
+   "count": 2
+  },
+  {
+   "name": "driver",
+   "count": 2
+  },
+  {
+   "name": "kernel level",
+   "count": 1
+  },
+  {
+   "name": "movement",
+   "count": 3
+  },
+  {
+   "name": "verification system",
+   "count": 2
+  },
+  {
+   "name": "spoof",
+   "count": 12
+  },
+  {
+   "name": "brain",
+   "count": 4
+  },
+  {
+   "name": "brain signal",
+   "count": 1
+  },
+  {
+   "name": "botnets",
+   "count": 2
+  },
+  {
+   "name": "carp",
+   "count": 1
+  },
+  {
+   "name": "cs",
+   "count": 4
+  },
+  {
+   "name": "cs kda",
+   "count": 1
+  },
+  {
+   "name": "palm",
+   "count": 2
+  },
+  {
+   "name": "palm vein",
+   "count": 2
+  },
+  {
+   "name": "vein",
+   "count": 19
+  },
+  {
+   "name": "lbp",
+   "count": 3
+  },
+  {
+   "name": "contrast enhancement",
+   "count": 1
+  },
+  {
+   "name": "enhancement",
+   "count": 2
+  },
+  {
+   "name": "wg",
+   "count": 1
+  },
+  {
+   "name": "iv",
+   "count": 1
+  },
+  {
+   "name": "dnsradar",
+   "count": 1
+  },
+  {
+   "name": "encrypted",
+   "count": 4
+  },
+  {
+   "name": "dtv",
+   "count": 1
+  },
+  {
+   "name": "grid",
+   "count": 12
+  },
+  {
+   "name": "image encryption",
+   "count": 1
+  },
+  {
+   "name": "abnormal",
+   "count": 3
+  },
+  {
+   "name": "abnormal event",
+   "count": 2
+  },
+  {
+   "name": "detect abnormal",
+   "count": 1
+  },
+  {
+   "name": "natural",
+   "count": 2
+  },
+  {
+   "name": "kinship",
+   "count": 2
+  },
+  {
+   "name": "sms",
+   "count": 2
+  },
+  {
+   "name": "easysms",
+   "count": 1
+  },
+  {
+   "name": "edit",
+   "count": 2
+  },
+  {
+   "name": "downsampled",
+   "count": 1
+  },
+  {
+   "name": "geometric key",
+   "count": 1
+  },
+  {
+   "name": "artificial",
+   "count": 3
+  },
+  {
+   "name": "artificial noise",
+   "count": 2
+  },
+  {
+   "name": "pcm",
+   "count": 1
+  },
+  {
+   "name": "rpuf",
+   "count": 1
+  },
+  {
+   "name": "crp",
+   "count": 1
+  },
+  {
+   "name": "tamper",
+   "count": 6
+  },
+  {
+   "name": "tampered",
+   "count": 2
+  },
+  {
+   "name": "permission",
+   "count": 5
+  },
+  {
+   "name": "app",
+   "count": 4
+  },
+  {
+   "name": "malapps",
+   "count": 1
+  },
+  {
+   "name": "xor",
+   "count": 1
+  },
+  {
+   "name": "xor based",
+   "count": 1
+  },
+  {
+   "name": "based vc",
+   "count": 1
+  },
+  {
+   "name": "3d face",
+   "count": 1
+  },
+  {
+   "name": "aesthetic",
+   "count": 1
+  },
+  {
+   "name": "individual",
+   "count": 12
+  },
+  {
+   "name": "personal",
+   "count": 3
+  },
+  {
+   "name": "personal aesthetic",
+   "count": 1
+  },
+  {
+   "name": "reconnaissance",
+   "count": 2
+  },
+  {
+   "name": "sift",
+   "count": 4
+  },
+  {
+   "name": "keypoints",
+   "count": 2
+  },
+  {
+   "name": "osns",
+   "count": 1
+  },
+  {
+   "name": "back view",
+   "count": 1
+  },
+  {
+   "name": "front",
+   "count": 1
+  },
+  {
+   "name": "behavior",
+   "count": 18
+  },
+  {
+   "name": "blur",
+   "count": 3
+  },
+  {
+   "name": "elementary",
+   "count": 1
+  },
+  {
+   "name": "elementary action",
+   "count": 1
+  },
+  {
+   "name": "markov",
+   "count": 2
+  },
+  {
+   "name": "sparse",
+   "count": 5
+  },
+  {
+   "name": "voice",
+   "count": 3
+  },
+  {
+   "name": "disguise",
+   "count": 1
+  },
+  {
+   "name": "disguised",
+   "count": 1
+  },
+  {
+   "name": "disguised voice",
+   "count": 1
+  },
+  {
+   "name": "phylogeny",
+   "count": 1
+  },
+  {
+   "name": "gallery",
+   "count": 1
+  },
+  {
+   "name": "image set",
+   "count": 1
+  },
+  {
+   "name": "isfr",
+   "count": 1
+  },
+  {
+   "name": "knuckle",
+   "count": 2
+  },
+  {
+   "name": "finger knuckle",
+   "count": 1
+  },
+  {
+   "name": "knuckle pattern",
+   "count": 2
+  },
+  {
+   "name": "defender",
+   "count": 4
+  },
+  {
+   "name": "complex",
+   "count": 1
+  },
+  {
+   "name": "hormone",
+   "count": 1
+  },
+  {
+   "name": "binary pattern",
+   "count": 1
+  },
+  {
+   "name": "assignment",
+   "count": 2
+  },
+  {
+   "name": "community relationship",
+   "count": 1
+  },
+  {
+   "name": "lip",
+   "count": 4
+  },
+  {
+   "name": "lip motion",
+   "count": 1
+  },
+  {
+   "name": "nir",
+   "count": 3
+  },
+  {
+   "name": "vis",
+   "count": 1
+  },
+  {
+   "name": "vis nir",
+   "count": 1
+  },
+  {
+   "name": "to",
+   "count": 2
+  },
+  {
+   "name": "gesture",
+   "count": 5
+  },
+  {
+   "name": "touch gesture",
+   "count": 1
+  },
+  {
+   "name": "lrdos",
+   "count": 1
+  },
+  {
+   "name": "lrdos attack",
+   "count": 1
+  },
+  {
+   "name": "social medium",
+   "count": 2
+  },
+  {
+   "name": "deception",
+   "count": 5
+  },
+  {
+   "name": "perform",
+   "count": 3
+  },
+  {
+   "name": "multitouch",
+   "count": 1
+  },
+  {
+   "name": "multitouch gesture",
+   "count": 1
+  },
+  {
+   "name": "bundle",
+   "count": 1
+  },
+  {
+   "name": "dtns",
+   "count": 1
+  },
+  {
+   "name": "data fc",
+   "count": 1
+  },
+  {
+   "name": "classify",
+   "count": 1
+  },
+  {
+   "name": "cloud server",
+   "count": 3
+  },
+  {
+   "name": "sds",
+   "count": 1
+  },
+  {
+   "name": "biometric modality",
+   "count": 1
+  },
+  {
+   "name": "network environment",
+   "count": 1
+  },
+  {
+   "name": "digit model",
+   "count": 1
+  },
+  {
+   "name": "cryptography",
+   "count": 1
+  },
+  {
+   "name": "pu",
+   "count": 3
+  },
+  {
+   "name": "su",
+   "count": 3
+  },
+  {
+   "name": "trustee",
+   "count": 1
+  },
+  {
+   "name": "efc",
+   "count": 1
+  },
+  {
+   "name": "cs3da",
+   "count": 1
+  },
+  {
+   "name": "pcsda",
+   "count": 1
+  },
+  {
+   "name": "cost sensitive",
+   "count": 2
+  },
+  {
+   "name": "visibility",
+   "count": 1
+  },
+  {
+   "name": "sign",
+   "count": 1
+  },
+  {
+   "name": "butterfly",
+   "count": 1
+  },
+  {
+   "name": "vetdroid",
+   "count": 1
+  },
+  {
+   "name": "apps",
+   "count": 9
+  },
+  {
+   "name": "key exchange",
+   "count": 2
+  },
+  {
+   "name": "integrity verification",
+   "count": 1
+  },
+  {
+   "name": "rgb",
+   "count": 3
+  },
+  {
+   "name": "rfg",
+   "count": 1
+  },
+  {
+   "name": "spb",
+   "count": 1
+  },
+  {
+   "name": "sequential",
+   "count": 2
+  },
+  {
+   "name": "sequential attack",
+   "count": 1
+  },
+  {
+   "name": "blackout",
+   "count": 1
+  },
+  {
+   "name": "ribe",
+   "count": 2
+  },
+  {
+   "name": "ibe",
+   "count": 1
+  },
+  {
+   "name": "exposure",
+   "count": 2
+  },
+  {
+   "name": "center mass",
+   "count": 1
+  },
+  {
+   "name": "database modification",
+   "count": 1
+  },
+  {
+   "name": "bv",
+   "count": 1
+  },
+  {
+   "name": "bvs",
+   "count": 1
+  },
+  {
+   "name": "dimension",
+   "count": 1
+  },
+  {
+   "name": "parallel channel",
+   "count": 1
+  },
+  {
+   "name": "compute",
+   "count": 4
+  },
+  {
+   "name": "provenance",
+   "count": 2
+  },
+  {
+   "name": "entry",
+   "count": 2
+  },
+  {
+   "name": "entry method",
+   "count": 1
+  },
+  {
+   "name": "codeword",
+   "count": 1
+  },
+  {
+   "name": "skull",
+   "count": 4
+  },
+  {
+   "name": "craniofacial",
+   "count": 1
+  },
+  {
+   "name": "soft",
+   "count": 4
+  },
+  {
+   "name": "soft biometric",
+   "count": 1
+  },
+  {
+   "name": "2d",
+   "count": 7
+  },
+  {
+   "name": "pot",
+   "count": 1
+  },
+  {
+   "name": "item",
+   "count": 2
+  },
+  {
+   "name": "oblivious",
+   "count": 1
+  },
+  {
+   "name": "oblivious transfer",
+   "count": 1
+  },
+  {
+   "name": "sme",
+   "count": 1
+  },
+  {
+   "name": "sybilbelief",
+   "count": 1
+  },
+  {
+   "name": "benign",
+   "count": 1
+  },
+  {
+   "name": "sybil node",
+   "count": 1
+  },
+  {
+   "name": "hand print",
+   "count": 1
+  },
+  {
+   "name": "damage",
+   "count": 2
+  },
+  {
+   "name": "expose",
+   "count": 1
+  },
+  {
+   "name": "misuseability",
+   "count": 1
+  },
+  {
+   "name": "asymmetric",
+   "count": 1
+  },
+  {
+   "name": "facial composite",
+   "count": 1
+  },
+  {
+   "name": "mugshot",
+   "count": 1
+  },
+  {
+   "name": "ipsec",
+   "count": 1
+  },
+  {
+   "name": "helper",
+   "count": 1
+  },
+  {
+   "name": "helper data",
+   "count": 1
+  },
+  {
+   "name": "entropy",
+   "count": 5
+  },
+  {
+   "name": "actor",
+   "count": 1
+  },
+  {
+   "name": "completely",
+   "count": 1
+  },
+  {
+   "name": "determine",
+   "count": 2
+  },
+  {
+   "name": "thermal",
+   "count": 2
+  },
+  {
+   "name": "lie",
+   "count": 1
+  },
+  {
+   "name": "mef",
+   "count": 1
+  },
+  {
+   "name": "deployment",
+   "count": 1
+  },
+  {
+   "name": "deployment incentive",
+   "count": 1
+  },
+  {
+   "name": "incentive",
+   "count": 4
+  },
+  {
+   "name": "wolf",
+   "count": 1
+  },
+  {
+   "name": "claimant",
+   "count": 1
+  },
+  {
+   "name": "parity",
+   "count": 1
+  },
+  {
+   "name": "smart",
+   "count": 13
+  },
+  {
+   "name": "mpc",
+   "count": 1
+  },
+  {
+   "name": "alter",
+   "count": 1
+  },
+  {
+   "name": "interest",
+   "count": 2
+  },
+  {
+   "name": "contact lens",
+   "count": 1
+  },
+  {
+   "name": "various",
+   "count": 1
+  },
+  {
+   "name": "connection probability",
+   "count": 1
+  },
+  {
+   "name": "generate",
+   "count": 8
+  },
+  {
+   "name": "3d object",
+   "count": 1
+  },
+  {
+   "name": "network security",
+   "count": 1
+  },
+  {
+   "name": "netsecvisor",
+   "count": 1
+  },
+  {
+   "name": "preprocessing",
+   "count": 1
+  },
+  {
+   "name": "arbitrary",
+   "count": 1
+  },
+  {
+   "name": "arbitrary number",
+   "count": 1
+  },
+  {
+   "name": "homomorphic",
+   "count": 2
+  },
+  {
+   "name": "pke",
+   "count": 1
+  },
+  {
+   "name": "cryptosystem",
+   "count": 3
+  },
+  {
+   "name": "security analysis",
+   "count": 1
+  },
+  {
+   "name": "fpga device",
+   "count": 1
+  },
+  {
+   "name": "wang",
+   "count": 1
+  },
+  {
+   "name": "he",
+   "count": 1
+  },
+  {
+   "name": "ac ot",
+   "count": 1
+  },
+  {
+   "name": "amr",
+   "count": 3
+  },
+  {
+   "name": "amr audio",
+   "count": 1
+  },
+  {
+   "name": "abandon",
+   "count": 1
+  },
+  {
+   "name": "luggage",
+   "count": 1
+  },
+  {
+   "name": "abandon luggage",
+   "count": 1
+  },
+  {
+   "name": "joint bayesian",
+   "count": 1
+  },
+  {
+   "name": "csp",
+   "count": 3
+  },
+  {
+   "name": "snp",
+   "count": 1
+  },
+  {
+   "name": "csp snp",
+   "count": 1
+  },
+  {
+   "name": "mutation",
+   "count": 1
+  },
+  {
+   "name": "propose approach",
+   "count": 1
+  },
+  {
+   "name": "cppa",
+   "count": 2
+  },
+  {
+   "name": "cppa scheme",
+   "count": 1
+  },
+  {
+   "name": "pilot",
+   "count": 11
+  },
+  {
+   "name": "recapture",
+   "count": 2
+  },
+  {
+   "name": "aliasing",
+   "count": 1
+  },
+  {
+   "name": "descriptor base",
+   "count": 1
+  },
+  {
+   "name": "pin entry",
+   "count": 1
+  },
+  {
+   "name": "simple",
+   "count": 1
+  },
+  {
+   "name": "liveness detection",
+   "count": 2
+  },
+  {
+   "name": "abe scheme",
+   "count": 3
+  },
+  {
+   "name": "outsourced",
+   "count": 1
+  },
+  {
+   "name": "dra",
+   "count": 2
+  },
+  {
+   "name": "depression",
+   "count": 1
+  },
+  {
+   "name": "diagnosis",
+   "count": 1
+  },
+  {
+   "name": "visual based",
+   "count": 1
+  },
+  {
+   "name": "deduplication",
+   "count": 2
+  },
+  {
+   "name": "mle",
+   "count": 1
+  },
+  {
+   "name": "blur type",
+   "count": 1
+  },
+  {
+   "name": "importance",
+   "count": 1
+  },
+  {
+   "name": "importance node",
+   "count": 1
+  },
+  {
+   "name": "unknown",
+   "count": 2
+  },
+  {
+   "name": "inline",
+   "count": 8
+  },
+  {
+   "name": "inline formula",
+   "count": 7
+  },
+  {
+   "name": "math",
+   "count": 6
+  },
+  {
+   "name": "jpeg file",
+   "count": 1
+  },
+  {
+   "name": "real",
+   "count": 4
+  },
+  {
+   "name": "echo",
+   "count": 1
+  },
+  {
+   "name": "compressive",
+   "count": 1
+  },
+  {
+   "name": "compressive sensing",
+   "count": 1
+  },
+  {
+   "name": "anonycontrol",
+   "count": 1
+  },
+  {
+   "name": "correlated",
+   "count": 1
+  },
+  {
+   "name": "differential",
+   "count": 4
+  },
+  {
+   "name": "cdfl",
+   "count": 1
+  },
+  {
+   "name": "discriminative",
+   "count": 2
+  },
+  {
+   "name": "password hash",
+   "count": 1
+  },
+  {
+   "name": "manifold",
+   "count": 1
+  },
+  {
+   "name": "dmd",
+   "count": 1
+  },
+  {
+   "name": "replay",
+   "count": 3
+  },
+  {
+   "name": "byzantines",
+   "count": 2
+  },
+  {
+   "name": "dca",
+   "count": 1
+  },
+  {
+   "name": "precomputation",
+   "count": 1
+  },
+  {
+   "name": "cl",
+   "count": 1
+  },
+  {
+   "name": "field",
+   "count": 4
+  },
+  {
+   "name": "dense",
+   "count": 2
+  },
+  {
+   "name": "dense field",
+   "count": 1
+  },
+  {
+   "name": "pkeet",
+   "count": 1
+  },
+  {
+   "name": "authorization",
+   "count": 1
+  },
+  {
+   "name": "pkeet scheme",
+   "count": 1
+  },
+  {
+   "name": "peh",
+   "count": 1
+  },
+  {
+   "name": "reflection",
+   "count": 2
+  },
+  {
+   "name": "replay attack",
+   "count": 1
+  },
+  {
+   "name": "face spoof",
+   "count": 3
+  },
+  {
+   "name": "spoof attack",
+   "count": 2
+  },
+  {
+   "name": "top",
+   "count": 1
+  },
+  {
+   "name": "detection propose",
+   "count": 1
+  },
+  {
+   "name": "fault attack",
+   "count": 1
+  },
+  {
+   "name": "trngs",
+   "count": 1
+  },
+  {
+   "name": "capacity equivocation",
+   "count": 1
+  },
+  {
+   "name": "causal",
+   "count": 1
+  },
+  {
+   "name": "cm",
+   "count": 1
+  },
+  {
+   "name": "recruitment",
+   "count": 1
+  },
+  {
+   "name": "cyber recruitment",
+   "count": 1
+  },
+  {
+   "name": "forecast",
+   "count": 1
+  },
+  {
+   "name": "able",
+   "count": 2
+  },
+  {
+   "name": "cache",
+   "count": 8
+  },
+  {
+   "name": "spchs",
+   "count": 1
+  },
+  {
+   "name": "response bit",
+   "count": 1
+  },
+  {
+   "name": "allow",
+   "count": 3
+  },
+  {
+   "name": "compact",
+   "count": 1
+  },
+  {
+   "name": "lightweight",
+   "count": 2
+  },
+  {
+   "name": "grp",
+   "count": 2
+  },
+  {
+   "name": "reduce",
+   "count": 1
+  },
+  {
+   "name": "authority",
+   "count": 2
+  },
+  {
+   "name": "fd",
+   "count": 3
+  },
+  {
+   "name": "fdj",
+   "count": 2
+  },
+  {
+   "name": "fdt",
+   "count": 2
+  },
+  {
+   "name": "wiretap",
+   "count": 4
+  },
+  {
+   "name": "wiretap channel",
+   "count": 3
+  },
+  {
+   "name": "converse",
+   "count": 1
+  },
+  {
+   "name": "risk score",
+   "count": 1
+  },
+  {
+   "name": "keystroke sound",
+   "count": 1
+  },
+  {
+   "name": "between",
+   "count": 1
+  },
+  {
+   "name": "countermeasure",
+   "count": 7
+  },
+  {
+   "name": "asv",
+   "count": 3
+  },
+  {
+   "name": "transmission line",
+   "count": 1
+  },
+  {
+   "name": "substation",
+   "count": 1
+  },
+  {
+   "name": "sca",
+   "count": 2
+  },
+  {
+   "name": "ndn",
+   "count": 4
+  },
+  {
+   "name": "live",
+   "count": 1
+  },
+  {
+   "name": "mcc",
+   "count": 1
+  },
+  {
+   "name": "round",
+   "count": 4
+  },
+  {
+   "name": "multiplication",
+   "count": 3
+  },
+  {
+   "name": "communication round",
+   "count": 1
+  },
+  {
+   "name": "lpog",
+   "count": 1
+  },
+  {
+   "name": "ers",
+   "count": 1
+  },
+  {
+   "name": "ir",
+   "count": 2
+  },
+  {
+   "name": "mf",
+   "count": 1
+  },
+  {
+   "name": "mf image",
+   "count": 1
+  },
+  {
+   "name": "pe",
+   "count": 2
+  },
+  {
+   "name": "pe histogram",
+   "count": 1
+  },
+  {
+   "name": "overlay",
+   "count": 1
+  },
+  {
+   "name": "face overlay",
+   "count": 1
+  },
+  {
+   "name": "skull face",
+   "count": 2
+  },
+  {
+   "name": "statistical",
+   "count": 6
+  },
+  {
+   "name": "investigate",
+   "count": 1
+  },
+  {
+   "name": "marc",
+   "count": 1
+  },
+  {
+   "name": "marc wt",
+   "count": 1
+  },
+  {
+   "name": "ribe scheme",
+   "count": 1
+  },
+  {
+   "name": "electromagnetic",
+   "count": 1
+  },
+  {
+   "name": "channel estimate",
+   "count": 1
+  },
+  {
+   "name": "iterative",
+   "count": 1
+  },
+  {
+   "name": "w1",
+   "count": 1
+  },
+  {
+   "name": "dmc",
+   "count": 1
+  },
+  {
+   "name": "dmc w1",
+   "count": 1
+  },
+  {
+   "name": "sided",
+   "count": 1
+  },
+  {
+   "name": "mac",
+   "count": 2
+  },
+  {
+   "name": "antispoofing",
+   "count": 2
+  },
+  {
+   "name": "band reserve",
+   "count": 1
+  },
+  {
+   "name": "withdrawn",
+   "count": 1
+  },
+  {
+   "name": "material",
+   "count": 2
+  },
+  {
+   "name": "spoof detector",
+   "count": 1
+  },
+  {
+   "name": "victim",
+   "count": 2
+  },
+  {
+   "name": "pit",
+   "count": 1
+  },
+  {
+   "name": "spoofers",
+   "count": 1
+  },
+  {
+   "name": "traceback",
+   "count": 3
+  },
+  {
+   "name": "ip traceback",
+   "count": 2
+  },
+  {
+   "name": "credential",
+   "count": 1
+  },
+  {
+   "name": "violator",
+   "count": 1
+  },
+  {
+   "name": "revoke",
+   "count": 1
+  },
+  {
+   "name": "duplex",
+   "count": 1
+  },
+  {
+   "name": "full duplex",
+   "count": 1
+  },
+  {
+   "name": "box",
+   "count": 3
+  },
+  {
+   "name": "data leak",
+   "count": 1
+  },
+  {
+   "name": "leak",
+   "count": 2
+  },
+  {
+   "name": "auditing",
+   "count": 1
+  },
+  {
+   "name": "cloud storage",
+   "count": 2
+  },
+  {
+   "name": "deformation",
+   "count": 1
+  },
+  {
+   "name": "customer",
+   "count": 2
+  },
+  {
+   "name": "store",
+   "count": 1
+  },
+  {
+   "name": "pupil",
+   "count": 1
+  },
+  {
+   "name": "reaction",
+   "count": 1
+  },
+  {
+   "name": "rcs",
+   "count": 1
+  },
+  {
+   "name": "radical",
+   "count": 1
+  },
+  {
+   "name": "collocation",
+   "count": 1
+  },
+  {
+   "name": "influential",
+   "count": 2
+  },
+  {
+   "name": "face pose",
+   "count": 1
+  },
+  {
+   "name": "flm",
+   "count": 1
+  },
+  {
+   "name": "scrambler",
+   "count": 1
+  },
+  {
+   "name": "feedback polynomial",
+   "count": 1
+  },
+  {
+   "name": "memory",
+   "count": 5
+  },
+  {
+   "name": "memory acquisition",
+   "count": 1
+  },
+  {
+   "name": "derivation",
+   "count": 1
+  },
+  {
+   "name": "al",
+   "count": 3
+  },
+  {
+   "name": "certificateless",
+   "count": 2
+  },
+  {
+   "name": "wbans",
+   "count": 1
+  },
+  {
+   "name": "base station",
+   "count": 1
+  },
+  {
+   "name": "artefact",
+   "count": 1
+  },
+  {
+   "name": "sms worm",
+   "count": 1
+  },
+  {
+   "name": "attribute based",
+   "count": 2
+  },
+  {
+   "name": "network cod",
+   "count": 1
+  },
+  {
+   "name": "sdm",
+   "count": 1
+  },
+  {
+   "name": "imperfect",
+   "count": 2
+  },
+  {
+   "name": "imperfect feedback",
+   "count": 1
+  },
+  {
+   "name": "dn",
+   "count": 1
+  },
+  {
+   "name": "dn snr",
+   "count": 1
+  },
+  {
+   "name": "regime",
+   "count": 2
+  },
+  {
+   "name": "coop",
+   "count": 1
+  },
+  {
+   "name": "steganographic",
+   "count": 5
+  },
+  {
+   "name": "binary image",
+   "count": 3
+  },
+  {
+   "name": "manhattan",
+   "count": 1
+  },
+  {
+   "name": "pca",
+   "count": 2
+  },
+  {
+   "name": "scaled",
+   "count": 1
+  },
+  {
+   "name": "vehicular",
+   "count": 2
+  },
+  {
+   "name": "ope",
+   "count": 1
+  },
+  {
+   "name": "relevance",
+   "count": 1
+  },
+  {
+   "name": "relevance score",
+   "count": 1
+  },
+  {
+   "name": "gain",
+   "count": 2
+  },
+  {
+   "name": "diversity",
+   "count": 4
+  },
+  {
+   "name": "polynomial",
+   "count": 3
+  },
+  {
+   "name": "move",
+   "count": 3
+  },
+  {
+   "name": "group signature",
+   "count": 1
+  },
+  {
+   "name": "linkability",
+   "count": 1
+  },
+  {
+   "name": "autoencoder",
+   "count": 1
+  },
+  {
+   "name": "deep",
+   "count": 16
+  },
+  {
+   "name": "power function",
+   "count": 1
+  },
+  {
+   "name": "magnitude",
+   "count": 1
+  },
+  {
+   "name": "magnitude component",
+   "count": 1
+  },
+  {
+   "name": "client puzzle",
+   "count": 1
+  },
+  {
+   "name": "detection approach",
+   "count": 1
+  },
+  {
+   "name": "impostor",
+   "count": 1
+  },
+  {
+   "name": "weak",
+   "count": 1
+  },
+  {
+   "name": "snow",
+   "count": 1
+  },
+  {
+   "name": "malicious user",
+   "count": 2
+  },
+  {
+   "name": "puea",
+   "count": 1
+  },
+  {
+   "name": "cepstral",
+   "count": 1
+  },
+  {
+   "name": "image feature",
+   "count": 1
+  },
+  {
+   "name": "v2g",
+   "count": 2
+  },
+  {
+   "name": "v2g network",
+   "count": 2
+  },
+  {
+   "name": "know",
+   "count": 3
+  },
+  {
+   "name": "traitor",
+   "count": 1
+  },
+  {
+   "name": "mechanism",
+   "count": 18
+  },
+  {
+   "name": "tap",
+   "count": 2
+  },
+  {
+   "name": "roam",
+   "count": 2
+  },
+  {
+   "name": "cognitive",
+   "count": 3
+  },
+  {
+   "name": "tor",
+   "count": 1
+  },
+  {
+   "name": "malicious traffic",
+   "count": 1
+  },
+  {
+   "name": "watchdog",
+   "count": 1
+  },
+  {
+   "name": "blackbox",
+   "count": 1
+  },
+  {
+   "name": "decryption blackbox",
+   "count": 1
+  },
+  {
+   "name": "pt",
+   "count": 1
+  },
+  {
+   "name": "uniform",
+   "count": 1
+  },
+  {
+   "name": "uniform embed",
+   "count": 1
+  },
+  {
+   "name": "presentation",
+   "count": 9
+  },
+  {
+   "name": "botnet",
+   "count": 3
+  },
+  {
+   "name": "relay channel",
+   "count": 1
+  },
+  {
+   "name": "author",
+   "count": 4
+  },
+  {
+   "name": "anonymity author",
+   "count": 1
+  },
+  {
+   "name": "guess",
+   "count": 3
+  },
+  {
+   "name": "device identification",
+   "count": 1
+  },
+  {
+   "name": "imperfection",
+   "count": 1
+  },
+  {
+   "name": "2dcrypt",
+   "count": 1
+  },
+  {
+   "name": "role mining",
+   "count": 1
+  },
+  {
+   "name": "concentration",
+   "count": 1
+  },
+  {
+   "name": "dummy",
+   "count": 4
+  },
+  {
+   "name": "afa",
+   "count": 2
+  },
+  {
+   "name": "electrode",
+   "count": 1
+  },
+  {
+   "name": "dry",
+   "count": 1
+  },
+  {
+   "name": "emd",
+   "count": 1
+  },
+  {
+   "name": "cbir",
+   "count": 1
+  },
+  {
+   "name": "minutia structure",
+   "count": 1
+  },
+  {
+   "name": "resource",
+   "count": 5
+  },
+  {
+   "name": "linkage",
+   "count": 2
+  },
+  {
+   "name": "activetrust",
+   "count": 1
+  },
+  {
+   "name": "double fault",
+   "count": 1
+  },
+  {
+   "name": "injection",
+   "count": 4
+  },
+  {
+   "name": "scada",
+   "count": 1
+  },
+  {
+   "name": "scada system",
+   "count": 1
+  },
+  {
+   "name": "epom",
+   "count": 1
+  },
+  {
+   "name": "location password",
+   "count": 1
+  },
+  {
+   "name": "annotate",
+   "count": 1
+  },
+  {
+   "name": "annotate location",
+   "count": 1
+  },
+  {
+   "name": "reader",
+   "count": 3
+  },
+  {
+   "name": "adversarial reader",
+   "count": 1
+  },
+  {
+   "name": "puc",
+   "count": 1
+  },
+  {
+   "name": "predict",
+   "count": 2
+  },
+  {
+   "name": "propose scheme",
+   "count": 4
+  },
+  {
+   "name": "mobile device",
+   "count": 2
+  },
+  {
+   "name": "macs",
+   "count": 1
+  },
+  {
+   "name": "ana",
+   "count": 1
+  },
+  {
+   "name": "ana macs",
+   "count": 1
+  },
+  {
+   "name": "data share",
+   "count": 2
+  },
+  {
+   "name": "availability",
+   "count": 1
+  },
+  {
+   "name": "verifier",
+   "count": 2
+  },
+  {
+   "name": "accommodate",
+   "count": 1
+  },
+  {
+   "name": "authorized",
+   "count": 4
+  },
+  {
+   "name": "authorized signal",
+   "count": 1
+  },
+  {
+   "name": "erp",
+   "count": 1
+  },
+  {
+   "name": "field research",
+   "count": 1
+  },
+  {
+   "name": "audit scheme",
+   "count": 1
+  },
+  {
+   "name": "italic",
+   "count": 5
+  },
+  {
+   "name": "imagers",
+   "count": 1
+  },
+  {
+   "name": "complementary",
+   "count": 1
+  },
+  {
+   "name": "face pair",
+   "count": 1
+  },
+  {
+   "name": "automaton",
+   "count": 1
+  },
+  {
+   "name": "closed",
+   "count": 1
+  },
+  {
+   "name": "closed form",
+   "count": 1
+  },
+  {
+   "name": "1dmrlbp",
+   "count": 1
+  },
+  {
+   "name": "continuous authentication",
+   "count": 2
+  },
+  {
+   "name": "disturbance",
+   "count": 1
+  },
+  {
+   "name": "voltage",
+   "count": 1
+  },
+  {
+   "name": "hop",
+   "count": 2
+  },
+  {
+   "name": "cryptoleq",
+   "count": 1
+  },
+  {
+   "name": "las",
+   "count": 1
+  },
+  {
+   "name": "opportunistic",
+   "count": 1
+  },
+  {
+   "name": "dw",
+   "count": 1
+  },
+  {
+   "name": "dw aes",
+   "count": 1
+  },
+  {
+   "name": "deletion",
+   "count": 1
+  },
+  {
+   "name": "gracewipe",
+   "count": 1
+  },
+  {
+   "name": "end delay",
+   "count": 1
+  },
+  {
+   "name": "end to",
+   "count": 1
+  },
+  {
+   "name": "target",
+   "count": 11
+  },
+  {
+   "name": "3d target",
+   "count": 1
+  },
+  {
+   "name": "tero",
+   "count": 1
+  },
+  {
+   "name": "timing",
+   "count": 1
+  },
+  {
+   "name": "timing channel",
+   "count": 1
+  },
+  {
+   "name": "bidder",
+   "count": 1
+  },
+  {
+   "name": "auctioneer",
+   "count": 1
+  },
+  {
+   "name": "detect order",
+   "count": 1
+  },
+  {
+   "name": "order operation",
+   "count": 1
+  },
+  {
+   "name": "byzantine",
+   "count": 1
+  },
+  {
+   "name": "byzantine attack",
+   "count": 1
+  },
+  {
+   "name": "retouch",
+   "count": 1
+  },
+  {
+   "name": "superpoints",
+   "count": 1
+  },
+  {
+   "name": "vbf",
+   "count": 1
+  },
+  {
+   "name": "dbe",
+   "count": 1
+  },
+  {
+   "name": "encryption notion",
+   "count": 1
+  },
+  {
+   "name": "newborn",
+   "count": 1
+  },
+  {
+   "name": "peks",
+   "count": 2
+  },
+  {
+   "name": "sphf",
+   "count": 1
+  },
+  {
+   "name": "lh",
+   "count": 1
+  },
+  {
+   "name": "lh sphf",
+   "count": 1
+  },
+  {
+   "name": "mail",
+   "count": 1
+  },
+  {
+   "name": "elliptic",
+   "count": 1
+  },
+  {
+   "name": "elliptic curve",
+   "count": 1
+  },
+  {
+   "name": "amua",
+   "count": 1
+  },
+  {
+   "name": "amua protocol",
+   "count": 1
+  },
+  {
+   "name": "key update",
+   "count": 1
+  },
+  {
+   "name": "co mimo",
+   "count": 1
+  },
+  {
+   "name": "reliability",
+   "count": 1
+  },
+  {
+   "name": "light field",
+   "count": 1
+  },
+  {
+   "name": "gaussian tree",
+   "count": 1
+  },
+  {
+   "name": "max",
+   "count": 1
+  },
+  {
+   "name": "colour",
+   "count": 1
+  },
+  {
+   "name": "colour texture",
+   "count": 1
+  },
+  {
+   "name": "mda",
+   "count": 1
+  },
+  {
+   "name": "cnns",
+   "count": 2
+  },
+  {
+   "name": "information flow",
+   "count": 1
+  },
+  {
+   "name": "clothing",
+   "count": 1
+  },
+  {
+   "name": "modulation scheme",
+   "count": 1
+  },
+  {
+   "name": "adaptivity",
+   "count": 1
+  },
+  {
+   "name": "adaptivity criterion",
+   "count": 1
+  },
+  {
+   "name": "gender",
+   "count": 4
+  },
+  {
+   "name": "public key",
+   "count": 1
+  },
+  {
+   "name": "geometric range",
+   "count": 1
+  },
+  {
+   "name": "hmog",
+   "count": 1
+  },
+  {
+   "name": "hmog feature",
+   "count": 1
+  },
+  {
+   "name": "certain",
+   "count": 1
+  },
+  {
+   "name": "malwares",
+   "count": 1
+  },
+  {
+   "name": "iccdetector",
+   "count": 1
+  },
+  {
+   "name": "data integrity",
+   "count": 2
+  },
+  {
+   "name": "barcodes",
+   "count": 1
+  },
+  {
+   "name": "2d barcodes",
+   "count": 1
+  },
+  {
+   "name": "compound",
+   "count": 3
+  },
+  {
+   "name": "neuroprint",
+   "count": 1
+  },
+  {
+   "name": "application developer",
+   "count": 1
+  },
+  {
+   "name": "sus",
+   "count": 1
+  },
+  {
+   "name": "pu secrecy",
+   "count": 1
+  },
+  {
+   "name": "crypt",
+   "count": 1
+  },
+  {
+   "name": "mse",
+   "count": 1
+  },
+  {
+   "name": "jammer power",
+   "count": 1
+  },
+  {
+   "name": "reactive",
+   "count": 1
+  },
+  {
+   "name": "bs",
+   "count": 6
+  },
+  {
+   "name": "ergodic",
+   "count": 2
+  },
+  {
+   "name": "lg",
+   "count": 1
+  },
+  {
+   "name": "lg face",
+   "count": 1
+  },
+  {
+   "name": "illumination",
+   "count": 3
+  },
+  {
+   "name": "transition",
+   "count": 2
+  },
+  {
+   "name": "transition matrix",
+   "count": 1
+  },
+  {
+   "name": "smartphones",
+   "count": 1
+  },
+  {
+   "name": "magpairing",
+   "count": 1
+  },
+  {
+   "name": "bus",
+   "count": 8
+  },
+  {
+   "name": "link signature",
+   "count": 1
+  },
+  {
+   "name": "mimicry",
+   "count": 1
+  },
+  {
+   "name": "level feature",
+   "count": 1
+  },
+  {
+   "name": "enlargement",
+   "count": 1
+  },
+  {
+   "name": "composition",
+   "count": 2
+  },
+  {
+   "name": "parent",
+   "count": 1
+  },
+  {
+   "name": "create",
+   "count": 2
+  },
+  {
+   "name": "task",
+   "count": 4
+  },
+  {
+   "name": "stimulus",
+   "count": 1
+  },
+  {
+   "name": "ssids",
+   "count": 1
+  },
+  {
+   "name": "blacklist",
+   "count": 2
+  },
+  {
+   "name": "sdn",
+   "count": 3
+  },
+  {
+   "name": "sdn network",
+   "count": 1
+  },
+  {
+   "name": "individual secrecy",
+   "count": 1
+  },
+  {
+   "name": "acquire",
+   "count": 3
+  },
+  {
+   "name": "censorship",
+   "count": 2
+  },
+  {
+   "name": "methodology",
+   "count": 1
+  },
+  {
+   "name": "abstraction",
+   "count": 2
+  },
+  {
+   "name": "only",
+   "count": 1
+  },
+  {
+   "name": "wi",
+   "count": 1
+  },
+  {
+   "name": "location service",
+   "count": 1
+  },
+  {
+   "name": "meeting",
+   "count": 1
+  },
+  {
+   "name": "delivery",
+   "count": 3
+  },
+  {
+   "name": "csps",
+   "count": 2
+  },
+  {
+   "name": "authentication signal",
+   "count": 1
+  },
+  {
+   "name": "health",
+   "count": 3
+  },
+  {
+   "name": "mhda",
+   "count": 1
+  },
+  {
+   "name": "perfect",
+   "count": 1
+  },
+  {
+   "name": "perfect secrecy",
+   "count": 1
+  },
+  {
+   "name": "touch operation",
+   "count": 1
+  },
+  {
+   "name": "dorsal",
+   "count": 1
+  },
+  {
+   "name": "access point",
+   "count": 1
+  },
+  {
+   "name": "average secrecy",
+   "count": 1
+  },
+  {
+   "name": "piecewise",
+   "count": 1
+  },
+  {
+   "name": "data structure",
+   "count": 1
+  },
+  {
+   "name": "history",
+   "count": 1
+  },
+  {
+   "name": "aggregator",
+   "count": 1
+  },
+  {
+   "name": "sense",
+   "count": 2
+  },
+  {
+   "name": "float",
+   "count": 1
+  },
+  {
+   "name": "float point",
+   "count": 1
+  },
+  {
+   "name": "point number",
+   "count": 1
+  },
+  {
+   "name": "publisher",
+   "count": 1
+  },
+  {
+   "name": "data owner",
+   "count": 1
+  },
+  {
+   "name": "data warehouse",
+   "count": 1
+  },
+  {
+   "name": "warehouse",
+   "count": 1
+  },
+  {
+   "name": "account",
+   "count": 3
+  },
+  {
+   "name": "osn",
+   "count": 1
+  },
+  {
+   "name": "quaternion",
+   "count": 1
+  },
+  {
+   "name": "binding",
+   "count": 1
+  },
+  {
+   "name": "fsm",
+   "count": 2
+  },
+  {
+   "name": "example",
+   "count": 3
+  },
+  {
+   "name": "fsm binding",
+   "count": 1
+  },
+  {
+   "name": "flaw",
+   "count": 1
+  },
+  {
+   "name": "al recently",
+   "count": 1
+  },
+  {
+   "name": "comment",
+   "count": 2
+  },
+  {
+   "name": "comment paper",
+   "count": 1
+  },
+  {
+   "name": "previous",
+   "count": 1
+  },
+  {
+   "name": "chinese",
+   "count": 1
+  },
+  {
+   "name": "english",
+   "count": 1
+  },
+  {
+   "name": "broadcast channel",
+   "count": 3
+  },
+  {
+   "name": "untrusted",
+   "count": 6
+  },
+  {
+   "name": "relaying",
+   "count": 1
+  },
+  {
+   "name": "sram",
+   "count": 2
+  },
+  {
+   "name": "decay",
+   "count": 1
+  },
+  {
+   "name": "application context",
+   "count": 1
+  },
+  {
+   "name": "sarre",
+   "count": 1
+  },
+  {
+   "name": "path",
+   "count": 5
+  },
+  {
+   "name": "keypoint",
+   "count": 3
+  },
+  {
+   "name": "keypoint removal",
+   "count": 1
+  },
+  {
+   "name": "sift keypoint",
+   "count": 1
+  },
+  {
+   "name": "organization",
+   "count": 7
+  },
+  {
+   "name": "siimco",
+   "count": 1
+  },
+  {
+   "name": "criminal organization",
+   "count": 2
+  },
+  {
+   "name": "class specific",
+   "count": 1
+  },
+  {
+   "name": "randomness",
+   "count": 2
+  },
+  {
+   "name": "ad",
+   "count": 2
+  },
+  {
+   "name": "transmission protocol",
+   "count": 1
+  },
+  {
+   "name": "hss",
+   "count": 1
+  },
+  {
+   "name": "kepte",
+   "count": 1
+  },
+  {
+   "name": "hss kepte",
+   "count": 1
+  },
+  {
+   "name": "bnts",
+   "count": 1
+  },
+  {
+   "name": "bio",
+   "count": 2
+  },
+  {
+   "name": "bio nanothings",
+   "count": 1
+  },
+  {
+   "name": "nanothings",
+   "count": 1
+  },
+  {
+   "name": "approach use",
+   "count": 1
+  },
+  {
+   "name": "keyword",
+   "count": 4
+  },
+  {
+   "name": "peks scheme",
+   "count": 1
+  },
+  {
+   "name": "sa",
+   "count": 1
+  },
+  {
+   "name": "sa peks",
+   "count": 1
+  },
+  {
+   "name": "low rank",
+   "count": 1
+  },
+  {
+   "name": "pk",
+   "count": 1
+  },
+  {
+   "name": "sk",
+   "count": 2
+  },
+  {
+   "name": "hilbert",
+   "count": 1
+  },
+  {
+   "name": "selection channel",
+   "count": 1
+  },
+  {
+   "name": "detection problem",
+   "count": 1
+  },
+  {
+   "name": "still",
+   "count": 2
+  },
+  {
+   "name": "s2v",
+   "count": 1
+  },
+  {
+   "name": "still image",
+   "count": 1
+  },
+  {
+   "name": "3d palmprint",
+   "count": 1
+  },
+  {
+   "name": "locality",
+   "count": 1
+  },
+  {
+   "name": "masquerade",
+   "count": 1
+  },
+  {
+   "name": "fuzzy",
+   "count": 2
+  },
+  {
+   "name": "keyword fuzzy",
+   "count": 1
+  },
+  {
+   "name": "sex",
+   "count": 1
+  },
+  {
+   "name": "skeletal",
+   "count": 1
+  },
+  {
+   "name": "supraorbital",
+   "count": 1
+  },
+  {
+   "name": "assessment",
+   "count": 3
+  },
+  {
+   "name": "qr",
+   "count": 2
+  },
+  {
+   "name": "qr code",
+   "count": 2
+  },
+  {
+   "name": "virus",
+   "count": 2
+  },
+  {
+   "name": "extinction",
+   "count": 1
+  },
+  {
+   "name": "layout",
+   "count": 1
+  },
+  {
+   "name": "circuit layout",
+   "count": 1
+  },
+  {
+   "name": "wpli",
+   "count": 1
+  },
+  {
+   "name": "heterogeneous",
+   "count": 1
+  },
+  {
+   "name": "ddos",
+   "count": 7
+  },
+  {
+   "name": "different tenant",
+   "count": 1
+  },
+  {
+   "name": "tenant",
+   "count": 1
+  },
+  {
+   "name": "equilibrium",
+   "count": 3
+  },
+  {
+   "name": "ridesharing",
+   "count": 1
+  },
+  {
+   "name": "scheduling",
+   "count": 1
+  },
+  {
+   "name": "predistribution",
+   "count": 1
+  },
+  {
+   "name": "random",
+   "count": 5
+  },
+  {
+   "name": "strength",
+   "count": 1
+  },
+  {
+   "name": "multimodal",
+   "count": 4
+  },
+  {
+   "name": "follow",
+   "count": 1
+  },
+  {
+   "name": "dtw",
+   "count": 1
+  },
+  {
+   "name": "gmm",
+   "count": 2
+  },
+  {
+   "name": "run",
+   "count": 1
+  },
+  {
+   "name": "upscaled",
+   "count": 1
+  },
+  {
+   "name": "upscaled image",
+   "count": 1
+  },
+  {
+   "name": "eigenvalue",
+   "count": 1
+  },
+  {
+   "name": "skin texture",
+   "count": 1
+  },
+  {
+   "name": "far",
+   "count": 1
+  },
+  {
+   "name": "recognition performance",
+   "count": 1
+  },
+  {
+   "name": "docx",
+   "count": 1
+  },
+  {
+   "name": "docx file",
+   "count": 1
+  },
+  {
+   "name": "pitch",
+   "count": 1
+  },
+  {
+   "name": "wearable",
+   "count": 2
+  },
+  {
+   "name": "common",
+   "count": 4
+  },
+  {
+   "name": "automatically",
+   "count": 1
+  },
+  {
+   "name": "location privacy",
+   "count": 2
+  },
+  {
+   "name": "biometric identification",
+   "count": 1
+  },
+  {
+   "name": "ss",
+   "count": 1
+  },
+  {
+   "name": "playback",
+   "count": 1
+  },
+  {
+   "name": "interval",
+   "count": 1
+  },
+  {
+   "name": "coin",
+   "count": 1
+  },
+  {
+   "name": "dissimilarity",
+   "count": 1
+  },
+  {
+   "name": "fake coin",
+   "count": 1
+  },
+  {
+   "name": "home",
+   "count": 2
+  },
+  {
+   "name": "propose method",
+   "count": 2
+  },
+  {
+   "name": "amts",
+   "count": 1
+  },
+  {
+   "name": "fingerprint scanner",
+   "count": 1
+  },
+  {
+   "name": "attribution",
+   "count": 4
+  },
+  {
+   "name": "authorship",
+   "count": 2
+  },
+  {
+   "name": "hole",
+   "count": 1
+  },
+  {
+   "name": "spectrum hole",
+   "count": 1
+  },
+  {
+   "name": "objective",
+   "count": 2
+  },
+  {
+   "name": "pool",
+   "count": 1
+  },
+  {
+   "name": "bwh",
+   "count": 1
+  },
+  {
+   "name": "printing",
+   "count": 2
+  },
+  {
+   "name": "burstiness",
+   "count": 1
+  },
+  {
+   "name": "topology",
+   "count": 5
+  },
+  {
+   "name": "desire",
+   "count": 1
+  },
+  {
+   "name": "desire user",
+   "count": 1
+  },
+  {
+   "name": "esr",
+   "count": 3
+  },
+  {
+   "name": "gfgs",
+   "count": 1
+  },
+  {
+   "name": "money",
+   "count": 1
+  },
+  {
+   "name": "lagrangian",
+   "count": 1
+  },
+  {
+   "name": "scale",
+   "count": 8
+  },
+  {
+   "name": "five",
+   "count": 2
+  },
+  {
+   "name": "normal",
+   "count": 1
+  },
+  {
+   "name": "high dimensional",
+   "count": 1
+  },
+  {
+   "name": "pchip",
+   "count": 1
+  },
+  {
+   "name": "vericoq",
+   "count": 1
+  },
+  {
+   "name": "coq",
+   "count": 1
+  },
+  {
+   "name": "cnn",
+   "count": 9
+  },
+  {
+   "name": "propose cnn",
+   "count": 1
+  },
+  {
+   "name": "finger vein",
+   "count": 10
+  },
+  {
+   "name": "player",
+   "count": 1
+  },
+  {
+   "name": "sip",
+   "count": 1
+  },
+  {
+   "name": "dos attack",
+   "count": 1
+  },
+  {
+   "name": "pcdta",
+   "count": 1
+  },
+  {
+   "name": "deception detection",
+   "count": 1
+  },
+  {
+   "name": "morphological",
+   "count": 1
+  },
+  {
+   "name": "presentation attack",
+   "count": 6
+  },
+  {
+   "name": "data collection",
+   "count": 1
+  },
+  {
+   "name": "dapp",
+   "count": 2
+  },
+  {
+   "name": "introduce",
+   "count": 2
+  },
+  {
+   "name": "velocity",
+   "count": 1
+  },
+  {
+   "name": "plane",
+   "count": 3
+  },
+  {
+   "name": "divergence",
+   "count": 2
+  },
+  {
+   "name": "kl",
+   "count": 1
+  },
+  {
+   "name": "kl divergence",
+   "count": 1
+  },
+  {
+   "name": "price",
+   "count": 1
+  },
+  {
+   "name": "collector",
+   "count": 2
+  },
+  {
+   "name": "access policy",
+   "count": 1
+  },
+  {
+   "name": "collaboration",
+   "count": 1
+  },
+  {
+   "name": "ads",
+   "count": 2
+  },
+  {
+   "name": "ads system",
+   "count": 1
+  },
+  {
+   "name": "tlhibs",
+   "count": 1
+  },
+  {
+   "name": "auditor",
+   "count": 1
+  },
+  {
+   "name": "tensor",
+   "count": 1
+  },
+  {
+   "name": "online",
+   "count": 4
+  },
+  {
+   "name": "market",
+   "count": 3
+  },
+  {
+   "name": "product",
+   "count": 1
+  },
+  {
+   "name": "product market",
+   "count": 1
+  },
+  {
+   "name": "computer system",
+   "count": 1
+  },
+  {
+   "name": "keywords",
+   "count": 1
+  },
+  {
+   "name": "population",
+   "count": 1
+  },
+  {
+   "name": "expsos",
+   "count": 1
+  },
+  {
+   "name": "exponential",
+   "count": 1
+  },
+  {
+   "name": "benes",
+   "count": 1
+  },
+  {
+   "name": "benes network",
+   "count": 1
+  },
+  {
+   "name": "mmw",
+   "count": 1
+  },
+  {
+   "name": "mmw image",
+   "count": 1
+  },
+  {
+   "name": "traceback service",
+   "count": 1
+  },
+  {
+   "name": "dfia",
+   "count": 1
+  },
+  {
+   "name": "year",
+   "count": 1
+  },
+  {
+   "name": "firewall",
+   "count": 3
+  },
+  {
+   "name": "dof",
+   "count": 1
+  },
+  {
+   "name": "camcorder",
+   "count": 1
+  },
+  {
+   "name": "screen",
+   "count": 2
+  },
+  {
+   "name": "flicker",
+   "count": 1
+  },
+  {
+   "name": "lcd",
+   "count": 1
+  },
+  {
+   "name": "lcd screen",
+   "count": 1
+  },
+  {
+   "name": "nvc",
+   "count": 1
+  },
+  {
+   "name": "capacitive",
+   "count": 2
+  },
+  {
+   "name": "capacitive reader",
+   "count": 1
+  },
+  {
+   "name": "target user",
+   "count": 1
+  },
+  {
+   "name": "title",
+   "count": 1
+  },
+  {
+   "name": "sensitive user",
+   "count": 1
+  },
+  {
+   "name": "user input",
+   "count": 1
+  },
+  {
+   "name": "ibdo",
+   "count": 1
+  },
+  {
+   "name": "ibdo scheme",
+   "count": 1
+  },
+  {
+   "name": "rdic",
+   "count": 1
+  },
+  {
+   "name": "based rdic",
+   "count": 1
+  },
+  {
+   "name": "keypad",
+   "count": 1
+  },
+  {
+   "name": "ipin",
+   "count": 1
+  },
+  {
+   "name": "forensic approach",
+   "count": 1
+  },
+  {
+   "name": "differential privacy",
+   "count": 2
+  },
+  {
+   "name": "eeg signal",
+   "count": 2
+  },
+  {
+   "name": "deter",
+   "count": 1
+  },
+  {
+   "name": "quantization step",
+   "count": 1
+  },
+  {
+   "name": "correct",
+   "count": 2
+  },
+  {
+   "name": "d2d",
+   "count": 2
+  },
+  {
+   "name": "investigation",
+   "count": 1
+  },
+  {
+   "name": "oids",
+   "count": 1
+  },
+  {
+   "name": "ol",
+   "count": 1
+  },
+  {
+   "name": "misclassification",
+   "count": 1
+  },
+  {
+   "name": "inpainting",
+   "count": 1
+  },
+  {
+   "name": "receive",
+   "count": 1
+  },
+  {
+   "name": "heuristic",
+   "count": 1
+  },
+  {
+   "name": "impact",
+   "count": 2
+  },
+  {
+   "name": "around",
+   "count": 1
+  },
+  {
+   "name": "variant",
+   "count": 1
+  },
+  {
+   "name": "mcfas",
+   "count": 1
+  },
+  {
+   "name": "multi scale",
+   "count": 1
+  },
+  {
+   "name": "ee",
+   "count": 1
+  },
+  {
+   "name": "review",
+   "count": 2
+  },
+  {
+   "name": "adversarial noise",
+   "count": 1
+  },
+  {
+   "name": "dl",
+   "count": 1
+  },
+  {
+   "name": "signal processing",
+   "count": 1
+  },
+  {
+   "name": "cmix",
+   "count": 1
+  },
+  {
+   "name": "group secret",
+   "count": 1
+  },
+  {
+   "name": "harq",
+   "count": 1
+  },
+  {
+   "name": "charge",
+   "count": 1
+  },
+  {
+   "name": "node capture",
+   "count": 1
+  },
+  {
+   "name": "carol",
+   "count": 1
+  },
+  {
+   "name": "chance",
+   "count": 1
+  },
+  {
+   "name": "double identity",
+   "count": 1
+  },
+  {
+   "name": "data transmission",
+   "count": 1
+  },
+  {
+   "name": "oopdp",
+   "count": 1
+  },
+  {
+   "name": "pdp",
+   "count": 1
+  },
+  {
+   "name": "offline",
+   "count": 2
+  },
+  {
+   "name": "examine",
+   "count": 1
+  },
+  {
+   "name": "download",
+   "count": 1
+  },
+  {
+   "name": "opera",
+   "count": 1
+  },
+  {
+   "name": "extracted",
+   "count": 1
+  },
+  {
+   "name": "50",
+   "count": 1
+  },
+  {
+   "name": "personal information",
+   "count": 1
+  },
+  {
+   "name": "obfuscation technique",
+   "count": 1
+  },
+  {
+   "name": "ca random",
+   "count": 1
+  },
+  {
+   "name": "embed change",
+   "count": 1
+  },
+  {
+   "name": "pid",
+   "count": 1
+  },
+  {
+   "name": "pids",
+   "count": 1
+  },
+  {
+   "name": "inter",
+   "count": 1
+  },
+  {
+   "name": "inter domain",
+   "count": 1
+  },
+  {
+   "name": "reading",
+   "count": 1
+  },
+  {
+   "name": "appliance",
+   "count": 1
+  },
+  {
+   "name": "em",
+   "count": 2
+  },
+  {
+   "name": "off",
+   "count": 2
+  },
+  {
+   "name": "trade",
+   "count": 1
+  },
+  {
+   "name": "denoising",
+   "count": 1
+  },
+  {
+   "name": "image denoising",
+   "count": 1
+  },
+  {
+   "name": "cgs",
+   "count": 1
+  },
+  {
+   "name": "prscg",
+   "count": 1
+  },
+  {
+   "name": "legitimate node",
+   "count": 2
+  },
+  {
+   "name": "ake",
+   "count": 1
+  },
+  {
+   "name": "ake protocol",
+   "count": 1
+  },
+  {
+   "name": "fi",
+   "count": 3
+  },
+  {
+   "name": "human identification",
+   "count": 1
+  },
+  {
+   "name": "dft test",
+   "count": 1
+  },
+  {
+   "name": "scra",
+   "count": 1
+  },
+  {
+   "name": "oram",
+   "count": 2
+  },
+  {
+   "name": "captcha",
+   "count": 2
+  },
+  {
+   "name": "captchas",
+   "count": 3
+  },
+  {
+   "name": "two layer",
+   "count": 1
+  },
+  {
+   "name": "bluetooth",
+   "count": 1
+  },
+  {
+   "name": "remove",
+   "count": 1
+  },
+  {
+   "name": "octave",
+   "count": 1
+  },
+  {
+   "name": "smashed",
+   "count": 1
+  },
+  {
+   "name": "anti censorship",
+   "count": 1
+  },
+  {
+   "name": "voip",
+   "count": 3
+  },
+  {
+   "name": "teleconferencing",
+   "count": 1
+  },
+  {
+   "name": "teleconferencing server",
+   "count": 1
+  },
+  {
+   "name": "antenna selection",
+   "count": 1
+  },
+  {
+   "name": "eds",
+   "count": 2
+  },
+  {
+   "name": "exact",
+   "count": 1
+  },
+  {
+   "name": "form",
+   "count": 1
+  },
+  {
+   "name": "nu",
+   "count": 1
+  },
+  {
+   "name": "est",
+   "count": 1
+  },
+  {
+   "name": "compound source",
+   "count": 1
+  },
+  {
+   "name": "buffer",
+   "count": 3
+  },
+  {
+   "name": "mle2",
+   "count": 1
+  },
+  {
+   "name": "arp",
+   "count": 1
+  },
+  {
+   "name": "ipv6",
+   "count": 1
+  },
+  {
+   "name": "ndp",
+   "count": 1
+  },
+  {
+   "name": "soc",
+   "count": 2
+  },
+  {
+   "name": "every",
+   "count": 1
+  },
+  {
+   "name": "preliminary",
+   "count": 1
+  },
+  {
+   "name": "estimation stage",
+   "count": 1
+  },
+  {
+   "name": "line search",
+   "count": 1
+  },
+  {
+   "name": "metadetection",
+   "count": 1
+  },
+  {
+   "name": "oracle",
+   "count": 1
+  },
+  {
+   "name": "smartphone",
+   "count": 3
+  },
+  {
+   "name": "build",
+   "count": 1
+  },
+  {
+   "name": "hint",
+   "count": 1
+  },
+  {
+   "name": "s\u1ef3nthima",
+   "count": 1
+  },
+  {
+   "name": "speaker identification",
+   "count": 1
+  },
+  {
+   "name": "src",
+   "count": 1
+  },
+  {
+   "name": "scan data",
+   "count": 1
+  },
+  {
+   "name": "tweet",
+   "count": 2
+  },
+  {
+   "name": "spam tweet",
+   "count": 1
+  },
+  {
+   "name": "quadratic",
+   "count": 1
+  },
+  {
+   "name": "increase",
+   "count": 1
+  },
+  {
+   "name": "dga",
+   "count": 1
+  },
+  {
+   "name": "domain name",
+   "count": 2
+  },
+  {
+   "name": "collision attack",
+   "count": 1
+  },
+  {
+   "name": "stochastic",
+   "count": 1
+  },
+  {
+   "name": "stochastic collision",
+   "count": 1
+  },
+  {
+   "name": "cps",
+   "count": 3
+  },
+  {
+   "name": "key exposure",
+   "count": 1
+  },
+  {
+   "name": "test data",
+   "count": 1
+  },
+  {
+   "name": "italic gt",
+   "count": 3
+  },
+  {
+   "name": "lt italic",
+   "count": 1
+  },
+  {
+   "name": "privacy policy",
+   "count": 1
+  },
+  {
+   "name": "autoppg",
+   "count": 1
+  },
+  {
+   "name": "collaborative",
+   "count": 3
+  },
+  {
+   "name": "collaborative sensing",
+   "count": 1
+  },
+  {
+   "name": "trend",
+   "count": 1
+  },
+  {
+   "name": "twitter trend",
+   "count": 1
+  },
+  {
+   "name": "piggyback",
+   "count": 1
+  },
+  {
+   "name": "piggybacked",
+   "count": 1
+  },
+  {
+   "name": "piggybacked apps",
+   "count": 1
+  },
+  {
+   "name": "innovative",
+   "count": 1
+  },
+  {
+   "name": "possession",
+   "count": 1
+  },
+  {
+   "name": "influential member",
+   "count": 1
+  },
+  {
+   "name": "metro",
+   "count": 1
+  },
+  {
+   "name": "accelerometer",
+   "count": 1
+  },
+  {
+   "name": "collect",
+   "count": 3
+  },
+  {
+   "name": "zipf",
+   "count": 1
+  },
+  {
+   "name": "cdf",
+   "count": 1
+  },
+  {
+   "name": "privacy sensitive",
+   "count": 1
+  },
+  {
+   "name": "fcfs",
+   "count": 1
+  },
+  {
+   "name": "malicious node",
+   "count": 3
+  },
+  {
+   "name": "consensus",
+   "count": 1
+  },
+  {
+   "name": "nash",
+   "count": 2
+  },
+  {
+   "name": "geo",
+   "count": 1
+  },
+  {
+   "name": "noisy",
+   "count": 2
+  },
+  {
+   "name": "partition",
+   "count": 1
+  },
+  {
+   "name": "vertex",
+   "count": 1
+  },
+  {
+   "name": "fragility",
+   "count": 1
+  },
+  {
+   "name": "white box",
+   "count": 1
+  },
+  {
+   "name": "box attack",
+   "count": 1
+  },
+  {
+   "name": "progression",
+   "count": 1
+  },
+  {
+   "name": "attacker progression",
+   "count": 1
+  },
+  {
+   "name": "47",
+   "count": 1
+  },
+  {
+   "name": "49",
+   "count": 1
+  },
+  {
+   "name": "sfo",
+   "count": 1
+  },
+  {
+   "name": "photo",
+   "count": 1
+  },
+  {
+   "name": "mcs",
+   "count": 2
+  },
+  {
+   "name": "mcs system",
+   "count": 1
+  },
+  {
+   "name": "blp",
+   "count": 1
+  },
+  {
+   "name": "maxent",
+   "count": 1
+  },
+  {
+   "name": "share scheme",
+   "count": 1
+  },
+  {
+   "name": "lca",
+   "count": 1
+  },
+  {
+   "name": "cross age",
+   "count": 1
+  },
+  {
+   "name": "fault analysis",
+   "count": 1
+  },
+  {
+   "name": "pas",
+   "count": 2
+  },
+  {
+   "name": "leakage model",
+   "count": 1
+  },
+  {
+   "name": "fitting",
+   "count": 2
+  },
+  {
+   "name": "profiled",
+   "count": 1
+  },
+  {
+   "name": "aid",
+   "count": 1
+  },
+  {
+   "name": "aid cyber",
+   "count": 1
+  },
+  {
+   "name": "elm",
+   "count": 1
+  },
+  {
+   "name": "iec",
+   "count": 1
+  },
+  {
+   "name": "iso iec",
+   "count": 1
+  },
+  {
+   "name": "malware sample",
+   "count": 1
+  },
+  {
+   "name": "expert",
+   "count": 3
+  },
+  {
+   "name": "droidnet",
+   "count": 1
+  },
+  {
+   "name": "suie",
+   "count": 1
+  },
+  {
+   "name": "agc",
+   "count": 1
+  },
+  {
+   "name": "mitm",
+   "count": 2
+  },
+  {
+   "name": "notion",
+   "count": 2
+  },
+  {
+   "name": "swipe",
+   "count": 1
+  },
+  {
+   "name": "fine",
+   "count": 2
+  },
+  {
+   "name": "answer",
+   "count": 1
+  },
+  {
+   "name": "query audit",
+   "count": 1
+  },
+  {
+   "name": "instruction",
+   "count": 2
+  },
+  {
+   "name": "trng",
+   "count": 1
+  },
+  {
+   "name": "desfire",
+   "count": 1
+  },
+  {
+   "name": "csd",
+   "count": 1
+  },
+  {
+   "name": "csd query",
+   "count": 1
+  },
+  {
+   "name": "pa",
+   "count": 1
+  },
+  {
+   "name": "cfbg",
+   "count": 1
+  },
+  {
+   "name": "anti malware",
+   "count": 1
+  },
+  {
+   "name": "transmitter sup",
+   "count": 1
+  },
+  {
+   "name": "cloud provider",
+   "count": 1
+  },
+  {
+   "name": "driven",
+   "count": 1
+  },
+  {
+   "name": "driven method",
+   "count": 1
+  },
+  {
+   "name": "landmark",
+   "count": 1
+  },
+  {
+   "name": "basic",
+   "count": 1
+  },
+  {
+   "name": "basic interactive",
+   "count": 1
+  },
+  {
+   "name": "health system",
+   "count": 1
+  },
+  {
+   "name": "eves",
+   "count": 2
+  },
+  {
+   "name": "covert capacity",
+   "count": 1
+  },
+  {
+   "name": "homomorphic encryption",
+   "count": 1
+  },
+  {
+   "name": "subnets",
+   "count": 1
+  },
+  {
+   "name": "across",
+   "count": 2
+  },
+  {
+   "name": "decim",
+   "count": 1
+  },
+  {
+   "name": "checker",
+   "count": 1
+  },
+  {
+   "name": "dppg",
+   "count": 1
+  },
+  {
+   "name": "level similarity",
+   "count": 1
+  },
+  {
+   "name": "ocular",
+   "count": 1
+  },
+  {
+   "name": "chaos",
+   "count": 1
+  },
+  {
+   "name": "ledpuf",
+   "count": 1
+  },
+  {
+   "name": "guesswork",
+   "count": 1
+  },
+  {
+   "name": "insurer",
+   "count": 1
+  },
+  {
+   "name": "profit",
+   "count": 1
+  },
+  {
+   "name": "effort",
+   "count": 1
+  },
+  {
+   "name": "multichannel",
+   "count": 1
+  },
+  {
+   "name": "spatial",
+   "count": 2
+  },
+  {
+   "name": "spatial filter",
+   "count": 1
+  },
+  {
+   "name": "dodis",
+   "count": 1
+  },
+  {
+   "name": "bcl",
+   "count": 1
+  },
+  {
+   "name": "control signal",
+   "count": 1
+  },
+  {
+   "name": "dropwat",
+   "count": 1
+  },
+  {
+   "name": "network flow",
+   "count": 1
+  },
+  {
+   "name": "rectification",
+   "count": 1
+  },
+  {
+   "name": "arf",
+   "count": 1
+  },
+  {
+   "name": "vdb",
+   "count": 1
+  },
+  {
+   "name": "aa",
+   "count": 2
+  },
+  {
+   "name": "extractor",
+   "count": 2
+  },
+  {
+   "name": "fuzzy extractor",
+   "count": 1
+  },
+  {
+   "name": "fsk",
+   "count": 1
+  },
+  {
+   "name": "request",
+   "count": 4
+  },
+  {
+   "name": "request batch",
+   "count": 1
+  },
+  {
+   "name": "35",
+   "count": 1
+  },
+  {
+   "name": "stepauth",
+   "count": 1
+  },
+  {
+   "name": "channel noise",
+   "count": 1
+  },
+  {
+   "name": "dynamical",
+   "count": 1
+  },
+  {
+   "name": "coupling",
+   "count": 1
+  },
+  {
+   "name": "feature coupling",
+   "count": 1
+  },
+  {
+   "name": "conpac",
+   "count": 1
+  },
+  {
+   "name": "flash",
+   "count": 1
+  },
+  {
+   "name": "soft biometrics",
+   "count": 1
+  },
+  {
+   "name": "colorize",
+   "count": 1
+  },
+  {
+   "name": "cfi",
+   "count": 1
+  },
+  {
+   "name": "fine cfi",
+   "count": 1
+  },
+  {
+   "name": "cryptographic key",
+   "count": 1
+  },
+  {
+   "name": "protect",
+   "count": 3
+  },
+  {
+   "name": "2015",
+   "count": 1
+  },
+  {
+   "name": "mark assumption",
+   "count": 1
+  },
+  {
+   "name": "d2d communication",
+   "count": 1
+  },
+  {
+   "name": "pbs",
+   "count": 1
+  },
+  {
+   "name": "crowdsourcing",
+   "count": 2
+  },
+  {
+   "name": "unlinkability",
+   "count": 1
+  },
+  {
+   "name": "biometric template",
+   "count": 2
+  },
+  {
+   "name": "calibration",
+   "count": 2
+  },
+  {
+   "name": "based gait",
+   "count": 1
+  },
+  {
+   "name": "image video",
+   "count": 1
+  },
+  {
+   "name": "kp abe",
+   "count": 1
+  },
+  {
+   "name": "periocular recognition",
+   "count": 1
+  },
+  {
+   "name": "eeg biometrics",
+   "count": 1
+  },
+  {
+   "name": "ots",
+   "count": 2
+  },
+  {
+   "name": "indistinguishability",
+   "count": 1
+  },
+  {
+   "name": "reference",
+   "count": 3
+  },
+  {
+   "name": "reference sample",
+   "count": 1
+  },
+  {
+   "name": "cyber domain",
+   "count": 1
+  },
+  {
+   "name": "confidential signal",
+   "count": 1
+  },
+  {
+   "name": "lsdml",
+   "count": 1
+  },
+  {
+   "name": "examiner",
+   "count": 1
+  },
+  {
+   "name": "instance",
+   "count": 1
+  },
+  {
+   "name": "heartbeat",
+   "count": 1
+  },
+  {
+   "name": "the",
+   "count": 1
+  },
+  {
+   "name": "generalized",
+   "count": 1
+  },
+  {
+   "name": "crowdsensing",
+   "count": 1
+  },
+  {
+   "name": "truth",
+   "count": 1
+  },
+  {
+   "name": "mobile crowdsensing",
+   "count": 1
+  },
+  {
+   "name": "sum",
+   "count": 1
+  },
+  {
+   "name": "sdof",
+   "count": 1
+  },
+  {
+   "name": "sum sdof",
+   "count": 1
+  },
+  {
+   "name": "lfa",
+   "count": 1
+  },
+  {
+   "name": "secrecy rate",
+   "count": 6
+  },
+  {
+   "name": "mdsclone",
+   "count": 1
+  },
+  {
+   "name": "clone detection",
+   "count": 1
+  },
+  {
+   "name": "iot",
+   "count": 10
+  },
+  {
+   "name": "photograph",
+   "count": 2
+  },
+  {
+   "name": "architectural",
+   "count": 1
+  },
+  {
+   "name": "architectural feature",
+   "count": 1
+  },
+  {
+   "name": "new feature",
+   "count": 1
+  },
+  {
+   "name": "involve",
+   "count": 1
+  },
+  {
+   "name": "breach",
+   "count": 2
+  },
+  {
+   "name": "incident",
+   "count": 1
+  },
+  {
+   "name": "arrival",
+   "count": 1
+  },
+  {
+   "name": "arrival time",
+   "count": 1
+  },
+  {
+   "name": "tlbp",
+   "count": 1
+  },
+  {
+   "name": "wise",
+   "count": 2
+  },
+  {
+   "name": "genuine",
+   "count": 1
+  },
+  {
+   "name": "acceptance",
+   "count": 1
+  },
+  {
+   "name": "bss",
+   "count": 1
+  },
+  {
+   "name": "obtain",
+   "count": 2
+  },
+  {
+   "name": "atom",
+   "count": 1
+  },
+  {
+   "name": "malicious expert",
+   "count": 1
+  },
+  {
+   "name": "energy efficiency",
+   "count": 2
+  },
+  {
+   "name": "sdns",
+   "count": 1
+  },
+  {
+   "name": "controller",
+   "count": 3
+  },
+  {
+   "name": "lu",
+   "count": 3
+  },
+  {
+   "name": "fda",
+   "count": 1
+  },
+  {
+   "name": "fda beamforming",
+   "count": 1
+  },
+  {
+   "name": "ap",
+   "count": 1
+  },
+  {
+   "name": "topic",
+   "count": 1
+  },
+  {
+   "name": "deniability",
+   "count": 1
+  },
+  {
+   "name": "plausible",
+   "count": 1
+  },
+  {
+   "name": "plausible deniability",
+   "count": 1
+  },
+  {
+   "name": "mapreduce",
+   "count": 1
+  },
+  {
+   "name": "identifier",
+   "count": 1
+  },
+  {
+   "name": "deep learning",
+   "count": 3
+  },
+  {
+   "name": "learning system",
+   "count": 1
+  },
+  {
+   "name": "cod cache",
+   "count": 1
+  },
+  {
+   "name": "pir",
+   "count": 3
+  },
+  {
+   "name": "cas",
+   "count": 1
+  },
+  {
+   "name": "pay",
+   "count": 1
+  },
+  {
+   "name": "pay per",
+   "count": 1
+  },
+  {
+   "name": "bloom",
+   "count": 3
+  },
+  {
+   "name": "bloom filter",
+   "count": 3
+  },
+  {
+   "name": "sbf",
+   "count": 1
+  },
+  {
+   "name": "attack ramification",
+   "count": 1
+  },
+  {
+   "name": "loop",
+   "count": 1
+  },
+  {
+   "name": "pus",
+   "count": 1
+  },
+  {
+   "name": "incentive mechanism",
+   "count": 1
+  },
+  {
+   "name": "rnn",
+   "count": 2
+  },
+  {
+   "name": "rnn sm",
+   "count": 1
+  },
+  {
+   "name": "sm",
+   "count": 3
+  },
+  {
+   "name": "iom",
+   "count": 2
+  },
+  {
+   "name": "iom hash",
+   "count": 1
+  },
+  {
+   "name": "dummy message",
+   "count": 1
+  },
+  {
+   "name": "ddos attack",
+   "count": 3
+  },
+  {
+   "name": "dpa",
+   "count": 2
+  },
+  {
+   "name": "based dpa",
+   "count": 1
+  },
+  {
+   "name": "509",
+   "count": 1
+  },
+  {
+   "name": "509 pki",
+   "count": 1
+  },
+  {
+   "name": "feature point",
+   "count": 1
+  },
+  {
+   "name": "source set",
+   "count": 1
+  },
+  {
+   "name": "ct",
+   "count": 1
+  },
+  {
+   "name": "ct scheme",
+   "count": 1
+  },
+  {
+   "name": "source power",
+   "count": 1
+  },
+  {
+   "name": "secrecy constraint",
+   "count": 2
+  },
+  {
+   "name": "stability",
+   "count": 1
+  },
+  {
+   "name": "dynamic user",
+   "count": 1
+  },
+  {
+   "name": "verifiable",
+   "count": 1
+  },
+  {
+   "name": "identification capacity",
+   "count": 1
+  },
+  {
+   "name": "secure identification",
+   "count": 1
+  },
+  {
+   "name": "nfc",
+   "count": 1
+  },
+  {
+   "name": "nfc device",
+   "count": 1
+  },
+  {
+   "name": "letter",
+   "count": 1
+  },
+  {
+   "name": "printed",
+   "count": 1
+  },
+  {
+   "name": "printed letter",
+   "count": 1
+  },
+  {
+   "name": "skyshield",
+   "count": 1
+  },
+  {
+   "name": "auth",
+   "count": 1
+  },
+  {
+   "name": "authentication method",
+   "count": 1
+  },
+  {
+   "name": "battery",
+   "count": 1
+  },
+  {
+   "name": "file fragment",
+   "count": 1
+  },
+  {
+   "name": "spaca",
+   "count": 1
+  },
+  {
+   "name": "enforcement",
+   "count": 1
+  },
+  {
+   "name": "illegitimate",
+   "count": 1
+  },
+  {
+   "name": "duration",
+   "count": 1
+  },
+  {
+   "name": "link duration",
+   "count": 1
+  },
+  {
+   "name": "ufh",
+   "count": 1
+  },
+  {
+   "name": "degraded",
+   "count": 1
+  },
+  {
+   "name": "establish",
+   "count": 1
+  },
+  {
+   "name": "ransomware",
+   "count": 1
+  },
+  {
+   "name": "android ransomware",
+   "count": 1
+  },
+  {
+   "name": "fingerprint reader",
+   "count": 1
+  },
+  {
+   "name": "3d fingerprint",
+   "count": 1
+  },
+  {
+   "name": "anti spoofing",
+   "count": 2
+  },
+  {
+   "name": "zero",
+   "count": 1
+  },
+  {
+   "name": "zero day",
+   "count": 1
+  },
+  {
+   "name": "day attack",
+   "count": 1
+  },
+  {
+   "name": "access structure",
+   "count": 1
+  },
+  {
+   "name": "voltageids",
+   "count": 1
+  },
+  {
+   "name": "in",
+   "count": 2
+  },
+  {
+   "name": "webpage",
+   "count": 2
+  },
+  {
+   "name": "hyperlink",
+   "count": 1
+  },
+  {
+   "name": "state information",
+   "count": 1
+  },
+  {
+   "name": "verify",
+   "count": 1
+  },
+  {
+   "name": "prost",
+   "count": 1
+  },
+  {
+   "name": "spectrum auction",
+   "count": 2
+  },
+  {
+   "name": "csac",
+   "count": 1
+  },
+  {
+   "name": "normalizer",
+   "count": 1
+  },
+  {
+   "name": "editor",
+   "count": 1
+  },
+  {
+   "name": "contactless",
+   "count": 5
+  },
+  {
+   "name": "based fingerprint",
+   "count": 2
+  },
+  {
+   "name": "insurance",
+   "count": 3
+  },
+  {
+   "name": "insure",
+   "count": 1
+  },
+  {
+   "name": "authentication approach",
+   "count": 1
+  },
+  {
+   "name": "dhn",
+   "count": 1
+  },
+  {
+   "name": "dhv",
+   "count": 1
+  },
+  {
+   "name": "aes ccm",
+   "count": 1
+  },
+  {
+   "name": "amp",
+   "count": 5
+  },
+  {
+   "name": "amp mp",
+   "count": 1
+  },
+  {
+   "name": "mode",
+   "count": 2
+  },
+  {
+   "name": "watermarked video",
+   "count": 1
+  },
+  {
+   "name": "fcb",
+   "count": 1
+  },
+  {
+   "name": "bat",
+   "count": 1
+  },
+  {
+   "name": "bat algorithm",
+   "count": 1
+  },
+  {
+   "name": "csoc",
+   "count": 2
+  },
+  {
+   "name": "container",
+   "count": 1
+  },
+  {
+   "name": "analysis video",
+   "count": 1
+  },
+  {
+   "name": "inspection",
+   "count": 2
+  },
+  {
+   "name": "electricity",
+   "count": 2
+  },
+  {
+   "name": "optimization",
+   "count": 2
+  },
+  {
+   "name": "decentralize",
+   "count": 2
+  },
+  {
+   "name": "decentralized",
+   "count": 1
+  },
+  {
+   "name": "accounttrade",
+   "count": 1
+  },
+  {
+   "name": "trading",
+   "count": 3
+  },
+  {
+   "name": "gdof",
+   "count": 1
+  },
+  {
+   "name": "dmac",
+   "count": 1
+  },
+  {
+   "name": "mvar",
+   "count": 1
+  },
+  {
+   "name": "tunnel",
+   "count": 1
+  },
+  {
+   "name": "dummy packet",
+   "count": 1
+  },
+  {
+   "name": "less",
+   "count": 1
+  },
+  {
+   "name": "load",
+   "count": 1
+  },
+  {
+   "name": "feedback strategy",
+   "count": 1
+  },
+  {
+   "name": "sin",
+   "count": 1
+  },
+  {
+   "name": "idle",
+   "count": 1
+  },
+  {
+   "name": "idle period",
+   "count": 1
+  },
+  {
+   "name": "period",
+   "count": 1
+  },
+  {
+   "name": "neural",
+   "count": 1
+  },
+  {
+   "name": "non",
+   "count": 4
+  },
+  {
+   "name": "assume",
+   "count": 1
+  },
+  {
+   "name": "source location",
+   "count": 1
+  },
+  {
+   "name": "facial dynamic",
+   "count": 1
+  },
+  {
+   "name": "enp",
+   "count": 1
+  },
+  {
+   "name": "exploitable",
+   "count": 1
+  },
+  {
+   "name": "exploitable fault",
+   "count": 1
+  },
+  {
+   "name": "fault space",
+   "count": 1
+  },
+  {
+   "name": "bio protocol",
+   "count": 1
+  },
+  {
+   "name": "body",
+   "count": 1
+  },
+  {
+   "name": "weight",
+   "count": 2
+  },
+  {
+   "name": "body weight",
+   "count": 1
+  },
+  {
+   "name": "corner",
+   "count": 1
+  },
+  {
+   "name": "interferers",
+   "count": 1
+  },
+  {
+   "name": "locate",
+   "count": 1
+  },
+  {
+   "name": "bridge",
+   "count": 1
+  },
+  {
+   "name": "burst",
+   "count": 1
+  },
+  {
+   "name": "steganographic scheme",
+   "count": 1
+  },
+  {
+   "name": "cream",
+   "count": 1
+  },
+  {
+   "name": "ecgs",
+   "count": 1
+  },
+  {
+   "name": "machine learn",
+   "count": 1
+  },
+  {
+   "name": "code achieve",
+   "count": 1
+  },
+  {
+   "name": "construction use",
+   "count": 1
+  },
+  {
+   "name": "pake",
+   "count": 1
+  },
+  {
+   "name": "pake protocol",
+   "count": 1
+  },
+  {
+   "name": "large scale",
+   "count": 1
+  },
+  {
+   "name": "trademark",
+   "count": 1
+  },
+  {
+   "name": "deviation",
+   "count": 1
+  },
+  {
+   "name": "cms",
+   "count": 1
+  },
+  {
+   "name": "convolutional",
+   "count": 1
+  },
+  {
+   "name": "cost function",
+   "count": 1
+  },
+  {
+   "name": "transmit",
+   "count": 2
+  },
+  {
+   "name": "covert communication",
+   "count": 1
+  },
+  {
+   "name": "hardware trojan",
+   "count": 1
+  },
+  {
+   "name": "channel statistic",
+   "count": 1
+  },
+  {
+   "name": "padding",
+   "count": 1
+  },
+  {
+   "name": "padding size",
+   "count": 1
+  },
+  {
+   "name": "preserving",
+   "count": 2
+  },
+  {
+   "name": "privacy preserving",
+   "count": 1
+  },
+  {
+   "name": "excerpt",
+   "count": 1
+  },
+  {
+   "name": "digest",
+   "count": 1
+  },
+  {
+   "name": "writer",
+   "count": 3
+  },
+  {
+   "name": "dgmm",
+   "count": 1
+  },
+  {
+   "name": "handwrite",
+   "count": 1
+  },
+  {
+   "name": "branch",
+   "count": 4
+  },
+  {
+   "name": "droidcat",
+   "count": 1
+  },
+  {
+   "name": "repair",
+   "count": 1
+  },
+  {
+   "name": "potential",
+   "count": 1
+  },
+  {
+   "name": "apt",
+   "count": 1
+  },
+  {
+   "name": "vehicle bus",
+   "count": 1
+  },
+  {
+   "name": "channel attack",
+   "count": 2
+  },
+  {
+   "name": "noisy source",
+   "count": 1
+  },
+  {
+   "name": "discrete",
+   "count": 1
+  },
+  {
+   "name": "innocent",
+   "count": 1
+  },
+  {
+   "name": "codebook",
+   "count": 1
+  },
+  {
+   "name": "fdsj",
+   "count": 1
+  },
+  {
+   "name": "fdsj scheme",
+   "count": 1
+  },
+  {
+   "name": "adc",
+   "count": 1
+  },
+  {
+   "name": "entropy estimation",
+   "count": 1
+  },
+  {
+   "name": "eer",
+   "count": 1
+  },
+  {
+   "name": "assembly",
+   "count": 1
+  },
+  {
+   "name": "mechanically",
+   "count": 1
+  },
+  {
+   "name": "piece",
+   "count": 1
+  },
+  {
+   "name": "gan",
+   "count": 1
+  },
+  {
+   "name": "fv",
+   "count": 1
+  },
+  {
+   "name": "active authentication",
+   "count": 1
+  },
+  {
+   "name": "enf trace",
+   "count": 1
+  },
+  {
+   "name": "covariates",
+   "count": 1
+  },
+  {
+   "name": "ganobfuscator",
+   "count": 1
+  },
+  {
+   "name": "gans",
+   "count": 1
+  },
+  {
+   "name": "iriscodes",
+   "count": 1
+  },
+  {
+   "name": "camera model",
+   "count": 1
+  },
+  {
+   "name": "vae",
+   "count": 1
+  },
+  {
+   "name": "sub vae",
+   "count": 1
+  },
+  {
+   "name": "aim",
+   "count": 2
+  },
+  {
+   "name": "loss",
+   "count": 2
+  },
+  {
+   "name": "key candidate",
+   "count": 1
+  },
+  {
+   "name": "ninja",
+   "count": 1
+  },
+  {
+   "name": "malware analysis",
+   "count": 1
+  },
+  {
+   "name": "smpa",
+   "count": 1
+  },
+  {
+   "name": "engineering",
+   "count": 1
+  },
+  {
+   "name": "prior",
+   "count": 2
+  },
+  {
+   "name": "transport",
+   "count": 1
+  },
+  {
+   "name": "transport channel",
+   "count": 1
+  },
+  {
+   "name": "cta",
+   "count": 1
+  },
+  {
+   "name": "icc",
+   "count": 1
+  },
+  {
+   "name": "distinguishability",
+   "count": 1
+  },
+  {
+   "name": "32",
+   "count": 1
+  },
+  {
+   "name": "32 bit",
+   "count": 1
+  },
+  {
+   "name": "mortem",
+   "count": 1
+  },
+  {
+   "name": "post",
+   "count": 1
+  },
+  {
+   "name": "post mortem",
+   "count": 1
+  },
+  {
+   "name": "pedestrian",
+   "count": 1
+  },
+  {
+   "name": "scale pedestrian",
+   "count": 1
+  },
+  {
+   "name": "small scale",
+   "count": 1
+  },
+  {
+   "name": "suspicious",
+   "count": 1
+  },
+  {
+   "name": "eavesdropping",
+   "count": 3
+  },
+  {
+   "name": "suspicious link",
+   "count": 1
+  },
+  {
+   "name": "dynamic texture",
+   "count": 1
+  },
+  {
+   "name": "deep dynamic",
+   "count": 1
+  },
+  {
+   "name": "intensity",
+   "count": 2
+  },
+  {
+   "name": "joint intensity",
+   "count": 1
+  },
+  {
+   "name": "gadget",
+   "count": 2
+  },
+  {
+   "name": "reuse",
+   "count": 1
+  },
+  {
+   "name": "reuse attack",
+   "count": 1
+  },
+  {
+   "name": "vtable",
+   "count": 1
+  },
+  {
+   "name": "speed",
+   "count": 1
+  },
+  {
+   "name": "meg",
+   "count": 1
+  },
+  {
+   "name": "circuit evaluation",
+   "count": 1
+  },
+  {
+   "name": "qrng",
+   "count": 1
+  },
+  {
+   "name": "random number",
+   "count": 1
+  },
+  {
+   "name": "called",
+   "count": 1
+  },
+  {
+   "name": "ieee",
+   "count": 1
+  },
+  {
+   "name": "so",
+   "count": 1
+  },
+  {
+   "name": "drive",
+   "count": 1
+  },
+  {
+   "name": "frequency offset",
+   "count": 1
+  },
+  {
+   "name": "mp3",
+   "count": 1
+  },
+  {
+   "name": "jvm",
+   "count": 1
+  },
+  {
+   "name": "musti",
+   "count": 1
+  },
+  {
+   "name": "data flow",
+   "count": 1
+  },
+  {
+   "name": "otp",
+   "count": 1
+  },
+  {
+   "name": "provider",
+   "count": 1
+  },
+  {
+   "name": "cloud service",
+   "count": 1
+  },
+  {
+   "name": "low resolution",
+   "count": 1
+  },
+  {
+   "name": "corruptibility",
+   "count": 1
+  },
+  {
+   "name": "sat",
+   "count": 3
+  },
+  {
+   "name": "channel gain",
+   "count": 2
+  },
+  {
+   "name": "security entity",
+   "count": 1
+  },
+  {
+   "name": "passive attack",
+   "count": 1
+  },
+  {
+   "name": "report",
+   "count": 2
+  },
+  {
+   "name": "length",
+   "count": 1
+  },
+  {
+   "name": "dcp",
+   "count": 1
+  },
+  {
+   "name": "minimal",
+   "count": 1
+  },
+  {
+   "name": "road",
+   "count": 1
+  },
+  {
+   "name": "sgd",
+   "count": 1
+  },
+  {
+   "name": "security order",
+   "count": 1
+  },
+  {
+   "name": "automotive",
+   "count": 1
+  },
+  {
+   "name": "cancelable",
+   "count": 1
+  },
+  {
+   "name": "attacks",
+   "count": 1
+  },
+  {
+   "name": "recolored",
+   "count": 1
+  },
+  {
+   "name": "online signature",
+   "count": 1
+  },
+  {
+   "name": "dddroid",
+   "count": 1
+  },
+  {
+   "name": "friend",
+   "count": 1
+  },
+  {
+   "name": "graphic",
+   "count": 1
+  },
+  {
+   "name": "2d vector",
+   "count": 1
+  },
+  {
+   "name": "speech segment",
+   "count": 1
+  },
+  {
+   "name": "chain",
+   "count": 2
+  },
+  {
+   "name": "safechain",
+   "count": 1
+  },
+  {
+   "name": "attack chain",
+   "count": 1
+  },
+  {
+   "name": "capacity region",
+   "count": 1
+  },
+  {
+   "name": "ground",
+   "count": 1
+  },
+  {
+   "name": "ueds",
+   "count": 1
+  },
+  {
+   "name": "air",
+   "count": 2
+  },
+  {
+   "name": "ground link",
+   "count": 1
+  },
+  {
+   "name": "enrollment",
+   "count": 1
+  },
+  {
+   "name": "setting",
+   "count": 1
+  },
+  {
+   "name": "untrusted relay",
+   "count": 1
+  },
+  {
+   "name": "absence",
+   "count": 1
+  },
+  {
+   "name": "worker",
+   "count": 3
+  },
+  {
+   "name": "distribute",
+   "count": 3
+  },
+  {
+   "name": "distribute compute",
+   "count": 1
+  },
+  {
+   "name": "avwc",
+   "count": 1
+  },
+  {
+   "name": "imperfect csi",
+   "count": 1
+  },
+  {
+   "name": "mmwave",
+   "count": 4
+  },
+  {
+   "name": "honest",
+   "count": 2
+  },
+  {
+   "name": "crosstalk",
+   "count": 1
+  },
+  {
+   "name": "capacitive crosstalk",
+   "count": 1
+  },
+  {
+   "name": "inference",
+   "count": 1
+  },
+  {
+   "name": "cover similarity",
+   "count": 1
+  },
+  {
+   "name": "symbolic",
+   "count": 1
+  },
+  {
+   "name": "clock",
+   "count": 1
+  },
+  {
+   "name": "clock skew",
+   "count": 1
+  },
+  {
+   "name": "frame level",
+   "count": 1
+  },
+  {
+   "name": "skeleton",
+   "count": 2
+  },
+  {
+   "name": "snoqe",
+   "count": 1
+  },
+  {
+   "name": "nfiq",
+   "count": 1
+  },
+  {
+   "name": "gsv",
+   "count": 1
+  },
+  {
+   "name": "raw",
+   "count": 1
+  },
+  {
+   "name": "raw gsv",
+   "count": 1
+  },
+  {
+   "name": "microphone",
+   "count": 1
+  },
+  {
+   "name": "versus",
+   "count": 1
+  },
+  {
+   "name": "vmd",
+   "count": 1
+  },
+  {
+   "name": "sclbp",
+   "count": 1
+  },
+  {
+   "name": "data stream",
+   "count": 2
+  },
+  {
+   "name": "sfll",
+   "count": 1
+  },
+  {
+   "name": "all",
+   "count": 1
+  },
+  {
+   "name": "all optical",
+   "count": 1
+  },
+  {
+   "name": "thus",
+   "count": 1
+  },
+  {
+   "name": "contactless palmprint",
+   "count": 1
+  },
+  {
+   "name": "based solution",
+   "count": 1
+  },
+  {
+   "name": "patient",
+   "count": 1
+  },
+  {
+   "name": "opinion",
+   "count": 1
+  },
+  {
+   "name": "tssrs",
+   "count": 1
+  },
+  {
+   "name": "destination pair",
+   "count": 1
+  },
+  {
+   "name": "umbrella",
+   "count": 1
+  },
+  {
+   "name": "bootstrapping",
+   "count": 1
+  },
+  {
+   "name": "assault",
+   "count": 1
+  },
+  {
+   "name": "vesper",
+   "count": 1
+  },
+  {
+   "name": "patch distribution",
+   "count": 1
+  },
+  {
+   "name": "color image",
+   "count": 2
+  },
+  {
+   "name": "convolution",
+   "count": 2
+  },
+  {
+   "name": "brute",
+   "count": 2
+  },
+  {
+   "name": "brute force",
+   "count": 1
+  },
+  {
+   "name": "force",
+   "count": 1
+  },
+  {
+   "name": "ecsi",
+   "count": 1
+  },
+  {
+   "name": "energy harvesting",
+   "count": 1
+  },
+  {
+   "name": "harvesting",
+   "count": 1
+  },
+  {
+   "name": "twr",
+   "count": 1
+  },
+  {
+   "name": "conjecture",
+   "count": 1
+  },
+  {
+   "name": "istrict",
+   "count": 1
+  },
+  {
+   "name": "orh",
+   "count": 2
+  },
+  {
+   "name": "orh service",
+   "count": 1
+  },
+  {
+   "name": "lte",
+   "count": 1
+  },
+  {
+   "name": "caricature",
+   "count": 1
+  },
+  {
+   "name": "commerce",
+   "count": 1
+  },
+  {
+   "name": "of",
+   "count": 2
+  },
+  {
+   "name": "of commerce",
+   "count": 1
+  },
+  {
+   "name": "participant",
+   "count": 2
+  },
+  {
+   "name": "integration",
+   "count": 1
+  },
+  {
+   "name": "cookie",
+   "count": 1
+  },
+  {
+   "name": "cookie flag",
+   "count": 1
+  },
+  {
+   "name": "cooky",
+   "count": 1
+  },
+  {
+   "name": "flag",
+   "count": 1
+  },
+  {
+   "name": "barcode",
+   "count": 1
+  },
+  {
+   "name": "sifa",
+   "count": 1
+  },
+  {
+   "name": "iot device",
+   "count": 2
+  },
+  {
+   "name": "gcd",
+   "count": 1
+  },
+  {
+   "name": "file length",
+   "count": 1
+  },
+  {
+   "name": "radar",
+   "count": 1
+  },
+  {
+   "name": "adversarial attack",
+   "count": 1
+  },
+  {
+   "name": "gas",
+   "count": 1
+  },
+  {
+   "name": "gas network",
+   "count": 1
+  },
+  {
+   "name": "natural gas",
+   "count": 1
+  },
+  {
+   "name": "random delay",
+   "count": 1
+  },
+  {
+   "name": "malware detection",
+   "count": 1
+  },
+  {
+   "name": "pre",
+   "count": 2
+  },
+  {
+   "name": "voip stream",
+   "count": 1
+  },
+  {
+   "name": "audio surveillance",
+   "count": 1
+  },
+  {
+   "name": "gammatonegram",
+   "count": 1
+  },
+  {
+   "name": "resilient",
+   "count": 1
+  },
+  {
+   "name": "cjr",
+   "count": 1
+  },
+  {
+   "name": "variation",
+   "count": 4
+  },
+  {
+   "name": "vinegar",
+   "count": 1
+  },
+  {
+   "name": "vinegar value",
+   "count": 1
+  },
+  {
+   "name": "analog",
+   "count": 1
+  },
+  {
+   "name": "big",
+   "count": 1
+  },
+  {
+   "name": "based captchas",
+   "count": 1
+  },
+  {
+   "name": "dense inceptionnet",
+   "count": 1
+  },
+  {
+   "name": "pvo",
+   "count": 1
+  },
+  {
+   "name": "fdias",
+   "count": 1
+  },
+  {
+   "name": "tsas",
+   "count": 1
+  },
+  {
+   "name": "fdias tsas",
+   "count": 1
+  },
+  {
+   "name": "susceptances",
+   "count": 1
+  },
+  {
+   "name": "branch susceptances",
+   "count": 1
+  },
+  {
+   "name": "css",
+   "count": 1
+  },
+  {
+   "name": "css system",
+   "count": 1
+  },
+  {
+   "name": "adversarial example",
+   "count": 4
+  },
+  {
+   "name": "formula gt",
+   "count": 3
+  },
+  {
+   "name": "hpc",
+   "count": 1
+  },
+  {
+   "name": "asgldp",
+   "count": 1
+  },
+  {
+   "name": "ldp",
+   "count": 1
+  },
+  {
+   "name": "validation",
+   "count": 1
+  },
+  {
+   "name": "permission model",
+   "count": 1
+  },
+  {
+   "name": "fraud",
+   "count": 2
+  },
+  {
+   "name": "date",
+   "count": 1
+  },
+  {
+   "name": "pts",
+   "count": 1
+  },
+  {
+   "name": "cross modality",
+   "count": 1
+  },
+  {
+   "name": "collusive",
+   "count": 1
+  },
+  {
+   "name": "blackmarket",
+   "count": 1
+  },
+  {
+   "name": "blackmarket service",
+   "count": 1
+  },
+  {
+   "name": "cir",
+   "count": 1
+  },
+  {
+   "name": "coppa",
+   "count": 1
+  },
+  {
+   "name": "regulation",
+   "count": 1
+  },
+  {
+   "name": "cpa",
+   "count": 3
+  },
+  {
+   "name": "concern",
+   "count": 3
+  },
+  {
+   "name": "dao",
+   "count": 1
+  },
+  {
+   "name": "dao first",
+   "count": 1
+  },
+  {
+   "name": "copy require",
+   "count": 1
+  },
+  {
+   "name": "outsource data",
+   "count": 1
+  },
+  {
+   "name": "dip",
+   "count": 1
+  },
+  {
+   "name": "information leakage",
+   "count": 2
+  },
+  {
+   "name": "cpgan",
+   "count": 1
+  },
+  {
+   "name": "massive",
+   "count": 2
+  },
+  {
+   "name": "massive mimo",
+   "count": 1
+  },
+  {
+   "name": "contactless fingerprint",
+   "count": 2
+  },
+  {
+   "name": "decomposition",
+   "count": 1
+  },
+  {
+   "name": "cryptocurrencies",
+   "count": 2
+  },
+  {
+   "name": "cryptomining",
+   "count": 1
+  },
+  {
+   "name": "magnetic",
+   "count": 2
+  },
+  {
+   "name": "payment",
+   "count": 1
+  },
+  {
+   "name": "anonymous payment",
+   "count": 1
+  },
+  {
+   "name": "dcl",
+   "count": 1
+  },
+  {
+   "name": "iac",
+   "count": 1
+  },
+  {
+   "name": "admm",
+   "count": 3
+  },
+  {
+   "name": "large datasets",
+   "count": 1
+  },
+  {
+   "name": "private hypothesis",
+   "count": 1
+  },
+  {
+   "name": "adaptation",
+   "count": 2
+  },
+  {
+   "name": "domain adaptation",
+   "count": 1
+  },
+  {
+   "name": "mad",
+   "count": 2
+  },
+  {
+   "name": "morph",
+   "count": 1
+  },
+  {
+   "name": "ordinal",
+   "count": 1
+  },
+  {
+   "name": "hevc",
+   "count": 1
+  },
+  {
+   "name": "target domain",
+   "count": 1
+  },
+  {
+   "name": "drynx",
+   "count": 1
+  },
+  {
+   "name": "enable",
+   "count": 2
+  },
+  {
+   "name": "aeps",
+   "count": 1
+  },
+  {
+   "name": "40",
+   "count": 1
+  },
+  {
+   "name": "dvs",
+   "count": 1
+  },
+  {
+   "name": "historical",
+   "count": 1
+  },
+  {
+   "name": "encoding",
+   "count": 1
+  },
+  {
+   "name": "distributor",
+   "count": 1
+  },
+  {
+   "name": "rtp",
+   "count": 1
+  },
+  {
+   "name": "average rtp",
+   "count": 1
+  },
+  {
+   "name": "ctp",
+   "count": 1
+  },
+  {
+   "name": "enclave",
+   "count": 1
+  },
+  {
+   "name": "aurora",
+   "count": 1
+  },
+  {
+   "name": "sgx",
+   "count": 1
+  },
+  {
+   "name": "rfml",
+   "count": 1
+  },
+  {
+   "name": "ota",
+   "count": 1
+  },
+  {
+   "name": "face sketch",
+   "count": 2
+  },
+  {
+   "name": "supervision",
+   "count": 1
+  },
+  {
+   "name": "relativity",
+   "count": 1
+  },
+  {
+   "name": "relativity representation",
+   "count": 1
+  },
+  {
+   "name": "age group",
+   "count": 1
+  },
+  {
+   "name": "age synthesis",
+   "count": 1
+  },
+  {
+   "name": "expression intensity",
+   "count": 1
+  },
+  {
+   "name": "stabilization",
+   "count": 2
+  },
+  {
+   "name": "labeled",
+   "count": 1
+  },
+  {
+   "name": "weakly",
+   "count": 1
+  },
+  {
+   "name": "paillier",
+   "count": 1
+  },
+  {
+   "name": "quantum",
+   "count": 2
+  },
+  {
+   "name": "resistant",
+   "count": 1
+  },
+  {
+   "name": "convergence",
+   "count": 1
+  },
+  {
+   "name": "convergence performance",
+   "count": 1
+  },
+  {
+   "name": "generative",
+   "count": 1
+  },
+  {
+   "name": "generative model",
+   "count": 1
+  },
+  {
+   "name": "darr",
+   "count": 1
+  },
+  {
+   "name": "frb",
+   "count": 1
+  },
+  {
+   "name": "forensic trace",
+   "count": 1
+  },
+  {
+   "name": "word",
+   "count": 2
+  },
+  {
+   "name": "speaker recognition",
+   "count": 1
+  },
+  {
+   "name": "gdpr",
+   "count": 1
+  },
+  {
+   "name": "personal data",
+   "count": 1
+  },
+  {
+   "name": "edge cache",
+   "count": 1
+  },
+  {
+   "name": "guest",
+   "count": 1
+  },
+  {
+   "name": "hypervisor",
+   "count": 1
+  },
+  {
+   "name": "map test",
+   "count": 1
+  },
+  {
+   "name": "hawkeseye",
+   "count": 1
+  },
+  {
+   "name": "retweeter",
+   "count": 1
+  },
+  {
+   "name": "het",
+   "count": 1
+  },
+  {
+   "name": "het attack",
+   "count": 1
+  },
+  {
+   "name": "cryptograph",
+   "count": 1
+  },
+  {
+   "name": "ffxor",
+   "count": 1
+  },
+  {
+   "name": "ffxor pufs",
+   "count": 1
+  },
+  {
+   "name": "arbiter pufs",
+   "count": 1
+  },
+  {
+   "name": "cut",
+   "count": 1
+  },
+  {
+   "name": "min",
+   "count": 2
+  },
+  {
+   "name": "min cut",
+   "count": 1
+  },
+  {
+   "name": "phone call",
+   "count": 1
+  },
+  {
+   "name": "ibet",
+   "count": 1
+  },
+  {
+   "name": "idiosyncratic",
+   "count": 1
+  },
+  {
+   "name": "reference signature",
+   "count": 1
+  },
+  {
+   "name": "medical",
+   "count": 1
+  },
+  {
+   "name": "carve",
+   "count": 1
+  },
+  {
+   "name": "sm sk",
+   "count": 1
+  },
+  {
+   "name": "name",
+   "count": 1
+  },
+  {
+   "name": "lvid",
+   "count": 1
+  },
+  {
+   "name": "authentication system",
+   "count": 1
+  },
+  {
+   "name": "vein recognition",
+   "count": 1
+  },
+  {
+   "name": "attack detection",
+   "count": 2
+  },
+  {
+   "name": "link selection",
+   "count": 1
+  },
+  {
+   "name": "2d mapping",
+   "count": 1
+  },
+  {
+   "name": "macm",
+   "count": 1
+  },
+  {
+   "name": "multi round",
+   "count": 1
+  },
+  {
+   "name": "missile",
+   "count": 1
+  },
+  {
+   "name": "uavs",
+   "count": 1
+  },
+  {
+   "name": "amount",
+   "count": 1
+  },
+  {
+   "name": "amount information",
+   "count": 1
+  },
+  {
+   "name": "dna fingerprinting",
+   "count": 1
+  },
+  {
+   "name": "benchtop",
+   "count": 1
+  },
+  {
+   "name": "decoy",
+   "count": 1
+  },
+  {
+   "name": "generation problem",
+   "count": 1
+  },
+  {
+   "name": "personalized",
+   "count": 1
+  },
+  {
+   "name": "prr",
+   "count": 1
+  },
+  {
+   "name": "http",
+   "count": 1
+  },
+  {
+   "name": "collusion strategy",
+   "count": 1
+  },
+  {
+   "name": "faraday",
+   "count": 1
+  },
+  {
+   "name": "cage",
+   "count": 1
+  },
+  {
+   "name": "bit permutation",
+   "count": 1
+  },
+  {
+   "name": "ofdm",
+   "count": 2
+  },
+  {
+   "name": "bad jamming",
+   "count": 1
+  },
+  {
+   "name": "dissection",
+   "count": 1
+  },
+  {
+   "name": "analyst",
+   "count": 2
+  },
+  {
+   "name": "ta",
+   "count": 1
+  },
+  {
+   "name": "different parameter",
+   "count": 1
+  },
+  {
+   "name": "total",
+   "count": 1
+  },
+  {
+   "name": "data privacy",
+   "count": 1
+  },
+  {
+   "name": "equivocation",
+   "count": 1
+  },
+  {
+   "name": "fractional",
+   "count": 1
+  },
+  {
+   "name": "10",
+   "count": 2
+  },
+  {
+   "name": "fips",
+   "count": 1
+  },
+  {
+   "name": "140",
+   "count": 1
+  },
+  {
+   "name": "fips 140",
+   "count": 1
+  },
+  {
+   "name": "operator",
+   "count": 1
+  },
+  {
+   "name": "re",
+   "count": 6
+  },
+  {
+   "name": "aps",
+   "count": 1
+  },
+  {
+   "name": "cell free",
+   "count": 1
+  },
+  {
+   "name": "power constraint",
+   "count": 1
+  },
+  {
+   "name": "vsis",
+   "count": 1
+  },
+  {
+   "name": "balance",
+   "count": 1
+  },
+  {
+   "name": "demand",
+   "count": 2
+  },
+  {
+   "name": "fepod",
+   "count": 1
+  },
+  {
+   "name": "fepod scheme",
+   "count": 1
+  },
+  {
+   "name": "fe",
+   "count": 1
+  },
+  {
+   "name": "abstraction level",
+   "count": 1
+  },
+  {
+   "name": "pla",
+   "count": 2
+  },
+  {
+   "name": "beam",
+   "count": 2
+  },
+  {
+   "name": "beam pattern",
+   "count": 1
+  },
+  {
+   "name": "way",
+   "count": 1
+  },
+  {
+   "name": "classical",
+   "count": 1
+  },
+  {
+   "name": "noma",
+   "count": 2
+  },
+  {
+   "name": "bitcoin",
+   "count": 1
+  },
+  {
+   "name": "escrow",
+   "count": 1
+  },
+  {
+   "name": "escrow protocol",
+   "count": 1
+  },
+  {
+   "name": "protocol bitcoin",
+   "count": 1
+  },
+  {
+   "name": "face verification",
+   "count": 1
+  },
+  {
+   "name": "ip address",
+   "count": 1
+  },
+  {
+   "name": "privedge",
+   "count": 1
+  },
+  {
+   "name": "mlaas",
+   "count": 1
+  },
+  {
+   "name": "matrix multiplication",
+   "count": 1
+  },
+  {
+   "name": "private computation",
+   "count": 1
+  },
+  {
+   "name": "data matrix",
+   "count": 1
+  },
+  {
+   "name": "blockchain",
+   "count": 7
+  },
+  {
+   "name": "annotated",
+   "count": 1
+  },
+  {
+   "name": "id",
+   "count": 2
+  },
+  {
+   "name": "owner",
+   "count": 1
+  },
+  {
+   "name": "latency",
+   "count": 2
+  },
+  {
+   "name": "iteration",
+   "count": 2
+  },
+  {
+   "name": "fabrication",
+   "count": 1
+  },
+  {
+   "name": "circuit design",
+   "count": 1
+  },
+  {
+   "name": "file size",
+   "count": 1
+  },
+  {
+   "name": "riss",
+   "count": 1
+  },
+  {
+   "name": "suspicion",
+   "count": 1
+  },
+  {
+   "name": "sara",
+   "count": 1
+  },
+  {
+   "name": "data trading",
+   "count": 1
+  },
+  {
+   "name": "ecosystem",
+   "count": 1
+  },
+  {
+   "name": "bid",
+   "count": 1
+  },
+  {
+   "name": "sealed",
+   "count": 1
+  },
+  {
+   "name": "sealed bid",
+   "count": 1
+  },
+  {
+   "name": "slate",
+   "count": 1
+  },
+  {
+   "name": "smart grid",
+   "count": 1
+  },
+  {
+   "name": "secgrid",
+   "count": 1
+  },
+  {
+   "name": "precision",
+   "count": 1
+  },
+  {
+   "name": "aerial",
+   "count": 1
+  },
+  {
+   "name": "beamforming design",
+   "count": 1
+  },
+  {
+   "name": "optimal beamforming",
+   "count": 1
+  },
+  {
+   "name": "turing",
+   "count": 1
+  },
+  {
+   "name": "computable",
+   "count": 1
+  },
+  {
+   "name": "pairwise",
+   "count": 1
+  },
+  {
+   "name": "pairwise data",
+   "count": 1
+  },
+  {
+   "name": "dpp",
+   "count": 1
+  },
+  {
+   "name": "sp",
+   "count": 1
+  },
+  {
+   "name": "sp ofdm",
+   "count": 1
+  },
+  {
+   "name": "forward",
+   "count": 1
+  },
+  {
+   "name": "symbol level",
+   "count": 1
+  },
+  {
+   "name": "mui",
+   "count": 1
+  },
+  {
+   "name": "rr",
+   "count": 1
+  },
+  {
+   "name": "noma scheme",
+   "count": 1
+  },
+  {
+   "name": "sr",
+   "count": 2
+  },
+  {
+   "name": "sr user",
+   "count": 1
+  },
+  {
+   "name": "mrc",
+   "count": 1
+  },
+  {
+   "name": "demonstrate",
+   "count": 1
+  },
+  {
+   "name": "ots cryptosystem",
+   "count": 1
+  },
+  {
+   "name": "keystream",
+   "count": 1
+  },
+  {
+   "name": "nlp",
+   "count": 1
+  },
+  {
+   "name": "subband",
+   "count": 1
+  },
+  {
+   "name": "subband transform",
+   "count": 1
+  },
+  {
+   "name": "asvspoof",
+   "count": 1
+  },
+  {
+   "name": "hesp",
+   "count": 1
+  },
+  {
+   "name": "ipd",
+   "count": 1
+  },
+  {
+   "name": "font",
+   "count": 1
+  },
+  {
+   "name": "sspp",
+   "count": 2
+  },
+  {
+   "name": "ability",
+   "count": 1
+  },
+  {
+   "name": "limitation",
+   "count": 1
+  },
+  {
+   "name": "anomaly detection",
+   "count": 2
+  },
+  {
+   "name": "shares",
+   "count": 1
+  },
+  {
+   "name": "iris segmentation",
+   "count": 1
+  },
+  {
+   "name": "auction market",
+   "count": 1
+  },
+  {
+   "name": "decision tree",
+   "count": 1
+  },
+  {
+   "name": "eyeblink",
+   "count": 1
+  },
+  {
+   "name": "eyeblink detection",
+   "count": 1
+  },
+  {
+   "name": "wild",
+   "count": 1
+  },
+  {
+   "name": "transition probability",
+   "count": 1
+  },
+  {
+   "name": "true",
+   "count": 1
+  },
+  {
+   "name": "iiot",
+   "count": 1
+  },
+  {
+   "name": "industrial",
+   "count": 1
+  },
+  {
+   "name": "recommender",
+   "count": 1
+  },
+  {
+   "name": "recommender system",
+   "count": 1
+  },
+  {
+   "name": "sei",
+   "count": 1
+  },
+  {
+   "name": "rffe",
+   "count": 1
+  },
+  {
+   "name": "firm",
+   "count": 1
+  },
+  {
+   "name": "federate",
+   "count": 1
+  },
+  {
+   "name": "vpf",
+   "count": 1
+  },
+  {
+   "name": "double compression",
+   "count": 1
+  },
+  {
+   "name": "jrc",
+   "count": 1
+  },
+  {
+   "name": "bler",
+   "count": 1
+  },
+  {
+   "name": "il",
+   "count": 1
+  },
+  {
+   "name": "water",
+   "count": 1
+  },
+  {
+   "name": "water distribution",
+   "count": 1
+  },
+  {
+   "name": "number system",
+   "count": 1
+  },
+  {
+   "name": "enterprise",
+   "count": 1
+  },
+  {
+   "name": "data breach",
+   "count": 1
+  },
+  {
+   "name": "rff",
+   "count": 1
+  },
+  {
+   "name": "discrimination",
+   "count": 1
+  },
+  {
+   "name": "fvc2002",
+   "count": 1
+  },
+  {
+   "name": "vdpa",
+   "count": 1
+  },
+  {
+   "name": "ghost",
+   "count": 1
+  },
+  {
+   "name": "ghost peak",
+   "count": 1
+  },
+  {
+   "name": "scad",
+   "count": 1
+  },
+  {
+   "name": "orh system",
+   "count": 1
+  },
+  {
+   "name": "codems",
+   "count": 1
+  },
+  {
+   "name": "sc",
+   "count": 1
+  },
+  {
+   "name": "sc puf",
+   "count": 1
+  },
+  {
+   "name": "transfer",
+   "count": 2
+  },
+  {
+   "name": "apgs",
+   "count": 1
+  },
+  {
+   "name": "fault model",
+   "count": 1
+  },
+  {
+   "name": "armory",
+   "count": 1
+  },
+  {
+   "name": "transformer",
+   "count": 1
+  },
+  {
+   "name": "awa",
+   "count": 1
+  },
+  {
+   "name": "dapps",
+   "count": 1
+  },
+  {
+   "name": "frequency component",
+   "count": 1
+  },
+  {
+   "name": "boundary",
+   "count": 4
+  },
+  {
+   "name": "networks",
+   "count": 1
+  },
+  {
+   "name": "sub networks",
+   "count": 1
+  },
+  {
+   "name": "explanation",
+   "count": 2
+  },
+  {
+   "name": "hbf",
+   "count": 1
+  },
+  {
+   "name": "pixel wise",
+   "count": 1
+  },
+  {
+   "name": "eks",
+   "count": 1
+  },
+  {
+   "name": "iot network",
+   "count": 1
+  },
+  {
+   "name": "lems",
+   "count": 1
+  },
+  {
+   "name": "multiplicative",
+   "count": 1
+  },
+  {
+   "name": "multiplicative lems",
+   "count": 1
+  },
+  {
+   "name": "banknote",
+   "count": 1
+  },
+  {
+   "name": "polymer",
+   "count": 1
+  },
+  {
+   "name": "counterfeit",
+   "count": 1
+  },
+  {
+   "name": "coating",
+   "count": 1
+  },
+  {
+   "name": "appangio",
+   "count": 1
+  },
+  {
+   "name": "privacy tradeoff",
+   "count": 1
+  },
+  {
+   "name": "authentication framework",
+   "count": 1
+  },
+  {
+   "name": "rs",
+   "count": 1
+  },
+  {
+   "name": "poison",
+   "count": 3
+  },
+  {
+   "name": "prototype",
+   "count": 2
+  },
+  {
+   "name": "interactive",
+   "count": 1
+  },
+  {
+   "name": "person attribute",
+   "count": 1
+  },
+  {
+   "name": "header",
+   "count": 1
+  },
+  {
+   "name": "pre processing",
+   "count": 1
+  },
+  {
+   "name": "re id",
+   "count": 1
+  },
+  {
+   "name": "bitmine",
+   "count": 1
+  },
+  {
+   "name": "dram",
+   "count": 1
+  },
+  {
+   "name": "emulation",
+   "count": 1
+  },
+  {
+   "name": "bottleneck",
+   "count": 1
+  },
+  {
+   "name": "cps device",
+   "count": 1
+  },
+  {
+   "name": "asset",
+   "count": 1
+  },
+  {
+   "name": "assistant",
+   "count": 1
+  },
+  {
+   "name": "explanation approach",
+   "count": 1
+  },
+  {
+   "name": "funded",
+   "count": 1
+  },
+  {
+   "name": "audit protocol",
+   "count": 1
+  },
+  {
+   "name": "block tag",
+   "count": 1
+  },
+  {
+   "name": "ans",
+   "count": 1
+  },
+  {
+   "name": "compcrypt",
+   "count": 1
+  },
+  {
+   "name": "privacy notion",
+   "count": 1
+  },
+  {
+   "name": "channel matrix",
+   "count": 1
+  },
+  {
+   "name": "willie",
+   "count": 1
+  },
+  {
+   "name": "check",
+   "count": 1
+  },
+  {
+   "name": "integrity check",
+   "count": 1
+  },
+  {
+   "name": "tifs",
+   "count": 1
+  },
+  {
+   "name": "fraudsters",
+   "count": 1
+  },
+  {
+   "name": "neuron",
+   "count": 1
+  },
+  {
+   "name": "ecc",
+   "count": 1
+  },
+  {
+   "name": "dpf",
+   "count": 1
+  },
+  {
+   "name": "dpf ecc",
+   "count": 1
+  },
+  {
+   "name": "ecc framework",
+   "count": 1
+  },
+  {
+   "name": "diverse",
+   "count": 1
+  },
+  {
+   "name": "attention map",
+   "count": 1
+  },
+  {
+   "name": "cybersecurity",
+   "count": 2
+  },
+  {
+   "name": "de pois",
+   "count": 1
+  },
+  {
+   "name": "limited",
+   "count": 1
+  },
+  {
+   "name": "dmbn",
+   "count": 1
+  },
+  {
+   "name": "estimation method",
+   "count": 1
+  },
+  {
+   "name": "unlabeled",
+   "count": 1
+  },
+  {
+   "name": "backdoor",
+   "count": 2
+  },
+  {
+   "name": "ssl",
+   "count": 1
+  },
+  {
+   "name": "socialbots",
+   "count": 1
+  },
+  {
+   "name": "deepsbd",
+   "count": 1
+  },
+  {
+   "name": "cc",
+   "count": 1
+  },
+  {
+   "name": "lid",
+   "count": 1
+  },
+  {
+   "name": "displacement",
+   "count": 1
+  },
+  {
+   "name": "glass",
+   "count": 1
+  },
+  {
+   "name": "smart glass",
+   "count": 1
+  },
+  {
+   "name": "virtualization",
+   "count": 1
+  },
+  {
+   "name": "lrt",
+   "count": 1
+  },
+  {
+   "name": "ecus",
+   "count": 1
+  },
+  {
+   "name": "simplex",
+   "count": 1
+  },
+  {
+   "name": "unit",
+   "count": 1
+  },
+  {
+   "name": "unit simplex",
+   "count": 1
+  },
+  {
+   "name": "dp",
+   "count": 1
+  },
+  {
+   "name": "unrolled",
+   "count": 1
+  },
+  {
+   "name": "daa",
+   "count": 1
+  },
+  {
+   "name": "irs",
+   "count": 3
+  },
+  {
+   "name": "gmm mechanism",
+   "count": 1
+  },
+  {
+   "name": "multi key",
+   "count": 1
+  },
+  {
+   "name": "fhe",
+   "count": 1
+  },
+  {
+   "name": "computation task",
+   "count": 1
+  },
+  {
+   "name": "dynamic hand",
+   "count": 1
+  },
+  {
+   "name": "vanets",
+   "count": 1
+  },
+  {
+   "name": "faceadv",
+   "count": 1
+  },
+  {
+   "name": "fr system",
+   "count": 1
+  },
+  {
+   "name": "sticker",
+   "count": 1
+  },
+  {
+   "name": "ga cpa",
+   "count": 1
+  },
+  {
+   "name": "batch steganographic",
+   "count": 1
+  },
+  {
+   "name": "protection scheme",
+   "count": 1
+  },
+  {
+   "name": "skyline",
+   "count": 1
+  },
+  {
+   "name": "energy management",
+   "count": 1
+  },
+  {
+   "name": "uniqueness",
+   "count": 1
+  },
+  {
+   "name": "augmentation",
+   "count": 1
+  },
+  {
+   "name": "re identification",
+   "count": 1
+  },
+  {
+   "name": "modal",
+   "count": 2
+  },
+  {
+   "name": "cma",
+   "count": 1
+  },
+  {
+   "name": "factory",
+   "count": 1
+  },
+  {
+   "name": "optimal solution",
+   "count": 1
+  },
+  {
+   "name": "emotions",
+   "count": 1
+  },
+  {
+   "name": "finewp",
+   "count": 1
+  },
+  {
+   "name": "beesb",
+   "count": 1
+  },
+  {
+   "name": "esb",
+   "count": 1
+  },
+  {
+   "name": "improve",
+   "count": 2
+  },
+  {
+   "name": "achievability",
+   "count": 1
+  },
+  {
+   "name": "assistance",
+   "count": 1
+  },
+  {
+   "name": "coalition",
+   "count": 1
+  },
+  {
+   "name": "authorized coalition",
+   "count": 1
+  },
+  {
+   "name": "black",
+   "count": 1
+  },
+  {
+   "name": "defense technique",
+   "count": 1
+  },
+  {
+   "name": "inconsistency",
+   "count": 1
+  },
+  {
+   "name": "glrt",
+   "count": 1
+  },
+  {
+   "name": "gnss",
+   "count": 1
+  },
+  {
+   "name": "anti sat",
+   "count": 1
+  },
+  {
+   "name": "sat scheme",
+   "count": 1
+  },
+  {
+   "name": "gia",
+   "count": 1
+  },
+  {
+   "name": "mia",
+   "count": 1
+  },
+  {
+   "name": "glyph",
+   "count": 1
+  },
+  {
+   "name": "graffiti",
+   "count": 1
+  },
+  {
+   "name": "heap",
+   "count": 1
+  },
+  {
+   "name": "heap spray",
+   "count": 1
+  },
+  {
+   "name": "perturbation",
+   "count": 2
+  },
+  {
+   "name": "face manipulation",
+   "count": 1
+  },
+  {
+   "name": "potency",
+   "count": 1
+  },
+  {
+   "name": "bytecode",
+   "count": 1
+  },
+  {
+   "name": "smart contract",
+   "count": 1
+  },
+  {
+   "name": "precoder",
+   "count": 1
+  },
+  {
+   "name": "register",
+   "count": 1
+  },
+  {
+   "name": "coherency",
+   "count": 1
+  },
+  {
+   "name": "photoshop",
+   "count": 1
+  },
+  {
+   "name": "scas",
+   "count": 1
+  },
+  {
+   "name": "cdma",
+   "count": 1
+  },
+  {
+   "name": "propose technique",
+   "count": 1
+  },
+  {
+   "name": "eh",
+   "count": 1
+  },
+  {
+   "name": "eh jammer",
+   "count": 1
+  },
+  {
+   "name": "efs",
+   "count": 1
+  },
+  {
+   "name": "insider threat",
+   "count": 1
+  },
+  {
+   "name": "laas",
+   "count": 1
+  },
+  {
+   "name": "anti jamming",
+   "count": 2
+  },
+  {
+   "name": "singular",
+   "count": 1
+  },
+  {
+   "name": "propulsion",
+   "count": 1
+  },
+  {
+   "name": "redactable",
+   "count": 1
+  },
+  {
+   "name": "redactable blockchain",
+   "count": 1
+  },
+  {
+   "name": "ti",
+   "count": 1
+  },
+  {
+   "name": "lmzmpm",
+   "count": 1
+  },
+  {
+   "name": "lda",
+   "count": 1
+  },
+  {
+   "name": "fingerprint registration",
+   "count": 1
+  },
+  {
+   "name": "biometric recognition",
+   "count": 1
+  },
+  {
+   "name": "leet",
+   "count": 1
+  },
+  {
+   "name": "leets",
+   "count": 1
+  },
+  {
+   "name": "crack",
+   "count": 1
+  },
+  {
+   "name": "cri",
+   "count": 1
+  },
+  {
+   "name": "cri access",
+   "count": 1
+  },
+  {
+   "name": "oes",
+   "count": 1
+  },
+  {
+   "name": "lstm",
+   "count": 1
+  },
+  {
+   "name": "annotation",
+   "count": 1
+  },
+  {
+   "name": "attribute annotation",
+   "count": 1
+  },
+  {
+   "name": "mbtree",
+   "count": 1
+  },
+  {
+   "name": "network trace",
+   "count": 1
+  },
+  {
+   "name": "mctsteg",
+   "count": 1
+  },
+  {
+   "name": "non additive",
+   "count": 1
+  },
+  {
+   "name": "mprove",
+   "count": 1
+  },
+  {
+   "name": "malware family",
+   "count": 1
+  },
+  {
+   "name": "invasive",
+   "count": 1
+  },
+  {
+   "name": "mpufs",
+   "count": 1
+  },
+  {
+   "name": "cover block",
+   "count": 1
+  },
+  {
+   "name": "warden",
+   "count": 2
+  },
+  {
+   "name": "adversarial training",
+   "count": 1
+  },
+  {
+   "name": "fpr",
+   "count": 1
+  },
+  {
+   "name": "record linkage",
+   "count": 1
+  },
+  {
+   "name": "likelihood",
+   "count": 1
+  },
+  {
+   "name": "rppg",
+   "count": 1
+  },
+  {
+   "name": "3d mask",
+   "count": 1
+  },
+  {
+   "name": "feature map",
+   "count": 1
+  },
+  {
+   "name": "msmdgan",
+   "count": 1
+  },
+  {
+   "name": "trust evaluation",
+   "count": 1
+  },
+  {
+   "name": "codcas",
+   "count": 1
+  },
+  {
+   "name": "rf dna",
+   "count": 1
+  },
+  {
+   "name": "vision",
+   "count": 1
+  },
+  {
+   "name": "moment",
+   "count": 1
+  },
+  {
+   "name": "block boundary",
+   "count": 1
+  },
+  {
+   "name": "bbm",
+   "count": 1
+  },
+  {
+   "name": "modification",
+   "count": 1
+  },
+  {
+   "name": "ipca",
+   "count": 1
+  },
+  {
+   "name": "accumulator",
+   "count": 1
+  },
+  {
+   "name": "off privacy",
+   "count": 1
+  },
+  {
+   "name": "on",
+   "count": 1
+  },
+  {
+   "name": "iso speed",
+   "count": 1
+  },
+  {
+   "name": "sensor data",
+   "count": 1
+  },
+  {
+   "name": "pairing",
+   "count": 1
+  },
+  {
+   "name": "pairing based",
+   "count": 1
+  },
+  {
+   "name": "unauthorized",
+   "count": 1
+  },
+  {
+   "name": "ipm",
+   "count": 1
+  },
+  {
+   "name": "ppg",
+   "count": 1
+  },
+  {
+   "name": "face age",
+   "count": 1
+  },
+  {
+   "name": "rfid scheme",
+   "count": 1
+  },
+  {
+   "name": "based rfid",
+   "count": 1
+  },
+  {
+   "name": "pixelation",
+   "count": 1
+  },
+  {
+   "name": "fpvls",
+   "count": 1
+  },
+  {
+   "name": "kb",
+   "count": 1
+  },
+  {
+   "name": "evs",
+   "count": 1
+  },
+  {
+   "name": "fraction",
+   "count": 1
+  },
+  {
+   "name": "ris",
+   "count": 1
+  },
+  {
+   "name": "aided",
+   "count": 1
+  },
+  {
+   "name": "ris aided",
+   "count": 1
+  },
+  {
+   "name": "deepfake",
+   "count": 1
+  },
+  {
+   "name": "net",
+   "count": 2
+  },
+  {
+   "name": "priscore",
+   "count": 1
+  },
+  {
+   "name": "score voting",
+   "count": 1
+  },
+  {
+   "name": "data collector",
+   "count": 1
+  },
+  {
+   "name": "nszd",
+   "count": 1
+  },
+  {
+   "name": "fl",
+   "count": 2
+  },
+  {
+   "name": "boost",
+   "count": 1
+  },
+  {
+   "name": "position",
+   "count": 1
+  },
+  {
+   "name": "underwater",
+   "count": 1
+  },
+  {
+   "name": "error probability",
+   "count": 1
+  },
+  {
+   "name": "pir scheme",
+   "count": 1
+  },
+  {
+   "name": "mbr",
+   "count": 1
+  },
+  {
+   "name": "psi",
+   "count": 1
+  },
+  {
+   "name": "apsi",
+   "count": 1
+  },
+  {
+   "name": "sound vibration",
+   "count": 1
+  },
+  {
+   "name": "gcn",
+   "count": 1
+  },
+  {
+   "name": "gcn based",
+   "count": 1
+  },
+  {
+   "name": "psm",
+   "count": 1
+  },
+  {
+   "name": "fuzzypsm",
+   "count": 1
+  },
+  {
+   "name": "rffi",
+   "count": 1
+  },
+  {
+   "name": "imbalance",
+   "count": 1
+  },
+  {
+   "name": "experimental",
+   "count": 1
+  },
+  {
+   "name": "diff",
+   "count": 1
+  },
+  {
+   "name": "diff rf",
+   "count": 1
+  },
+  {
+   "name": "comment correspondence",
+   "count": 1
+  },
+  {
+   "name": "oriented",
+   "count": 1
+  },
+  {
+   "name": "pls",
+   "count": 1
+  },
+  {
+   "name": "normalization method",
+   "count": 1
+  },
+  {
+   "name": "xref",
+   "count": 1
+  },
+  {
+   "name": "bibr",
+   "count": 1
+  },
+  {
+   "name": "bibr rid",
+   "count": 1
+  },
+  {
+   "name": "ref",
+   "count": 1
+  },
+  {
+   "name": "ref type",
+   "count": 1
+  },
+  {
+   "name": "hfr",
+   "count": 1
+  },
+  {
+   "name": "ci based",
+   "count": 1
+  },
+  {
+   "name": "amhm",
+   "count": 1
+  },
+  {
+   "name": "exploit",
+   "count": 1
+  },
+  {
+   "name": "beamformer design",
+   "count": 1
+  },
+  {
+   "name": "harmonic",
+   "count": 1
+  },
+  {
+   "name": "harmonic component",
+   "count": 1
+  },
+  {
+   "name": "mala",
+   "count": 1
+  },
+  {
+   "name": "structural",
+   "count": 2
+  },
+  {
+   "name": "sail",
+   "count": 2
+  },
+  {
+   "name": "ddos detection",
+   "count": 1
+  },
+  {
+   "name": "distribute storage",
+   "count": 1
+  },
+  {
+   "name": "mbs",
+   "count": 1
+  },
+  {
+   "name": "sbss",
+   "count": 1
+  },
+  {
+   "name": "close",
+   "count": 1
+  },
+  {
+   "name": "dsse",
+   "count": 1
+  },
+  {
+   "name": "transaction",
+   "count": 1
+  },
+  {
+   "name": "blockchain platform",
+   "count": 1
+  },
+  {
+   "name": "precoding design",
+   "count": 1
+  },
+  {
+   "name": "ssk",
+   "count": 1
+  },
+  {
+   "name": "achieve unforgeability",
+   "count": 1
+  },
+  {
+   "name": "magpie",
+   "count": 1
+  },
+  {
+   "name": "smart home",
+   "count": 1
+  },
+  {
+   "name": "frontalization",
+   "count": 1
+  },
+  {
+   "name": "face frontalization",
+   "count": 1
+  },
+  {
+   "name": "cloud fog",
+   "count": 1
+  },
+  {
+   "name": "fog",
+   "count": 1
+  },
+  {
+   "name": "gpu",
+   "count": 1
+  },
+  {
+   "name": "pda",
+   "count": 1
+  },
+  {
+   "name": "cross domain",
+   "count": 1
+  },
+  {
+   "name": "sparse trust",
+   "count": 1
+  },
+  {
+   "name": "specview",
+   "count": 1
+  },
+  {
+   "name": "ais",
+   "count": 1
+  },
+  {
+   "name": "simeck",
+   "count": 1
+  },
+  {
+   "name": "distinguishers",
+   "count": 1
+  },
+  {
+   "name": "dnn",
+   "count": 1
+  },
+  {
+   "name": "dnn model",
+   "count": 1
+  },
+  {
+   "name": "mtd",
+   "count": 1
+  },
+  {
+   "name": "glitch",
+   "count": 1
+  },
+  {
+   "name": "av",
+   "count": 2
+  },
+  {
+   "name": "acceleration",
+   "count": 1
+  },
+  {
+   "name": "arbitrarily",
+   "count": 1
+  },
+  {
+   "name": "sr system",
+   "count": 1
+  },
+  {
+   "name": "internal",
+   "count": 1
+  },
+  {
+   "name": "surface fingerprint",
+   "count": 1
+  },
+  {
+   "name": "internal fingerprint",
+   "count": 1
+  },
+  {
+   "name": "tdoa",
+   "count": 1
+  },
+  {
+   "name": "time synchronization",
+   "count": 1
+  },
+  {
+   "name": "amp x0025",
+   "count": 1
+  },
+  {
+   "name": "adaptive high",
+   "count": 1
+  },
+  {
+   "name": "intruder",
+   "count": 1
+  },
+  {
+   "name": "destre",
+   "count": 1
+  },
+  {
+   "name": "hot",
+   "count": 1
+  },
+  {
+   "name": "thermotag",
+   "count": 1
+  },
+  {
+   "name": "3d printer",
+   "count": 1
+  },
+  {
+   "name": "3d printing",
+   "count": 1
+  },
+  {
+   "name": "campaign",
+   "count": 1
+  },
+  {
+   "name": "icss",
+   "count": 1
+  },
+  {
+   "name": "valve",
+   "count": 1
+  },
+  {
+   "name": "bioassay",
+   "count": 1
+  },
+  {
+   "name": "biochip",
+   "count": 1
+  },
+  {
+   "name": "asr",
+   "count": 1
+  },
+  {
+   "name": "sgea",
+   "count": 1
+  },
+  {
+   "name": "long",
+   "count": 1
+  },
+  {
+   "name": "long password",
+   "count": 1
+  },
+  {
+   "name": "data driven",
+   "count": 1
+  },
+  {
+   "name": "ilsisa",
+   "count": 1
+  },
+  {
+   "name": "access wiretap",
+   "count": 1
+  },
+  {
+   "name": "ugaitnet",
+   "count": 1
+  },
+  {
+   "name": "visualization",
+   "count": 1
+  },
+  {
+   "name": "avoids",
+   "count": 1
+  },
+  {
+   "name": "un",
+   "count": 1
+  },
+  {
+   "name": "un avoids",
+   "count": 1
+  },
+  {
+   "name": "unsail",
+   "count": 1
+  },
+  {
+   "name": "dr",
+   "count": 1
+  },
+  {
+   "name": "uda",
+   "count": 1
+  },
+  {
+   "name": "trusted",
+   "count": 1
+  },
+  {
+   "name": "imperceptibility",
+   "count": 1
+  },
+  {
+   "name": "generated",
+   "count": 1
+  },
+  {
+   "name": "homogeneous",
+   "count": 1
+  },
+  {
+   "name": "vuldetector",
+   "count": 1
+  },
+  {
+   "name": "detect vulnerability",
+   "count": 1
+  },
+  {
+   "name": "always",
+   "count": 1
+  },
+  {
+   "name": "avd",
+   "count": 1
+  },
+  {
+   "name": "avs",
+   "count": 1
+  },
+  {
+   "name": "zf",
+   "count": 1
+  },
+  {
+   "name": "zf beamforming",
+   "count": 1
+  },
+  {
+   "name": "aeds",
+   "count": 1
+  },
+  {
+   "name": "prover",
+   "count": 1
+  },
+  {
+   "name": "zilch",
+   "count": 1
+  }
+ ]
+}
