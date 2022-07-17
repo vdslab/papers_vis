@@ -5,7 +5,7 @@ import React ,{useState,useEffect } from "react";
 
 const BubbleChart = () => {
     const width = 250;
-    const height = 270;
+    const height = 260;
     const [value,setValue] = useState([5000]);
     const [bubble_list,setData] = useState([{children:keywords.filter((item) =>{return item.count > value})}]);
     useEffect(() => {
@@ -34,7 +34,7 @@ const BubbleChart = () => {
                 <option value={4000}>4000</option>
                 <option value={5000}>5000</option>
             </select>
-            <svg viewBox="0 0 250 250" width = "100%" height = "400" className='card'>
+            <svg viewBox="0 0 250 270" width = "100%" height = "400" className='card'>
                 {node.leaves().map((item,i)=>{
                     return(
                     <g transform={`translate(${item.x},${item.y})`} style={styles}>
