@@ -1,19 +1,13 @@
 import Divider from '@mui/material/Divider';
 import { TabScrollButton } from '@mui/material';
+import  NetworkGraph  from '../components/NetworkGraph';
 
 const Network = () => {
     return(
         <section style={{display:'flex', margin: '20px'}}>
 
             <div style={{width:'55%'}}>
-                <svg viewBox="0 0 200 100" width = "350" height = "200">
-                    <circle cx="10" cy="10" r="10"/>
-                    <circle cx="30" cy="50" r="10"/>
-                    <circle cx="50" cy="70" r="10"/>
-                    <circle cx="40" cy="90" r="10"/>
-                    <circle cx="90" cy="70" r="10"/>
-                    <circle cx="100" cy="30" r="10"/>
-                </svg>
+                <NetworkGraph/>
             </div>
 
             
