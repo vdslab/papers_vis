@@ -6,6 +6,7 @@ import { InputAdornment } from '@mui/material';
 import Box from '@mui/material/Box';
 
 import YearRangeSlider from './YearRangeSlider';
+import BubbleChart from './BubbleChart';
 
 
 export default function Main() {
@@ -24,11 +25,7 @@ export default function Main() {
       {/* キーワードビュー　*/}
       <div style={{ margin: '40px'}}>
           <p>キーワード検索</p> 
-          <svg viewBox="0 0 200 100" width = "100%" height = "300" className='card'>
-              <circle cx="10" cy="10" r="10"/>
-              <circle cx="30" cy="50" r="10"/>
-              <circle cx="50" cy="70" r="10"/>
-          </svg>
+          <BubbleChart />
       </div>
 
       <YearRangeSlider />
