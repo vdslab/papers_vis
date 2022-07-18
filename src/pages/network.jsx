@@ -7,7 +7,7 @@ const Network = () => {
         <section style={{display:'flex', margin: '20px'}}>
 
             <div style={{width:'55%'}}>
-                <NetworkGraph/>
+            <NetworkGraph/>
             </div>
 
             
