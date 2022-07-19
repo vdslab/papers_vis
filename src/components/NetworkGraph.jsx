@@ -27,7 +27,15 @@ const ZoomableSVG= ({ children, width, height }) => {
     );
   }
 
+const dragged = (e, d) => {
+    d.x = e.x;
+    d.y = e.y
+}
 
+const dragended = (e, d) => {
+    d.x = null;
+    d.y = null;
+}
 const NetworkGraph = () => {
 
     const [nodes, setNodes] = useState([
@@ -71,7 +79,7 @@ const NetworkGraph = () => {
         const simulation = d3
         .forceSimulation()
         .nodes(nodes)
-        .force("link", d3.forceLink().strength(0.1).distance((d) => {
+        .force("link", d3.forceLink().strength(-0.009).distance((d) => {
             return d['length'];
           }).id((d) => d.id))
         .force("center", d3.forceCenter(100, 50))
@@ -80,7 +88,7 @@ const NetworkGraph = () => {
               .radius(function (d) {
                 return d.r;
               })
-              .iterations(0.7))
+              .iterations(1))
         .force('x', d3.forceX().x(50).strength())
         .force('y', d3.forceY().y(50).strength())
         ;
@@ -99,17 +107,37 @@ const NetworkGraph = () => {
 
 
     return(
-    <svg viewBox="0 0 350 200" width = "350" height = "200">
+    <svg viewBox="0 0 350 1000" width = "350" height = "1000">
         <g className="links">
+            {links.map((link) => {
+                ///console.log("#################");
+                //console.log(links.length);
+                return(
+                    <line
+                    key={link.source.id + "-" + link.target.id}
+                    stroke="black"
+                    strokeWidth="0.5"
+                    className="link"
+
+                    x1={link.source.x}
+                    y1={link.source.y}
+                    x2={link.target.x}
+                    y2={link.target.y}                    
+                    >
+
+                    </line>
+
+                );
+            })}
         </g>
         
         <g className="nodes">
 
             {nodes.map((node)=> {
-                    console.log(node.id);
-                    console.log(node.x);
-                    console.log(node.y);
-                    console.log("");
+                    //console.log(node.id);
+                    //console.log(node.x);
+                    //console.log(node.y);
+                    //console.log("");
                 return (
                     <circle
                         className="node"
@@ -118,10 +146,35 @@ const NetworkGraph = () => {
                         style = {{fill : node.col}}
                         cx = {node.x}
                         cy = {node.y}
-                    
                     />
                 );
             })}
+        </g>
+
+        <g className="texts">
+            
+            {nodes.map((node)=> {
+                //console.log(node.id);
+                //console.log(node.x);
+                //console.log(node.y);
+                //console.log("");
+            return (
+
+                <text
+                    className="text"
+                    key={node.id}
+                    textAnchor="middle"
+                    fill="white"
+                    fontSize={"10px"}
+                    x={node.x}
+                    y={node.y}
+                >
+                    {node.id}
+                </text>
+            );
+        })}                
+            
+
         </g>
     </svg>);
 }
