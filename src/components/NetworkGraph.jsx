@@ -36,7 +36,7 @@ const dragended = (e, d) => {
     d.x = null;
     d.y = null;
 }
-const NetworkGraph = () => {
+const NetworkGraph = ({nodeData}) => {
 
     const [nodes, setNodes] = useState([
         {id:1, r:10, col:'rgb(100,100, 100)'},
@@ -44,6 +44,9 @@ const NetworkGraph = () => {
         {id:3, r :10, col:'rgb(100,100, 100)'},
         {id:4, r:10, col:'rgb(100,100, 100)'}
     ]);
+
+    
+
 
     const [links, setLinks] = useState([
         {            
@@ -75,18 +78,19 @@ const NetworkGraph = () => {
     }
 
     useEffect(() => {
+        console.log(nodeData);
         console.log("!!!")
         const simulation = d3
         .forceSimulation()
         .nodes(nodes)
         .force("link", d3.forceLink().strength(-0.009).distance((d) => {
-            return d['length'];
+            return 10;
           }).id((d) => d.id))
         .force("center", d3.forceCenter(100, 50))
         .force('charge', d3.forceManyBody().strength(1))
         .force('collision', d3.forceCollide()
               .radius(function (d) {
-                return d.r;
+                return 10;
               })
               .iterations(1))
         .force('x', d3.forceX().x(50).strength())
@@ -142,8 +146,8 @@ const NetworkGraph = () => {
                     <circle
                         className="node"
                         key = {node.id}
-                        r = {node.r}
-                        style = {{fill : node.col}}
+                        r = {10}
+                        style = {{fill : 'rgb(100,100, 100)'}}
                         cx = {node.x}
                         cy = {node.y}
                     />
