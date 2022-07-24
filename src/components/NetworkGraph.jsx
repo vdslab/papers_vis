@@ -36,70 +36,62 @@ const dragended = (e, d) => {
     d.x = null;
     d.y = null;
 }
-const NetworkGraph = ({nodeData}) => {
-
-    const [nodes, setNodes] = useState([
-        {id:1, r:10, col:'rgb(100,100, 100)'},
-        {id:2, r:10, col:'rgb(100,100, 100)'},
-        {id:3, r :10, col:'rgb(100,100, 100)'},
-        {id:4, r:10, col:'rgb(100,100, 100)'}
-    ]);
-
-    
 
 
-    const [links, setLinks] = useState([
-        {            
-            "source":1,
-            "target":2,
-            "length":10
-        },
-        {            
-            source:2,
-            target:3,
-            length:10
-        },
-        {            
-            source:3,
-            target:4,
-            length:10
-        }
-        ,        {            
-            source:1,
-            target:4,
-            length:10
-        }
-    ]);
 
+const NetworkGraph = ({detail, setDetail}) => {
+    const [nodes, setNodes] = useState([]);
+    const [links, setLinks] = useState([]);
 
-    const ticked = () => {
-        setNodes(nodes.slice());
-        setLinks(links.slice());
+    const showDetail = (node) => {
+        console.log(node);
+        setDetail(node);
     }
-
     useEffect(() => {
-        console.log(nodeData);
-        console.log("!!!")
-        const simulation = d3
-        .forceSimulation()
-        .nodes(nodes)
-        .force("link", d3.forceLink().strength(-0.009).distance((d) => {
-            return 10;
-          }).id((d) => d.id))
-        .force("center", d3.forceCenter(100, 50))
-        .force('charge', d3.forceManyBody().strength(1))
-        .force('collision', d3.forceCollide()
-              .radius(function (d) {
-                return 10;
-              })
-              .iterations(1))
-        .force('x', d3.forceX().x(50).strength())
-        .force('y', d3.forceY().y(50).strength())
-        ;
-    
-        simulation.nodes(nodes).on("tick", ticked);
-        simulation.force('link').links(links);
+        const fetchData = async () => {
+
+            const startSimulation = (nodes, links) => {
+                console.log(nodes);
+                console.log("!!!")
+                const simulation = d3
+                .forceSimulation()
+                .nodes(nodes)
+                .force("link", d3.forceLink().strength(-0.009).distance((d) => {
+                    return 10;
+                  }).id((d) => d.id))
+                .force("center", d3.forceCenter(100, 50))
+                .force('charge', d3.forceManyBody().strength(1))
+                .force('collision', d3.forceCollide()
+                      .radius(function (d) {
+                        return 10;
+                      })
+                      .iterations(1))
+                .force('x', d3.forceX().x(50).strength())
+                .force('y', d3.forceY().y(50).strength())
+                ;
+
+                const ticked = () => {
+                    setNodes(nodes.slice());
+                    setLinks(links.slice());
+                }
+                
+                simulation.nodes(nodes).on("tick", ticked);
+                simulation.force('link').links(links);
+                
+
+
+            }
+
+            const nodeData = await(await fetch('../../data/sample_node.json')).json();
+            const linkData = await(await fetch('../../data/sample_edge.json')).json();
+            startSimulation(nodeData, linkData);
+        }
+
+        fetchData();
     }, []);
+    
+  
+
 
 
     const node =  d3.selectAll('g.nodes')
@@ -114,8 +106,9 @@ const NetworkGraph = ({nodeData}) => {
     <svg viewBox="0 0 350 1000" width = "350" height = "1000">
         <g className="links">
             {links.map((link) => {
-                ///console.log("#################");
-                //console.log(links.length);
+                console.log("#################");
+                console.log(link);
+                console.log(link.source.x);
                 return(
                     <line
                     key={link.source.id + "-" + link.target.id}
@@ -147,9 +140,10 @@ const NetworkGraph = ({nodeData}) => {
                         className="node"
                         key = {node.id}
                         r = {10}
-                        style = {{fill : 'rgb(100,100, 100)'}}
+                        style = {{fill : 'rgb(100, 50, 255)'}}
                         cx = {node.x}
                         cy = {node.y}
+                        onClick = {() => showDetail(node)}
                     />
                 );
             })}
@@ -158,7 +152,7 @@ const NetworkGraph = ({nodeData}) => {
         <g className="texts">
             
             {nodes.map((node)=> {
-                //console.log(node.id);
+                //console.log(node);
                 //console.log(node.x);
                 //console.log(node.y);
                 //console.log("");
@@ -168,12 +162,12 @@ const NetworkGraph = ({nodeData}) => {
                     className="text"
                     key={node.id}
                     textAnchor="middle"
-                    fill="white"
+                    fill="black"
                     fontSize={"10px"}
                     x={node.x}
                     y={node.y}
                 >
-                    {node.id}
+                    {node.title}
                 </text>
             );
         })}                
