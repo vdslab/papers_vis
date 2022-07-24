@@ -166,6 +166,7 @@ const NetworkGraph = ({detail, setDetail}) => {
                     fontSize={"10px"}
                     x={node.x}
                     y={node.y}
+                    style={{pointerEvents: "none"}}
                 >
                     {node.title}
                 </text>
