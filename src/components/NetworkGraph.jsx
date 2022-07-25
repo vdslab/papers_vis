@@ -42,12 +42,33 @@ const dragended = (e, d) => {
 const NetworkGraph = ({detail, setDetail}) => {
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
+    const [isNodesHover, setIsNodesHover] = useState(() => {
+
+        let length;
+        const getLength = async () => {
+            length = await(await fetch('../../data/sample_node.json')).json().length;
+        }
+
+        getLength();
+        return Array(length).fill(false);
+    });
+
+    const toggleNodesHover = (key) => {
+        console.log(key);
+        const tmp = isNodesHover.slice();
+        console.log(isNodesHover);
+        tmp[key] = !tmp[key];
+        setIsNodesHover(tmp.slice());
+    }
 
     const showDetail = (node) => {
         console.log(node);
+        console.log(isNodesHover);
         setDetail(node);
     }
+
     useEffect(() => {
+        console.log(isNodesHover);
         const fetchData = async () => {
 
             const startSimulation = (nodes, links) => {
@@ -82,16 +103,18 @@ const NetworkGraph = ({detail, setDetail}) => {
 
             }
 
+
+
             const nodeData = await(await fetch('../../data/sample_node.json')).json();
             const linkData = await(await fetch('../../data/sample_edge.json')).json();
+            //console.log(Array(nodeData.length).fill(false));
+        
+            console.log(isNodesHover);
             startSimulation(nodeData, linkData);
         }
 
         fetchData();
     }, []);
-    
-  
-
 
 
     const node =  d3.selectAll('g.nodes')
@@ -106,9 +129,9 @@ const NetworkGraph = ({detail, setDetail}) => {
     <svg viewBox="0 0 350 1000" width = "350" height = "1000">
         <g className="links">
             {links.map((link) => {
-                console.log("#################");
-                console.log(link);
-                console.log(link.source.x);
+                //console.log("#################");
+                //console.log(link);
+                //console.log(link.source.x);
                 return(
                     <line
                     key={link.source.id + "-" + link.target.id}
@@ -121,7 +144,6 @@ const NetworkGraph = ({detail, setDetail}) => {
                     x2={link.target.x}
                     y2={link.target.y}                    
                     >
-
                     </line>
 
                 );
@@ -130,20 +152,23 @@ const NetworkGraph = ({detail, setDetail}) => {
         
         <g className="nodes">
 
-            {nodes.map((node)=> {
+            {nodes.map((node, key)=> {
                     //console.log(node.id);
                     //console.log(node.x);
                     //console.log(node.y);
                     //console.log("");
+                    //console.log(isNodesHover[key])
                 return (
                     <circle
                         className="node"
                         key = {node.id}
                         r = {10}
-                        style = {{fill : 'rgb(100, 50, 255)'}}
+                        style = {{fill : isNodesHover[key]?'rgb(100, 50, 255)':'rgb(255, 0, 0)'}}
                         cx = {node.x}
                         cy = {node.y}
                         onClick = {() => showDetail(node)}
+                        onMouseEnter = {() => toggleNodesHover(key)}
+                        onMouseLeave = {() => toggleNodesHover(key)}
                     />
                 );
             })}
