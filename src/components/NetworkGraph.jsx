@@ -53,15 +53,23 @@ const NetworkGraph = ({detail, setDetail}) => {
         return Array(length).fill(false);
     });
 
-    const toggleNodesHover = (key) => {
+    const toggleNodeHover = (key, isHover) => {
         console.log(key);
         const tmp = isNodesHover.slice();
         console.log(isNodesHover);
-        tmp[key] = !tmp[key];
+        tmp[key] = isHover;
         setIsNodesHover(tmp.slice());
     }
 
-    const showDetail = (node) => {
+    const toggleOnNodesHover = (key) => {
+        toggleNodeHover(key, true);
+    }
+
+    const toggleOffNodesHover = (key) => {
+        toggleNodeHover(key, false);
+    }
+
+    const showDetail = (node, key) => {
         console.log(node);
         console.log(isNodesHover);
         setDetail(node);
@@ -126,7 +134,7 @@ const NetworkGraph = ({detail, setDetail}) => {
 
 
     return(
-    <svg viewBox="0 0 350 1000" width = "350" height = "1000">
+        <ZoomableSVG width={300} height={1000}>
         <g className="links">
             {links.map((link) => {
                 //console.log("#################");
@@ -167,8 +175,8 @@ const NetworkGraph = ({detail, setDetail}) => {
                         cx = {node.x}
                         cy = {node.y}
                         onClick = {() => showDetail(node)}
-                        onMouseEnter = {() => toggleNodesHover(key)}
-                        onMouseLeave = {() => toggleNodesHover(key)}
+                        onMouseEnter = {() => toggleOnNodesHover(key)}
+                        onMouseLeave = {() => toggleOffNodesHover(key)}
                     />
                 );
             })}
@@ -200,7 +208,7 @@ const NetworkGraph = ({detail, setDetail}) => {
             
 
         </g>
-    </svg>);
+    </ZoomableSVG>);
 }
 
 export default NetworkGraph;
