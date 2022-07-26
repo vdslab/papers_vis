@@ -3,14 +3,10 @@ import CloseIcon from '@mui/icons-material/Close';
 import {useRef, useState} from 'react';
 
 
-const NodeDetail = ({detail}) => {
-    const [isOpenMenu, setIsOpenMenu] = useState(true);
-    const closeEl = useRef(null);
-    const closeMenu = () => {
-        menuEl.current.focus();
-    }
+const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu}) => {
 
-    console.log(window.innerHeight)
+
+   
     return(
           
         <section className ="message is-info is-12" style={{width:'45%', height :isOpenMenu?`${window.innerHeight * 0.6}px`:'0px',overflowY: 'scroll', transitionDuration: '.5s'}} >
