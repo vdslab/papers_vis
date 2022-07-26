@@ -3,6 +3,7 @@ import * as d3 from 'd3';
 import { forceRadial } from "d3";
 
 const [graphWidth, graphHeight] = [600, 800];
+const [normalNodeCol, hoverNodeCol, clickedNodeCol] = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)'];
 
 const ZoomableSVG= ({ children, width, height }) => {
     //console.log("ZoomableSVG");
@@ -44,41 +45,54 @@ const dragended = (e, d) => {
 const NetworkGraph = ({detail, setDetail}) => {
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
-    const [isNodesHover, setIsNodesHover] = useState(() => {
+    const [nodesState, setNodesState] = useState(() => {
 
-        let length;
+        let len;
         const getLength = async () => {
-            length = await(await fetch('../../data/sample_node.json')).json().length;
+            len = await(await fetch('../../data/sample_node.json')).json().length;
         }
 
         getLength();
-        return Array(length).fill(false);
+       
+        //0は通常 1はホバー状態　2はクリック状態
+        console.log(Array(len).fill(0));
+        return Array(4).fill(0);
     });
 
-    const toggleNodeHover = (key, isHover) => {
+
+
+    const changeNodeState = (key, hover) => {
         console.log(key);
-        const tmp = isNodesHover.slice();
-        console.log(isNodesHover);
-        tmp[key] = isHover;
-        setIsNodesHover(tmp.slice());
+        const tmp = nodesState.slice();
+        console.log(nodesState);
+        tmp[key] = hover;
+        setNodesState(tmp.slice());
     }
 
-    const toggleOnNodesHover = (key) => {
-        toggleNodeHover(key, true);
+    const toggleOnNodeHover = (key) => {
+        if(nodesState[key] !== 2) {
+            changeNodeState(key, 1);
+        }
     }
 
-    const toggleOffNodesHover = (key) => {
-        toggleNodeHover(key, false);
+    const toggleOffNodeHover = (key) => {
+        if(nodesState[key] !== 2) {
+            changeNodeState(key, 0);
+        }
     }
 
-    const showDetail = (node, key) => {
-        console.log(node);
-        console.log(isNodesHover);
+    const toggleOnOffNodeClick = (node, key) => {
+        if(nodesState[key] == 2) {
+            changeNodeState(key, 0)
+        } else {
+            changeNodeState(key, 2)
+        }
+
         setDetail(node);
     }
 
     useEffect(() => {
-        console.log(isNodesHover);
+    
         const fetchData = async () => {
 
             const startSimulation = (nodes, links) => {
@@ -109,8 +123,6 @@ const NetworkGraph = ({detail, setDetail}) => {
                 simulation.nodes(nodes).on("tick", ticked);
                 simulation.force('link').links(links);
                 
-
-
             }
 
 
@@ -119,7 +131,7 @@ const NetworkGraph = ({detail, setDetail}) => {
             const linkData = await(await fetch('../../data/sample_edge.json')).json();
             //console.log(Array(nodeData.length).fill(false));
         
-            console.log(isNodesHover);
+            console.log(nodesState);
             startSimulation(nodeData, linkData);
         }
 
@@ -168,17 +180,18 @@ const NetworkGraph = ({detail, setDetail}) => {
                     //console.log(node.y);
                     //console.log("");
                     //console.log(isNodesHover[key])
+                    //console.log(nodesState);
                 return (
                     <circle
                         className="node"
                         key = {node.id}
                         r = {10}
-                        style = {{fill : isNodesHover[key]?'rgb(255, 0, 0)':'rgb(100, 50, 255)'}}
+                        style = {{fill : nodesState[key] == 0?normalNodeCol:nodesState[key]==1?hoverNodeCol:clickedNodeCol}}
                         cx = {node.x}
                         cy = {node.y}
-                        onClick = {() => showDetail(node)}
-                        onMouseEnter = {() => toggleOnNodesHover(key)}
-                        onMouseLeave = {() => toggleOffNodesHover(key)}
+                        onClick = {() => toggleOnOffNodeClick(node, key)}
+                        onMouseEnter = {() => toggleOnNodeHover(key)}
+                        onMouseLeave = {() => toggleOffNodeHover(key)}
                     />
                 );
             })}
