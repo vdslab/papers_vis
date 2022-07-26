@@ -10,9 +10,10 @@ const NodeDetail = ({detail}) => {
         menuEl.current.focus();
     }
 
+    console.log(window.innerHeight)
     return(
           
-        <section className ="message is-info is-12" style={{width:isOpenMenu?'45%':'0%', height :'500px',overflowY: 'scroll'}} >
+        <section className ="message is-info is-12" style={{width:'45%', height :isOpenMenu?`${window.innerHeight * 0.6}px`:'0px',overflowY: 'scroll', transitionDuration: '.5s'}} >
 
         <div className="message-header">
             <h1 className="title is-6" style = {{position:'relative', top : '12px'}}>論文詳細</h1>

@@ -7,7 +7,7 @@ const [graphWidth, graphHeight] = [600, 800];
 const ZoomableSVG= ({ children, width, height }) => {
     //console.log("ZoomableSVG");
     const svgRef = useRef();
-    const [k, setK] = useState(0.1);
+    const [k, setK] = useState(1);
     const [x, setX] = useState(width/4);
     const [y, setY] = useState(height/8);
     useEffect(() => {
