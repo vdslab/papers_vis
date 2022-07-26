@@ -2,6 +2,8 @@ import { useEffect, useState,useRef } from "react";
 import * as d3 from 'd3';
 import { forceRadial } from "d3";
 
+const [graphWidth, graphHeight] = [600, 800];
+
 const ZoomableSVG= ({ children, width, height }) => {
     //console.log("ZoomableSVG");
     const svgRef = useRef();
@@ -134,7 +136,7 @@ const NetworkGraph = ({detail, setDetail}) => {
 
 
     return(
-        <ZoomableSVG width={300} height={1000}>
+        <ZoomableSVG width={graphWidth} height={graphHeight}>
         <g className="links">
             {links.map((link) => {
                 //console.log("#################");
@@ -171,7 +173,7 @@ const NetworkGraph = ({detail, setDetail}) => {
                         className="node"
                         key = {node.id}
                         r = {10}
-                        style = {{fill : isNodesHover[key]?'rgb(100, 50, 255)':'rgb(255, 0, 0)'}}
+                        style = {{fill : isNodesHover[key]?'rgb(255, 0, 0)':'rgb(100, 50, 255)'}}
                         cx = {node.x}
                         cy = {node.y}
                         onClick = {() => showDetail(node)}
