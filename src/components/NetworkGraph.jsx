@@ -41,10 +41,13 @@ const dragended = (e, d) => {
 }
 
 
-
+let prevkey = -1;
 const NetworkGraph = ({detail, setDetail}) => {
+    
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
+    const [clickedNode, setClickedNode] = useState(-1);
+
     const [nodesState, setNodesState] = useState(() => {
 
         let len;
@@ -61,11 +64,11 @@ const NetworkGraph = ({detail, setDetail}) => {
 
 
 
-    const changeNodeState = (key, hover) => {
+    const changeNodeState = (key, state) => {
         console.log(key);
         const tmp = nodesState.slice();
         console.log(nodesState);
-        tmp[key] = hover;
+        tmp[key] = state;
         setNodesState(tmp.slice());
     }
 
@@ -83,18 +86,34 @@ const NetworkGraph = ({detail, setDetail}) => {
 
     const toggleOnOffNodeClick = (node, key) => {
         if(nodesState[key] == 2) {
-            changeNodeState(key, 0)
+            //off
+            changeNodeState(key, 0);
+            setDetail({});
         } else {
-            changeNodeState(key, 2)
+            console.log("$$$")
+            changeNodeState(key, 2);
+            setDetail(node);
+            console.log("prev:" + clickedNode);
+            console.log("key:" + key);
+            if(clickedNode !== -1 && clickedNode !== key && nodesState[clickedNode] === 2) {
+                console.log("###")
+                
+                changeNodeState(clickedNode, 0);
+            }
+            
+            setClickedNode(key);
         }
+        
 
-        setDetail(node);
+        console.log("prev:" + prevkey);
+        console.log("key:" + key);
     }
 
     useEffect(() => {
     
         const fetchData = async () => {
 
+            //モデルのチューニング
             const startSimulation = (nodes, links) => {
                 console.log(nodes);
                 console.log("!!!")
@@ -138,6 +157,8 @@ const NetworkGraph = ({detail, setDetail}) => {
         fetchData();
     }, []);
 
+ 
+
 
     const node =  d3.selectAll('g.nodes')
     .call(d3.drag()
@@ -145,7 +166,9 @@ const NetworkGraph = ({detail, setDetail}) => {
     .on("end", (event, d) => (d.x = null, d.y = null))
     );
 
-
+    useEffect(() => {
+        changeNodeState(clickedNode, 2);
+    }, [clickedNode]);
 
     return(
         <ZoomableSVG width={graphWidth} height={graphHeight}>

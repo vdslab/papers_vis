@@ -9,11 +9,11 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu}) => {
    
     return(
           
-        <section className ="message is-info is-12" style={{width:'45%', height :isOpenMenu?`${window.innerHeight * 0.6}px`:'0px',overflowY: 'scroll', transitionDuration: '.3s'}} >
+        <section className ="message is-info is-12" style={{width:'45%', height :isOpenMenu?`${window.innerHeight * 0.7}px`:'0px',overflowY: 'scroll', transitionDuration: '.3s'}} >
 
         <div className="message-header">
-            <h1 className="title is-6" style = {{position:'relative', top : '12px'}}>論文詳細</h1>
-            <CloseIcon onClick = {() => setIsOpenMenu(!isOpenMenu)}/>
+            <h1 className="title is-6" >論文詳細</h1>
+            
         </div>
 
         
