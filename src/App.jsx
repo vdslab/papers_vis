@@ -13,6 +13,15 @@ import * as d3 from 'd3';
 
 export default function App() {
     let a = d3.select();
+//   const [journalsData, setJournalsData] = useState([]);
+//   const [authorData,setAuthorData] = useState([]);
+//   useEffect(() => {
+//     (async () => {
+//         const data = await fetchJournals();
+//         setJournalsData(data)
+//     })();
+//   }, []);
+//   console.log(journalsData)
     return (
         <div>
 
