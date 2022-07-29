@@ -23,7 +23,7 @@ const Network = () => {
             
             <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}/>
 
-            <button className='button is-white' style={{margin : '0 0 0 15px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>
+            <button className='button is-white' style={{margin : '0 0 0 5px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>
                 {
                 !isOpenMenu ? 
                 <KeyboardArrowDownIcon/> :
