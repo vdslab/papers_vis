@@ -8,7 +8,6 @@ import Box from '@mui/material/Box';
 import YearRangeSlider from './YearRangeSlider';
 import BubbleChart from './BubbleChart';
 
-
 export default function Main() {
     return (
     <div style={{margin: '40px'}}>
@@ -27,7 +26,7 @@ export default function Main() {
           <p>キーワード検索</p> 
           <BubbleChart />
       </div>
-
+      
       <YearRangeSlider />
 
       {/*論文リスト */}
