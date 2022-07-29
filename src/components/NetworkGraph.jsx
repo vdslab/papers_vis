@@ -2,10 +2,13 @@ import { useEffect, useState,useRef } from "react";
 import * as d3 from 'd3';
 import { forceRadial } from "d3";
 
+const [graphWidth, graphHeight] = [600, 800];
+const [normalNodeCol, hoverNodeCol, clickedNodeCol] = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)'];
+
 const ZoomableSVG= ({ children, width, height }) => {
     //console.log("ZoomableSVG");
     const svgRef = useRef();
-    const [k, setK] = useState(0.1);
+    const [k, setK] = useState(1);
     const [x, setX] = useState(width/4);
     const [y, setY] = useState(height/8);
     useEffect(() => {
@@ -36,70 +39,125 @@ const dragended = (e, d) => {
     d.x = null;
     d.y = null;
 }
-const NetworkGraph = ({nodeData}) => {
 
-    const [nodes, setNodes] = useState([
-        {id:1, r:10, col:'rgb(100,100, 100)'},
-        {id:2, r:10, col:'rgb(100,100, 100)'},
-        {id:3, r :10, col:'rgb(100,100, 100)'},
-        {id:4, r:10, col:'rgb(100,100, 100)'}
-    ]);
 
+let prevkey = -1;
+const NetworkGraph = ({detail, setDetail}) => {
     
+    const [nodes, setNodes] = useState([]);
+    const [links, setLinks] = useState([]);
+    const [clickedNode, setClickedNode] = useState(-1);
 
+    const [nodesState, setNodesState] = useState(() => {
 
-    const [links, setLinks] = useState([
-        {            
-            "source":1,
-            "target":2,
-            "length":10
-        },
-        {            
-            source:2,
-            target:3,
-            length:10
-        },
-        {            
-            source:3,
-            target:4,
-            length:10
+        let len;
+        const getLength = async () => {
+            len = await(await fetch('../../data/sample_node.json')).json().length;
         }
-        ,        {            
-            source:1,
-            target:4,
-            length:10
+
+        getLength();
+       
+        //0は通常 1はホバー状態　2はクリック状態
+        console.log(Array(len).fill(0));
+        return Array(4).fill(0);
+    });
+
+
+
+    const changeNodeState = (key, state) => {
+        console.log(key);
+        const tmp = nodesState.slice();
+        console.log(nodesState);
+        tmp[key] = state;
+        setNodesState(tmp.slice());
+    }
+
+    const toggleOnNodeHover = (key) => {
+        if(nodesState[key] !== 2) {
+            changeNodeState(key, 1);
         }
-    ]);
+    }
 
+    const toggleOffNodeHover = (key) => {
+        if(nodesState[key] !== 2) {
+            changeNodeState(key, 0);
+        }
+    }
 
-    const ticked = () => {
-        setNodes(nodes.slice());
-        setLinks(links.slice());
+    const toggleOnOffNodeClick = (node, key) => {
+        if(nodesState[key] == 2) {
+            //off
+            changeNodeState(key, 0);
+            setDetail({});
+        } else {
+            console.log("$$$")
+            changeNodeState(key, 2);
+            setDetail(node);
+            console.log("prev:" + clickedNode);
+            console.log("key:" + key);
+            if(clickedNode !== -1 && clickedNode !== key && nodesState[clickedNode] === 2) {
+                console.log("###")
+                
+                changeNodeState(clickedNode, 0);
+            }
+            
+            setClickedNode(key);
+        }
+        
+
+        console.log("prev:" + prevkey);
+        console.log("key:" + key);
     }
 
     useEffect(() => {
-        console.log(nodeData);
-        console.log("!!!")
-        const simulation = d3
-        .forceSimulation()
-        .nodes(nodes)
-        .force("link", d3.forceLink().strength(-0.009).distance((d) => {
-            return 10;
-          }).id((d) => d.id))
-        .force("center", d3.forceCenter(100, 50))
-        .force('charge', d3.forceManyBody().strength(1))
-        .force('collision', d3.forceCollide()
-              .radius(function (d) {
-                return 10;
-              })
-              .iterations(1))
-        .force('x', d3.forceX().x(50).strength())
-        .force('y', d3.forceY().y(50).strength())
-        ;
     
-        simulation.nodes(nodes).on("tick", ticked);
-        simulation.force('link').links(links);
+        const fetchData = async () => {
+
+            //モデルのチューニング
+            const startSimulation = (nodes, links) => {
+                console.log(nodes);
+                console.log("!!!")
+                const simulation = d3
+                .forceSimulation()
+                .nodes(nodes)
+                .force("link", d3.forceLink().strength(-0.009).distance((d) => {
+                    return 10;
+                  }).id((d) => d.id))
+                .force("center", d3.forceCenter(100, 50))
+                .force('charge', d3.forceManyBody().strength(1))
+                .force('collision', d3.forceCollide()
+                      .radius(function (d) {
+                        return 10;
+                      })
+                      .iterations(1))
+                .force('x', d3.forceX().x(50).strength())
+                .force('y', d3.forceY().y(50).strength())
+                ;
+
+                const ticked = () => {
+                    setNodes(nodes.slice());
+                    setLinks(links.slice());
+                }
+                
+                simulation.nodes(nodes).on("tick", ticked);
+                simulation.force('link').links(links);
+                
+            }
+
+
+
+            const nodeData = await(await fetch('../../data/sample_node.json')).json();
+            const linkData = await(await fetch('../../data/sample_edge.json')).json();
+            //console.log(Array(nodeData.length).fill(false));
+        
+            console.log(nodesState);
+            startSimulation(nodeData, linkData);
+        }
+
+        fetchData();
     }, []);
+
+ 
 
 
     const node =  d3.selectAll('g.nodes')
@@ -108,14 +166,17 @@ const NetworkGraph = ({nodeData}) => {
     .on("end", (event, d) => (d.x = null, d.y = null))
     );
 
-
+    useEffect(() => {
+        changeNodeState(clickedNode, 2);
+    }, [clickedNode]);
 
     return(
-    <svg viewBox="0 0 350 1000" width = "350" height = "1000">
+        <ZoomableSVG width={graphWidth} height={graphHeight}>
         <g className="links">
             {links.map((link) => {
-                ///console.log("#################");
-                //console.log(links.length);
+                //console.log("#################");
+                //console.log(link);
+                //console.log(link.source.x);
                 return(
                     <line
                     key={link.source.id + "-" + link.target.id}
@@ -128,7 +189,6 @@ const NetworkGraph = ({nodeData}) => {
                     x2={link.target.x}
                     y2={link.target.y}                    
                     >
-
                     </line>
 
                 );
@@ -137,19 +197,24 @@ const NetworkGraph = ({nodeData}) => {
         
         <g className="nodes">
 
-            {nodes.map((node)=> {
+            {nodes.map((node, key)=> {
                     //console.log(node.id);
                     //console.log(node.x);
                     //console.log(node.y);
                     //console.log("");
+                    //console.log(isNodesHover[key])
+                    //console.log(nodesState);
                 return (
                     <circle
                         className="node"
                         key = {node.id}
                         r = {10}
-                        style = {{fill : 'rgb(100,100, 100)'}}
+                        style = {{fill : nodesState[key] == 0?normalNodeCol:nodesState[key]==1?hoverNodeCol:clickedNodeCol}}
                         cx = {node.x}
                         cy = {node.y}
+                        onClick = {() => toggleOnOffNodeClick(node, key)}
+                        onMouseEnter = {() => toggleOnNodeHover(key)}
+                        onMouseLeave = {() => toggleOffNodeHover(key)}
                     />
                 );
             })}
@@ -158,7 +223,7 @@ const NetworkGraph = ({nodeData}) => {
         <g className="texts">
             
             {nodes.map((node)=> {
-                //console.log(node.id);
+                //console.log(node);
                 //console.log(node.x);
                 //console.log(node.y);
                 //console.log("");
@@ -168,19 +233,20 @@ const NetworkGraph = ({nodeData}) => {
                     className="text"
                     key={node.id}
                     textAnchor="middle"
-                    fill="white"
+                    fill="black"
                     fontSize={"10px"}
                     x={node.x}
                     y={node.y}
+                    style={{pointerEvents: "none"}}
                 >
-                    {node.id}
+                    {node.title}
                 </text>
             );
         })}                
             
 
         </g>
-    </svg>);
+    </ZoomableSVG>);
 }
 
 export default NetworkGraph;
