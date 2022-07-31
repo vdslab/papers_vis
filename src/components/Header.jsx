@@ -18,8 +18,6 @@ const Header = () => {
 
             
               <h1 className='title' style= {{position:'relative', top : "20px"}}  >paper viz</h1>
-              <p>{height}</p>
-              <p>{width}</p>
             <Grid container>
 
            
