@@ -7,26 +7,34 @@ import {
     BrowserRouter,
     Routes,
     Route,
+    Outlet
 } from "react-router-dom";
 import Network from "./pages/network";
 import * as d3 from 'd3';
 
-export default function App() {
-    let a = d3.select();
-    return (
-        <div>
 
+const Layout = ({children}) => {
+    return(
+        <>
             <Header />
+                <Outlet />
+            <Footer/>
+        </>
+    );
+}
+export default function App() {
+    return (
             <BrowserRouter>
                 <Routes>
-                    <Route path = "/" element = { <Main/> } />
-                    <Route path = "/network" element = {<Network/>} />
-                    <Route path = '/help' element = {<div>help</div>}/>
-                    <Route path = "*" element = {<NotFound/>} />
+                    <Route path = "/" element = {<Layout />}>
+                        <Route index element = {<Main />} />
+                        <Route path = "network" element = {<Network />} />
+                        <Route path = "help" element = {<p>f</p>} />
+                        <Route path="*" element={<NotFound />} />
+                    </Route>
+
+                    
                 </Routes>
             </BrowserRouter>
-            
-            <Footer />
-        </div>
     );
   }
