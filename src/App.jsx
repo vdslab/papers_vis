@@ -10,21 +10,22 @@ import {
 } from "react-router-dom";
 import Network from "./pages/network";
 import * as d3 from 'd3';
+import { useEffect,useState } from "react";
 
 export default function App() {
     let a = d3.select();
-//   const [journalsData, setJournalsData] = useState([]);
-//   const [authorData,setAuthorData] = useState([]);
-//   useEffect(() => {
-//     (async () => {
-//         const data = await fetchJournals();
-//         setJournalsData(data)
-//     })();
-//   }, []);
-//   console.log(journalsData)
+
+    const [data, setData] = useState([]);
+    useEffect(() => {
+    (async () => {
+      const response = await fetch("/.netlify/functions/api/journals");
+      const data = await response.json();
+      setData(data);
+    })();
+    }, []);
+    console.log(data);
     return (
         <div>
-
             <Header />
             <BrowserRouter>
                 <Routes>

@@ -9,6 +9,8 @@ const pool = new Pool({
   database: process.env.REACT_APP_PGDATABASE,
   port: 5432,
   password: process.env.REACT_APP_PGPASSWORD,
+  idleTimeoutMillis: 30000,
+  connectionTimeoutMillis: 2000,
 });
 
 async function selectRows(sql, values = []) {
@@ -29,7 +31,7 @@ router.get("/papers", async (req, res) => {
 });
 
 router.get("/papers/:keywords", async (req, res) => {
-  const data = await selectRows(`SELECT * FROM papers WHERE keywords LIKE %system%`,[
+  const data = await selectRows(`SELECT * FROM papers WHERE keywords LIKE $%system%`,[
     req.params.keywords,
   ]);
   if (data.length === 0) {
@@ -43,6 +45,18 @@ router.get("/papers/:keywords", async (req, res) => {
 router.get("/journals", async (req, res) => {
     const data = await selectRows(`SELECT * FROM journals`);
     res.json(data);
+});
+
+router.get("/journals/:", async (req, res) => {
+  const data = await selectRows(`SELECT * FROM papers WHERE  LIKE $1 %Computing%`,[
+    req.params.keywords,
+  ]);
+  if (data.length === 0) {
+    res.status(404).json({ message: "not found" });
+  } else {
+    res.json(data[0]);
+  }
+  res.json(data);
 });
 
 router.get("/authors", async (req, res) => {
