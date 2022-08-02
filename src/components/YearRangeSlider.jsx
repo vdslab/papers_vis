@@ -1,16 +1,18 @@
+import { useSelect } from '@mui/base';
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import * as React from 'react';
-
-
+import { useDispatch, useSelector } from "react-redux";
+import {changeStartYear} from '../redux/startYearSlice';
+import {changeEndYear} from '../redux/endYearSlice';
 
 const YearRangeSlider = () => {
-  const [value, setValue] = React.useState([1955, 2021]);
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
+  const dispatch = useDispatch();
+  const startYear = useSelector((state) => state.startYear.year);
+  const endYear = useSelector((state) => state.endYear.year);
+  const [value,setValue] = React.useState([1955,2021])
 
-  function valuetext(value) {
+  function valuetext() {
     return `${value}°C`;
   }
 
@@ -20,7 +22,13 @@ const YearRangeSlider = () => {
             <Slider
               getAriaLabel={() => 'Temperature range'}
               value={value}
-              onChange={handleChange}
+              onChange = {(event) => {
+                setValue(event.target.value);
+              }}
+              onChangeCommitted = {(event) => {
+                dispatch(changeStartYear(value[0]));
+                dispatch(changeEndYear(value[1]));
+              }}
               valueLabelDisplay="on"
               getAriaValueText={valuetext}
               min={1955}
@@ -31,12 +39,22 @@ const YearRangeSlider = () => {
           <Box sx={{ display: 'flex', margin: 2 }}>
             <form>
               <label>
-                From  <input type="text" value={ value[0] } onChange={ (event)=>{const newValue = [event.target.value, value[1]]; setValue(newValue) }} size="3" style={{ marginRight: '60px' }}/>
+                From  <input type="number" value={ startYear } 
+                onChange={ (event)=>{         
+                  dispatch(changeStartYear(Number(event.target.value)));
+                }} 
+                size="3" style={{ marginRight: '60px' }}
+                min="1955" max="2021"
+                />
               </label>
             </form>
             <form>
               <label>
-                To  <input type="text" value={ value[1] } onChange={ (event)=>{const newValue = [value[0], event.target.value]; setValue(newValue) }} size="3"/>
+                To  <input type="number" value={ endYear } 
+                onChange={ (event)=>{
+                  dispatch(changeEndYear(Number(event.target.value)));
+                 }} 
+                size="3"  min="1955" max="2021"/>
               </label>
             </form>
           </Box>
