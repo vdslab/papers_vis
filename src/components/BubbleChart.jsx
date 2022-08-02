@@ -14,6 +14,7 @@ const BubbleChart = () => {
     const keyword = useSelector((state) => state.keyword.keyword);
     const elements = [5000,4000,3000,2000];
     const [data ,setData] = useState([]);
+    const [papers,setPaper] = useState([]);
 
     useEffect(() => {
         (async () => {
@@ -37,6 +38,7 @@ const BubbleChart = () => {
             setData(result);
         })();
     },[endYear,startYear]);
+    console.log(keyword)
     let packs = d3.pack()
                  .size([width, height])
                  .padding(0);
@@ -48,6 +50,15 @@ const BubbleChart = () => {
         transition:"transform 1s"
     }
 
+    const onClickhandle = (name)=> {
+        dispatch(changeKeyword(name));
+        (async () => {
+            const response = await fetch(`/.netlify/functions/api/keywords/${keyword}`);
+            const data = await response.json();
+            setPaper(data);
+        })();
+        //console.log(papers)
+    }
     
     return(
         <div>
@@ -69,7 +80,7 @@ const BubbleChart = () => {
                             r={item.r} 
                             fill="#ff9500" 
                             opacity={(node.leaves().length-i)/node.leaves().length+0.1} 
-                            onClick={(e) => dispatch(changeKeyword(item.data.name))}
+                            onClick={(e) => onClickhandle(item.data.name)}
                             />
                         <text fontSize={item.r*0.4}  dominantBaseline="central" textAnchor="middle">
                             {item.data.name}
