@@ -12,14 +12,14 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu}) => {
         <section className ="message is-info is-12" style={{width:'45%', height :isOpenMenu?`${window.innerHeight * 0.7}px`:'0px',overflowY: 'scroll', transitionDuration: '.3s'}} >
 
         <div className="message-header">
-            <h1 className="title is-6" >論文詳細</h1>
+            <h1 className="title is-5" >論文詳細</h1>
             
         </div>
 
         
         <div className="message-body">
             
-            <a href = {detail.url} target="_black" rel = "external"><h1 className='title is-info'>{detail.title}</h1></a>
+            <a href = {detail.url} target="_black" rel = "external"><h1 className='title is-info is-4'>{detail.title}</h1></a>
             <br/><br/>
             
             <h2 className='subtitle'>{detail.author}</h2>
