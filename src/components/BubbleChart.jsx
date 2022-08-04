@@ -3,6 +3,7 @@ import React ,{useState,useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {changePapersCount} from "../redux/papersCountSlice"
 import { changeKeyword } from '../redux/keywordSlice';
+import { changePapersKeyword } from '../redux/papersKeywordSlice';
 
 const BubbleChart = () => {
     const width = 250;
@@ -13,8 +14,8 @@ const BubbleChart = () => {
     const endYear = useSelector((state) => state.endYear.year);
     const keyword = useSelector((state) => state.keyword.keyword);
     const elements = [5000,4000,3000,2000];
-    const [data ,setData] = useState([]);
-    const [papers,setPaper] = useState([]);
+    const [data,setData] = useState([]);
+    const papers = useSelector((state) => state.papersKeyword.papers);
 
     useEffect(() => {
         (async () => {
@@ -38,6 +39,14 @@ const BubbleChart = () => {
             setData(result);
         })();
     },[endYear,startYear]);
+
+    useEffect(() => {
+        (async () => {
+            const response = await fetch(`/.netlify/functions/api/keywords/${keyword}/${startYear}/${endYear}`);
+            const data = await response.json();
+            dispatch(changePapersKeyword(data));
+        })();
+    },[keyword])
     console.log(keyword)
     let packs = d3.pack()
                  .size([width, height])
@@ -50,14 +59,9 @@ const BubbleChart = () => {
         transition:"transform 1s"
     }
 
-    const onClickhandle = (name)=> {
+    const onClickhandle = (e,name)=> {
+        console.log(e.target.value)
         dispatch(changeKeyword(name));
-        (async () => {
-            const response = await fetch(`/.netlify/functions/api/keywords/${keyword}`);
-            const data = await response.json();
-            setPaper(data);
-        })();
-        //console.log(papers)
     }
     
     return(
@@ -80,7 +84,7 @@ const BubbleChart = () => {
                             r={item.r} 
                             fill="#ff9500" 
                             opacity={(node.leaves().length-i)/node.leaves().length+0.1} 
-                            onClick={(e) => onClickhandle(item.data.name)}
+                            onClick={(e) => onClickhandle(e,item.data.name)}
                             />
                         <text fontSize={item.r*0.4}  dominantBaseline="central" textAnchor="middle">
                             {item.data.name}
