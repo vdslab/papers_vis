@@ -1,0 +1,1656 @@
+{
+ "total_records": 23,
+ "total_searched": 5638566,
+ "articles": [
+  {
+   "doi": "10.1109/MCOM.1980.1090198",
+   "title": "A survey and analysis of electrical engineering curricula in communications and signal processing",
+   "publisher": "IEEE",
+   "issue": "2",
+   "issn": "1558-1896",
+   "rank": 3,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "University of Colorado, Colorado Springs, CO, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37301033700",
+      "id": 37301033700,
+      "full_name": "R. Ziemer",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37279148700",
+      "id": 37279148700,
+      "full_name": "W. Tranter",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "How does one accomplish the task of obtaining and analyzing data in order to describe current trends in a certain segment of electrical engineering education? A year ago, when asked by the Editor of the IEEE Communications Magaine if we thought that the results of such an endeavor dealing with communications and signal processing would be of value to electrical engineering faculty and working communications engineers alike, we struggled with this question. A year later, at the time of writing of this article, we are still struggling with it! In addition to not being sure of just how to analyze and organize the data, we are swamped with more information from a larger sample of electrical engineering departments than we ever dreamed possible. Given this insight into the past andcurrent start of our naivete, then, the readeris asked to acceptht is article at face value - much data, some analysis, and a few inferences. The outline of the paper is simple. We first overview the general conclusions, trends, and implications gained from the survey. We next describe how we gathered the data and how the sample of electrical engineering departments that was used as a data base evolved. Finally, the data on course offerings, textbooks used, areas of research and special investigations, and numbers of students involved are presented along with some discussion of the meaning of the presentations. ",
+   "article_number": "1090198",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090198",
+   "html_url": "https://ieeexplore.ieee.org/document/1090198/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090198/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23736,
+   "publication_year": 1980,
+   "publication_date": "March 1980",
+   "start_page": "5",
+   "end_page": "12",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Signal analysis",
+      "Electrical engineering education",
+      "Education",
+      "Engineering profession"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "data",
+     "value": 0.3297898259575876
+    },
+    {
+     "keyword": "electrical",
+     "value": 0.21985988397172507
+    },
+    {
+     "keyword": "electrical engineering",
+     "value": 0.21985988397172507
+    },
+    {
+     "keyword": "engineering",
+     "value": 0.21985988397172507
+    },
+    {
+     "keyword": "analyze",
+     "value": 0.10992994198586253
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090200",
+   "title": "Cryptology goes public",
+   "publisher": "IEEE",
+   "issue": "2",
+   "issn": "1558-1896",
+   "rank": 56,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Newsday, long Island",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088141927",
+      "id": 37088141927,
+      "full_name": "D. Kahn",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "As the public demands more security for computerized records, the government weighs its need to protect state secrets.",
+   "article_number": "1090200",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090200",
+   "html_url": "https://ieeexplore.ieee.org/document/1090200/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090200/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23736,
+   "publication_year": 1980,
+   "publication_date": "March 1980",
+   "start_page": "19",
+   "end_page": "28",
+   "citing_paper_count": 6,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Cryptography",
+      "Government policies",
+      "Weapons",
+      "Computer security",
+      "Military computing"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "computerized",
+     "value": 0.2182178902359924
+    },
+    {
+     "keyword": "computerized record",
+     "value": 0.2182178902359924
+    },
+    {
+     "keyword": "demand",
+     "value": 0.2182178902359924
+    },
+    {
+     "keyword": "demand security",
+     "value": 0.2182178902359924
+    },
+    {
+     "keyword": "government",
+     "value": 0.2182178902359924
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090290",
+   "title": "Digital radio: Its time has come",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "1558-1896",
+   "rank": 57,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "AT&T Bell Labs.",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37974122700",
+      "id": 37974122700,
+      "full_name": "N. Dinn",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "The performance of digital radio will be examined along with some of the benefits accruing from its use, and finally some long-term prognostications of its future will be made. Although this article focuses primarily on 6 GHz digital radio, the reader should recognize that 2 and 11 GHz digital radio have also found widespread use. 2 CHz is used primarily for small cross sections, often finding use as a feeder for 6 and 11 GHz. Both 6 and 11 CHz areu sed for short-haul applications up to several hundred miles. 11 GHz digital radio was introduced first because the wider bandwidth available in that band eased someof the design difficulties. 6 CHz now would normally be the facility selected because of the longer hop length over which it can be engineered. This reduces the number of repeaters required and hence reduces cost. However, due to frequency congestion, 11 GHz must often be used instead. There are, in addition, 18 GHz radio systems. These systems tend to haveu nique applicationsa nd consequently have not found widespread acceptance in the United States.",
+   "article_number": "1090290",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090290",
+   "html_url": "https://ieeexplore.ieee.org/document/1090290/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090290/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23740,
+   "publication_year": 1980,
+   "publication_date": "November 1980",
+   "start_page": "6",
+   "end_page": "12",
+   "citing_paper_count": 4,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Digital communication",
+      "Telegraphy",
+      "Telephony",
+      "Digital modulation",
+      "Radio communication",
+      "Frequency shift keying",
+      "Information rates"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "ghz",
+     "value": 0.30983866769659335
+    },
+    {
+     "keyword": "11",
+     "value": 0.25819888974716115
+    },
+    {
+     "keyword": "radio",
+     "value": 0.25819888974716115
+    },
+    {
+     "keyword": "use",
+     "value": 0.25819888974716115
+    },
+    {
+     "keyword": "11 ghz",
+     "value": 0.2065591117977289
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090226",
+   "title": "Digital switching - The enabler of future services",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "1558-1896",
+   "rank": 58,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell-Northern Res., Ottawa, Canada",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37984947400",
+      "id": 37984947400,
+      "full_name": "C. Hall",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "This paper examines the character of communications and hence of future services, shows why digital switching machines better serve the demands of future networks than analog machines, indicates how we might make the transition from analog switching to digital switching, and finally illustrates how some of these future capabilities will be combined into potent salable features.",
+   "article_number": "1090226",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090226",
+   "html_url": "https://ieeexplore.ieee.org/document/1090226/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090226/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23737,
+   "publication_year": 1980,
+   "publication_date": "May 1980",
+   "start_page": "24",
+   "end_page": "29",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Communication switching",
+      "Communication networks",
+      "Digital systems",
+      "Switching systeems",
+      "Statistics",
+      "Position measurement",
+      "Time measurement",
+      "Digital communication"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "future",
+     "value": 0.329292779969071
+    },
+    {
+     "keyword": "analog",
+     "value": 0.2195285199793807
+    },
+    {
+     "keyword": "digital",
+     "value": 0.2195285199793807
+    },
+    {
+     "keyword": "digital switching",
+     "value": 0.2195285199793807
+    },
+    {
+     "keyword": "machine",
+     "value": 0.2195285199793807
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090247",
+   "title": "Digital television transmission using bandwidth compression techniques",
+   "publisher": "IEEE",
+   "issue": "4",
+   "issn": "1558-1896",
+   "rank": 59,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Telephone Labs., Holmdel, N. J.",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37978615100",
+      "id": 37978615100,
+      "full_name": "H. Kaneko",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37980767700",
+      "id": 37980767700,
+      "full_name": "T. Ishiguro",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "It has been shown that interframe coding techniques provide an effective means to reduce the transmission bit rate of video signals without sacrificing picture quality. The channel capacity of various coding schemes over existing digital transmission links is listed. For digital satellite, for example, even a single television (TV) channel cannot be transmitted by conventional PCM, whereas one or two channels of TV can be transmitted by employing efficient coding techniques. However, much greater advantage is obtained by use of interframe coding. Three network quality TV signals can becarried through a transponder. For teleconferencing applications, a single satellite transponder can managuep to 20 simultaneous conference signals on a TDMA basis, if one uses a 3M bit/s interframe coder. Our satellite experiment has demonstrated excellent performance for network digital TV application. The TRIDEC teleconferencing system has been commercially used by NTT in Japan since 1979 and the NETEC-6/3 interframe encoder is being seriously considered for application in North American teleconferencing applications.",
+   "article_number": "1090247",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090247",
+   "html_url": "https://ieeexplore.ieee.org/document/1090247/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090247/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23738,
+   "publication_year": 1980,
+   "publication_date": "July 1980",
+   "start_page": "14",
+   "end_page": "22",
+   "citing_paper_count": 12,
+   "citing_patent_count": 5,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Digital TV",
+      "Bandwidth",
+      "Teleconferencing",
+      "Bit rate",
+      "Radio frequency",
+      "Radio transmitters",
+      "Video compression",
+      "Digital signal processing",
+      "Digital modulation"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "application",
+     "value": 0.22466238252069215
+    },
+    {
+     "keyword": "interframe",
+     "value": 0.22466238252069215
+    },
+    {
+     "keyword": "tv",
+     "value": 0.22466238252069215
+    },
+    {
+     "keyword": "channel",
+     "value": 0.1684967868905191
+    },
+    {
+     "keyword": "cod",
+     "value": 0.1684967868905191
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090185",
+   "title": "Digital transmission building blocks",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 60,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Communications Res., Inc., Red Bank, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37323512300",
+      "id": 37323512300,
+      "full_name": "S. Personick",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "This paper will provide an overview of some of the specific hardware subsystems and systems used to provide digital transmission between telephone buildings and to interconnect customers to telephone central offices.",
+   "article_number": "1090185",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090185",
+   "html_url": "https://ieeexplore.ieee.org/document/1090185/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090185/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23735,
+   "publication_year": 1980,
+   "publication_date": "January 1980",
+   "start_page": "27",
+   "end_page": "36",
+   "citing_paper_count": 1,
+   "citing_patent_count": 6,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Digital communication",
+      "Central office",
+      "Switches",
+      "Digital TV",
+      "Telecommunication switching",
+      "Integrated circuit interconnections"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "provide",
+     "value": 0.32025630761017426
+    },
+    {
+     "keyword": "telephone",
+     "value": 0.32025630761017426
+    },
+    {
+     "keyword": "building",
+     "value": 0.16012815380508713
+    },
+    {
+     "keyword": "building interconnect",
+     "value": 0.16012815380508713
+    },
+    {
+     "keyword": "central",
+     "value": 0.16012815380508713
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090295",
+   "title": "Electronic message services into the 80's",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "1558-1896",
+   "rank": 63,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Northern Electric Labs., Ottawa, Ont., Canada",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087185069",
+      "id": 37087185069,
+      "full_name": "R. Kwan",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "This paper will first present a model of an electronic mail system which may be characterized according to speed, type of input and output, users, terminal characteristics, transmission mode, and communications channel. It will then focus on four future systems which will be able to provide electronic message services: INTELPOST (International Electronic Post) sponsored by the US Postal Service, the SBS System by the Satellite Business Systems, the ACS (Advanced Communications Service) by the American Telephone and Telegraph Company (AT&amp;T) and then XTEN Network by the Xerox Corporation. Service features of these systems will be described, and their impact on worldwide electronic message services discussed.",
+   "article_number": "1090295",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090295",
+   "html_url": "https://ieeexplore.ieee.org/document/1090295/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090295/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23740,
+   "publication_year": 1980,
+   "publication_date": "November 1980",
+   "start_page": "25",
+   "end_page": "29",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Message service",
+      "Electronic mail",
+      "Facsimile",
+      "Postal services",
+      "Communication channels",
+      "Cathode ray tubes",
+      "Printers",
+      "Artificial satellites",
+      "Business communication"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "service",
+     "value": 0.3716470731235832
+    },
+    {
+     "keyword": "electronic",
+     "value": 0.29731765849886654
+    },
+    {
+     "keyword": "system",
+     "value": 0.29731765849886654
+    },
+    {
+     "keyword": "electronic message",
+     "value": 0.14865882924943327
+    },
+    {
+     "keyword": "message",
+     "value": 0.14865882924943327
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090203",
+   "title": "Engineering education: A young engineer's view",
+   "publisher": "IEEE",
+   "issue": "2",
+   "issn": "1558-1896",
+   "rank": 64,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Commun. Sect., Motorola Inc., Schaumburg, IL, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37344700100",
+      "id": 37344700100,
+      "full_name": "K. Zdunek",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "The engineering schools do a good job of conveying the analytical and theoretical aspects of engineering. But the education of an engineer involves practical professional on-the-job training which today is left largely to chance. This is due to the absence of a common professional awareness shared by both educators and industrial practitioners. One of the most important tasks of the newly formed American Association of Engineering Societies wili be to create this sense of professional awareness, and if will be left to the Engineers' Council on Professional Development to translate these larger professional aims into educational goals. It is hoped that these educational goals will include the breadth and depth of a five-year basic degree, and emphasize the practical training aspects of engineering education by establishing formal guidelines for such training.",
+   "article_number": "1090203",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090203",
+   "html_url": "https://ieeexplore.ieee.org/document/1090203/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090203/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23736,
+   "publication_year": 1980,
+   "publication_date": "March 1980",
+   "start_page": "14",
+   "end_page": "18",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Engineering education",
+      "Industrial training",
+      "Educational institutions",
+      "Engineering profession",
+      "On the job training",
+      "Educational programs"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "professional",
+     "value": 0.34259435491376583
+    },
+    {
+     "keyword": "engineering",
+     "value": 0.27407548393101266
+    },
+    {
+     "keyword": "training",
+     "value": 0.2055566129482595
+    },
+    {
+     "keyword": "aspect",
+     "value": 0.13703774196550633
+    },
+    {
+     "keyword": "aspect engineering",
+     "value": 0.13703774196550633
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090224",
+   "title": "Facsimile comes up to speed",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "1558-1896",
+   "rank": 66,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Design engineering Center, NJ",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087574317",
+      "id": 37087574317,
+      "full_name": "D. Costigan",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "The new subminute, fax machines employ digital or highly advanced analog technology to improve transmission efficiency. A stat-of-the-art overview is presented.",
+   "article_number": "1090224",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090224",
+   "html_url": "https://ieeexplore.ieee.org/document/1090224/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090224/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23737,
+   "publication_year": 1980,
+   "publication_date": "May 1980",
+   "start_page": "30",
+   "end_page": "35",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Facsimile",
+      "Transceivers",
+      "State estimation",
+      "Computer graphics",
+      "Business communication"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "advanced",
+     "value": 0.1643989873053573
+    },
+    {
+     "keyword": "advanced analog",
+     "value": 0.1643989873053573
+    },
+    {
+     "keyword": "analog",
+     "value": 0.1643989873053573
+    },
+    {
+     "keyword": "analog technology",
+     "value": 0.1643989873053573
+    },
+    {
+     "keyword": "art",
+     "value": 0.1643989873053573
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090172",
+   "title": "Fading channel communications",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 67,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "PM Associates, Stowe, VT, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37323490400",
+      "id": 37323490400,
+      "full_name": "P. Monsen",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "Adaptive processing can reduce the effects of fading on beyond-the-horizon digital radio links. Two radio propagation channels for beyond-thehorizon communications, troposcatter, and HF are currently being reexamined. In the past, transmission over these radio channels had been considered unreliable due to fading effects. Recently, conversion from analog to digital transmission and the use of new adaptive signal processing techniques have offered promise of acceptable network communication quality. In addition, over-the-horizon radio provides economic and/or secu-\u00b7 rity advantages relative to satellite, cable, or line-of-sight terrestrial microwave links. There is renewed interest in . the use of high frequency (HF) and troposcatter communications for networks carrying digital traffic.",
+   "article_number": "1090172",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090172",
+   "html_url": "https://ieeexplore.ieee.org/document/1090172/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090172/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23735,
+   "publication_year": 1980,
+   "publication_date": "January 1980",
+   "start_page": "16",
+   "end_page": "25",
+   "citing_paper_count": 31,
+   "citing_patent_count": 9,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Fading channels",
+      "Decorrelation",
+      "Bandwidth",
+      "Adaptive systems",
+      "Adaptive signal detection",
+      "Random processes",
+      "Time measurement",
+      "Multifrequency antennas"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "radio",
+     "value": 0.2727977357881894
+    },
+    {
+     "keyword": "communication",
+     "value": 0.20459830184114206
+    },
+    {
+     "keyword": "digital",
+     "value": 0.20459830184114206
+    },
+    {
+     "keyword": "adaptive",
+     "value": 0.1363988678940947
+    },
+    {
+     "keyword": "beyond",
+     "value": 0.1363988678940947
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090230",
+   "title": "Integrated circuits for local digital switching line interfaces",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "1558-1896",
+   "rank": 79,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Univ of Calif,Berkeley",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37341216300",
+      "id": 37341216300,
+      "full_name": "P. Gray",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37320126100",
+      "id": 37320126100,
+      "full_name": "D. Messerschmitt",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "Technological advances make exploitation of the most advanced ideas in telecommunications systems, economically feasible. The purpose of this paper is to review the functional and interface requirements, as well as circuit and technology alternatives for integrated circuit codecs, filters, and line interfaces.",
+   "article_number": "1090230",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090230",
+   "html_url": "https://ieeexplore.ieee.org/document/1090230/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090230/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23737,
+   "publication_year": 1980,
+   "publication_date": "May 1980",
+   "start_page": "12",
+   "end_page": "23",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Digital integrated circuits",
+      "Switching circuits",
+      "Communication switching",
+      "Telecommunication switching",
+      "Phase change materials",
+      "Integrated circuit technology",
+      "Telephony",
+      "Integrated circuit interconnections",
+      "Pulse modulation"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "circuit",
+     "value": 0.26967994498529685
+    },
+    {
+     "keyword": "interface",
+     "value": 0.26967994498529685
+    },
+    {
+     "keyword": "advance",
+     "value": 0.13483997249264842
+    },
+    {
+     "keyword": "advance make",
+     "value": 0.13483997249264842
+    },
+    {
+     "keyword": "advanced",
+     "value": 0.13483997249264842
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090249",
+   "title": "Is science and engineering training adequate?",
+   "publisher": "IEEE",
+   "issue": "4",
+   "issn": "1558-1896",
+   "rank": 86,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "IEEE COMM",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087573964",
+      "id": 37087573964,
+      "full_name": "L. Carter",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "US President Carter \"increasingly concerned,\" directs NSF and the Department of Education to report on this question by July 1 1980. The study has been ordered partly because American industry is faced with a shortage of engineers, especially engineers trained in computer-augmented design and manufacturing techniques. Also, with most new engineering graduates finding attractive jobs in industry upon receiving their bachelor's degree the engineering schools are discovering that to recruit enough graduate students and junior faculty they must look increasingly to foreign-born nationals.",
+   "article_number": "1090249",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090249",
+   "html_url": "https://ieeexplore.ieee.org/document/1090249/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090249/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23738,
+   "publication_year": 1980,
+   "publication_date": "July 1980",
+   "start_page": "28",
+   "end_page": "29",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Engineering education",
+      "Educational institutions",
+      "Research and development",
+      "Computer science education",
+      "Manufacturing industries",
+      "Design engineering",
+      "Computer aided manufacturing",
+      "Physics education"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "engineer",
+     "value": 0.18181818181818182
+    },
+    {
+     "keyword": "engineering",
+     "value": 0.18181818181818182
+    },
+    {
+     "keyword": "graduate",
+     "value": 0.18181818181818182
+    },
+    {
+     "keyword": "increasingly",
+     "value": 0.18181818181818182
+    },
+    {
+     "keyword": "industry",
+     "value": 0.18181818181818182
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090171",
+   "title": "NASA's revitalized role in satellite communications",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 94,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Novacom, Inc., Washington, DC, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37974738800",
+      "id": 37974738800,
+      "full_name": "D. Dement",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "The early efforts of NASA in space communications development strengthened the general level of confi. dence in the use of satellite technology for telecommunications. Soon afterward, the formation of organizations such as INTELSAT and the Comsat Corporation and their subsequent progress brought reliable communications via satellite at affordable rates. These capabilities have grown worldwide through new industries that are fostering the principles of the 1958 Space Act to exploit the peaceful benefits of space for the betterment of mankind. As a result of this recognized success arid the pressures of budget cutting, NASA's role in this pioneering effort was slowed in 1973. The flight projects then under development, the Applications Technology Satellite Six (ATS-6) and the Communications Technology Satellite (CTS) were allowed to continue but the research projects were reduced to a small ground-based effort directed toward long-term high-risk components and techniques. Now, as we enter the 1980's, the situation is reversed. The principal NASA spacecrafts are retired, but the program for research and development and flight experiments is revived.",
+   "article_number": "1090171",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090171",
+   "html_url": "https://ieeexplore.ieee.org/document/1090171/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090171/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23735,
+   "publication_year": 1980,
+   "publication_date": "January 1980",
+   "start_page": "37",
+   "end_page": "41",
+   "citing_paper_count": 0,
+   "citing_patent_count": 15,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Satellite communication",
+      "NASA",
+      "Space technology",
+      "Research and development",
+      "Artificial satellites",
+      "Space vehicles",
+      "Aerospace industry",
+      "Communications technology"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "satellite",
+     "value": 0.24951314462072213
+    },
+    {
+     "keyword": "development",
+     "value": 0.1871348584655416
+    },
+    {
+     "keyword": "effort",
+     "value": 0.1871348584655416
+    },
+    {
+     "keyword": "nasa",
+     "value": 0.1871348584655416
+    },
+    {
+     "keyword": "space",
+     "value": 0.1871348584655416
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090271",
+   "title": "NTT's domestic satellite communication system",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 95,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Yokosuka Electrical Communication Laboratory, Nippon Telegraph and Telephone Public Corp., Yokosuka, Kanagawa, Japan",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087575253",
+      "id": 37087575253,
+      "full_name": "K. Miyauchi",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "The author presents a survey of Japanese satellite technology on the brink of the \"second generation.\"",
+   "article_number": "1090271",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090271",
+   "html_url": "https://ieeexplore.ieee.org/document/1090271/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090271/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23739,
+   "publication_year": 1980,
+   "publication_date": "September 1980",
+   "start_page": "25",
+   "end_page": "34",
+   "citing_paper_count": 4,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Satellite communication",
+      "Satellite antennas",
+      "Transmitting antennas",
+      "Time division multiple access",
+      "Frequency division multiaccess",
+      "Flexible printed circuits",
+      "Frequency conversion",
+      "Frequency synchronization"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "author",
+     "value": 0.24253562503633297
+    },
+    {
+     "keyword": "author present",
+     "value": 0.24253562503633297
+    },
+    {
+     "keyword": "brink",
+     "value": 0.24253562503633297
+    },
+    {
+     "keyword": "brink second",
+     "value": 0.24253562503633297
+    },
+    {
+     "keyword": "generation",
+     "value": 0.24253562503633297
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090269",
+   "title": "Satellite multiple access protocols",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 108,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Western Illinois University",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37369798000",
+      "id": 37369798000,
+      "full_name": "C. Retnadhas",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "This paper presents a tutorial on the varioupsr otocols used in satellite data transmission. The most important characteristic of the satellite system is the ability of the earth stations, located at geographically dispersed areas, to access the satellite to transmit and to receive data. The area covered by a geostationary satellite is a function of the satellite's receiving and transmitting antennats). For a large number of users with bursty traffic, a highly efficient way of using the channel capacity is to use multiple access techniques. In a multiple accessed channel, two or more users may nominally share the channel. The satellite system can provide broadcast capability at any given time to all earth stations within its transmission coverage area. The combination of multiple access and broadcast capability makes it possible to configure the earth stations into a fully connected \"one-hop\" network.",
+   "article_number": "1090269",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090269",
+   "html_url": "https://ieeexplore.ieee.org/document/1090269/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090269/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23739,
+   "publication_year": 1980,
+   "publication_date": "September 1980",
+   "start_page": "16",
+   "end_page": "20",
+   "citing_paper_count": 4,
+   "citing_patent_count": 2,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Access protocols",
+      "Satellite broadcasting",
+      "Frequency division multiaccess",
+      "Time division multiple access",
+      "Bandwidth",
+      "Transponders",
+      "Satellite ground stations",
+      "Data communication",
+      "Delay effects"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "satellite",
+     "value": 0.3658264565098154
+    },
+    {
+     "keyword": "access",
+     "value": 0.1829132282549077
+    },
+    {
+     "keyword": "area",
+     "value": 0.1829132282549077
+    },
+    {
+     "keyword": "channel",
+     "value": 0.1829132282549077
+    },
+    {
+     "keyword": "earth",
+     "value": 0.1829132282549077
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090270",
+   "title": "Space telecommunications",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 117,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Hughes Aircraft Company, El Segundo, CA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37430695900",
+      "id": 37430695900,
+      "full_name": "H. Rosen",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "This paper will review the evolution of the various types of satellite systems and their. launch vehicles and contemplate. the future. Although some truly gigantic satellites have been imagined by others, the view expressed here is that technical and economic considerations will limit satellite size through the end of this century to more modest proportions, not greatly exceeding those of satellites currently under construction. The greatest challenge in future satellite design will continue to be the attainment of improved lifetimes.",
+   "article_number": "1090270",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090270",
+   "html_url": "https://ieeexplore.ieee.org/document/1090270/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090270/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23739,
+   "publication_year": 1980,
+   "publication_date": "September 1980",
+   "start_page": "5",
+   "end_page": "11",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Satellite broadcasting",
+      "Artificial satellites",
+      "Military satellites",
+      "Space technology",
+      "Power generation economics",
+      "Structural beams",
+      "Mobile communication"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "satellite",
+     "value": 0.4833682445228318
+    },
+    {
+     "keyword": "future",
+     "value": 0.1933472978091327
+    },
+    {
+     "keyword": "although",
+     "value": 0.09667364890456635
+    },
+    {
+     "keyword": "although truly",
+     "value": 0.09667364890456635
+    },
+    {
+     "keyword": "attainment",
+     "value": 0.09667364890456635
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090173",
+   "title": "TDM/FDM translation as an application of digital signal processing",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 118,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Telephone Labs., N.J.",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37426736600",
+      "id": 37426736600,
+      "full_name": "S. Freeny",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "Transmultiplexers utilize sophisticated digital processing to convert between time and frequency division multiplexed signals. The aim has been simply to prepare an interested reader to better understand and evaluate various schemes that have been proposed. Omisosf ioa n particular piece of work thus implies nothing about its relevance or importance.",
+   "article_number": "1090173",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090173",
+   "html_url": "https://ieeexplore.ieee.org/document/1090173/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090173/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23735,
+   "publication_year": 1980,
+   "publication_date": "January 1980",
+   "start_page": "5",
+   "end_page": "15",
+   "citing_paper_count": 18,
+   "citing_patent_count": 3,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Time division multiplexing",
+      "Digital signal processing",
+      "Frequency division multiplexing",
+      "Application software",
+      "Pulse modulation",
+      "Signal processing",
+      "Amplitude modulation"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "aim",
+     "value": 0.1259881576697424
+    },
+    {
+     "keyword": "aim simply",
+     "value": 0.1259881576697424
+    },
+    {
+     "keyword": "convert",
+     "value": 0.1259881576697424
+    },
+    {
+     "keyword": "convert time",
+     "value": 0.1259881576697424
+    },
+    {
+     "keyword": "digital",
+     "value": 0.1259881576697424
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090276",
+   "title": "Talk with an astronaut turned telephone man",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 119,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "IEEE Comm.",
+      "full_name": "C. Lof",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "James Lovell, a space pioneer, participated in the Gemini and Apollo space programs, and wast he first person to make a second voyage to the moon. He retired from the US Navy with the rank of Captain. Currently he is President of Fisk Telephone Systems, a Houston-based independent. During the International Conference on Communications (KC '80) in Seattle, the interviewer spoke with Mr. Lovell about the challenges of the communications revolution.",
+   "article_number": "1090276",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090276",
+   "html_url": "https://ieeexplore.ieee.org/document/1090276/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090276/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23739,
+   "publication_year": 1980,
+   "publication_date": "September 1980",
+   "start_page": "35",
+   "end_page": "39",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telephony",
+      "Aerospace industry",
+      "Electronics industry",
+      "Engineering profession",
+      "Interviews"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "lovell",
+     "value": 0.21442250696755896
+    },
+    {
+     "keyword": "space",
+     "value": 0.21442250696755896
+    },
+    {
+     "keyword": "80",
+     "value": 0.10721125348377948
+    },
+    {
+     "keyword": "80 seattle",
+     "value": 0.10721125348377948
+    },
+    {
+     "keyword": "apollo",
+     "value": 0.10721125348377948
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090265",
+   "title": "Telecommunications in the future",
+   "publisher": "IEEE",
+   "issue": "4",
+   "issn": "1558-1896",
+   "rank": 120,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "NEC Corporation, Tokyo",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37336666500",
+      "id": 37336666500,
+      "full_name": "K. Kobayashi",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "It is artgued that the trends of developments in communications systems directly concern a nation's present situation and future vision, and its services and impacts should be perceived as a major national issue. It is, therefore, necessary for each nation to make the most suitable choice of communications systems based on its specific environment and objectives.",
+   "article_number": "1090265",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090265",
+   "html_url": "https://ieeexplore.ieee.org/document/1090265/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090265/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23738,
+   "publication_year": 1980,
+   "publication_date": "July 1980",
+   "start_page": "23",
+   "end_page": "27",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telephony",
+      "Communication industry",
+      "Telecommunication computing",
+      "Computer industry",
+      "Switching systems",
+      "Intelligent networks",
+      "Supply and demand",
+      "Technology forecasting",
+      "Technological innovation"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "communication",
+     "value": 0.24433888871261045
+    },
+    {
+     "keyword": "communication system",
+     "value": 0.24433888871261045
+    },
+    {
+     "keyword": "nation",
+     "value": 0.24433888871261045
+    },
+    {
+     "keyword": "system",
+     "value": 0.24433888871261045
+    },
+    {
+     "keyword": "artgued",
+     "value": 0.12216944435630522
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090272",
+   "title": "The SBS system and services",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 121,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "SBS",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087572793",
+      "id": 37087572793,
+      "full_name": "H. Schnipper",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "The SBS System is designed to serve the full spectrum of communications needs of a large community of business and government organizations and other communications users. SBS dedicated networks for integrated applications will be especially advantageous for customers who generate large volumes of communications traffic at a number of geographically dispersed locations. In addition, SBS will offer sharedfacilities network services as well as MTS- or WATS-like voice services.",
+   "article_number": "1090272",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090272",
+   "html_url": "https://ieeexplore.ieee.org/document/1090272/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090272/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23739,
+   "publication_year": 1980,
+   "publication_date": "September 1980",
+   "start_page": "12",
+   "end_page": "15",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Satellite broadcasting",
+      "Satellite ground stations",
+      "Communication system control",
+      "Satellite communication",
+      "Time division multiple access",
+      "Process control"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "communication",
+     "value": 0.29277002188455997
+    },
+    {
+     "keyword": "sbs",
+     "value": 0.29277002188455997
+    },
+    {
+     "keyword": "large",
+     "value": 0.19518001458970666
+    },
+    {
+     "keyword": "network",
+     "value": 0.19518001458970666
+    },
+    {
+     "keyword": "service",
+     "value": 0.19518001458970666
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090291",
+   "title": "The bandwidth of digital data signal",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "1558-1896",
+   "rank": 122,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "West Alton Street,SantaAna,CA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37341214100",
+      "id": 37341214100,
+      "full_name": "F. Amoroso",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "The engineering of data communications systems invites involvement with a number of rather refined parametric concepts, such as bit error rate (BER), antenna gain, radiated power, communication efficiency, and bandwidth. Of these, none has been the subject of more lively discussion and revision than bandwidth. The implications of bandwidth can vary considerably from context to context, as the profusion of definitions of bandwidth will attest. The purpose of the present article is to explore the subject of data transmission bandwidth through an examination of its various definitions. The spectrum is finite, yet as technology manipulates it, a dazzling increase in bandwidth capability emerges.",
+   "article_number": "1090291",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090291",
+   "html_url": "https://ieeexplore.ieee.org/document/1090291/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090291/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23740,
+   "publication_year": 1980,
+   "publication_date": "November 1980",
+   "start_page": "13",
+   "end_page": "24",
+   "citing_paper_count": 80,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Bandwidth",
+      "Spread spectrum communication",
+      "Delay effects",
+      "Signal synthesis",
+      "Interchannel interference",
+      "Frequency conversion",
+      "Crosstalk",
+      "Communication system control"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "bandwidth",
+     "value": 0.4788521306805733
+    },
+    {
+     "keyword": "communication",
+     "value": 0.15961737689352443
+    },
+    {
+     "keyword": "context",
+     "value": 0.15961737689352443
+    },
+    {
+     "keyword": "data",
+     "value": 0.15961737689352443
+    },
+    {
+     "keyword": "definition",
+     "value": 0.15961737689352443
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090257",
+   "title": "The department of defenses's communications expert - An interview with Gerald Dinneen",
+   "publisher": "IEEE",
+   "issue": "4",
+   "issn": "1558-1896",
+   "rank": 123,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "IEEE Comm.",
+      "full_name": "C. Lof",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "In the labyrinth known as the United States Government, it is often difficult to identify exactly who creates and executes policy. At the Pentagon, Gerald Dinneen, Assistant Secretary of Defense, among other responsibilities, oversees the US military's communications network. In a recent interview he discussed his myriad tasks, special problems, and the differences between a job on the firing line as a presidential appointee and a research position. Before joining the Carter administration, Dr. Dinneen was Director of M.l.T.'s Lincoln Laboratory.",
+   "article_number": "1090257",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090257",
+   "html_url": "https://ieeexplore.ieee.org/document/1090257/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090257/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23738,
+   "publication_year": 1980,
+   "publication_date": "July 1980",
+   "start_page": "36",
+   "end_page": "37",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Interviews",
+      "Communication system control",
+      "Telecommunication control",
+      "Computer networks",
+      "Communication networks",
+      "US Department of Defense",
+      "Intelligent control",
+      "Artificial satellites"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "dinneen",
+     "value": 0.20306923302672383
+    },
+    {
+     "keyword": "administration",
+     "value": 0.10153461651336192
+    },
+    {
+     "keyword": "administration dr",
+     "value": 0.10153461651336192
+    },
+    {
+     "keyword": "among",
+     "value": 0.10153461651336192
+    },
+    {
+     "keyword": "among responsibility",
+     "value": 0.10153461651336192
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1980.1090222",
+   "title": "The era of electronic enlightenment?",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "1558-1896",
+   "rank": 125,
+   "volume": "18",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "IEEE Comm.",
+      "full_name": "C. Lof",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "At this moment the US Federal Government is deeply involved in shaping the legislation which will direct the startling changes in the telecommunications industry. The ground rules which currently govern the industry are specified in the Communications Act of 1934. This law was passed when communications consisted of a basic black telephone and a teletypewriter-computers, lasers, and fiber optics were unimagined. This law, also is largely based on the Interstate Commerce Act of 1887 which was designed to correct railroad abuses. Today the overwhelming sentiment in Washington is for change. Legislation is pending in both the House of Representatives and the Senate. The President, NTIA, the IEEE, and Ralph Nader's Congress Watch all have expressed opinions and outlined courses of action. The author recently went to Washingtion and spoke to people from all of these organizations. In the following interview, Rep. Lionel Van Deerlin (D-CA), Chairman of the Subcommittee on Communications, discusses his views of the legislation known as the Communications Act of 1980 which his Committee is steering through the legislative process.",
+   "article_number": "1090222",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090222",
+   "html_url": "https://ieeexplore.ieee.org/document/1090222/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1090222/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23737,
+   "publication_year": 1980,
+   "publication_date": "May 1980",
+   "start_page": "4",
+   "end_page": "7",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Communication industry",
+      "Business",
+      "US Government",
+      "Telephony",
+      "Teleprinting",
+      "Optical fiber communication",
+      "Interviews"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "act",
+     "value": 0.2027212135198458
+    },
+    {
+     "keyword": "communications",
+     "value": 0.2027212135198458
+    },
+    {
+     "keyword": "legislation",
+     "value": 0.2027212135198458
+    },
+    {
+     "keyword": "change",
+     "value": 0.13514747567989718
+    },
+    {
+     "keyword": "communications act",
+     "value": 0.13514747567989718
+    }
+   ]
+  }
+ ]
+}

@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import Network from "./pages/network";
 import * as d3 from 'd3';
+import { useEffect,useState } from "react";
 
 
 const Layout = ({children}) => {

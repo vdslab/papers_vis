@@ -1,0 +1,5557 @@
+{
+ "total_records": 105,
+ "total_searched": 5638566,
+ "articles": [
+  {
+   "doi": "10.1109/MCOM.1987.1093608",
+   "title": "A 1.7 gigabit-per-second, time-multiplexed photonic switching experiment",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 1,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "AT&T Bell Lab., Naperville, IL, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088189901",
+      "id": 37088189901,
+      "full_name": "J. Erickson",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37376812400",
+      "id": 37376812400,
+      "full_name": "R. Nordin",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37975806400",
+      "id": 37975806400,
+      "full_name": "W. Payne",
+      "author_order": 3
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087766017",
+      "id": 37087766017,
+      "full_name": "M. Ratajack",
+      "author_order": 4
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093608",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093608",
+   "html_url": "https://ieeexplore.ieee.org/document/1093608/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093608/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23878,
+   "publication_year": 1987,
+   "publication_date": "May 1987",
+   "start_page": "56",
+   "end_page": "58",
+   "citing_paper_count": 11,
+   "citing_patent_count": 2,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical switches",
+      "Couplers",
+      "Optical fiber polarization",
+      "Fiber lasers",
+      "Broadcasting",
+      "Driver circuits",
+      "Switching systems",
+      "Optical waveguides",
+      "Optical modulation"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093650",
+   "title": "A computer dial access system based on public-key techniques",
+   "publisher": "IEEE",
+   "issue": "7",
+   "issn": "1558-1896",
+   "rank": 2,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Cylink Corp., Sunnyvale, CA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37089047854",
+      "id": 37089047854,
+      "full_name": "J. Omura",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093650",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093650",
+   "html_url": "https://ieeexplore.ieee.org/document/1093650/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093650/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23880,
+   "publication_year": 1987,
+   "publication_date": "July 1987",
+   "start_page": "73",
+   "end_page": "79",
+   "citing_paper_count": 6,
+   "citing_patent_count": 6,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Access control",
+      "Authentication",
+      "Public key cryptography",
+      "Transmitters",
+      "Computer networks",
+      "Communication switching"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093695",
+   "title": "A survey of dynamic routing methods for circuit-switched traffic",
+   "publisher": "IEEE",
+   "issue": "9",
+   "issn": "1558-1896",
+   "rank": 3,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Microtel Pacific Research",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087689096",
+      "id": 37087689096,
+      "full_name": "B. Hurley",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087690613",
+      "id": 37087690613,
+      "full_name": "C. Seidl",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087692891",
+      "id": 37087692891,
+      "full_name": "W. Sewell",
+      "author_order": 3
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093695",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093695",
+   "html_url": "https://ieeexplore.ieee.org/document/1093695/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093695/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23882,
+   "publication_year": 1987,
+   "publication_date": "September 1987",
+   "start_page": "13",
+   "end_page": "21",
+   "citing_paper_count": 43,
+   "citing_patent_count": 13,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Routing",
+      "Switching circuits",
+      "Telecommunication switching",
+      "Communication system traffic control",
+      "Automatic control",
+      "Telecommunication control",
+      "Economic forecasting",
+      "Telecommunication traffic"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093543",
+   "title": "A view from Asia",
+   "publisher": "IEEE",
+   "issue": "2",
+   "issn": "1558-1896",
+   "rank": 4,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Nippon Telegraph and Telephone Public Corp., Japan",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37297964200",
+      "id": 37297964200,
+      "full_name": "K. Kohiyama",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088302641",
+      "id": 37088302641,
+      "full_name": "O. Kurita",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093543",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093543",
+   "html_url": "https://ieeexplore.ieee.org/document/1093543/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093543/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23875,
+   "publication_year": 1987,
+   "publication_date": "February 1987",
+   "start_page": "41",
+   "end_page": "45",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Digital communication",
+      "Frequency modulation",
+      "Asia",
+      "Quadrature phase shift keying",
+      "Digital modulation",
+      "Quadrature amplitude modulation",
+      "Polarization"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093545",
+   "title": "A view from Europe",
+   "publisher": "IEEE",
+   "issue": "2",
+   "issn": "1558-1896",
+   "rank": 5,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "British Telecom, UK",
+      "authorUrl": "https://ieeexplore.ieee.org/author/38221615400",
+      "id": 38221615400,
+      "full_name": "G. Hart",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088190219",
+      "id": 37088190219,
+      "full_name": "J. Steinkamp",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093545",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093545",
+   "html_url": "https://ieeexplore.ieee.org/document/1093545/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093545/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23875,
+   "publication_year": 1987,
+   "publication_date": "February 1987",
+   "start_page": "49",
+   "end_page": "52",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Europe",
+      "Digital communication",
+      "Amplitude modulation",
+      "Linearity",
+      "Interference constraints",
+      "Channel spacing",
+      "Phase modulation",
+      "Radiofrequency amplifiers",
+      "Telecommunications",
+      "Digital relays"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093529",
+   "title": "A view from North America",
+   "publisher": "IEEE",
+   "issue": "2",
+   "issn": "1558-1896",
+   "rank": 6,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Labs., North Andover, MA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37975529700",
+      "id": 37975529700,
+      "full_name": "M. Meyers",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088257483",
+      "id": 37088257483,
+      "full_name": "V. Prabhu",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093529",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093529",
+   "html_url": "https://ieeexplore.ieee.org/document/1093529/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093529/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23875,
+   "publication_year": 1987,
+   "publication_date": "February 1987",
+   "start_page": "46",
+   "end_page": "49",
+   "citing_paper_count": 4,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "North America",
+      "Radio network",
+      "Digital communication",
+      "Silicon compounds",
+      "Polarization",
+      "Bandwidth",
+      "Telecommunication traffic",
+      "Investments"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093689",
+   "title": "An architectural view for integrated network operations",
+   "publisher": "IEEE",
+   "issue": "9",
+   "issn": "1558-1896",
+   "rank": 19,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Northern Res., Ottawa, Ont., Canada",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37349294600",
+      "id": 37349294600,
+      "full_name": "S. Aidarous",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37354124600",
+      "id": 37354124600,
+      "full_name": "P. Birkwood",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087379710",
+      "id": 37087379710,
+      "full_name": "R. Tam",
+      "author_order": 3
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093689",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093689",
+   "html_url": "https://ieeexplore.ieee.org/document/1093689/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093689/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23882,
+   "publication_year": 1987,
+   "publication_date": "September 1987",
+   "start_page": "31",
+   "end_page": "35",
+   "citing_paper_count": 3,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telephony",
+      "Computer networks",
+      "Costs",
+      "Computer network management",
+      "Application software",
+      "Automation"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093444",
+   "title": "An international policy perspective on the information age",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 20,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "U.S. Coordinator for Int'l Communications and Information Policy, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087801647",
+      "id": 37087801647,
+      "full_name": "D. Dougan",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093444",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093444",
+   "html_url": "https://ieeexplore.ieee.org/document/1093444/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093444/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "18",
+   "end_page": "23",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Monopoly",
+      "Government policies",
+      "Economic forecasting",
+      "International relations",
+      "Analog computers",
+      "Application software",
+      "Technological innovation",
+      "Broadcasting"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093615",
+   "title": "Architectures for guided-wave optical space switching systems",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 21,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "AT&T Bell Lab., Naperville, IL, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37390505700",
+      "id": 37390505700,
+      "full_name": "R. Spanke",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093615",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093615",
+   "html_url": "https://ieeexplore.ieee.org/document/1093615/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093615/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23878,
+   "publication_year": 1987,
+   "publication_date": "May 1987",
+   "start_page": "42",
+   "end_page": "48",
+   "citing_paper_count": 118,
+   "citing_patent_count": 7,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Switching systems",
+      "Optical attenuators",
+      "Optical switches",
+      "Communication switching",
+      "Optical waveguides",
+      "Optical sensors",
+      "Computer architecture",
+      "Driver circuits",
+      "Directional couplers"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093518",
+   "title": "Army implementation of ISDN",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 22,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Philco-Ford Arizona Systems Center, Tucson",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087765311",
+      "id": 37087765311,
+      "full_name": "J. Rudigier",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093518",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093518",
+   "html_url": "https://ieeexplore.ieee.org/document/1093518/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093518/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "44",
+   "end_page": "49",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Communication switching",
+      "Distributed control",
+      "Military standards",
+      "Military communication",
+      "Telecommunication switching",
+      "Information systems"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093437",
+   "title": "Bring on the competition",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 36,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "US West, Inc., USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087947001",
+      "id": 37087947001,
+      "full_name": "J. MacAllister",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093437",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093437",
+   "html_url": "https://ieeexplore.ieee.org/document/1093437/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093437/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "28",
+   "end_page": "29",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telephony",
+      "Communication industry",
+      "Technological innovation",
+      "Monopoly",
+      "Marine technology",
+      "Navigation"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093520",
+   "title": "British telecom's ISDN experience",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 37,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Marketing Manager IDA/ISDN, UK",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087766850",
+      "id": 37087766850,
+      "full_name": "H. Brown",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093520",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093520",
+   "html_url": "https://ieeexplore.ieee.org/document/1093520/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093520/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "70",
+   "end_page": "73",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Telephony",
+      "Central office",
+      "Telecommunication switching",
+      "Telecommunication traffic",
+      "System testing",
+      "Communication switching"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093497",
+   "title": "Broadband communication and its realization with broadband ISDN",
+   "publisher": "IEEE",
+   "issue": "11",
+   "issn": "1558-1896",
+   "rank": 38,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Siemens AG, Munich, Germany",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37662005000",
+      "id": 37662005000,
+      "full_name": "H. Armbruster",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37086998143",
+      "id": 37086998143,
+      "full_name": "G. Arndt",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "In addition to narrowband services, future broadband networks will also include broadband services for applications like: high-speed communication of data, text and graphics person-to-person video communication, access to video information as well as broadcast of programs and data. Low terminal costs and service charges are essential with respect to a growing demand for new services, especially in the home. Broadband ISDN, to be developed on the basis of ISDN and using glass-fiber subscriber lines, will enable a wide range of applications satisfying the needs and requirements of the business and private sectors. The best technical solution from the aspect of user-friendliness and economy is to implement this broadband ISDN for all services with an evolutionary and flexible design. The broadband ISDN concept is not restricted to the public network and terminal equipment but also comprises private networks, information and program centers, etc. Many countries are pursuing the goal of this universal network for the future \"information society\". However, the approaches for setting up the broadband ISDN differ from country to country, depending on the particular technical and political situation. Standardization plays an important role with regard to \"open broadband telecommunication\", the worldwide trouble-free communication and information exchange of one party with any other.",
+   "article_number": "1093497",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093497",
+   "html_url": "https://ieeexplore.ieee.org/document/1093497/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093497/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23873,
+   "publication_year": 1987,
+   "publication_date": "November 1987",
+   "start_page": "8",
+   "end_page": "19",
+   "citing_paper_count": 27,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "B-ISDN",
+      "Broadband communication",
+      "Narrowband",
+      "Graphics",
+      "Multimedia communication",
+      "Broadcasting",
+      "ISDN",
+      "Business",
+      "Standardization"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "broadband",
+     "value": 0.34528453656689306
+    },
+    {
+     "keyword": "isdn",
+     "value": 0.24663181183349503
+    },
+    {
+     "keyword": "service",
+     "value": 0.24663181183349503
+    },
+    {
+     "keyword": "broadband isdn",
+     "value": 0.197305449466796
+    },
+    {
+     "keyword": "information",
+     "value": 0.197305449466796
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093628",
+   "title": "Cellular access digital network (CADN): Wireless access to networks of the future",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "1558-1896",
+   "rank": 44,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "AT&T Bell Labs., Whippany, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37089049089",
+      "id": 37089049089,
+      "full_name": "E. Chien",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37279111400",
+      "id": 37279111400,
+      "full_name": "D. Goodman",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37089039300",
+      "id": 37089039300,
+      "full_name": "J. Russell",
+      "author_order": 3
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093628",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093628",
+   "html_url": "https://ieeexplore.ieee.org/document/1093628/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093628/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23879,
+   "publication_year": 1987,
+   "publication_date": "June 1987",
+   "start_page": "22",
+   "end_page": "27",
+   "citing_paper_count": 29,
+   "citing_patent_count": 18,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Cellular networks",
+      "ISDN",
+      "Communication system control",
+      "Telephony",
+      "Wireless networks",
+      "Land mobile radio cellular systems",
+      "Radio control"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093680",
+   "title": "Communications network planning in the evolving information age",
+   "publisher": "IEEE",
+   "issue": "9",
+   "issn": "1558-1896",
+   "rank": 50,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Communications Research Inc.",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087689763",
+      "id": 37087689763,
+      "full_name": "E. Gould",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37346733700",
+      "id": 37346733700,
+      "full_name": "C. Pack",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "Communications networks are undergoing major changes in equipment technologies, network architectures, and service offerings. These changes reflect the new capabilities of the evolving information age: high bandwidth technologies, flexible and controllable networks utilizing advanced database and signaling systems, and intelligent network elements. Planning these new communications networks presents a major challenge. However, information age technologies also allow the design of efficient and flexible processes and systems to plan new modern networks. In fact, these new database oriented, intelligent planning systems must evolve in synchronism with the new information age communications networks. In the long term, as the networks increase in flexibility and intelligence, the networks themselves can take over many of the responsibilities of network planning and administration, leaving planners to study business strategies and new network architectures and services. In any event, planning decisions, whether made by the network or the planner, will be based on large amounts of information that are efficiently organized and quickly processed by the integrated network and operations support systems.",
+   "article_number": "1093680",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093680",
+   "html_url": "https://ieeexplore.ieee.org/document/1093680/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093680/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23882,
+   "publication_year": 1987,
+   "publication_date": "September 1987",
+   "start_page": "22",
+   "end_page": "30",
+   "citing_paper_count": 4,
+   "citing_patent_count": 1,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Communication networks",
+      "Intelligent networks",
+      "Communication system control",
+      "Control systems",
+      "Communication system signaling",
+      "Intelligent systems",
+      "Deductive databases",
+      "Strategic planning",
+      "Process planning"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "network",
+     "value": 0.5902995919424497
+    },
+    {
+     "keyword": "new",
+     "value": 0.2724459655118999
+    },
+    {
+     "keyword": "information",
+     "value": 0.18163064367459994
+    },
+    {
+     "keyword": "system",
+     "value": 0.18163064367459994
+    },
+    {
+     "keyword": "age",
+     "value": 0.13622298275594996
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093450",
+   "title": "Communications policy for the future - And for the present",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 51,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "U.S. House of Representatives, Washington, DC, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087428212",
+      "id": 37087428212,
+      "full_name": "J. Dingell",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093450",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093450",
+   "html_url": "https://ieeexplore.ieee.org/document/1093450/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093450/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "11",
+   "end_page": "14",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telephony",
+      "FCC",
+      "Communication networks",
+      "Robustness"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093427",
+   "title": "Computer III: Breakout of the BOC's?",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 63,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Wiley, Rein & Fielding, Washington, DC, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088083176",
+      "id": 37088083176,
+      "full_name": "R. Wiley",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37086999213",
+      "id": 37086999213,
+      "full_name": "R. Senkowski",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093427",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093427",
+   "html_url": "https://ieeexplore.ieee.org/document/1093427/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093427/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "49",
+   "end_page": "51",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Protocols",
+      "FCC",
+      "Computer networks",
+      "Telephony",
+      "Computer architecture",
+      "Data processing",
+      "Message service",
+      "Proposals",
+      "Cost function"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093672",
+   "title": "Computer III: The beginning or the beginning of the end for enhanced services competition",
+   "publisher": "IEEE",
+   "issue": "8",
+   "issn": "1558-1896",
+   "rank": 64,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Attorney, Washington, DC, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088056326",
+      "id": 37088056326,
+      "full_name": "J. Wolfson",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093672",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093672",
+   "html_url": "https://ieeexplore.ieee.org/document/1093672/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093672/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23881,
+   "publication_year": 1987,
+   "publication_date": "August 1987",
+   "start_page": "35",
+   "end_page": "40",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "FCC",
+      "Data processing",
+      "Telecommunication computing",
+      "Monopoly",
+      "Telecommunication services",
+      "Communication system control",
+      "Telecommunication control",
+      "Telegraphy",
+      "Consumer electronics"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093655",
+   "title": "Computer aided techniques for communications systems engineering",
+   "publisher": "IEEE",
+   "issue": "7",
+   "issn": "1558-1896",
+   "rank": 65,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Queen's Univ., Kingston, Ontario, Canada",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37274698500",
+      "id": 37274698500,
+      "full_name": "H. Mouftah",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/38557417100",
+      "id": 38557417100,
+      "full_name": "K. Shanmugan",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093655",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093655",
+   "html_url": "https://ieeexplore.ieee.org/document/1093655/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093655/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23880,
+   "publication_year": 1987,
+   "publication_date": "July 1987",
+   "start_page": "48",
+   "end_page": "54",
+   "citing_paper_count": 7,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Systems engineering and theory",
+      "Computational modeling",
+      "Analytical models",
+      "Computer simulation",
+      "Design engineering",
+      "Performance analysis",
+      "Communication networks",
+      "Communication switching",
+      "Communication system control",
+      "Open systems"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093469",
+   "title": "Computers and communications - Technology interdependency between the United States and Japan",
+   "publisher": "IEEE",
+   "issue": "10",
+   "issn": "1558-1896",
+   "rank": 66,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "AT&T Bell Labs., Naperville, Illinois, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37086999974",
+      "id": 37086999974,
+      "full_name": "M. Iwama",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088085343",
+      "id": 37088085343,
+      "full_name": "F. Magee",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093469",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093469",
+   "html_url": "https://ieeexplore.ieee.org/document/1093469/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093469/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23872,
+   "publication_year": 1987,
+   "publication_date": "October 1987",
+   "start_page": "41",
+   "end_page": "48",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Communications technology",
+      "Production",
+      "Research and development",
+      "Quality control",
+      "Systems engineering and theory",
+      "Application software",
+      "Integrated circuit technology",
+      "Telephony",
+      "International trade",
+      "Electronic equipment"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093495",
+   "title": "Current subscriber radio and recent trends",
+   "publisher": "IEEE",
+   "issue": "11",
+   "issn": "1558-1896",
+   "rank": 81,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Nippon Telegraph and Telephone Public Corp., Japan",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37973963200",
+      "id": 37973963200,
+      "full_name": "O. Kurita",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37277977700",
+      "id": 37277977700,
+      "full_name": "T. Yoshida",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093495",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093495",
+   "html_url": "https://ieeexplore.ieee.org/document/1093495/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093495/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23873,
+   "publication_year": 1987,
+   "publication_date": "November 1987",
+   "start_page": "44",
+   "end_page": "50",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Time division multiple access",
+      "Microwave integrated circuits",
+      "Wireless communication",
+      "Mobile communication",
+      "Local area networks",
+      "Message service"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093451",
+   "title": "Deregulation's impact on technology",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 82,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Continental Telecom Inc., USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37982470600",
+      "id": 37982470600,
+      "full_name": "J. McDonald",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093451",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093451",
+   "html_url": "https://ieeexplore.ieee.org/document/1093451/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093451/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "63",
+   "end_page": "65",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "FCC",
+      "Satellite broadcasting",
+      "Telecommunications",
+      "Research and development",
+      "Termination of employment"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093611",
+   "title": "Design of lithium niobate based photonic switching systems",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 83,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "AT&T Bell Labs., USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37975806400",
+      "id": 37975806400,
+      "full_name": "W. Payne",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093611",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093611",
+   "html_url": "https://ieeexplore.ieee.org/document/1093611/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093611/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23878,
+   "publication_year": 1987,
+   "publication_date": "May 1987",
+   "start_page": "37",
+   "end_page": "41",
+   "citing_paper_count": 12,
+   "citing_patent_count": 2,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Switching systems",
+      "Optical fiber polarization",
+      "Optical fiber couplers",
+      "Optical fiber devices",
+      "Directional couplers",
+      "Optical fiber communication",
+      "Optical amplifiers",
+      "Optical switches",
+      "Crosstalk"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093694",
+   "title": "Designing a new architecture for packet switching communication networks",
+   "publisher": "IEEE",
+   "issue": "9",
+   "issn": "1558-1896",
+   "rank": 84,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "IEEE COMM",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087149149",
+      "id": 37087149149,
+      "full_name": "Lixia Zhang",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093694",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093694",
+   "html_url": "https://ieeexplore.ieee.org/document/1093694/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093694/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23882,
+   "publication_year": 1987,
+   "publication_date": "September 1987",
+   "start_page": "5",
+   "end_page": "12",
+   "citing_paper_count": 26,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Packet switching",
+      "Communication networks",
+      "Telecommunication traffic",
+      "Traffic control",
+      "Protocols",
+      "Resource management",
+      "Data communication"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093569",
+   "title": "Development of fiber-optic broadband interactive distribution network",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "1558-1896",
+   "rank": 85,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "NTT Tele. Comm. Networks Labs., Japan",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37974017100",
+      "id": 37974017100,
+      "full_name": "J. Yamagata",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37089146833",
+      "id": 37089146833,
+      "full_name": "E. Yoneda",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37335205100",
+      "id": 37335205100,
+      "full_name": "S. Nakajima",
+      "author_order": 3
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37975368900",
+      "id": 37975368900,
+      "full_name": "T. Hisaki",
+      "author_order": 4
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37324826100",
+      "id": 37324826100,
+      "full_name": "Y. Koyamada",
+      "author_order": 5
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093569",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093569",
+   "html_url": "https://ieeexplore.ieee.org/document/1093569/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093569/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23876,
+   "publication_year": 1987,
+   "publication_date": "March 1987",
+   "start_page": "34",
+   "end_page": "38",
+   "citing_paper_count": 5,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical fiber subscriber loops",
+      "Optical fiber devices",
+      "Optical fiber cables",
+      "Subscriber loops",
+      "Optical network units",
+      "Telecommunication network topology",
+      "Optical fiber communication",
+      "Coaxial cables"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093666",
+   "title": "Echo and delay problems in some digital communication systems",
+   "publisher": "IEEE",
+   "issue": "8",
+   "issn": "1558-1896",
+   "rank": 86,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Plessey Company",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087690573",
+      "id": 37087690573,
+      "full_name": "R. Moffett",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093666",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093666",
+   "html_url": "https://ieeexplore.ieee.org/document/1093666/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093666/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23881,
+   "publication_year": 1987,
+   "publication_date": "August 1987",
+   "start_page": "41",
+   "end_page": "47",
+   "citing_paper_count": 7,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Digital communication",
+      "Telephony",
+      "Bandwidth",
+      "Land mobile radio cellular systems",
+      "Communication switching",
+      "Impedance",
+      "Satellite broadcasting",
+      "Artificial satellites"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093476",
+   "title": "Ed-net; A multi-Protocol educational local area network",
+   "publisher": "IEEE",
+   "issue": "10",
+   "issn": "1558-1896",
+   "rank": 87,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "City Univ. of New York, City College, NY, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37272115800",
+      "id": 37272115800,
+      "full_name": "T. Saadawi",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37989922400",
+      "id": 37989922400,
+      "full_name": "A. Abdelmonem",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "The last decade has witnessed tremendous productivity in the field of local area networks (LANs). The productivity has ranged from many different available commercial LANs to detailed technical analyses, performance evaluation models and simulation results. The need now arises for networks to teach students in university and engineers in industry how to build and design LANs. The purpose of this paper is to present the Ed-Net; a multi-protocol local area network for educational and design purposes. The network uses available VLSI chips that implement LAN protocols. The intelligent co-processors LAN controllers such as INTEL 82586 for the Ethernet and Western Digital WD 2840 for the token-passing are used. Also advanced encoder/decoder chips such as Seeq 8023 and Harris HD-6409 are utilized. Ed-Net can be configured as an Ethernet, or a tokenpassing bus. Number of experiments can be run on the network. These experiments range from: interfacing the main CPU to the LAN controller, memory sharing, FIFO and DMA operation, error detection, and synchronization to framing, data encryption and successful transmission and reception.",
+   "article_number": "1093476",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093476",
+   "html_url": "https://ieeexplore.ieee.org/document/1093476/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093476/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23872,
+   "publication_year": 1987,
+   "publication_date": "October 1987",
+   "start_page": "34",
+   "end_page": "40",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Local area networks",
+      "Productivity",
+      "Ethernet networks",
+      "Performance analysis",
+      "Analytical models",
+      "Design engineering",
+      "Very large scale integration",
+      "Protocols",
+      "Coprocessors",
+      "Decoding"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "network",
+     "value": 0.29012942659282975
+    },
+    {
+     "keyword": "lan",
+     "value": 0.17407765595569785
+    },
+    {
+     "keyword": "lans",
+     "value": 0.17407765595569785
+    },
+    {
+     "keyword": "area",
+     "value": 0.11605177063713189
+    },
+    {
+     "keyword": "area network",
+     "value": 0.11605177063713189
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093439",
+   "title": "Empiricism in telecommunications regulatory policy",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 89,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Economics and Technology, Inc., Boston, MA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087806162",
+      "id": 37087806162,
+      "full_name": "W. Montgomery",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093439",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093439",
+   "html_url": "https://ieeexplore.ieee.org/document/1093439/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093439/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "53",
+   "end_page": "56",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Communication industry",
+      "Industrial economics",
+      "FCC",
+      "Environmental economics",
+      "Telecommunication computing",
+      "Cost accounting"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093455",
+   "title": "Encrypted satellite-Delivered programming: The marketplace in action",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 90,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Pierson, Ball & Dowd, Washington, DC, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087428002",
+      "id": 37087428002,
+      "full_name": "D. Burch",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093455",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093455",
+   "html_url": "https://ieeexplore.ieee.org/document/1093455/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093455/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "44",
+   "end_page": "46",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Cryptography",
+      "Programming profession",
+      "Cable TV",
+      "Satellite broadcasting",
+      "FCC",
+      "TV broadcasting",
+      "Marketing and sales",
+      "Machine vision"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093507",
+   "title": "Environmental aspects of ISDN",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 91,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Comm. Res., Morristown, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37390496000",
+      "id": 37390496000,
+      "full_name": "R. Snelling",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093507",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093507",
+   "html_url": "https://ieeexplore.ieee.org/document/1093507/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093507/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "14",
+   "end_page": "16",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Computer industry",
+      "Military computing",
+      "Telecommunication computing",
+      "Computer architecture",
+      "B-ISDN",
+      "Optical wavelength conversion",
+      "Business continuity"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093562",
+   "title": "Evolution of subscriber loop systems - The history of ISSLS technical issues",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "1558-1896",
+   "rank": 94,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Communications Research, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088053417",
+      "id": 37088053417,
+      "full_name": "R. Mosher",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "PROMOTIONAL",
+   "content_type": "Magazines",
+   "article_number": "1093562",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093562",
+   "html_url": "https://ieeexplore.ieee.org/document/1093562/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093562/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23876,
+   "publication_year": 1987,
+   "publication_date": "March 1987",
+   "start_page": "7",
+   "end_page": "12",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Subscriber loops",
+      "Power cables",
+      "Switches",
+      "Coaxial cables",
+      "Communication cables",
+      "Strategic planning",
+      "Technology planning",
+      "Telephony"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093656",
+   "title": "FIR digital filters for high sample rate applications",
+   "publisher": "IEEE",
+   "issue": "7",
+   "issn": "1558-1896",
+   "rank": 95,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "American Bell, Holmdel, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37389112500",
+      "id": 37389112500,
+      "full_name": "S. Tewksbury",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37293961400",
+      "id": 37293961400,
+      "full_name": "M. Hatamian",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37268823900",
+      "id": 37268823900,
+      "full_name": "P. Franzon",
+      "author_order": 3
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37282912100",
+      "id": 37282912100,
+      "full_name": "L. Hornak",
+      "author_order": 4
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37089140904",
+      "id": 37089140904,
+      "full_name": "C. Siller",
+      "author_order": 5
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37325905300",
+      "id": 37325905300,
+      "full_name": "V. Lawrence",
+      "author_order": 6
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093656",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093656",
+   "html_url": "https://ieeexplore.ieee.org/document/1093656/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093656/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23880,
+   "publication_year": 1987,
+   "publication_date": "July 1987",
+   "start_page": "62",
+   "end_page": "72",
+   "citing_paper_count": 8,
+   "citing_patent_count": 2,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Finite impulse response filter",
+      "Digital filters",
+      "Digital signal processing",
+      "Very large scale integration",
+      "Bandwidth",
+      "Array signal processing",
+      "Signal processing",
+      "Signal processing algorithms",
+      "Flow graphs",
+      "Systolic arrays"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093675",
+   "title": "High speed infrared local wireless communication",
+   "publisher": "IEEE",
+   "issue": "8",
+   "issn": "1558-1896",
+   "rank": 110,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Laboratories, Inc., Holmdel, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087247785",
+      "id": 37087247785,
+      "full_name": "Ta-Shing Chu",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37332664200",
+      "id": 37332664200,
+      "full_name": "M. Gans",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093675",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093675",
+   "html_url": "https://ieeexplore.ieee.org/document/1093675/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093675/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23881,
+   "publication_year": 1987,
+   "publication_date": "August 1987",
+   "start_page": "4",
+   "end_page": "10",
+   "citing_paper_count": 40,
+   "citing_patent_count": 8,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical fiber communication",
+      "Wireless communication",
+      "Satellite broadcasting",
+      "Interference",
+      "Frequency shift keying",
+      "Mobile communication",
+      "FCC"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093513",
+   "title": "ISDN in university networks",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 111,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "EDUCOM, Princeton, New Jersey",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088188519",
+      "id": 37088188519,
+      "full_name": "M. Roberts",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093513",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093513",
+   "html_url": "https://ieeexplore.ieee.org/document/1093513/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093513/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "36",
+   "end_page": "39",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Consumer electronics",
+      "Communications technology",
+      "Microcomputers",
+      "Industrial training",
+      "Application software"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093516",
+   "title": "ISDN market opportunity",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 112,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Portland ISDN",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087763780",
+      "id": 37087763780,
+      "full_name": "C. Anderson",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093516",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093516",
+   "html_url": "https://ieeexplore.ieee.org/document/1093516/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093516/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "55",
+   "end_page": "59",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Marketing and sales",
+      "Business"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093515",
+   "title": "ISDN performance tradeoffs",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 113,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Telephone Labs., Inc., Whippany, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37376595700",
+      "id": 37376595700,
+      "full_name": "W. Gifford",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093515",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093515",
+   "html_url": "https://ieeexplore.ieee.org/document/1093515/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093515/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "25",
+   "end_page": "29",
+   "citing_paper_count": 1,
+   "citing_patent_count": 2,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Protocols",
+      "Performance analysis",
+      "Optical fibers"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093510",
+   "title": "ISDN: A large user's perspective",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 114,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Corporate Digital Network, Westinghouse Iinformation Network",
+      "full_name": "T. O'Toole",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093510",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093510",
+   "html_url": "https://ieeexplore.ieee.org/document/1093510/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093510/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "40",
+   "end_page": "43",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Marketing and sales",
+      "Legal factors",
+      "Business communication",
+      "Command and control systems"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093506",
+   "title": "ISDN: Is the technology on target?",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 115,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "California Business Roundtable, CA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088189760",
+      "id": 37088189760,
+      "full_name": "D. Guinn",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093506",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093506",
+   "html_url": "https://ieeexplore.ieee.org/document/1093506/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093506/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "10",
+   "end_page": "13",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093511",
+   "title": "ISDN: The learning continues",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 116,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "ISDN, Illinois Bell",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088190586",
+      "id": 37088190586,
+      "full_name": "J. Bendel",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093511",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093511",
+   "html_url": "https://ieeexplore.ieee.org/document/1093511/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093511/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "60",
+   "end_page": "63",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Switches",
+      "Integrated circuit interconnections",
+      "Telecommunication switching",
+      "Circuit testing",
+      "Packet switching",
+      "National electric code",
+      "Microcomputers",
+      "Electronic switching systems",
+      "Communication switching"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093517",
+   "title": "ISDN: The man machine interface",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 117,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Apple, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087461918",
+      "id": 37087461918,
+      "full_name": "B. McNinch",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093517",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093517",
+   "html_url": "https://ieeexplore.ieee.org/document/1093517/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093517/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "50",
+   "end_page": "54",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Man machine systems",
+      "Automobiles",
+      "Traffic control"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093649",
+   "title": "Imaging technologies: The next decade",
+   "publisher": "IEEE",
+   "issue": "7",
+   "issn": "1558-1896",
+   "rank": 118,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "VIATEL, Edison, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087692119",
+      "id": 37087692119,
+      "full_name": "B. Stuck",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093649",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093649",
+   "html_url": "https://ieeexplore.ieee.org/document/1093649/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093649/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23880,
+   "publication_year": 1987,
+   "publication_date": "July 1987",
+   "start_page": "80",
+   "end_page": "86",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical imaging",
+      "Telephony",
+      "Data communication",
+      "High-resolution imaging",
+      "Telecommunication switching",
+      "Information technology",
+      "Ergonomics",
+      "Communication switching"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093592",
+   "title": "Information outlet, ULAN versus ISDN",
+   "publisher": "IEEE",
+   "issue": "4",
+   "issn": "1558-1896",
+   "rank": 120,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "ULAN Corp., East Sandwich, MA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087765867",
+      "id": 37087765867,
+      "full_name": "E. Rocher",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093592",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093592",
+   "html_url": "https://ieeexplore.ieee.org/document/1093592/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093592/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23877,
+   "publication_year": 1987,
+   "publication_date": "April 1987",
+   "start_page": "18",
+   "end_page": "32",
+   "citing_paper_count": 2,
+   "citing_patent_count": 1,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Optical fiber LAN",
+      "Communication industry",
+      "LAN interconnection",
+      "Wideband",
+      "Integrated circuit interconnections",
+      "Standardization",
+      "Switching circuits",
+      "Telephony"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093676",
+   "title": "Integrated network operations architecture and its application to network maintenance",
+   "publisher": "IEEE",
+   "issue": "8",
+   "issn": "1558-1896",
+   "rank": 121,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell-Northern Research, Ottawa, Ont., Canada",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37089132366",
+      "id": 37089132366,
+      "full_name": "W. Cameron",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37974033300",
+      "id": 37974033300,
+      "full_name": "C. LaCerte",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088053811",
+      "id": 37088053811,
+      "full_name": "J. Noyes",
+      "author_order": 3
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093676",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093676",
+   "html_url": "https://ieeexplore.ieee.org/document/1093676/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093676/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23881,
+   "publication_year": 1987,
+   "publication_date": "August 1987",
+   "start_page": "48",
+   "end_page": "53",
+   "citing_paper_count": 4,
+   "citing_patent_count": 3,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telephony",
+      "Telecommunication control",
+      "Operating systems",
+      "Communication switching",
+      "Cost function",
+      "Circuit testing",
+      "Communication system control",
+      "Telecommunication switching",
+      "Electrical fault detection",
+      "Logic testing"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093500",
+   "title": "Integrated office systems: 1995 and beyond",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 122,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "NTT Telecommunication Networks Laboratories, Tokyo, Japan",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37287342900",
+      "id": 37287342900,
+      "full_name": "H. Watanabe",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093500",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093500",
+   "html_url": "https://ieeexplore.ieee.org/document/1093500/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093500/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "74",
+   "end_page": "80",
+   "citing_paper_count": 11,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Multimedia systems",
+      "Multimedia communication",
+      "Intelligent networks",
+      "National electric code",
+      "Information processing",
+      "Telephony"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093591",
+   "title": "Interference protection of cable networks against radio pirates",
+   "publisher": "IEEE",
+   "issue": "4",
+   "issn": "1558-1896",
+   "rank": 123,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Eindhoven Institute of Technology, Eindhoven, Netherlands",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37297750400",
+      "id": 37297750400,
+      "full_name": "P. Scheeren",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37294863800",
+      "id": 37294863800,
+      "full_name": "J. Arnbak",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093591",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093591",
+   "html_url": "https://ieeexplore.ieee.org/document/1093591/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093591/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23877,
+   "publication_year": 1987,
+   "publication_date": "April 1987",
+   "start_page": "7",
+   "end_page": "17",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Interference",
+      "Protection",
+      "Cable TV",
+      "Power cables",
+      "Radio broadcasting",
+      "TV broadcasting",
+      "Multimedia communication",
+      "Legal factors"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093568",
+   "title": "Introduction of fiber-optic access networks based on singlemode-fiber/digital-transmission technology",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "1558-1896",
+   "rank": 125,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Yokosuka Electrical Communication Laboratory, Nippon Telegraph and Telephone Public Corp., Yokosuka-shi, Japan",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37607370500",
+      "id": 37607370500,
+      "full_name": "I. Kobayashi",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37352746700",
+      "id": 37352746700,
+      "full_name": "I. Yamashita",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093568",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093568",
+   "html_url": "https://ieeexplore.ieee.org/document/1093568/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093568/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23876,
+   "publication_year": 1987,
+   "publication_date": "March 1987",
+   "start_page": "44",
+   "end_page": "50",
+   "citing_paper_count": 3,
+   "citing_patent_count": 1,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical fiber communication",
+      "Optical fiber networks",
+      "TV broadcasting",
+      "Broadcast technology",
+      "Cost function",
+      "Design optimization",
+      "Optical design"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093629",
+   "title": "Measurement, characterization and modeling of indoor 800/900 MHz radio channels for digital communications",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "1558-1896",
+   "rank": 130,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Commun. Res. Centre, Ottawa, Ont., Canada",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37295145800",
+      "id": 37295145800,
+      "full_name": "R. Bultitude",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093629",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093629",
+   "html_url": "https://ieeexplore.ieee.org/document/1093629/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093629/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23879,
+   "publication_year": 1987,
+   "publication_date": "June 1987",
+   "start_page": "5",
+   "end_page": "12",
+   "citing_paper_count": 194,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Digital communication",
+      "Indoor radio communication",
+      "Propagation losses",
+      "Band pass filters",
+      "Laboratories",
+      "Performance evaluation"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093493",
+   "title": "Multi-service terminals-human factors studies with an experimental system",
+   "publisher": "IEEE",
+   "issue": "11",
+   "issn": "1558-1896",
+   "rank": 141,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Heinrich-Hertz-Institute, Berlin",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087846193",
+      "id": 37087846193,
+      "full_name": "A. Prussog",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087847061",
+      "id": 37087847061,
+      "full_name": "W. Blohm",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087846890",
+      "id": 37087846890,
+      "full_name": "G. Romahn",
+      "author_order": 3
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093493",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093493",
+   "html_url": "https://ieeexplore.ieee.org/document/1093493/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093493/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23873,
+   "publication_year": 1987,
+   "publication_date": "November 1987",
+   "start_page": "37",
+   "end_page": "43",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telephony",
+      "Information retrieval",
+      "Videotex",
+      "TV broadcasting",
+      "Cameras",
+      "Control systems",
+      "Databases",
+      "Graphics"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093631",
+   "title": "Multipath time delay spread in the digital portable radio environment",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "1558-1896",
+   "rank": 142,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Communications Research Inc., Red Bank, NJ",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37352238000",
+      "id": 37352238000,
+      "full_name": "D. Devasirvatham",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093631",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093631",
+   "html_url": "https://ieeexplore.ieee.org/document/1093631/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093631/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23879,
+   "publication_year": 1987,
+   "publication_date": "June 1987",
+   "start_page": "13",
+   "end_page": "21",
+   "citing_paper_count": 63,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Delay effects",
+      "Telephony",
+      "Base stations",
+      "Receivers",
+      "Radio propagation",
+      "Mobile communication",
+      "Radio transmitters",
+      "Frequency",
+      "Reflection"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093632",
+   "title": "Multiple access communications networks",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "1558-1896",
+   "rank": 143,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Univ. of Southern California, Los Angeles, CA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37279302700",
+      "id": 37279302700,
+      "full_name": "V. Li",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093632",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093632",
+   "html_url": "https://ieeexplore.ieee.org/document/1093632/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093632/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23879,
+   "publication_year": 1987,
+   "publication_date": "June 1987",
+   "start_page": "41",
+   "end_page": "48",
+   "citing_paper_count": 15,
+   "citing_patent_count": 10,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Communication networks",
+      "Access protocols",
+      "Throughput",
+      "Communication channels",
+      "Satellite broadcasting",
+      "Local area networks",
+      "Packet radio networks",
+      "Feedback"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093648",
+   "title": "Multiple access protocols for data communications via VSAT networks",
+   "publisher": "IEEE",
+   "issue": "7",
+   "issn": "1558-1896",
+   "rank": 144,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "COMSAT Labs. Clarksburg, MD, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37974132500",
+      "id": 37974132500,
+      "full_name": "C. Wolejsza",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087690512",
+      "id": 37087690512,
+      "full_name": "D. Taylor",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087691268",
+      "id": 37087691268,
+      "full_name": "M. Grossman",
+      "author_order": 3
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087692196",
+      "id": 37087692196,
+      "full_name": "W. Osborne",
+      "author_order": 4
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093648",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093648",
+   "html_url": "https://ieeexplore.ieee.org/document/1093648/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093648/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23880,
+   "publication_year": 1987,
+   "publication_date": "July 1987",
+   "start_page": "30",
+   "end_page": "39",
+   "citing_paper_count": 13,
+   "citing_patent_count": 3,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Access protocols",
+      "Data communication",
+      "Artificial satellites",
+      "Bandwidth",
+      "Telecommunication traffic",
+      "Satellite antennas",
+      "Communication system control",
+      "Integrated circuit technology",
+      "Forward error correction"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093549",
+   "title": "Network evolution strategies: Network and equipment provider's perspectives",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "1558-1896",
+   "rank": 146,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Network Design and Technology, BNR, Ottawa, Canada",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37973939700",
+      "id": 37973939700,
+      "full_name": "I. Ebert",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093549",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093549",
+   "html_url": "https://ieeexplore.ieee.org/document/1093549/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093549/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23876,
+   "publication_year": 1987,
+   "publication_date": "March 1987",
+   "start_page": "14",
+   "end_page": "18",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical fiber devices",
+      "Optical fiber LAN",
+      "Optical signal processing",
+      "Optical fiber communication",
+      "Large-scale systems",
+      "Strategic planning",
+      "ISDN",
+      "B-ISDN",
+      "Telecommunication traffic"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093673",
+   "title": "Network management systems for data communications",
+   "publisher": "IEEE",
+   "issue": "8",
+   "issn": "1558-1896",
+   "rank": 147,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Labs., Holmdel, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37977620200",
+      "id": 37977620200,
+      "full_name": "A. Salazar",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088057230",
+      "id": 37088057230,
+      "full_name": "P. Scarfo",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088057331",
+      "id": 37088057331,
+      "full_name": "R. Horn",
+      "author_order": 3
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093673",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093673",
+   "html_url": "https://ieeexplore.ieee.org/document/1093673/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093673/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23881,
+   "publication_year": 1987,
+   "publication_date": "August 1987",
+   "start_page": "21",
+   "end_page": "27",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Data communication",
+      "Monitoring",
+      "Resource management",
+      "Computer network management",
+      "Databases",
+      "Automatic control",
+      "Communication system control",
+      "Time measurement",
+      "Communication system operations and management"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093646",
+   "title": "Network operations and management in a multi-vendor environment",
+   "publisher": "IEEE",
+   "issue": "7",
+   "issn": "1558-1896",
+   "rank": 148,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Communications Research, Inc.",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087692973",
+      "id": 37087692973,
+      "full_name": "R. Boyd",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087688861",
+      "id": 37087688861,
+      "full_name": "A. Johnston",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093646",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093646",
+   "html_url": "https://ieeexplore.ieee.org/document/1093646/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093646/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23880,
+   "publication_year": 1987,
+   "publication_date": "July 1987",
+   "start_page": "40",
+   "end_page": "47",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Environmental management",
+      "Telephony",
+      "Communication system operations and management",
+      "Engineering management",
+      "Automatic control",
+      "Telecommunication control",
+      "Protocols",
+      "Maintenance engineering",
+      "Communications Society"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093561",
+   "title": "Network operations and performance",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "1558-1896",
+   "rank": 149,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "CCITT, CEPT, Sweden",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088055425",
+      "id": 37088055425,
+      "full_name": "L. Ackzell",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37089100007",
+      "id": 37089100007,
+      "full_name": "H. Mori",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088056406",
+      "id": 37088056406,
+      "full_name": "S. Koike",
+      "author_order": 3
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093561",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093561",
+   "html_url": "https://ieeexplore.ieee.org/document/1093561/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093561/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23876,
+   "publication_year": 1987,
+   "publication_date": "March 1987",
+   "start_page": "28",
+   "end_page": "33",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Computer architecture",
+      "Automation",
+      "Data engineering",
+      "Computer network management",
+      "Computer networks",
+      "Telecommunication network reliability"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093457",
+   "title": "New markets, diversification, and regulations for the telephone industry",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 151,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Committee on Commerce, Science, and Transportation, US Senate, Washington, DC, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087846543",
+      "id": 37087846543,
+      "full_name": "J. Danforth",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093457",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093457",
+   "html_url": "https://ieeexplore.ieee.org/document/1093457/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093457/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "10",
+   "end_page": "10",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telephony",
+      "FCC",
+      "Auditory system",
+      "Telecommunication services",
+      "Manufacturing",
+      "Communication industry"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093438",
+   "title": "New policies for a new age",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 152,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "CEO, AT&T, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087219115",
+      "id": 37087219115,
+      "full_name": "J. Olson",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093438",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093438",
+   "html_url": "https://ieeexplore.ieee.org/document/1093438/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093438/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "30",
+   "end_page": "32",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Communication industry",
+      "Telecommunications",
+      "Costs",
+      "Telephony",
+      "Monopoly"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093688",
+   "title": "Operations systems support for future telephone company networks",
+   "publisher": "IEEE",
+   "issue": "9",
+   "issn": "1558-1896",
+   "rank": 162,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Communication Research",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087822912",
+      "id": 37087822912,
+      "full_name": "L. Smith",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093688",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093688",
+   "html_url": "https://ieeexplore.ieee.org/document/1093688/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093688/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23882,
+   "publication_year": 1987,
+   "publication_date": "September 1987",
+   "start_page": "44",
+   "end_page": "48",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telephony",
+      "Customer service",
+      "ISDN",
+      "Intelligent networks",
+      "Integrated circuit technology",
+      "Data analysis",
+      "Failure analysis",
+      "Process planning",
+      "Technology planning"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093589",
+   "title": "Optical fiber - The expanding medium",
+   "publisher": "IEEE",
+   "issue": "4",
+   "issn": "1558-1896",
+   "rank": 163,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "AT&T Bell Laboratories, Murray Hill, NJ",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37980009900",
+      "id": 37980009900,
+      "full_name": "S. Nagel",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093589",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093589",
+   "html_url": "https://ieeexplore.ieee.org/document/1093589/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093589/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23877,
+   "publication_year": 1987,
+   "publication_date": "April 1987",
+   "start_page": "33",
+   "end_page": "43",
+   "citing_paper_count": 10,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical fibers",
+      "Optical fiber communication",
+      "Silicon compounds",
+      "Repeaters",
+      "Optical fiber cables",
+      "Optical device fabrication",
+      "Optical attenuators",
+      "Optical distortion",
+      "Optical materials"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093613",
+   "title": "Optical switching device technologies",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 164,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "NEC Corp., Kawasaki, Japan",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37987228200",
+      "id": 37987228200,
+      "full_name": "M. Sakaguchi",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37376656200",
+      "id": 37376656200,
+      "full_name": "K. Kaede",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093613",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093613",
+   "html_url": "https://ieeexplore.ieee.org/document/1093613/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093613/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23878,
+   "publication_year": 1987,
+   "publication_date": "May 1987",
+   "start_page": "27",
+   "end_page": "32",
+   "citing_paper_count": 7,
+   "citing_patent_count": 3,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical devices",
+      "Optical switches",
+      "High speed optical techniques",
+      "Optical crosstalk",
+      "Optical filters",
+      "Optical fiber networks",
+      "Communication switching",
+      "Transmission line matrix methods",
+      "Stimulated emission",
+      "Optical refraction"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093614",
+   "title": "Optoelectronic switching",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 165,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Univ. of Alberta, Alta, Canada",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37269304600",
+      "id": 37269304600,
+      "full_name": "R. MacDonald",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093614",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093614",
+   "html_url": "https://ieeexplore.ieee.org/document/1093614/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093614/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23878,
+   "publication_year": 1987,
+   "publication_date": "May 1987",
+   "start_page": "33",
+   "end_page": "36",
+   "citing_paper_count": 6,
+   "citing_patent_count": 1,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical sensors",
+      "Optical switches",
+      "Communication switching",
+      "Optical receivers",
+      "Optical crosstalk",
+      "Optical network units",
+      "Wideband",
+      "Signal processing",
+      "Matrix converters",
+      "Optical computing"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093546",
+   "title": "Outage calculation methods for microwave digital radio",
+   "publisher": "IEEE",
+   "issue": "2",
+   "issn": "1558-1896",
+   "rank": 166,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "AT&T Bell Labs., Red Bank, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37269553100",
+      "id": 37269553100,
+      "full_name": "L. Greenstein",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37266584000",
+      "id": 37266584000,
+      "full_name": "M. Shafi",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093546",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093546",
+   "html_url": "https://ieeexplore.ieee.org/document/1093546/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093546/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23875,
+   "publication_year": 1987,
+   "publication_date": "February 1987",
+   "start_page": "30",
+   "end_page": "39",
+   "citing_paper_count": 22,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Microwave theory and techniques",
+      "Digital communication",
+      "Receivers",
+      "Equipment failure",
+      "Degradation",
+      "Particle measurements",
+      "Digital modulation"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093610",
+   "title": "Overview of optical switching technologies in Japan",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 167,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "NTT, Tokyo, Japan",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087380796",
+      "id": 37087380796,
+      "full_name": "T. Yasui",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087767518",
+      "id": 37087767518,
+      "full_name": "H. Goto",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093610",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093610",
+   "html_url": "https://ieeexplore.ieee.org/document/1093610/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093610/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23878,
+   "publication_year": 1987,
+   "publication_date": "May 1987",
+   "start_page": "10",
+   "end_page": "15",
+   "citing_paper_count": 11,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical switches",
+      "High speed optical techniques",
+      "Switching systems",
+      "Optical devices",
+      "Optical fiber networks",
+      "Communication switching",
+      "Isolation technology",
+      "Multiplexing",
+      "Optical fibers",
+      "Space technology"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093609",
+   "title": "Photonic switch with optically self-routed bit switching",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 168,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Columbia Radiation Laboratory, Columbia Univ., New York, NY, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37271006600",
+      "id": 37271006600,
+      "full_name": "P. Prucnal",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37272595600",
+      "id": 37272595600,
+      "full_name": "D. Blumenthal",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37295976300",
+      "id": 37295976300,
+      "full_name": "P. Perrier",
+      "author_order": 3
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093609",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093609",
+   "html_url": "https://ieeexplore.ieee.org/document/1093609/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093609/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23878,
+   "publication_year": 1987,
+   "publication_date": "May 1987",
+   "start_page": "50",
+   "end_page": "55",
+   "citing_paper_count": 31,
+   "citing_patent_count": 2,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical switches",
+      "Optical packet switching",
+      "Optical control",
+      "Optical modulation",
+      "Routing",
+      "Communication switching",
+      "Telecommunication switching",
+      "Packet switching",
+      "Integrated optics",
+      "Pipeline processing"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093594",
+   "title": "Photonic switching using directional couplers",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 169,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "AT&T Bell Lab., Naperville, IL, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37351272800",
+      "id": 37351272800,
+      "full_name": "H. Hinton",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093594",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093594",
+   "html_url": "https://ieeexplore.ieee.org/document/1093594/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093594/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23878,
+   "publication_year": 1987,
+   "publication_date": "May 1987",
+   "start_page": "16",
+   "end_page": "26",
+   "citing_paper_count": 47,
+   "citing_patent_count": 4,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Directional couplers",
+      "Optical waveguides",
+      "Fabrics",
+      "Optical switches",
+      "Optical refraction",
+      "Communication switching",
+      "Optical materials",
+      "Multiprocessor interconnection networks",
+      "Switching systems",
+      "Optical fiber cables"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093612",
+   "title": "Photonic switching: Technology and applications",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "1558-1896",
+   "rank": 170,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Communications Res., Inc., Red Bank, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37323512300",
+      "id": 37323512300,
+      "full_name": "S. Personick",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093612",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093612",
+   "html_url": "https://ieeexplore.ieee.org/document/1093612/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093612/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23878,
+   "publication_year": 1987,
+   "publication_date": "May 1987",
+   "start_page": "5",
+   "end_page": "8",
+   "citing_paper_count": 21,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Photonics",
+      "Optical switches",
+      "Optical devices",
+      "Optical crosstalk",
+      "Optical fiber cables",
+      "Optical fibers",
+      "Optical refraction",
+      "Optical surface waves",
+      "Optical modulation",
+      "Optical variables control"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093436",
+   "title": "Post-divestiture telecommunications policy making",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 171,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Fisher, Wayland, Cooper and Leader, Washington, DC, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087945056",
+      "id": 37087945056,
+      "full_name": "B. Moir",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093436",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093436",
+   "html_url": "https://ieeexplore.ieee.org/document/1093436/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093436/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "47",
+   "end_page": "48",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Proposals",
+      "FCC",
+      "Communication industry",
+      "Government",
+      "Telephony"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093470",
+   "title": "Premises radio systems in Japan",
+   "publisher": "IEEE",
+   "issue": "10",
+   "issn": "1558-1896",
+   "rank": 172,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Ministry of Posts and Telecommunications, Japan",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087876713",
+      "id": 37087876713,
+      "full_name": "H. Nogami",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087876841",
+      "id": 37087876841,
+      "full_name": "M. Wakao",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093470",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093470",
+   "html_url": "https://ieeexplore.ieee.org/document/1093470/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093470/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23872,
+   "publication_year": 1987,
+   "publication_date": "October 1987",
+   "start_page": "49",
+   "end_page": "55",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Frequency shift keying",
+      "Remote monitoring",
+      "Control systems",
+      "Robotics and automation",
+      "Data communication",
+      "Radio transmitters",
+      "Office automation",
+      "Radio communication",
+      "Condition monitoring",
+      "Communication system control"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093651",
+   "title": "Progress and trends of communications quality management",
+   "publisher": "IEEE",
+   "issue": "7",
+   "issn": "1558-1896",
+   "rank": 184,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Storage Tech. Corp, Lewisville, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37372455100",
+      "id": 37372455100,
+      "full_name": "H. Malec",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093651",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093651",
+   "html_url": "https://ieeexplore.ieee.org/document/1093651/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093651/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23880,
+   "publication_year": 1987,
+   "publication_date": "July 1987",
+   "start_page": "87",
+   "end_page": "89",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Quality management",
+      "Productivity",
+      "Software performance",
+      "Software quality",
+      "Integrated circuit modeling",
+      "Quality assurance"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093483",
+   "title": "RS-232 simplified: Everything you need to know about connecting, interfacing, &amp; troubleshooting peripheral devices",
+   "publisher": "IEEE",
+   "issue": "11",
+   "issn": "1558-1896",
+   "rank": 185,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "IEEE Comm.",
+      "full_name": "B. Di-Stefano",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093483",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093483",
+   "html_url": "https://ieeexplore.ieee.org/document/1093483/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093483/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23873,
+   "publication_year": 1987,
+   "publication_date": "November 1987",
+   "start_page": "54",
+   "end_page": "54",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telecommunication network management"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093641",
+   "title": "Regulatory policy considerations for radio local area networks",
+   "publisher": "IEEE",
+   "issue": "7",
+   "issn": "1558-1896",
+   "rank": 186,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Federal Communications Commission, Washington, DC",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37356205100",
+      "id": 37356205100,
+      "full_name": "M. Marcus",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093641",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093641",
+   "html_url": "https://ieeexplore.ieee.org/document/1093641/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093641/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23880,
+   "publication_year": 1987,
+   "publication_date": "July 1987",
+   "start_page": "95",
+   "end_page": "99",
+   "citing_paper_count": 26,
+   "citing_patent_count": 2,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Local area networks",
+      "FCC",
+      "Spread spectrum communication",
+      "Multiaccess communication",
+      "Radio transmitters",
+      "Intersymbol interference",
+      "Communication system control",
+      "Time division multiple access"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093429",
+   "title": "Satellite communications - International considerations",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 187,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Hughes Communications Co., USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087942761",
+      "id": 37087942761,
+      "full_name": "J. Koehler",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093429",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093429",
+   "html_url": "https://ieeexplore.ieee.org/document/1093429/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093429/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "33",
+   "end_page": "35",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Artificial satellites",
+      "Satellite communication",
+      "Satelllite ground stations"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093435",
+   "title": "Separate systems and international communications",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 199,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Dow, Lohnes & Albertson, Washington, DC, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087948665",
+      "id": 37087948665,
+      "full_name": "H. Rivera",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093435",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093435",
+   "html_url": "https://ieeexplore.ieee.org/document/1093435/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093435/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "39",
+   "end_page": "43",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telephony",
+      "Government",
+      "Satellite ground stations",
+      "Telegraphy",
+      "Cables",
+      "Communication industry",
+      "FCC",
+      "Layout"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093464",
+   "title": "Service provisioning operations for public packet switched network (PPSN) access",
+   "publisher": "IEEE",
+   "issue": "10",
+   "issn": "1558-1896",
+   "rank": 200,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Communications Research, Inc., Morristown, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087878184",
+      "id": 37087878184,
+      "full_name": "R. Rathore",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37974078800",
+      "id": 37974078800,
+      "full_name": "E. Pinnes",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093464",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093464",
+   "html_url": "https://ieeexplore.ieee.org/document/1093464/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093464/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23872,
+   "publication_year": 1987,
+   "publication_date": "October 1987",
+   "start_page": "22",
+   "end_page": "27",
+   "citing_paper_count": 7,
+   "citing_patent_count": 4,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Packet switching",
+      "Switches",
+      "Telephony",
+      "Switching circuits",
+      "Communication switching",
+      "Access protocols",
+      "Telecommunication traffic",
+      "Process design",
+      "Resource management",
+      "Telecommunication switching"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093565",
+   "title": "Services and customers equipment",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "1558-1896",
+   "rank": 201,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "British Telecom Research Centre, Martlesham Heath, Suffolk, England",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087848833",
+      "id": 37087848833,
+      "full_name": "J. Griffiths",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/38223611700",
+      "id": 38223611700,
+      "full_name": "S. Kano",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093565",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093565",
+   "html_url": "https://ieeexplore.ieee.org/document/1093565/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093565/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23876,
+   "publication_year": 1987,
+   "publication_date": "March 1987",
+   "start_page": "20",
+   "end_page": "23",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Videotex",
+      "Telephony",
+      "Technology management",
+      "Paper technology",
+      "Optical fibers",
+      "Technological innovation",
+      "Joining processes",
+      "Qualifications"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093508",
+   "title": "Services and tariffs with ISDN",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 202,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Newfoundland Telephone Company",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088189511",
+      "id": 37088189511,
+      "full_name": "R. Montgomery",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093508",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093508",
+   "html_url": "https://ieeexplore.ieee.org/document/1093508/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093508/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "17",
+   "end_page": "20",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Telecommunication switching",
+      "Switches",
+      "Switching circuits",
+      "Packet switching",
+      "Intelligent networks",
+      "Databases",
+      "Communication standards",
+      "Optical fiber cables",
+      "Digital communication"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093630",
+   "title": "Spread spectrum for indoor digital radio",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "1558-1896",
+   "rank": 214,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Univ. of Ottawa, Ont., Canada",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37268175500",
+      "id": 37268175500,
+      "full_name": "M. Kavehrad",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37275339600",
+      "id": 37275339600,
+      "full_name": "P. McLane",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093630",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093630",
+   "html_url": "https://ieeexplore.ieee.org/document/1093630/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093630/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23879,
+   "publication_year": 1987,
+   "publication_date": "June 1987",
+   "start_page": "32",
+   "end_page": "40",
+   "citing_paper_count": 40,
+   "citing_patent_count": 71,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Spread spectrum communication",
+      "Digital communication",
+      "Base stations",
+      "Production facilities",
+      "Local area networks",
+      "Correlators",
+      "FCC",
+      "Power control"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093640",
+   "title": "Standards for communications",
+   "publisher": "IEEE",
+   "issue": "7",
+   "issn": "1558-1896",
+   "rank": 215,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Consultant, USA",
+      "full_name": "W. Wilkens",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093640",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093640",
+   "html_url": "https://ieeexplore.ieee.org/document/1093640/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093640/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23880,
+   "publication_year": 1987,
+   "publication_date": "July 1987",
+   "start_page": "90",
+   "end_page": "94",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Communication standards",
+      "Standards organizations",
+      "Standards development",
+      "ANSI standards",
+      "Telecommunication standards",
+      "Standards Board",
+      "Standards publication"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093471",
+   "title": "Status and future trends in terrestrial optical fiber systems in Europe",
+   "publisher": "IEEE",
+   "issue": "10",
+   "issn": "1558-1896",
+   "rank": 216,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "University College, London, UK",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37332217000",
+      "id": 37332217000,
+      "full_name": "J. Midwinter",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093471",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093471",
+   "html_url": "https://ieeexplore.ieee.org/document/1093471/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093471/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23872,
+   "publication_year": 1987,
+   "publication_date": "October 1987",
+   "start_page": "14",
+   "end_page": "17",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical fibers",
+      "Wideband",
+      "Optical fiber cables",
+      "Optical fiber networks",
+      "Coaxial cables",
+      "Educational institutions",
+      "Telecommunication services",
+      "ISDN"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093468",
+   "title": "Status and future trends in terrestrial optical fiber systems in Japan",
+   "publisher": "IEEE",
+   "issue": "10",
+   "issn": "1558-1896",
+   "rank": 217,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "NTT Public Corp.,Yokosuka-Shi, Japan",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37379484400",
+      "id": 37379484400,
+      "full_name": "S. Shimada",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093468",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093468",
+   "html_url": "https://ieeexplore.ieee.org/document/1093468/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093468/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23872,
+   "publication_year": 1987,
+   "publication_date": "October 1987",
+   "start_page": "18",
+   "end_page": "21",
+   "citing_paper_count": 3,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical fibers",
+      "Repeaters",
+      "Optical fiber dispersion",
+      "Optical fiber devices",
+      "Optical fiber networks",
+      "Optical devices",
+      "Optical attenuators",
+      "Optical distortion",
+      "Bit rate"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093466",
+   "title": "Status and future trends in terrestrial optical fiber systems in North America, Europe, and Japan",
+   "publisher": "IEEE",
+   "issue": "10",
+   "issn": "1558-1896",
+   "rank": 218,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Labs., Holmdel, NJ",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37089119740",
+      "id": 37089119740,
+      "full_name": "P. Kaiser",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37332217000",
+      "id": 37332217000,
+      "full_name": "J. Midwinter",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37379484400",
+      "id": 37379484400,
+      "full_name": "S. Shimada",
+      "author_order": 3
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093466",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093466",
+   "html_url": "https://ieeexplore.ieee.org/document/1093466/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093466/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23872,
+   "publication_year": 1987,
+   "publication_date": "October 1987",
+   "start_page": "8",
+   "end_page": "13",
+   "citing_paper_count": 28,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical fibers",
+      "North America",
+      "Europe",
+      "Optical fiber communication",
+      "Repeaters",
+      "Optical fiber cables",
+      "Fiber lasers",
+      "Telephony"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093674",
+   "title": "Strategic technology planning in a divested bell operating company",
+   "publisher": "IEEE",
+   "issue": "8",
+   "issn": "1558-1896",
+   "rank": 219,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Center for Telecommunications, Stanford Univ., Palo Alto, CA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088057063",
+      "id": 37088057063,
+      "full_name": "D. Harris",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093674",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093674",
+   "html_url": "https://ieeexplore.ieee.org/document/1093674/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093674/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23881,
+   "publication_year": 1987,
+   "publication_date": "August 1987",
+   "start_page": "28",
+   "end_page": "34",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Technology planning",
+      "Strategic planning",
+      "Companies",
+      "Process planning",
+      "Meeting planning",
+      "Public policy",
+      "Uncertainty",
+      "Communication industry",
+      "Telecommunication switching"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093657",
+   "title": "System applications for wireless indoor communications",
+   "publisher": "IEEE",
+   "issue": "8",
+   "issn": "1558-1896",
+   "rank": 220,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Dept. of Electr. Eng., Columbia Univ., New York, NY, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37276609600",
+      "id": 37276609600,
+      "full_name": "A. Acampora",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37337521500",
+      "id": 37337521500,
+      "full_name": "J. Winters",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093657",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093657",
+   "html_url": "https://ieeexplore.ieee.org/document/1093657/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093657/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23881,
+   "publication_year": 1987,
+   "publication_date": "August 1987",
+   "start_page": "11",
+   "end_page": "20",
+   "citing_paper_count": 21,
+   "citing_patent_count": 65,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Wireless communication",
+      "Indoor communication",
+      "Rayleigh channels",
+      "Diversity reception",
+      "Frequency",
+      "Narrowband",
+      "Fading",
+      "Delay",
+      "Indoor radio communication",
+      "Radio communication"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093448",
+   "title": "Technical deregulation: A trend in US telecommunications policy",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 221,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Federal Communications Commission, Washington, DC",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37356205100",
+      "id": 37356205100,
+      "full_name": "M. Marcus",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093448",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093448",
+   "html_url": "https://ieeexplore.ieee.org/document/1093448/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093448/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "66",
+   "end_page": "68",
+   "citing_paper_count": 3,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "FCC",
+      "TV",
+      "Technological innovation",
+      "Satellite broadcasting",
+      "Bandwidth",
+      "Telecommunication computing",
+      "Land mobile radio",
+      "Spread spectrum communication"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093472",
+   "title": "Telecommunications and the developing world",
+   "publisher": "IEEE",
+   "issue": "10",
+   "issn": "1558-1896",
+   "rank": 222,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "University of San Francisco, San Francisco, CA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087539962",
+      "id": 37087539962,
+      "full_name": "H. Hudson",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093472",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093472",
+   "html_url": "https://ieeexplore.ieee.org/document/1093472/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093472/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23872,
+   "publication_year": 1987,
+   "publication_date": "October 1987",
+   "start_page": "28",
+   "end_page": "33",
+   "citing_paper_count": 10,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Communication industry",
+      "Telecommunications",
+      "Productivity",
+      "Economic indicators",
+      "Density measurement",
+      "Communications technology",
+      "Satellites"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093653",
+   "title": "Telematic services and terminals: Are we ready?",
+   "publisher": "IEEE",
+   "issue": "7",
+   "issn": "1558-1896",
+   "rank": 223,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Lab., Holmdel, NJ",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37062334200",
+      "id": 37062334200,
+      "full_name": "C. Judice",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37977418900",
+      "id": 37977418900,
+      "full_name": "D. LeGall",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093653",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093653",
+   "html_url": "https://ieeexplore.ieee.org/document/1093653/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093653/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23880,
+   "publication_year": 1987,
+   "publication_date": "July 1987",
+   "start_page": "19",
+   "end_page": "29",
+   "citing_paper_count": 12,
+   "citing_patent_count": 3,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telematics",
+      "Videotex",
+      "Speech processing",
+      "Image processing",
+      "Telephony",
+      "Protocols",
+      "Costs",
+      "Narrowband",
+      "Wideband"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093566",
+   "title": "Terminals for the ISDN era: From speech to image",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "1558-1896",
+   "rank": 224,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Consultant, Direction Generale des Telecommunications, France",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088054348",
+      "id": 37088054348,
+      "full_name": "F. Du Castel",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088056896",
+      "id": 37088056896,
+      "full_name": "G. Pays",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088055820",
+      "id": 37088055820,
+      "full_name": "G. Brillet",
+      "author_order": 3
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093566",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093566",
+   "html_url": "https://ieeexplore.ieee.org/document/1093566/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093566/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23876,
+   "publication_year": 1987,
+   "publication_date": "March 1987",
+   "start_page": "39",
+   "end_page": "43",
+   "citing_paper_count": 0,
+   "citing_patent_count": 1,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Investments",
+      "Telephony",
+      "Telecommunication services",
+      "Data processing",
+      "Communication industry"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093512",
+   "title": "The RENAN project: Opening up ISDN in France",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 225,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37974061100",
+      "id": 37974061100,
+      "full_name": "M. Trouvat",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093512",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093512",
+   "html_url": "https://ieeexplore.ieee.org/document/1093512/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093512/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "64",
+   "end_page": "69",
+   "citing_paper_count": 0,
+   "citing_patent_count": 4,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Telephony",
+      "Network servers",
+      "Appropriate technology",
+      "Videotex",
+      "Intelligent networks",
+      "Data communication"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093434",
+   "title": "The age of intellectual property",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 226,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "David Newman & Associates, P.C., La Plata, MD, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37377922700",
+      "id": 37377922700,
+      "full_name": "D. Newman",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093434",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093434",
+   "html_url": "https://ieeexplore.ieee.org/document/1093434/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093434/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "36",
+   "end_page": "38",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Intellectual property",
+      "Business communication",
+      "Communication industry",
+      "Consumer electronics",
+      "Industrial electronics",
+      "Telecommunication computing",
+      "Computer industry"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093590",
+   "title": "The application of error control to communications",
+   "publisher": "IEEE",
+   "issue": "4",
+   "issn": "1558-1896",
+   "rank": 227,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Cyclotomics, Inc., Berkeley, CA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37323353500",
+      "id": 37323353500,
+      "full_name": "E. Berlekamp",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37353198900",
+      "id": 37353198900,
+      "full_name": "R. Peile",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37089044870",
+      "id": 37089044870,
+      "full_name": "S. Pope",
+      "author_order": 3
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093590",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093590",
+   "html_url": "https://ieeexplore.ieee.org/document/1093590/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093590/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23877,
+   "publication_year": 1987,
+   "publication_date": "April 1987",
+   "start_page": "44",
+   "end_page": "57",
+   "citing_paper_count": 106,
+   "citing_patent_count": 6,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Error correction",
+      "Codes",
+      "Degradation",
+      "Communication system control",
+      "Redundancy",
+      "Satellite broadcasting",
+      "Modulation coding"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093452",
+   "title": "The broadband universal telecommunications network",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 228,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Collier, Shannon, Rill & Scott, Washington, DC, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087428333",
+      "id": 37087428333,
+      "full_name": "D. Harrold",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087428588",
+      "id": 37087428588,
+      "full_name": "R. Strock",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093452",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093452",
+   "html_url": "https://ieeexplore.ieee.org/document/1093452/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093452/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "69",
+   "end_page": "79",
+   "citing_paper_count": 3,
+   "citing_patent_count": 3,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical fibers",
+      "Optical fiber cables",
+      "Cable TV",
+      "Frequency",
+      "Telephony",
+      "Communication cables",
+      "Electromagnetic radiation",
+      "Metals industry",
+      "Microwave communication"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093654",
+   "title": "The economics of custom telecommunications VLSI",
+   "publisher": "IEEE",
+   "issue": "7",
+   "issn": "1558-1896",
+   "rank": 229,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Hitech Associates",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087691510",
+      "id": 37087691510,
+      "full_name": "R. Privett",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093654",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093654",
+   "html_url": "https://ieeexplore.ieee.org/document/1093654/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093654/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23880,
+   "publication_year": 1987,
+   "publication_date": "July 1987",
+   "start_page": "55",
+   "end_page": "61",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Very large scale integration",
+      "Costs",
+      "Power generation economics",
+      "Economic forecasting",
+      "MOS devices",
+      "Telecommunication standards",
+      "Project management",
+      "Optical fibers",
+      "Protocols"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093647",
+   "title": "The evolution of telecommunications technology",
+   "publisher": "IEEE",
+   "issue": "7",
+   "issn": "1558-1896",
+   "rank": 230,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell-Northern Research, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37345764700",
+      "id": 37345764700,
+      "full_name": "R. Vickers",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37428679100",
+      "id": 37428679100,
+      "full_name": "T. Vilmansen",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093647",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093647",
+   "html_url": "https://ieeexplore.ieee.org/document/1093647/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093647/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23880,
+   "publication_year": 1987,
+   "publication_date": "July 1987",
+   "start_page": "6",
+   "end_page": "18",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Operating systems",
+      "Software architecture",
+      "Computer architecture",
+      "Hardware",
+      "Telephony",
+      "Application software",
+      "Telecommunications"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093492",
+   "title": "The evolution of video technologies",
+   "publisher": "IEEE",
+   "issue": "11",
+   "issn": "1558-1896",
+   "rank": 231,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Communications Research, Morristown, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37973963900",
+      "id": 37973963900,
+      "full_name": "H. Gaggioni",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093492",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093492",
+   "html_url": "https://ieeexplore.ieee.org/document/1093492/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093492/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23873,
+   "publication_year": 1987,
+   "publication_date": "November 1987",
+   "start_page": "20",
+   "end_page": "36",
+   "citing_paper_count": 10,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "HDTV",
+      "TV receivers",
+      "Bandwidth",
+      "High definition video",
+      "Proposals",
+      "Signal processing",
+      "Signal resolution",
+      "Digital signal processing",
+      "Satellite broadcasting"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093564",
+   "title": "The impact of new technologies on subscriber loop networks",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "1558-1896",
+   "rank": 232,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Lab., Whippany, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/38263466400",
+      "id": 38263466400,
+      "full_name": "R. Wyndrum",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37089048889",
+      "id": 37089048889,
+      "full_name": "Y. Mochida",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093564",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093564",
+   "html_url": "https://ieeexplore.ieee.org/document/1093564/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093564/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23876,
+   "publication_year": 1987,
+   "publication_date": "March 1987",
+   "start_page": "24",
+   "end_page": "27",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Subscriber loops",
+      "ISDN",
+      "Optical fibers",
+      "B-ISDN",
+      "Costs",
+      "Optical fiber cables",
+      "Phase change materials",
+      "Multimedia communication"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093504",
+   "title": "The intelligent home of 2010",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 233,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Communications Research Inc., and NYNEX",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088190004",
+      "id": 37088190004,
+      "full_name": "C. Skrzypczak",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093504",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093504",
+   "html_url": "https://ieeexplore.ieee.org/document/1093504/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093504/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "81",
+   "end_page": "84",
+   "citing_paper_count": 11,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Consumer electronics",
+      "Informatics",
+      "Ergonomics",
+      "Intelligen buildings",
+      "Control systems",
+      "Solid state circuits",
+      "Smart homes",
+      "Home appliances"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093509",
+   "title": "The moving target - Marketing ISDN to businesses",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 234,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Rochester Tel Business Marketing Corp., Rochester Telephone Company",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088190617",
+      "id": 37088190617,
+      "full_name": "R. Cooper",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093509",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093509",
+   "html_url": "https://ieeexplore.ieee.org/document/1093509/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093509/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "21",
+   "end_page": "24",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "ISDN",
+      "Optical fiber networks",
+      "Communication industry",
+      "Standards development",
+      "Central office",
+      "Packet switching",
+      "Optical packet switching"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093428",
+   "title": "The new future - Back to technology",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 235,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bellcore, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37573385900",
+      "id": 37573385900,
+      "full_name": "I. Dorros",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093428",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093428",
+   "html_url": "https://ieeexplore.ieee.org/document/1093428/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093428/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "57",
+   "end_page": "62",
+   "citing_paper_count": 2,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telecommunication computing",
+      "Integrated circuit technology",
+      "Military computing",
+      "Computer industry",
+      "Government",
+      "Communication industry",
+      "Costs",
+      "FCC",
+      "Business communication"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093445",
+   "title": "The reverticalization of the telecommunications market",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 236,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Commissioner, FCC, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087804653",
+      "id": 37087804653,
+      "full_name": "M. Dawson",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093445",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093445",
+   "html_url": "https://ieeexplore.ieee.org/document/1093445/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093445/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "16",
+   "end_page": "17",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "FCC",
+      "US Government",
+      "Telecommunication traffic",
+      "Marketing and sales",
+      "Business"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093544",
+   "title": "The standardization of IEEE 802.3 compatible fiber optic CSMA/CD local area networks: Physical topologies",
+   "publisher": "IEEE",
+   "issue": "2",
+   "issn": "1558-1896",
+   "rank": 237,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Private Comm. Systems, Siemens AG, Munich",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37974932400",
+      "id": 37974932400,
+      "full_name": "S. Moustakas",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093544",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093544",
+   "html_url": "https://ieeexplore.ieee.org/document/1093544/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093544/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23875,
+   "publication_year": 1987,
+   "publication_date": "February 1987",
+   "start_page": "22",
+   "end_page": "29",
+   "citing_paper_count": 2,
+   "citing_patent_count": 2,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Standardization",
+      "Optical fibers",
+      "Multiaccess communication",
+      "Optical fiber LAN",
+      "Network topology",
+      "Optical attenuators",
+      "Optical sensors",
+      "Optical network units",
+      "Coaxial cables"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093443",
+   "title": "The swing of the pendulum",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 238,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Textron defense Systems, Wilmington, MA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087427761",
+      "id": 37087427761,
+      "full_name": "P. Levy",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093443",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093443",
+   "html_url": "https://ieeexplore.ieee.org/document/1093443/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093443/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "24",
+   "end_page": "25",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "FCC",
+      "Pricing",
+      "Government",
+      "Nominations and elections",
+      "Communication networks",
+      "Automobiles",
+      "Home appliances"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093458",
+   "title": "Tomorrow's communications policies",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "1558-1896",
+   "rank": 246,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "National Telecommunications and Information Administration, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37088265315",
+      "id": 37088265315,
+      "full_name": "A. Sikes",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093458",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093458",
+   "html_url": "https://ieeexplore.ieee.org/document/1093458/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093458/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23871,
+   "publication_year": 1987,
+   "publication_date": "January 1987",
+   "start_page": "26",
+   "end_page": "27",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Government",
+      "Business",
+      "Environmental economics",
+      "Communication industry",
+      "Telephony",
+      "US Department of Commerce",
+      "Telecommunications",
+      "Productivity"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093542",
+   "title": "Trellis-coded modulation with redundant signal sets Part I: Introduction",
+   "publisher": "IEEE",
+   "issue": "2",
+   "issn": "1558-1896",
+   "rank": 247,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "IBM Zurich Res. Lab., R\u00fcschlikon, Switzerland",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37326163800",
+      "id": 37326163800,
+      "full_name": "G. Ungerboeck",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093542",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093542",
+   "html_url": "https://ieeexplore.ieee.org/document/1093542/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093542/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23875,
+   "publication_year": 1987,
+   "publication_date": "February 1987",
+   "start_page": "5",
+   "end_page": "11",
+   "citing_paper_count": 641,
+   "citing_patent_count": 111,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Phase modulation",
+      "Amplitude modulation",
+      "Decoding",
+      "Modulation coding",
+      "Quadrature phase shift keying",
+      "Modems",
+      "Signal to noise ratio",
+      "Demodulation",
+      "Error correction",
+      "Error analysis"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093541",
+   "title": "Trellis-coded modulation with redundant signal sets Part II: State of the art",
+   "publisher": "IEEE",
+   "issue": "2",
+   "issn": "1558-1896",
+   "rank": 248,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "IBM Zurich Res. Lab., R\u00fcschlikon, Switzerland",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37326163800",
+      "id": 37326163800,
+      "full_name": "G. Ungerboeck",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093541",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093541",
+   "html_url": "https://ieeexplore.ieee.org/document/1093541/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093541/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23875,
+   "publication_year": 1987,
+   "publication_date": "February 1987",
+   "start_page": "12",
+   "end_page": "21",
+   "citing_paper_count": 313,
+   "citing_patent_count": 60,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Parity check codes",
+      "Convolutional codes",
+      "Euclidean distance",
+      "Signal mapping",
+      "Modulation coding",
+      "Convolution",
+      "Hamming distance",
+      "Binary codes"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1987.1093514",
+   "title": "Voice/data integration: An applications perspective",
+   "publisher": "IEEE",
+   "issue": "12",
+   "issn": "1558-1896",
+   "rank": 249,
+   "volume": "25",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Index Systems, Inc., Cambridge, MA and Casher Associates, Inc., Brookline, MA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37974020500",
+      "id": 37974020500,
+      "full_name": "C. Strathmeyer",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1093514",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1093514",
+   "html_url": "https://ieeexplore.ieee.org/document/1093514/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1093514/",
+   "publication_title": "IEEE Communications Magazine",
+   "publication_number": 35,
+   "is_number": 23874,
+   "publication_year": 1987,
+   "publication_date": "December 1987",
+   "start_page": "30",
+   "end_page": "35",
+   "citing_paper_count": 6,
+   "citing_patent_count": 4,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telecommunication computing",
+      "Telephony",
+      "Data communication",
+      "Customer service",
+      "Computer displays"
+     ]
+    }
+   }
+  }
+ ]
+}

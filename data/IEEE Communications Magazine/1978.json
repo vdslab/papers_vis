@@ -1,0 +1,1363 @@
+{
+ "total_records": 21,
+ "total_searched": 5638566,
+ "articles": [
+  {
+   "doi": "10.1109/MCOM.1978.1089785",
+   "title": "An approach to secure voice communication based on the data encryption standard",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "0148-9615",
+   "rank": 2,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "IBM Corporation, Federal System Division, MD",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087689343",
+      "id": 37087689343,
+      "full_name": "M. Orceyre",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087691867",
+      "id": 37087691867,
+      "full_name": "R. Heller",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1089785",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089785",
+   "html_url": "https://ieeexplore.ieee.org/document/1089785/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089785/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23716,
+   "publication_year": 1978,
+   "publication_date": "November 1978",
+   "start_page": "41",
+   "end_page": "50",
+   "citing_paper_count": 8,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Cryptography",
+      "Telephony",
+      "Speech",
+      "Microwave communication",
+      "Military communication",
+      "Artificial satellites"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089772",
+   "title": "An overview of public key cryptography",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "0148-9615",
+   "rank": 3,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Stanford Univ., Stanford, CA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37339721600",
+      "id": 37339721600,
+      "full_name": "M. Hellman",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1089772",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089772",
+   "html_url": "https://ieeexplore.ieee.org/document/1089772/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089772/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23716,
+   "publication_year": 1978,
+   "publication_date": "November 1978",
+   "start_page": "24",
+   "end_page": "32",
+   "citing_paper_count": 39,
+   "citing_patent_count": 3,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Public key cryptography",
+      "Military computing",
+      "Portable computers",
+      "Explosives",
+      "Telephony",
+      "Wiring"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089775",
+   "title": "Design and specification of cryptographic capabilities",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "0148-9615",
+   "rank": 35,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Interbank Card Association, PA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087845465",
+      "id": 37087845465,
+      "full_name": "C. Campbell",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "Cryptography can be used to provide data secrecy, data authentication, and originator authentication. Non-reversible transformation techniques provide only the last. Cryptographic check digits Provide both data and originator authentication, but no secrecy. Data secrecy, with or without data authentication, is provided by block encryption or data stream encryption techniques. Total systems security may be provided on a linkby-link, node-by-node, or end-to-end basis, depending upon the nature of the application.",
+   "article_number": "1089775",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089775",
+   "html_url": "https://ieeexplore.ieee.org/document/1089775/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089775/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23716,
+   "publication_year": 1978,
+   "publication_date": "November 1978",
+   "start_page": "15",
+   "end_page": "19",
+   "citing_paper_count": 18,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Cryptography",
+      "Authentication",
+      "Data security",
+      "Error correction",
+      "Communication system security",
+      "Communication standards",
+      "Data processing",
+      "Digital communication",
+      "Computer security",
+      "National security"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "data",
+     "value": 0.4318894504492167
+    },
+    {
+     "keyword": "provide",
+     "value": 0.35990787537434726
+    },
+    {
+     "keyword": "authentication",
+     "value": 0.2879263002994778
+    },
+    {
+     "keyword": "secrecy",
+     "value": 0.21594472522460836
+    },
+    {
+     "keyword": "data authentication",
+     "value": 0.1439631501497389
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089713",
+   "title": "Fiber optic communication - A technology coming of age",
+   "publisher": "IEEE",
+   "issue": "2",
+   "issn": "0148-9615",
+   "rank": 41,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Labs., Holmdel, NJ",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37323512300",
+      "id": 37323512300,
+      "full_name": "S. Personick",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "In a little over ten years, lightwave communication using optical fibers has progressed from a laboratory proposal to a near commercial reality. Losses in optical fiber waveguides have been reduced from hundreds of dB/Km in the early seventies to less than 1 dB/km at some wavelengths today. Bandwidths of multimode fibers can now exceed 1 GHz in km lengths. Strengths in kilometer length fibers have been increased to hundreds of KPSI (more than steel). Cables containing hundreds of fibers, multiple fiber splices, and single fiber connectors have been developed. Lasers which had lifetimes measured in minutes or hours in the early seventies now have extrapolated lifetimes of over a million hours. New material systems which can use the lower loss longer wavelength regions of the optical spectrum are evolving. Meanwhile, prototype systems carrying voice, data, and video services have been placed in service for commercial telephone and military applications. We can anticipate the widespread use of optical fibers on a routine basis beginning in the early eighties. Along with this will come reduced costs for existing services and the introduction of new services made more economical by this new transmission medium.",
+   "article_number": "1089713",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089713",
+   "html_url": "https://ieeexplore.ieee.org/document/1089713/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089713/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23712,
+   "publication_year": 1978,
+   "publication_date": "March 1978",
+   "start_page": "12",
+   "end_page": "20",
+   "citing_paper_count": 3,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Optical fiber communication",
+      "Communications technology",
+      "Optical fiber cables",
+      "Optical fibers",
+      "Optical waveguides",
+      "Optical fiber losses",
+      "Bandwidth"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "fiber",
+     "value": 0.415339305320932
+    },
+    {
+     "keyword": "optical",
+     "value": 0.207669652660466
+    },
+    {
+     "keyword": "service",
+     "value": 0.207669652660466
+    },
+    {
+     "keyword": "early",
+     "value": 0.1557522394953495
+    },
+    {
+     "keyword": "hundred",
+     "value": 0.1557522394953495
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089760",
+   "title": "NASA's tracking and data relay satellite system",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "0148-9615",
+   "rank": 59,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Univ of New South Wales, Australia and TRW Defence and Space System Group, Redondo Beach, CA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087671265",
+      "id": 37087671265,
+      "full_name": "W. Holmes",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1089760",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089760",
+   "html_url": "https://ieeexplore.ieee.org/document/1089760/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089760/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23715,
+   "publication_year": 1978,
+   "publication_date": "September 1978",
+   "start_page": "13",
+   "end_page": "20",
+   "citing_paper_count": 18,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Relays",
+      "Satellite ground stations",
+      "NASA",
+      "Low earth orbit satellites",
+      "Artificial satellites",
+      "Space shuttles",
+      "Telescopes",
+      "Space vehicles"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089697",
+   "title": "Part I--Digital techniques for communication signal processing",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "0148-9615",
+   "rank": 61,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Telephone Labs., N.J.",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37340576300",
+      "id": 37340576300,
+      "full_name": "K. Mina",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37325905300",
+      "id": 37325905300,
+      "full_name": "V. Lawrence",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37324933800",
+      "id": 37324933800,
+      "full_name": "J. Werner",
+      "author_order": 3
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "Digital processing of communication signals is now a practical alternative to analog processing. This application of a well-understood theory as a viable alternative is largely due to the availability of low cost arithmetic and storage LSI circuits; the availability of low cost A/D and D/A circuits; the commonplace occurrence of digital signals due to the ever increasing use of digital transmission and routing; and the significant advantages offered by the flexibility of the digital approach. This paper is an attempt to present in an introductory manner the what, why, where, and how of digital signal processing.",
+   "article_number": "1089697",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089697",
+   "html_url": "https://ieeexplore.ieee.org/document/1089697/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089697/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23711,
+   "publication_year": 1978,
+   "publication_date": "January 1978",
+   "start_page": "18",
+   "end_page": "22",
+   "citing_paper_count": 4,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Signal processing",
+      "Digital signal processing",
+      "Large scale integration",
+      "Signal sampling",
+      "Quantization",
+      "Availability",
+      "Digital arithmetic",
+      "Flexible printed circuits",
+      "Frequency"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "digital",
+     "value": 0.40422604172722165
+    },
+    {
+     "keyword": "processing",
+     "value": 0.242535625036333
+    },
+    {
+     "keyword": "signal",
+     "value": 0.242535625036333
+    },
+    {
+     "keyword": "alternative",
+     "value": 0.16169041669088866
+    },
+    {
+     "keyword": "availability",
+     "value": 0.16169041669088866
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089700",
+   "title": "Part II--Digital signal processing architecture",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "0148-9615",
+   "rank": 62,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "American Bell, Holmdel, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37389112500",
+      "id": 37389112500,
+      "full_name": "S. Tewksbury",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37297382200",
+      "id": 37297382200,
+      "full_name": "R. Kieburtz",
+      "author_order": 2
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37089113455",
+      "id": 37089113455,
+      "full_name": "J.S. Thompson",
+      "author_order": 3
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087358756",
+      "id": 37087358756,
+      "full_name": "S. Verma",
+      "author_order": 4
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "A number of the basic considerations involved in the selection of an overall digital signal processor architecture are reviewed.",
+   "article_number": "1089700",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089700",
+   "html_url": "https://ieeexplore.ieee.org/document/1089700/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089700/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23711,
+   "publication_year": 1978,
+   "publication_date": "January 1978",
+   "start_page": "23",
+   "end_page": "27",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Signal processing",
+      "Digital signal processors",
+      "Signal processing algorithms",
+      "Process design",
+      "Signal design",
+      "Digital signal processing",
+      "Flow graphs",
+      "Data processing"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "architecture",
+     "value": 0.2182178902359924
+    },
+    {
+     "keyword": "architecture review",
+     "value": 0.2182178902359924
+    },
+    {
+     "keyword": "basic",
+     "value": 0.2182178902359924
+    },
+    {
+     "keyword": "basic consideration",
+     "value": 0.2182178902359924
+    },
+    {
+     "keyword": "consideration",
+     "value": 0.2182178902359924
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089699",
+   "title": "Part III - Guided transmission systems, 1952-1977",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "0148-9615",
+   "rank": 63,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Labs., Whippany, NJ",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37338826000",
+      "id": 37338826000,
+      "full_name": "F. Andrews",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1089699",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089699",
+   "html_url": "https://ieeexplore.ieee.org/document/1089699/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089699/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23711,
+   "publication_year": 1978,
+   "publication_date": "January 1978",
+   "start_page": "4",
+   "end_page": "10",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Coaxial cables",
+      "Circuits",
+      "Optical fiber cables",
+      "Crosstalk",
+      "Frequency",
+      "North America",
+      "Cable shielding",
+      "Conductors",
+      "Optical waveguides"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089698",
+   "title": "Part IV--The evolution of techniques for data communication over voiceband channels",
+   "publisher": "IEEE",
+   "issue": "1",
+   "issn": "0148-9615",
+   "rank": 64,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Telephone Labs., Inc., Holmdel, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087283489",
+      "id": 37087283489,
+      "full_name": "E. Kretzmer",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "Data communication has grown dramatically in the past two decades, both in technical sophistication and in usage. While channels and networks designed expressly for data use have emerged, the voiceband channels of the telephone network continue to be the major transmission medium; data sets, or modems, play a role analogous to that of the telephone in voice communication. Fundamental developments such as adaptive equalization along with bandwidth-conserving signal formats have allowed the modem to better match the characteristics of the analog channel, resulting in increased available throughput. The quest for further improvements, along with elegant implementations and attractive user features, provide a continuing challenge to communication engineers. When the need arose to communicate digital data at transmission rates substantially higher than telegraph speeds, first for defense about mid-century and then for industry in the late 1950's, all the ingredients required for successful implementation were at hand. Decades earlier, Nyquist had formulated the filtering or band shaping requirements to allow the independent transmission of a sequence of signal samples. Just prior to mid-century, Shannon had published his celebrated information theory, which showed engineers the maximum rate at which they could signal through a channel if only they were clever enough. The telephone network, especially in the United States, had reached a high state of development and widespread accessibility; it seemed like an ideal vehicle to carry the new data communication traffic.",
+   "article_number": "1089698",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089698",
+   "html_url": "https://ieeexplore.ieee.org/document/1089698/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089698/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23711,
+   "publication_year": 1978,
+   "publication_date": "January 1978",
+   "start_page": "10",
+   "end_page": "14",
+   "citing_paper_count": 3,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Data communication",
+      "Telephony",
+      "Modems",
+      "Adaptive equalizers",
+      "Throughput",
+      "Telegraphy",
+      "Communication industry",
+      "Defense industry",
+      "Filtering",
+      "Information theory"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "data",
+     "value": 0.2575131013123024
+    },
+    {
+     "keyword": "channel",
+     "value": 0.2060104810498419
+    },
+    {
+     "keyword": "communication",
+     "value": 0.2060104810498419
+    },
+    {
+     "keyword": "network",
+     "value": 0.1545078607873814
+    },
+    {
+     "keyword": "signal",
+     "value": 0.1545078607873814
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089741",
+   "title": "Power-telecommunications compatibility",
+   "publisher": "IEEE",
+   "issue": "4",
+   "issn": "0148-9615",
+   "rank": 65,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Osborne Electric Company, Toronto, Canada",
+      "full_name": "G.Y. Allen",
+      "author_order": 1
+     },
+     {
+      "full_name": "D. McLellan",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1089741",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089741",
+   "html_url": "https://ieeexplore.ieee.org/document/1089741/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089741/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23714,
+   "publication_year": 1978,
+   "publication_date": "July 1978",
+   "start_page": "20",
+   "end_page": "22",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Voltage measurement",
+      "Telephony",
+      "Conducting materials",
+      "Communications Society",
+      "Protection",
+      "Standards development",
+      "Power generation",
+      "Power system relaying",
+      "Conductors",
+      "Power systems"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089777",
+   "title": "Security of computer communication",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "0148-9615",
+   "rank": 67,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "National Bureau of Standards, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37444706900",
+      "id": 37444706900,
+      "full_name": "D. Branstad",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1089777",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089777",
+   "html_url": "https://ieeexplore.ieee.org/document/1089777/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089777/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23716,
+   "publication_year": 1978,
+   "publication_date": "November 1978",
+   "start_page": "33",
+   "end_page": "40",
+   "citing_paper_count": 3,
+   "citing_patent_count": 1,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Computer security",
+      "Cryptography",
+      "Communication system security",
+      "Computer networks",
+      "Distributed computing",
+      "National security",
+      "Protection",
+      "Information security",
+      "Distributed processing"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089761",
+   "title": "Spread spectrum: Principles and possible application to spectrum utilization and allocation",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "0148-9615",
+   "rank": 74,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Dept. of Commerce, Washington, D.C., USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37426812600",
+      "id": 37426812600,
+      "full_name": "W. Utlaut",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "Because of the continuing demand for more telecommunication capacity, to serve the world's need for commerce and public safety, there is a continuing need for more efficient ways of sharing the radio spectrum. The conventional way of allocating the spectrum is by frequency division; however, for many kinds of services this is inefficient. Hence, it seems desirable to reexamine whether alternative procedures might not be necessary if the benefits of telecommunications are to be assured in the face of increased demand. Spreadspectrum techniques, which are based on principles antithetic to those currently used in spectrum allocation for reducing necessary bandwidth, seem to offer benefits for spectrum sharing, for some applications, superior to those of frequency division. This paper provides a tutorial summary of some of the principles upon which spread-spectrum systems have developed. It is hoped the reader might consider what role such techniques may play in future spectrum sharing and allocation opportunities.",
+   "article_number": "1089761",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089761",
+   "html_url": "https://ieeexplore.ieee.org/document/1089761/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089761/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23715,
+   "publication_year": 1978,
+   "publication_date": "September 1978",
+   "start_page": "21",
+   "end_page": "31",
+   "citing_paper_count": 16,
+   "citing_patent_count": 3,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Spread spectrum communication",
+      "Bandwidth",
+      "Frequency conversion",
+      "Interference",
+      "Communication systems",
+      "US Department of Commerce",
+      "Degradation",
+      "System performance"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "spectrum",
+     "value": 0.3897418814769785
+    },
+    {
+     "keyword": "allocation",
+     "value": 0.12991396049232617
+    },
+    {
+     "keyword": "benefit",
+     "value": 0.12991396049232617
+    },
+    {
+     "keyword": "continue",
+     "value": 0.12991396049232617
+    },
+    {
+     "keyword": "demand",
+     "value": 0.12991396049232617
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089740",
+   "title": "Techniques for digital switching",
+   "publisher": "IEEE",
+   "issue": "4",
+   "issn": "0148-9615",
+   "rank": 75,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "MBX Inc., New Canaan, CT, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37982470900",
+      "id": 37982470900,
+      "full_name": "J. McDonald",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "Digital switching of communication channels is now a practical alternative to analog switching. This application of well-known principles is economically possible due to the availability of low-cost LSI devices and the significant benefits of integrating digital transmission with digital switching. This paper reviews the key elements of a digital switch and summarizes the current debate relating to the design of a local digital switch.",
+   "article_number": "1089740",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089740",
+   "html_url": "https://ieeexplore.ieee.org/document/1089740/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089740/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23714,
+   "publication_year": 1978,
+   "publication_date": "July 1978",
+   "start_page": "11",
+   "end_page": "19",
+   "citing_paper_count": 7,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Communication switching",
+      "Large scale integration",
+      "Switching circuits",
+      "Switching systems",
+      "Control systems",
+      "Phase change materials",
+      "Communications Society",
+      "Communication system control"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "digital",
+     "value": 0.4703604341917986
+    },
+    {
+     "keyword": "switch",
+     "value": 0.2822162605150792
+    },
+    {
+     "keyword": "digital switch",
+     "value": 0.18814417367671946
+    },
+    {
+     "keyword": "digital switching",
+     "value": 0.18814417367671946
+    },
+    {
+     "keyword": "switching",
+     "value": 0.18814417367671946
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089759",
+   "title": "The CCIR: Fifty years of technical studies",
+   "publisher": "IEEE",
+   "issue": "5",
+   "issn": "0148-9615",
+   "rank": 76,
+   "volume": "16",
+   "authors": {
+    "authors": []
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1089759",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089759",
+   "html_url": "https://ieeexplore.ieee.org/document/1089759/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089759/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23715,
+   "publication_year": 1978,
+   "publication_date": "September 1978",
+   "start_page": "32",
+   "end_page": "34",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Radio communication",
+      "Satellite broadcasting",
+      "Telecommunications",
+      "Frequency",
+      "Wireless communication",
+      "Telegraphy",
+      "Radio broadcasting",
+      "TV broadcasting",
+      "Radio astronomy"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089729",
+   "title": "The Omega navigation system--An overview",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "0148-9615",
+   "rank": 77,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "The Analytic Sciences Corporation, Reading, MA, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37300063400",
+      "id": 37300063400,
+      "full_name": "J. Kasper",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37300035500",
+      "id": 37300035500,
+      "full_name": "C. Hutchinson",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "The Omega worldwide VLF radio navigation system is discussed. Following a brief historical perspective, the current and projected system configurations are described with emphasis on the operational characteristics of transmitting station equipment. The Omega positionfixing process is examined and the available user equipment is reviewed. The characteristics of VLF radio wave propagation, which have a significant impact on Omega navigation accuracy, are discussed. Finally, the various elements of the Omega user community are described along with the likely nature of future increased applications of the Omega navigation system.",
+   "article_number": "1089729",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089729",
+   "html_url": "https://ieeexplore.ieee.org/document/1089729/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089729/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23713,
+   "publication_year": 1978,
+   "publication_date": "May 1978",
+   "start_page": "23",
+   "end_page": "35",
+   "citing_paper_count": 4,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Radio navigation",
+      "Stability",
+      "Laboratories",
+      "Signal processing",
+      "System testing",
+      "Australia",
+      "Radiowave propagation",
+      "Radio transmitters"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "omega",
+     "value": 0.3892494720807615
+    },
+    {
+     "keyword": "navigation",
+     "value": 0.23354968324845687
+    },
+    {
+     "keyword": "system",
+     "value": 0.23354968324845687
+    },
+    {
+     "keyword": "characteristic",
+     "value": 0.1556997888323046
+    },
+    {
+     "keyword": "describe",
+     "value": 0.1556997888323046
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089771",
+   "title": "The data encryption standard in perspective",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "0148-9615",
+   "rank": 78,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Secretary of Defence for Research and Engineering",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37288150800",
+      "id": 37288150800,
+      "full_name": "R. Davis",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "The Data Encryption Standard (DES) was approved as a Federal Information Processing Standard (FIPS) by the Secretary of Commerce on November 23, 1976. This Standard was developed as a part of the Computer Security Program within the Institute for Computer Sciences and Technology at the National Bureau of Standards (NBS). This paper places this standard in perspective with other computer security measures that can and should be applied to Federal computer systems either before or coincident to using the Data Encryption Standard. In 1972, NBS initiated the standards development effort leading to adoption of the DES. During this period, NBS solicited for algorithms and information upon which a standard could be based, published for comment the algorithm which best satisfied the requirements of an encryption standard, and coordinated the effort with both the potential using communities and supplying communities. This paper outlines the environment surrounding and the history of the Data Encryption Standard and discusses the objectives of additional standards to be developed within the computer security program.",
+   "article_number": "1089771",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089771",
+   "html_url": "https://ieeexplore.ieee.org/document/1089771/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089771/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23716,
+   "publication_year": 1978,
+   "publication_date": "November 1978",
+   "start_page": "5",
+   "end_page": "9",
+   "citing_paper_count": 66,
+   "citing_patent_count": 1,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Cryptography",
+      "NIST",
+      "Standards development",
+      "Computer security",
+      "National security",
+      "Standards publication",
+      "Government",
+      "Measurement standards",
+      "Consumer electronics"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "standard",
+     "value": 0.510976130307596
+    },
+    {
+     "keyword": "computer",
+     "value": 0.255488065153798
+    },
+    {
+     "keyword": "encryption",
+     "value": 0.2043904521230384
+    },
+    {
+     "keyword": "encryption standard",
+     "value": 0.2043904521230384
+    },
+    {
+     "keyword": "computer security",
+     "value": 0.1532928390922788
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089783",
+   "title": "The data encryption standard--Retrospective and prospects",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "0148-9615",
+   "rank": 79,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Labs., Murray Hill, NJ, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37286568100",
+      "id": 37286568100,
+      "full_name": "R. Morris",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1089783",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089783",
+   "html_url": "https://ieeexplore.ieee.org/document/1089783/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089783/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23716,
+   "publication_year": 1978,
+   "publication_date": "November 1978",
+   "start_page": "11",
+   "end_page": "14",
+   "citing_paper_count": 13,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Cryptography",
+      "NIST",
+      "Proposals",
+      "US Government",
+      "Data privacy",
+      "Encryption",
+      "Communication system security",
+      "Computer security",
+      "Data security",
+      "Consumer electronics"
+     ]
+    }
+   }
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089712",
+   "title": "The federal telecommunication standards program",
+   "publisher": "IEEE",
+   "issue": "2",
+   "issn": "0148-9615",
+   "rank": 80,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Office of Technology and Standards, National Communications System, Washington, DC, USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37388939500",
+      "id": 37388939500,
+      "full_name": "D. Bodson",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "The Federal Telecommunication Standards Program was initiated in 1972 to provide for the development and coordination of Federal telecommunication standards for National Communications System interoperability and computer-communication interface. This paper presents background information relating to the development of the program, its relationship with other standards organizations, and the potential impact of standards developed and being developed upon Government and industry. A summary of past and on-going standardization activities has also been included, together with commentary on future activities.",
+   "article_number": "1089712",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089712",
+   "html_url": "https://ieeexplore.ieee.org/document/1089712/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089712/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23712,
+   "publication_year": 1978,
+   "publication_date": "March 1978",
+   "start_page": "21",
+   "end_page": "27",
+   "citing_paper_count": 0,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Telecommunication standards",
+      "Standards organizations",
+      "US Government",
+      "Telecommunication network management",
+      "Communication standards",
+      "Standards development",
+      "US Department of Commerce",
+      "Disaster management",
+      "Computer interfaces"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "standard",
+     "value": 0.2773500981126145
+    },
+    {
+     "keyword": "activity",
+     "value": 0.1849000654084097
+    },
+    {
+     "keyword": "develop",
+     "value": 0.1849000654084097
+    },
+    {
+     "keyword": "development",
+     "value": 0.1849000654084097
+    },
+    {
+     "keyword": "federal",
+     "value": 0.1849000654084097
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089725",
+   "title": "The history of television",
+   "publisher": "IEEE",
+   "issue": "3",
+   "issn": "0148-9615",
+   "rank": 81,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Bell Labs., USA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37975945000",
+      "id": 37975945000,
+      "full_name": "J. Knapp",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/37087815344",
+      "id": 37087815344,
+      "full_name": "J. Tebo",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "Reports on the history of television. ",
+   "article_number": "1089725",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089725",
+   "html_url": "https://ieeexplore.ieee.org/document/1089725/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089725/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23713,
+   "publication_year": 1978,
+   "publication_date": "May 1978",
+   "start_page": "8",
+   "end_page": "22",
+   "citing_paper_count": 1,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "History",
+      "TV",
+      "Optical transmitters",
+      "Radio transmitters",
+      "Optical receivers",
+      "Wiring"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "history",
+     "value": 0.4472135954999579
+    },
+    {
+     "keyword": "history television",
+     "value": 0.4472135954999579
+    },
+    {
+     "keyword": "reports",
+     "value": 0.4472135954999579
+    },
+    {
+     "keyword": "reports history",
+     "value": 0.4472135954999579
+    },
+    {
+     "keyword": "television",
+     "value": 0.4472135954999579
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089778",
+   "title": "The use of public key cryptography in communication system design",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "0148-9615",
+   "rank": 82,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Dept. of Mathematics, Massachusetts Institute of Technology, Cambridge, MA",
+      "authorUrl": "https://ieeexplore.ieee.org/author/37658417100",
+      "id": 37658417100,
+      "full_name": "L. Adleman",
+      "author_order": 1
+     },
+     {
+      "authorUrl": "https://ieeexplore.ieee.org/author/38179927400",
+      "id": 38179927400,
+      "full_name": "R. Rivest",
+      "author_order": 2
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "abstract": "Since the time of Caesar, cryptography has been used in the design of secure communications systems. Recently, Diffie and Hellman [2] have introduced a new type of cryptographic method, based on \"trapdoor\" functions, which promises to be of great value in the design of such systems. We present a review of public key cryptosystems, followed by examples of communications systems which make particularly elegant use of their properties.",
+   "article_number": "1089778",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089778",
+   "html_url": "https://ieeexplore.ieee.org/document/1089778/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089778/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23716,
+   "publication_year": 1978,
+   "publication_date": "November 1978",
+   "start_page": "20",
+   "end_page": "23",
+   "citing_paper_count": 13,
+   "citing_patent_count": 2,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Public key cryptography",
+      "Graphics",
+      "Mathematics",
+      "Security",
+      "Communications Society",
+      "Public key"
+     ]
+    }
+   },
+   "keywords": [
+    {
+     "keyword": "system",
+     "value": 0.3144854510165755
+    },
+    {
+     "keyword": "communication",
+     "value": 0.20965696734438366
+    },
+    {
+     "keyword": "communication system",
+     "value": 0.20965696734438366
+    },
+    {
+     "keyword": "design",
+     "value": 0.20965696734438366
+    },
+    {
+     "keyword": "use",
+     "value": 0.20965696734438366
+    }
+   ]
+  },
+  {
+   "doi": "10.1109/MCOM.1978.1089789",
+   "title": "Unclassified summary: Involvement of NSA in the development of the data encryption standard",
+   "publisher": "IEEE",
+   "issue": "6",
+   "issn": "0148-9615",
+   "rank": 90,
+   "volume": "16",
+   "authors": {
+    "authors": [
+     {
+      "affiliation": "Univ. of California, Santa Barbara, CA",
+      "full_name": "A. Gersho",
+      "author_order": 1
+     }
+    ]
+   },
+   "access_type": "LOCKED",
+   "content_type": "Magazines",
+   "article_number": "1089789",
+   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089789",
+   "html_url": "https://ieeexplore.ieee.org/document/1089789/",
+   "abstract_url": "https://ieeexplore.ieee.org/document/1089789/",
+   "publication_title": "IEEE Communications Society Magazine",
+   "publication_number": 5488653,
+   "is_number": 23716,
+   "publication_year": 1978,
+   "publication_date": "November 1978",
+   "start_page": "53",
+   "end_page": "55",
+   "citing_paper_count": 4,
+   "citing_patent_count": 0,
+   "index_terms": {
+    "ieee_terms": {
+     "terms": [
+      "Cryptography",
+      "Standards development",
+      "NIST",
+      "US Government",
+      "National security",
+      "Encryption",
+      "US Department of Defense",
+      "Machine intelligence",
+      "Data privacy"
+     ]
+    }
+   }
+  }
+ ]
+}
