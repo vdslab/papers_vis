@@ -42,6 +42,7 @@ const YearRangeSlider = () => {
                 From  <input type="number" value={ startYear } 
                 onChange={ (event)=>{         
                   dispatch(changeStartYear(Number(event.target.value)));
+                  setValue([event.target.value,value[1]])
                 }} 
                 size="3" style={{ marginRight: '60px' }}
                 min="1955" max="2021"
@@ -53,6 +54,7 @@ const YearRangeSlider = () => {
                 To  <input type="number" value={ endYear } 
                 onChange={ (event)=>{
                   dispatch(changeEndYear(Number(event.target.value)));
+                  setValue([value[0],event.target.value])
                  }} 
                 size="3"  min="1955" max="2021"/>
               </label>

@@ -32,7 +32,7 @@ export default function App() {
       //const response = await fetch(`/.netlify/functions/api/papers/${target_encoded}`);
 
       //論文のauthor_idを取得 このテーブル消すかも。タイムアウトしなければ直接authorを検索できるようにする。
-      //const response = await fetch(`/.netlify/functions/api/search/${encoded}`);
+      //const response = await fetch(`/.netlify/functions/api/authorsearch/${encoded}`);
       
       //author_idからauthorの情報の検索
       const response = await fetch(`/.netlify/functions/api/authors/${author_id}`);
