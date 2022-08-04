@@ -2,6 +2,8 @@ import { useEffect, useState,useRef } from "react";
 import * as d3 from 'd3';
 import { forceRadial } from "d3";
 import useWindowSize from '../useWindowSize';
+import { noData } from "pg-protocol/dist/messages";
+import LabelProgress from '../components/LabelProgress';
 
 /*
 todo
@@ -36,7 +38,8 @@ const ZoomableSVG= ({ children, width, height }) => {
     );
   }
 
-
+const doi = "10.1109/MCOM.1977.1089436"
+const encoded = encodeURIComponent(doi);
 
 const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     //グラフの見た目の設定
@@ -49,21 +52,14 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
     const [clickedNode, setClickedNode] = useState(-1);
+    const [loading, setLoading] = useState(true);
+    const th = 0.8;
+   
     
     const [nodesState, setNodesState] = useState(() => {
-
-        let len;
-        const getLength = async () => {
-            len = await(await fetch('../../data/sample_node.json')).json().length;
-        }
-
-        getLength();
-       
         //0は通常 1はホバー状態　2はクリック状態
-        console.log(Array(len).fill(0));
-        return Array(4).fill(0);
+        return Array(50).fill(0);
     });
-
 
 
     const changeNodeState = (key, state) => {
@@ -91,24 +87,13 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             //off
             changeNodeState(key, 0);
             setDetail({});
-        } else {
-            console.log("$$$");
-          
+        } else { 
             setDetail(node);
-            console.log("prev:" + clickedNode);
-            console.log("key:" + key);
-            if(clickedNode !== -1 && clickedNode !== key && nodesState[clickedNode] === 2) {
-                console.log("###")
-                
+            if(clickedNode !== -1 && clickedNode !== key && nodesState[clickedNode] === 2) {          
                 changeNodeState(clickedNode, 0);
             }
-            
             setClickedNode(key);
         }
-        
-
-        console.log("prev:" + prevkey);
-        console.log("key:" + key);
     }
 
     useEffect(() => {
@@ -117,23 +102,22 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
             //モデルのチューニング
             const startSimulation = (nodes, links) => {
-                console.log(nodes);
-                console.log("!!!")
+
                 const simulation = d3
                 .forceSimulation()
                 .nodes(nodes)
-                .force("link", d3.forceLink().strength(-0.009).distance((d) => {
+                .force("link", d3.forceLink().strength(-0.1).distance((d) => {
                     return 10;
-                  }).id((d) => d.id))
-                .force("center", d3.forceCenter(100, 50))
-                .force('charge', d3.forceManyBody().strength(1))
+                  }).id((d) => d['id']))
+                .force("center", d3.forceCenter(100, 100))
+                .force('charge', d3.forceManyBody().strength(-1))
                 .force('collision', d3.forceCollide()
                       .radius(function (d) {
-                        return 10;
+                        return 15;
                       })
-                      .iterations(1))
-                .force('x', d3.forceX().x(50).strength())
-                .force('y', d3.forceY().y(50).strength())
+                      .iterations(0.5))
+                .force('x', d3.forceX().x(100).strength(0.5))
+                .force('y', d3.forceY().y(100).strength(0.5))
                 ;
 
                 const ticked = () => {
@@ -141,19 +125,58 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                     setLinks(links.slice());
                 }
                 
+                
                 simulation.nodes(nodes).on("tick", ticked);
                 simulation.force('link').links(links);
-                
+
+                setLoading(false);
             }
 
 
 
-            const nodeData = await(await fetch('../../data/sample_node.json')).json();
-            const linkData = await(await fetch('../../data/sample_edge.json')).json();
-            //console.log(Array(nodeData.length).fill(false));
-        
-            console.log(nodesState);
-            startSimulation(nodeData, linkData);
+            const nodeData = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
+            const simirarities = await(await fetch(`/.netlify/functions/api/similarity/${encoded}`)).json();
+            //simirarities.length = 3;
+            
+            nodeData[0]['id'] =  encodeURIComponent( nodeData[0]['doi'] );
+           
+            const filtered_simirarities = simirarities.filter(item =>   Number(item.similarity) >= 0.69 );
+
+            console.log(filtered_simirarities);
+            for(const item of filtered_simirarities) {
+                console.log()
+                console.log(item['doi'])
+                const tmp = await(await fetch(`/.netlify/functions/api/papers/${encodeURIComponent(item['target_doi'])}`)).json();
+                const node = tmp[0];
+                //console.log(node);
+                node['id'] = encodeURIComponent(node['doi']);
+                nodeData.push(node);
+            }; 
+
+            console.log("####")
+            console.log(nodeData);
+            console.log(simirarities);
+
+            //nodeDataの必要オブジェクト
+            //abstract
+            //author
+            //title
+            //html_url
+            //pagecount:end_page - start_page
+
+
+            //リンクデータを作る
+            const linkData = []
+
+            filtered_simirarities.map((item) => {
+                linkData.push({source: encodeURIComponent(item['doi']), target:encodeURIComponent(item['target_doi'])});
+            })
+
+
+            console.log('final');
+            console.log(linkData);
+            console.log(nodeData);
+           startSimulation(nodeData, linkData);
         }
 
         fetchData();
@@ -173,6 +196,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     }, [clickedNode]);
 
     return(
+        <div>
+
+        {loading?<LabelProgress/>:
         <ZoomableSVG width={graphWidth} height={graphHeight}>
         <g className="links">
             {links.map((link) => {
@@ -248,7 +274,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             
 
         </g>
-    </ZoomableSVG>);
+    </ZoomableSVG>
+}
+    </div>);
 }
 
 export default NetworkGraph;

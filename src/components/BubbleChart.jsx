@@ -55,6 +55,7 @@ const BubbleChart = () => {
         (async () => {
             const response = await fetch(`/.netlify/functions/api/keywords/${keyword}`);
             const data = await response.json();
+            console.log(data);
             setPaper(data);
         })();
         //console.log(papers)
