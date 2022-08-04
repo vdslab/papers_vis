@@ -18,15 +18,8 @@ import { useEffect,useState } from "react";
       //const response = await fetch(`/.netlify/functions/api/authorsearch/${encoded}`);
       
       //author_idからauthorの情報の検索
-      const response = await fetch(`/.netlify/functions/api/authors/${author_id}`);
-      const data = await response.json();
-      setData(data);
-    })();
-    }, []);
-
-    console.log(data);
-    return (
-        <div>
+    //   const response = await fetch(`/.netlify/functions/api/authors/${author_id}`);
+    //   const data = await response.json();
 const Layout = ({children}) => {
     return(
         <>
