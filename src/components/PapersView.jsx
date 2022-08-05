@@ -107,7 +107,10 @@ const PapersView = () => {
     const [rowsPerPage, setRowsPerPage] = useState(200);
     const keyword = useSelector((state) => state.keyword.keyword);
     const papers = useSelector((state) => state.papersKeyword.papers);
-    
+    const escapeDoi = (doi) => {
+      return doi.replaceAll('.', '_').replaceAll('/', '-');
+    }
+
     const handleRequestSort = (event, property) => {
         const isAsc = orderBy === property && order === 'asc';
         setOrder(isAsc ? 'desc' : 'asc');
@@ -157,6 +160,8 @@ const PapersView = () => {
                                           value = Math.abs(paper[column.id])
                                         }else{
                                           value = paper[column.id]
+                                          console.log(paper.doi)
+                                         // console.log(column)
                                         }
                                       if(column.id === 'html_url'){
                                         return(
@@ -170,7 +175,7 @@ const PapersView = () => {
                                         return(
                                           <TableCell  key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
                                                 <nav>
-                                                  <Link to="/network">{value}</Link>
+                                                  <Link to={`/network/${escapeDoi(paper.doi)}`}>{value}</Link>
                                                 </nav>
                                                 <Outlet />
                                           </TableCell>

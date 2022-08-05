@@ -4,6 +4,7 @@ import { forceRadial } from "d3";
 import useWindowSize from '../useWindowSize';
 import { noData } from "pg-protocol/dist/messages";
 import LabelProgress from '../components/LabelProgress';
+import { useParams } from "react-router-dom";
 
 /*
 todo
@@ -14,6 +15,7 @@ todo
 */
 
 const ZoomableSVG= ({ children, width, height }) => {
+   
     const svgRef = useRef();
     const [k, setK] = useState(1);
     const [x, setX] = useState(width/4);
@@ -37,8 +39,7 @@ const ZoomableSVG= ({ children, width, height }) => {
     );
   }
 
-const doi = "10.1109/MCOM.1977.1089436"
-const encoded = encodeURIComponent(doi);
+
 
 const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     //グラフの見た目の設定
@@ -58,6 +59,11 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
         return Array(50).fill(0);
     });
 
+    const params = useParams();
+
+    const deescapeDoi = (doi) => {
+        return doi.replaceAll('_', '.').replaceAll('-', '/');
+    }
 
     const changeNodeState = (key, state) => {
         console.log(key);
@@ -130,12 +136,18 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             }
 
 
-
+            console.log("#$$$$$$$$$$$$$")
+            console.log(params);
+            console.log(params.doi);
+            const doi = deescapeDoi(params.doi);
+            console.log(doi);
+            //const doi = "10.1109/JIOT.2020.3001383"
+            const encoded = encodeURIComponent(doi);
             const nodeData = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
             const simirarities = await(await fetch(`/.netlify/functions/api/similarity/${encoded}`)).json();
             //simirarities.length = 3;
             nodeData[0]['id'] =  encodeURIComponent( nodeData[0]['doi'] );
-    
+            nodeData[0]['author'] = await(await fetch(`/.netlify/functions/api/authors/${encoded}`)).json();
             const searchs = await(await fetch(`/.netlify/functions/api/search/${ encodeURIComponent( nodeData[0]['doi'] )}`)).json();
 
             console.log(searchs);
@@ -143,12 +155,12 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
             console.log(filtered_simirarities);
             for(const item of filtered_simirarities) {
-                console.log()
                 console.log(item['doi'])
                 const tmp = await(await fetch(`/.netlify/functions/api/papers/${encodeURIComponent(item['target_doi'])}`)).json();
                 const node = tmp[0];
                 //console.log(node);
                 node['id'] = encodeURIComponent(node['doi']);
+                node['author'] = await(await fetch(`/.netlify/functions/api/authors/${encodeURIComponent(item['target_doi'])}`)).json();
                 nodeData.push(node);
             }; 
 
