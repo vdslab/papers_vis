@@ -69,9 +69,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     }
 
     const changeNodeState = (key, state) => {
-        console.log(key);
+        //console.log(key);
         const tmp = nodesState.slice();
-        console.log(nodesState);
+        //console.log(nodesState);
         tmp[key] = state;
         setNodesState(tmp.slice());
     }
@@ -135,11 +135,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             }
 
 
-            console.log("#$$$$$$$$$$$$$")
-            console.log(params);
-            console.log(params.doi);
+          
             const doi = deescapeDoi(params.doi);
-            console.log(doi);
+            //console.log(doi);
             //const doi = "10.1109/JIOT.2020.3001383"
             const encoded = encodeURIComponent(doi);
             const nodeData = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
@@ -147,27 +145,52 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             //simirarities.length = 3;
             nodeData[0]['id'] =  encodeURIComponent( nodeData[0]['doi'] );
             nodeData[0]['author'] = await(await fetch(`/.netlify/functions/api/authors/${encoded}`)).json();
-            const searchs = await(await fetch(`/.netlify/functions/api/search/${ encodeURIComponent( nodeData[0]['doi'] )}`)).json();
+            try {
+                const response = await fetch(`/.netlify/functions/api/keywords/${encodeURIComponent(encoded)}`);
+                
+                if(response.status === 404) {
+                    throw 'keyword not found';
+                }
 
-            console.log(searchs);
+                nodeData[0]['keyword'] = await response.json();
+
+            } catch (err) {
+                nodeData[0]['keyword'] = [];
+                console.log("#####");
+                console.error(err);
+            }
+
+            //console.log(searchs);
             const filtered_simirarities = simirarities.filter(item =>   Number(item.similarity) >= 0.69 );
 
-            console.log(filtered_simirarities);
+           // console.log(filtered_simirarities);
             for(const item of filtered_simirarities) {
-                console.log(item['doi'])
+                //console.log(item['doi'])
                 const tmp = await(await fetch(`/.netlify/functions/api/papers/${encodeURIComponent(item['target_doi'])}`)).json();
                 const node = tmp[0];
                 //console.log(node);
                 node['id'] = encodeURIComponent(node['doi']);
                 node['author'] = await(await fetch(`/.netlify/functions/api/authors/${encodeURIComponent(item['target_doi'])}`)).json();
-                node['keyword'] = await(await fetch(`/.netlify/functions/api/keywords/${encodeURIComponent(item['target_doi'])}`)).json();
-                console.log(node['keyword']);
+                try {
+                    const response = await fetch(`/.netlify/functions/api/keywords/${encodeURIComponent(item['target_doi'])}`);
+                    console.log(response);
+                    if(response.status === 404) {
+                         throw 'keyword not found';
+                    }
+
+                    node['keyword'] = await response.json();
+                } catch (err) {
+                    node['keyword'] = [];
+                    console.log("#####");
+                    console.error(err);
+                }
+                //console.log(node['keyword']);
                 nodeData.push(node);
             }; 
 
-            console.log("####")
-            console.log(nodeData);
-            console.log(simirarities);
+            //console.log("####")
+            //console.log(nodeData);
+            //console.log(simirarities);
 
             //nodeDataの必要オブジェクト
             //abstract
@@ -184,9 +207,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             })
 
 
-            console.log('final');
-            console.log(linkData);
-            console.log(nodeData);
+            //console.log('final');
+            //console.log(linkData);
+            //console.log(nodeData);
            startSimulation(nodeData, linkData);
         }
 
@@ -257,11 +280,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                     y={node.y}
                     style={{pointerEvents: "none"}}
                 >
-                    {console.log(node['keyword'])}
-                    {console.log(node['author'])}
+        
                     {nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')}
-                    {console.log(node[nodeLabel])}
-                    {console.log(nodeLabel)}
+                   
                 </text>
             );
         })}                

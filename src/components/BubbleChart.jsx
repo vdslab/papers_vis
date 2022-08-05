@@ -90,7 +90,7 @@ const BubbleChart = () => {
                             opacity={(node.leaves().length-i)/node.leaves().length+0.1} 
                             onClick={(e) => onClickhandle(e,item.data.name)}
                             />
-                        <text fontSize={item.r*0.4}  dominantBaseline="central" textAnchor="middle">
+                        <text fontSize={item.r*0.4}  dominantBaseline="central" textAnchor="middle" style={{pointerEvents: "none"}}>
                             {item.data.name}
                         </text>
                     </g>

@@ -160,7 +160,7 @@ const PapersView = () => {
                                           value = Math.abs(paper[column.id])
                                         }else{
                                           value = paper[column.id]
-                                          console.log(paper.doi)
+                                          //console.log(paper.doi)
                                          // console.log(column)
                                         }
                                       if(column.id === 'html_url'){
