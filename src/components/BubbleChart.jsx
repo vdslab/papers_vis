@@ -5,6 +5,7 @@ import {changePapersCount} from "../redux/papersCountSlice"
 import { changeKeyword } from '../redux/keywordSlice';
 import { changePapersKeyword } from '../redux/papersKeywordSlice';
 import { Card, Tooltip } from "@mui/material";
+import LabelProgress from '../components/LabelProgress';
 
 const BubbleChart = () => {
     const width = 250;
@@ -69,11 +70,9 @@ const BubbleChart = () => {
         return (
         <Card sx={{ p: 3, height: "100%" }}>
             <p>キーワードの選択</p>
-            <svg viewBox="0 0 250 250" width = "100%" height = "400">
-                <text x="125" y="100"  dominantBaseline="central" textAnchor="middle">
-                    Loading
-                </text>
-            </svg>
+            <div style = {{position:'absolute', top : `575px`, left:`800px` }}>
+            <LabelProgress />
+            </div>
         </Card>
         );
     }
