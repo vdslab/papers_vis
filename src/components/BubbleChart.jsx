@@ -32,7 +32,7 @@ const BubbleChart = () => {
         (async () => {
             let list = [];
             for (let i = startYear;i <= endYear;i++){
-                const request = await fetch(`../../data/keyword_No5_year_alter/${i}.json`);
+                const request = await fetch(`/data/keyword_No5_year_alter/${i}.json`);
                 const data = await request.json();
                 list.forEach(element => {
                     for(let j = 0;j < data.length;j++){
