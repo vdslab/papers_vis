@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 export const keywordSlice = createSlice({
     name : 'keyword',
     initialState:{
-        keyword : 'system',
+        keyword : '',
     },
     reducers:{
         changeKeyword :(state,action) => {

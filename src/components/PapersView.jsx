@@ -13,23 +13,21 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TablePagination from '@mui/material/TablePagination';
 import TableRow from '@mui/material/TableRow';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
 import LaunchIcon from '@mui/icons-material/Launch';
 import PropTypes from 'prop-types';
 import TableSortLabel from '@mui/material/TableSortLabel';
 import { visuallyHidden } from '@mui/utils';
-
-// async function papersFetch(doi) {
-//     const encoded = encodeURIComponent(doi);
-//     const response2 = await fetch(`/.netlify/functions/api/papers/${encoded}`);
-//     const json_load2 = await response2.json();
-//     return json_load2[0];
-// } 
+import { Link, Outlet } from "react-router-dom";
 
 const columns = [
-    { id: 'title', label: 'タイトル', numeric: false, disablePadding: true,minWidth: 200 },
-    { id: 'authors', label: '著者', numeric: false, disablePadding: true,minWidth: 150 },
-    { id: 'page', label: 'ページ数', minWidth: 150, numeric: true, disablePadding: false, format: (value) => value.toLocaleString('en-US')},
-    { id: 'html_url', label: 'url', minWidth: 50}
+    { id: 'title', label: 'タイトル', align: 'left', disablePadding: false,minWidth: 300 },
+    { id: 'year', label: '発行年', align: 'right', disablePadding: true,minWidth: 100 },
+    { id: 'page', label: 'ページ数', minWidth: 150, align: 'right', disablePadding: false, },
+    { id: 'citing_paper_count', label: '被引用数', minWidth: 150, align: 'right', disablePadding: false, },
+    { id: 'citing_patent_count', label: '被特許数', minWidth: 150, align: 'right', disablePadding: false, },
+    { id: 'html_url', label: 'url', minWidth: 30}
   ];
 
 function EnhancedTableHead(props) {
@@ -83,28 +81,10 @@ function descendingComparator(a, b, orderBy) {
     return 0;
 }
 
-function pageDescendingComparator(a, b, orderBy) {
-    const a_page = a.end_page-a.start_page;
-    const b_page = b.end_page-b.start_page;
-    if (b_page < a_page) {
-      return -1;
-    }
-    if (b_page > a_page) {
-      return 1;
-    }
-    return 0;
-}
-
 function getComparator(order, orderBy) {
-    if(orderBy === 'page'){
-        return order === 'desc'
-            ? (a, b) => pageDescendingComparator(a, b, orderBy)
-            : (a, b) => -pageDescendingComparator(a, b, orderBy);
-    }else{
-        return order === 'desc'
-            ? (a, b) => descendingComparator(a, b, orderBy)
-            : (a, b) => -descendingComparator(a, b, orderBy);
-    }
+    return order === 'desc'
+        ? (a, b) => descendingComparator(a, b, orderBy)
+        : (a, b) => -descendingComparator(a, b, orderBy);
 }
 
 function stableSort(array, comparator) {
@@ -121,32 +101,12 @@ function stableSort(array, comparator) {
 
 const PapersView = () => {
     const dispatch = useDispatch();
-    const [order, setOrder] = useState('asc');
-    const [orderBy, setOrderBy] = useState('title');
+    const [order, setOrder] = useState('desc');
+    const [orderBy, setOrderBy] = useState('year');
     const [page, setPage] = useState(0);
-    const [rowsPerPage, setRowsPerPage] = useState(50);
-    const [papers,setPapers] = useState([])
-    const papersSort = useSelector((state) => state.papersSort.element);
-    const startYear = useSelector((state) => state.startYear.year);
-    const endYear = useSelector((state) => state.endYear.year);
-    const data = useSelector((state) => state.papersKeyword.papers);
-    const papers2 = useSelector((state) => state.papersDetail.papers);
-    useEffect(() => {
-        (async () => {
-            const response = await fetch("../../data/IEEE Communications Magazine/2021.json");
-            const json_load = await response.json();
-            setPapers(json_load.articles);
-        })();
-      }, []);
-    //   useEffect(() => {
-    //     let array = []
-    //     data.map((item) => {
-    //         const paper = papersFetch(item.doi);
-    //         array.push(paper);
-    //     }) ;
-    //     dispatch(changePapersDetail(array))
-    //   }, [data]);
-    // console.log(papers2)
+    const [rowsPerPage, setRowsPerPage] = useState(200);
+    const keyword = useSelector((state) => state.keyword.keyword);
+    const papers = useSelector((state) => state.papersKeyword.papers);
     
     const handleRequestSort = (event, property) => {
         const isAsc = orderBy === property && order === 'asc';
@@ -167,17 +127,24 @@ const PapersView = () => {
     return (
         <div>
             <Paper sx={{ width: '100%', overflow: 'hidden' }}>
-                <TableContainer sx={{ maxHeight: 600 }}>
-                    <Table stickyHeader aria-label="sticky table">
-                        <EnhancedTableHead
-                            order={order}
-                            orderBy={orderBy}
-                            onRequestSort={handleRequestSort}
-                        />
-                        <TableBody>
+              <Toolbar sx={{pl: { sm: 2 }, pr: { xs: 1, sm: 1 }}}>
+                <Typography sx={{ flex: '1 1 100%' }} align="justify" variant="h5" id="tableTitle" component="div">
+                  {keyword}
+                </Typography>
+              </Toolbar>
+              <TableContainer sx={{ maxHeight: 600 }}>
+                  <Table stickyHeader aria-label="sticky table">
+                      <EnhancedTableHead
+                          order={order}
+                          orderBy={orderBy}
+                          onRequestSort={handleRequestSort}
+                      />
+                      <TableBody>
+
+
                         {stableSort(papers, getComparator(order, orderBy))
-                            .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-                            .map((paper, index) => {
+                          .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+                          .map((paper, index) => {
                                 return (
                                     <TableRow
                                         hover
@@ -186,34 +153,31 @@ const PapersView = () => {
                                     >
                                     {columns.map((column) => {
                                         let value;
-                                        if(column.id === 'authors'){
-                                            value = []
-                                            for(let i = 0;i < paper[column.id][column.id].length;i++){
-                                                if(i < 2){
-                                                    value.push(paper[column.id][column.id][i].full_name+', ')
-                                                }else{
-                                                    value.push(paper[column.id][column.id][i].full_name)
-                                                    break
-                                                }
-                                            }
-                                    }else if(column.id === 'page'){
-                                        value = paper.end_page-paper.start_page;
-                                    }else{
-                                        value = paper[column.id]
-                                    }
-                                    if(column.id === 'html_url'){
+                                        if(column.id == 'page'){
+                                          value = Math.abs(paper[column.id])
+                                        }else{
+                                          value = paper[column.id]
+                                        }
+                                      if(column.id === 'html_url'){
                                         return(
-                                            <TableCell  key={column.id} align={column.align}>
+                                            <TableCell  key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
                                                 <a href={value} target='_blank'>
                                                     <LaunchIcon/>
-                                                </a>
-                                                
+                                                </a>           
                                             </TableCell>
                                         )
-                    
-                                    }else {
+                                      }else if(column.id === 'title'){
+                                        return(
+                                          <TableCell  key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
+                                                <nav>
+                                                  <Link to="/network">{value}</Link>
+                                                </nav>
+                                                <Outlet />
+                                          </TableCell>
+                                        )
+                                    }else{
                                         return (
-                                            <TableCell key={column.id} align={column.align}>
+                                            <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
                                                 {column.format && typeof value === 'number'
                                                 ? column.format(value)
                                                 : value}
