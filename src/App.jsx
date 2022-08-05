@@ -23,6 +23,9 @@ import { useEffect,useState } from "react";
     //   const data = await response.json();
     //   setData(data);
 
+    //   const response = await fetch(`/.netlify/functions/api/authors/${author_id}`);
+    //   const data = await response.json();
+
 const Layout = ({children}) => {
     return(
         <>
