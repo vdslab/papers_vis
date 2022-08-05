@@ -24,9 +24,9 @@ import { Link, Outlet } from "react-router-dom";
 const columns = [
     { id: 'title', label: 'タイトル', align: 'left', disablePadding: false,minWidth: 300 },
     { id: 'year', label: '発行年', align: 'right', disablePadding: true,minWidth: 100 },
-    { id: 'page', label: 'ページ数', minWidth: 150, align: 'right', disablePadding: false, },
-    { id: 'citing_paper_count', label: '被引用数', minWidth: 150, align: 'right', disablePadding: false, },
-    { id: 'citing_patent_count', label: '被特許数', minWidth: 150, align: 'right', disablePadding: false, },
+    { id: 'page', label: 'ページ数', align: 'right', disablePadding: false, minWidth: 150 },
+    { id: 'citing_paper_count', label: '被引用数', align: 'right', disablePadding: false, minWidth: 150 },
+    { id: 'value', label: 'キーワード重要度', align: 'right', disablePadding: false, minWidth: 150 },
     { id: 'url', label: 'url', minWidth: 30}
   ];
 
