@@ -2,8 +2,10 @@ import { useEffect, useState,useRef } from "react";
 import * as d3 from 'd3';
 import { forceRadial } from "d3";
 import useWindowSize from '../useWindowSize';
+import objectArray2ArrayByKey from "../objectArray2ArraybyKey";
 import { noData } from "pg-protocol/dist/messages";
 import LabelProgress from '../components/LabelProgress';
+import { useParams } from "react-router-dom";
 
 /*
 todo
@@ -14,6 +16,7 @@ todo
 */
 
 const ZoomableSVG= ({ children, width, height }) => {
+   
     const svgRef = useRef();
     const [k, setK] = useState(1);
     const [x, setX] = useState(width/4);
@@ -37,8 +40,7 @@ const ZoomableSVG= ({ children, width, height }) => {
     );
   }
 
-const doi = "10.1109/MCOM.1977.1089436"
-const encoded = encodeURIComponent(doi);
+
 
 const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     //グラフの見た目の設定
@@ -58,11 +60,18 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
         return Array(50).fill(0);
     });
 
+    const params = useParams();
+
+
+
+    const deescapeDoi = (doi) => {
+        return doi.replaceAll('_', '.').replaceAll('-', '/');
+    }
 
     const changeNodeState = (key, state) => {
-        console.log(key);
+        //console.log(key);
         const tmp = nodesState.slice();
-        console.log(nodesState);
+        //console.log(nodesState);
         tmp[key] = state;
         setNodesState(tmp.slice());
     }
@@ -80,17 +89,13 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     }
 
     const toggleOnOffNodeClick = (node, key) => {
-        if(nodesState[key] == 2) {
-            //off
-            changeNodeState(key, 0);
-            setDetail({});
-        } else { 
+    
             setDetail(node);
             if(clickedNode !== -1 && clickedNode !== key && nodesState[clickedNode] === 2) {          
                 changeNodeState(clickedNode, 0);
             }
             setClickedNode(key);
-        }
+        
     }
 
     useEffect(() => {
@@ -130,39 +135,69 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             }
 
 
-
+          
+            const doi = deescapeDoi(params.doi);
+            //console.log(doi);
+            //const doi = "10.1109/JIOT.2020.3001383"
+            const encoded = encodeURIComponent(doi);
             const nodeData = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
             const simirarities = await(await fetch(`/.netlify/functions/api/similarity/${encoded}`)).json();
             //simirarities.length = 3;
             nodeData[0]['id'] =  encodeURIComponent( nodeData[0]['doi'] );
-    
-            const searchs = await(await fetch(`/.netlify/functions/api/search/${ encodeURIComponent( nodeData[0]['doi'] )}`)).json();
+            nodeData[0]['author'] = await(await fetch(`/.netlify/functions/api/authors/${encoded}`)).json();
+            try {
+                const response = await fetch(`/.netlify/functions/api/keywords/${encodeURIComponent(encoded)}`);
+                
+                if(response.status === 404) {
+                    throw 'keyword not found';
+                }
 
-            console.log(searchs);
+                nodeData[0]['keyword'] = await response.json();
+
+            } catch (err) {
+                nodeData[0]['keyword'] = [];
+                console.log("#####");
+                console.error(err);
+            }
+
+            //console.log(searchs);
             const filtered_simirarities = simirarities.filter(item =>   Number(item.similarity) >= 0.69 );
 
-            console.log(filtered_simirarities);
+           // console.log(filtered_simirarities);
             for(const item of filtered_simirarities) {
-                console.log()
-                console.log(item['doi'])
+                //console.log(item['doi'])
                 const tmp = await(await fetch(`/.netlify/functions/api/papers/${encodeURIComponent(item['target_doi'])}`)).json();
                 const node = tmp[0];
                 //console.log(node);
                 node['id'] = encodeURIComponent(node['doi']);
+                node['author'] = await(await fetch(`/.netlify/functions/api/authors/${encodeURIComponent(item['target_doi'])}`)).json();
+                try {
+                    const response = await fetch(`/.netlify/functions/api/keywords/${encodeURIComponent(item['target_doi'])}`);
+                    console.log(response);
+                    if(response.status === 404) {
+                         throw 'keyword not found';
+                    }
+
+                    node['keyword'] = await response.json();
+                } catch (err) {
+                    node['keyword'] = [];
+                    console.log("#####");
+                    console.error(err);
+                }
+                //console.log(node['keyword']);
                 nodeData.push(node);
             }; 
 
-            console.log("####")
-            console.log(nodeData);
-            console.log(simirarities);
+            //console.log("####")
+            //console.log(nodeData);
+            //console.log(simirarities);
 
             //nodeDataの必要オブジェクト
             //abstract
             //author
             //title
             //html_url
-            //pagecount:end_page - start_page
-
+            
 
             //リンクデータを作る
             const linkData = []
@@ -172,9 +207,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             })
 
 
-            console.log('final');
-            console.log(linkData);
-            console.log(nodeData);
+            //console.log('final');
+            //console.log(linkData);
+            //console.log(nodeData);
            startSimulation(nodeData, linkData);
         }
 
@@ -245,7 +280,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                     y={node.y}
                     style={{pointerEvents: "none"}}
                 >
-                    {nodeLabel === "title"?node.title:""}
+        
+                    {nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')}
+                   
                 </text>
             );
         })}                

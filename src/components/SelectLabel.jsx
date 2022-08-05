@@ -26,7 +26,7 @@ export default function SelectLabel ({nodeLabel, setNodeLabel}) {
               <MenuItem value="title">タイトル</MenuItem>
               <MenuItem value="keyword">キーワード</MenuItem>
               <MenuItem value="author">著者</MenuItem>
-              <MenuItem value="year">年代</MenuItem>
+              <MenuItem value="publication_year">年代</MenuItem>
               <MenuItem value="none">なし</MenuItem>
             </Select>
           </FormControl>

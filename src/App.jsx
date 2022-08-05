@@ -66,8 +66,8 @@ export default function App() {
                 <Routes>
                     <Route path = "/" element = {<Layout />}>
                         <Route index element = {<Main />} />
-                        <Route path = "network" element = {<Network />} />
-                        <Route path = "help" element = {<p>f</p>} />
+                        <Route path = "network/:doi" element = {<Network />} />
+                        <Route exact path = "help" element = {<p>f</p>} />
                         <Route path="*" element={<NotFound />} />
                 </Route>
 
