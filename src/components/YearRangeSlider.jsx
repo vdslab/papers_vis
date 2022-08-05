@@ -1,5 +1,5 @@
 import { useSelect } from '@mui/base';
-import Box from '@mui/material/Box';
+import {Box,Card} from '@mui/material';
 import Slider from '@mui/material/Slider';
 import * as React from 'react';
 import { useDispatch, useSelector } from "react-redux";
@@ -17,9 +17,12 @@ const YearRangeSlider = () => {
   }
 
     return (
+      <Card sx={{ p: 3, height: "100%" }}>
+        <p>年代の選択</p>
         <Box sx={{ margin: 3.5 }}>
-          <Box sx={{ width: 300, height: 30, margin: 2 }}>
+          <Box sx={{ width: 280, height:180,marginTop:3, margin: -2 }}>
             <Slider
+              sx={{ml:0.5, mt:15, height:5}}
               getAriaLabel={() => 'Temperature range'}
               value={value}
               onChange = {(event) => {
@@ -36,7 +39,7 @@ const YearRangeSlider = () => {
             />
           </Box>
           
-          <Box sx={{ display: 'flex', margin: 2 }}>
+          <Box sx={{ display: 'flex',height:150, margin: 1 }}>
             <form>
               <label>
                 From  <input type="number" value={ startYear } 
@@ -61,6 +64,7 @@ const YearRangeSlider = () => {
             </form>
           </Box>
         </Box>
+      </Card>
     );
   }
 
