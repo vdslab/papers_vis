@@ -86,17 +86,13 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     }
 
     const toggleOnOffNodeClick = (node, key) => {
-        if(nodesState[key] == 2) {
-            //off
-            changeNodeState(key, 0);
-            setDetail({});
-        } else { 
+    
             setDetail(node);
             if(clickedNode !== -1 && clickedNode !== key && nodesState[clickedNode] === 2) {          
                 changeNodeState(clickedNode, 0);
             }
             setClickedNode(key);
-        }
+        
     }
 
     useEffect(() => {

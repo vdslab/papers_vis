@@ -26,11 +26,11 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu}) => {
             {/*<h2 className='subtitle'>{detail.author}</h2>*/}
 
             {console.log(detail.author)}
-           {detail.author === undefined || <ui>
+           {detail.author === undefined || <ul>
             {detail.author.map((element) => {
                 return <a href = {element.url} target="_black" rel = "external"> <li>{element.name}</li></a>
             })}
-           </ui>
+           </ul>
            }
            {console.log(detail.author)}
        
