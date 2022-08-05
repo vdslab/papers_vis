@@ -68,6 +68,17 @@ router.get("/keywords", async (req, res) => {
   res.json(data);
 });
 
+router.get("/keywords/:doi", async(req, res) => {
+  const data = await selectRows(`SELECT * FROM keywords WHERE doi = $1`, [
+    req.params.doi,
+  ]);
+  if (data.length === 0) {
+    res.status(404).json({ message: "not found" });
+  } else {
+    res.json(data);
+  }
+}); 
+
 router.get("/keywords/:keyword/:startYear/:endYear", async (req, res) => {
     const data = await selectRows(`SELECT * FROM keywords WHERE keyword = $1 AND year >= $2 AND year <= $3`, [
       req.params.keyword,req.params.startYear,req.params.endYear

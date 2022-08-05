@@ -2,6 +2,7 @@ import { useEffect, useState,useRef } from "react";
 import * as d3 from 'd3';
 import { forceRadial } from "d3";
 import useWindowSize from '../useWindowSize';
+import objectArray2ArrayByKey from "../objectArray2ArraybyKey";
 import { noData } from "pg-protocol/dist/messages";
 import LabelProgress from '../components/LabelProgress';
 import { useParams } from "react-router-dom";
@@ -60,6 +61,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     });
 
     const params = useParams();
+
+
 
     const deescapeDoi = (doi) => {
         return doi.replaceAll('_', '.').replaceAll('-', '/');
@@ -157,6 +160,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                 //console.log(node);
                 node['id'] = encodeURIComponent(node['doi']);
                 node['author'] = await(await fetch(`/.netlify/functions/api/authors/${encodeURIComponent(item['target_doi'])}`)).json();
+                node['keyword'] = await(await fetch(`/.netlify/functions/api/keywords/${encodeURIComponent(item['target_doi'])}`)).json();
+                console.log(node['keyword']);
                 nodeData.push(node);
             }; 
 
@@ -169,8 +174,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             //author
             //title
             //html_url
-            //pagecount:end_page - start_page
-
+            
 
             //リンクデータを作る
             const linkData = []
@@ -253,7 +257,11 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                     y={node.y}
                     style={{pointerEvents: "none"}}
                 >
-                    {nodeLabel === "title"?node.title:""}
+                    {console.log(node['keyword'])}
+                    {console.log(node['author'])}
+                    {nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')}
+                    {console.log(node[nodeLabel])}
+                    {console.log(nodeLabel)}
                 </text>
             );
         })}                

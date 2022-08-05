@@ -1,13 +1,11 @@
 import Divider from '@mui/material/Divider';
+import objectArray2ArrayByKey from '../objectArray2ArraybyKey';
 import CloseIcon from '@mui/icons-material/Close';
 import {useRef, useState} from 'react';
 
 
 const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu}) => {
 
-    const authors = typeof detail.author === undefined || [];
-    console.log("#####");
-    console.log(detail.author);
     return(
           
         <section className ="message is-info is-12" style={{width:'45%', height :isOpenMenu?`${window.innerHeight * 0.7}px`:'0px',overflowY: 'scroll', transitionDuration: '.3s'}} >
@@ -25,14 +23,20 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu}) => {
             
             {/*<h2 className='subtitle'>{detail.author}</h2>*/}
 
-            {console.log(detail.author)}
+            {/*console.log(detail.author)*/}
            {detail.author === undefined || <ul>
             {detail.author.map((element) => {
-                return <a href = {element.url} target="_black" rel = "external"> <li>{element.name}</li></a>
+                //console.log(element);
+                return element["url"] !== null?<a href = {element.url} target="_black" rel = "external"> <li>{element.name}</li></a>:<li>{element.name}</li>;
             })}
            </ul>
            }
-           {console.log(detail.author)}
+           {/*console.log(detail.author) */}
+
+           <br/>
+           {detail.keyword === undefined || 
+            <p>{objectArray2ArrayByKey(detail.keyword, 'keyword').join(',')}</p>
+           }
        
 
             <Divider/><br/>
