@@ -36,6 +36,30 @@ const Layout = ({children}) => {
     );
 }
 export default function App() {
+    //const [data, setData] = useState([]);
+    useEffect(() => {
+        /*
+    (async () => {
+    //検索されたdoiとauthor_id
+      const doi = "10.1109/MCOM.1977.1089436"
+      const encoded = encodeURIComponent(doi);
+      const author_id = 17513;//26143,72400
+      //選択された論文のdoiで類似度top10の検索
+      const response = await fetch(`/.netlify/functions/api/papers/${encoded}`);
+    
+      //類似度が高いdoi
+      const target_doi = "10.1109/35.166648";
+      const target_encoded = encodeURIComponent(target_doi);
+      //選択した論文と類似度が高い論文の内容の検索
+      //const response = await fetch(`/.netlify/functions/api/papers/${target_encoded}`);
+    //const response = await fetch(`/.netlify/functions/api/authors/${author_id}`);
+    const data = await response.json();
+    console.log(data);
+    setData(data);
+    })();
+    */
+    }, []);
+
     return (
             <BrowserRouter>
                 <ScrollTop />

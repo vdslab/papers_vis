@@ -5,13 +5,15 @@ import  NetworkGraph  from '../components/NetworkGraph';
 import NodeDetail from '../components/NodeDetail';
 import SelectLabel from '../components/SelectLabel';
 import { useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 
 const Network = () => {
     const [detail, setDetail] = useState({});
     const [isOpenMenu, setIsOpenMenu] = useState(true);
     const [nodeLabel, setNodeLabel] = useState("title");
-
+    const search = useLocation().search;
+    const query = new URLSearchParams(search);
     return(
         
         <section style={{display:'flex', margin: '20px'}}>

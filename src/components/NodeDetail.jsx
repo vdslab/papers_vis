@@ -19,7 +19,7 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu}) => {
         
         <div className="message-body">
             
-            <a href = {detail.url} target="_black" rel = "external"><h1 className='title is-info is-4'>{detail.title}</h1></a>
+            <a href = {detail.html_url} target="_black" rel = "external"><h1 className='title is-info is-4'>{detail.title}</h1></a>
             <br/><br/>
             
             <h2 className='subtitle'>{detail.author}</h2>
