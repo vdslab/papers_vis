@@ -5,17 +5,28 @@ import {changePapersCount} from "../redux/papersCountSlice"
 import { changeKeyword } from '../redux/keywordSlice';
 import { changePapersKeyword } from '../redux/papersKeywordSlice';
 
+function Loading (){
+    return(
+        <div>
+            <svg viewBox="0 0 250 250" width = "100%" height = "400" className='card'>
+                <text x="200" y="100" >
+                    Loading
+                </text>
+            </svg>
+        </div>
+    )
+}
+
 const BubbleChart = () => {
     const width = 250;
     const height = 270;
     const dispatch = useDispatch();
-    const papersCount = useSelector((state) => state.papersCounter.count);
     const startYear = useSelector((state) => state.startYear.year);
     const endYear = useSelector((state) => state.endYear.year);
     const keyword = useSelector((state) => state.keyword.keyword);
-    const elements = [5000,4000,3000,2000];
     const [data,setData] = useState([]);
     const papers = useSelector((state) => state.papersKeyword.papers);
+    const [judge ,setJudge] = useState(false);
 
     useEffect(() => {
         (async () => {
@@ -35,19 +46,21 @@ const BubbleChart = () => {
                 list = list.concat(data);
             }
             list.sort((a, b) => b.count - a.count);
-            const result = {children:list.slice(0,15)}
+            const result = {children:list.slice(0,30)}
             setData(result);
+            setJudge(true);
         })();
     },[endYear,startYear]);
-
+    console.log(data)
     useEffect(() => {
         (async () => {
             const response = await fetch(`/.netlify/functions/api/keywords/${keyword}/${startYear}/${endYear}`);
             const data = await response.json();
             dispatch(changePapersKeyword(data));
         })();
+        console.log(papers)
     },[keyword])
-    console.log(keyword)
+    
     let packs = d3.pack()
                  .size([width, height])
                  .padding(0);
@@ -60,22 +73,13 @@ const BubbleChart = () => {
     }
 
     const onClickhandle = (e,name)=> {
-        console.log(e.target.value)
         dispatch(changeKeyword(name));
     }
-    
+    if(!judge){
+        return <Loading />
+    }
     return(
         <div>
-            <select  
-                value={papersCount} 
-                onChange={(event) => {
-                dispatch(changePapersCount(event.target.value));
-              }}
-            >
-                {elements.map((element) => {
-                    return <option value={element}>{element}</option>;
-                })}
-            </select>
             <svg viewBox="0 0 250 250" width = "100%" height = "400" className='card'>
                 {node.leaves().map((item,i)=>{
                     return(

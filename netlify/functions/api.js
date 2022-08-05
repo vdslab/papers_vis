@@ -31,7 +31,7 @@ router.get("/papers", async (req, res) => {
 });
 
 router.get("/papers/:doi", async (req, res) => {
-  const data = await selectRows(`SELECT (doi,title,html_url,start_page,end_page) FROM papers WHERE doi = $1`, [
+  const data = await selectRows(`SELECT * FROM papers WHERE doi = $1`, [
     req.params.doi,
   ]);
   if (data.length === 0) {
@@ -52,9 +52,9 @@ router.get("/authors", async (req, res) => {
   res.json(data);
 });
 
-router.get("/authors/:author_id", async (req, res) => {
-  const data = await selectRows(`SELECT * FROM authors WHERE author_id = $1`, [
-    req.params.author_id,
+router.get("/authors/:doi", async (req, res) => {
+  const data = await selectRows(`SELECT * FROM authors WHERE doi = $1`, [
+    req.params.doi,
   ]);
   if (data.length === 0) {
     res.status(404).json({ message: "not found" });

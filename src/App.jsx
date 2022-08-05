@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+import ScrollTop from "./components/Scrolltop";
 import NotFound from "./pages/NotFound";
 import "bulma/css/bulma.css";
 import {
@@ -35,7 +36,7 @@ export default function App() {
       //const response = await fetch(`/.netlify/functions/api/authorsearch/${encoded}`);
       
       //author_idからauthorの情報の検索
-      const response = await fetch(`/.netlify/functions/api/authors/${author_id}`);
+      const response = await fetch(`/.netlify/functions/api/authors/${target_encoded}`);
       const data = await response.json();
       setData(data);
     })();
@@ -46,14 +47,14 @@ export default function App() {
         <div>
             <Header />
             <BrowserRouter>
+                <ScrollTop />
                 <Routes>
-                    <Route path = "/" element = { <Main/> } />
+                    <Route path = "/" element = { <Main/> } />   
                     <Route path = "/network" element = {<Network/>} />
                     <Route path = '/help' element = {<div>help</div>}/>
                     <Route path = "*" element = {<NotFound/>} />
                 </Routes>
             </BrowserRouter>
-            
             <Footer />
         </div>
     );
