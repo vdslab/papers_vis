@@ -26,8 +26,9 @@ const Layout = ({children}) => {
     );
 }
 export default function App() {
-    const [data, setData] = useState([]);
+    //const [data, setData] = useState([]);
     useEffect(() => {
+        /*
     (async () => {
     //検索されたdoiとauthor_id
       const doi = "10.1109/MCOM.1977.1089436"
@@ -46,6 +47,7 @@ export default function App() {
     console.log(data);
     setData(data);
     })();
+    */
     }, []);
 
     return (

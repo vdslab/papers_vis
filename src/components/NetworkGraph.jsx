@@ -14,7 +14,6 @@ todo
 */
 
 const ZoomableSVG= ({ children, width, height }) => {
-    //console.log("ZoomableSVG");
     const svgRef = useRef();
     const [k, setK] = useState(1);
     const [x, setX] = useState(width/4);
@@ -43,18 +42,16 @@ const encoded = encodeURIComponent(doi);
 
 const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     //グラフの見た目の設定
-    const [height, width] = useWindowSize();
-    const [graphWidth, graphHeight] = [0.9*height, 0.9*width];
+    const [width, height] = useWindowSize();
+    const [graphWidth, graphHeight] = [0.9*width, 0.9*height];
     const [normalNodeCol, hoverNodeCol, clickedNodeCol, linkCol] 
     = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)', 'rgb(150, 150, 150)'];
 
-    
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
     const [clickedNode, setClickedNode] = useState(-1);
     const [loading, setLoading] = useState(true);
-    const th = 0.8;
-   
+    const thre = 0.8;
     
     const [nodesState, setNodesState] = useState(() => {
         //0は通常 1はホバー状態　2はクリック状態
@@ -137,9 +134,11 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             const nodeData = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
             const simirarities = await(await fetch(`/.netlify/functions/api/similarity/${encoded}`)).json();
             //simirarities.length = 3;
-            
             nodeData[0]['id'] =  encodeURIComponent( nodeData[0]['doi'] );
-           
+    
+            const searchs = await(await fetch(`/.netlify/functions/api/search/${ encodeURIComponent( nodeData[0]['doi'] )}`)).json();
+
+            console.log(searchs);
             const filtered_simirarities = simirarities.filter(item =>   Number(item.similarity) >= 0.69 );
 
             console.log(filtered_simirarities);
@@ -182,14 +181,6 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
         fetchData();
     }, []);
 
- 
-
-
-    const node =  d3.selectAll('g.nodes')
-    .call(d3.drag()
-    .on("drag", (event, d) => (d.x = event.x, d.y = event.y))
-    .on("end", (event, d) => (d.x = null, d.y = null))
-    );
 
     useEffect(() => {
         changeNodeState(clickedNode, 2);
@@ -198,20 +189,16 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     return(
         <div>
 
-        {loading?<LabelProgress/>:
+        {loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><LabelProgress/></div>:
         <ZoomableSVG width={graphWidth} height={graphHeight}>
         <g className="links">
             {links.map((link) => {
-                //console.log("#################");
-                //console.log(link);
-                //console.log(link.source.x);
                 return(
                     <line
                     key={link.source.id + "-" + link.target.id}
                     stroke= {linkCol}
                     strokeWidth="0.7"
                     className="link"
-
                     x1={link.source.x}
                     y1={link.source.y}
                     x2={link.target.x}
@@ -226,12 +213,6 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
         <g className="nodes">
 
             {nodes.map((node, key)=> {
-                    //console.log(node.id);
-                    //console.log(node.x);
-                    //console.log(node.y);
-                    //console.log("");
-                    //console.log(isNodesHover[key])
-                    //console.log(nodesState);
                 return (
                     <circle
                         className="node"
@@ -251,10 +232,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
         <g className="texts">
             
             {nodes.map((node)=> {
-                //console.log(node);
-                //console.log(node.x);
-                //console.log(node.y);
-                //console.log("");
+
             return (
 
                 <text

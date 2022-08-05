@@ -100,7 +100,7 @@ router.get("/similarity", async (req, res) => {
   const data = await selectRows(`SELECT * FROM similarity`);
   res.json(data);
 });
-
+git
 router.get("/similarity/:doi", async (req, res) => {
   const data = await selectRows(`SELECT * FROM similarity WHERE doi = $1`, [
     req.params.doi,

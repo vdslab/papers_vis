@@ -11,7 +11,6 @@ const Network = () => {
     const [detail, setDetail] = useState({});
     const [isOpenMenu, setIsOpenMenu] = useState(true);
     const [nodeLabel, setNodeLabel] = useState("title");
-
     return(
         
         <section style={{display:'flex', margin: '20px'}}>
