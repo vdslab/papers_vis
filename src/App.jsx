@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+import ScrollTop from "./components/Scrolltop";
 import NotFound from "./pages/NotFound";
 import "bulma/css/bulma.css";
 import {
@@ -14,7 +15,16 @@ import * as d3 from 'd3';
 import { useEffect,useState } from "react";
 
 
+      //論文のauthor_idを取得 このテーブル消すかも。タイムアウトしなければ直接authorを検索できるようにする。
+      //const response = await fetch(`/.netlify/functions/api/authorsearch/${encoded}`);
+      
+      //author_idからauthorの情報の検索
+    //   const response = await fetch(`/.netlify/functions/api/authors/${target_encoded}`);
+    //   const data = await response.json();
+    //   setData(data);
 
+    //   const response = await fetch(`/.netlify/functions/api/authors/${author_id}`);
+    //   const data = await response.json();
 
 const Layout = ({children}) => {
     return(
@@ -52,13 +62,14 @@ export default function App() {
 
     return (
             <BrowserRouter>
+                <ScrollTop />
                 <Routes>
                     <Route path = "/" element = {<Layout />}>
                         <Route index element = {<Main />} />
                         <Route path = "network" element = {<Network />} />
                         <Route path = "help" element = {<p>f</p>} />
                         <Route path="*" element={<NotFound />} />
-                    </Route>
+                </Route>
 
                     
                 </Routes>

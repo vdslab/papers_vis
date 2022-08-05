@@ -52,9 +52,9 @@ router.get("/authors", async (req, res) => {
   res.json(data);
 });
 
-router.get("/authors/:author_id", async (req, res) => {
-  const data = await selectRows(`SELECT * FROM authors WHERE author_id = $1`, [
-    req.params.author_id,
+router.get("/authors/:doi", async (req, res) => {
+  const data = await selectRows(`SELECT * FROM authors WHERE doi = $1`, [
+    req.params.doi,
   ]);
   if (data.length === 0) {
     res.status(404).json({ message: "not found" });
@@ -68,9 +68,9 @@ router.get("/keywords", async (req, res) => {
   res.json(data);
 });
 
-router.get("/keywords/:keyword", async (req, res) => {
-    const data = await selectRows(`SELECT * FROM keywords WHERE keyword = $1`, [
-      req.params.keyword,
+router.get("/keywords/:keyword/:startYear/:endYear", async (req, res) => {
+    const data = await selectRows(`SELECT * FROM keywords WHERE keyword = $1 AND year >= $2 AND year <= $3`, [
+      req.params.keyword,req.params.startYear,req.params.endYear
     ]);
     if (data.length === 0) {
       res.status(404).json({ message: "not found" });
@@ -100,9 +100,25 @@ router.get("/similarity", async (req, res) => {
   const data = await selectRows(`SELECT * FROM similarity`);
   res.json(data);
 });
-git
+
 router.get("/similarity/:doi", async (req, res) => {
   const data = await selectRows(`SELECT * FROM similarity WHERE doi = $1`, [
+    req.params.doi,
+  ]);
+  if (data.length === 0) {
+    res.status(404).json({ message: "not found" });
+  } else {
+    res.json(data);
+  }
+});
+
+router.get("/authorsearch", async (req, res) => {
+  const data = await selectRows(`SELECT * FROM authorsearch`);
+  res.json(data);
+});
+
+router.get("/authorsearch/:doi", async (req, res) => {
+  const data = await selectRows(`SELECT * FROM authorsearch WHERE doi = $1`, [
     req.params.doi,
   ]);
   if (data.length === 0) {

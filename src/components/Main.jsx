@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 
 import YearRangeSlider from './YearRangeSlider';
 import BubbleChart from './BubbleChart';
+import PapersView from './PapersView';
 
 export default function Main() {
     return (
@@ -31,7 +32,8 @@ export default function Main() {
 
       {/*論文リスト */}
       <div style={{ margin: '40px'}} className = "menu">
-        <p className='menu-label'>
+        <PapersView />
+        {/* <p className='menu-label'>
           論文リスト
         </p>
 
@@ -42,7 +44,7 @@ export default function Main() {
           <li><p>論文1</p></li>
           <li><p>論文1</p></li>
           <li><p>論文1</p></li>
-        </ul>
+        </ul> */}
       </div>
 
       
