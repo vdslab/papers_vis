@@ -4,18 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {changePapersCount} from "../redux/papersCountSlice"
 import { changeKeyword } from '../redux/keywordSlice';
 import { changePapersKeyword } from '../redux/papersKeywordSlice';
-
-function Loading (){
-    return(
-        <div>
-            <svg viewBox="0 0 250 250" width = "100%" height = "400" className='card'>
-                <text x="200" y="100" >
-                    Loading
-                </text>
-            </svg>
-        </div>
-    )
-}
+import { Card, Tooltip } from "@mui/material";
 
 const BubbleChart = () => {
     const width = 250;
@@ -27,8 +16,9 @@ const BubbleChart = () => {
     const [data,setData] = useState([]);
     const papers = useSelector((state) => state.papersKeyword.papers);
     const [judge ,setJudge] = useState(false);
-
+    
     useEffect(() => {
+        //setJudge(false);
         (async () => {
             let list = [];
             for (let i = startYear;i <= endYear;i++){
@@ -76,15 +66,25 @@ const BubbleChart = () => {
         dispatch(changeKeyword(name));
     }
     if(!judge){
-        return <Loading />
+        return (
+        <Card sx={{ p: 3, height: "100%" }}>
+            <p>キーワードの選択</p>
+            <svg viewBox="0 0 250 250" width = "100%" height = "400">
+                <text x="125" y="100"  dominantBaseline="central" textAnchor="middle">
+                    Loading
+                </text>
+            </svg>
+        </Card>
+        );
     }
     return(
-        <div>
-            <svg viewBox="0 0 250 250" width = "100%" height = "400" className='card'>
+        <Card sx={{ p: 3, height: "100%" }}>
+            <p>キーワードの選択</p>
+            <svg viewBox="-80 0 400 270" height = "400" >
                 {node.leaves().map((item,i)=>{
                     return(
                     <g transform={`translate(${item.x},${item.y})`} style={styles}>
-                        <circle data-tip data-for="sadFace" 
+                        <circle className='key'
                             r={item.r} 
                             fill="#ff9500" 
                             opacity={(node.leaves().length-i)/node.leaves().length+0.1} 
@@ -97,7 +97,7 @@ const BubbleChart = () => {
                 )
             })}
             </svg>
-        </div>
+        </Card>
         
     );
     

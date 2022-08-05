@@ -3,7 +3,7 @@ import TextField from '@mui/material/TextField';
 import SearchIcon from '@mui/icons-material/Search';
 
 import { InputAdornment } from '@mui/material';
-import Box from '@mui/material/Box';
+import { Box, Grid } from "@mui/material";
 
 import YearRangeSlider from './YearRangeSlider';
 import BubbleChart from './BubbleChart';
@@ -14,21 +14,25 @@ export default function Main() {
     <div style={{margin: '40px'}}>
       
       {/*  論文検索フォーム */}
-      <Box sx={{ margin: '40px' }}>
+      <Box sx={{ margin: '70px' }}>
           <Box sx={{ width: '100%', height: 30 }}>
             <TextField fullWidth id="fullWidth" label="論文検索" variant="outlined"
             InputProps={{startAdornment:<InputAdornment position="start"><SearchIcon/></InputAdornment>}}/>
           </Box>
       </Box>
 
-    
+      <Box>
+      <Grid container sx={{ p: 3 ,margin:'30px' }} columnSpacing={2} rowSpacing={2}>    
       {/* キーワードビュー　*/}
-      <div style={{ margin: '40px'}}>
-          <p>キーワード検索</p> 
+        <Grid item xs={4}>
+          <YearRangeSlider/>
+        </Grid>
+        <Grid item xs={7}> 
           <BubbleChart />
-      </div>
-      
-      <YearRangeSlider />
+        </Grid>
+        
+      </Grid>
+      </Box>
 
       {/*論文リスト */}
       <div style={{ margin: '40px'}} className = "menu">
