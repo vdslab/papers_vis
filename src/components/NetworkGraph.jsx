@@ -1,9 +1,15 @@
 import { useEffect, useState,useRef } from "react";
 import * as d3 from 'd3';
 import { forceRadial } from "d3";
+import useWindowSize from '../useWindowSize';
 
-const [graphWidth, graphHeight] = [600, 800];
-const [normalNodeCol, hoverNodeCol, clickedNodeCol] = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)'];
+/*
+todo
+グラフの調整
+・ノードをドラッグできるようにする
+・ノードテキストを[タイトル、キーワード、作者、なし]で切り替えられるようにする
+・ZoomableSVGを使いやすいように調整する
+*/
 
 const ZoomableSVG= ({ children, width, height }) => {
     //console.log("ZoomableSVG");
@@ -30,24 +36,20 @@ const ZoomableSVG= ({ children, width, height }) => {
     );
   }
 
-const dragged = (e, d) => {
-    d.x = e.x;
-    d.y = e.y
-}
-
-const dragended = (e, d) => {
-    d.x = null;
-    d.y = null;
-}
 
 
-let prevkey = -1;
-const NetworkGraph = ({detail, setDetail}) => {
+const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
+    //グラフの見た目の設定
+    const [height, width] = useWindowSize();
+    const [graphWidth, graphHeight] = [0.9*height, 0.9*width];
+    const [normalNodeCol, hoverNodeCol, clickedNodeCol, linkCol] 
+    = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)', 'rgb(150, 150, 150)'];
+
     
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
     const [clickedNode, setClickedNode] = useState(-1);
-
+    
     const [nodesState, setNodesState] = useState(() => {
 
         let len;
@@ -90,8 +92,8 @@ const NetworkGraph = ({detail, setDetail}) => {
             changeNodeState(key, 0);
             setDetail({});
         } else {
-            console.log("$$$")
-            changeNodeState(key, 2);
+            console.log("$$$");
+          
             setDetail(node);
             console.log("prev:" + clickedNode);
             console.log("key:" + key);
@@ -180,8 +182,8 @@ const NetworkGraph = ({detail, setDetail}) => {
                 return(
                     <line
                     key={link.source.id + "-" + link.target.id}
-                    stroke="black"
-                    strokeWidth="0.5"
+                    stroke= {linkCol}
+                    strokeWidth="0.7"
                     className="link"
 
                     x1={link.source.x}
@@ -239,7 +241,7 @@ const NetworkGraph = ({detail, setDetail}) => {
                     y={node.y}
                     style={{pointerEvents: "none"}}
                 >
-                    {node.title}
+                    {nodeLabel === "title"?node.title:""}
                 </text>
             );
         })}                
