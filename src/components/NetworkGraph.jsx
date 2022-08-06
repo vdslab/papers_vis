@@ -18,9 +18,9 @@ todo
 const ZoomableSVG= ({ children, width, height }) => {
    
     const svgRef = useRef();
-    const [k, setK] = useState(1);
+    const [k, setK] = useState(2);
     const [x, setX] = useState(width/4);
-    const [y, setY] = useState(height/8);
+    const [y, setY] = useState(height/4);
     useEffect(() => {
       const zoom = d3.zoom().on("zoom", (event) => {
         const { x, y, k } = event.transform;
@@ -40,33 +40,6 @@ const ZoomableSVG= ({ children, width, height }) => {
     );
   }
 
-
-//
-// Stack (LIFO)
-//
-
-function Stack() {
-	this.__a = new Array();
-}
-
-Stack.prototype.push = function(o) {
-	this.__a.push(o);
-}
-
-Stack.prototype.pop = function() {
-	if( this.__a.length > 0 ) {
-		return this.__a.pop();
-	}
-	return null;
-}
-
-Stack.prototype.size = function() {
-	return this.__a.length;
-}
-
-Stack.prototype.toString = function() {
-	return '[' + this.__a.join(',') + ']';
-}
 
 
 const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
@@ -145,14 +118,15 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                         return 15;
                       })
                       .iterations(0.5))
-                .force('x', d3.forceX().x(100).strength(0))
-                .force('y', d3.forceY().y(100).strength(0))
+                .force('x', d3.forceX().x(100).strength(0.3))
+                .force('y', d3.forceY().y(100).strength(0.3))
                 .force('r', d3.forceRadial()
-                .radius(100)
+                .radius(150)
                 .x(100)
                 .y(100)
-                .strength(0.5))
+                .strength(1))
                 ;
+                console.log(height);
 
                 const ticked = () => {
                     setNodes(nodes.slice());
@@ -395,7 +369,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                     key={node.id}
                     textAnchor="middle"
                     fill="black"
-                    fontSize={"6px"}
+                    fontSize={"5px"}
                     x={node.x}
                     y={node.y}
                     style={{pointerEvents: "none"}}
