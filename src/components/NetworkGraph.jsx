@@ -41,6 +41,33 @@ const ZoomableSVG= ({ children, width, height }) => {
   }
 
 
+//
+// Stack (LIFO)
+//
+
+function Stack() {
+	this.__a = new Array();
+}
+
+Stack.prototype.push = function(o) {
+	this.__a.push(o);
+}
+
+Stack.prototype.pop = function() {
+	if( this.__a.length > 0 ) {
+		return this.__a.pop();
+	}
+	return null;
+}
+
+Stack.prototype.size = function() {
+	return this.__a.length;
+}
+
+Stack.prototype.toString = function() {
+	return '[' + this.__a.join(',') + ']';
+}
+
 
 const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     //グラフの見た目の設定
@@ -98,6 +125,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
         
     }
 
+
+
     useEffect(() => {
     
         const fetchData = async () => {
@@ -108,18 +137,21 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                 const simulation = d3
                 .forceSimulation()
                 .nodes(nodes)
-                .force("link", d3.forceLink().strength(-0.1).distance((d) => {
-                    return 10;
-                  }).id((d) => d['id']))
+                .force("link", d3.forceLink().strength(0.1).id((d) => d['id']))
                 .force("center", d3.forceCenter(100, 100))
-                .force('charge', d3.forceManyBody().strength(-1))
+                .force('charge', d3.forceManyBody().strength(-0.5))
                 .force('collision', d3.forceCollide()
                       .radius(function (d) {
                         return 15;
                       })
                       .iterations(0.5))
-                .force('x', d3.forceX().x(100).strength(0.5))
-                .force('y', d3.forceY().y(100).strength(0.5))
+                .force('x', d3.forceX().x(100).strength(0))
+                .force('y', d3.forceY().y(100).strength(0))
+                .force('r', d3.forceRadial()
+                .radius(100)
+                .x(100)
+                .y(100)
+                .strength(0.5))
                 ;
 
                 const ticked = () => {
@@ -134,16 +166,102 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                 setLoading(false);
             }
 
+            
+            const dfs = async (doi) => {
+                console.log("#######")
+                let stack = [];
+                const doiset = new Set();
+                stack.push(doi);
+                let top;
+                let prev = -1;
+                
+                while(stack.length !== 0) {
+                    top = stack.pop();
+                    console.log("$$$$$$$$$$")
+                    console.log(top);
+                    if(nodeData.length >= 20) {
+                        return;
+                    }
+                    const encoded = encodeURIComponent(top);
+                    const tmp = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
+                    const data = tmp[0];
+                    
+                    data['id'] = top;
+                    data['author'] = await(await fetch(`/.netlify/functions/api/authors/${encoded}`)).json();
+                    try {
+                        const response = await fetch(`/.netlify/functions/api/keywords/${encoded}`);
+    
+                        if(response.status === 404) {
+                            throw "keyword not found";
+                        }
+    
+                        data['keyword'] = await response.json();
+                    } catch (err) {
+                        data['keyword'] = [];
+                    }
+    
+                    console.log(`push!!!!!!!!!!!${nodeData.length}`);
+                    console.log(data);
 
-          
+                    if(doiset.has(top) === false) {
+                        nodeData.push(data);
+                        doiset.add(top);
+                    }
+
+                    if(prev !== -1) {
+                        console.log(prev);
+                        console.log(top);
+                        linkData.push({source:prev, target:top});
+                    }
+                    
+                    const similarities = await(await fetch(`/.netlify/functions/api/similarity/${encodeURIComponent(top)}`)).json();
+                    similarities.length = 3;
+                    console.log(similarities);
+
+                    for(const sim of similarities) {
+
+                        /*
+                        console.log("$$$$$$$$$$");
+                        console.log(prev);
+                        
+                        console.log("$$$$$$$$$$\n");
+                        */
+
+                        console.log(sim["doi"]);
+                       console.log(doiset)
+                        if(sim['similarity'] >= 0.1 && doiset.has(sim['target_doi']) === false) {
+                            console.log("Yay")
+                            //linkData.push({source:top, target:sim['target_doi']});
+                            //console.log(sim['target_doi'])
+                            stack.push(sim['target_doi']);
+                        }
+                    }
+
+                    prev = top;
+                }
+
+                /*for(const sim of similarities) {
+                    if(nodeData.length >= 40) {
+                        return;
+                    }
+                    if(sim['similarity'] >= 0.7) {
+                        linkData.push({source:doi, target:sim['target_doi']});
+                        dfs(sim['target_doi']);
+                    }
+                }*/
+            }
+
+            //dfsでノードを伸ばす
             const doi = deescapeDoi(params.doi);
-            //console.log(doi);
-            //const doi = "10.1109/JIOT.2020.3001383"
-            const encoded = encodeURIComponent(doi);
+            const nodeData = [];
+            const linkData = [];
+            await dfs(doi);
+            /*const encoded = encodeURIComponent(doi);
             const nodeData = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
             const simirarities = await(await fetch(`/.netlify/functions/api/similarity/${encoded}`)).json();
-            //simirarities.length = 3;
-            nodeData[0]['id'] =  encodeURIComponent( nodeData[0]['doi'] );
+            console.log(simirarities);
+
+            nodeData[0]['id'] =  nodeData[0]['doi'] ;
             nodeData[0]['author'] = await(await fetch(`/.netlify/functions/api/authors/${encoded}`)).json();
             try {
                 const response = await fetch(`/.netlify/functions/api/keywords/${encodeURIComponent(encoded)}`);
@@ -156,20 +274,20 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
             } catch (err) {
                 nodeData[0]['keyword'] = [];
-                console.log("#####");
                 console.error(err);
             }
 
-            //console.log(searchs);
+            
             const filtered_simirarities = simirarities.filter(item =>   Number(item.similarity) >= 0.69 );
 
+           
            // console.log(filtered_simirarities);
             for(const item of filtered_simirarities) {
                 //console.log(item['doi'])
                 const tmp = await(await fetch(`/.netlify/functions/api/papers/${encodeURIComponent(item['target_doi'])}`)).json();
                 const node = tmp[0];
                 //console.log(node);
-                node['id'] = encodeURIComponent(node['doi']);
+                node['id'] = node['doi'];
                 node['author'] = await(await fetch(`/.netlify/functions/api/authors/${encodeURIComponent(item['target_doi'])}`)).json();
                 try {
                     const response = await fetch(`/.netlify/functions/api/keywords/${encodeURIComponent(item['target_doi'])}`);
@@ -203,13 +321,15 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             const linkData = []
 
             filtered_simirarities.map((item) => {
-                linkData.push({source: encodeURIComponent(item['doi']), target:encodeURIComponent(item['target_doi'])});
+                linkData.push({source: item['doi'], target:item['target_doi']});
             })
 
-
-            //console.log('final');
-            //console.log(linkData);
-            //console.log(nodeData);
+            */
+            console.log('final');
+            console.log(nodeData);
+            console.log(linkData);
+            
+            
            startSimulation(nodeData, linkData);
         }
 
@@ -275,7 +395,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                     key={node.id}
                     textAnchor="middle"
                     fill="black"
-                    fontSize={"10px"}
+                    fontSize={"6px"}
                     x={node.x}
                     y={node.y}
                     style={{pointerEvents: "none"}}
