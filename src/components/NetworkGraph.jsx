@@ -110,9 +110,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                 const simulation = d3
                 .forceSimulation()
                 .nodes(nodes)
-                .force("link", d3.forceLink().strength(0.1).id((d) => d['id']))
+                .force("link", d3.forceLink().strength(0).id((d) => d['id']))
                 .force("center", d3.forceCenter(100, 100))
-                .force('charge', d3.forceManyBody().strength(-0.5))
+                .force('charge', d3.forceManyBody().strength(0.5))
                 .force('collision', d3.forceCollide()
                       .radius(function (d) {
                         return 15;
@@ -121,7 +121,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                 .force('x', d3.forceX().x(100).strength(0.3))
                 .force('y', d3.forceY().y(100).strength(0.3))
                 .force('r', d3.forceRadial()
-                .radius(150)
+                .radius(100)
                 .x(100)
                 .y(100)
                 .strength(1))
@@ -141,26 +141,26 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             }
 
             
-            const dfs = async (doi) => {
+            const bfs = async (doi) => {
                 console.log("#######")
                 let stack = [];
                 const doiset = new Set();
-                stack.push(doi);
+                stack.push({doi:doi, prev:-1});
                 let top;
-                let prev = -1;
+              
                 
                 while(stack.length !== 0) {
-                    top = stack.pop();
+                    top = stack.shift();
                     console.log("$$$$$$$$$$")
                     console.log(top);
                     if(nodeData.length >= 20) {
                         return;
                     }
-                    const encoded = encodeURIComponent(top);
+                    const encoded = encodeURIComponent(top.doi);
                     const tmp = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
                     const data = tmp[0];
                     
-                    data['id'] = top;
+                    data['id'] = top['doi'];
                     data['author'] = await(await fetch(`/.netlify/functions/api/authors/${encoded}`)).json();
                     try {
                         const response = await fetch(`/.netlify/functions/api/keywords/${encoded}`);
@@ -177,19 +177,28 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                     console.log(`push!!!!!!!!!!!${nodeData.length}`);
                     console.log(data);
 
-                    if(doiset.has(top) === false) {
-                        nodeData.push(data);
-                        doiset.add(top);
+                    if(top.prev !== -1 && doiset.has(top.doi) === false) {
+                    
+                        console.log(top);
+                        linkData.push({source:top.prev, target:top.doi});
                     }
 
-                    if(prev !== -1) {
-                        console.log(prev);
-                        console.log(top);
-                        linkData.push({source:prev, target:top});
+                    if(doiset.has(top.doi) === false) {
+                        nodeData.push(data);
+                        doiset.add(top.doi);
+                    } else {
+                        console.log('UEUEUE')
+                        continue;
                     }
+
+
                     
-                    const similarities = await(await fetch(`/.netlify/functions/api/similarity/${encodeURIComponent(top)}`)).json();
-                    similarities.length = 3;
+                    const similarities = await(await fetch(`/.netlify/functions/api/similarity/${encodeURIComponent(top.doi)}`)).json();
+                    similarities.sort((a, b) => {
+                        return b.similarity - a.similarity;
+                    });
+
+                    similarities.length =  3;
                     console.log(similarities);
 
                     for(const sim of similarities) {
@@ -203,15 +212,16 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
                         console.log(sim["doi"]);
                        console.log(doiset)
-                        if(sim['similarity'] >= 0.1 && doiset.has(sim['target_doi']) === false) {
+                        if(doiset.has(sim['target_doi']) === false) {
                             console.log("Yay")
                             //linkData.push({source:top, target:sim['target_doi']});
                             //console.log(sim['target_doi'])
-                            stack.push(sim['target_doi']);
+                            stack.push({doi:sim['target_doi'], prev:sim['doi']});
+                            
                         }
                     }
 
-                    prev = top;
+                   
                 }
 
                 /*for(const sim of similarities) {
@@ -229,7 +239,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             const doi = deescapeDoi(params.doi);
             const nodeData = [];
             const linkData = [];
-            await dfs(doi);
+            await bfs(doi);
             /*const encoded = encodeURIComponent(doi);
             const nodeData = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
             const simirarities = await(await fetch(`/.netlify/functions/api/similarity/${encoded}`)).json();
