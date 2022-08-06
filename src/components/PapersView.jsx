@@ -24,10 +24,10 @@ import { Link, Outlet } from "react-router-dom";
 const columns = [
     { id: 'title', label: 'タイトル', align: 'left', disablePadding: false,minWidth: 300 },
     { id: 'year', label: '発行年', align: 'right', disablePadding: true,minWidth: 100 },
-    { id: 'page', label: 'ページ数', minWidth: 150, align: 'right', disablePadding: false, },
-    { id: 'citing_paper_count', label: '被引用数', minWidth: 150, align: 'right', disablePadding: false, },
-    { id: 'citing_patent_count', label: '被特許数', minWidth: 150, align: 'right', disablePadding: false, },
-    { id: 'html_url', label: 'url', minWidth: 30}
+    { id: 'page', label: 'ページ数', align: 'right', disablePadding: false, minWidth: 150 },
+    { id: 'citing_paper_count', label: '被引用数', align: 'right', disablePadding: false, minWidth: 150 },
+    { id: 'value', label: 'キーワード重要度', align: 'right', disablePadding: false, minWidth: 150 },
+    { id: 'url', label: 'url', minWidth: 30}
   ];
 
 function EnhancedTableHead(props) {
@@ -107,6 +107,7 @@ const PapersView = () => {
     const [rowsPerPage, setRowsPerPage] = useState(200);
     const keyword = useSelector((state) => state.keyword.keyword);
     const papers = useSelector((state) => state.papersKeyword.papers);
+
     const escapeDoi = (doi) => {
       return doi.replaceAll('.', '_').replaceAll('/', '-');
     }
@@ -131,9 +132,15 @@ const PapersView = () => {
         <div>
             <Paper sx={{ width: '100%', overflow: 'hidden' }}>
               <Toolbar sx={{pl: { sm: 2 }, pr: { xs: 1, sm: 1 }}}>
-                <Typography sx={{ flex: '1 1 100%' }} align="justify" variant="h5" id="tableTitle" component="div">
-                  {keyword}
+              {keyword == '' ? (
+                <Typography sx={{ flex: '1 1 100%' }} color="justify" variant="subtitle1" component="div">
+                  キーワードを選択すると論文が表示されます
                 </Typography>
+              ) : (
+                <Typography sx={{ flex: '1 1 100%' }} align="justify" variant="h5" id="tableTitle" component="div">
+                  選択されたキーワード：{keyword}
+                </Typography>
+              )}
               </Toolbar>
               <TableContainer sx={{ maxHeight: 600 }}>
                   <Table stickyHeader aria-label="sticky table">
@@ -163,7 +170,7 @@ const PapersView = () => {
                                           //console.log(paper.doi)
                                          // console.log(column)
                                         }
-                                      if(column.id === 'html_url'){
+                                      if(column.id === 'url'){
                                         return(
                                             <TableCell  key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
                                                 <a href={value} target='_blank'>
