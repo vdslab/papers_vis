@@ -184,6 +184,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                     }
 
                     if(doiset.has(top.doi) === false) {
+                        
                         nodeData.push(data);
                         doiset.add(top.doi);
                     } else {
@@ -240,6 +241,12 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             const nodeData = [];
             const linkData = [];
             await bfs(doi);
+
+            //最初に選択した論文ノードを強調する
+            const firstSelectedNodeKey = 0
+            setDetail(nodeData[firstSelectedNodeKey]);
+            toggleOnOffNodeClick(nodeData[firstSelectedNodeKey], firstSelectedNodeKey);
+
             /*const encoded = encodeURIComponent(doi);
             const nodeData = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
             const simirarities = await(await fetch(`/.netlify/functions/api/similarity/${encoded}`)).json();
