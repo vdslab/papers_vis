@@ -371,7 +371,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
         <g className="texts">
             
             {nodes.map((node)=> {
-
+              
             return (
 
                 <text
