@@ -46,9 +46,12 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
     const [graphWidth, graphHeight] = [0.9*width, 0.9*height];
-    const [normalNodeCol, hoverNodeCol, clickedNodeCol, linkCol] 
-    = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)', 'rgb(150, 150, 150)'];
-
+    const [normalNodeCol, hoverNodeCol, clickedNodeCol, linkCol, firseSelectedNodeCol] 
+    = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)', 'rgb(150, 150, 150)',
+        'rgb(255, 0, 255)'];
+    const nodeCols = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)', 'rgb(150, 150, 150)',
+    'rgb(255, 0, 255)']    
+    const firstSelectedNodeKey = 0;
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
     const [clickedNode, setClickedNode] = useState(-1);
@@ -242,10 +245,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             const linkData = [];
             await bfs(doi);
 
-            //最初に選択した論文ノードを強調する
-            const firstSelectedNodeKey = 0
+            //最初に選択した論文ノードを強調する 
             setDetail(nodeData[firstSelectedNodeKey]);
-            toggleOnOffNodeClick(nodeData[firstSelectedNodeKey], firstSelectedNodeKey);
+           
 
             /*const encoded = encodeURIComponent(doi);
             const nodeData = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
@@ -364,7 +366,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                         className="node"
                         key = {node.id}
                         r = {10}
-                        style = {{fill : nodesState[key] == 0?normalNodeCol:nodesState[key]==1?hoverNodeCol:clickedNodeCol}}
+                        style = {{fill : key !== firstSelectedNodeKey ?nodeCols[nodesState[key]]:firseSelectedNodeCol}}
                         cx = {node.x}
                         cy = {node.y}
                         onClick = {() => toggleOnOffNodeClick(node, key)}
