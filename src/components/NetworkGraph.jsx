@@ -40,6 +40,30 @@ const ZoomableSVG= ({ children, width, height }) => {
     );
   }
 
+  function storageAvailable(type) {
+    var storage;
+    try {
+        storage = window[type];
+        var x = '__storage_test__';
+        storage.setItem(x, x);
+        storage.removeItem(x);
+        return true;
+    }
+    catch(e) {
+        return e instanceof DOMException && (
+            // everything except Firefox
+            e.code === 22 ||
+            // Firefox
+            e.code === 1014 ||
+            // test name field too, because code might not be present
+            // everything except Firefox
+            e.name === 'QuotaExceededError' ||
+            // Firefox
+            e.name === 'NS_ERROR_DOM_QUOTA_REACHED') &&
+            // acknowledge QuotaExceededError only if there's something already stored
+            (storage && storage.length !== 0);
+    }
+}
 
 
 const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
@@ -237,9 +261,31 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
             //dfsでノードを伸ばす
             const doi = deescapeDoi(params.doi);
-            const nodeData = [];
-            const linkData = [];
-            await bfs(doi);
+            let nodeData = [];
+            let linkData = [];
+
+            //キャッシュ関係
+            if(localStorage.getItem(doi)) {
+                
+                const networkCache = JSON.parse(localStorage.getItem(doi))
+                nodeData = networkCache['nodeData']
+                linkData = networkCache['linkData']
+                console.log(nodeData)
+                console.log(linkData)
+                console.log("&&&&&&&&&&&&&&&&&&&&&&&&&&")
+            } else {
+                await bfs(doi);
+            }
+
+            if(!(nodeData  && linkData)) {
+                console.log("yay")
+                nodeData = []
+                linkData = []
+                await bfs(doi);
+            } else {
+                console.log("non")
+            }
+            
             /*const encoded = encodeURIComponent(doi);
             const nodeData = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
             const simirarities = await(await fetch(`/.netlify/functions/api/similarity/${encoded}`)).json();
@@ -312,7 +358,12 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             console.log('final');
             console.log(nodeData);
             console.log(linkData);
-            
+
+            //キャッシュ保存
+            localStorage.setItem(doi, JSON.stringify({nodeData, linkData }) )
+            //console.log("################")
+            //console.log(localStorage.getItem(doi))
+
             
            startSimulation(nodeData, linkData);
         }
@@ -327,7 +378,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
     return(
         <div>
-
+        
         {loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><LabelProgress/></div>:
         <ZoomableSVG width={graphWidth} height={graphHeight}>
         <g className="links">
