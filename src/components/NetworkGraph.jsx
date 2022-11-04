@@ -51,13 +51,18 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
-    const [clickedNode, setClickedNode] = useState(-1);
+    const [clickedNodeKey, setClickedNodeKey] = useState(-1);
     const [loading, setLoading] = useState(true);
     const thre = 0.8;
     
     const [nodesState, setNodesState] = useState(() => {
         //0は通常 1はホバー状態　2はクリック状態
         return Array(50).fill(0);
+    });
+
+    const [nodeLabels, setNodeLabels] = useState(() => {
+        //trueはラベルあり、falseはラベルなし
+        return Array(50).fill(false);
     });
 
     const params = useParams();
@@ -76,6 +81,17 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
         setNodesState(tmp.slice());
     }
 
+    const changeNodeLabels = (labels, isLabel) => {
+        const tmp = nodeLabels.slice();
+        console.log(labels);
+        labels.map((label) => {
+            tmp[label] = isLabel;
+        });
+
+        console.log(tmp)
+        setNodeLabels(tmp.slice());
+    }
+
     const toggleOnNodeHover = (key) => {
         if(nodesState[key] !== 2) {
             changeNodeState(key, 1);
@@ -89,12 +105,28 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     }
 
     const toggleOnOffNodeClick = (node, key) => {
-    
             setDetail(node);
-            if(clickedNode !== -1 && clickedNode !== key && nodesState[clickedNode] === 2) {          
-                changeNodeState(clickedNode, 0);
+
+            
+            const labels = new Array();
+
+            labels.push(key);
+            links.map((link) => {
+                if(link["source"]["index"] === key) {
+                    labels.push(link["target"]["index"])
+                }
+
+                if(link["target"]["index"] === key) {
+                    labels.push(link["source"]["index"])
+                }
+            });
+
+            changeNodeLabels(labels, true);
+
+            if(clickedNodeKey !== -1 && clickedNodeKey !== key && nodesState[clickedNodeKey] === 2) {          
+                changeNodeState(clickedNodeKey, 0);
             }
-            setClickedNode(key);
+            setClickedNodeKey(key);
         
     }
 
@@ -313,7 +345,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             console.log(nodeData);
             console.log(linkData);
             
-            
+            console.log(linkData)
            startSimulation(nodeData, linkData);
         }
 
@@ -322,8 +354,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
 
     useEffect(() => {
-        changeNodeState(clickedNode, 2);
-    }, [clickedNode]);
+        changeNodeState(clickedNodeKey, 2);
+    }, [clickedNodeKey]);
 
     return(
         <div>
@@ -370,7 +402,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
         <g className="texts">
             
-            {nodes.map((node)=> {
+            {nodes.map((node, key)=> {
 
             return (
 
@@ -385,7 +417,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                     style={{pointerEvents: "none"}}
                 >
         
-                    {nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')}
+                    {nodeLabels[key] !== true || (nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))}
                    
                 </text>
             );
