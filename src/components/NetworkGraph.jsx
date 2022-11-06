@@ -47,7 +47,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     const [width, height] = useWindowSize();
     const [graphWidth, graphHeight] = [0.9*width, 0.9*height];
     const [normalNodeCol, hoverNodeCol, clickedNodeCol, linkCol, nearestLinkCol] 
-    = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)', 'rgb(200, 200, 200)', 'rgb(0, 0, 0)'];
+    = ['rgb(100, 50, 255)', 'rgb(140, 90, 255)', 'rgb(200, 30, 50)', 'rgb(200, 200, 200)', 'rgb(0, 0, 0)'];
 
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
@@ -368,14 +368,34 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
         {loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><LabelProgress/></div>:
         <ZoomableSVG width={graphWidth} height={graphHeight}>
+
         <g className="links">
             {links.map((link) => {
                 return(
                     <line
                     key={link.source.id + "-" + link.target.id}
-                    stroke= {( (nodesState[link.source.index] === 2 && nodeLabels[link.target.index] === true) || (nodesState[link.target.index] === 2 && nodeLabels[link.source.index] === true) ) ? nearestLinkCol :linkCol}
+                    stroke= {( (nodesState[link.source.index] === 2 && nodeLabels[link.target.index] === true) || (nodesState[link.target.index] === 2 && nodeLabels[link.source.index] === true) ) || linkCol}
                     strokeWidth="0.7"
                     className="link"
+                    x1={link.source.x}
+                    y1={link.source.y}
+                    x2={link.target.x}
+                    y2={link.target.y}                    
+                    >
+                    </line>
+
+                );
+            })}
+        </g>
+
+        <g className="nearest-links">
+            {links.map((link) => {
+                return(
+                    <line
+                    key={link.source.id + "-" + link.target.id}
+                    stroke= {!(( (nodesState[link.source.index] === 2 && nodeLabels[link.target.index] === true) || (nodesState[link.target.index] === 2 && nodeLabels[link.source.index] === true) ) ) || nearestLinkCol }
+                    strokeWidth="0.8"
+                    className="nearest-link"
                     x1={link.source.x}
                     y1={link.source.y}
                     x2={link.target.x}
