@@ -46,8 +46,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
     const [graphWidth, graphHeight] = [0.9*width, 0.9*height];
-    const [normalNodeCol, hoverNodeCol, clickedNodeCol, linkCol] 
-    = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)', 'rgb(150, 150, 150)'];
+    const [normalNodeCol, hoverNodeCol, clickedNodeCol, linkCol, nearestLinkCol] 
+    = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)', 'rgb(200, 200, 200)', 'rgb(0, 0, 0)'];
 
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
@@ -75,22 +75,27 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
     const changeNodeState = (key, state) => {
         //console.log(key);
-        const tmp = nodesState.slice();
+        const tmp = [...nodesState];
         //console.log(nodesState);
         tmp[key] = state;
-        setNodesState(tmp.slice());
+        setNodesState(tmp);
     }
 
     const changeNodeLabels = (labels, isLabel) => {
-        const tmp = nodeLabels.slice();
+        const tmp = [...nodeLabels];
+        clearNodeLabels(tmp);
         console.log(labels);
         labels.map((label) => {
             tmp[label] = isLabel;
         });
 
         console.log(tmp)
-        setNodeLabels(tmp.slice());
+        setNodeLabels(tmp);
     }
+
+    const clearNodeLabels = (labels) => {
+        return labels.fill(false);
+    } 
 
     const toggleOnNodeHover = (key) => {
         if(nodesState[key] !== 2) {
@@ -107,9 +112,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     const toggleOnOffNodeClick = (node, key) => {
             setDetail(node);
 
-            
             const labels = new Array();
-
             labels.push(key);
             links.map((link) => {
                 if(link["source"]["index"] === key) {
@@ -120,6 +123,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                     labels.push(link["source"]["index"])
                 }
             });
+
 
             changeNodeLabels(labels, true);
 
@@ -189,6 +193,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                         return;
                     }
                     const encoded = encodeURIComponent(top.doi);
+
+                    //doiがnot foundになる可能性がある
                     const tmp = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
                     const data = tmp[0];
                     
@@ -367,7 +373,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                 return(
                     <line
                     key={link.source.id + "-" + link.target.id}
-                    stroke= {linkCol}
+                    stroke= {( (nodesState[link.source.index] === 2 && nodeLabels[link.target.index] === true) || (nodesState[link.target.index] === 2 && nodeLabels[link.source.index] === true) ) ? nearestLinkCol :linkCol}
                     strokeWidth="0.7"
                     className="link"
                     x1={link.source.x}
