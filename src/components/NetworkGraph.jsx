@@ -46,18 +46,23 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
     const [graphWidth, graphHeight] = [0.9*width, 0.9*height];
-    const [normalNodeCol, hoverNodeCol, clickedNodeCol, linkCol] 
-    = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)', 'rgb(150, 150, 150)'];
+    const [normalNodeCol, hoverNodeCol, clickedNodeCol, linkCol, nearestLinkCol] 
+    = ['rgb(100, 50, 255)', 'rgb(140, 90, 255)', 'rgb(200, 30, 50)', 'rgb(200, 200, 200)', 'rgb(0, 0, 0)'];
 
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
-    const [clickedNode, setClickedNode] = useState(-1);
+    const [clickedNodeKey, setClickedNodeKey] = useState(-1);
     const [loading, setLoading] = useState(true);
     const thre = 0.8;
     
     const [nodesState, setNodesState] = useState(() => {
         //0は通常 1はホバー状態　2はクリック状態
         return Array(50).fill(0);
+    });
+
+    const [nodeLabels, setNodeLabels] = useState(() => {
+        //trueはラベルあり、falseはラベルなし
+        return Array(50).fill(false);
     });
 
     const params = useParams();
@@ -70,11 +75,27 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
     const changeNodeState = (key, state) => {
         //console.log(key);
-        const tmp = nodesState.slice();
+        const tmp = [...nodesState];
         //console.log(nodesState);
         tmp[key] = state;
-        setNodesState(tmp.slice());
+        setNodesState(tmp);
     }
+
+    const changeNodeLabels = (labels, isLabel) => {
+        const tmp = [...nodeLabels];
+        clearNodeLabels(tmp);
+        console.log(labels);
+        labels.map((label) => {
+            tmp[label] = isLabel;
+        });
+
+        console.log(tmp)
+        setNodeLabels(tmp);
+    }
+
+    const clearNodeLabels = (labels) => {
+        return labels.fill(false);
+    } 
 
     const toggleOnNodeHover = (key) => {
         if(nodesState[key] !== 2) {
@@ -89,12 +110,27 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     }
 
     const toggleOnOffNodeClick = (node, key) => {
-    
             setDetail(node);
-            if(clickedNode !== -1 && clickedNode !== key && nodesState[clickedNode] === 2) {          
-                changeNodeState(clickedNode, 0);
+
+            const labels = new Array();
+            labels.push(key);
+            links.map((link) => {
+                if(link["source"]["index"] === key) {
+                    labels.push(link["target"]["index"])
+                }
+
+                if(link["target"]["index"] === key) {
+                    labels.push(link["source"]["index"])
+                }
+            });
+
+
+            changeNodeLabels(labels, true);
+
+            if(clickedNodeKey !== -1 && clickedNodeKey !== key && nodesState[clickedNodeKey] === 2) {          
+                changeNodeState(clickedNodeKey, 0);
             }
-            setClickedNode(key);
+            setClickedNodeKey(key);
         
     }
 
@@ -157,6 +193,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                         return;
                     }
                     const encoded = encodeURIComponent(top.doi);
+
+                    //doiがnot foundになる可能性がある
                     const tmp = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
                     const data = tmp[0];
                     
@@ -313,7 +351,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             console.log(nodeData);
             console.log(linkData);
             
-            
+            console.log(linkData)
            startSimulation(nodeData, linkData);
         }
 
@@ -322,22 +360,42 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
 
     useEffect(() => {
-        changeNodeState(clickedNode, 2);
-    }, [clickedNode]);
+        changeNodeState(clickedNodeKey, 2);
+    }, [clickedNodeKey]);
 
     return(
         <div>
 
         {loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><LabelProgress/></div>:
         <ZoomableSVG width={graphWidth} height={graphHeight}>
+
         <g className="links">
             {links.map((link) => {
                 return(
                     <line
                     key={link.source.id + "-" + link.target.id}
-                    stroke= {linkCol}
+                    stroke= {( (nodesState[link.source.index] === 2 && nodeLabels[link.target.index] === true) || (nodesState[link.target.index] === 2 && nodeLabels[link.source.index] === true) ) || linkCol}
                     strokeWidth="0.7"
                     className="link"
+                    x1={link.source.x}
+                    y1={link.source.y}
+                    x2={link.target.x}
+                    y2={link.target.y}                    
+                    >
+                    </line>
+
+                );
+            })}
+        </g>
+
+        <g className="nearest-links">
+            {links.map((link) => {
+                return(
+                    <line
+                    key={link.source.id + "-" + link.target.id}
+                    stroke= {!(( (nodesState[link.source.index] === 2 && nodeLabels[link.target.index] === true) || (nodesState[link.target.index] === 2 && nodeLabels[link.source.index] === true) ) ) || nearestLinkCol }
+                    strokeWidth="0.8"
+                    className="nearest-link"
                     x1={link.source.x}
                     y1={link.source.y}
                     x2={link.target.x}
@@ -370,7 +428,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
         <g className="texts">
             
-            {nodes.map((node)=> {
+            {nodes.map((node, key)=> {
 
             return (
 
@@ -385,7 +443,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                     style={{pointerEvents: "none"}}
                 >
         
-                    {nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')}
+                    {nodeLabels[key] !== true || (nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))}
                    
                 </text>
             );
