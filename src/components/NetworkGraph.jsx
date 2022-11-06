@@ -246,7 +246,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             await bfs(doi);
 
             //最初に選択した論文ノードを強調する 
-            setDetail(nodeData[firstSelectedNodeKey]);
+            toggleOnOffNodeClick(nodeData[firstSelectedNodeKey], firstSelectedNodeKey);
            
 
             /*const encoded = encodeURIComponent(doi);
