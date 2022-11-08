@@ -4,8 +4,11 @@ import CloseIcon from '@mui/icons-material/Close';
 import {useRef, useState} from 'react';
 import { Link, Outlet } from "react-router-dom";
 
-const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu}) => {
-    
+const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading}) => {
+    const handleClick = () => {
+        
+        setLoading(true);
+    }
     const escapeDoi = (doi) => {
 
         if(doi !== undefined) {
@@ -50,7 +53,7 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu}) => {
             
            }
 
-           <Link to={`/network/${escapeDoi(detail.doi)}`} onClick= {() => window.location.reload()} >{detail.doi}</Link>
+           <Link to = {`/network/${escapeDoi(detail.doi)}`} onClick={handleClick}> generate a network out of this paper</Link>
 
             <Divider/><br/>
             abstract:<br/>

@@ -13,6 +13,7 @@ const Network = () => {
     const [isOpenMenu, setIsOpenMenu] = useState(true);
     const [nodeLabel, setNodeLabel] = useState("title");
     const search = useLocation().search;
+    const [loading, setLoading] = useState(true);
     const query = new URLSearchParams(search);
     return(
         
@@ -21,14 +22,16 @@ const Network = () => {
             
 
             <div style={{width:'55%'}}>
-                <NetworkGraph detail = {detail} setDetail = {setDetail} nodeLabel = {nodeLabel}/>
+                <NetworkGraph detail = {detail} setDetail = {setDetail} nodeLabel = {nodeLabel} 
+                loading = {loading} setLoading = {setLoading}/>
                 
             </div>
 
             <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
 
             
-            <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}/>
+            <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
+            loading = {loading} setLoading = {setLoading}/>
 
             <button className='button is-white' style={{margin : '0 0 0 5px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>
                 {
