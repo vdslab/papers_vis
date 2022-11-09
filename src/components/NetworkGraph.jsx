@@ -149,21 +149,17 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
                 const simulation = d3
                 .forceSimulation()
                 .nodes(nodes)
-                .force("link", d3.forceLink().strength(0).id((d) => d['id']))
+                .force("link", d3.forceLink().id((d) => d['id']))
                 .force("center", d3.forceCenter(100, 100))
-                .force('charge', d3.forceManyBody().strength(0.5))
+                .force('charge', d3.forceManyBody())
                 .force('collision', d3.forceCollide()
                       .radius(function (d) {
                         return 15;
                       })
                       .iterations(0.5))
-                .force('x', d3.forceX().x(100).strength(0.3))
-                .force('y', d3.forceY().y(100).strength(0.3))
-                .force('r', d3.forceRadial()
-                .radius(100)
-                .x(100)
-                .y(100)
-                .strength(1))
+                //.force('x', d3.forceX().x(100).strength(0.3))
+                //.force('y', d3.forceY().y(100).strength(0.3))
+              
                 ;
                 console.log(height);
 
