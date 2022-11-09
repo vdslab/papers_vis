@@ -42,7 +42,7 @@ const ZoomableSVG= ({ children, width, height }) => {
 
 
 
-const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading}) => {
+const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reloading}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
     const [graphWidth, graphHeight] = [0.9*width, 0.9*height];
@@ -142,7 +142,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading}) => {
 
             
             const bfs = async (doi) => {
-                console.log("start")
+                console.error("start")
                 let stack = [];
                 const doiset = new Set();
                 stack.push({doi:doi, prev:-1});
@@ -239,6 +239,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading}) => {
             const doi = deescapeDoi(params.doi);
             const nodeData = [];
             const linkData = [];
+            setLoading(true);
             await bfs(doi);
             /*const encoded = encodeURIComponent(doi);
             const nodeData = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
@@ -318,7 +319,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading}) => {
         }
 
         fetchData();
-    }, [loading]);
+    }, [reloading]);
 
 
     useEffect(() => {

@@ -14,6 +14,7 @@ const Network = () => {
     const [nodeLabel, setNodeLabel] = useState("title");
     const search = useLocation().search;
     const [loading, setLoading] = useState(true);
+    const [reloading, setReloading] = useState(false);
     const query = new URLSearchParams(search);
     return(
         
@@ -23,7 +24,7 @@ const Network = () => {
 
             <div style={{width:'55%'}}>
                 <NetworkGraph detail = {detail} setDetail = {setDetail} nodeLabel = {nodeLabel} 
-                loading = {loading} setLoading = {setLoading}/>
+                loading = {loading} setLoading = {setLoading} reloading = {reloading}/>
                 
             </div>
 
@@ -31,7 +32,7 @@ const Network = () => {
 
             
             <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
-            loading = {loading} setLoading = {setLoading}/>
+           reloading = {reloading}  setReloading = {setReloading}/>
 
             <button className='button is-white' style={{margin : '0 0 0 5px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>
                 {
