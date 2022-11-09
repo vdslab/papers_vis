@@ -2,10 +2,20 @@ import Divider from '@mui/material/Divider';
 import objectArray2ArrayByKey from '../objectArray2ArraybyKey';
 import CloseIcon from '@mui/icons-material/Close';
 import {useRef, useState} from 'react';
+import { Link, Outlet } from "react-router-dom";
 
+const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, reloading, setReloading}) => {
+    const escapeDoi = (doi) => {
 
-const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu}) => {
+        if(doi !== undefined) {
+            
+            return doi.replaceAll('.', '_').replaceAll('/', '-');
+        } else {
+            return doi;
+        }
+      }
 
+      console.log(detail)
     return(
           
         <section className ="message is-info is-12" style={{width:'45%', height :isOpenMenu?`${window.innerHeight * 0.7}px`:'0px',overflowY: 'scroll', transitionDuration: '.3s'}} >
@@ -36,8 +46,10 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu}) => {
            <br/>
            {detail.keyword === undefined || 
             <p>{objectArray2ArrayByKey(detail.keyword, 'keyword').join(',')}</p>
+            
            }
-       
+
+           <Link to = {`/network/${escapeDoi(detail.doi)}`} onClick={() => setReloading(!reloading)}> generate a network out of this paper</Link>
 
             <Divider/><br/>
             abstract:<br/>

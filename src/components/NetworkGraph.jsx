@@ -42,7 +42,7 @@ const ZoomableSVG= ({ children, width, height }) => {
 
 
 
-const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
+const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reloading}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
     const [graphWidth, graphHeight] = [0.9*width, 0.9*height];
@@ -55,7 +55,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
     const [clickedNodeKey, setClickedNodeKey] = useState(-1);
-    const [loading, setLoading] = useState(true);
+  
     const thre = 0.8;
     
     const [nodesState, setNodesState] = useState(() => {
@@ -177,7 +177,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
             
             const bfs = async (doi) => {
-                console.log("#######")
+                console.error("start")
                 let stack = [];
                 const doiset = new Set();
                 stack.push({doi:doi, prev:-1});
@@ -277,6 +277,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
             const doi = deescapeDoi(params.doi);
             const nodeData = [];
             const linkData = [];
+            setLoading(true);
             await bfs(doi);
 
             //最初に選択した論文ノードを強調する 
@@ -361,7 +362,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
         }
 
         fetchData();
-    }, []);
+    }, [reloading]);
 
 
     useEffect(() => {
