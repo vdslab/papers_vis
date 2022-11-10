@@ -6,6 +6,7 @@ import objectArray2ArrayByKey from "../objectArray2ArraybyKey";
 import { noData } from "pg-protocol/dist/messages";
 import LabelProgress from '../components/LabelProgress';
 import { useParams } from "react-router-dom";
+import CircularProgressWithLabel from "./CircularProgressWithLabel";
 
 /*
 todo
@@ -66,6 +67,8 @@ const ZoomableSVG= ({ children, width, height }) => {
 }
 
 
+  
+
 const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reloading}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
@@ -79,17 +82,20 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reload
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
     const [clickedNodeKey, setClickedNodeKey] = useState(-1);
+    const [progress, setProgress] = useState(0);
   
     const thre = 0.8;
+    const nodeNum = 20;
+    const maxNodeNum = 50;
     
     const [nodesState, setNodesState] = useState(() => {
         //0は通常 1はホバー状態　2はクリック状態
-        return Array(50).fill(0);
+        return Array(maxNodeNum).fill(0);
     });
 
     const [nodeLabels, setNodeLabels] = useState(() => {
         //trueはラベルあり、falseはラベルなし
-        return Array(50).fill(false);
+        return Array(maxNodeNum).fill(false);
     });
 
     const params = useParams();
@@ -212,7 +218,13 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reload
                     top = stack.shift();
                     console.log("$$$$$$$$$$")
                     console.log(top);
-                    if(nodeData.length >= 20) {
+
+                    setProgress(100*nodeData.length / nodeNum);
+                    console.error(nodeData.length);
+                    console.error(nodeNum);
+                    console.error(nodeData.length / nodeNum);
+
+                    if(nodeData.length >= nodeNum) {
                         return;
                     }
                     const encoded = encodeURIComponent(top.doi);
@@ -424,7 +436,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reload
     return(
         <div>
         
-        {loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><LabelProgress/></div>:
+        {loading?<div style = {{position:'absolute', top : `${height/2.2}px`, left:`${width/2.2}px` }}><CircularProgressWithLabel value={progress} />
+        <br/> <br/> <p style={{position:'relative', right:'20px'}}>読み込み中...</p></div>:
         <ZoomableSVG width={graphWidth} height={graphHeight}>
 
         <g className="links">
