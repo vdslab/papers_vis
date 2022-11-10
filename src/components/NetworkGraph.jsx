@@ -6,6 +6,10 @@ import objectArray2ArrayByKey from "../objectArray2ArraybyKey";
 import { noData } from "pg-protocol/dist/messages";
 import LabelProgress from '../components/LabelProgress';
 import { useParams } from "react-router-dom";
+import CircularProgress from '@mui/material/CircularProgress';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import PropTypes from 'prop-types';
 
 /*
 todo
@@ -65,6 +69,39 @@ const ZoomableSVG= ({ children, width, height }) => {
     }
 }
 
+function CircularProgressWithLabel(props) {
+    return (
+      <Box sx={{ position: 'relative', display: 'inline-flex' }}>
+        <CircularProgress variant="determinate" {...props} />
+        <Box
+          sx={{
+            top: 0,
+            left: 0,
+            bottom: 0,
+            right: 0,
+            position: 'absolute',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        >
+          <Typography variant="caption" component="div" color="text.secondary">
+            {`${Math.round(props.value)}%`}
+          </Typography>
+        </Box>
+      </Box>
+    );
+  }
+
+  CircularProgressWithLabel.propTypes = {
+    /**
+     * The value of the progress indicator for the determinate variant.
+     * Value between 0 and 100.
+     * @default 0
+     */
+    value: PropTypes.number.isRequired,
+  };
+  
 
 const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reloading}) => {
     //グラフの見た目の設定
@@ -79,17 +116,20 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reload
     const [nodes, setNodes] = useState([]);
     const [links, setLinks] = useState([]);
     const [clickedNodeKey, setClickedNodeKey] = useState(-1);
+    const [progress, setProgress] = useState(0);
   
     const thre = 0.8;
+    const nodeNum = 20;
+    const maxNodeNum = 50;
     
     const [nodesState, setNodesState] = useState(() => {
         //0は通常 1はホバー状態　2はクリック状態
-        return Array(50).fill(0);
+        return Array(maxNodeNum).fill(0);
     });
 
     const [nodeLabels, setNodeLabels] = useState(() => {
         //trueはラベルあり、falseはラベルなし
-        return Array(50).fill(false);
+        return Array(maxNodeNum).fill(false);
     });
 
     const params = useParams();
@@ -212,7 +252,13 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reload
                     top = stack.shift();
                     console.log("$$$$$$$$$$")
                     console.log(top);
-                    if(nodeData.length >= 20) {
+
+                    setProgress(100*nodeData.length / nodeNum);
+                    console.error(nodeData.length);
+                    console.error(nodeNum);
+                    console.error(nodeData.length / nodeNum);
+
+                    if(nodeData.length >= nodeNum) {
                         return;
                     }
                     const encoded = encodeURIComponent(top.doi);
@@ -424,7 +470,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reload
     return(
         <div>
         
-        {loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><LabelProgress/></div>:
+        {loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><CircularProgressWithLabel value={progress} /></div>:
         <ZoomableSVG width={graphWidth} height={graphHeight}>
 
         <g className="links">
