@@ -436,7 +436,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reload
     return(
         <div>
         
-        {loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><CircularProgressWithLabel value={progress} /></div>:
+        {loading?<div style = {{position:'absolute', top : `${height/2.2}px`, left:`${width/2.2}px` }}><CircularProgressWithLabel value={progress} />
+        <br/> <br/> <p style={{position:'relative', right:'20px'}}>読み込み中...</p></div>:
         <ZoomableSVG width={graphWidth} height={graphHeight}>
 
         <g className="links">

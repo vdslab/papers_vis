@@ -18,7 +18,7 @@ const Network = () => {
     const query = new URLSearchParams(search);
     return(
         
-        <section style={{display:'flex', margin: '20px'}}>
+        <section style={loading?{margin: '350px auto'}:{display:'flex', margin: '20px'}}>
 
             
 
@@ -28,20 +28,21 @@ const Network = () => {
                 
             </div>
 
-            <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
+            {loading || <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>}
 
             
-            <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
-           reloading = {reloading}  setReloading = {setReloading}/>
+            {loading || <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
+           reloading = {reloading}  setReloading = {setReloading}/>}
 
-            <button className='button is-white' style={{margin : '0 0 0 5px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>
+            {loading || <button className='button is-white' style={{margin : '0 0 0 5px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>
                 {
                 !isOpenMenu ? 
                 <KeyboardArrowDownIcon/> :
                 <KeyboardArrowUpIcon />
                 }
             </button>
-
+            }
+            
             
 
         </section>
