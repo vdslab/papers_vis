@@ -9,6 +9,7 @@ import { useParams } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
+import Box from '@mui/material/Box';
 
 
 /*
@@ -39,7 +40,21 @@ const ZoomableSVG= ({ children, width, height }) => {
       className="graph has-background-white"
       style={{marginLeft: "auto", marginRight: "auto" }}
       viewBox={`0 0 ${width} ${height}`}>
+
+  
         <g transform={`translate(${x},${y})scale(${k})`}>{children}</g>
+        <foreignObject
+        x={0}
+        y={0}
+        width="110"
+        height="50"
+        >
+           
+            <IconButton aria-label="delete">
+                <MenuIcon />
+            </IconButton>
+          
+        </foreignObject>
       </svg>
     );
   }
@@ -378,14 +393,10 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
     return(
         <div>
-                        
-            <IconButton aria-label="delete">
-                <MenuIcon />
-            </IconButton>
-            
+  
         {loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><LabelProgress/></div>:
         <ZoomableSVG width={graphWidth} height={graphHeight}>
-   
+                 
         <g className="links">
             {links.map((link) => {
                 return(
