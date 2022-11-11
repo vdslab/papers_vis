@@ -20,7 +20,7 @@ todo
 ・ZoomableSVGを使いやすいように調整する
 */
 
-const ZoomableSVG= ({ children, width, height }) => {
+const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen }) => {
    
     const svgRef = useRef();
     const [k, setK] = useState(2);
@@ -50,7 +50,7 @@ const ZoomableSVG= ({ children, width, height }) => {
         height="50"
         >
            
-            <IconButton aria-label="delete">
+            <IconButton aria-label="delete" onClick={() => setSideBarOpen(!sideBarOpen)}>
                 <MenuIcon />
             </IconButton>
           
@@ -61,7 +61,7 @@ const ZoomableSVG= ({ children, width, height }) => {
 
 
 
-const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
+const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
     const [graphWidth, graphHeight] = [0.9*width, 0.9*height];
@@ -394,8 +394,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
     return(
         <div>
   
-        {loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><LabelProgress/></div>:
-        <ZoomableSVG width={graphWidth} height={graphHeight}>
+        {!loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><LabelProgress/></div>:
+        <ZoomableSVG width={graphWidth} height={graphHeight} sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen}  >
                  
         <g className="links">
             {links.map((link) => {

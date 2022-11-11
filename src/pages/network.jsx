@@ -17,9 +17,9 @@ const Network = () => {
     const [nodeLabel, setNodeLabel] = useState("title");
     const search = useLocation().search;
     const query = new URLSearchParams(search);
-    const [open, setopen] = useState(false);
+    const [sideBarOpen, setSideBarOpen] = useState(false);
     const toggleOpen=() => {
-        setopen(!open);
+        setSideBarOpen(!sideBarOpen);
     }
     
     return(
@@ -28,19 +28,19 @@ const Network = () => {
 
  
 
-            <Drawer anchor='left' open={open} onClose={toggleOpen}>
-                <p>hello</p>
+            <Drawer  variant="persistent" anchor='left' open={sideBarOpen} onClose={toggleOpen}> 
+                <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
             </Drawer>
 
             <div style={{width:'55%'}}>
-                <NetworkGraph detail = {detail} setDetail = {setDetail} nodeLabel = {nodeLabel}/>
+                <NetworkGraph detail = {detail} setDetail = {setDetail}
+                sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} 
+                nodeLabel = {nodeLabel}/>
             </div>
 
 
 
-            { /*
-                <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
-            */}
+ 
             
             <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}/>
 
