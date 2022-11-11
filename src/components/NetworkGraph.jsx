@@ -6,6 +6,10 @@ import objectArray2ArrayByKey from "../objectArray2ArraybyKey";
 import { noData } from "pg-protocol/dist/messages";
 import LabelProgress from '../components/LabelProgress';
 import { useParams } from "react-router-dom";
+import MenuIcon from '@mui/icons-material/Menu';
+import Drawer from '@mui/material/Drawer';
+import IconButton from '@mui/material/IconButton';
+
 
 /*
 todo
@@ -374,10 +378,14 @@ const NetworkGraph = ({detail, setDetail, nodeLabel}) => {
 
     return(
         <div>
-
+                        
+            <IconButton aria-label="delete">
+                <MenuIcon />
+            </IconButton>
+            
         {loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><LabelProgress/></div>:
         <ZoomableSVG width={graphWidth} height={graphHeight}>
-
+   
         <g className="links">
             {links.map((link) => {
                 return(
