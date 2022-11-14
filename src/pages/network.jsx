@@ -9,7 +9,19 @@ import { useLocation } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
+import Stack from '@mui/material/Stack';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import Divider from '@mui/material/Divider';
+import { styled } from '@mui/material/styles';
 
+const DrawerHeader = styled('div')(({ theme }) => ({
+    display: 'flex',
+    alignItems: 'center',
+    padding: theme.spacing(0, 1),
+    // necessary for content to be below app bar
+    ...theme.mixins.toolbar,
+    justifyContent: 'flex-end',
+  }));
 
 const Network = () => {
     const [detail, setDetail] = useState({});
@@ -26,10 +38,22 @@ const Network = () => {
         
         <section style={{display:'flex', margin: '20px'}}>
 
- 
-
+            {/*サイドバー*/}
             <Drawer  variant="persistent" anchor='left' open={sideBarOpen} onClose={toggleOpen}> 
-                <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
+            <DrawerHeader>
+                <IconButton aria-label="delete" onClick={() => setSideBarOpen(!sideBarOpen)}>
+                    <ArrowBackIcon/>
+                </IconButton>
+                
+            </DrawerHeader>
+            <Divider />
+            
+                <Stack spacing={4}>
+                    <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
+                    <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
+                    <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
+                  
+                </Stack>
             </Drawer>
 
             <div style={{width:'55%'}}>

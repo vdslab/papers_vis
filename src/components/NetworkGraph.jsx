@@ -12,6 +12,7 @@ import IconButton from '@mui/material/IconButton';
 import Box from '@mui/material/Box';
 
 
+
 /*
 todo
 グラフの調整
@@ -394,7 +395,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
     return(
         <div>
   
-        {!loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><LabelProgress/></div>:
+        {loading?<div style = {{position:'absolute', top : `${height/2}px`, left:`${width/4}px` }}><LabelProgress/></div>:
         <ZoomableSVG width={graphWidth} height={graphHeight} sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen}  >
                  
         <g className="links">
