@@ -6,6 +6,8 @@ import keywordReducer from './keywordSlice';
 import papersSortReducer from './papersSortSlice';
 import papersKeywordReducer from './papersKeywordSlice';
 import papersDetailReducer from './papersDetailSlice';
+import searchFormReducer from './searchFormSlice';
+import columnsJudgeReducer from './columnsSlice';
 
 export const store = configureStore({
   reducer: {
@@ -16,5 +18,7 @@ export const store = configureStore({
     papersSort:papersSortReducer,
     papersKeyword:papersKeywordReducer,
     papersDetail:papersDetailReducer,
+    searchForm: searchFormReducer,
+    columnsJudge: columnsJudgeReducer,
   },
 });

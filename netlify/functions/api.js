@@ -7,22 +7,22 @@ const pool = new Pool({
   host: process.env.REACT_APP_PGHOST,
   user: process.env.REACT_APP_PGUSER,
   database: process.env.REACT_APP_PGDATABASE,
-  port: 5432,
+  port: 5433,
   password: process.env.REACT_APP_PGPASSWORD,
-  idleTimeoutMillis: 30000,
-  connectionTimeoutMillis: 2000,
+  connectionTimeoutMillis: 60000,
+  statement_timeout: 60000
 });
 
 async function selectRows(sql, values = []) {
     const client = await pool.connect();
     try {
-      const res = await client.query(sql, values);
+      const res = await client.query({text:sql, values:values, timeout: 60000});
       return res.rows;
     } finally {
       client.release();
     }
 }
-  
+
 const router = express.Router();
 
 router.get("/papers", async (req, res) => {
@@ -30,15 +30,54 @@ router.get("/papers", async (req, res) => {
   res.json(data);
 });
 
-router.get("/papers/:doi", async (req, res) => {
-  const data = await selectRows(`SELECT * FROM papers WHERE doi = $1`, [
+// router.get("/papers/:abstract", async function (req, res) {
+//   const data = await selectRows(`SELECT * FROM papers WHERE abstract &@ $1`,[
+//     req.params.abstract,
+//   ]);  
+//   if (data.length === 0) {
+//     res.status(404).json({ message: "not found" });
+//   } else {
+//     res.json(data);
+//   }
+// });
+
+
+router.get("/papers/doi/:doi", async function (req, res) {
+  const data = await selectRows(`SELECT * FROM papers WHERE doi = $1`,[
     req.params.doi,
-  ]);
+  ]);  
   if (data.length === 0) {
     res.status(404).json({ message: "not found" });
   } else {
     res.json(data);
   }
+});
+
+router.get("/papers/:abstract", async function (req, res) {
+  const data = await selectRows(`SELECT * FROM papers WHERE abstract ILIKE $1 LIMIT 20000`,[
+    req.params.abstract,
+  ]);  
+  if (data.length === 0) {
+    res.status(404).json({ message: "not found" });
+  } else {
+    res.json(data);
+  }
+});
+
+router.get("/authors", async (req, res) => {
+  const data = await selectRows(`SELECT * FROM authors`);
+  res.json(data);
+});
+
+router.get("/authors/:name", async (req, res) => {
+    const data = await selectRows(`SELECT * FROM authors WHERE name &@ $1`,[
+      req.params.name,
+    ]);  
+    if (data.length === 0) {
+      res.status(404).json({ message: "not found" });
+    } else {
+      res.json(data);
+    }
 });
 
 
@@ -47,21 +86,19 @@ router.get("/journals", async (req, res) => {
   res.json(data);
 });
 
-router.get("/authors", async (req, res) => {
-  const data = await selectRows(`SELECT * FROM authors`);
-  res.json(data);
-});
 
-router.get("/authors/:doi", async (req, res) => {
-  const data = await selectRows(`SELECT * FROM authors WHERE doi = $1`, [
-    req.params.doi,
-  ]);
-  if (data.length === 0) {
-    res.status(404).json({ message: "not found" });
-  } else {
-    res.json(data);
-  }
-});
+
+
+// router.get("/authors/:doi", async (req, res) => {
+//   const data = await selectRows(`SELECT * FROM authors WHERE doi = $1`, [
+//     req.params.doi,
+//   ]);
+//   if (data.length === 0) {
+//     res.status(404).json({ message: "not found" });
+//   } else {
+//     res.json(data);
+//   }
+// });
 
 router.get("/keywords", async (req, res) => {
   const data = await selectRows(`SELECT * FROM keywords`);
@@ -81,7 +118,9 @@ router.get("/keywords/:doi", async(req, res) => {
 
 router.get("/keywords/:keyword/:startYear/:endYear", async (req, res) => {
     const data = await selectRows(`SELECT * FROM keywords WHERE keyword = $1 AND year >= $2 AND year <= $3`, [
-      req.params.keyword,req.params.startYear,req.params.endYear
+      req.params.keyword,
+      req.params.startYear,
+      req.params.endYear
     ]);
     if (data.length === 0) {
       res.status(404).json({ message: "not found" });

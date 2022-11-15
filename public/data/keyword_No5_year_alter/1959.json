@@ -4,19 +4,19 @@
   "count": 1
  },
  {
-  "name": "equipment",
-  "count": 3
+  "name": "power",
+  "count": 1
  },
  {
   "name": "period",
   "count": 1
  },
  {
-  "name": "power",
-  "count": 1
+  "name": "equipment",
+  "count": 3
  },
  {
-  "name": "assure",
+  "name": "excursion",
   "count": 1
  },
  {
@@ -24,15 +24,15 @@
   "count": 1
  },
  {
+  "name": "purpose",
+  "count": 1
+ },
+ {
   "name": "machine",
   "count": 2
  },
  {
-  "name": "process",
-  "count": 1
- },
- {
-  "name": "part",
+  "name": "unit",
   "count": 1
  },
  {
@@ -40,19 +40,19 @@
   "count": 2
  },
  {
-  "name": "servo system",
+  "name": "part",
   "count": 1
- },
- {
-  "name": "system",
-  "count": 2
  },
  {
   "name": "use",
   "count": 1
  },
  {
-  "name": "control",
+  "name": "linear",
+  "count": 1
+ },
+ {
+  "name": "transducer",
   "count": 1
  },
  {
@@ -60,7 +60,7 @@
   "count": 1
  },
  {
-  "name": "operation",
+  "name": "control",
   "count": 1
  },
  {
@@ -68,16 +68,12 @@
   "count": 1
  },
  {
-  "name": "single",
+  "name": "operation",
   "count": 1
  },
  {
-  "name": "24",
+  "name": "turret",
   "count": 1
- },
- {
-  "name": "channel",
-  "count": 2
  },
  {
   "name": "counter",
@@ -85,6 +81,18 @@
  },
  {
   "name": "feeder",
+  "count": 1
+ },
+ {
+  "name": "24",
+  "count": 1
+ },
+ {
+  "name": "preset",
+  "count": 1
+ },
+ {
+  "name": "system",
   "count": 1
  },
  {
@@ -100,11 +108,15 @@
   "count": 1
  },
  {
+  "name": "capacitor",
+  "count": 1
+ },
+ {
   "name": "letter",
   "count": 1
  },
  {
-  "name": "one",
+  "name": "stamp",
   "count": 1
  },
  {
@@ -112,7 +124,7 @@
   "count": 1
  },
  {
-  "name": "stamp",
+  "name": "one",
   "count": 1
  },
  {
@@ -124,15 +136,19 @@
   "count": 1
  },
  {
-  "name": "per",
-  "count": 1
- },
- {
   "name": "reduction",
   "count": 1
  },
  {
+  "name": "requirement",
+  "count": 1
+ },
+ {
   "name": "frequency",
+  "count": 1
+ },
+ {
+  "name": "swept",
   "count": 1
  },
  {
@@ -144,7 +160,7 @@
   "count": 1
  },
  {
-  "name": "device",
+  "name": "sonic",
   "count": 1
  },
  {
@@ -152,11 +168,19 @@
   "count": 1
  },
  {
-  "name": "operate",
+  "name": "device",
   "count": 1
  },
  {
   "name": "shaft",
+  "count": 1
+ },
+ {
+  "name": "turbine",
+  "count": 1
+ },
+ {
+  "name": "operate",
   "count": 1
  }
 ]

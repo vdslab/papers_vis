@@ -1,10 +1,10 @@
 [
  {
-  "name": "instrument",
+  "name": "classification",
   "count": 1
  },
  {
-  "name": "classification",
+  "name": "instrument",
   "count": 1
  },
  {
@@ -16,19 +16,27 @@
   "count": 1
  },
  {
-  "name": "system",
-  "count": 4
+  "name": "digit",
+  "count": 1
  },
  {
   "name": "complex",
   "count": 1
  },
  {
-  "name": "operation",
+  "name": "system",
   "count": 3
  },
  {
-  "name": "around",
+  "name": "operation",
+  "count": 2
+ },
+ {
+  "name": "sorting",
+  "count": 1
+ },
+ {
+  "name": "versatility",
   "count": 1
  },
  {
@@ -36,11 +44,23 @@
   "count": 1
  },
  {
-  "name": "speed",
-  "count": 3
+  "name": "lathe",
+  "count": 1
  },
  {
-  "name": "analog",
+  "name": "obtain",
+  "count": 1
+ },
+ {
+  "name": "surface",
+  "count": 1
+ },
+ {
+  "name": "constant",
+  "count": 1
+ },
+ {
+  "name": "handle",
   "count": 1
  },
  {
@@ -48,27 +68,35 @@
   "count": 2
  },
  {
+  "name": "modern",
+  "count": 1
+ },
+ {
   "name": "automatic",
   "count": 2
  },
  {
-  "name": "handle",
+  "name": "refinery",
   "count": 1
- },
- {
-  "name": "control",
-  "count": 5
  },
  {
   "name": "component",
   "count": 3
  },
  {
+  "name": "valve",
+  "count": 1
+ },
+ {
+  "name": "servo",
+  "count": 1
+ },
+ {
   "name": "industrial",
   "count": 1
  },
  {
-  "name": "application",
+  "name": "control",
   "count": 2
  },
  {
@@ -76,15 +104,7 @@
   "count": 1
  },
  {
-  "name": "compute device",
-  "count": 1
- },
- {
-  "name": "device",
-  "count": 2
- },
- {
-  "name": "automation",
+  "name": "engineering",
   "count": 1
  },
  {
@@ -92,7 +112,11 @@
   "count": 1
  },
  {
-  "name": "machine",
+  "name": "large",
+  "count": 1
+ },
+ {
+  "name": "automation",
   "count": 1
  },
  {
@@ -104,7 +128,23 @@
   "count": 1
  },
  {
+  "name": "machine",
+  "count": 1
+ },
+ {
+  "name": "manufacture",
+  "count": 1
+ },
+ {
+  "name": "270",
+  "count": 1
+ },
+ {
   "name": "100",
+  "count": 1
+ },
+ {
+  "name": "time",
   "count": 1
  },
  {
@@ -124,15 +164,7 @@
   "count": 1
  },
  {
-  "name": "make",
-  "count": 1
- },
- {
-  "name": "measurement",
-  "count": 1
- },
- {
-  "name": "problem",
+  "name": "discuss",
   "count": 1
  },
  {
@@ -140,8 +172,20 @@
   "count": 1
  },
  {
-  "name": "analyzer",
-  "count": 2
+  "name": "make",
+  "count": 1
+ },
+ {
+  "name": "problem",
+  "count": 1
+ },
+ {
+  "name": "measurement",
+  "count": 1
+ },
+ {
+  "name": "thereby",
+  "count": 1
  },
  {
   "name": "pickup",
@@ -152,7 +196,15 @@
   "count": 1
  },
  {
-  "name": "description",
+  "name": "operating",
+  "count": 1
+ },
+ {
+  "name": "proximity",
+  "count": 1
+ },
+ {
+  "name": "principle",
   "count": 1
  },
  {
@@ -172,23 +224,23 @@
   "count": 1
  },
  {
-  "name": "use",
-  "count": 3
- },
- {
-  "name": "method",
-  "count": 2
+  "name": "analyze",
+  "count": 1
  },
  {
   "name": "proportional",
   "count": 1
  },
  {
-  "name": "analysis",
+  "name": "method",
+  "count": 2
+ },
+ {
+  "name": "powdery",
   "count": 1
  },
  {
-  "name": "load",
+  "name": "indication",
   "count": 1
  },
  {
@@ -196,7 +248,15 @@
   "count": 1
  },
  {
-  "name": "current",
+  "name": "load",
+  "count": 1
+ },
+ {
+  "name": "duty",
+  "count": 1
+ },
+ {
+  "name": "generation",
   "count": 1
  },
  {
@@ -204,11 +264,15 @@
   "count": 1
  },
  {
-  "name": "discuss",
+  "name": "series",
   "count": 1
  },
  {
-  "name": "new",
+  "name": "passage",
+  "count": 1
+ },
+ {
+  "name": "pulse",
   "count": 1
  },
  {
@@ -216,7 +280,15 @@
   "count": 1
  },
  {
+  "name": "analyzer",
+  "count": 1
+ },
+ {
   "name": "give",
+  "count": 1
+ },
+ {
+  "name": "utilize",
   "count": 1
  },
  {
@@ -240,10 +312,6 @@
   "count": 1
  },
  {
-  "name": "data present",
-  "count": 1
- },
- {
   "name": "function",
   "count": 1
  },
@@ -252,11 +320,7 @@
   "count": 1
  },
  {
-  "name": "high",
-  "count": 1
- },
- {
-  "name": "high speed",
+  "name": "present",
   "count": 1
  },
  {
@@ -264,7 +328,23 @@
   "count": 1
  },
  {
+  "name": "speed",
+  "count": 2
+ },
+ {
+  "name": "high",
+  "count": 1
+ },
+ {
+  "name": "to",
+  "count": 1
+ },
+ {
   "name": "transducer",
+  "count": 1
+ },
+ {
+  "name": "numerical",
   "count": 1
  },
  {
@@ -272,7 +352,23 @@
   "count": 2
  },
  {
+  "name": "use",
+  "count": 1
+ },
+ {
+  "name": "tracer",
+  "count": 1
+ },
+ {
+  "name": "telemetering",
+  "count": 1
+ },
+ {
   "name": "limitation",
+  "count": 1
+ },
+ {
+  "name": "device",
   "count": 1
  }
 ]
