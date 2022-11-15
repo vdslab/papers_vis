@@ -13,6 +13,7 @@ import Stack from '@mui/material/Stack';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Divider from '@mui/material/Divider';
 import { styled } from '@mui/material/styles';
+import SelectPartOrWholeLabel from "../components/SelectPartOrWholeLabel";
 
 const DrawerHeader = styled('div')(({ theme }) => ({
     display: 'flex',
@@ -50,9 +51,7 @@ const Network = () => {
             
                 <Stack spacing={4}>
                     <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
-                    <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
-                    <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
-                  
+                    <SelectPartOrWholeLabel />
                 </Stack>
             </Drawer>
 
