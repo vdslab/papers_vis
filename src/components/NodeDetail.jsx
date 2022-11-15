@@ -18,7 +18,7 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, re
       console.log(detail)
     return(
           
-        <section className ="message is-info is-12" style={{width:'45%', height :isOpenMenu?`${window.innerHeight * 0.7}px`:'0px',overflowY: 'scroll', transitionDuration: '.3s'}} >
+        <section className ="message is-info is-12" style={{position:'relative' , right:'325px', width:'150%', height :isOpenMenu?`${window.innerHeight * 0.7}px`:'0px',overflowY: 'scroll', transitionDuration: '.3s'}} >
 
         <div className="message-header">
             <h1 className="title is-5" >論文詳細</h1>

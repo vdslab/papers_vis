@@ -14,6 +14,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Divider from '@mui/material/Divider';
 import { styled } from '@mui/material/styles';
 import SelectPartOrWholeLabel from "../components/SelectPartOrWholeLabel";
+import { positions } from '@mui/system';
 
 const DrawerHeader = styled('div')(({ theme }) => ({
     display: 'flex',
@@ -39,7 +40,7 @@ const Network = () => {
     
     return(
         
-        <section style={loading?{margin: '350px auto'}:{display:'flex', margin: '20px'}}>
+        <div style={loading?{margin: '550px auto'}:{display:'flex'}}>
 
             {/*サイドバー*/}
             <Drawer  variant="persistent" anchor='left' open={sideBarOpen} onClose={toggleOpen}> 
@@ -57,30 +58,32 @@ const Network = () => {
                 </Stack>
             </Drawer>
 
-            <div style={{width:'55%'}}>
-                <NetworkGraph detail = {detail} setDetail = {setDetail}
-                sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} 
-                nodeLabel = {nodeLabel} setLoading = {setLoading} loading = {loading} reloading = {reloading}/>
-            </div>
-
-           
-
             
-            {loading || <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
-           reloading = {reloading}  setReloading = {setReloading}/>}
+            
+          
+                <NetworkGraph 
+                detail = {detail} setDetail = {setDetail}
+                sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} 
+                nodeLabel = {nodeLabel} 
+                setLoading = {setLoading} loading = {loading}
+                reloading = {reloading}
+                isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
+                />
 
-            {loading || <button className='button is-white' style={{margin : '0 0 0 5px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>
+         
+
+            {/*loading || <button className='button is-white' style={{margin : '0 0 0 5px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>
                 {
                 !isOpenMenu ? 
                 <KeyboardArrowDownIcon/> :
                 <KeyboardArrowUpIcon />
                 }
             </button>
-            }
+            */}
             
             
 
-        </section>
+        </div>
     );
 }
 

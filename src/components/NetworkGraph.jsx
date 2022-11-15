@@ -10,7 +10,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import Box from '@mui/material/Box';
-
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 import CircularProgressWithLabel from "./CircularProgressWithLabel";
 
@@ -22,12 +23,12 @@ todo
 ・ZoomableSVGを使いやすいように調整する
 */
 
-const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen }) => {
-   
+const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpenMenu , setIsOpenMenu }) => {
+
     const svgRef = useRef();
-    const [k, setK] = useState(2);
-    const [x, setX] = useState(width/4);
-    const [y, setY] = useState(height/4);
+    const [k, setK] = useState(1.5);
+    const [x, setX] = useState(width/3.5);
+    const [y, setY] = useState(height/3.5);
     useEffect(() => {
       const zoom = d3.zoom().on("zoom", (event) => {
         const { x, y, k } = event.transform;
@@ -51,12 +52,23 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen }) => 
         width="110"
         height="50"
         >
-           
-            <IconButton aria-label="delete" onClick={() => setSideBarOpen(!sideBarOpen)}>
+            <IconButton aria-label="delete" onClick={() => setSideBarOpen(!sideBarOpen)}
+            style = {{margin:"5px"}}>
                 <MenuIcon />
             </IconButton>
-          
         </foreignObject>
+
+        <foreignObject
+        x = {width}
+        y = {0}
+        width = "1000"
+        height = "1000">
+             <IconButton aria-label="delete" onClick={() => setIsOpenMenu(true)}
+             style = {{margin:"5px"}}>
+            {!isOpenMenu || <KeyboardArrowUpIcon/>}
+            </IconButton>
+        </foreignObject>
+        
       </svg>
     );
   }
@@ -89,10 +101,11 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen }) => 
 
   
 
-const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen, loading, setLoading, reloading}) => {
+const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen, loading, setLoading, reloading, isOpenMenu , setIsOpenMenu}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
-    const [graphWidth, graphHeight] = [0.9*width, 0.9*height];
+    const [graphWidth, graphHeight] = [width, height];
+    console.log(width);
     const [normalNodeCol, hoverNodeCol, clickedNodeCol, linkCol, nearestLinkCol, firseSelectedNodeCol] 
     = ['rgb(100, 50, 255)', 'rgb(140, 90, 255)', 'rgb(200, 30, 50)', 'rgb(200, 200, 200)', 'rgb(0, 0, 0)',
         'rgb(255, 0, 255)'];
@@ -458,7 +471,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         
         {loading?<div style = {{position:'absolute', top : `${height/2.2}px`, left:`${width/2.2}px` }}><CircularProgressWithLabel value={progress} />
         <br/> <br/> <p style={{position:'relative', right:'20px'}}>読み込み中...</p></div>:
-        <ZoomableSVG width={graphWidth} height={graphHeight} setSideBarOpen= {setSideBarOpen} sideBarOpen = {sideBarOpen}>
+        <ZoomableSVG width={graphWidth} height={graphHeight} setSideBarOpen= {setSideBarOpen} sideBarOpen = {sideBarOpen}
+        isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}>
 
         <g className="links">
             {links.map((link) => {
