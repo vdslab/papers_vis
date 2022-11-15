@@ -13,7 +13,7 @@ export default function SelectLabel ({nodeLabel, setNodeLabel}) {
   }
 
     return (
-        <Box sx={{ minWidth: 130, height:100 }} style = {{margin : "10px"}}>
+        <Box sx={{ minWidth: 200 , margin:"20px 10px 0 10px"}}>
           <FormControl fullWidth>
             <InputLabel id="demo-simple-select-label">ノードラベル</InputLabel>
             <Select

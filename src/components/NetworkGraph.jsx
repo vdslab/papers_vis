@@ -6,6 +6,12 @@ import objectArray2ArrayByKey from "../objectArray2ArraybyKey";
 import { noData } from "pg-protocol/dist/messages";
 import LabelProgress from '../components/LabelProgress';
 import { useParams } from "react-router-dom";
+import MenuIcon from '@mui/icons-material/Menu';
+import Drawer from '@mui/material/Drawer';
+import IconButton from '@mui/material/IconButton';
+import Box from '@mui/material/Box';
+
+
 import CircularProgressWithLabel from "./CircularProgressWithLabel";
 
 /*
@@ -16,7 +22,7 @@ todo
 ・ZoomableSVGを使いやすいように調整する
 */
 
-const ZoomableSVG= ({ children, width, height }) => {
+const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen }) => {
    
     const svgRef = useRef();
     const [k, setK] = useState(2);
@@ -36,7 +42,21 @@ const ZoomableSVG= ({ children, width, height }) => {
       className="graph has-background-white"
       style={{marginLeft: "auto", marginRight: "auto" }}
       viewBox={`0 0 ${width} ${height}`}>
+
+  
         <g transform={`translate(${x},${y})scale(${k})`}>{children}</g>
+        <foreignObject
+        x={0}
+        y={0}
+        width="110"
+        height="50"
+        >
+           
+            <IconButton aria-label="delete" onClick={() => setSideBarOpen(!sideBarOpen)}>
+                <MenuIcon />
+            </IconButton>
+          
+        </foreignObject>
       </svg>
     );
   }
@@ -69,7 +89,7 @@ const ZoomableSVG= ({ children, width, height }) => {
 
   
 
-const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reloading}) => {
+const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen, loading, setLoading, reloading}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
     const [graphWidth, graphHeight] = [0.9*width, 0.9*height];
@@ -438,7 +458,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, loading, setLoading, reload
         
         {loading?<div style = {{position:'absolute', top : `${height/2.2}px`, left:`${width/2.2}px` }}><CircularProgressWithLabel value={progress} />
         <br/> <br/> <p style={{position:'relative', right:'20px'}}>読み込み中...</p></div>:
-        <ZoomableSVG width={graphWidth} height={graphHeight}>
+        <ZoomableSVG width={graphWidth} height={graphHeight} setSideBarOpen= {setSideBarOpen} sideBarOpen = {sideBarOpen}>
 
         <g className="links">
             {links.map((link) => {
