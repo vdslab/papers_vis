@@ -1,90 +1,98 @@
 [
  {
   "name": "application",
-  "count": 29
+  "count": 12
  },
  {
   "name": "technology",
-  "count": 7
+  "count": 9
  },
  {
-  "name": "etx",
-  "count": 500
+  "name": "speech",
+  "count": 12
  },
  {
   "name": "science",
   "count": 3
  },
  {
-  "name": "speech",
-  "count": 11
+  "name": "conclude",
+  "count": 2
  },
  {
   "name": "storage",
-  "count": 1
+  "count": 4
  },
  {
   "name": "equalization",
   "count": 1
  },
  {
+  "name": "detection",
+  "count": 16
+ },
+ {
   "name": "adaptive",
-  "count": 45
+  "count": 22
  },
  {
-  "name": "adaptive equalization",
-  "count": 1
- },
- {
-  "name": "channel",
-  "count": 28
- },
- {
-  "name": "network",
-  "count": 107
- },
- {
-  "name": "management",
-  "count": 17
- },
- {
-  "name": "network management",
-  "count": 8
+  "name": "density",
+  "count": 12
  },
  {
   "name": "traffic",
-  "count": 5
+  "count": 11
  },
  {
   "name": "amp",
-  "count": 3
- },
- {
-  "name": "control",
-  "count": 122
- },
- {
-  "name": "traffic control",
-  "count": 1
- },
- {
-  "name": "rout",
-  "count": 3
- },
- {
-  "name": "achievement",
-  "count": 2
- },
- {
-  "name": "address",
   "count": 4
  },
  {
-  "name": "configuration",
-  "count": 5
+  "name": "network",
+  "count": 68
  },
  {
-  "name": "configuration management",
+  "name": "management",
+  "count": 19
+ },
+ {
+  "name": "selective",
+  "count": 2
+ },
+ {
+  "name": "control",
+  "count": 41
+ },
+ {
+  "name": "rout",
+  "count": 6
+ },
+ {
+  "name": "proportional",
+  "count": 2
+ },
+ {
+  "name": "admit",
+  "count": 1
+ },
+ {
+  "name": "attitude",
+  "count": 1
+ },
+ {
+  "name": "undemanding",
+  "count": 1
+ },
+ {
+  "name": "prepare",
+  "count": 1
+ },
+ {
+  "name": "correct",
+  "count": 1
+ },
+ {
+  "name": "prevail",
   "count": 1
  },
  {
@@ -92,8 +100,20 @@
   "count": 2
  },
  {
-  "name": "deal",
+  "name": "osi",
+  "count": 4
+ },
+ {
+  "name": "configuration",
+  "count": 7
+ },
+ {
+  "name": "standard",
   "count": 3
+ },
+ {
+  "name": "deal",
+  "count": 1
  },
  {
   "name": "recommendation",
@@ -116,11 +136,15 @@
   "count": 7
  },
  {
-  "name": "broadband network",
-  "count": 1
+  "name": "evolution",
+  "count": 5
  },
  {
-  "name": "evolution",
+  "name": "expect",
+  "count": 2
+ },
+ {
+  "name": "expected",
   "count": 2
  },
  {
@@ -128,48 +152,84 @@
   "count": 2
  },
  {
-  "name": "disaster",
-  "count": 2
- },
- {
-  "name": "disaster recovery",
+  "name": "residence",
   "count": 1
  },
  {
-  "name": "recovery",
+  "name": "progress",
   "count": 2
  },
  {
-  "name": "1988",
-  "count": 4
+  "name": "rapid",
+  "count": 2
+ },
+ {
+  "name": "disaster",
+  "count": 3
+ },
+ {
+  "name": "recovery",
+  "count": 3
+ },
+ {
+  "name": "illustrative",
+  "count": 3
+ },
+ {
+  "name": "chicago",
+  "count": 1
+ },
+ {
+  "name": "requirements",
+  "count": 1
+ },
+ {
+  "name": "nni",
+  "count": 1
  },
  {
   "name": "concept",
   "count": 8
  },
  {
-  "name": "describe",
-  "count": 19
- },
- {
-  "name": "feature",
-  "count": 17
- },
- {
-  "name": "bound",
-  "count": 15
- },
- {
-  "name": "requirement",
+  "name": "multiplexing",
   "count": 3
  },
  {
+  "name": "main",
+  "count": 1
+ },
+ {
+  "name": "frame",
+  "count": 12
+ },
+ {
+  "name": "bound",
+  "count": 11
+ },
+ {
+  "name": "requirement",
+  "count": 6
+ },
+ {
   "name": "specification",
+  "count": 10
+ },
+ {
+  "name": "seem",
+  "count": 2
+ },
+ {
+  "name": "property",
+  "count": 10
+ },
+ {
+  "name": "ss7",
   "count": 5
  },
  {
-  "name": "approach",
-  "count": 60
+  "name": "user",
+  "count": 9
  },
  {
   "name": "isdn",
@@ -177,15 +237,15 @@
  },
  {
   "name": "provide",
-  "count": 7
+  "count": 5
  },
  {
-  "name": "ss7",
-  "count": 3
+  "name": "intent",
+  "count": 1
  },
  {
-  "name": "access",
-  "count": 12
+  "name": "extension",
+  "count": 5
  },
  {
   "name": "circuit",
@@ -196,80 +256,120 @@
   "count": 1
  },
  {
-  "name": "exchange access",
+  "name": "signaling",
+  "count": 2
+ },
+ {
+  "name": "access",
+  "count": 6
+ },
+ {
+  "name": "bellsouth",
   "count": 1
  },
  {
   "name": "service",
-  "count": 25
+  "count": 20
  },
  {
-  "name": "architecture",
-  "count": 25
+  "name": "environment",
+  "count": 7
  },
  {
-  "name": "current",
-  "count": 8
- },
- {
-  "name": "signaling",
+  "name": "introduction",
   "count": 1
  },
  {
-  "name": "system",
-  "count": 200
+  "name": "functionality",
+  "count": 1
  },
  {
-  "name": "discuss",
-  "count": 13
+  "name": "support",
+  "count": 8
  },
  {
   "name": "function",
-  "count": 42
- },
- {
-  "name": "data",
-  "count": 45
- },
- {
-  "name": "dynamic",
   "count": 26
  },
  {
-  "name": "dynamic rout",
+  "name": "gap",
+  "count": 3
+ },
+ {
+  "name": "essential",
+  "count": 1
+ },
+ {
+  "name": "online",
+  "count": 3
+ },
+ {
+  "name": "pan",
+  "count": 1
+ },
+ {
+  "name": "two",
+  "count": 7
+ },
+ {
+  "name": "dynamic",
+  "count": 15
+ },
+ {
+  "name": "direction",
+  "count": 3
+ },
+ {
+  "name": "natural",
+  "count": 1
+ },
+ {
+  "name": "prevent",
+  "count": 1
+ },
+ {
+  "name": "ntt",
   "count": 2
- },
- {
-  "name": "design",
-  "count": 57
- },
- {
-  "name": "communication",
-  "count": 22
  },
  {
   "name": "earthquake",
   "count": 1
  },
  {
-  "name": "japan",
+  "name": "routing",
+  "count": 4
+ },
+ {
+  "name": "much",
   "count": 1
  },
  {
-  "name": "routing",
-  "count": 3
+  "name": "state",
+  "count": 14
+ },
+ {
+  "name": "system",
+  "count": 56
  },
  {
   "name": "maintenance",
-  "count": 1
+  "count": 2
  },
  {
-  "name": "examine",
-  "count": 1
+  "name": "node",
+  "count": 6
  },
  {
   "name": "international",
   "count": 6
+ },
+ {
+  "name": "profile",
+  "count": 1
+ },
+ {
+  "name": "24",
+  "count": 1
  },
  {
   "name": "echo",
@@ -280,19 +380,35 @@
   "count": 1
  },
  {
+  "name": "transmission",
+  "count": 9
+ },
+ {
   "name": "review",
   "count": 3
  },
  {
+  "name": "technique",
+  "count": 13
+ },
+ {
   "name": "high",
-  "count": 14
+  "count": 9
+ },
+ {
+  "name": "motivation",
+  "count": 2
+ },
+ {
+  "name": "thinking",
+  "count": 2
  },
  {
   "name": "acronym",
   "count": 1
  },
  {
-  "name": "active",
+  "name": "stand",
   "count": 1
  },
  {
@@ -304,71 +420,103 @@
   "count": 1
  },
  {
-  "name": "transmission",
-  "count": 8
+  "name": "accomplish",
+  "count": 1
+ },
+ {
+  "name": "ask",
+  "count": 1
+ },
+ {
+  "name": "observe",
+  "count": 2
+ },
+ {
+  "name": "italian",
+  "count": 1
  },
  {
   "name": "model",
-  "count": 99
+  "count": 53
  },
  {
   "name": "study",
-  "count": 5
- },
- {
-  "name": "area",
-  "count": 9
- },
- {
-  "name": "cost",
   "count": 7
+ },
+ {
+  "name": "shr",
+  "count": 1
+ },
+ {
+  "name": "interoffice",
+  "count": 1
  },
  {
   "name": "ring",
   "count": 2
  },
  {
+  "name": "springs",
+  "count": 1
+ },
+ {
   "name": "transport",
   "count": 4
  },
  {
-  "name": "frame",
-  "count": 9
+  "name": "match",
+  "count": 5
  },
  {
   "name": "time",
-  "count": 48
+  "count": 28
  },
  {
   "name": "alignment",
   "count": 2
  },
  {
-  "name": "case",
-  "count": 27
+  "name": "faw",
+  "count": 1
+ },
+ {
+  "name": "parameter",
+  "count": 25
  },
  {
   "name": "education",
   "count": 2
  },
  {
-  "name": "future",
-  "count": 4
+  "name": "scenario",
+  "count": 3
  },
  {
-  "name": "scenario",
+  "name": "future",
+  "count": 2
+ },
+ {
+  "name": "proposals",
   "count": 1
  },
  {
-  "name": "also",
+  "name": "university",
+  "count": 1
+ },
+ {
+  "name": "superhome",
+  "count": 1
+ },
+ {
+  "name": "superoffice",
+  "count": 1
+ },
+ {
+  "name": "speed",
   "count": 10
  },
  {
   "name": "fiber",
-  "count": 4
- },
- {
-  "name": "audio",
   "count": 2
  },
  {
@@ -376,12 +524,12 @@
   "count": 2
  },
  {
-  "name": "20",
-  "count": 3
+  "name": "audio",
+  "count": 1
  },
  {
-  "name": "state",
-  "count": 16
+  "name": "20",
+  "count": 2
  },
  {
   "name": "carolina",
@@ -396,24 +544,52 @@
   "count": 1
  },
  {
+  "name": "offering",
+  "count": 1
+ },
+ {
   "name": "ibm",
   "count": 1
  },
  {
+  "name": "solution",
+  "count": 21
+ },
+ {
+  "name": "tenneco",
+  "count": 1
+ },
+ {
+  "name": "gas",
+  "count": 1
+ },
+ {
+  "name": "summarized",
+  "count": 1
+ },
+ {
   "name": "analog",
-  "count": 6
+  "count": 5
  },
  {
   "name": "enterprise",
   "count": 2
  },
  {
-  "name": "aspect",
-  "count": 3
+  "name": "executive",
+  "count": 1
  },
  {
-  "name": "business",
+  "name": "timely",
   "count": 1
+ },
+ {
+  "name": "integration",
+  "count": 4
+ },
+ {
+  "name": "aspect",
+  "count": 2
  },
  {
   "name": "charge",
@@ -421,27 +597,31 @@
  },
  {
   "name": "effect",
-  "count": 6
+  "count": 7
  },
  {
-  "name": "64",
-  "count": 2
+  "name": "surround",
+  "count": 1
+ },
+ {
+  "name": "sensitive",
+  "count": 1
  },
  {
   "name": "distributed",
+  "count": 3
+ },
+ {
+  "name": "remote",
   "count": 2
  },
  {
   "name": "implement",
-  "count": 1
+  "count": 3
  },
  {
   "name": "intelligent",
-  "count": 4
- },
- {
-  "name": "intelligent network",
-  "count": 2
+  "count": 6
  },
  {
   "name": "sonet",
@@ -449,35 +629,63 @@
  },
  {
   "name": "desired",
-  "count": 2
+  "count": 1
  },
  {
   "name": "exist",
-  "count": 3
+  "count": 4
+ },
+ {
+  "name": "migrate",
+  "count": 1
  },
  {
   "name": "equipment",
   "count": 1
  },
  {
-  "name": "atm",
+  "name": "france",
+  "count": 1
+ },
+ {
+  "name": "telecom",
   "count": 2
  },
  {
+  "name": "telemarketing",
+  "count": 1
+ },
+ {
   "name": "center",
+  "count": 3
+ },
+ {
+  "name": "jcpenney",
+  "count": 1
+ },
+ {
+  "name": "noc",
+  "count": 1
+ },
+ {
+  "name": "equip",
   "count": 1
  },
  {
   "name": "student",
-  "count": 3
+  "count": 4
  },
  {
   "name": "mathematics",
   "count": 2
  },
  {
-  "name": "change",
-  "count": 4
+  "name": "school",
+  "count": 1
+ },
+ {
+  "name": "tend",
+  "count": 2
  },
  {
   "name": "considers",
@@ -485,19 +693,35 @@
  },
  {
   "name": "algorithm",
-  "count": 180
+  "count": 52
  },
  {
-  "name": "algorithm describe",
+  "name": "following",
+  "count": 2
+ },
+ {
+  "name": "mpeg",
   "count": 1
  },
  {
-  "name": "dependent",
+  "name": "random",
+  "count": 8
+ },
+ {
+  "name": "unma",
+  "count": 1
+ },
+ {
+  "name": "functional",
+  "count": 6
+ },
+ {
+  "name": "area",
   "count": 5
  },
  {
-  "name": "state dependent",
-  "count": 1
+  "name": "dependent",
+  "count": 4
  },
  {
   "name": "call",
@@ -508,47 +732,95 @@
   "count": 2
  },
  {
+  "name": "outage",
+  "count": 1
+ },
+ {
+  "name": "disruptive",
+  "count": 1
+ },
+ {
   "name": "mb",
   "count": 3
  },
  {
-  "name": "burst",
-  "count": 2
+  "name": "probe",
+  "count": 3
+ },
+ {
+  "name": "short",
+  "count": 3
+ },
+ {
+  "name": "trail",
+  "count": 1
  },
  {
   "name": "computing",
   "count": 1
  },
  {
-  "name": "follow",
-  "count": 1
+  "name": "design",
+  "count": 28
  },
  {
-  "name": "implementation",
-  "count": 7
- },
- {
-  "name": "strategy",
+  "name": "methodology",
   "count": 8
  },
  {
-  "name": "broadband service",
+  "name": "one",
+  "count": 6
+ },
+ {
+  "name": "security",
+  "count": 3
+ },
+ {
+  "name": "strategy",
+  "count": 14
+ },
+ {
+  "name": "would",
   "count": 1
  },
  {
-  "name": "performance",
-  "count": 21
+  "name": "narrowband",
+  "count": 3
+ },
+ {
+  "name": "subscriber",
+  "count": 5
+ },
+ {
+  "name": "mcm",
+  "count": 1
  },
  {
   "name": "achieve",
-  "count": 5
+  "count": 2
  },
  {
   "name": "general",
   "count": 4
  },
  {
+  "name": "performance",
+  "count": 14
+ },
+ {
+  "name": "channel",
+  "count": 15
+ },
+ {
   "name": "cpe",
+  "count": 1
+ },
+ {
+  "name": "nisdn",
+  "count": 1
+ },
+ {
+  "name": "premise",
   "count": 1
  },
  {
@@ -556,36 +828,68 @@
   "count": 1
  },
  {
-  "name": "customer",
-  "count": 5
+  "name": "terminal",
+  "count": 4
  },
  {
-  "name": "digital",
-  "count": 20
+  "name": "single",
+  "count": 8
  },
  {
-  "name": "key",
+  "name": "perform",
   "count": 3
  },
  {
-  "name": "digital signature",
-  "count": 1
+  "name": "information",
+  "count": 28
+ },
+ {
+  "name": "customer",
+  "count": 4
+ },
+ {
+  "name": "segmentation",
+  "count": 7
+ },
+ {
+  "name": "key",
+  "count": 4
+ },
+ {
+  "name": "signature",
+  "count": 2
  },
  {
   "name": "public",
-  "count": 2
+  "count": 3
+ },
+ {
+  "name": "interchange",
+  "count": 3
+ },
+ {
+  "name": "cryptography",
+  "count": 1
+ },
+ {
+  "name": "obp",
+  "count": 1
  },
  {
   "name": "optical",
-  "count": 17
- },
- {
-  "name": "communication satellite",
-  "count": 2
+  "count": 16
  },
  {
   "name": "device",
-  "count": 6
+  "count": 7
+ },
+ {
+  "name": "satellite",
+  "count": 8
+ },
+ {
+  "name": "integrated",
+  "count": 4
  },
  {
   "name": "packet",
@@ -597,27 +901,39 @@
  },
  {
   "name": "switching",
-  "count": 4
+  "count": 8
  },
  {
-  "name": "adaptive routing",
+  "name": "pspdn",
+  "count": 1
+ },
+ {
+  "name": "versus",
   "count": 1
  },
  {
   "name": "analyze",
-  "count": 5
+  "count": 3
+ },
+ {
+  "name": "research",
+  "count": 10
  },
  {
   "name": "part",
-  "count": 5
+  "count": 7
  },
  {
   "name": "generic",
   "count": 2
  },
  {
+  "name": "transfer",
+  "count": 3
+ },
+ {
   "name": "message",
-  "count": 4
+  "count": 6
  },
  {
   "name": "personal",
@@ -628,12 +944,16 @@
   "count": 1
  },
  {
-  "name": "fabric",
-  "count": 2
+  "name": "mobile",
+  "count": 9
  },
  {
-  "name": "base",
-  "count": 31
+  "name": "power",
+  "count": 20
+ },
+ {
+  "name": "fabric",
+  "count": 2
  },
  {
   "name": "photonic",
@@ -641,14 +961,26 @@
  },
  {
   "name": "space",
-  "count": 12
+  "count": 13
  },
  {
-  "name": "capability",
-  "count": 5
+  "name": "free",
+  "count": 6
+ },
+ {
+  "name": "lec",
+  "count": 1
  },
  {
   "name": "deploy",
+  "count": 1
+ },
+ {
+  "name": "woman",
+  "count": 1
+ },
+ {
+  "name": "precollege",
   "count": 1
  },
  {
@@ -660,12 +992,20 @@
   "count": 1
  },
  {
-  "name": "alter",
-  "count": 3
+  "name": "nurture",
+  "count": 1
  },
  {
-  "name": "interface",
+  "name": "answer",
+  "count": 4
+ },
+ {
+  "name": "root",
   "count": 6
+ },
+ {
+  "name": "recall",
+  "count": 1
  },
  {
   "name": "vendor",
@@ -676,20 +1016,20 @@
   "count": 1
  },
  {
+  "name": "interface",
+  "count": 6
+ },
+ {
+  "name": "build",
+  "count": 2
+ },
+ {
   "name": "healing",
   "count": 1
  },
  {
-  "name": "information",
-  "count": 26
- },
- {
-  "name": "information network",
-  "count": 1
- },
- {
-  "name": "use",
-  "count": 60
+  "name": "self",
+  "count": 12
  },
  {
   "name": "800",
@@ -700,28 +1040,44 @@
   "count": 6
  },
  {
-  "name": "corporate network",
-  "count": 1
+  "name": "use",
+  "count": 4
+ },
+ {
+  "name": "example",
+  "count": 7
  },
  {
   "name": "signal",
-  "count": 51
+  "count": 27
  },
  {
-  "name": "speaker",
-  "count": 1
- },
- {
-  "name": "speaker verification",
-  "count": 1
- },
- {
-  "name": "verification",
+  "name": "significance",
   "count": 2
  },
  {
+  "name": "nsp",
+  "count": 1
+ },
+ {
+  "name": "speaker",
+  "count": 3
+ },
+ {
+  "name": "verification",
+  "count": 3
+ },
+ {
   "name": "recognition",
-  "count": 12
+  "count": 11
+ },
+ {
+  "name": "task",
+  "count": 15
+ },
+ {
+  "name": "pattern",
+  "count": 17
  },
  {
   "name": "cell",
@@ -729,38 +1085,46 @@
  },
  {
   "name": "cod",
-  "count": 8
+  "count": 6
  },
  {
   "name": "method",
-  "count": 87
+  "count": 42
  },
  {
-  "name": "speech cod",
+  "name": "missing",
   "count": 1
  },
  {
   "name": "analysis",
-  "count": 29
+  "count": 8
  },
  {
   "name": "rule",
-  "count": 11
+  "count": 13
  },
  {
-  "name": "traffic management",
-  "count": 1
+  "name": "synthesis",
+  "count": 6
  },
  {
   "name": "automation",
-  "count": 2
+  "count": 1
  },
  {
   "name": "congestion",
   "count": 3
  },
  {
-  "name": "transmission system",
+  "name": "servicing",
+  "count": 1
+ },
+ {
+  "name": "simplified",
+  "count": 1
+ },
+ {
+  "name": "pcns",
   "count": 1
  },
  {
@@ -768,31 +1132,51 @@
   "count": 2
  },
  {
-  "name": "mobile",
-  "count": 7
+  "name": "explored",
+  "count": 1
  },
  {
-  "name": "digital network",
+  "name": "fujitsu",
   "count": 1
+ },
+ {
+  "name": "smooth",
+  "count": 3
  },
  {
   "name": "hierarchy",
   "count": 4
  },
  {
-  "name": "need",
-  "count": 3
- },
- {
-  "name": "segment",
+  "name": "various",
   "count": 5
  },
  {
+  "name": "need",
+  "count": 6
+ },
+ {
+  "name": "zealand",
+  "count": 1
+ },
+ {
+  "name": "segment",
+  "count": 7
+ },
+ {
   "name": "correlation",
-  "count": 3
+  "count": 4
+ },
+ {
+  "name": "humanity",
+  "count": 1
  },
  {
   "name": "social",
+  "count": 1
+ },
+ {
+  "name": "debate",
   "count": 1
  },
  {
@@ -800,8 +1184,16 @@
   "count": 1
  },
  {
+  "name": "data",
+  "count": 21
+ },
+ {
   "name": "transform",
   "count": 7
+ },
+ {
+  "name": "size",
+  "count": 5
  },
  {
   "name": "25",
@@ -809,50 +1201,98 @@
  },
  {
   "name": "radio",
-  "count": 4
- },
- {
-  "name": "protocol",
-  "count": 12
- },
- {
-  "name": "support",
-  "count": 2
- },
- {
-  "name": "video",
   "count": 5
  },
  {
-  "name": "chip",
+  "name": "digital",
+  "count": 12
+ },
+ {
+  "name": "upon",
+  "count": 2
+ },
+ {
+  "name": "protocol",
+  "count": 13
+ },
+ {
+  "name": "dss1",
+  "count": 1
+ },
+ {
+  "name": "architecture",
+  "count": 14
+ },
+ {
+  "name": "bank",
   "count": 4
+ },
+ {
+  "name": "us",
+  "count": 5
+ },
+ {
+  "name": "video",
+  "count": 6
  },
  {
   "name": "codec",
   "count": 1
  },
  {
+  "name": "chip",
+  "count": 3
+ },
+ {
+  "name": "implementation",
+  "count": 8
+ },
+ {
   "name": "first",
-  "count": 6
+  "count": 3
  },
  {
   "name": "distance",
-  "count": 7
+  "count": 8
  },
  {
-  "name": "author",
-  "count": 14
+  "name": "stability",
+  "count": 12
+ },
+ {
+  "name": "voyager",
+  "count": 1
+ },
+ {
+  "name": "good",
+  "count": 1
+ },
+ {
+  "name": "filter",
+  "count": 45
+ },
+ {
+  "name": "crash",
+  "count": 2
+ },
+ {
+  "name": "produce",
+  "count": 1
  },
  {
   "name": "curriculum",
   "count": 1
  },
  {
-  "name": "factor",
-  "count": 4
+  "name": "mastery",
+  "count": 1
  },
  {
   "name": "lack",
+  "count": 3
+ },
+ {
+  "name": "sw",
   "count": 1
  },
  {
@@ -860,64 +1300,108 @@
   "count": 1
  },
  {
-  "name": "sw",
-  "count": 1
- },
- {
-  "name": "db",
-  "count": 7
- },
- {
-  "name": "16",
+  "name": "periodic",
   "count": 3
  },
  {
-  "name": "modulator",
+  "name": "db",
+  "count": 6
+ },
+ {
+  "name": "16",
   "count": 1
+ },
+ {
+  "name": "expandable",
+  "count": 1
+ },
+ {
+  "name": "nonblock",
+  "count": 1
+ },
+ {
+  "name": "crosspoint",
+  "count": 1
+ },
+ {
+  "name": "lsi",
+  "count": 2
+ },
+ {
+  "name": "modulator",
+  "count": 2
  },
  {
   "name": "demodulator",
   "count": 1
  },
  {
-  "name": "detector",
-  "count": 5
+  "name": "pair",
+  "count": 4
  },
  {
-  "name": "frequency",
-  "count": 32
+  "name": "quadrature",
+  "count": 1
+ },
+ {
+  "name": "detector",
+  "count": 6
+ },
+ {
+  "name": "misalignment",
+  "count": 1
+ },
+ {
+  "name": "sampling",
+  "count": 1
  },
  {
   "name": "development",
   "count": 6
  },
  {
-  "name": "1980s",
+  "name": "british",
+  "count": 1
+ },
+ {
+  "name": "explanation",
   "count": 1
  },
  {
   "name": "rate",
-  "count": 5
+  "count": 9
  },
  {
-  "name": "code",
-  "count": 17
- },
- {
-  "name": "convolutional",
+  "name": "interuser",
   "count": 1
  },
  {
-  "name": "procedure",
-  "count": 10
+  "name": "trellis",
+  "count": 2
+ },
+ {
+  "name": "pn",
+  "count": 1
+ },
+ {
+  "name": "code",
+  "count": 15
  },
  {
   "name": "production",
-  "count": 5
+  "count": 8
  },
  {
-  "name": "based",
-  "count": 12
+  "name": "procedure",
+  "count": 15
+ },
+ {
+  "name": "ops5",
+  "count": 1
+ },
+ {
+  "name": "specify",
+  "count": 3
  },
  {
   "name": "cycle",
@@ -928,24 +1412,44 @@
   "count": 1
  },
  {
+  "name": "duplex",
+  "count": 1
+ },
+ {
   "name": "ccitt",
   "count": 1
  },
  {
   "name": "interference",
-  "count": 10
+  "count": 11
+ },
+ {
+  "name": "heuristic",
+  "count": 3
+ },
+ {
+  "name": "planning",
+  "count": 9
+ },
+ {
+  "name": "frequency",
+  "count": 18
  },
  {
   "name": "linear",
-  "count": 26
+  "count": 10
  },
  {
-  "name": "error",
-  "count": 25
+  "name": "squared",
+  "count": 3
  },
  {
-  "name": "filter",
-  "count": 63
+  "name": "transformation",
+  "count": 14
+ },
+ {
+  "name": "matched",
+  "count": 3
  },
  {
   "name": "quality",
@@ -953,31 +1457,47 @@
  },
  {
   "name": "measurement",
-  "count": 8
- },
- {
-  "name": "software",
   "count": 9
  },
  {
-  "name": "broadcast",
+  "name": "software",
+  "count": 10
+ },
+ {
+  "name": "product",
   "count": 3
  },
  {
-  "name": "slot",
+  "name": "cpn",
   "count": 1
  },
  {
-  "name": "control channel",
+  "name": "broadcast",
+  "count": 5
+ },
+ {
+  "name": "slot",
+  "count": 2
+ },
+ {
+  "name": "transmitter",
   "count": 1
  },
  {
   "name": "pulse",
-  "count": 4
+  "count": 6
+ },
+ {
+  "name": "bandlimiting",
+  "count": 1
+ },
+ {
+  "name": "precompression",
+  "count": 1
  },
  {
   "name": "compression",
-  "count": 2
+  "count": 3
  },
  {
   "name": "productivity",
@@ -985,30 +1505,58 @@
  },
  {
   "name": "5ess",
-  "count": 1
+  "count": 2
  },
  {
   "name": "estimation",
-  "count": 16
+  "count": 7
  },
  {
-  "name": "department",
-  "count": 1
+  "name": "project",
+  "count": 3
+ },
+ {
+  "name": "factor",
+  "count": 5
  },
  {
   "name": "hospital",
   "count": 1
  },
  {
+  "name": "department",
+  "count": 1
+ },
+ {
   "name": "multimedia",
-  "count": 4
+  "count": 6
+ },
+ {
+  "name": "report",
+  "count": 1
+ },
+ {
+  "name": "problem",
+  "count": 32
+ },
+ {
+  "name": "discriminator",
+  "count": 1
+ },
+ {
+  "name": "yet",
+  "count": 1
  },
  {
   "name": "agree",
   "count": 1
  },
  {
-  "name": "agree closely",
+  "name": "impatt",
+  "count": 1
+ },
+ {
+  "name": "sacrifice",
   "count": 1
  },
  {
@@ -1016,36 +1564,48 @@
   "count": 3
  },
  {
-  "name": "interconnection network",
+  "name": "heterogeneous",
   "count": 1
- },
- {
-  "name": "and",
-  "count": 6
- },
- {
-  "name": "delay",
-  "count": 7
  },
  {
   "name": "establishment",
   "count": 1
  },
  {
-  "name": "switching network",
+  "name": "overhead",
   "count": 1
  },
  {
-  "name": "100",
+  "name": "and",
+  "count": 7
+ },
+ {
+  "name": "real",
+  "count": 9
+ },
+ {
+  "name": "buffering",
+  "count": 1
+ },
+ {
+  "name": "log",
+  "count": 3
+ },
+ {
+  "name": "sub",
+  "count": 20
+ },
+ {
+  "name": "workstation",
   "count": 1
  },
  {
   "name": "decoder",
-  "count": 1
+  "count": 4
  },
  {
   "name": "rs",
-  "count": 1
+  "count": 2
  },
  {
   "name": "decode",
@@ -1057,11 +1617,27 @@
  },
  {
   "name": "reliability",
-  "count": 7
+  "count": 9
+ },
+ {
+  "name": "view",
+  "count": 3
  },
  {
   "name": "prototype",
   "count": 1
+ },
+ {
+  "name": "rainbow",
+  "count": 1
+ },
+ {
+  "name": "wdma",
+  "count": 1
+ },
+ {
+  "name": "station",
+  "count": 2
  },
  {
   "name": "catv",
@@ -1069,7 +1645,19 @@
  },
  {
   "name": "hybrid",
-  "count": 2
+  "count": 3
+ },
+ {
+  "name": "coaxial",
+  "count": 1
+ },
+ {
+  "name": "outline",
+  "count": 3
+ },
+ {
+  "name": "ascii",
+  "count": 1
  },
  {
   "name": "host",
@@ -1080,11 +1668,7 @@
   "count": 3
  },
  {
-  "name": "one",
-  "count": 12
- },
- {
-  "name": "terminal",
+  "name": "370",
   "count": 1
  },
  {
@@ -1092,36 +1676,52 @@
   "count": 2
  },
  {
-  "name": "area network",
-  "count": 2
- },
- {
   "name": "tunable",
-  "count": 4
+  "count": 5
  },
  {
   "name": "wavelength",
   "count": 7
  },
  {
-  "name": "acquisition",
+  "name": "aotfs",
   "count": 1
  },
  {
-  "name": "acquisition time",
-  "count": 1
+  "name": "acoustooptic",
+  "count": 2
+ },
+ {
+  "name": "acquisition",
+  "count": 2
  },
  {
   "name": "alarm",
   "count": 1
  },
  {
+  "name": "false",
+  "count": 4
+ },
+ {
   "name": "span",
   "count": 1
  },
  {
+  "name": "coder",
+  "count": 3
+ },
+ {
+  "name": "neuron",
+  "count": 2
+ },
+ {
+  "name": "lbg",
+  "count": 1
+ },
+ {
   "name": "source",
-  "count": 10
+  "count": 15
  },
  {
   "name": "canceller",
@@ -1132,107 +1732,171 @@
   "count": 1
  },
  {
-  "name": "synchronization",
-  "count": 2
+  "name": "line",
+  "count": 11
+ },
+ {
+  "name": "intersymbol",
+  "count": 1
  },
  {
   "name": "dcs",
   "count": 1
  },
  {
-  "name": "structure",
-  "count": 17
- },
- {
-  "name": "section",
+  "name": "synchronization",
   "count": 2
  },
  {
+  "name": "semantics",
+  "count": 1
+ },
+ {
+  "name": "structure",
+  "count": 20
+ },
+ {
   "name": "static",
-  "count": 1
- },
- {
-  "name": "distribution",
-  "count": 14
- },
- {
-  "name": "new",
-  "count": 5
- },
- {
-  "name": "new call",
-  "count": 1
- },
- {
-  "name": "cover",
   "count": 3
  },
  {
-  "name": "various",
+  "name": "section",
+  "count": 3
+ },
+ {
+  "name": "cm",
+  "count": 3
+ },
+ {
+  "name": "transverse",
   "count": 1
  },
  {
-  "name": "lsi",
+  "name": "batch",
+  "count": 2
+ },
+ {
+  "name": "arrival",
   "count": 1
  },
  {
-  "name": "lsi circuit",
+  "name": "new",
+  "count": 7
+ },
+ {
+  "name": "cover",
   "count": 1
  },
  {
-  "name": "type",
-  "count": 4
+  "name": "topic",
+  "count": 3
  },
  {
   "name": "ics",
+  "count": 2
+ },
+ {
+  "name": "type",
+  "count": 8
+ },
+ {
+  "name": "tdma",
   "count": 1
  },
  {
-  "name": "process",
-  "count": 26
- },
- {
   "name": "action",
-  "count": 11
+  "count": 9
  },
  {
-  "name": "defect",
+  "name": "process",
+  "count": 22
+ },
+ {
+  "name": "prevention",
+  "count": 2
+ },
+ {
+  "name": "preventive",
+  "count": 1
+ },
+ {
+  "name": "path",
+  "count": 16
+ },
+ {
+  "name": "distinct",
+  "count": 2
+ },
+ {
+  "name": "capability",
   "count": 4
  },
  {
-  "name": "decision",
-  "count": 24
+  "name": "carrier",
+  "count": 1
  },
  {
-  "name": "generator",
-  "count": 4
+  "name": "sequence",
+  "count": 14
+ },
+ {
+  "name": "jsi",
+  "count": 2
  },
  {
   "name": "imperfect",
   "count": 1
  },
  {
+  "name": "decision",
+  "count": 22
+ },
+ {
+  "name": "generator",
+  "count": 5
+ },
+ {
   "name": "collision",
   "count": 5
  },
  {
+  "name": "resolution",
+  "count": 6
+ },
+ {
   "name": "consider",
-  "count": 8
+  "count": 4
  },
  {
   "name": "array",
-  "count": 22
+  "count": 12
  },
  {
-  "name": "jamming",
+  "name": "antenna",
+  "count": 3
+ },
+ {
+  "name": "angle",
+  "count": 6
+ },
+ {
+  "name": "pbtj",
   "count": 1
  },
  {
-  "name": "sub",
-  "count": 17
+  "name": "fbnj",
+  "count": 1
+ },
+ {
+  "name": "jamming",
+  "count": 2
  },
  {
   "name": "multiaccess",
+  "count": 1
+ },
+ {
+  "name": "concatenate",
   "count": 1
  },
  {
@@ -1240,12 +1904,20 @@
   "count": 4
  },
  {
-  "name": "dfb",
-  "count": 4
+  "name": "ttg",
+  "count": 1
  },
  {
-  "name": "range",
-  "count": 10
+  "name": "tune",
+  "count": 2
+ },
+ {
+  "name": "dfb",
+  "count": 2
+ },
+ {
+  "name": "3s",
+  "count": 1
  },
  {
   "name": "interleave",
@@ -1253,75 +1925,131 @@
  },
  {
   "name": "fh",
+  "count": 2
+ },
+ {
+  "name": "nonideal",
   "count": 1
+ },
+ {
+  "name": "diversity",
+  "count": 3
  },
  {
   "name": "fp",
   "count": 1
  },
  {
-  "name": "crosstalk",
-  "count": 4
- },
- {
   "name": "cavity",
   "count": 2
  },
  {
-  "name": "power",
-  "count": 15
+  "name": "double",
+  "count": 2
+ },
+ {
+  "name": "crosstalk",
+  "count": 3
+ },
+ {
+  "name": "penalty",
+  "count": 3
+ },
+ {
+  "name": "rz",
+  "count": 1
+ },
+ {
+  "name": "loop",
+  "count": 9
  },
  {
   "name": "feasibility",
   "count": 1
  },
  {
-  "name": "test",
-  "count": 11
+  "name": "voice",
+  "count": 3
  },
  {
   "name": "growth",
   "count": 1
  },
  {
-  "name": "reliability growth",
+  "name": "test",
+  "count": 16
+ },
+ {
+  "name": "recent",
   "count": 1
  },
  {
-  "name": "element",
-  "count": 9
+  "name": "microwave",
+  "count": 1
  },
  {
-  "name": "subscriber",
+  "name": "subcarriers",
+  "count": 1
+ },
+ {
+  "name": "bpsk",
+  "count": 2
+ },
+ {
+  "name": "gateway",
   "count": 3
+ },
+ {
+  "name": "explore",
+  "count": 3
+ },
+ {
+  "name": "simple",
+  "count": 6
  },
  {
   "name": "cnr",
   "count": 1
  },
  {
-  "name": "group",
-  "count": 8
+  "name": "36",
+  "count": 1
  },
  {
-  "name": "computer",
-  "count": 7
+  "name": "mw",
+  "count": 1
+ },
+ {
+  "name": "group",
+  "count": 10
+ },
+ {
+  "name": "participants",
+  "count": 1
  },
  {
   "name": "conference",
   "count": 1
  },
  {
-  "name": "arithmetic",
-  "count": 3
+  "name": "desk",
+  "count": 1
  },
  {
-  "name": "arithmetic unit",
-  "count": 1
+  "name": "arithmetic",
+  "count": 2
  },
  {
   "name": "dsp",
   "count": 4
+ },
+ {
+  "name": "unit",
+  "count": 5
+ },
+ {
+  "name": "event",
+  "count": 2
  },
  {
   "name": "simulation",
@@ -1329,38 +2057,46 @@
  },
  {
   "name": "discrete",
-  "count": 10
+  "count": 8
  },
  {
-  "name": "discrete event",
-  "count": 1
+  "name": "package",
+  "count": 2
  },
  {
-  "name": "event",
-  "count": 1
- },
- {
-  "name": "event simulation",
-  "count": 1
+  "name": "temperature",
+  "count": 2
  },
  {
   "name": "output",
   "count": 11
  },
  {
-  "name": "characteristic",
-  "count": 9
+  "name": "lasing",
+  "count": 1
  },
  {
   "name": "distortion",
-  "count": 5
+  "count": 6
  },
  {
-  "name": "constant",
-  "count": 4
+  "name": "kappa",
+  "count": 1
  },
  {
   "name": "coupling",
+  "count": 1
+ },
+ {
+  "name": "harmonic",
+  "count": 4
+ },
+ {
+  "name": "constant",
+  "count": 3
+ },
+ {
+  "name": "required",
   "count": 1
  },
  {
@@ -1372,23 +2108,19 @@
   "count": 2
  },
  {
-  "name": "multiple",
-  "count": 2
- },
- {
   "name": "tone",
-  "count": 1
+  "count": 2
  },
  {
   "name": "band",
   "count": 6
  },
  {
-  "name": "partition",
-  "count": 2
+  "name": "multiple",
+  "count": 7
  },
  {
-  "name": "architectural",
+  "name": "partition",
   "count": 2
  },
  {
@@ -1396,12 +2128,20 @@
   "count": 1
  },
  {
-  "name": "crash",
-  "count": 1
+  "name": "graph",
+  "count": 10
+ },
+ {
+  "name": "architectural",
+  "count": 2
+ },
+ {
+  "name": "image",
+  "count": 29
  },
  {
   "name": "estimate",
-  "count": 27
+  "count": 14
  },
  {
   "name": "wdm",
@@ -1412,15 +2152,15 @@
   "count": 1
  },
  {
-  "name": "multiplexing",
-  "count": 2
+  "name": "4096",
+  "count": 1
  },
  {
-  "name": "modulation",
-  "count": 4
+  "name": "signals",
+  "count": 1
  },
  {
-  "name": "amplifier",
+  "name": "er",
   "count": 1
  },
  {
@@ -1428,12 +2168,24 @@
   "count": 1
  },
  {
+  "name": "amplifier",
+  "count": 2
+ },
+ {
   "name": "compare",
+  "count": 1
+ },
+ {
+  "name": "depth",
   "count": 2
  },
  {
   "name": "ratio",
-  "count": 2
+  "count": 5
+ },
+ {
+  "name": "du",
+  "count": 1
  },
  {
   "name": "fsk",
@@ -1444,19 +2196,31 @@
   "count": 1
  },
  {
+  "name": "star",
+  "count": 2
+ },
+ {
+  "name": "distribution",
+  "count": 11
+ },
+ {
   "name": "fdm",
   "count": 1
  },
  {
-  "name": "gateway",
-  "count": 2
+  "name": "selection",
+  "count": 3
+ },
+ {
+  "name": "videotex",
+  "count": 1
  },
  {
   "name": "response",
-  "count": 2
+  "count": 5
  },
  {
-  "name": "response time",
+  "name": "syntax",
   "count": 1
  },
  {
@@ -1465,18 +2229,34 @@
  },
  {
   "name": "intermodulation",
-  "count": 1
+  "count": 2
  },
  {
-  "name": "capacity",
-  "count": 8
+  "name": "induced",
+  "count": 2
  },
  {
   "name": "scheme",
-  "count": 17
+  "count": 19
+ },
+ {
+  "name": "modulation",
+  "count": 6
+ },
+ {
+  "name": "multilevel",
+  "count": 1
  },
  {
   "name": "subcarrier",
+  "count": 1
+ },
+ {
+  "name": "tv",
+  "count": 1
+ },
+ {
+  "name": "assessed",
   "count": 1
  },
  {
@@ -1484,19 +2264,23 @@
   "count": 1
  },
  {
+  "name": "minimization",
+  "count": 7
+ },
+ {
+  "name": "64",
+  "count": 1
+ },
+ {
   "name": "conversion",
   "count": 3
  },
  {
-  "name": "conversion system",
-  "count": 1
- },
- {
   "name": "converter",
-  "count": 9
+  "count": 7
  },
  {
-  "name": "ld",
+  "name": "abstract",
   "count": 1
  },
  {
@@ -1504,67 +2288,131 @@
   "count": 1
  },
  {
-  "name": "behavior",
-  "count": 8
+  "name": "ld",
+  "count": 1
+ },
+ {
+  "name": "separation",
+  "count": 2
  },
  {
   "name": "ctb",
   "count": 1
  },
  {
+  "name": "lightwave",
+  "count": 1
+ },
+ {
+  "name": "behavior",
+  "count": 8
+ },
+ {
+  "name": "cmbh",
+  "count": 1
+ },
+ {
   "name": "voltage",
+  "count": 2
+ },
+ {
+  "name": "outdoor",
+  "count": 1
+ },
+ {
+  "name": "read",
+  "count": 1
+ },
+ {
+  "name": "146",
+  "count": 1
+ },
+ {
+  "name": "sky",
+  "count": 1
+ },
+ {
+  "name": "mission",
+  "count": 2
+ },
+ {
+  "name": "ground",
   "count": 3
  },
  {
-  "name": "end to",
-  "count": 1
+  "name": "communication",
+  "count": 12
  },
  {
   "name": "file",
   "count": 1
  },
  {
-  "name": "osi",
+  "name": "multiprotocol",
   "count": 1
  },
  {
-  "name": "different",
-  "count": 10
- },
- {
-  "name": "receiver",
-  "count": 6
- },
- {
-  "name": "random",
+  "name": "non",
   "count": 5
  },
  {
-  "name": "node",
-  "count": 2
+  "name": "interoperability",
+  "count": 1
  },
  {
-  "name": "standard",
-  "count": 2
+  "name": "global",
+  "count": 4
  },
  {
-  "name": "throughput",
-  "count": 2
+  "name": "receiver",
+  "count": 5
+ },
+ {
+  "name": "lo",
+  "count": 1
+ },
+ {
+  "name": "heterodyne",
+  "count": 1
+ },
+ {
+  "name": "fddi",
+  "count": 1
  },
  {
   "name": "evaluation",
-  "count": 6
+  "count": 5
  },
  {
-  "name": "development process",
+  "name": "item",
   "count": 1
+ },
+ {
+  "name": "ayumi",
+  "count": 1
+ },
+ {
+  "name": "improve",
+  "count": 2
+ },
+ {
+  "name": "feedback",
+  "count": 14
  },
  {
   "name": "recursion",
-  "count": 1
+  "count": 2
  },
  {
   "name": "acs",
+  "count": 1
+ },
+ {
+  "name": "viterbi",
+  "count": 1
+ },
+ {
+  "name": "modem",
   "count": 1
  },
  {
@@ -1576,8 +2424,16 @@
   "count": 1
  },
  {
-  "name": "acoustooptic",
+  "name": "interaction",
+  "count": 3
+ },
+ {
+  "name": "atofs",
   "count": 1
+ },
+ {
+  "name": "filtering",
+  "count": 5
  },
  {
   "name": "collinear",
@@ -1589,15 +2445,39 @@
  },
  {
   "name": "description",
+  "count": 3
+ },
+ {
+  "name": "ise",
+  "count": 1
+ },
+ {
+  "name": "language",
+  "count": 5
+ },
+ {
+  "name": "interval",
+  "count": 9
+ },
+ {
+  "name": "hop",
+  "count": 2
+ },
+ {
+  "name": "multifacility",
+  "count": 1
+ },
+ {
+  "name": "lead",
   "count": 4
  },
  {
-  "name": "detection",
-  "count": 16
+  "name": "constraint",
+  "count": 10
  },
  {
-  "name": "constraint",
-  "count": 13
+  "name": "capacity",
+  "count": 5
  },
  {
   "name": "waveguide",
@@ -1608,35 +2488,43 @@
   "count": 1
  },
  {
-  "name": "loop",
-  "count": 9
+  "name": "mode",
+  "count": 7
  },
  {
-  "name": "bandwidth",
-  "count": 3
+  "name": "blazelan",
+  "count": 1
  },
  {
   "name": "class",
-  "count": 21
+  "count": 11
  },
  {
   "name": "perspective",
   "count": 3
  },
  {
-  "name": "sequence",
-  "count": 9
- },
- {
-  "name": "binary",
-  "count": 5
- },
- {
-  "name": "binary sequence",
+  "name": "unconventional",
   "count": 1
  },
  {
+  "name": "element",
+  "count": 9
+ },
+ {
+  "name": "nonbinary",
+  "count": 1
+ },
+ {
+  "name": "binary",
+  "count": 6
+ },
+ {
   "name": "mtll",
+  "count": 1
+ },
+ {
+  "name": "doppler",
   "count": 1
  },
  {
@@ -1644,111 +2532,215 @@
   "count": 3
  },
  {
-  "name": "doppler",
+  "name": "lock",
   "count": 1
  },
  {
-  "name": "environment",
-  "count": 16
- },
- {
-  "name": "path",
-  "count": 15
- },
- {
-  "name": "diversity",
+  "name": "indoor",
   "count": 1
+ },
+ {
+  "name": "multipath",
+  "count": 2
  },
  {
   "name": "ccs",
   "count": 1
  },
  {
-  "name": "ccs network",
+  "name": "dimensioning",
   "count": 1
  },
  {
+  "name": "performability",
+  "count": 2
+ },
+ {
   "name": "link",
-  "count": 9
+  "count": 8
+ },
+ {
+  "name": "macom",
+  "count": 1
+ },
+ {
+  "name": "markovian",
+  "count": 1
  },
  {
   "name": "chain",
   "count": 5
  },
  {
-  "name": "communication system",
-  "count": 2
+  "name": "modern",
+  "count": 1
+ },
+ {
+  "name": "markov",
+  "count": 5
  },
  {
   "name": "operation",
-  "count": 7
+  "count": 10
  },
  {
   "name": "10",
   "count": 4
  },
  {
-  "name": "bragg",
+  "name": "monolithically",
   "count": 1
  },
  {
-  "name": "technique",
-  "count": 9
- },
- {
-  "name": "approximately",
-  "count": 1
- },
- {
-  "name": "interconnect",
+  "name": "grating",
   "count": 2
+ },
+ {
+  "name": "lambda",
+  "count": 2
+ },
+ {
+  "name": "nd",
+  "count": 1
+ },
+ {
+  "name": "yag",
+  "count": 1
+ },
+ {
+  "name": "level",
+  "count": 16
+ },
+ {
+  "name": "driven",
+  "count": 1
+ },
+ {
+  "name": "statistically",
+  "count": 1
+ },
+ {
+  "name": "reflection",
+  "count": 7
+ },
+ {
+  "name": "resonant",
+  "count": 2
+ },
+ {
+  "name": "bandwidth",
+  "count": 1
+ },
+ {
+  "name": "ncu",
+  "count": 1
  },
  {
   "name": "internet",
   "count": 3
  },
  {
-  "name": "neural",
-  "count": 9
+  "name": "interconnect",
+  "count": 3
  },
  {
-  "name": "neural network",
-  "count": 5
+  "name": "telegraphy",
+  "count": 1
+ },
+ {
+  "name": "neural",
+  "count": 9
  },
  {
   "name": "banyan",
   "count": 1
  },
  {
+  "name": "nonblocking",
+  "count": 1
+ },
+ {
+  "name": "queue",
+  "count": 4
+ },
+ {
   "name": "vq",
   "count": 1
  },
  {
-  "name": "derive",
+  "name": "training",
+  "count": 10
+ },
+ {
+  "name": "vector",
+  "count": 12
+ },
+ {
+  "name": "ecm",
+  "count": 1
+ },
+ {
+  "name": "countermeasure",
+  "count": 1
+ },
+ {
+  "name": "approach",
+  "count": 14
+ },
+ {
+  "name": "varying",
   "count": 5
  },
  {
-  "name": "psd",
-  "count": 1
+  "name": "equation",
+  "count": 17
  },
  {
-  "name": "pulse shape",
-  "count": 1
+  "name": "psd",
+  "count": 2
  },
  {
   "name": "shape",
   "count": 12
  },
  {
-  "name": "soft",
-  "count": 1
+  "name": "modulating",
+  "count": 2
  },
  {
-  "name": "soft decision",
-  "count": 1
+  "name": "fourier",
+  "count": 6
+ },
+ {
+  "name": "soft",
+  "count": 2
+ },
+ {
+  "name": "relationship",
+  "count": 4
  },
  {
   "name": "irr",
+  "count": 1
+ },
+ {
+  "name": "ofdm",
+  "count": 1
+ },
+ {
+  "name": "rejection",
+  "count": 2
+ },
+ {
+  "name": "statistical",
+  "count": 2
+ },
+ {
+  "name": "limit",
+  "count": 3
+ },
+ {
+  "name": "photodiodes",
   "count": 1
  },
  {
@@ -1756,16 +2748,32 @@
   "count": 1
  },
  {
+  "name": "photodiode",
+  "count": 1
+ },
+ {
   "name": "linearity",
   "count": 1
  },
  {
-  "name": "develop",
-  "count": 16
+  "name": "sensitivity",
+  "count": 7
  },
  {
-  "name": "software reliability",
-  "count": 2
+  "name": "subsystem",
+  "count": 9
+ },
+ {
+  "name": "redundancy",
+  "count": 1
+ },
+ {
+  "name": "programming",
+  "count": 4
+ },
+ {
+  "name": "related",
+  "count": 4
  },
  {
   "name": "mfa",
@@ -1776,63 +2784,91 @@
   "count": 1
  },
  {
-  "name": "interference power",
-  "count": 1
+  "name": "optimum",
+  "count": 9
+ },
+ {
+  "name": "alpha",
+  "count": 5
  },
  {
   "name": "scm",
   "count": 2
  },
  {
-  "name": "47",
+  "name": "omi",
   "count": 1
  },
  {
-  "name": "noise",
-  "count": 30
+  "name": "overmodulation",
+  "count": 1
+ },
+ {
+  "name": "octave",
+  "count": 2
  },
  {
   "name": "additive",
-  "count": 3
+  "count": 2
  },
  {
-  "name": "additive noise",
-  "count": 1
+  "name": "noise",
+  "count": 21
+ },
+ {
+  "name": "gaussian",
+  "count": 10
  },
  {
   "name": "present",
-  "count": 7
- },
- {
-  "name": "fading",
-  "count": 1
+  "count": 3
  },
  {
   "name": "rayleigh",
   "count": 1
  },
  {
-  "name": "result",
-  "count": 18
+  "name": "fading",
+  "count": 1
  },
  {
-  "name": "spread",
-  "count": 3
+  "name": "case",
+  "count": 8
+ },
+ {
+  "name": "result",
+  "count": 7
+ },
+ {
+  "name": "delay",
+  "count": 7
+ },
+ {
+  "name": "threshold",
+  "count": 9
+ },
+ {
+  "name": "csma",
+  "count": 1
  },
  {
   "name": "coded",
   "count": 1
  },
  {
+  "name": "spread",
+  "count": 6
+ },
+ {
+  "name": "symbol",
+  "count": 2
+ },
+ {
   "name": "branch",
   "count": 1
  },
  {
-  "name": "carrier",
-  "count": 2
- },
- {
-  "name": "mortem",
+  "name": "transversal",
   "count": 1
  },
  {
@@ -1840,7 +2876,11 @@
   "count": 1
  },
  {
-  "name": "post mortem",
+  "name": "mortem",
+  "count": 1
+ },
+ {
+  "name": "postmortem",
   "count": 1
  },
  {
@@ -1852,28 +2892,36 @@
   "count": 2
  },
  {
+  "name": "passband",
+  "count": 2
+ },
+ {
+  "name": "demultiplexer",
+  "count": 1
+ },
+ {
   "name": "complexity",
   "count": 4
  },
  {
   "name": "program",
-  "count": 4
+  "count": 6
  },
  {
-  "name": "measure",
-  "count": 8
+  "name": "regression",
+  "count": 2
  },
  {
-  "name": "bpsk",
+  "name": "error",
+  "count": 17
+ },
+ {
+  "name": "pfdm",
   "count": 1
  },
  {
-  "name": "bit",
-  "count": 5
- },
- {
-  "name": "optimum",
-  "count": 5
+  "name": "prefilter",
+  "count": 2
  },
  {
   "name": "dpsk",
@@ -1881,43 +2929,83 @@
  },
  {
   "name": "probability",
-  "count": 3
+  "count": 5
  },
  {
   "name": "differential",
-  "count": 4
+  "count": 2
+ },
+ {
+  "name": "ravi",
+  "count": 1
  },
  {
   "name": "set",
   "count": 9
  },
  {
-  "name": "allow",
-  "count": 9
+  "name": "visual",
+  "count": 4
  },
  {
-  "name": "analog signal",
+  "name": "interactive",
+  "count": 4
+ },
+ {
+  "name": "buffer",
+  "count": 2
+ },
+ {
+  "name": "scramble",
   "count": 1
  },
  {
   "name": "loss",
+  "count": 3
+ },
+ {
+  "name": "spacing",
+  "count": 1
+ },
+ {
+  "name": "ghz",
   "count": 2
  },
  {
   "name": "ensemble",
-  "count": 2
+  "count": 3
  },
  {
-  "name": "give",
+  "name": "nonstationary",
+  "count": 3
+ },
+ {
+  "name": "measure",
   "count": 14
+ },
+ {
+  "name": "cost",
+  "count": 8
+ },
+ {
+  "name": "improvement",
+  "count": 3
+ },
+ {
+  "name": "reduction",
+  "count": 5
  },
  {
   "name": "fault",
   "count": 9
  },
  {
-  "name": "number",
-  "count": 13
+  "name": "testing",
+  "count": 1
+ },
+ {
+  "name": "sqae",
+  "count": 1
  },
  {
   "name": "assurance",
@@ -1928,92 +3016,152 @@
   "count": 2
  },
  {
+  "name": "exponential",
+  "count": 5
+ },
+ {
   "name": "find",
-  "count": 3
+  "count": 5
  },
  {
-  "name": "direct",
-  "count": 6
- },
- {
-  "name": "optical communication",
+  "name": "know",
   "count": 1
  },
  {
-  "name": "code rate",
+  "name": "vis",
+  "count": 2
+ },
+ {
+  "name": "spectrum",
+  "count": 8
+ },
+ {
+  "name": "shaping",
   "count": 1
  },
  {
-  "name": "stability",
-  "count": 13
+  "name": "ensure",
+  "count": 2
  },
  {
-  "name": "ghz",
+  "name": "1000",
   "count": 1
  },
  {
   "name": "inspection",
-  "count": 1
+  "count": 2
  },
  {
-  "name": "finite",
-  "count": 4
- },
- {
-  "name": "mean",
-  "count": 9
+  "name": "chart",
+  "count": 2
  },
  {
   "name": "poll",
   "count": 1
  },
  {
-  "name": "work",
+  "name": "finite",
+  "count": 3
+ },
+ {
+  "name": "stochastic",
+  "count": 7
+ },
+ {
+  "name": "mean",
+  "count": 7
+ },
+ {
+  "name": "population",
   "count": 1
+ },
+ {
+  "name": "work",
+  "count": 2
+ },
+ {
+  "name": "workshop",
+  "count": 1
+ },
+ {
+  "name": "validation",
+  "count": 2
+ },
+ {
+  "name": "tool",
+  "count": 8
  },
  {
   "name": "coherent",
   "count": 4
  },
  {
-  "name": "example",
-  "count": 7
+  "name": "multichannel",
+  "count": 2
  },
  {
   "name": "include",
-  "count": 5
+  "count": 6
  },
  {
-  "name": "network service",
-  "count": 2
- },
- {
-  "name": "propose",
-  "count": 8
+  "name": "externally",
+  "count": 1
  },
  {
   "name": "temporal",
-  "count": 2
+  "count": 4
+ },
+ {
+  "name": "retrieval",
+  "count": 1
+ },
+ {
+  "name": "modeling",
+  "count": 9
  },
  {
   "name": "database",
   "count": 2
  },
  {
-  "name": "digital system",
+  "name": "propose",
+  "count": 4
+ },
+ {
+  "name": "terminology",
   "count": 1
  },
  {
-  "name": "define",
-  "count": 5
+  "name": "object",
+  "count": 18
+ },
+ {
+  "name": "independent",
+  "count": 4
+ },
+ {
+  "name": "mechanism",
+  "count": 4
  },
  {
   "name": "composite",
   "count": 1
  },
  {
+  "name": "based",
+  "count": 7
+ },
+ {
+  "name": "splitter",
+  "count": 1
+ },
+ {
+  "name": "tact",
+  "count": 1
+ },
+ {
   "name": "abstraction",
-  "count": 3
+  "count": 1
  },
  {
   "name": "pdt",
@@ -2024,19 +3172,35 @@
   "count": 1
  },
  {
-  "name": "communication network",
+  "name": "pdl",
+  "count": 1
+ },
+ {
+  "name": "topnet",
+  "count": 1
+ },
+ {
+  "name": "experiment",
+  "count": 4
+ },
+ {
+  "name": "graphically",
+  "count": 1
+ },
+ {
+  "name": "lambdanet",
   "count": 1
  },
  {
   "name": "point",
-  "count": 22
+  "count": 19
  },
  {
-  "name": "division",
-  "count": 2
+  "name": "transmit",
+  "count": 1
  },
  {
-  "name": "multichannel",
+  "name": "multiplexer",
   "count": 1
  },
  {
@@ -2044,7 +3208,27 @@
   "count": 2
  },
  {
+  "name": "interferers",
+  "count": 1
+ },
+ {
+  "name": "interest",
+  "count": 1
+ },
+ {
+  "name": "strong",
+  "count": 1
+ },
+ {
   "name": "prn",
+  "count": 1
+ },
+ {
+  "name": "fhma",
+  "count": 1
+ },
+ {
+  "name": "throughput",
   "count": 1
  },
  {
@@ -2052,11 +3236,27 @@
   "count": 1
  },
  {
-  "name": "problem",
-  "count": 63
+  "name": "coexistence",
+  "count": 1
+ },
+ {
+  "name": "ip",
+  "count": 2
  },
  {
   "name": "nds",
+  "count": 1
+ },
+ {
+  "name": "wave",
+  "count": 9
+ },
+ {
+  "name": "mixing",
+  "count": 1
+ },
+ {
+  "name": "brillouin",
   "count": 1
  },
  {
@@ -2064,35 +3264,67 @@
   "count": 1
  },
  {
-  "name": "gaussian",
-  "count": 8
+  "name": "lan",
+  "count": 2
  },
  {
-  "name": "gaussian noise",
+  "name": "attenuation",
+  "count": 3
+ },
+ {
+  "name": "unslotted",
   "count": 1
- },
- {
-  "name": "user",
-  "count": 5
- },
- {
-  "name": "generate",
-  "count": 7
  },
  {
   "name": "wait",
   "count": 1
  },
  {
+  "name": "generate",
+  "count": 5
+ },
+ {
+  "name": "request",
+  "count": 1
+ },
+ {
+  "name": "autorec",
+  "count": 1
+ },
+ {
+  "name": "develop",
+  "count": 4
+ },
+ {
+  "name": "describe",
+  "count": 3
+ },
+ {
   "name": "attribute",
   "count": 2
+ },
+ {
+  "name": "opportunity",
+  "count": 1
+ },
+ {
+  "name": "hni",
+  "count": 1
  },
  {
   "name": "manage",
   "count": 2
  },
  {
-  "name": "atm layer",
+  "name": "monitor",
+  "count": 1
+ },
+ {
+  "name": "forum",
+  "count": 1
+ },
+ {
+  "name": "atm",
   "count": 1
  },
  {
@@ -2100,83 +3332,151 @@
   "count": 6
  },
  {
+  "name": "uni",
+  "count": 1
+ },
+ {
   "name": "ccsds",
   "count": 1
  },
  {
-  "name": "agency",
+  "name": "aos",
   "count": 1
  },
  {
-  "name": "ground",
-  "count": 2
+  "name": "gsfc",
+  "count": 1
  },
  {
   "name": "spacecraft",
+  "count": 4
+ },
+ {
+  "name": "operate",
   "count": 3
  },
  {
-  "name": "congestion control",
-  "count": 2
+  "name": "higher",
+  "count": 6
  },
  {
   "name": "fcs",
   "count": 1
  },
  {
-  "name": "client server",
+  "name": "server",
+  "count": 2
+ },
+ {
+  "name": "paradigm",
   "count": 1
  },
  {
-  "name": "handling",
+  "name": "vc",
   "count": 1
  },
  {
-  "name": "modeling",
+  "name": "show",
+  "count": 2
+ },
+ {
+  "name": "pt",
+  "count": 2
+ },
+ {
+  "name": "localization",
   "count": 4
+ },
+ {
+  "name": "hierarchical",
+  "count": 2
+ },
+ {
+  "name": "different",
+  "count": 5
+ },
+ {
+  "name": "nec",
+  "count": 1
  },
  {
   "name": "issue",
   "count": 2
  },
  {
-  "name": "ip",
+  "name": "tcp",
+  "count": 1
+ },
+ {
+  "name": "ongoing",
+  "count": 1
+ },
+ {
+  "name": "cmot",
   "count": 1
  },
  {
   "name": "phase",
-  "count": 7
+  "count": 13
  },
  {
   "name": "assignment",
-  "count": 2
+  "count": 4
+ },
+ {
+  "name": "order",
+  "count": 17
+ },
+ {
+  "name": "negotiation",
+  "count": 1
  },
  {
   "name": "characterization",
-  "count": 1
+  "count": 2
  },
  {
   "name": "failure",
   "count": 4
  },
  {
-  "name": "self",
-  "count": 4
+  "name": "account",
+  "count": 1
+ },
+ {
+  "name": "rdbms",
+  "count": 1
+ },
+ {
+  "name": "transaction",
+  "count": 1
  },
  {
   "name": "require",
-  "count": 3
+  "count": 5
  },
  {
   "name": "atdm",
   "count": 1
  },
  {
+  "name": "similar",
+  "count": 2
+ },
+ {
   "name": "open",
+  "count": 2
+ },
+ {
+  "name": "odp",
   "count": 1
  },
  {
-  "name": "application layer",
+  "name": "involve",
+  "count": 2
+ },
+ {
+  "name": "status",
   "count": 1
  },
  {
@@ -2189,51 +3489,67 @@
  },
  {
   "name": "category",
-  "count": 2
+  "count": 1
+ },
+ {
+  "name": "enforcement",
+  "count": 1
  },
  {
   "name": "alternative",
   "count": 8
  },
  {
-  "name": "methodology",
-  "count": 6
+  "name": "ooa",
+  "count": 1
  },
  {
   "name": "hamiltonian",
   "count": 2
  },
  {
-  "name": "form",
-  "count": 7
- },
- {
   "name": "jacobi",
   "count": 1
  },
  {
-  "name": "nonlinear",
-  "count": 9
+  "name": "form",
+  "count": 8
  },
  {
-  "name": "numerical",
-  "count": 4
+  "name": "similarity",
+  "count": 1
  },
  {
   "name": "reduce",
-  "count": 2
+  "count": 3
+ },
+ {
+  "name": "numerical",
+  "count": 6
+ },
+ {
+  "name": "nonlinear",
+  "count": 14
+ },
+ {
+  "name": "eigenvector",
+  "count": 1
  },
  {
   "name": "formula",
   "count": 3
  },
  {
-  "name": "single",
-  "count": 2
+  "name": "remark",
+  "count": 1
  },
  {
-  "name": "closed",
-  "count": 7
+  "name": "closing",
+  "count": 1
+ },
+ {
+  "name": "rouche",
+  "count": 1
  },
  {
   "name": "diamond",
@@ -2244,52 +3560,92 @@
   "count": 1
  },
  {
-  "name": "order",
-  "count": 20
- },
- {
-  "name": "first order",
+  "name": "strictly",
   "count": 1
  },
  {
-  "name": "algorithm give",
+  "name": "expose",
   "count": 1
  },
  {
-  "name": "controller",
-  "count": 30
+  "name": "eight",
+  "count": 2
+ },
+ {
+  "name": "robustness",
+  "count": 4
+ },
+ {
+  "name": "lyapunov",
+  "count": 7
+ },
+ {
+  "name": "number",
+  "count": 7
+ },
+ {
+  "name": "derived",
+  "count": 2
+ },
+ {
+  "name": "superoptimal",
+  "count": 1
+ },
+ {
+  "name": "rttl",
+  "count": 1
  },
  {
   "name": "framework",
-  "count": 9
+  "count": 11
+ },
+ {
+  "name": "engineer",
+  "count": 1
  },
  {
   "name": "precompensator",
   "count": 2
  },
  {
-  "name": "control strategy",
+  "name": "decouple",
   "count": 1
- },
- {
-  "name": "polynomial",
-  "count": 10
  },
  {
   "name": "polytopes",
   "count": 1
  },
  {
-  "name": "certain",
-  "count": 2
+  "name": "polynomial",
+  "count": 13
  },
  {
   "name": "cluster",
   "count": 5
  },
  {
-  "name": "threshold",
-  "count": 4
+  "name": "left",
+  "count": 3
+ },
+ {
+  "name": "sector",
+  "count": 2
+ },
+ {
+  "name": "exceed",
+  "count": 1
+ },
+ {
+  "name": "multiplicative",
+  "count": 1
+ },
+ {
+  "name": "quadratically",
+  "count": 1
+ },
+ {
+  "name": "jump",
+  "count": 5
  },
  {
   "name": "delayed",
@@ -2300,23 +3656,43 @@
   "count": 1
  },
  {
+  "name": "autonomous",
+  "count": 5
+ },
+ {
+  "name": "reactor",
+  "count": 1
+ },
+ {
   "name": "instant",
   "count": 1
  },
  {
-  "name": "control output",
-  "count": 1
+  "name": "sample",
+  "count": 7
  },
  {
-  "name": "sample",
-  "count": 4
+  "name": "multirate",
+  "count": 7
+ },
+ {
+  "name": "outlined",
+  "count": 1
  },
  {
   "name": "arm",
   "count": 7
  },
  {
-  "name": "assumption",
+  "name": "underlie",
+  "count": 1
+ },
+ {
+  "name": "sliding",
+  "count": 2
+ },
+ {
+  "name": "inertia",
   "count": 2
  },
  {
@@ -2324,60 +3700,64 @@
   "count": 2
  },
  {
-  "name": "reduced order",
-  "count": 2
+  "name": "controller",
+  "count": 20
+ },
+ {
+  "name": "singular",
+  "count": 5
  },
  {
   "name": "shift",
+  "count": 3
+ },
+ {
+  "name": "multi",
   "count": 2
  },
  {
-  "name": "equivalent",
-  "count": 2
- },
- {
-  "name": "family",
-  "count": 4
+  "name": "operator",
+  "count": 12
  },
  {
   "name": "kharitonov",
-  "count": 1
+  "count": 3
+ },
+ {
+  "name": "family",
+  "count": 5
  },
  {
   "name": "theorem",
-  "count": 2
+  "count": 4
+ },
+ {
+  "name": "allow",
+  "count": 8
  },
  {
   "name": "plant",
   "count": 8
  },
  {
-  "name": "parameter",
-  "count": 34
- },
- {
-  "name": "multirate",
-  "count": 4
- },
- {
-  "name": "feedback",
-  "count": 19
+  "name": "meet",
+  "count": 1
  },
  {
   "name": "optimal",
-  "count": 21
+  "count": 19
  },
  {
   "name": "approximation",
   "count": 9
  },
  {
-  "name": "control law",
-  "count": 4
+  "name": "optimisation",
+  "count": 1
  },
  {
   "name": "law",
-  "count": 3
+  "count": 7
  },
  {
   "name": "decay",
@@ -2385,18 +3765,26 @@
  },
  {
   "name": "gain",
-  "count": 5
+  "count": 6
+ },
+ {
+  "name": "steady",
+  "count": 4
  },
  {
   "name": "plane",
-  "count": 7
+  "count": 9
+ },
+ {
+  "name": "nichols",
+  "count": 1
  },
  {
   "name": "decomposition",
   "count": 7
  },
  {
-  "name": "base representation",
+  "name": "subspaces",
   "count": 1
  },
  {
@@ -2404,31 +3792,35 @@
   "count": 3
  },
  {
+  "name": "sum",
+  "count": 1
+ },
+ {
+  "name": "processor",
+  "count": 5
+ },
+ {
   "name": "parameterization",
   "count": 1
  },
  {
-  "name": "condition",
-  "count": 24
+  "name": "sampled",
+  "count": 2
  },
  {
   "name": "placement",
-  "count": 1
+  "count": 3
  },
  {
   "name": "pole",
-  "count": 4
+  "count": 9
  },
  {
-  "name": "pole placement",
-  "count": 1
+  "name": "condition",
+  "count": 10
  },
  {
-  "name": "duality",
-  "count": 1
- },
- {
-  "name": "duality gap",
+  "name": "multimode",
   "count": 1
  },
  {
@@ -2436,7 +3828,23 @@
   "count": 1
  },
  {
+  "name": "leader",
+  "count": 1
+ },
+ {
+  "name": "duality",
+  "count": 2
+ },
+ {
   "name": "iteration",
+  "count": 2
+ },
+ {
+  "name": "iteratively",
+  "count": 1
+ },
+ {
+  "name": "continuity",
   "count": 2
  },
  {
@@ -2444,40 +3852,64 @@
   "count": 1
  },
  {
-  "name": "closed loop",
+  "name": "location",
+  "count": 6
+ },
+ {
+  "name": "closed",
+  "count": 6
+ },
+ {
+  "name": "squares",
   "count": 3
  },
  {
   "name": "least",
-  "count": 4
+  "count": 3
  },
  {
-  "name": "least squares",
-  "count": 2
- },
- {
-  "name": "squares",
-  "count": 2
+  "name": "total",
+  "count": 1
  },
  {
   "name": "consistent",
+  "count": 3
+ },
+ {
+  "name": "estimator",
+  "count": 12
+ },
+ {
+  "name": "unknown",
+  "count": 4
+ },
+ {
+  "name": "posteriori",
   "count": 2
  },
  {
+  "name": "track",
+  "count": 12
+ },
+ {
   "name": "computation",
-  "count": 11
+  "count": 7
  },
  {
   "name": "deconvolution",
   "count": 4
  },
  {
-  "name": "trajectory",
-  "count": 5
+  "name": "fir",
+  "count": 1
  },
  {
-  "name": "adaptive control",
-  "count": 8
+  "name": "ar",
+  "count": 6
+ },
+ {
+  "name": "trajectory",
+  "count": 11
  },
  {
   "name": "al",
@@ -2488,7 +3920,7 @@
   "count": 2
  },
  {
-  "name": "et al",
+  "name": "version",
   "count": 1
  },
  {
@@ -2496,72 +3928,128 @@
   "count": 8
  },
  {
+  "name": "alter",
+  "count": 3
+ },
+ {
+  "name": "guaranteed",
+  "count": 1
+ },
+ {
   "name": "proper",
-  "count": 1
- },
- {
-  "name": "state estimate",
-  "count": 1
- },
- {
-  "name": "domain",
-  "count": 10
- },
- {
-  "name": "frequency domain",
   "count": 2
  },
  {
+  "name": "domain",
+  "count": 9
+ },
+ {
+  "name": "only",
+  "count": 3
+ },
+ {
+  "name": "decoupling",
+  "count": 1
+ },
+ {
   "name": "matrix",
-  "count": 26
+  "count": 18
+ },
+ {
+  "name": "regulated",
+  "count": 1
+ },
+ {
+  "name": "sided",
+  "count": 1
  },
  {
   "name": "air",
   "count": 1
  },
  {
-  "name": "eigenvalue",
+  "name": "conditioning",
+  "count": 1
+ },
+ {
+  "name": "duration",
   "count": 3
  },
  {
-  "name": "complex",
-  "count": 8
+  "name": "transforms",
+  "count": 3
  },
  {
-  "name": "design method",
+  "name": "load",
+  "count": 3
+ },
+ {
+  "name": "eigenvalue",
+  "count": 5
+ },
+ {
+  "name": "complex",
+  "count": 7
+ },
+ {
+  "name": "representation",
+  "count": 9
+ },
+ {
+  "name": "determines",
   "count": 1
+ },
+ {
+  "name": "performs",
+  "count": 1
+ },
+ {
+  "name": "glover",
+  "count": 1
+ },
+ {
+  "name": "counterpart",
+  "count": 2
  },
  {
   "name": "1984",
   "count": 1
  },
  {
-  "name": "control algorithm",
+  "name": "locate",
   "count": 1
  },
  {
-  "name": "control problem",
-  "count": 3
+  "name": "gawthrop",
+  "count": 1
+ },
+ {
+  "name": "clarke",
+  "count": 1
+ },
+ {
+  "name": "scalar",
+  "count": 1
+ },
+ {
+  "name": "nth",
+  "count": 1
  },
  {
   "name": "joint",
-  "count": 6
+  "count": 9
  },
  {
   "name": "nominal",
-  "count": 4
- },
- {
-  "name": "observer",
-  "count": 10
+  "count": 5
  },
  {
   "name": "robot",
   "count": 17
  },
  {
-  "name": "equation",
-  "count": 17
+  "name": "rad",
+  "count": 1
  },
  {
   "name": "walsh",
@@ -2573,30 +4061,46 @@
  },
  {
   "name": "schedule",
-  "count": 3
- },
- {
-  "name": "gain schedule",
-  "count": 1
- },
- {
-  "name": "lt",
-  "count": 6
- },
- {
-  "name": "diagonal",
-  "count": 2
- },
- {
-  "name": "sensitivity",
-  "count": 6
- },
- {
-  "name": "disturbance",
   "count": 4
  },
  {
-  "name": "asymptotically",
+  "name": "scheduled",
+  "count": 1
+ },
+ {
+  "name": "scheduling",
+  "count": 2
+ },
+ {
+  "name": "hyperbolic",
+  "count": 1
+ },
+ {
+  "name": "diagonal",
+  "count": 3
+ },
+ {
+  "name": "sup",
+  "count": 17
+ },
+ {
+  "name": "finitely",
+  "count": 1
+ },
+ {
+  "name": "many",
+  "count": 2
+ },
+ {
+  "name": "moment",
+  "count": 6
+ },
+ {
+  "name": "moving",
+  "count": 1
+ },
+ {
+  "name": "variance",
   "count": 3
  },
  {
@@ -2604,7 +4108,7 @@
   "count": 5
  },
  {
-  "name": "block",
+  "name": "subspace",
   "count": 5
  },
  {
@@ -2612,55 +4116,131 @@
   "count": 1
  },
  {
-  "name": "periodic",
-  "count": 1
- },
- {
-  "name": "algebraic",
+  "name": "reachability",
   "count": 3
  },
  {
-  "name": "algebraic riccati",
+  "name": "block",
+  "count": 5
+ },
+ {
+  "name": "sdcs",
+  "count": 1
+ },
+ {
+  "name": "either",
+  "count": 3
+ },
+ {
+  "name": "xy",
+  "count": 1
+ },
+ {
+  "name": "lower",
+  "count": 1
+ },
+ {
+  "name": "tight",
+  "count": 2
+ },
+ {
+  "name": "summation",
   "count": 1
  },
  {
   "name": "low",
-  "count": 5
- },
- {
-  "name": "low bound",
-  "count": 1
+  "count": 3
  },
  {
   "name": "theory",
-  "count": 12
+  "count": 13
  },
  {
-  "name": "solution",
-  "count": 16
+  "name": "endless",
+  "count": 1
+ },
+ {
+  "name": "normal",
+  "count": 2
  },
  {
   "name": "coefficient",
-  "count": 12
+  "count": 8
  },
  {
-  "name": "order model",
+  "name": "fss",
   "count": 1
+ },
+ {
+  "name": "expression",
+  "count": 6
  },
  {
   "name": "commenter",
   "count": 5
  },
  {
-  "name": "failure detection",
+  "name": "overlap",
   "count": 1
  },
  {
-  "name": "1989",
-  "count": 3
+  "name": "mentioned",
+  "count": 1
+ },
+ {
+  "name": "81",
+  "count": 1
+ },
+ {
+  "name": "yang",
+  "count": 1
+ },
+ {
+  "name": "if",
+  "count": 1
+ },
+ {
+  "name": "177",
+  "count": 1
+ },
+ {
+  "name": "suggestions",
+  "count": 1
  },
  {
   "name": "157",
+  "count": 1
+ },
+ {
+  "name": "65",
+  "count": 1
+ },
+ {
+  "name": "erroneous",
+  "count": 1
+ },
+ {
+  "name": "barmish",
+  "count": 1
+ },
+ {
+  "name": "1003",
+  "count": 1
+ },
+ {
+  "name": "995",
+  "count": 1
+ },
+ {
+  "name": "slotine",
+  "count": 1
+ },
+ {
+  "name": "li",
+  "count": 1
+ },
+ {
+  "name": "nov",
   "count": 1
  },
  {
@@ -2668,19 +4248,59 @@
   "count": 1
  },
  {
+  "name": "named",
+  "count": 2
+ },
+ {
+  "name": "bahnasawi",
+  "count": 1
+ },
+ {
   "name": "cite",
   "count": 1
+ },
+ {
+  "name": "incorrectly",
+  "count": 1
+ },
+ {
+  "name": "proof",
+  "count": 4
+ },
+ {
+  "name": "97",
+  "count": 1
+ },
+ {
+  "name": "riemann",
+  "count": 1
+ },
+ {
+  "name": "pathwise",
+  "count": 1
+ },
+ {
+  "name": "sphere",
+  "count": 2
  },
  {
   "name": "connect",
   "count": 3
  },
  {
-  "name": "two",
-  "count": 12
+  "name": "subset",
+  "count": 1
  },
  {
-  "name": "commenter point",
+  "name": "paper",
+  "count": 2
+ },
+ {
+  "name": "author",
+  "count": 5
+ },
+ {
+  "name": "sirisena",
   "count": 1
  },
  {
@@ -2688,71 +4308,119 @@
   "count": 1
  },
  {
+  "name": "168",
+  "count": 1
+ },
+ {
+  "name": "ripple",
+  "count": 1
+ },
+ {
+  "name": "feb",
+  "count": 1
+ },
+ {
   "name": "infinity",
   "count": 8
  },
  {
-  "name": "sub infinity",
-  "count": 4
+  "name": "ca",
+  "count": 1
  },
  {
   "name": "sufficient",
+  "count": 3
+ },
+ {
+  "name": "concede",
   "count": 1
  },
  {
-  "name": "1985",
+  "name": "89",
   "count": 1
  },
  {
-  "name": "minimum",
+  "name": "jan",
+  "count": 1
+ },
+ {
+  "name": "convergent",
+  "count": 1
+ },
+ {
+  "name": "uncertain",
   "count": 5
  },
  {
-  "name": "minimum time",
-  "count": 1
+  "name": "relative",
+  "count": 3
  },
  {
   "name": "spline",
+  "count": 2
+ },
+ {
+  "name": "minimum",
+  "count": 7
+ },
+ {
+  "name": "rdes",
+  "count": 1
+ },
+ {
+  "name": "riccati",
+  "count": 2
+ },
+ {
+  "name": "whose",
   "count": 1
  },
  {
   "name": "large",
+  "count": 4
+ },
+ {
+  "name": "proposed",
+  "count": 1
+ },
+ {
+  "name": "valued",
   "count": 2
  },
  {
-  "name": "riccati",
-  "count": 1
- },
- {
-  "name": "transformation",
-  "count": 5
- },
- {
-  "name": "associate",
+  "name": "predictor",
   "count": 3
  },
  {
-  "name": "direct drive",
-  "count": 1
+  "name": "drive",
+  "count": 6
  },
  {
-  "name": "drive",
-  "count": 8
+  "name": "rigid",
+  "count": 5
+ },
+ {
+  "name": "manipulator",
+  "count": 11
  },
  {
   "name": "demonstrate",
   "count": 1
  },
  {
-  "name": "continuous",
-  "count": 6
- },
- {
-  "name": "capture",
+  "name": "very",
   "count": 1
  },
  {
-  "name": "capture channel",
+  "name": "jlq",
+  "count": 1
+ },
+ {
+  "name": "infinite",
+  "count": 1
+ },
+ {
+  "name": "capture",
   "count": 1
  },
  {
@@ -2764,27 +4432,47 @@
   "count": 1
  },
  {
-  "name": "convergence",
-  "count": 13
- },
- {
-  "name": "arise",
-  "count": 1
+  "name": "stabilize",
+  "count": 3
  },
  {
   "name": "iterative",
   "count": 4
  },
  {
-  "name": "convexity",
+  "name": "convergence",
+  "count": 12
+ },
+ {
+  "name": "arise",
   "count": 1
  },
  {
-  "name": "sup",
-  "count": 9
+  "name": "certainty",
+  "count": 1
  },
  {
-  "name": "1986",
+  "name": "tuning",
+  "count": 7
+ },
+ {
+  "name": "convexity",
+  "count": 2
+ },
+ {
+  "name": "chu",
+  "count": 1
+ },
+ {
+  "name": "commuting",
+  "count": 1
+ },
+ {
+  "name": "rigorous",
+  "count": 3
+ },
+ {
+  "name": "smoother",
   "count": 1
  },
  {
@@ -2792,31 +4480,35 @@
   "count": 1
  },
  {
-  "name": "zero",
-  "count": 7
- },
- {
-  "name": "interval",
-  "count": 3
- },
- {
-  "name": "interval polynomial",
+  "name": "bierman",
   "count": 1
  },
  {
-  "name": "real",
-  "count": 5
+  "name": "zero",
+  "count": 9
+ },
+ {
+  "name": "imaginary",
+  "count": 1
  },
  {
   "name": "supervision",
   "count": 1
  },
  {
-  "name": "coordination",
-  "count": 2
+  "name": "decentralized",
+  "count": 1
  },
  {
-  "name": "decentralized",
+  "name": "coordination",
+  "count": 3
+ },
+ {
+  "name": "supervisor",
+  "count": 1
+ },
+ {
+  "name": "qualitative",
   "count": 1
  },
  {
@@ -2825,35 +4517,75 @@
  },
  {
   "name": "three",
-  "count": 5
+  "count": 8
  },
  {
-  "name": "assign",
+  "name": "fractional",
   "count": 2
  },
  {
-  "name": "subsystem",
-  "count": 6
+  "name": "multiprocessor",
+  "count": 3
+ },
+ {
+  "name": "schemes",
+  "count": 1
+ },
+ {
+  "name": "widely",
+  "count": 1
+ },
+ {
+  "name": "simplicity",
+  "count": 2
+ },
+ {
+  "name": "direct",
+  "count": 3
+ },
+ {
+  "name": "feedthrough",
+  "count": 1
+ },
+ {
+  "name": "expand",
+  "count": 1
+ },
+ {
+  "name": "scale",
+  "count": 7
  },
  {
   "name": "stable",
-  "count": 1
+  "count": 4
  },
  {
-  "name": "continuous system",
-  "count": 1
+  "name": "continuous",
+  "count": 5
  },
  {
-  "name": "tuning",
+  "name": "extract",
   "count": 3
+ },
+ {
+  "name": "integrators",
+  "count": 1
+ },
+ {
+  "name": "pure",
+  "count": 1
  },
  {
   "name": "knowledge",
   "count": 13
  },
  {
-  "name": "self tuning",
-  "count": 2
+  "name": "catalytic",
+  "count": 1
+ },
+ {
+  "name": "reformer",
+  "count": 1
  },
  {
   "name": "compensators",
@@ -2861,54 +4593,74 @@
  },
  {
   "name": "formulation",
-  "count": 4
+  "count": 6
  },
  {
-  "name": "all pass",
+  "name": "suppression",
+  "count": 2
+ },
+ {
+  "name": "preclude",
   "count": 1
  },
  {
   "name": "interpolation",
-  "count": 3
+  "count": 5
  },
  {
   "name": "pass",
-  "count": 2
+  "count": 3
+ },
+ {
+  "name": "multivariable",
+  "count": 1
  },
  {
   "name": "dft",
-  "count": 1
+  "count": 2
  },
  {
   "name": "rational",
-  "count": 1
+  "count": 2
  },
  {
-  "name": "transfer",
+  "name": "approximants",
   "count": 1
  },
  {
   "name": "dimensional",
-  "count": 8
+  "count": 9
  },
  {
-  "name": "stochastic",
-  "count": 2
+  "name": "processing",
+  "count": 13
+ },
+ {
+  "name": "algebra",
+  "count": 3
  },
  {
   "name": "uncertainty",
+  "count": 8
+ },
+ {
+  "name": "neighborhood",
+  "count": 2
+ },
+ {
+  "name": "kabamba",
+  "count": 1
+ },
+ {
+  "name": "assumption",
   "count": 2
  },
  {
   "name": "local",
-  "count": 9
- },
- {
-  "name": "density",
   "count": 10
  },
  {
-  "name": "local model",
+  "name": "coordinator",
   "count": 1
  },
  {
@@ -2920,28 +4672,44 @@
   "count": 8
  },
  {
-  "name": "boundary value",
-  "count": 1
+  "name": "disturbance",
+  "count": 6
  },
  {
   "name": "policy",
   "count": 2
  },
  {
-  "name": "buffer",
-  "count": 1
+  "name": "material",
+  "count": 4
  },
  {
   "name": "pwm",
   "count": 2
  },
  {
+  "name": "constitute",
+  "count": 1
+ },
+ {
+  "name": "duty",
+  "count": 1
+ },
+ {
   "name": "surface",
-  "count": 9
+  "count": 12
  },
  {
   "name": "sensor",
-  "count": 11
+  "count": 13
+ },
+ {
+  "name": "noisy",
+  "count": 1
+ },
+ {
+  "name": "tactile",
+  "count": 3
  },
  {
   "name": "diagonalization",
@@ -2949,46 +4717,50 @@
  },
  {
   "name": "compute",
-  "count": 6
+  "count": 5
+ },
+ {
+  "name": "stiff",
+  "count": 1
+ },
+ {
+  "name": "step",
+  "count": 9
  },
  {
   "name": "positive",
   "count": 3
  },
  {
-  "name": "input",
-  "count": 13
- },
- {
-  "name": "property",
-  "count": 10
- },
- {
-  "name": "horizon",
+  "name": "leslie",
   "count": 1
  },
  {
-  "name": "nonstationary",
+  "name": "unbounded",
+  "count": 1
+ },
+ {
+  "name": "equilibrium",
   "count": 1
  },
  {
   "name": "reward",
-  "count": 1
- },
- {
-  "name": "bind",
-  "count": 1
- },
- {
-  "name": "regression",
-  "count": 1
- },
- {
-  "name": "lyapunov",
   "count": 3
  },
  {
-  "name": "lyapunov function",
+  "name": "roll",
+  "count": 2
+ },
+ {
+  "name": "horizon",
+  "count": 2
+ },
+ {
+  "name": "stationary",
+  "count": 3
+ },
+ {
+  "name": "bind",
   "count": 1
  },
  {
@@ -2996,20 +4768,24 @@
   "count": 1
  },
  {
-  "name": "expression",
-  "count": 2
+  "name": "region",
+  "count": 11
  },
  {
-  "name": "minimization",
+  "name": "solve",
   "count": 3
  },
  {
-  "name": "simple",
-  "count": 3
+  "name": "worst",
+  "count": 1
  },
  {
   "name": "energy",
-  "count": 2
+  "count": 7
+ },
+ {
+  "name": "white",
+  "count": 3
  },
  {
   "name": "routh",
@@ -3017,95 +4793,167 @@
  },
  {
   "name": "table",
-  "count": 3
+  "count": 6
  },
  {
   "name": "introduce",
   "count": 1
  },
  {
-  "name": "edge",
-  "count": 17
- },
- {
   "name": "lemma",
   "count": 1
  },
  {
+  "name": "edge",
+  "count": 16
+ },
+ {
+  "name": "vertex",
+  "count": 5
+ },
+ {
   "name": "polyhedral",
+  "count": 2
+ },
+ {
+  "name": "parasitics",
   "count": 1
  },
  {
-  "name": "fractional",
+  "name": "exact",
   "count": 1
  },
  {
-  "name": "graph",
-  "count": 8
- },
- {
-  "name": "track",
-  "count": 9
+  "name": "balance",
+  "count": 2
  },
  {
   "name": "target",
   "count": 6
  },
  {
-  "name": "singular",
-  "count": 4
- },
- {
-  "name": "controllability",
-  "count": 2
- },
- {
-  "name": "vertex",
-  "count": 3
- },
- {
-  "name": "independent",
+  "name": "applications",
   "count": 1
  },
  {
-  "name": "region",
+  "name": "input",
   "count": 8
  },
  {
-  "name": "generalization",
-  "count": 3
- },
- {
-  "name": "belong",
+  "name": "factorization",
   "count": 1
  },
  {
-  "name": "singular system",
+  "name": "briefly",
+  "count": 1
+ },
+ {
+  "name": "coprime",
+  "count": 1
+ },
+ {
+  "name": "controllability",
+  "count": 1
+ },
+ {
+  "name": "generalization",
+  "count": 4
+ },
+ {
+  "name": "belong",
+  "count": 2
+ },
+ {
+  "name": "simply",
+  "count": 1
+ },
+ {
+  "name": "graphical",
+  "count": 1
+ },
+ {
+  "name": "generalize",
+  "count": 3
+ },
+ {
+  "name": "observer",
+  "count": 11
+ },
+ {
+  "name": "mcmillan",
   "count": 1
  },
  {
   "name": "inside",
-  "count": 1
+  "count": 2
+ },
+ {
+  "name": "variable",
+  "count": 4
  },
  {
   "name": "gramian",
   "count": 1
  },
  {
+  "name": "intersection",
+  "count": 2
+ },
+ {
   "name": "optimization",
-  "count": 5
+  "count": 10
+ },
+ {
+  "name": "norm",
+  "count": 3
+ },
+ {
+  "name": "physically",
+  "count": 1
+ },
+ {
+  "name": "inspire",
+  "count": 1
+ },
+ {
+  "name": "retain",
+  "count": 1
+ },
+ {
+  "name": "dominant",
+  "count": 1
  },
  {
   "name": "hidden",
   "count": 3
  },
  {
-  "name": "dynamical",
+  "name": "degrees",
+  "count": 1
+ },
+ {
+  "name": "unnecessarily",
+  "count": 1
+ },
+ {
+  "name": "undesirable",
+  "count": 1
+ },
+ {
+  "name": "manufacture",
   "count": 2
  },
  {
-  "name": "dynamical system",
+  "name": "homogeneous",
+  "count": 2
+ },
+ {
+  "name": "reliable",
   "count": 1
+ },
+ {
+  "name": "dynamical",
+  "count": 4
  },
  {
   "name": "hds",
@@ -3113,30 +4961,54 @@
  },
  {
   "name": "identification",
-  "count": 4
+  "count": 8
  },
  {
   "name": "adaptation",
   "count": 1
  },
  {
-  "name": "alternative approach",
+  "name": "choice",
+  "count": 4
+ },
+ {
+  "name": "parallel",
+  "count": 2
+ },
+ {
+  "name": "speccorr",
   "count": 1
  },
  {
-  "name": "1987",
+  "name": "wiener",
+  "count": 3
+ },
+ {
+  "name": "spectral",
+  "count": 8
+ },
+ {
+  "name": "chen",
+  "count": 2
+ },
+ {
+  "name": "guo",
   "count": 1
  },
  {
-  "name": "1987 lt",
+  "name": "stringent",
   "count": 1
  },
  {
-  "name": "32",
+  "name": "531",
   "count": 1
  },
  {
-  "name": "adaptive algorithm",
+  "name": "consistency",
+  "count": 2
+ },
+ {
+  "name": "lemmas",
   "count": 1
  },
  {
@@ -3144,16 +5016,36 @@
   "count": 1
  },
  {
+  "name": "theorems",
+  "count": 1
+ },
+ {
+  "name": "perturbed",
+  "count": 2
+ },
+ {
   "name": "solvable",
   "count": 2
  },
  {
-  "name": "queue",
+  "name": "column",
   "count": 1
  },
  {
-  "name": "short",
-  "count": 1
+  "name": "enough",
+  "count": 2
+ },
+ {
+  "name": "separable",
+  "count": 2
+ },
+ {
+  "name": "fuzzy",
+  "count": 14
+ },
+ {
+  "name": "relation",
+  "count": 5
  },
  {
   "name": "incentive",
@@ -3164,7 +5056,23 @@
   "count": 1
  },
  {
-  "name": "approach base",
+  "name": "subproblems",
+  "count": 1
+ },
+ {
+  "name": "small",
+  "count": 6
+ },
+ {
+  "name": "base",
+  "count": 3
+ },
+ {
+  "name": "semiglobally",
+  "count": 1
+ },
+ {
+  "name": "stabilizable",
   "count": 1
  },
  {
@@ -3172,31 +5080,47 @@
   "count": 1
  },
  {
-  "name": "error model",
+  "name": "nonminimum",
   "count": 1
  },
  {
-  "name": "optimal control",
+  "name": "modify",
   "count": 2
+ },
+ {
+  "name": "machine",
+  "count": 17
  },
  {
   "name": "warp",
   "count": 1
  },
  {
-  "name": "kalman",
-  "count": 2
+  "name": "map",
+  "count": 16
  },
  {
-  "name": "kalman filter",
-  "count": 2
+  "name": "run",
+  "count": 3
  },
  {
   "name": "chebyshev",
   "count": 2
  },
  {
-  "name": "chebyshev coefficient",
+  "name": "precomputed",
+  "count": 1
+ },
+ {
+  "name": "preprocessed",
+  "count": 1
+ },
+ {
+  "name": "orient",
+  "count": 1
+ },
+ {
+  "name": "digitizing",
   "count": 1
  },
  {
@@ -3205,10 +5129,14 @@
  },
  {
   "name": "predicate",
-  "count": 1
+  "count": 4
  },
  {
-  "name": "addition",
+  "name": "concurrent",
+  "count": 3
+ },
+ {
+  "name": "notation",
   "count": 1
  },
  {
@@ -3216,32 +5144,64 @@
   "count": 1
  },
  {
+  "name": "likelihood",
+  "count": 7
+ },
+ {
+  "name": "min",
+  "count": 2
+ },
+ {
   "name": "max",
   "count": 3
  },
  {
-  "name": "min",
-  "count": 1
- },
- {
-  "name": "min max",
-  "count": 1
- },
- {
   "name": "orthogonal",
-  "count": 1
+  "count": 2
  },
  {
-  "name": "orthogonal matrix",
-  "count": 1
+  "name": "dimension",
+  "count": 7
  },
  {
   "name": "lq",
   "count": 2
  },
  {
+  "name": "besides",
+  "count": 1
+ },
+ {
+  "name": "relevance",
+  "count": 1
+ },
+ {
+  "name": "postulate",
+  "count": 1
+ },
+ {
+  "name": "game",
+  "count": 4
+ },
+ {
   "name": "gradient",
   "count": 2
+ },
+ {
+  "name": "associate",
+  "count": 2
+ },
+ {
+  "name": "balancing",
+  "count": 1
+ },
+ {
+  "name": "division",
+  "count": 3
+ },
+ {
+  "name": "applicable",
+  "count": 1
  },
  {
   "name": "absence",
@@ -3252,39 +5212,75 @@
   "count": 1
  },
  {
-  "name": "reciprocal process",
-  "count": 1
+  "name": "second",
+  "count": 6
  },
  {
   "name": "ekf",
   "count": 1
  },
  {
-  "name": "ekf algorithm",
+  "name": "mekf",
+  "count": 1
+ },
+ {
+  "name": "modification",
+  "count": 1
+ },
+ {
+  "name": "bolza",
   "count": 1
  },
  {
   "name": "quadratic",
-  "count": 1
+  "count": 5
  },
  {
-  "name": "level",
-  "count": 15
+  "name": "optimality",
+  "count": 3
  },
  {
   "name": "rho",
-  "count": 1
+  "count": 2
  },
  {
-  "name": "flexible",
-  "count": 5
+  "name": "hyperpolyhedron",
+  "count": 1
  },
  {
   "name": "observable",
   "count": 1
  },
  {
-  "name": "dynamic graph",
+  "name": "flexible",
+  "count": 6
+ },
+ {
+  "name": "equality",
+  "count": 2
+ },
+ {
+  "name": "solvability",
+  "count": 1
+ },
+ {
+  "name": "believe",
+  "count": 1
+ },
+ {
+  "name": "efficiently",
+  "count": 1
+ },
+ {
+  "name": "disprove",
+  "count": 1
+ },
+ {
+  "name": "mersenne",
+  "count": 1
+ },
+ {
+  "name": "coefficients",
   "count": 1
  },
  {
@@ -3292,27 +5288,51 @@
   "count": 1
  },
  {
+  "name": "resilient",
+  "count": 1
+ },
+ {
+  "name": "exogenous",
+  "count": 1
+ },
+ {
   "name": "determine",
   "count": 3
  },
  {
-  "name": "observer design",
+  "name": "give",
+  "count": 6
+ },
+ {
+  "name": "mikusinski",
   "count": 1
  },
  {
-  "name": "obtain",
-  "count": 9
+  "name": "able",
+  "count": 1
+ },
+ {
+  "name": "operational",
+  "count": 2
+ },
+ {
+  "name": "stabilization",
+  "count": 4
  },
  {
   "name": "robust",
-  "count": 3
+  "count": 4
  },
  {
-  "name": "robust stabilization",
+  "name": "768",
   "count": 1
  },
  {
-  "name": "proof",
+  "name": "kelemen",
+  "count": 1
+ },
+ {
+  "name": "31",
   "count": 1
  },
  {
@@ -3321,22 +5341,34 @@
  },
  {
   "name": "inverse",
-  "count": 5
+  "count": 9
  },
  {
-  "name": "convex",
-  "count": 3
+  "name": "still",
+  "count": 1
  },
  {
-  "name": "convex program",
+  "name": "indirect",
+  "count": 1
+ },
+ {
+  "name": "bernstein",
   "count": 1
  },
  {
   "name": "objective",
-  "count": 1
+  "count": 2
+ },
+ {
+  "name": "convex",
+  "count": 4
  },
  {
   "name": "value",
+  "count": 8
+ },
+ {
+  "name": "implementable",
   "count": 3
  },
  {
@@ -3344,7 +5376,27 @@
   "count": 1
  },
  {
+  "name": "straightforward",
+  "count": 1
+ },
+ {
+  "name": "variation",
+  "count": 3
+ },
+ {
   "name": "formulate",
+  "count": 1
+ },
+ {
+  "name": "parlos",
+  "count": 1
+ },
+ {
+  "name": "ellipsoidal",
+  "count": 1
+ },
+ {
+  "name": "furnish",
   "count": 1
  },
  {
@@ -3356,59 +5408,79 @@
   "count": 2
  },
  {
-  "name": "mean square",
+  "name": "circumstance",
+  "count": 1
+ },
+ {
+  "name": "implications",
   "count": 1
  },
  {
   "name": "square",
+  "count": 3
+ },
+ {
+  "name": "ms",
   "count": 1
  },
  {
-  "name": "relation",
-  "count": 2
+  "name": "forward",
+  "count": 1
  },
  {
   "name": "manager",
   "count": 1
  },
  {
-  "name": "operator",
-  "count": 7
+  "name": "nonmodified",
+  "count": 1
  },
  {
   "name": "compensator",
   "count": 1
  },
  {
-  "name": "controllability matrix",
+  "name": "since",
   "count": 1
+ },
+ {
+  "name": "rank",
+  "count": 5
  },
  {
   "name": "controllable",
   "count": 3
  },
  {
-  "name": "controllable subspace",
-  "count": 1
- },
- {
   "name": "arma",
-  "count": 4
+  "count": 5
  },
  {
   "name": "cumulants",
   "count": 2
  },
  {
-  "name": "linear quadratic",
-  "count": 1
- },
- {
   "name": "minimax",
   "count": 1
  },
  {
+  "name": "go",
+  "count": 2
+ },
+ {
+  "name": "equalizer",
+  "count": 1
+ },
+ {
   "name": "integrator",
+  "count": 2
+ },
+ {
+  "name": "thaler",
+  "count": 1
+ },
+ {
+  "name": "madwed",
   "count": 1
  },
  {
@@ -3416,31 +5488,55 @@
   "count": 1
  },
  {
-  "name": "boxer thaler",
+  "name": "nature",
   "count": 1
  },
  {
-  "name": "norm",
-  "count": 2
+  "name": "explain",
+  "count": 1
+ },
+ {
+  "name": "fan",
+  "count": 1
+ },
+ {
+  "name": "284",
+  "count": 1
+ },
+ {
+  "name": "tits",
+  "count": 1
  },
  {
   "name": "unstable",
+  "count": 3
+ },
+ {
+  "name": "transition",
+  "count": 2
+ },
+ {
+  "name": "eventually",
   "count": 1
  },
  {
-  "name": "manipulator",
-  "count": 6
+  "name": "diophantine",
+  "count": 1
  },
  {
-  "name": "inertia",
+  "name": "uncoupled",
+  "count": 1
+ },
+ {
+  "name": "movement",
   "count": 1
  },
  {
   "name": "maximum",
-  "count": 5
+  "count": 7
  },
  {
-  "name": "regular",
+  "name": "regularizability",
   "count": 1
  },
  {
@@ -3448,51 +5544,79 @@
   "count": 3
  },
  {
+  "name": "regular",
+  "count": 2
+ },
+ {
   "name": "radius",
-  "count": 1
+  "count": 3
  },
  {
   "name": "calculation",
   "count": 2
  },
  {
+  "name": "summarize",
+  "count": 2
+ },
+ {
   "name": "criterion",
-  "count": 7
+  "count": 6
  },
  {
   "name": "epsilon",
+  "count": 2
+ },
+ {
+  "name": "examine",
   "count": 1
+ },
+ {
+  "name": "or",
+  "count": 7
  },
  {
   "name": "check",
   "count": 2
  },
  {
-  "name": "gt",
+  "name": "odd",
   "count": 3
  },
  {
-  "name": "lt or",
-  "count": 1
+  "name": "even",
+  "count": 2
  },
  {
-  "name": "uncertain",
+  "name": "bellman",
   "count": 1
- },
- {
-  "name": "and or",
-  "count": 5
  },
  {
   "name": "spr",
   "count": 2
  },
  {
-  "name": "location",
-  "count": 4
+  "name": "realness",
+  "count": 1
+ },
+ {
+  "name": "possible",
+  "count": 2
+ },
+ {
+  "name": "restricted",
+  "count": 1
  },
  {
   "name": "mvd",
+  "count": 1
+ },
+ {
+  "name": "mv",
+  "count": 1
+ },
+ {
+  "name": "nonminimal",
   "count": 1
  },
  {
@@ -3504,63 +5628,95 @@
   "count": 1
  },
  {
+  "name": "compensated",
+  "count": 1
+ },
+ {
+  "name": "flow",
+  "count": 6
+ },
+ {
   "name": "barrier",
   "count": 1
  },
  {
-  "name": "capacity limit",
+  "name": "intensity",
+  "count": 2
+ },
+ {
+  "name": "projection",
+  "count": 5
+ },
+ {
+  "name": "full",
   "count": 1
  },
  {
-  "name": "10 sup",
+  "name": "world",
   "count": 1
+ },
+ {
+  "name": "unique",
+  "count": 2
  },
  {
   "name": "metric",
-  "count": 1
+  "count": 2
  },
  {
-  "name": "gap",
-  "count": 1
- },
- {
-  "name": "gap metric",
-  "count": 1
- },
- {
-  "name": "expect",
-  "count": 1
+  "name": "minimize",
+  "count": 3
  },
  {
   "name": "pseudoinverse",
   "count": 1
  },
  {
-  "name": "feedback control",
+  "name": "recursively",
   "count": 1
  },
  {
   "name": "beta",
-  "count": 4
+  "count": 3
  },
  {
-  "name": "stabilization",
+  "name": "highlight",
   "count": 2
  },
  {
-  "name": "control system",
-  "count": 8
+  "name": "necessary",
+  "count": 2
  },
  {
-  "name": "estimation algorithm",
+  "name": "artstein",
   "count": 1
  },
  {
-  "name": "may",
+  "name": "ls",
+  "count": 2
+ },
+ {
+  "name": "passivity",
+  "count": 1
+ },
+ {
+  "name": "mechanical",
+  "count": 1
+ },
+ {
+  "name": "variety",
   "count": 1
  },
  {
   "name": "reference",
+  "count": 3
+ },
+ {
+  "name": "mrac",
+  "count": 2
+ },
+ {
+  "name": "regulator",
   "count": 2
  },
  {
@@ -3568,48 +5724,80 @@
   "count": 3
  },
  {
-  "name": "invariant",
-  "count": 3
+  "name": "vary",
+  "count": 1
  },
  {
   "name": "bf",
   "count": 1
  },
  {
-  "name": "notion",
+  "name": "invariant",
+  "count": 5
+ },
+ {
+  "name": "correlations",
+  "count": 1
+ },
+ {
+  "name": "complement",
+  "count": 1
+ },
+ {
+  "name": "assignability",
   "count": 1
  },
  {
   "name": "realization",
-  "count": 2
+  "count": 3
+ },
+ {
+  "name": "notion",
+  "count": 1
+ },
+ {
+  "name": "triple",
+  "count": 1
  },
  {
   "name": "motion",
-  "count": 10
+  "count": 8
+ },
+ {
+  "name": "body",
+  "count": 2
  },
  {
   "name": "perturbation",
-  "count": 1
+  "count": 3
+ },
+ {
+  "name": "scaled",
+  "count": 2
+ },
+ {
+  "name": "yield",
+  "count": 4
+ },
+ {
+  "name": "estimators",
+  "count": 2
+ },
+ {
+  "name": "exponentially",
+  "count": 2
  },
  {
   "name": "available",
   "count": 1
  },
  {
-  "name": "estimators",
+  "name": "weight",
+  "count": 9
+ },
+ {
+  "name": "systematically",
   "count": 1
- },
- {
-  "name": "exponentially",
-  "count": 1
- },
- {
-  "name": "model reduction",
-  "count": 2
- },
- {
-  "name": "reduction",
-  "count": 2
  },
  {
   "name": "lqg",
@@ -3620,12 +5808,12 @@
   "count": 1
  },
  {
-  "name": "mod",
-  "count": 5
+  "name": "redundant",
+  "count": 2
  },
  {
-  "name": "paper",
-  "count": 1
+  "name": "mod",
+  "count": 5
  },
  {
   "name": "statement",
@@ -3636,35 +5824,75 @@
   "count": 2
  },
  {
+  "name": "unmodeled",
+  "count": 2
+ },
+ {
   "name": "innovation",
   "count": 1
  },
  {
-  "name": "time optimal",
+  "name": "belanger",
   "count": 1
  },
  {
   "name": "bang",
+  "count": 2
+ },
+ {
+  "name": "actuator",
+  "count": 1
+ },
+ {
+  "name": "nearly",
   "count": 1
  },
  {
   "name": "nonparametric",
-  "count": 1
+  "count": 4
  },
  {
   "name": "adjustment",
-  "count": 2
+  "count": 3
  },
  {
-  "name": "stabilization problem",
+  "name": "multilinearity",
   "count": 1
  },
  {
-  "name": "four",
+  "name": "theta",
+  "count": 1
+ },
+ {
+  "name": "suitable",
+  "count": 3
+ },
+ {
+  "name": "unstructured",
+  "count": 3
+ },
+ {
+  "name": "extremal",
+  "count": 1
+ },
+ {
+  "name": "via",
   "count": 2
  },
  {
+  "name": "four",
+  "count": 3
+ },
+ {
+  "name": "parametric",
+  "count": 1
+ },
+ {
   "name": "margin",
+  "count": 2
+ },
+ {
+  "name": "slow",
   "count": 2
  },
  {
@@ -3672,52 +5900,72 @@
   "count": 3
  },
  {
-  "name": "bounded disturbance",
+  "name": "presence",
   "count": 1
  },
  {
-  "name": "discrete time",
+  "name": "characteristic",
   "count": 4
  },
  {
-  "name": "estimator",
-  "count": 10
+  "name": "move",
+  "count": 8
+ },
+ {
+  "name": "eigenproblem",
+  "count": 1
+ },
+ {
+  "name": "computable",
+  "count": 1
  },
  {
   "name": "navigation",
-  "count": 4
+  "count": 7
  },
  {
-  "name": "roll",
-  "count": 1
- },
- {
-  "name": "performance measure",
+  "name": "inertial",
   "count": 2
  },
  {
-  "name": "net",
-  "count": 4
+  "name": "strapdown",
+  "count": 1
+ },
+ {
+  "name": "rolls",
+  "count": 1
+ },
+ {
+  "name": "philosophy",
+  "count": 1
+ },
+ {
+  "name": "effective",
+  "count": 2
+ },
+ {
+  "name": "reduces",
+  "count": 2
+ },
+ {
+  "name": "conditional",
+  "count": 5
  },
  {
   "name": "petri",
   "count": 4
  },
  {
-  "name": "petri net",
-  "count": 2
+  "name": "net",
+  "count": 4
  },
  {
   "name": "descriptive",
   "count": 1
  },
  {
-  "name": "image",
-  "count": 56
- },
- {
   "name": "polygon",
-  "count": 1
+  "count": 3
  },
  {
   "name": "cartesian",
@@ -3732,19 +5980,63 @@
   "count": 1
  },
  {
-  "name": "output feedback",
+  "name": "uniform",
   "count": 1
  },
  {
-  "name": "stabilize",
+  "name": "intuitive",
   "count": 1
  },
  {
-  "name": "signal level",
+  "name": "achievable",
+  "count": 2
+ },
+ {
+  "name": "tether",
   "count": 1
  },
  {
-  "name": "actual",
+  "name": "derive",
+  "count": 2
+ },
+ {
+  "name": "identifier",
+  "count": 1
+ },
+ {
+  "name": "controls",
+  "count": 1
+ },
+ {
+  "name": "computed",
+  "count": 1
+ },
+ {
+  "name": "attempt",
+  "count": 1
+ },
+ {
+  "name": "weighted",
+  "count": 1
+ },
+ {
+  "name": "consisting",
+  "count": 1
+ },
+ {
+  "name": "meyn",
+  "count": 1
+ },
+ {
+  "name": "caines",
+  "count": 1
+ },
+ {
+  "name": "nontrivial",
+  "count": 1
+ },
+ {
+  "name": "martingale",
   "count": 1
  },
  {
@@ -3753,6 +6045,14 @@
  },
  {
   "name": "weak",
+  "count": 1
+ },
+ {
+  "name": "contrary",
+  "count": 1
+ },
+ {
+  "name": "yacubovich",
   "count": 1
  },
  {
@@ -3768,7 +6068,27 @@
   "count": 1
  },
  {
+  "name": "dess",
+  "count": 1
+ },
+ {
+  "name": "cmg",
+  "count": 1
+ },
+ {
+  "name": "kinematic",
+  "count": 2
+ },
+ {
+  "name": "tracking",
+  "count": 4
+ },
+ {
   "name": "construction",
+  "count": 1
+ },
+ {
+  "name": "it",
   "count": 1
  },
  {
@@ -3776,43 +6096,83 @@
   "count": 4
  },
  {
-  "name": "show",
-  "count": 12
+  "name": "superlanguage",
+  "count": 1
+ },
+ {
+  "name": "supervisory",
+  "count": 1
+ },
+ {
+  "name": "infimal",
+  "count": 1
+ },
+ {
+  "name": "nxn",
+  "count": 1
+ },
+ {
+  "name": "commute",
+  "count": 1
+ },
+ {
+  "name": "noncommuting",
+  "count": 1
  },
  {
   "name": "face",
   "count": 2
  },
  {
-  "name": "gain margin",
+  "name": "2n",
   "count": 1
+ },
+ {
+  "name": "subject",
+  "count": 5
  },
  {
   "name": "damp",
+  "count": 3
+ },
+ {
+  "name": "oscillator",
   "count": 2
  },
  {
-  "name": "vector",
-  "count": 4
+  "name": "recursive",
+  "count": 5
  },
  {
   "name": "bicoherence",
+  "count": 2
+ },
+ {
+  "name": "third",
   "count": 1
  },
  {
-  "name": "adaptive stabilization",
+  "name": "tunability",
   "count": 1
  },
  {
-  "name": "jump",
+  "name": "newton",
+  "count": 2
+ },
+ {
+  "name": "substantiate",
   "count": 1
  },
  {
-  "name": "adaptive filter",
-  "count": 6
+  "name": "prescaling",
+  "count": 1
  },
  {
   "name": "adaptively",
+  "count": 1
+ },
+ {
+  "name": "gauss",
   "count": 1
  },
  {
@@ -3828,19 +6188,47 @@
   "count": 1
  },
  {
-  "name": "machine",
-  "count": 15
- },
- {
   "name": "turing",
   "count": 1
  },
  {
-  "name": "covariance matrix",
+  "name": "csp",
   "count": 1
  },
  {
+  "name": "composition",
+  "count": 1
+ },
+ {
+  "name": "moreover",
+  "count": 1
+ },
+ {
+  "name": "trace",
+  "count": 2
+ },
+ {
+  "name": "determinant",
+  "count": 1
+ },
+ {
+  "name": "dale",
+  "count": 1
+ },
+ {
+  "name": "majority",
+  "count": 2
+ },
+ {
   "name": "vs",
+  "count": 1
+ },
+ {
+  "name": "circumvented",
+  "count": 1
+ },
+ {
+  "name": "unsatisfactory",
   "count": 1
  },
  {
@@ -3848,48 +6236,36 @@
   "count": 2
  },
  {
-  "name": "differential equation",
-  "count": 1
- },
- {
-  "name": "optimal controller",
-  "count": 1
- },
- {
-  "name": "sub optimal",
+  "name": "partial",
   "count": 1
  },
  {
   "name": "entropy",
-  "count": 5
+  "count": 6
  },
  {
   "name": "knn",
   "count": 2
  },
  {
-  "name": "knn estimate",
-  "count": 2
- },
- {
-  "name": "estimate propose",
-  "count": 2
+  "name": "neighbor",
+  "count": 3
  },
  {
   "name": "coons",
   "count": 2
  },
  {
-  "name": "digital image",
+  "name": "relaxation",
+  "count": 7
+ },
+ {
+  "name": "mrfs",
   "count": 2
  },
  {
-  "name": "relaxation",
-  "count": 5
- },
- {
-  "name": "second",
-  "count": 3
+  "name": "tolerant",
+  "count": 2
  },
  {
   "name": "automatic",
@@ -3904,19 +6280,35 @@
   "count": 2
  },
  {
+  "name": "record",
+  "count": 3
+ },
+ {
   "name": "kbs",
   "count": 2
  },
  {
   "name": "flight",
-  "count": 2
- },
- {
-  "name": "game",
-  "count": 3
+  "count": 4
  },
  {
   "name": "formation",
+  "count": 2
+ },
+ {
+  "name": "risk",
+  "count": 2
+ },
+ {
+  "name": "numeral",
+  "count": 2
+ },
+ {
+  "name": "unconstrained",
+  "count": 3
+ },
+ {
+  "name": "handwritten",
   "count": 2
  },
  {
@@ -3924,111 +6316,115 @@
   "count": 2
  },
  {
-  "name": "training",
-  "count": 4
- },
- {
-  "name": "instructor training",
-  "count": 2
- },
- {
   "name": "detecting",
   "count": 2
  },
  {
-  "name": "detecting cell",
-  "count": 2
+  "name": "feature",
+  "count": 14
  },
  {
   "name": "learn",
-  "count": 7
+  "count": 10
  },
  {
-  "name": "acquire",
+  "name": "already",
+  "count": 2
+ },
+ {
+  "name": "repeatedly",
+  "count": 2
+ },
+ {
+  "name": "arousal",
+  "count": 2
+ },
+ {
+  "name": "occur",
+  "count": 2
+ },
+ {
+  "name": "multiplication",
   "count": 3
  },
  {
-  "name": "acquire beliefs",
+  "name": "ssa",
   "count": 2
  },
  {
-  "name": "nominal trajectory",
-  "count": 2
- },
- {
-  "name": "collision free",
-  "count": 2
- },
- {
-  "name": "free",
-  "count": 3
+  "name": "per",
+  "count": 4
  },
  {
   "name": "probabilistic",
   "count": 2
  },
  {
-  "name": "attract",
+  "name": "inherent",
   "count": 2
- },
- {
-  "name": "fuzzy",
-  "count": 12
  },
  {
   "name": "spftc",
   "count": 2
  },
  {
-  "name": "information processing",
+  "name": "flc",
+  "count": 6
+ },
+ {
+  "name": "query",
   "count": 2
  },
  {
-  "name": "processing",
-  "count": 12
- },
- {
-  "name": "complex information",
+  "name": "tabular",
   "count": 2
  },
  {
-  "name": "problem solving",
+  "name": "survey",
+  "count": 3
+ },
+ {
+  "name": "solving",
+  "count": 2
+ },
+ {
+  "name": "insight",
+  "count": 2
+ },
+ {
+  "name": "play",
   "count": 2
  },
  {
   "name": "hand",
-  "count": 3
+  "count": 5
  },
  {
-  "name": "task",
-  "count": 10
- },
- {
-  "name": "obstacle",
-  "count": 12
- },
- {
-  "name": "move",
-  "count": 6
+  "name": "robotic",
+  "count": 4
  },
  {
   "name": "polytope",
   "count": 3
  },
  {
+  "name": "obstacle",
+  "count": 12
+ },
+ {
+  "name": "planner",
+  "count": 2
+ },
+ {
   "name": "camera",
   "count": 4
  },
  {
-  "name": "object",
-  "count": 20
- },
- {
-  "name": "model student",
+  "name": "instructional",
   "count": 2
  },
  {
-  "name": "task model",
+  "name": "icai",
   "count": 2
  },
  {
@@ -4036,16 +6432,16 @@
   "count": 5
  },
  {
-  "name": "plan",
-  "count": 4
- },
- {
-  "name": "planning",
-  "count": 7
+  "name": "tree",
+  "count": 8
  },
  {
   "name": "battle",
   "count": 2
+ },
+ {
+  "name": "plan",
+  "count": 5
  },
  {
   "name": "adversarial",
@@ -4053,7 +6449,7 @@
  },
  {
   "name": "member",
-  "count": 2
+  "count": 3
  },
  {
   "name": "electronic",
@@ -4064,35 +6460,39 @@
   "count": 2
  },
  {
+  "name": "meeting",
+  "count": 2
+ },
+ {
   "name": "orientation",
-  "count": 4
+  "count": 6
  },
  {
-  "name": "representation",
-  "count": 5
+  "name": "560",
+  "count": 2
  },
  {
-  "name": "3d",
+  "name": "lie",
+  "count": 3
+ },
+ {
+  "name": "demand",
   "count": 4
  },
  {
   "name": "spatial",
-  "count": 6
+  "count": 11
  },
  {
   "name": "bicriteria",
   "count": 2
  },
  {
-  "name": "bicriteria integer",
+  "name": "integer",
   "count": 2
  },
  {
-  "name": "projection",
-  "count": 2
- },
- {
-  "name": "relaxation projection",
+  "name": "utility",
   "count": 2
  },
  {
@@ -4104,15 +6504,19 @@
   "count": 5
  },
  {
+  "name": "holland",
+  "count": 2
+ },
+ {
   "name": "default",
   "count": 2
  },
  {
-  "name": "reason",
+  "name": "reasoning",
   "count": 2
  },
  {
-  "name": "reasoning",
+  "name": "reason",
   "count": 2
  },
  {
@@ -4124,39 +6528,55 @@
   "count": 2
  },
  {
-  "name": "design theory",
+  "name": "take",
   "count": 2
  },
  {
-  "name": "power system",
-  "count": 3
+  "name": "theme",
+  "count": 2
+ },
+ {
+  "name": "deep",
+  "count": 2
+ },
+ {
+  "name": "sequencing",
+  "count": 2
  },
  {
   "name": "component",
-  "count": 11
- },
- {
-  "name": "three component",
-  "count": 2
+  "count": 8
  },
  {
   "name": "affective",
   "count": 2
  },
  {
-  "name": "affective component",
-  "count": 2
+  "name": "discriminant",
+  "count": 3
  },
  {
   "name": "terrain",
   "count": 4
  },
  {
+  "name": "visibility",
+  "count": 2
+ },
+ {
+  "name": "navigational",
+  "count": 3
+ },
+ {
   "name": "belief",
   "count": 5
  },
  {
-  "name": "belief combination",
+  "name": "dempster",
+  "count": 4
+ },
+ {
+  "name": "inference",
   "count": 2
  },
  {
@@ -4164,63 +6584,67 @@
   "count": 2
  },
  {
-  "name": "bdjp algorithm",
+  "name": "classification",
+  "count": 6
+ },
+ {
+  "name": "proportion",
   "count": 2
  },
  {
-  "name": "classification",
-  "count": 9
+  "name": "automated",
+  "count": 2
  },
  {
-  "name": "accuracy",
-  "count": 8
+  "name": "smc",
+  "count": 4
+ },
+ {
+  "name": "no",
+  "count": 3
  },
  {
   "name": "ibid",
   "count": 4
  },
  {
-  "name": "ibid vol",
-  "count": 4
- },
- {
-  "name": "no",
-  "count": 2
- },
- {
   "name": "see",
   "count": 2
+ },
+ {
+  "name": "vol",
+  "count": 4
  },
  {
   "name": "picture",
   "count": 3
  },
  {
-  "name": "pixel",
-  "count": 8
- },
- {
-  "name": "edge pixel",
+  "name": "reinterpret",
   "count": 2
  },
  {
-  "name": "texture",
+  "name": "pixel",
   "count": 7
  },
  {
-  "name": "either",
+  "name": "texture",
+  "count": 8
+ },
+ {
+  "name": "stage",
+  "count": 9
+ },
+ {
+  "name": "pseudolink",
   "count": 2
  },
  {
-  "name": "pattern",
-  "count": 11
- },
- {
-  "name": "mean value",
+  "name": "separating",
   "count": 2
  },
  {
-  "name": "pattern separating",
+  "name": "nerve",
   "count": 2
  },
  {
@@ -4228,23 +6652,23 @@
   "count": 2
  },
  {
+  "name": "fashion",
+  "count": 2
+ },
+ {
+  "name": "multilimbed",
+  "count": 2
+ },
+ {
+  "name": "position",
+  "count": 10
+ },
+ {
   "name": "force",
   "count": 9
  },
  {
-  "name": "position",
-  "count": 6
- },
- {
-  "name": "apply",
-  "count": 6
- },
- {
-  "name": "tree",
-  "count": 6
- },
- {
-  "name": "decision tree",
+  "name": "classified",
   "count": 2
  },
  {
@@ -4253,39 +6677,27 @@
  },
  {
   "name": "expert",
-  "count": 4
- },
- {
-  "name": "expert system",
-  "count": 2
+  "count": 3
  },
  {
   "name": "distribute",
   "count": 3
  },
  {
-  "name": "research",
-  "count": 5
- },
- {
-  "name": "tool",
-  "count": 3
- },
- {
-  "name": "analytic",
-  "count": 4
- },
- {
-  "name": "edge point",
+  "name": "prescriptive",
   "count": 2
  },
  {
+  "name": "physical",
+  "count": 4
+ },
+ {
   "name": "contour",
-  "count": 12
+  "count": 11
  },
  {
   "name": "along",
-  "count": 4
+  "count": 2
  },
  {
   "name": "module",
@@ -4296,12 +6708,20 @@
   "count": 3
  },
  {
+  "name": "range",
+  "count": 12
+ },
+ {
   "name": "fast",
-  "count": 8
+  "count": 11
  },
  {
   "name": "automaton",
   "count": 3
+ },
+ {
+  "name": "pa",
+  "count": 2
  },
  {
   "name": "diagram",
@@ -4312,11 +6732,7 @@
   "count": 2
  },
  {
-  "name": "influence diagram",
-  "count": 2
- },
- {
-  "name": "information system",
+  "name": "separability",
   "count": 2
  },
  {
@@ -4325,27 +6741,27 @@
  },
  {
   "name": "goal",
+  "count": 7
+ },
+ {
+  "name": "achievement",
   "count": 2
  },
  {
   "name": "mapping",
-  "count": 2
+  "count": 6
  },
  {
-  "name": "processor",
-  "count": 3
+  "name": "verify",
+  "count": 2
  },
  {
   "name": "choose",
-  "count": 2
+  "count": 3
  },
  {
   "name": "observation",
   "count": 3
- },
- {
-  "name": "class conditional",
-  "count": 2
  },
  {
   "name": "character",
@@ -4360,31 +6776,55 @@
   "count": 4
  },
  {
-  "name": "dynamic measurement",
+  "name": "corpus",
   "count": 2
  },
  {
-  "name": "efficient",
-  "count": 6
+  "name": "text",
+  "count": 3
+ },
+ {
+  "name": "frontier",
+  "count": 2
  },
  {
   "name": "fls",
   "count": 2
  },
  {
-  "name": "flc",
+  "name": "dominance",
+  "count": 2
+ },
+ {
+  "name": "sufficiency",
+  "count": 2
+ },
+ {
+  "name": "mechanisms",
+  "count": 2
+ },
+ {
+  "name": "convert",
   "count": 4
  },
  {
   "name": "logic",
-  "count": 5
+  "count": 7
  },
  {
-  "name": "18",
+  "name": "compositional",
+  "count": 2
+ },
+ {
+  "name": "challenge",
   "count": 2
  },
  {
   "name": "cooperate",
+  "count": 3
+ },
+ {
+  "name": "reflex",
   "count": 2
  },
  {
@@ -4392,12 +6832,8 @@
   "count": 2
  },
  {
-  "name": "entropic complexity",
-  "count": 2
- },
- {
-  "name": "combine",
-  "count": 6
+  "name": "manufacturing",
+  "count": 5
  },
  {
   "name": "bam",
@@ -4408,19 +6844,19 @@
   "count": 2
  },
  {
-  "name": "higher",
-  "count": 5
- },
- {
   "name": "extender",
   "count": 2
  },
  {
   "name": "human",
-  "count": 10
+  "count": 12
  },
  {
-  "name": "human extender",
+  "name": "extenders",
+  "count": 2
+ },
+ {
+  "name": "manipulate",
   "count": 2
  },
  {
@@ -4428,12 +6864,8 @@
   "count": 2
  },
  {
-  "name": "answer",
+  "name": "guarantee",
   "count": 3
- },
- {
-  "name": "decision process",
-  "count": 2
  },
  {
   "name": "restrictiveness",
@@ -4444,31 +6876,43 @@
   "count": 2
  },
  {
-  "name": "combination",
+  "name": "incremental",
   "count": 3
  },
  {
   "name": "six",
+  "count": 3
+ },
+ {
+  "name": "combination",
   "count": 2
  },
  {
-  "name": "evidence",
+  "name": "evidential",
   "count": 2
  },
  {
   "name": "fusion",
-  "count": 2
- },
- {
-  "name": "unit",
   "count": 3
  },
  {
-  "name": "dispatch",
+  "name": "evidence",
+  "count": 3
+ },
+ {
+  "name": "nonlinearly",
   "count": 2
  },
  {
-  "name": "service unit",
+  "name": "metadatabase",
+  "count": 2
+ },
+ {
+  "name": "tser",
+  "count": 2
+ },
+ {
+  "name": "dispatch",
   "count": 2
  },
  {
@@ -4480,88 +6924,96 @@
   "count": 2
  },
  {
-  "name": "environmental problem",
+  "name": "assist",
   "count": 2
  },
  {
-  "name": "competitive",
+  "name": "relevant",
   "count": 2
  },
  {
-  "name": "subject",
-  "count": 4
+  "name": "templates",
+  "count": 2
  },
  {
-  "name": "experiment",
+  "name": "kohonen",
+  "count": 2
+ },
+ {
+  "name": "milling",
+  "count": 2
+ },
+ {
+  "name": "mga",
   "count": 2
  },
  {
   "name": "potential",
-  "count": 2
- },
- {
-  "name": "avoidance",
   "count": 4
  },
  {
-  "name": "flexible arm",
-  "count": 2
+  "name": "avoidance",
+  "count": 3
  },
  {
-  "name": "map",
-  "count": 10
+  "name": "effector",
+  "count": 3
+ },
+ {
+  "name": "attractive",
+  "count": 2
  },
  {
   "name": "height",
   "count": 3
  },
  {
-  "name": "height map",
-  "count": 2
- },
- {
   "name": "association",
   "count": 3
  },
  {
-  "name": "cluster analysis",
+  "name": "digraph",
   "count": 2
  },
  {
-  "name": "adaptive planning",
-  "count": 2
+  "name": "situation",
+  "count": 3
  },
  {
-  "name": "command control",
-  "count": 2
- },
- {
-  "name": "environment model",
+  "name": "might",
   "count": 2
  },
  {
   "name": "execution",
-  "count": 2
+  "count": 3
+ },
+ {
+  "name": "landmark",
+  "count": 3
  },
  {
   "name": "vehicle",
-  "count": 5
+  "count": 7
+ },
+ {
+  "name": "remotely",
+  "count": 2
  },
  {
   "name": "gibbs",
   "count": 2
  },
  {
-  "name": "markov",
-  "count": 4
+  "name": "multispectral",
+  "count": 2
  },
  {
   "name": "stereo",
-  "count": 3
+  "count": 4
  },
  {
   "name": "color",
-  "count": 4
+  "count": 5
  },
  {
   "name": "pe",
@@ -4572,11 +7024,11 @@
   "count": 3
  },
  {
-  "name": "black component",
-  "count": 2
+  "name": "pes",
+  "count": 3
  },
  {
-  "name": "run",
+  "name": "near",
   "count": 2
  },
  {
@@ -4584,23 +7036,11 @@
   "count": 2
  },
  {
-  "name": "neural correlator",
+  "name": "artif",
   "count": 2
  },
  {
-  "name": "alpha",
-  "count": 3
- },
- {
-  "name": "121",
-  "count": 2
- },
- {
-  "name": "121 46",
-  "count": 2
- },
- {
-  "name": "human machine",
+  "name": "michalski",
   "count": 2
  },
  {
@@ -4608,23 +7048,43 @@
   "count": 3
  },
  {
-  "name": "functional",
+  "name": "nested",
   "count": 3
+ },
+ {
+  "name": "resource",
+  "count": 4
  },
  {
   "name": "ps",
   "count": 2
  },
  {
-  "name": "matching",
-  "count": 3
- },
- {
-  "name": "pattern matching",
+  "name": "kadane",
   "count": 2
  },
  {
+  "name": "simon",
+  "count": 2
+ },
+ {
+  "name": "lesson",
+  "count": 2
+ },
+ {
+  "name": "emphasize",
+  "count": 2
+ },
+ {
+  "name": "matching",
+  "count": 4
+ },
+ {
   "name": "candidate",
+  "count": 3
+ },
+ {
+  "name": "template",
   "count": 3
  },
  {
@@ -4632,7 +7092,19 @@
   "count": 2
  },
  {
+  "name": "useful",
+  "count": 2
+ },
+ {
   "name": "diagnose",
+  "count": 2
+ },
+ {
+  "name": "confidence",
+  "count": 2
+ },
+ {
+  "name": "faulty",
   "count": 2
  },
  {
@@ -4640,23 +7112,35 @@
   "count": 2
  },
  {
-  "name": "segmentation",
-  "count": 4
+  "name": "slowly",
+  "count": 2
+ },
+ {
+  "name": "spatially",
+  "count": 3
+ },
+ {
+  "name": "invert",
+  "count": 2
+ },
+ {
+  "name": "holdsite",
+  "count": 2
  },
  {
   "name": "road",
   "count": 3
  },
  {
-  "name": "autonomous",
-  "count": 4
+  "name": "underwater",
+  "count": 2
  },
  {
   "name": "detect",
-  "count": 6
+  "count": 5
  },
  {
-  "name": "control sense",
+  "name": "sense",
   "count": 2
  },
  {
@@ -4664,11 +7148,19 @@
   "count": 2
  },
  {
-  "name": "local map",
+  "name": "multivalued",
   "count": 2
  },
  {
-  "name": "sensor map",
+  "name": "current",
+  "count": 5
+ },
+ {
+  "name": "floor",
+  "count": 2
+ },
+ {
+  "name": "multicriteria",
   "count": 2
  },
  {
@@ -4676,15 +7168,27 @@
   "count": 2
  },
  {
-  "name": "light",
-  "count": 3
- },
- {
-  "name": "light microscope",
+  "name": "steer",
   "count": 2
  },
  {
   "name": "microscope",
+  "count": 2
+ },
+ {
+  "name": "light",
+  "count": 4
+ },
+ {
+  "name": "microscopic",
+  "count": 2
+ },
+ {
+  "name": "solid",
+  "count": 2
+ },
+ {
+  "name": "effectiveness",
   "count": 2
  },
  {
@@ -4693,14 +7197,22 @@
  },
  {
   "name": "esp",
-  "count": 2
+  "count": 3
  },
  {
   "name": "life",
   "count": 2
  },
  {
-  "name": "acceptability",
+  "name": "fuel",
+  "count": 3
+ },
+ {
+  "name": "expectancy",
+  "count": 2
+ },
+ {
+  "name": "curves",
   "count": 2
  },
  {
@@ -4708,11 +7220,11 @@
   "count": 3
  },
  {
-  "name": "analyses",
+  "name": "classic",
   "count": 2
  },
  {
-  "name": "tour",
+  "name": "analyses",
   "count": 2
  },
  {
@@ -4720,20 +7232,24 @@
   "count": 2
  },
  {
-  "name": "mobile robot",
+  "name": "tour",
   "count": 2
  },
  {
-  "name": "speed",
-  "count": 5
- },
- {
-  "name": "duration",
+  "name": "vff",
   "count": 2
  },
  {
-  "name": "activity",
-  "count": 5
+  "name": "teleautonomous",
+  "count": 3
+ },
+ {
+  "name": "ocm",
+  "count": 2
+ },
+ {
+  "name": "silence",
+  "count": 2
  },
  {
   "name": "bond",
@@ -4741,7 +7257,11 @@
  },
  {
   "name": "motor",
-  "count": 8
+  "count": 7
+ },
+ {
+  "name": "perception",
+  "count": 2
  },
  {
   "name": "tradeoff",
@@ -4752,19 +7272,19 @@
   "count": 3
  },
  {
-  "name": "auxiliary problem",
+  "name": "istm",
   "count": 2
  },
  {
   "name": "gait",
-  "count": 3
- },
- {
-  "name": "or",
   "count": 2
  },
  {
-  "name": "rank",
+  "name": "optimally",
+  "count": 2
+ },
+ {
+  "name": "defect",
   "count": 3
  },
  {
@@ -4772,8 +7292,16 @@
   "count": 3
  },
  {
-  "name": "dimension",
-  "count": 4
+  "name": "slack",
+  "count": 2
+ },
+ {
+  "name": "multimodal",
+  "count": 2
+ },
+ {
+  "name": "indicate",
+  "count": 2
  },
  {
   "name": "consensus",
@@ -4784,11 +7312,11 @@
   "count": 2
  },
  {
-  "name": "act",
+  "name": "community",
   "count": 2
  },
  {
-  "name": "agent",
+  "name": "concerning",
   "count": 2
  },
  {
@@ -4796,19 +7324,19 @@
   "count": 2
  },
  {
-  "name": "heuristic",
-  "count": 2
- },
- {
   "name": "credit",
   "count": 2
  },
  {
-  "name": "knowledge evaluation",
+  "name": "um",
   "count": 2
  },
  {
-  "name": "expert interface",
+  "name": "nonmonotonic",
+  "count": 2
+ },
+ {
+  "name": "option",
   "count": 2
  },
  {
@@ -4816,23 +7344,11 @@
   "count": 2
  },
  {
-  "name": "decision option",
-  "count": 2
+  "name": "offer",
+  "count": 4
  },
  {
-  "name": "decision theory",
-  "count": 2
- },
- {
-  "name": "regulator",
-  "count": 1
- },
- {
-  "name": "tuning regulator",
-  "count": 1
- },
- {
-  "name": "pulse width",
+  "name": "feedforward",
   "count": 1
  },
  {
@@ -4840,51 +7356,51 @@
   "count": 1
  },
  {
+  "name": "programmable",
+  "count": 1
+ },
+ {
+  "name": "vssc",
+  "count": 1
+ },
+ {
+  "name": "aso",
+  "count": 1
+ },
+ {
   "name": "plasma",
   "count": 1
  },
  {
-  "name": "balance",
+  "name": "stor",
   "count": 1
  },
  {
-  "name": "converter topology",
+  "name": "capacitive",
   "count": 1
  },
  {
-  "name": "dc",
+  "name": "flux",
+  "count": 2
+ },
+ {
+  "name": "transformer",
+  "count": 2
+ },
+ {
+  "name": "torque",
   "count": 3
- },
- {
-  "name": "mode",
-  "count": 2
- },
- {
-  "name": "sliding",
-  "count": 1
- },
- {
-  "name": "sliding mode",
-  "count": 1
- },
- {
-  "name": "power factor",
-  "count": 2
  },
  {
   "name": "microprocessor",
-  "count": 3
+  "count": 4
  },
  {
-  "name": "firing",
+  "name": "predetermined",
   "count": 1
  },
  {
-  "name": "line",
-  "count": 9
- },
- {
-  "name": "supply",
+  "name": "firing",
   "count": 1
  },
  {
@@ -4892,47 +7408,63 @@
   "count": 1
  },
  {
-  "name": "angle",
-  "count": 5
+  "name": "supply",
+  "count": 1
  },
  {
-  "name": "ac",
-  "count": 3
+  "name": "burst",
+  "count": 1
+ },
+ {
+  "name": "phi",
+  "count": 1
+ },
+ {
+  "name": "pecads",
+  "count": 1
  },
  {
   "name": "on",
   "count": 1
  },
  {
-  "name": "rectifier",
+  "name": "scr",
   "count": 1
+ },
+ {
+  "name": "sheet",
+  "count": 2
+ },
+ {
+  "name": "turn",
+  "count": 1
+ },
+ {
+  "name": "rectifier",
+  "count": 3
+ },
+ {
+  "name": "rating",
+  "count": 1
+ },
+ {
+  "name": "waveform",
+  "count": 3
  },
  {
   "name": "peak",
-  "count": 2
- },
- {
-  "name": "peak value",
-  "count": 2
+  "count": 3
  },
  {
   "name": "sinusoidal",
-  "count": 1
+  "count": 2
  },
  {
   "name": "instantaneous",
-  "count": 1
+  "count": 2
  },
  {
-  "name": "vision system",
-  "count": 1
- },
- {
-  "name": "drive system",
-  "count": 1
- },
- {
-  "name": "rendezvous",
+  "name": "reactive",
   "count": 1
  },
  {
@@ -4940,8 +7472,24 @@
   "count": 1
  },
  {
+  "name": "rendezvous",
+  "count": 1
+ },
+ {
+  "name": "pick",
+  "count": 1
+ },
+ {
+  "name": "workcell",
+  "count": 1
+ },
+ {
   "name": "cross",
-  "count": 4
+  "count": 3
+ },
+ {
+  "name": "ipm",
+  "count": 1
  },
  {
   "name": "hysteresis",
@@ -4952,20 +7500,8 @@
   "count": 1
  },
  {
-  "name": "induction motor",
-  "count": 1
- },
- {
-  "name": "calculate",
-  "count": 2
- },
- {
   "name": "comparison",
   "count": 1
- },
- {
-  "name": "cycloconverter",
-  "count": 2
  },
  {
   "name": "mms",
@@ -4976,24 +7512,48 @@
   "count": 1
  },
  {
-  "name": "transformer",
+  "name": "obtain",
+  "count": 6
+ },
+ {
+  "name": "hf",
+  "count": 2
+ },
+ {
+  "name": "prc",
   "count": 1
  },
  {
-  "name": "class sup",
+  "name": "dt",
   "count": 1
  },
  {
-  "name": "fuel",
+  "name": "unbalance",
   "count": 1
  },
  {
-  "name": "fuel cell",
+  "name": "unbalanced",
+  "count": 1
+ },
+ {
+  "name": "safe",
+  "count": 1
+ },
+ {
+  "name": "pressure",
+  "count": 1
+ },
+ {
+  "name": "important",
   "count": 1
  },
  {
   "name": "transistor",
   "count": 1
+ },
+ {
+  "name": "normalized",
+  "count": 2
  },
  {
   "name": "tooth",
@@ -5004,7 +7564,19 @@
   "count": 1
  },
  {
+  "name": "stator",
+  "count": 1
+ },
+ {
+  "name": "srm",
+  "count": 1
+ },
+ {
   "name": "pic",
+  "count": 2
+ },
+ {
+  "name": "discussion",
   "count": 1
  },
  {
@@ -5016,23 +7588,31 @@
   "count": 3
  },
  {
-  "name": "derivative feedback",
+  "name": "cycloconverter",
   "count": 1
  },
  {
-  "name": "load",
+  "name": "mracs",
+  "count": 1
+ },
+ {
+  "name": "series",
   "count": 2
  },
  {
-  "name": "resonant",
-  "count": 1
- },
- {
-  "name": "resonant frequency",
-  "count": 1
- },
- {
   "name": "make",
+  "count": 2
+ },
+ {
+  "name": "field",
+  "count": 5
+ },
+ {
+  "name": "mttf",
+  "count": 1
+ },
+ {
+  "name": "tcr",
   "count": 1
  },
  {
@@ -5040,11 +7620,19 @@
   "count": 1
  },
  {
-  "name": "sub sub",
+  "name": "period",
   "count": 1
  },
  {
-  "name": "frequency signal",
+  "name": "soh",
+  "count": 1
+ },
+ {
+  "name": "achieved",
+  "count": 1
+ },
+ {
+  "name": "ac",
   "count": 1
  },
  {
@@ -5052,11 +7640,35 @@
   "count": 1
  },
  {
-  "name": "alternate",
+  "name": "tap",
+  "count": 2
+ },
+ {
+  "name": "snubber",
   "count": 1
  },
  {
-  "name": "control scheme",
+  "name": "optimize",
+  "count": 1
+ },
+ {
+  "name": "simplex",
+  "count": 1
+ },
+ {
+  "name": "alternate",
+  "count": 2
+ },
+ {
+  "name": "sensordummy",
+  "count": 1
+ },
+ {
+  "name": "synchronous",
+  "count": 2
+ },
+ {
+  "name": "excited",
   "count": 1
  },
  {
@@ -5064,16 +7676,16 @@
   "count": 1
  },
  {
-  "name": "harmonic",
-  "count": 2
+  "name": "master",
+  "count": 1
+ },
+ {
+  "name": "ups",
+  "count": 1
  },
  {
   "name": "inverter",
   "count": 2
- },
- {
-  "name": "redundant",
-  "count": 1
  },
  {
   "name": "relay",
@@ -5084,11 +7696,27 @@
   "count": 1
  },
  {
+  "name": "hardware",
+  "count": 2
+ },
+ {
+  "name": "quadrant",
+  "count": 1
+ },
+ {
+  "name": "delta",
+  "count": 2
+ },
+ {
+  "name": "dc",
+  "count": 2
+ },
+ {
   "name": "jacobian",
   "count": 2
  },
  {
-  "name": "oscillator",
+  "name": "purposes",
   "count": 1
  },
  {
@@ -5097,10 +7725,26 @@
  },
  {
   "name": "cylinder",
-  "count": 2
+  "count": 4
  },
  {
   "name": "combustion",
+  "count": 1
+ },
+ {
+  "name": "individual",
+  "count": 3
+ },
+ {
+  "name": "suit",
+  "count": 1
+ },
+ {
+  "name": "index",
+  "count": 3
+ },
+ {
+  "name": "microcomputer",
   "count": 1
  },
  {
@@ -5108,7 +7752,31 @@
   "count": 1
  },
  {
+  "name": "whereas",
+  "count": 1
+ },
+ {
   "name": "cac",
+  "count": 1
+ },
+ {
+  "name": "dynamics",
+  "count": 1
+ },
+ {
+  "name": "compensating",
+  "count": 1
+ },
+ {
+  "name": "var",
+  "count": 1
+ },
+ {
+  "name": "look",
+  "count": 1
+ },
+ {
+  "name": "memory",
   "count": 1
  },
  {
@@ -5116,23 +7784,35 @@
   "count": 2
  },
  {
+  "name": "gam",
+  "count": 1
+ },
+ {
   "name": "resolver",
   "count": 1
  },
  {
-  "name": "resolution",
-  "count": 6
+  "name": "accuracy",
+  "count": 3
  },
  {
-  "name": "synchronous",
+  "name": "bldcm",
   "count": 1
+ },
+ {
+  "name": "bldcms",
+  "count": 1
+ },
+ {
+  "name": "token",
+  "count": 3
  },
  {
   "name": "oscillation",
   "count": 1
  },
  {
-  "name": "error dynamic",
+  "name": "suppress",
   "count": 1
  },
  {
@@ -5144,31 +7824,47 @@
   "count": 1
  },
  {
+  "name": "thick",
+  "count": 1
+ },
+ {
   "name": "electrostatic",
   "count": 1
  },
  {
-  "name": "control method",
+  "name": "solar",
   "count": 1
  },
  {
-  "name": "field",
-  "count": 3
- },
- {
-  "name": "field oriented",
+  "name": "prologic",
   "count": 1
  },
  {
-  "name": "efficiency",
-  "count": 3
+  "name": "behavioral",
+  "count": 1
+ },
+ {
+  "name": "oriented",
+  "count": 2
+ },
+ {
+  "name": "simultaneously",
+  "count": 1
  },
  {
   "name": "anatomical",
   "count": 1
  },
  {
-  "name": "choice",
+  "name": "morphological",
+  "count": 3
+ },
+ {
+  "name": "initial",
+  "count": 2
+ },
+ {
+  "name": "adjustable",
   "count": 1
  },
  {
@@ -5176,23 +7872,27 @@
   "count": 1
  },
  {
-  "name": "reconstruction",
-  "count": 6
+  "name": "computational",
+  "count": 3
  },
  {
-  "name": "computational",
-  "count": 6
+  "name": "reconstruction",
+  "count": 9
  },
  {
   "name": "generalized",
-  "count": 2
+  "count": 3
+ },
+ {
+  "name": "ggar",
+  "count": 1
  },
  {
   "name": "vessel",
   "count": 1
  },
  {
-  "name": "aspect ratio",
+  "name": "spot",
   "count": 1
  },
  {
@@ -5200,24 +7900,32 @@
   "count": 1
  },
  {
-  "name": "attenuation",
+  "name": "particular",
   "count": 2
  },
  {
-  "name": "weight",
+  "name": "ml",
   "count": 3
  },
  {
-  "name": "weight function",
+  "name": "photon",
+  "count": 1
+ },
+ {
+  "name": "squashing",
+  "count": 1
+ },
+ {
+  "name": "usefulness",
   "count": 1
  },
  {
   "name": "median",
-  "count": 5
+  "count": 7
  },
  {
-  "name": "median filter",
-  "count": 3
+  "name": "preserving",
+  "count": 1
  },
  {
   "name": "ability",
@@ -5225,18 +7933,26 @@
  },
  {
   "name": "axis",
-  "count": 1
+  "count": 2
+ },
+ {
+  "name": "long",
+  "count": 2
  },
  {
   "name": "ventricular",
   "count": 1
  },
  {
-  "name": "left",
+  "name": "roi",
   "count": 1
  },
  {
-  "name": "left ventricular",
+  "name": "extraction",
+  "count": 1
+ },
+ {
+  "name": "novel",
   "count": 1
  },
  {
@@ -5244,12 +7960,8 @@
   "count": 1
  },
  {
-  "name": "emission",
-  "count": 2
- },
- {
-  "name": "magnetic",
-  "count": 6
+  "name": "quantitation",
+  "count": 1
  },
  {
   "name": "digitize",
@@ -5257,7 +7969,7 @@
  },
  {
   "name": "assessment",
-  "count": 1
+  "count": 2
  },
  {
   "name": "ray",
@@ -5272,19 +7984,31 @@
   "count": 1
  },
  {
-  "name": "step",
-  "count": 2
- },
- {
-  "name": "direction",
-  "count": 2
+  "name": "osl",
+  "count": 1
  },
  {
   "name": "kernel",
-  "count": 4
+  "count": 5
+ },
+ {
+  "name": "encode",
+  "count": 2
+ },
+ {
+  "name": "amplitude",
+  "count": 2
  },
  {
   "name": "dop",
+  "count": 1
+ },
+ {
+  "name": "activity",
+  "count": 1
+ },
+ {
+  "name": "lrf",
   "count": 1
  },
  {
@@ -5292,27 +8016,47 @@
   "count": 1
  },
  {
+  "name": "psf",
+  "count": 1
+ },
+ {
+  "name": "scatter",
+  "count": 1
+ },
+ {
   "name": "spect",
   "count": 1
  },
  {
-  "name": "fourier",
-  "count": 5
+  "name": "characterize",
+  "count": 2
  },
  {
-  "name": "cross sectional",
+  "name": "wall",
   "count": 1
  },
  {
   "name": "mathematical",
-  "count": 1
+  "count": 2
  },
  {
   "name": "acr",
   "count": 1
  },
  {
+  "name": "nema",
+  "count": 1
+ },
+ {
+  "name": "radiology",
+  "count": 1
+ },
+ {
   "name": "volume",
+  "count": 2
+ },
+ {
+  "name": "lv",
   "count": 1
  },
  {
@@ -5320,7 +8064,7 @@
   "count": 1
  },
  {
-  "name": "extract",
+  "name": "manual",
   "count": 1
  },
  {
@@ -5328,11 +8072,11 @@
   "count": 2
  },
  {
-  "name": "chemical",
+  "name": "ghost",
   "count": 1
  },
  {
-  "name": "chemical shift",
+  "name": "chemical",
   "count": 1
  },
  {
@@ -5340,23 +8084,23 @@
   "count": 2
  },
  {
-  "name": "beam",
+  "name": "ft",
   "count": 1
+ },
+ {
+  "name": "beam",
+  "count": 2
  },
  {
   "name": "backprojection",
   "count": 2
  },
  {
-  "name": "incremental",
-  "count": 1
+  "name": "by",
+  "count": 2
  },
  {
   "name": "side",
-  "count": 1
- },
- {
-  "name": "side information",
   "count": 1
  },
  {
@@ -5364,19 +8108,39 @@
   "count": 4
  },
  {
+  "name": "gamma",
+  "count": 1
+ },
+ {
+  "name": "pocs",
+  "count": 1
+ },
+ {
   "name": "conventional",
-  "count": 2
+  "count": 3
+ },
+ {
+  "name": "mri",
+  "count": 1
  },
  {
   "name": "confident",
   "count": 1
  },
  {
-  "name": "low level",
+  "name": "256",
+  "count": 2
+ },
+ {
+  "name": "rectangular",
   "count": 1
  },
  {
-  "name": "256",
+  "name": "nonrectangularly",
+  "count": 1
+ },
+ {
+  "name": "scan",
   "count": 1
  },
  {
@@ -5384,19 +8148,15 @@
   "count": 1
  },
  {
-  "name": "template",
+  "name": "endocardial",
   "count": 1
  },
  {
-  "name": "border point",
+  "name": "prefiltering",
   "count": 1
  },
  {
-  "name": "flow",
-  "count": 4
- },
- {
-  "name": "integration",
+  "name": "simplification",
   "count": 1
  },
  {
@@ -5404,23 +8164,51 @@
   "count": 1
  },
  {
-  "name": "pet",
+  "name": "tissue",
   "count": 1
  },
  {
-  "name": "cm",
+  "name": "within",
   "count": 2
  },
  {
-  "name": "could",
+  "name": "pacs",
   "count": 1
  },
  {
-  "name": "rate constant",
+  "name": "radiological",
   "count": 1
+ },
+ {
+  "name": "mhz",
+  "count": 1
+ },
+ {
+  "name": "milb",
+  "count": 1
+ },
+ {
+  "name": "ultrasonic",
+  "count": 1
+ },
+ {
+  "name": "mle",
+  "count": 1
+ },
+ {
+  "name": "feasible",
+  "count": 2
  },
  {
   "name": "caudate",
+  "count": 1
+ },
+ {
+  "name": "vitro",
+  "count": 1
+ },
+ {
+  "name": "nmsp",
   "count": 1
  },
  {
@@ -5436,10 +8224,6 @@
   "count": 1
  },
  {
-  "name": "wiener",
-  "count": 2
- },
- {
   "name": "gray",
   "count": 1
  },
@@ -5453,27 +8237,31 @@
  },
  {
   "name": "geometry",
-  "count": 1
+  "count": 2
  },
  {
   "name": "receptor",
   "count": 1
  },
  {
+  "name": "unity",
+  "count": 2
+ },
+ {
+  "name": "change",
+  "count": 4
+ },
+ {
   "name": "regional",
   "count": 1
  },
  {
-  "name": "variable",
+  "name": "subtrees",
   "count": 1
  },
  {
   "name": "quantizer",
   "count": 2
- },
- {
-  "name": "subtrees",
-  "count": 1
  },
  {
   "name": "backpropagation",
@@ -5484,7 +8272,11 @@
   "count": 1
  },
  {
-  "name": "motion parameter",
+  "name": "stimulus",
+  "count": 1
+ },
+ {
+  "name": "constructive",
   "count": 1
  },
  {
@@ -5496,31 +8288,31 @@
   "count": 1
  },
  {
-  "name": "language",
-  "count": 3
- },
- {
   "name": "coordinate",
-  "count": 3
- },
- {
-  "name": "language model",
-  "count": 1
- },
- {
-  "name": "string",
   "count": 2
  },
  {
-  "name": "word",
-  "count": 5
+  "name": "autoregressive",
+  "count": 3
  },
  {
-  "name": "variance",
+  "name": "word",
+  "count": 6
+ },
+ {
+  "name": "string",
+  "count": 3
+ },
+ {
+  "name": "cache",
   "count": 1
  },
  {
   "name": "tessellation",
+  "count": 2
+ },
+ {
+  "name": "blind",
   "count": 1
  },
  {
@@ -5528,7 +8320,15 @@
   "count": 1
  },
  {
+  "name": "unsupervised",
+  "count": 1
+ },
+ {
   "name": "display",
+  "count": 1
+ },
+ {
+  "name": "significant",
   "count": 1
  },
  {
@@ -5536,15 +8336,19 @@
   "count": 2
  },
  {
-  "name": "significant",
-  "count": 1
- },
- {
   "name": "sonar",
-  "count": 1
+  "count": 2
  },
  {
   "name": "graphic",
+  "count": 1
+ },
+ {
+  "name": "core",
+  "count": 2
+ },
+ {
+  "name": "lines",
   "count": 1
  },
  {
@@ -5552,23 +8356,35 @@
   "count": 1
  },
  {
-  "name": "depth",
+  "name": "intrinsic",
   "count": 1
  },
  {
-  "name": "enough",
+  "name": "triangulation",
   "count": 1
  },
  {
-  "name": "localization",
-  "count": 2
+  "name": "vanish",
+  "count": 1
  },
  {
-  "name": "small",
+  "name": "nonregular",
+  "count": 1
+ },
+ {
+  "name": "displacement",
+  "count": 1
+ },
+ {
+  "name": "thinning",
   "count": 1
  },
  {
   "name": "skeleton",
+  "count": 2
+ },
+ {
+  "name": "thin",
   "count": 1
  },
  {
@@ -5576,27 +8392,55 @@
   "count": 2
  },
  {
-  "name": "affine transformation",
-  "count": 2
+  "name": "symmetry",
+  "count": 3
  },
  {
-  "name": "symmetry",
+  "name": "eigenfunctions",
   "count": 1
+ },
+ {
+  "name": "outside",
+  "count": 1
+ },
+ {
+  "name": "also",
+  "count": 2
  },
  {
   "name": "skeletonization",
   "count": 1
  },
  {
-  "name": "label",
-  "count": 2
+  "name": "massively",
+  "count": 1
  },
  {
-  "name": "chen",
+  "name": "label",
+  "count": 3
+ },
+ {
+  "name": "cubic",
+  "count": 1
+ },
+ {
+  "name": "scaling",
   "count": 1
  },
  {
   "name": "frei",
+  "count": 1
+ },
+ {
+  "name": "lacroix",
+  "count": 1
+ },
+ {
+  "name": "volunteer",
+  "count": 1
+ },
+ {
+  "name": "password",
   "count": 1
  },
  {
@@ -5609,15 +8453,15 @@
  },
  {
   "name": "corner",
-  "count": 2
- },
- {
-  "name": "corner detection",
-  "count": 1
+  "count": 3
  },
  {
   "name": "entry",
   "count": 1
+ },
+ {
+  "name": "bit",
+  "count": 4
  },
  {
   "name": "mesh",
@@ -5628,7 +8472,23 @@
   "count": 1
  },
  {
-  "name": "application theory",
+  "name": "binocular",
+  "count": 1
+ },
+ {
+  "name": "successive",
+  "count": 1
+ },
+ {
+  "name": "clark",
+  "count": 1
+ },
+ {
+  "name": "43",
+  "count": 1
+ },
+ {
+  "name": "57",
   "count": 1
  },
  {
@@ -5640,16 +8500,20 @@
   "count": 1
  },
  {
+  "name": "today",
+  "count": 1
+ },
+ {
+  "name": "positional",
+  "count": 1
+ },
+ {
+  "name": "subpixel",
+  "count": 1
+ },
+ {
   "name": "correspondence",
   "count": 3
- },
- {
-  "name": "line correspondence",
-  "count": 1
- },
- {
-  "name": "point correspondence",
-  "count": 1
  },
  {
   "name": "transducer",
@@ -5660,11 +8524,31 @@
   "count": 1
  },
  {
+  "name": "iterations",
+  "count": 2
+ },
+ {
+  "name": "existence",
+  "count": 2
+ },
+ {
+  "name": "smoothness",
+  "count": 1
+ },
+ {
+  "name": "define",
+  "count": 3
+ },
+ {
   "name": "dictionary",
   "count": 1
  },
  {
-  "name": "many",
+  "name": "polyhedron",
+  "count": 1
+ },
+ {
+  "name": "question",
   "count": 1
  },
  {
@@ -5672,39 +8556,19 @@
   "count": 1
  },
  {
-  "name": "expected",
+  "name": "sampler",
   "count": 1
- },
- {
-  "name": "scale",
-  "count": 4
- },
- {
-  "name": "scale space",
-  "count": 2
- },
- {
-  "name": "filtering",
-  "count": 2
  },
  {
   "name": "multiresolution",
   "count": 1
  },
  {
-  "name": "smooth",
+  "name": "conjunction",
   "count": 1
  },
  {
-  "name": "basic",
-  "count": 3
- },
- {
-  "name": "basic event",
-  "count": 1
- },
- {
-  "name": "correspondence problem",
+  "name": "dependence",
   "count": 1
  },
  {
@@ -5712,15 +8576,11 @@
   "count": 1
  },
  {
-  "name": "edge detection",
-  "count": 1
- },
- {
   "name": "invariance",
   "count": 1
  },
  {
-  "name": "shape analysis",
+  "name": "rotational",
   "count": 1
  },
  {
@@ -5728,11 +8588,27 @@
   "count": 1
  },
  {
-  "name": "improvement",
+  "name": "primitive",
+  "count": 3
+ },
+ {
+  "name": "injection",
   "count": 1
  },
  {
-  "name": "range data",
+  "name": "integrity",
+  "count": 1
+ },
+ {
+  "name": "tile",
+  "count": 1
+ },
+ {
+  "name": "seam",
+  "count": 1
+ },
+ {
+  "name": "independently",
   "count": 1
  },
  {
@@ -5740,15 +8616,31 @@
   "count": 1
  },
  {
-  "name": "moment",
-  "count": 3
+  "name": "tssl",
+  "count": 1
+ },
+ {
+  "name": "ten",
+  "count": 1
+ },
+ {
+  "name": "substring",
+  "count": 1
+ },
+ {
+  "name": "photograph",
+  "count": 1
+ },
+ {
+  "name": "aerial",
+  "count": 1
  },
  {
   "name": "zernike",
   "count": 1
  },
  {
-  "name": "zernike moment",
+  "name": "lew",
   "count": 1
  },
  {
@@ -5756,55 +8648,59 @@
   "count": 1
  },
  {
-  "name": "pair",
-  "count": 1
+  "name": "identify",
+  "count": 3
  },
  {
-  "name": "identify",
+  "name": "valiant",
   "count": 1
  },
  {
   "name": "mlp",
+  "count": 2
+ },
+ {
+  "name": "lmse",
   "count": 1
  },
  {
-  "name": "discriminant",
-  "count": 1
+  "name": "hmm",
+  "count": 2
  },
  {
-  "name": "match",
-  "count": 4
- },
- {
-  "name": "line segment",
-  "count": 1
+  "name": "train",
+  "count": 3
  },
  {
   "name": "cliff",
   "count": 1
  },
  {
-  "name": "reflection",
-  "count": 2
- },
- {
-  "name": "light source",
-  "count": 1
- },
- {
   "name": "lms",
+  "count": 4
+ },
+ {
+  "name": "mmf",
   "count": 2
  },
  {
-  "name": "clutter suppression",
+  "name": "decompose",
   "count": 1
  },
  {
-  "name": "lms filter",
+  "name": "paraboloid",
   "count": 1
  },
  {
-  "name": "binary shape",
+  "name": "invoke",
+  "count": 1
+ },
+ {
+  "name": "crossvalidation",
+  "count": 1
+ },
+ {
+  "name": "networks",
   "count": 1
  },
  {
@@ -5816,7 +8712,27 @@
   "count": 1
  },
  {
+  "name": "shading",
+  "count": 1
+ },
+ {
   "name": "curve",
+  "count": 1
+ },
+ {
+  "name": "subcurve",
+  "count": 1
+ },
+ {
+  "name": "parameterized",
+  "count": 1
+ },
+ {
+  "name": "pose",
+  "count": 2
+ },
+ {
+  "name": "occlusion",
   "count": 1
  },
  {
@@ -5824,20 +8740,28 @@
   "count": 1
  },
  {
-  "name": "parallel",
+  "name": "slope",
+  "count": 2
+ },
+ {
+  "name": "stream",
   "count": 1
  },
  {
-  "name": "landmark",
+  "name": "simd",
+  "count": 1
+ },
+ {
+  "name": "databank",
   "count": 1
  },
  {
   "name": "scene",
-  "count": 1
+  "count": 4
  },
  {
-  "name": "likelihood",
-  "count": 3
+  "name": "evaluate",
+  "count": 1
  },
  {
   "name": "polarization",
@@ -5848,10 +8772,6 @@
   "count": 1
  },
  {
-  "name": "material",
-  "count": 3
- },
- {
   "name": "sfm",
   "count": 1
  },
@@ -5860,7 +8780,27 @@
   "count": 1
  },
  {
+  "name": "precaution",
+  "count": 1
+ },
+ {
   "name": "ed",
+  "count": 1
+ },
+ {
+  "name": "strike",
+  "count": 1
+ },
+ {
+  "name": "illumination",
+  "count": 1
+ },
+ {
+  "name": "layout",
+  "count": 2
+ },
+ {
+  "name": "page",
   "count": 1
  },
  {
@@ -5876,39 +8816,71 @@
   "count": 1
  },
  {
-  "name": "advantage",
-  "count": 3
+  "name": "realize",
+  "count": 1
+ },
+ {
+  "name": "1d",
+  "count": 1
+ },
+ {
+  "name": "calculus",
+  "count": 1
+ },
+ {
+  "name": "understood",
+  "count": 1
  },
  {
   "name": "wigner",
-  "count": 1
- },
- {
-  "name": "wigner distribution",
-  "count": 1
- },
- {
-  "name": "spectrum",
   "count": 2
+ },
+ {
+  "name": "sf",
+  "count": 1
+ },
+ {
+  "name": "selectivity",
+  "count": 1
+ },
+ {
+  "name": "reflectance",
+  "count": 1
+ },
+ {
+  "name": "actual",
+  "count": 1
+ },
+ {
+  "name": "unlike",
+  "count": 1
  },
  {
   "name": "fit",
   "count": 1
  },
  {
-  "name": "hidden markov",
-  "count": 1
- },
- {
-  "name": "markov model",
+  "name": "equivalent",
   "count": 1
  },
  {
   "name": "adapt",
+  "count": 1
+ },
+ {
+  "name": "phoneme",
+  "count": 1
+ },
+ {
+  "name": "hmms",
   "count": 2
  },
  {
-  "name": "amount",
+  "name": "xi",
+  "count": 1
+ },
+ {
+  "name": "computer",
   "count": 1
  },
  {
@@ -5916,11 +8888,27 @@
   "count": 2
  },
  {
-  "name": "assume",
+  "name": "mistaken",
   "count": 1
  },
  {
-  "name": "primitive",
+  "name": "percent",
+  "count": 1
+ },
+ {
+  "name": "narrow",
+  "count": 2
+ },
+ {
+  "name": "autocorrelation",
+  "count": 4
+ },
+ {
+  "name": "foreshortening",
+  "count": 1
+ },
+ {
+  "name": "assume",
   "count": 1
  },
  {
@@ -5928,7 +8916,7 @@
   "count": 1
  },
  {
-  "name": "token",
+  "name": "syntactic",
   "count": 1
  },
  {
@@ -5936,7 +8924,11 @@
   "count": 1
  },
  {
-  "name": "belief function",
+  "name": "discuss",
+  "count": 3
+ },
+ {
+  "name": "transferable",
   "count": 1
  },
  {
@@ -5944,11 +8936,19 @@
   "count": 1
  },
  {
-  "name": "bhattacharyya coefficient",
+  "name": "bias",
+  "count": 2
+ },
+ {
+  "name": "substantially",
   "count": 1
  },
  {
-  "name": "penalty",
+  "name": "irregular",
+  "count": 1
+ },
+ {
+  "name": "hexagonal",
   "count": 1
  },
  {
@@ -5956,47 +8956,47 @@
   "count": 1
  },
  {
-  "name": "online",
-  "count": 2
- },
- {
-  "name": "morphological",
-  "count": 2
- },
- {
-  "name": "dynamic programming",
+  "name": "renew",
   "count": 1
  },
  {
-  "name": "programming",
-  "count": 1
+  "name": "superposition",
+  "count": 2
  },
  {
   "name": "screw",
   "count": 1
  },
  {
-  "name": "oriented",
+  "name": "hypothesis",
   "count": 1
  },
  {
-  "name": "production system",
+  "name": "consequence",
   "count": 1
  },
  {
-  "name": "actually",
-  "count": 1
- },
- {
-  "name": "actually commit",
+  "name": "essentially",
   "count": 1
  },
  {
   "name": "advance",
-  "count": 2
+  "count": 1
+ },
+ {
+  "name": "locally",
+  "count": 1
+ },
+ {
+  "name": "avoided",
+  "count": 1
  },
  {
   "name": "adjoint",
+  "count": 1
+ },
+ {
+  "name": "hub",
   "count": 1
  },
  {
@@ -6004,12 +9004,12 @@
   "count": 1
  },
  {
-  "name": "inverse kinematics",
-  "count": 1
- },
- {
   "name": "kinematics",
   "count": 3
+ },
+ {
+  "name": "analytical",
+  "count": 1
  },
  {
   "name": "calibrate",
@@ -6017,10 +9017,14 @@
  },
  {
   "name": "assembly",
-  "count": 4
+  "count": 3
  },
  {
   "name": "touch",
+  "count": 1
+ },
+ {
+  "name": "3d",
   "count": 1
  },
  {
@@ -6028,27 +9032,31 @@
   "count": 1
  },
  {
-  "name": "computational efficiency",
-  "count": 1
+  "name": "efficiency",
+  "count": 2
  },
  {
   "name": "algorithms",
   "count": 2
  },
  {
-  "name": "continuous time",
+  "name": "investigation",
   "count": 1
  },
  {
-  "name": "scheduling",
+  "name": "occlude",
   "count": 1
  },
  {
-  "name": "solve",
+  "name": "maintain",
   "count": 1
  },
  {
-  "name": "grasping",
+  "name": "select",
+  "count": 2
+ },
+ {
+  "name": "persistent",
   "count": 1
  },
  {
@@ -6056,7 +9064,11 @@
   "count": 1
  },
  {
-  "name": "lead",
+  "name": "symmetric",
+  "count": 2
+ },
+ {
+  "name": "grasping",
   "count": 1
  },
  {
@@ -6072,20 +9084,44 @@
   "count": 1
  },
  {
+  "name": "mobility",
+  "count": 1
+ },
+ {
+  "name": "luh",
+  "count": 1
+ },
+ {
+  "name": "luo",
+  "count": 1
+ },
+ {
+  "name": "flaw",
+  "count": 1
+ },
+ {
+  "name": "reject",
+  "count": 1
+ },
+ {
   "name": "guidance",
-  "count": 1
- },
- {
-  "name": "move object",
-  "count": 1
- },
- {
-  "name": "allocation",
   "count": 2
+ },
+ {
+  "name": "earth",
+  "count": 1
+ },
+ {
+  "name": "nap",
+  "count": 1
  },
  {
   "name": "daa",
   "count": 1
+ },
+ {
+  "name": "allocation",
+  "count": 3
  },
  {
   "name": "fms",
@@ -6100,23 +9136,19 @@
   "count": 1
  },
  {
-  "name": "lambertian specular",
-  "count": 1
- },
- {
-  "name": "inertial",
-  "count": 1
- },
- {
-  "name": "inertial parameter",
-  "count": 1
- },
- {
   "name": "determination",
   "count": 2
  },
  {
-  "name": "kinematic",
+  "name": "shadow",
+  "count": 1
+ },
+ {
+  "name": "paths",
+  "count": 2
+ },
+ {
+  "name": "upper",
   "count": 1
  },
  {
@@ -6124,11 +9156,11 @@
   "count": 1
  },
  {
-  "name": "external",
+  "name": "sfmo",
   "count": 1
  },
  {
-  "name": "expedite",
+  "name": "orthotic",
   "count": 1
  },
  {
@@ -6136,19 +9168,47 @@
   "count": 1
  },
  {
+  "name": "expedite",
+  "count": 1
+ },
+ {
+  "name": "stock",
+  "count": 1
+ },
+ {
+  "name": "stockpile",
+  "count": 1
+ },
+ {
   "name": "setup",
   "count": 1
  },
  {
-  "name": "demand",
-  "count": 2
+  "name": "bfods",
+  "count": 1
  },
  {
-  "name": "accomplish",
+  "name": "combine",
+  "count": 1
+ },
+ {
+  "name": "ease",
+  "count": 1
+ },
+ {
+  "name": "multitude",
   "count": 1
  },
  {
   "name": "stiffness",
+  "count": 2
+ },
+ {
+  "name": "reaction",
+  "count": 1
+ },
+ {
+  "name": "insertion",
   "count": 1
  },
  {
@@ -6156,7 +9216,7 @@
   "count": 1
  },
  {
-  "name": "biped robot",
+  "name": "walk",
   "count": 1
  },
  {
@@ -6165,26 +9225,18 @@
  },
  {
   "name": "singularity",
-  "count": 2
+  "count": 4
  },
  {
-  "name": "actuation",
+  "name": "traditional",
   "count": 1
  },
  {
-  "name": "body",
+  "name": "indeterminacy",
   "count": 1
  },
  {
-  "name": "rigid",
-  "count": 1
- },
- {
-  "name": "robotic",
-  "count": 1
- },
- {
-  "name": "torque",
+  "name": "specified",
   "count": 1
  },
  {
@@ -6200,15 +9252,19 @@
   "count": 1
  },
  {
+  "name": "tendon",
+  "count": 1
+ },
+ {
+  "name": "pulley",
+  "count": 1
+ },
+ {
   "name": "quaternion",
   "count": 1
  },
  {
-  "name": "homogeneous",
-  "count": 1
- },
- {
-  "name": "link distance",
+  "name": "preprocessing",
   "count": 1
  },
  {
@@ -6220,7 +9276,15 @@
   "count": 1
  },
  {
+  "name": "exterior",
+  "count": 1
+ },
+ {
   "name": "across",
+  "count": 1
+ },
+ {
+  "name": "traversal",
   "count": 1
  },
  {
@@ -6228,7 +9292,11 @@
   "count": 1
  },
  {
-  "name": "production process",
+  "name": "heading",
+  "count": 1
+ },
+ {
+  "name": "setting",
   "count": 1
  },
  {
@@ -6236,28 +9304,16 @@
   "count": 1
  },
  {
-  "name": "part type",
-  "count": 1
- },
- {
-  "name": "concurrent",
-  "count": 1
- },
- {
   "name": "panel",
   "count": 1
  },
  {
-  "name": "batch",
+  "name": "sewing",
   "count": 1
  },
  {
-  "name": "characterize",
-  "count": 1
- },
- {
-  "name": "distinct",
-  "count": 1
+  "name": "basic",
+  "count": 2
  },
  {
   "name": "gspn",
@@ -6265,6 +9321,14 @@
  },
  {
   "name": "limitation",
+  "count": 1
+ },
+ {
+  "name": "gross",
+  "count": 1
+ },
+ {
+  "name": "fine",
   "count": 1
  },
  {
@@ -6276,7 +9340,11 @@
   "count": 1
  },
  {
-  "name": "real time",
+  "name": "formal",
+  "count": 1
+ },
+ {
+  "name": "instantiate",
   "count": 1
  },
  {
@@ -6285,6 +9353,14 @@
  },
  {
   "name": "planar",
+  "count": 2
+ },
+ {
+  "name": "reconstruct",
+  "count": 1
+ },
+ {
+  "name": "satisfy",
   "count": 1
  },
  {
@@ -6292,11 +9368,11 @@
   "count": 1
  },
  {
-  "name": "high level",
-  "count": 2
+  "name": "specialist",
+  "count": 1
  },
  {
-  "name": "feedback linearization",
+  "name": "runtime",
   "count": 1
  },
  {
@@ -6304,7 +9380,19 @@
   "count": 1
  },
  {
+  "name": "nonlinearities",
+  "count": 1
+ },
+ {
   "name": "job",
+  "count": 1
+ },
+ {
+  "name": "linkage",
+  "count": 1
+ },
+ {
+  "name": "egi",
   "count": 1
  },
  {
@@ -6312,7 +9400,7 @@
   "count": 1
  },
  {
-  "name": "double",
+  "name": "symmetrically",
   "count": 1
  },
  {
@@ -6320,19 +9408,11 @@
   "count": 1
  },
  {
-  "name": "yield",
-  "count": 2
- },
- {
-  "name": "robot task",
+  "name": "aggregate",
   "count": 1
  },
  {
-  "name": "interchange",
-  "count": 1
- },
- {
-  "name": "mechanism",
+  "name": "mating",
   "count": 1
  },
  {
@@ -6344,11 +9424,27 @@
   "count": 1
  },
  {
-  "name": "modify",
-  "count": 1
+  "name": "structural",
+  "count": 2
  },
  {
   "name": "conflict",
+  "count": 1
+ },
+ {
+  "name": "mathematic",
+  "count": 1
+ },
+ {
+  "name": "solely",
+  "count": 1
+ },
+ {
+  "name": "cast",
+  "count": 1
+ },
+ {
+  "name": "bin",
   "count": 1
  },
  {
@@ -6360,11 +9456,11 @@
   "count": 1
  },
  {
-  "name": "symbol",
+  "name": "raphson",
   "count": 1
  },
  {
-  "name": "newton",
+  "name": "respect",
   "count": 1
  },
  {
@@ -6376,15 +9472,27 @@
   "count": 2
  },
  {
-  "name": "effective",
-  "count": 1
- },
- {
-  "name": "bit reversal",
-  "count": 1
- },
- {
   "name": "reversal",
+  "count": 1
+ },
+ {
+  "name": "connection",
+  "count": 1
+ },
+ {
+  "name": "transposition",
+  "count": 1
+ },
+ {
+  "name": "row",
+  "count": 1
+ },
+ {
+  "name": "nowhere",
+  "count": 1
+ },
+ {
+  "name": "summable",
   "count": 1
  },
  {
@@ -6392,15 +9500,15 @@
   "count": 1
  },
  {
-  "name": "convolution",
-  "count": 2
- },
- {
-  "name": "data flow",
+  "name": "identically",
   "count": 1
  },
  {
-  "name": "resource",
+  "name": "bifrequency",
+  "count": 1
+ },
+ {
+  "name": "periodically",
   "count": 1
  },
  {
@@ -6408,15 +9516,43 @@
   "count": 1
  },
  {
+  "name": "stepsizes",
+  "count": 1
+ },
+ {
+  "name": "unitary",
+  "count": 1
+ },
+ {
   "name": "dst",
   "count": 1
  },
  {
-  "name": "time frequency",
+  "name": "advantage",
+  "count": 1
+ },
+ {
+  "name": "concentration",
+  "count": 1
+ },
+ {
+  "name": "hydroacoustic",
+  "count": 1
+ },
+ {
+  "name": "beamforming",
+  "count": 1
+ },
+ {
+  "name": "xwvd",
   "count": 1
  },
  {
   "name": "evans",
+  "count": 1
+ },
+ {
+  "name": "radix",
   "count": 1
  },
  {
@@ -6429,14 +9565,42 @@
  },
  {
   "name": "impulse",
+  "count": 3
+ },
+ {
+  "name": "successfully",
   "count": 1
  },
  {
-  "name": "amplitude",
+  "name": "disturbing",
+  "count": 1
+ },
+ {
+  "name": "otherwise",
   "count": 1
  },
  {
   "name": "cordic",
+  "count": 1
+ },
+ {
+  "name": "rotation",
+  "count": 2
+ },
+ {
+  "name": "practice",
+  "count": 1
+ },
+ {
+  "name": "tls",
+  "count": 2
+ },
+ {
+  "name": "lp",
+  "count": 2
+ },
+ {
+  "name": "prony",
   "count": 1
  },
  {
@@ -6448,19 +9612,11 @@
   "count": 4
  },
  {
-  "name": "cross entropy",
+  "name": "manifold",
   "count": 1
  },
  {
-  "name": "separable",
-  "count": 1
- },
- {
-  "name": "error vector",
-  "count": 1
- },
- {
-  "name": "identification procedure",
+  "name": "called",
   "count": 1
  },
  {
@@ -6468,15 +9624,35 @@
   "count": 1
  },
  {
-  "name": "ar",
-  "count": 4
+  "name": "update",
+  "count": 2
  },
  {
-  "name": "cumulant",
+  "name": "els",
   "count": 1
  },
  {
+  "name": "slice",
+  "count": 1
+ },
+ {
+  "name": "cumulant",
+  "count": 2
+ },
+ {
   "name": "smoothing",
+  "count": 1
+ },
+ {
+  "name": "searma",
+  "count": 1
+ },
+ {
+  "name": "sounds",
+  "count": 1
+ },
+ {
+  "name": "interframe",
   "count": 1
  },
  {
@@ -6484,23 +9660,27 @@
   "count": 1
  },
  {
-  "name": "ar model",
+  "name": "reflect",
+  "count": 1
+ },
+ {
+  "name": "accurately",
   "count": 1
  },
  {
   "name": "snr",
-  "count": 2
+  "count": 3
  },
  {
-  "name": "autoregressive",
-  "count": 3
+  "name": "cfar",
+  "count": 1
  },
  {
   "name": "crb",
   "count": 1
  },
  {
-  "name": "predictor",
+  "name": "rapidly",
   "count": 1
  },
  {
@@ -6512,7 +9692,7 @@
   "count": 1
  },
  {
-  "name": "multiplication",
+  "name": "last",
   "count": 1
  },
  {
@@ -6520,12 +9700,36 @@
   "count": 1
  },
  {
+  "name": "pft",
+  "count": 1
+ },
+ {
+  "name": "megahertz",
+  "count": 1
+ },
+ {
+  "name": "overflow",
+  "count": 1
+ },
+ {
   "name": "bic",
   "count": 1
  },
  {
-  "name": "waveform",
-  "count": 2
+  "name": "hopfield",
+  "count": 1
+ },
+ {
+  "name": "soc",
+  "count": 1
+ },
+ {
+  "name": "sine",
+  "count": 1
+ },
+ {
+  "name": "talker",
+  "count": 1
  },
  {
   "name": "lcc",
@@ -6536,31 +9740,31 @@
   "count": 1
  },
  {
-  "name": "cramer rao",
-  "count": 1
- },
- {
-  "name": "length",
+  "name": "rao",
   "count": 2
  },
  {
-  "name": "code length",
+  "name": "length",
   "count": 1
  },
  {
-  "name": "autoregressive spectral",
-  "count": 1
+  "name": "huffman",
+  "count": 2
+ },
+ {
+  "name": "encoding",
+  "count": 2
  },
  {
   "name": "burg",
+  "count": 2
+ },
+ {
+  "name": "unbiased",
   "count": 1
  },
  {
-  "name": "subspace",
-  "count": 1
- },
- {
-  "name": "achievable",
+  "name": "constrain",
   "count": 1
  },
  {
@@ -6568,7 +9772,19 @@
   "count": 1
  },
  {
-  "name": "adaptive pole",
+  "name": "sphinx",
+  "count": 1
+ },
+ {
+  "name": "997",
+  "count": 1
+ },
+ {
+  "name": "equivalence",
+  "count": 1
+ },
+ {
+  "name": "converge",
   "count": 1
  },
  {
@@ -6580,27 +9796,47 @@
   "count": 1
  },
  {
-  "name": "lms algorithm",
+  "name": "impact",
   "count": 1
  },
  {
-  "name": "analysis synthesis",
-  "count": 1
- },
- {
-  "name": "analytic signal",
-  "count": 1
- },
- {
-  "name": "bank",
-  "count": 3
- },
- {
-  "name": "filter bank",
+  "name": "analytic",
   "count": 2
  },
  {
-  "name": "application specific",
+  "name": "distort",
+  "count": 1
+ },
+ {
+  "name": "bradley",
+  "count": 1
+ },
+ {
+  "name": "princen",
+  "count": 1
+ },
+ {
+  "name": "multiplexed",
+  "count": 1
+ },
+ {
+  "name": "flowgraph",
+  "count": 1
+ },
+ {
+  "name": "nongaussian",
+  "count": 2
+ },
+ {
+  "name": "statistic",
+  "count": 3
+ },
+ {
+  "name": "efficient",
+  "count": 2
+ },
+ {
+  "name": "confront",
   "count": 1
  },
  {
@@ -6612,7 +9848,11 @@
   "count": 1
  },
  {
-  "name": "asymptotic normality",
+  "name": "normality",
+  "count": 1
+ },
+ {
+  "name": "wavenumber",
   "count": 1
  },
  {
@@ -6620,7 +9860,7 @@
   "count": 1
  },
  {
-  "name": "background",
+  "name": "extraneous",
   "count": 1
  },
  {
@@ -6628,11 +9868,23 @@
   "count": 1
  },
  {
-  "name": "bispectrum",
-  "count": 3
+  "name": "adjust",
+  "count": 1
  },
  {
-  "name": "passband",
+  "name": "bispectral",
+  "count": 1
+ },
+ {
+  "name": "bispectrum",
+  "count": 4
+ },
+ {
+  "name": "recover",
+  "count": 1
+ },
+ {
+  "name": "inherently",
   "count": 1
  },
  {
@@ -6644,7 +9896,7 @@
   "count": 1
  },
  {
-  "name": "code word",
+  "name": "hopped",
   "count": 1
  },
  {
@@ -6653,30 +9905,38 @@
  },
  {
   "name": "esprit",
-  "count": 1
+  "count": 2
+ },
+ {
+  "name": "wideband",
+  "count": 3
  },
  {
   "name": "nonnegative",
   "count": 1
  },
  {
-  "name": "definite",
-  "count": 2
- },
- {
   "name": "nar",
   "count": 2
  },
  {
-  "name": "transforms",
+  "name": "definite",
+  "count": 2
+ },
+ {
+  "name": "yip",
   "count": 1
  },
  {
-  "name": "odd",
+  "name": "mar",
   "count": 1
  },
  {
-  "name": "rao",
+  "name": "old",
+  "count": 1
+ },
+ {
+  "name": "hq",
   "count": 1
  },
  {
@@ -6685,6 +9945,14 @@
  },
  {
   "name": "systolic",
+  "count": 4
+ },
+ {
+  "name": "wrt",
+  "count": 1
+ },
+ {
+  "name": "multidimensional",
   "count": 2
  },
  {
@@ -6692,19 +9960,35 @@
   "count": 1
  },
  {
-  "name": "stack filter",
-  "count": 4
- },
- {
-  "name": "dct",
-  "count": 3
- },
- {
-  "name": "back",
+  "name": "triphones",
   "count": 1
  },
  {
-  "name": "mmf",
+  "name": "phone",
+  "count": 2
+ },
+ {
+  "name": "widrow",
+  "count": 1
+ },
+ {
+  "name": "dct",
+  "count": 2
+ },
+ {
+  "name": "prime",
+  "count": 1
+ },
+ {
+  "name": "generates",
+  "count": 1
+ },
+ {
+  "name": "compiler",
+  "count": 2
+ },
+ {
+  "name": "immunity",
   "count": 1
  },
  {
@@ -6712,7 +9996,15 @@
   "count": 1
  },
  {
-  "name": "coder",
+  "name": "instrumentation",
+  "count": 1
+ },
+ {
+  "name": "format",
+  "count": 1
+ },
+ {
+  "name": "port",
   "count": 1
  },
  {
@@ -6720,15 +10012,7 @@
   "count": 2
  },
  {
-  "name": "digital signal",
-  "count": 1
- },
- {
-  "name": "log",
-  "count": 2
- },
- {
-  "name": "log magnitude",
+  "name": "instruction",
   "count": 1
  },
  {
@@ -6736,35 +10020,79 @@
   "count": 1
  },
  {
-  "name": "false",
+  "name": "wls",
+  "count": 2
+ },
+ {
+  "name": "ellacott",
   "count": 1
  },
  {
-  "name": "non",
+  "name": "williams",
   "count": 1
  },
  {
-  "name": "non gaussian",
+  "name": "best",
   "count": 1
  },
  {
-  "name": "product",
+  "name": "tau",
   "count": 1
  },
  {
-  "name": "address generation",
+  "name": "triangle",
   "count": 1
  },
  {
-  "name": "autoregressive model",
+  "name": "validate",
   "count": 1
  },
  {
-  "name": "band limited",
+  "name": "classical",
   "count": 1
  },
  {
-  "name": "update",
+  "name": "pipelineability",
+  "count": 1
+ },
+ {
+  "name": "arx",
+  "count": 1
+ },
+ {
+  "name": "address",
+  "count": 2
+ },
+ {
+  "name": "generation",
+  "count": 1
+ },
+ {
+  "name": "in",
+  "count": 1
+ },
+ {
+  "name": "reversible",
+  "count": 2
+ },
+ {
+  "name": "nonwhite",
+  "count": 1
+ },
+ {
+  "name": "splitting",
+  "count": 1
+ },
+ {
+  "name": "satisfactory",
+  "count": 1
+ },
+ {
+  "name": "limited",
+  "count": 1
+ },
+ {
+  "name": "zooming",
   "count": 1
  },
  {
@@ -6772,7 +10100,15 @@
   "count": 1
  },
  {
-  "name": "exponential",
+  "name": "buildup",
+  "count": 1
+ },
+ {
+  "name": "hde",
+  "count": 1
+ },
+ {
+  "name": "unaffected",
   "count": 1
  },
  {
@@ -6780,7 +10116,11 @@
   "count": 1
  },
  {
-  "name": "low rank",
+  "name": "eigenspectra",
+  "count": 1
+ },
+ {
+  "name": "reveal",
   "count": 1
  },
  {
@@ -6789,6 +10129,18 @@
  },
  {
   "name": "bandlimited",
+  "count": 2
+ },
+ {
+  "name": "semidefinite",
+  "count": 1
+ },
+ {
+  "name": "contraints",
+  "count": 1
+ },
+ {
+  "name": "mfnt",
   "count": 1
  },
  {
@@ -6796,43 +10148,39 @@
   "count": 1
  },
  {
-  "name": "build",
+  "name": "convolution",
+  "count": 2
+ },
+ {
+  "name": "multiplies",
   "count": 1
  },
  {
-  "name": "delta",
-  "count": 1
- },
- {
-  "name": "delta modulation",
-  "count": 1
+  "name": "sigma",
+  "count": 2
  },
  {
   "name": "fmh",
   "count": 1
  },
  {
-  "name": "fir",
+  "name": "grow",
   "count": 1
  },
  {
-  "name": "fir median",
-  "count": 1
- },
- {
-  "name": "fmh filter",
-  "count": 1
- },
- {
-  "name": "time varying",
-  "count": 1
- },
- {
-  "name": "varying",
+  "name": "ipg",
   "count": 1
  },
  {
   "name": "llp",
+  "count": 1
+ },
+ {
+  "name": "qpp",
+  "count": 1
+ },
+ {
+  "name": "ub",
   "count": 1
  },
  {
@@ -6844,7 +10192,19 @@
   "count": 1
  },
  {
+  "name": "hilbert",
+  "count": 1
+ },
+ {
+  "name": "reassignment",
+  "count": 1
+ },
+ {
   "name": "codebooks",
+  "count": 1
+ },
+ {
+  "name": "codebook",
   "count": 1
  },
  {
@@ -6852,11 +10212,7 @@
   "count": 1
  },
  {
-  "name": "schur algorithm",
-  "count": 1
- },
- {
-  "name": "adaptive lattice",
+  "name": "lattice",
   "count": 1
  },
  {
@@ -6864,15 +10220,47 @@
   "count": 1
  },
  {
+  "name": "preliminary",
+  "count": 1
+ },
+ {
   "name": "filters",
   "count": 1
  },
  {
-  "name": "gaussian process",
+  "name": "ll",
   "count": 1
  },
  {
-  "name": "hmm",
+  "name": "whittle",
+  "count": 1
+ },
+ {
+  "name": "1953",
+  "count": 1
+ },
+ {
+  "name": "occupancy",
+  "count": 1
+ },
+ {
+  "name": "gate",
+  "count": 1
+ },
+ {
+  "name": "translation",
+  "count": 1
+ },
+ {
+  "name": "rsnr",
+  "count": 1
+ },
+ {
+  "name": "provided",
+  "count": 1
+ },
+ {
+  "name": "pitman",
   "count": 1
  },
  {
@@ -6880,23 +10268,43 @@
   "count": 2
  },
  {
+  "name": "bright",
+  "count": 1
+ },
+ {
+  "name": "privileged",
+  "count": 1
+ },
+ {
+  "name": "active",
+  "count": 1
+ },
+ {
+  "name": "notch",
+  "count": 1
+ },
+ {
+  "name": "ftf",
+  "count": 1
+ },
+ {
   "name": "acoustical",
   "count": 1
  },
  {
-  "name": "huffman",
+  "name": "omnidirectional",
   "count": 1
  },
  {
   "name": "blur",
+  "count": 2
+ },
+ {
+  "name": "identifies",
   "count": 1
  },
  {
-  "name": "wls",
-  "count": 1
- },
- {
-  "name": "density function",
+  "name": "restores",
   "count": 1
  },
  {
@@ -6904,31 +10312,35 @@
   "count": 1
  },
  {
-  "name": "limit",
+  "name": "lot",
+  "count": 2
+ },
+ {
+  "name": "lap",
   "count": 1
  },
  {
   "name": "roundoff",
-  "count": 2
+  "count": 3
  },
  {
-  "name": "digital filter",
+  "name": "cycles",
+  "count": 1
+ },
+ {
+  "name": "couple",
+  "count": 1
+ },
+ {
+  "name": "piecewise",
   "count": 1
  },
  {
   "name": "pencil",
-  "count": 1
+  "count": 2
  },
  {
   "name": "flatness",
-  "count": 1
- },
- {
-  "name": "spectral",
-  "count": 3
- },
- {
-  "name": "ml",
   "count": 1
  },
  {
@@ -6936,27 +10348,47 @@
   "count": 1
  },
  {
+  "name": "principle",
+  "count": 2
+ },
+ {
   "name": "deterministic",
   "count": 1
  },
  {
   "name": "mse",
-  "count": 1
+  "count": 2
  },
  {
   "name": "lossless",
   "count": 1
  },
  {
-  "name": "lossless system",
+  "name": "multioutput",
   "count": 1
  },
  {
-  "name": "root",
-  "count": 2
+  "name": "mae",
+  "count": 1
  },
  {
   "name": "mdf",
+  "count": 1
+ },
+ {
+  "name": "wavefields",
+  "count": 1
+ },
+ {
+  "name": "pipeline",
+  "count": 1
+ },
+ {
+  "name": "recirculated",
+  "count": 1
+ },
+ {
+  "name": "shuffle",
   "count": 1
  },
  {
@@ -6968,15 +10400,11 @@
   "count": 1
  },
  {
-  "name": "autocorrelation",
-  "count": 2
- },
- {
-  "name": "hoyw",
+  "name": "structurally",
   "count": 1
  },
  {
-  "name": "pes",
+  "name": "hoyw",
   "count": 1
  },
  {
@@ -6988,19 +10416,39 @@
   "count": 1
  },
  {
-  "name": "omega sub",
+  "name": "polyphase",
+  "count": 2
+ },
+ {
+  "name": "subband",
   "count": 1
  },
  {
-  "name": "alone",
+  "name": "envelope",
   "count": 1
  },
  {
-  "name": "sigma",
+  "name": "uc",
   "count": 1
  },
  {
-  "name": "recursive",
+  "name": "demodulation",
+  "count": 1
+ },
+ {
+  "name": "incorporation",
+  "count": 1
+ },
+ {
+  "name": "snrseg",
+  "count": 1
+ },
+ {
+  "name": "subjectively",
+  "count": 1
+ },
+ {
+  "name": "granular",
   "count": 1
  },
  {
@@ -7008,7 +10456,19 @@
   "count": 1
  },
  {
-  "name": "aic",
+  "name": "famous",
+  "count": 1
+ },
+ {
+  "name": "analogy",
+  "count": 1
+ },
+ {
+  "name": "clear",
+  "count": 1
+ },
+ {
+  "name": "sign",
   "count": 1
  },
  {
@@ -7016,11 +10476,15 @@
   "count": 1
  },
  {
+  "name": "aic",
+  "count": 1
+ },
+ {
   "name": "mfir",
   "count": 1
  },
  {
-  "name": "mfir filter",
+  "name": "anticipation",
   "count": 1
  },
  {
@@ -7028,7 +10492,7 @@
   "count": 1
  },
  {
-  "name": "circle",
+  "name": "tscm",
   "count": 1
  },
  {
@@ -7036,11 +10500,15 @@
   "count": 1
  },
  {
-  "name": "entropy spectral",
+  "name": "circle",
   "count": 1
  },
  {
-  "name": "always",
+  "name": "consecutive",
+  "count": 1
+ },
+ {
+  "name": "preserve",
   "count": 1
  },
  {
@@ -7048,7 +10516,11 @@
   "count": 1
  },
  {
-  "name": "linear model",
+  "name": "always",
+  "count": 1
+ },
+ {
+  "name": "almost",
   "count": 1
  },
  {
@@ -7056,23 +10528,11 @@
   "count": 1
  },
  {
-  "name": "nested",
+  "name": "eigendecompositions",
   "count": 1
  },
  {
-  "name": "lp",
-  "count": 1
- },
- {
-  "name": "tls",
-  "count": 1
- },
- {
-  "name": "lp method",
-  "count": 1
- },
- {
-  "name": "nonlinearity",
+  "name": "fortran",
   "count": 1
  },
  {
@@ -7080,7 +10540,7 @@
   "count": 1
  },
  {
-  "name": "optimal design",
+  "name": "nonlinearity",
   "count": 1
  },
  {
@@ -7088,7 +10548,75 @@
   "count": 1
  },
  {
+  "name": "tail",
+  "count": 1
+ },
+ {
+  "name": "nonquadratic",
+  "count": 1
+ },
+ {
+  "name": "samples",
+  "count": 1
+ },
+ {
+  "name": "quiescent",
+  "count": 1
+ },
+ {
+  "name": "freedom",
+  "count": 1
+ },
+ {
+  "name": "eaae",
+  "count": 1
+ },
+ {
+  "name": "mu",
+  "count": 2
+ },
+ {
   "name": "os",
+  "count": 1
+ },
+ {
+  "name": "trigonometric",
+  "count": 1
+ },
+ {
+  "name": "substitute",
+  "count": 1
+ },
+ {
+  "name": "spheroidal",
+  "count": 1
+ },
+ {
+  "name": "tabulated",
+  "count": 1
+ },
+ {
+  "name": "to",
+  "count": 1
+ },
+ {
+  "name": "exponent",
+  "count": 1
+ },
+ {
+  "name": "extendable",
+  "count": 1
+ },
+ {
+  "name": "parseval",
+  "count": 1
+ },
+ {
+  "name": "considered",
+  "count": 1
+ },
+ {
+  "name": "honoki",
   "count": 1
  },
  {
@@ -7096,19 +10624,15 @@
   "count": 1
  },
  {
+  "name": "kimura",
+  "count": 1
+ },
+ {
+  "name": "final",
+  "count": 1
+ },
+ {
   "name": "cyclic",
-  "count": 1
- },
- {
-  "name": "conditional",
-  "count": 1
- },
- {
-  "name": "doa",
-  "count": 1
- },
- {
-  "name": "doa estimation",
   "count": 1
  },
  {
@@ -7116,7 +10640,19 @@
   "count": 1
  },
  {
-  "name": "phase error",
+  "name": "doa",
+  "count": 2
+ },
+ {
+  "name": "impinge",
+  "count": 1
+ },
+ {
+  "name": "sideband",
+  "count": 1
+ },
+ {
+  "name": "correction",
   "count": 1
  },
  {
@@ -7124,11 +10660,19 @@
   "count": 3
  },
  {
-  "name": "derived",
+  "name": "reproduce",
   "count": 1
  },
  {
-  "name": "encoding",
+  "name": "uniformly",
+  "count": 1
+ },
+ {
+  "name": "tcq",
+  "count": 1
+ },
+ {
+  "name": "residual",
   "count": 1
  },
  {
@@ -7136,11 +10680,7 @@
   "count": 1
  },
  {
-  "name": "prediction",
-  "count": 4
- },
- {
-  "name": "residual",
+  "name": "ptcq",
   "count": 1
  },
  {
@@ -7148,15 +10688,75 @@
   "count": 2
  },
  {
-  "name": "algorithm use",
+  "name": "arrangement",
   "count": 1
+ },
+ {
+  "name": "vandermode",
+  "count": 1
+ },
+ {
+  "name": "confluent",
+  "count": 1
+ },
+ {
+  "name": "repeated",
+  "count": 1
+ },
+ {
+  "name": "givens",
+  "count": 1
+ },
+ {
+  "name": "qr",
+  "count": 2
  },
  {
   "name": "quantization",
   "count": 1
  },
  {
-  "name": "complex data",
+  "name": "mutually",
+  "count": 1
+ },
+ {
+  "name": "divergence",
+  "count": 1
+ },
+ {
+  "name": "blank",
+  "count": 1
+ },
+ {
+  "name": "realm",
+  "count": 1
+ },
+ {
+  "name": "rmle",
+  "count": 1
+ },
+ {
+  "name": "extend",
+  "count": 1
+ },
+ {
+  "name": "undersamples",
+  "count": 1
+ },
+ {
+  "name": "undersampled",
+  "count": 1
+ },
+ {
+  "name": "rrls",
+  "count": 1
+ },
+ {
+  "name": "ef",
+  "count": 1
+ },
+ {
+  "name": "truncated",
   "count": 1
  },
  {
@@ -7164,7 +10764,19 @@
   "count": 1
  },
  {
-  "name": "finite state",
+  "name": "rops",
+  "count": 1
+ },
+ {
+  "name": "damped",
+  "count": 1
+ },
+ {
+  "name": "undamped",
+  "count": 1
+ },
+ {
+  "name": "minor",
   "count": 1
  },
  {
@@ -7172,27 +10784,71 @@
   "count": 1
  },
  {
+  "name": "exploitation",
+  "count": 1
+ },
+ {
+  "name": "conspicuous",
+  "count": 1
+ },
+ {
+  "name": "beamspace",
+  "count": 1
+ },
+ {
+  "name": "preprocessor",
+  "count": 1
+ },
+ {
   "name": "corresponding",
   "count": 1
  },
  {
-  "name": "difference",
-  "count": 2
+  "name": "subarray",
+  "count": 1
+ },
+ {
+  "name": "outlier",
+  "count": 1
+ },
+ {
+  "name": "cause",
+  "count": 1
+ },
+ {
+  "name": "doubly",
+  "count": 1
+ },
+ {
+  "name": "pdf",
+  "count": 1
+ },
+ {
+  "name": "far",
+  "count": 1
  },
  {
   "name": "seismic",
   "count": 1
  },
  {
-  "name": "algorithm present",
+  "name": "reflectivity",
   "count": 1
  },
  {
-  "name": "hardware",
+  "name": "promise",
   "count": 1
  },
  {
-  "name": "linear prediction",
+  "name": "incomplete",
+  "count": 1
+ },
+ {
+  "name": "kullback",
+  "count": 1
+ },
+ {
+  "name": "leibler",
   "count": 1
  },
  {
@@ -7200,19 +10856,31 @@
   "count": 1
  },
  {
-  "name": "estimation problem",
+  "name": "prediction",
+  "count": 3
+ },
+ {
+  "name": "tomography",
   "count": 1
  },
  {
-  "name": "acceptable",
+  "name": "positron",
   "count": 1
  },
  {
-  "name": "spatial spectrum",
+  "name": "insufficient",
   "count": 1
  },
  {
-  "name": "autocorrelation matrix",
+  "name": "multimodality",
+  "count": 1
+ },
+ {
+  "name": "closest",
+  "count": 1
+ },
+ {
+  "name": "quasi",
   "count": 1
  },
  {
@@ -7220,31 +10888,31 @@
   "count": 1
  },
  {
-  "name": "stationary",
-  "count": 2
+  "name": "modulus",
+  "count": 1
  },
  {
-  "name": "stationary point",
+  "name": "generally",
   "count": 1
  },
  {
   "name": "posterior",
-  "count": 1
+  "count": 2
  },
  {
   "name": "hypercube",
   "count": 1
  },
  {
+  "name": "relational",
+  "count": 1
+ },
+ {
   "name": "perfect",
-  "count": 1
+  "count": 2
  },
  {
-  "name": "perfect reconstruction",
-  "count": 1
- },
- {
-  "name": "higher order",
+  "name": "hos",
   "count": 1
  },
  {
@@ -7252,15 +10920,19 @@
   "count": 1
  },
  {
-  "name": "balanced realization",
+  "name": "overall",
+  "count": 1
+ },
+ {
+  "name": "accurate",
   "count": 1
  },
  {
   "name": "hermite",
-  "count": 1
+  "count": 2
  },
  {
-  "name": "visual",
+  "name": "agreement",
   "count": 1
  },
  {
@@ -7268,7 +10940,31 @@
   "count": 1
  },
  {
+  "name": "bicepstrum",
+  "count": 1
+ },
+ {
+  "name": "subaperture",
+  "count": 1
+ },
+ {
   "name": "coherence",
+  "count": 2
+ },
+ {
+  "name": "remain",
+  "count": 1
+ },
+ {
+  "name": "rotors",
+  "count": 1
+ },
+ {
+  "name": "cisors",
+  "count": 1
+ },
+ {
+  "name": "rls",
   "count": 1
  },
  {
@@ -7276,7 +10972,31 @@
   "count": 1
  },
  {
-  "name": "algorithm compute",
+  "name": "mismatch",
+  "count": 1
+ },
+ {
+  "name": "score",
+  "count": 1
+ },
+ {
+  "name": "tdaf",
+  "count": 1
+ },
+ {
+  "name": "wpc",
+  "count": 1
+ },
+ {
+  "name": "reestimation",
+  "count": 1
+ },
+ {
+  "name": "hitherto",
+  "count": 1
+ },
+ {
+  "name": "confound",
   "count": 1
  },
  {
@@ -7284,11 +11004,23 @@
   "count": 1
  },
  {
-  "name": "bit level",
+  "name": "gtfrs",
   "count": 1
  },
  {
-  "name": "frequency distribution",
+  "name": "assign",
+  "count": 1
+ },
+ {
+  "name": "multivariate",
+  "count": 1
+ },
+ {
+  "name": "wide",
+  "count": 3
+ },
+ {
+  "name": "1966",
   "count": 1
  },
  {
@@ -7296,15 +11028,19 @@
   "count": 1
  },
  {
+  "name": "pwd",
+  "count": 1
+ },
+ {
+  "name": "periodogram",
+  "count": 1
+ },
+ {
   "name": "modified",
   "count": 1
  },
  {
-  "name": "mu",
-  "count": 1
- },
- {
-  "name": "white",
+  "name": "monotically",
   "count": 1
  },
  {
@@ -7312,7 +11048,43 @@
   "count": 1
  },
  {
-  "name": "positive definite",
+  "name": "difference",
+  "count": 1
+ },
+ {
+  "name": "sphericity",
+  "count": 1
+ },
+ {
+  "name": "closely",
+  "count": 1
+ },
+ {
+  "name": "originally",
+  "count": 1
+ },
+ {
+  "name": "analyzed",
+  "count": 1
+ },
+ {
+  "name": "seidel",
+  "count": 1
+ },
+ {
+  "name": "multigrid",
+  "count": 1
+ },
+ {
+  "name": "overrelaxation",
+  "count": 1
+ },
+ {
+  "name": "standardize",
+  "count": 1
+ },
+ {
+  "name": "micrographs",
   "count": 1
  },
  {
@@ -7320,15 +11092,19 @@
   "count": 1
  },
  {
-  "name": "ambiguity function",
+  "name": "theoretic",
   "count": 1
  },
  {
-  "name": "temperature",
+  "name": "forecasting",
   "count": 1
  },
  {
-  "name": "magnetic field",
+  "name": "magnetic",
+  "count": 5
+ },
+ {
+  "name": "nuclear",
   "count": 1
  },
  {
@@ -7340,15 +11116,11 @@
   "count": 1
  },
  {
-  "name": "recorder",
-  "count": 1
- },
- {
   "name": "tape",
   "count": 1
  },
  {
-  "name": "head",
+  "name": "recorder",
   "count": 1
  },
  {
@@ -7356,7 +11128,11 @@
   "count": 1
  },
  {
-  "name": "consumer",
+  "name": "head",
+  "count": 1
+ },
+ {
+  "name": "vtrs",
   "count": 1
  },
  {
@@ -7364,7 +11140,15 @@
   "count": 1
  },
  {
+  "name": "like",
+  "count": 2
+ },
+ {
   "name": "bipolar",
+  "count": 1
+ },
+ {
+  "name": "ecl",
   "count": 1
  },
  {
@@ -7376,8 +11160,8 @@
   "count": 1
  },
  {
-  "name": "antenna",
-  "count": 2
+  "name": "feed",
+  "count": 1
  },
  {
   "name": "special",
@@ -7388,15 +11172,19 @@
   "count": 1
  },
  {
-  "name": "satellite",
-  "count": 6
+  "name": "aircraft",
+  "count": 1
  },
  {
-  "name": "synthesis",
-  "count": 3
+  "name": "volterra",
+  "count": 1
  },
  {
   "name": "cmac",
+  "count": 1
+ },
+ {
+  "name": "ulsi",
   "count": 1
  },
  {
@@ -7408,15 +11196,11 @@
   "count": 1
  },
  {
-  "name": "manufacturing",
-  "count": 2
- },
- {
-  "name": "advanced",
+  "name": "blending",
   "count": 1
  },
  {
-  "name": "neuron",
+  "name": "off",
   "count": 1
  },
  {
@@ -7424,16 +11208,28 @@
   "count": 2
  },
  {
-  "name": "star",
+  "name": "manufacturability",
   "count": 1
  },
  {
-  "name": "design system",
+  "name": "sigmoidal",
   "count": 1
  },
  {
-  "name": "integrated",
+  "name": "cybenko",
   "count": 1
+ },
+ {
+  "name": "guide",
+  "count": 1
+ },
+ {
+  "name": "telescope",
+  "count": 1
+ },
+ {
+  "name": "imaging",
+  "count": 2
  },
  {
   "name": "reservoir",
@@ -7444,11 +11240,19 @@
   "count": 1
  },
  {
-  "name": "sub sup",
+  "name": "oil",
   "count": 1
  },
  {
-  "name": "interaction",
+  "name": "eor",
+  "count": 1
+ },
+ {
+  "name": "dms",
+  "count": 1
+ },
+ {
+  "name": "pdes",
   "count": 1
  },
  {
@@ -7456,19 +11260,23 @@
   "count": 1
  },
  {
-  "name": "cad system",
+  "name": "facility",
   "count": 1
  },
  {
-  "name": "packet switch",
+  "name": "companion",
   "count": 1
  },
  {
-  "name": "88",
+  "name": "shared",
   "count": 1
  },
  {
   "name": "orb",
+  "count": 1
+ },
+ {
+  "name": "88",
   "count": 1
  },
  {
@@ -7484,11 +11292,19 @@
   "count": 1
  },
  {
+  "name": "seven",
+  "count": 1
+ },
+ {
   "name": "subnetworks",
   "count": 1
  },
  {
-  "name": "access network",
+  "name": "subwords",
+  "count": 1
+ },
+ {
+  "name": "permissible",
   "count": 1
  },
  {
@@ -7496,11 +11312,19 @@
   "count": 2
  },
  {
-  "name": "connect network",
+  "name": "overview",
   "count": 1
  },
  {
-  "name": "overview",
+  "name": "ionospheric",
+  "count": 1
+ },
+ {
+  "name": "propagation",
+  "count": 2
+ },
+ {
+  "name": "regime",
   "count": 1
  },
  {
@@ -7512,6 +11336,22 @@
   "count": 1
  },
  {
+  "name": "private",
+  "count": 1
+ },
+ {
+  "name": "mss",
+  "count": 1
+ },
+ {
+  "name": "consultative",
+  "count": 1
+ },
+ {
+  "name": "committee",
+  "count": 1
+ },
+ {
   "name": "associative",
   "count": 1
  },
@@ -7520,7 +11360,11 @@
   "count": 1
  },
  {
-  "name": "posteriori",
+  "name": "bayesian",
+  "count": 1
+ },
+ {
+  "name": "switched",
   "count": 1
  },
  {
@@ -7536,11 +11380,35 @@
   "count": 1
  },
  {
-  "name": "multidimensional",
+  "name": "convolutional",
   "count": 1
  },
  {
-  "name": "logic synthesis",
+  "name": "atdrs",
+  "count": 1
+ },
+ {
+  "name": "morphology",
+  "count": 1
+ },
+ {
+  "name": "topical",
+  "count": 1
+ },
+ {
+  "name": "pursue",
+  "count": 1
+ },
+ {
+  "name": "qmf",
+  "count": 1
+ },
+ {
+  "name": "atdrss",
+  "count": 1
+ },
+ {
+  "name": "complete",
   "count": 1
  },
  {
@@ -7556,11 +11424,7 @@
   "count": 1
  },
  {
-  "name": "extension",
-  "count": 1
- },
- {
-  "name": "sub max",
+  "name": "vowel",
   "count": 1
  },
  {
@@ -7568,7 +11432,15 @@
   "count": 1
  },
  {
-  "name": "decision region",
+  "name": "positivity",
+  "count": 1
+ },
+ {
+  "name": "serial",
+  "count": 1
+ },
+ {
+  "name": "perceptrons",
   "count": 1
  },
  {
@@ -7580,15 +11452,15 @@
   "count": 1
  },
  {
+  "name": "sed",
+  "count": 1
+ },
+ {
   "name": "iso",
   "count": 1
  },
  {
   "name": "appropriate",
-  "count": 1
- },
- {
-  "name": "coherent optical",
   "count": 1
  },
  {
@@ -7600,11 +11472,11 @@
   "count": 1
  },
  {
-  "name": "propagation",
+  "name": "attractor",
   "count": 1
  },
  {
-  "name": "global",
+  "name": "rdss",
   "count": 1
  },
  {
@@ -7612,7 +11484,15 @@
   "count": 1
  },
  {
-  "name": "layout",
+  "name": "compaction",
+  "count": 1
+ },
+ {
+  "name": "nyquist",
+  "count": 1
+ },
+ {
+  "name": "crossing",
   "count": 1
  },
  {
@@ -7620,15 +11500,43 @@
   "count": 1
  },
  {
+  "name": "runlength",
+  "count": 1
+ },
+ {
+  "name": "comprehensive",
+  "count": 1
+ },
+ {
+  "name": "term",
+  "count": 1
+ },
+ {
+  "name": "place",
+  "count": 1
+ },
+ {
   "name": "dbs",
   "count": 1
  },
  {
-  "name": "core",
+  "name": "political",
   "count": 1
  },
  {
-  "name": "core loss",
+  "name": "technical",
+  "count": 1
+ },
+ {
+  "name": "consideration",
+  "count": 1
+ },
+ {
+  "name": "nnms",
+  "count": 1
+ },
+ {
+  "name": "tpbvds",
   "count": 1
  },
  {
@@ -7636,7 +11544,7 @@
   "count": 1
  },
  {
-  "name": "antenna array",
+  "name": "pumping",
   "count": 1
  },
  {
@@ -7644,7 +11552,11 @@
   "count": 1
  },
  {
-  "name": "wave",
+  "name": "suhl",
+  "count": 1
+ },
+ {
+  "name": "resonance",
   "count": 1
  },
  {
@@ -7652,15 +11564,23 @@
   "count": 1
  },
  {
+  "name": "cam",
+  "count": 1
+ },
+ {
   "name": "aided",
   "count": 1
  },
  {
-  "name": "iii",
+  "name": "darwin",
   "count": 1
  },
  {
   "name": "neuronal",
+  "count": 1
+ },
+ {
+  "name": "iii",
   "count": 1
  },
  {
@@ -7676,23 +11596,59 @@
   "count": 1
  },
  {
+  "name": "proceedings",
+  "count": 1
+ },
+ {
+  "name": "war",
+  "count": 1
+ },
+ {
+  "name": "subtasks",
+  "count": 1
+ },
+ {
+  "name": "register",
+  "count": 1
+ },
+ {
+  "name": "follow",
+  "count": 1
+ },
+ {
+  "name": "semantic",
+  "count": 1
+ },
+ {
   "name": "organizing",
   "count": 1
  },
  {
-  "name": "organizing map",
+  "name": "organized",
   "count": 1
  },
  {
-  "name": "imaging",
+  "name": "well",
   "count": 1
  },
  {
-  "name": "account",
+  "name": "symbiotic",
   "count": 1
  },
  {
-  "name": "account give",
+  "name": "magnetism",
+  "count": 1
+ },
+ {
+  "name": "phenomena",
+  "count": 1
+ },
+ {
+  "name": "rudin",
+  "count": 1
+ },
+ {
+  "name": "polydisc",
   "count": 1
  },
  {
@@ -7700,19 +11656,19 @@
   "count": 1
  },
  {
-  "name": "vsat",
+  "name": "wavefront",
   "count": 1
  },
  {
-  "name": "vector median",
+  "name": "vsat",
+  "count": 2
+ },
+ {
+  "name": "trends",
   "count": 1
  },
  {
   "name": "appear",
-  "count": 1
- },
- {
-  "name": "optical network",
   "count": 1
  }
 ]

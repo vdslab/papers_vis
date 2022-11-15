@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {changePapersCount} from "../redux/papersCountSlice"
 import { changeKeyword } from '../redux/keywordSlice';
 import { changePapersKeyword } from '../redux/papersKeywordSlice';
+import { changeColumnsJudge } from "../redux/columnsSlice";
 import { Card, Tooltip } from "@mui/material";
 import LabelProgress from '../components/LabelProgress';
 
@@ -17,9 +18,20 @@ const BubbleChart = () => {
     const [data,setData] = useState([]);
     const papers = useSelector((state) => state.papersKeyword.papers);
     const [judge ,setJudge] = useState(false);
+    const margin = {
+        left: 80,
+        right: 20,
+        top: 20,
+        bottom: 30,
+    };
+    const contentWidth = 300;
+    const contentHeight = 200;
+    
+    const svgWidth = margin.left + margin.right + contentWidth;
+    const svgHeight = margin.top + margin.bottom + contentHeight;
     
     useEffect(() => {
-        //setJudge(false);
+        setJudge(false);
         (async () => {
             let list = [];
             for (let i = startYear;i <= endYear;i++){
@@ -48,6 +60,7 @@ const BubbleChart = () => {
             const response = await fetch(`/.netlify/functions/api/keywords/${keyword}/${startYear}/${endYear}`);
             const data = await response.json();
             dispatch(changePapersKeyword(data));
+            dispatch(changeColumnsJudge('keyword'));
         })();
         console.log(papers)
     },[keyword])
@@ -66,21 +79,17 @@ const BubbleChart = () => {
     const onClickhandle = (e,name)=> {
         dispatch(changeKeyword(name));
     }
-    if(!judge){
-        return (
-        <Card sx={{ p: 3, height: "100%" }}>
-            <p>キーワードの選択</p>
-            <div style = {{position:'absolute', top : `575px`, left:`800px` }}>
-            <LabelProgress />
-            </div>
-        </Card>
-        );
-    }
+    
     return(
         <Card sx={{ p: 3, height: "100%" }}>
             <p>キーワードの選択</p>
-            <svg viewBox="-80 0 400 270" height = "400" >
-                {node.leaves().map((item,i)=>{
+            <svg viewBox={`${-margin.left} ${margin.top} ${svgWidth} ${svgHeight}`} >
+                {!judge ? (
+                    <div style = {{position:'absolute', top : `${svgHeight/2}px`, left:`${svgWidth/2}px` }}>
+                        <LabelProgress />
+                    </div>
+                ):(
+                node.leaves().map((item,i)=>{
                     return(
                     <g transform={`translate(${item.x},${item.y})`} style={styles}>
                         <circle className='key'
@@ -94,7 +103,7 @@ const BubbleChart = () => {
                         </text>
                     </g>
                 )
-            })}
+            }))}
             </svg>
         </Card>
         

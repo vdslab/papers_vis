@@ -4,35 +4,39 @@
   "count": 1
  },
  {
+  "name": "observation",
+  "count": 1
+ },
+ {
   "name": "computation",
   "count": 1
  },
  {
-  "name": "delta modulation",
+  "name": "view",
   "count": 1
  },
  {
-  "name": "feedback",
-  "count": 1
- },
- {
-  "name": "method",
-  "count": 11
- },
- {
-  "name": "control",
-  "count": 13
- },
- {
-  "name": "system",
-  "count": 23
+  "name": "modulation",
+  "count": 2
  },
  {
   "name": "systems",
   "count": 1
  },
  {
+  "name": "dynamics",
+  "count": 1
+ },
+ {
   "name": "activity",
+  "count": 1
+ },
+ {
+  "name": "biological",
+  "count": 1
+ },
+ {
+  "name": "topic",
   "count": 2
  },
  {
@@ -45,15 +49,15 @@
  },
  {
   "name": "equation",
-  "count": 7
+  "count": 4
  },
  {
-  "name": "certain",
+  "name": "piecewise",
   "count": 1
  },
  {
-  "name": "closed",
-  "count": 2
+  "name": "region",
+  "count": 4
  },
  {
   "name": "network",
@@ -61,31 +65,43 @@
  },
  {
   "name": "procedure",
-  "count": 3
+  "count": 2
  },
  {
   "name": "compensator",
   "count": 2
  },
  {
-  "name": "design",
-  "count": 8
+  "name": "frequency",
+  "count": 10
  },
  {
-  "name": "closed loop",
+  "name": "electric",
   "count": 1
  },
  {
-  "name": "computer",
+  "name": "without",
+  "count": 2
+ },
+ {
+  "name": "specification",
   "count": 1
  },
  {
-  "name": "describe",
-  "count": 5
+  "name": "constraint",
+  "count": 1
  },
  {
   "name": "matrix",
   "count": 2
+ },
+ {
+  "name": "representation",
+  "count": 1
+ },
+ {
+  "name": "describe",
+  "count": 1
  },
  {
   "name": "multivariable",
@@ -93,19 +109,15 @@
  },
  {
   "name": "property",
-  "count": 1
+  "count": 3
  },
  {
   "name": "error",
-  "count": 4
+  "count": 2
  },
  {
   "name": "mean",
   "count": 4
- },
- {
-  "name": "mean square",
-  "count": 2
  },
  {
   "name": "square",
@@ -116,12 +128,32 @@
   "count": 2
  },
  {
+  "name": "true",
+  "count": 1
+ },
+ {
+  "name": "control",
+  "count": 6
+ },
+ {
+  "name": "missile",
+  "count": 1
+ },
+ {
   "name": "aerodynamic",
   "count": 1
  },
  {
   "name": "change",
   "count": 2
+ },
+ {
+  "name": "bistable",
+  "count": 1
+ },
+ {
+  "name": "method",
+  "count": 5
  },
  {
   "name": "actuator",
@@ -132,7 +164,11 @@
   "count": 2
  },
  {
-  "name": "dual mode",
+  "name": "mode",
+  "count": 2
+ },
+ {
+  "name": "propose",
   "count": 1
  },
  {
@@ -140,20 +176,24 @@
   "count": 1
  },
  {
-  "name": "determine",
-  "count": 1
- },
- {
   "name": "filter",
   "count": 4
  },
  {
-  "name": "output",
-  "count": 5
+  "name": "measurement",
+  "count": 4
  },
  {
-  "name": "solution",
-  "count": 3
+  "name": "determine",
+  "count": 1
+ },
+ {
+  "name": "output",
+  "count": 2
+ },
+ {
+  "name": "lyapunov",
+  "count": 1
  },
  {
   "name": "construction",
@@ -164,36 +204,56 @@
   "count": 2
  },
  {
-  "name": "differential equation",
-  "count": 2
+  "name": "stability",
+  "count": 1
+ },
+ {
+  "name": "exact",
+  "count": 1
  },
  {
   "name": "tex",
   "count": 7
  },
  {
-  "name": "time",
-  "count": 5
- },
- {
-  "name": "tex tex",
-  "count": 4
- },
- {
   "name": "transient",
   "count": 1
+ },
+ {
+  "name": "intersample",
+  "count": 1
+ },
+ {
+  "name": "sampler",
+  "count": 1
+ },
+ {
+  "name": "time",
+  "count": 5
  },
  {
   "name": "polynomial",
   "count": 2
  },
  {
-  "name": "linear",
+  "name": "ensemble",
+  "count": 1
+ },
+ {
+  "name": "degree",
+  "count": 1
+ },
+ {
+  "name": "unbiased",
   "count": 1
  },
  {
   "name": "phi",
   "count": 1
+ },
+ {
+  "name": "spectrum",
+  "count": 2
  },
  {
   "name": "fuel",
@@ -204,27 +264,35 @@
   "count": 1
  },
  {
+  "name": "vehicle",
+  "count": 1
+ },
+ {
   "name": "bang",
   "count": 2
  },
  {
-  "name": "input",
-  "count": 3
- },
- {
-  "name": "function",
-  "count": 5
+  "name": "measure",
+  "count": 1
  },
  {
   "name": "operator",
   "count": 1
  },
  {
+  "name": "input",
+  "count": 2
+ },
+ {
   "name": "transfer",
+  "count": 2
+ },
+ {
+  "name": "increase",
   "count": 1
  },
  {
-  "name": "transfer function",
+  "name": "open",
   "count": 1
  },
  {
@@ -232,7 +300,11 @@
   "count": 2
  },
  {
-  "name": "order",
+  "name": "pwm",
+  "count": 1
+ },
+ {
+  "name": "second",
   "count": 1
  },
  {
@@ -240,15 +312,15 @@
   "count": 1
  },
  {
-  "name": "dot tex",
+  "name": "rule",
   "count": 1
  },
  {
-  "name": "tex dot",
+  "name": "extreme",
   "count": 1
  },
  {
-  "name": "control system",
+  "name": "minimal",
   "count": 1
  },
  {
@@ -256,11 +328,23 @@
   "count": 2
  },
  {
-  "name": "controller",
+  "name": "reactor",
+  "count": 1
+ },
+ {
+  "name": "optimum",
   "count": 2
  },
  {
+  "name": "variation",
+  "count": 4
+ },
+ {
   "name": "structure",
+  "count": 2
+ },
+ {
+  "name": "controller",
   "count": 2
  },
  {
@@ -272,15 +356,23 @@
   "count": 1
  },
  {
-  "name": "controller structure",
-  "count": 1
+  "name": "operation",
+  "count": 2
  },
  {
   "name": "identification",
   "count": 1
  },
  {
-  "name": "estimate",
+  "name": "unknown",
+  "count": 1
+ },
+ {
+  "name": "product",
+  "count": 1
+ },
+ {
+  "name": "three",
   "count": 2
  },
  {
@@ -288,8 +380,12 @@
   "count": 1
  },
  {
-  "name": "dynamic response",
-  "count": 1
+  "name": "cycle",
+  "count": 2
+ },
+ {
+  "name": "limit",
+  "count": 2
  },
  {
   "name": "response",
@@ -297,10 +393,10 @@
  },
  {
   "name": "characteristic",
-  "count": 5
+  "count": 3
  },
  {
-  "name": "cycle",
+  "name": "beta",
   "count": 2
  },
  {
@@ -308,11 +404,7 @@
   "count": 2
  },
  {
-  "name": "beta",
-  "count": 2
- },
- {
-  "name": "alpha beta",
+  "name": "tracker",
   "count": 1
  },
  {
@@ -328,7 +420,7 @@
   "count": 2
  },
  {
-  "name": "adaptive system",
+  "name": "sapc",
   "count": 1
  },
  {
@@ -336,7 +428,15 @@
   "count": 1
  },
  {
+  "name": "self",
+  "count": 2
+ },
+ {
   "name": "sensitivity",
+  "count": 2
+ },
+ {
+  "name": "sampled",
   "count": 1
  },
  {
@@ -345,10 +445,10 @@
  },
  {
   "name": "data",
-  "count": 4
+  "count": 2
  },
  {
-  "name": "data system",
+  "name": "contain",
   "count": 1
  },
  {
@@ -356,15 +456,19 @@
   "count": 1
  },
  {
-  "name": "singular control",
+  "name": "optimal",
   "count": 1
  },
  {
-  "name": "class",
-  "count": 2
+  "name": "detail",
+  "count": 1
  },
  {
   "name": "choice",
+  "count": 1
+ },
+ {
+  "name": "scheme",
   "count": 1
  },
  {
@@ -372,20 +476,20 @@
   "count": 1
  },
  {
-  "name": "paper",
-  "count": 5
+  "name": "class",
+  "count": 1
  },
  {
   "name": "process",
   "count": 4
  },
  {
-  "name": "aircraft",
-  "count": 1
- },
- {
   "name": "different",
   "count": 2
+ },
+ {
+  "name": "aircraft",
+  "count": 1
  },
  {
   "name": "optimization",
@@ -396,31 +500,63 @@
   "count": 1
  },
  {
-  "name": "component",
-  "count": 3
+  "name": "sheet",
+  "count": 1
  },
  {
   "name": "machine",
   "count": 1
  },
  {
-  "name": "problem",
+  "name": "component",
   "count": 2
+ },
+ {
+  "name": "quality",
+  "count": 1
  },
  {
   "name": "relay",
   "count": 1
  },
  {
+  "name": "superposition",
+  "count": 1
+ },
+ {
+  "name": "problem",
+  "count": 1
+ },
+ {
+  "name": "solution",
+  "count": 3
+ },
+ {
   "name": "section",
   "count": 3
  },
  {
-  "name": "behavior",
+  "name": "pure",
+  "count": 1
+ },
+ {
+  "name": "transport",
+  "count": 1
+ },
+ {
+  "name": "delay",
   "count": 2
  },
  {
+  "name": "future",
+  "count": 1
+ },
+ {
   "name": "correlated",
+  "count": 1
+ },
+ {
+  "name": "know",
   "count": 1
  },
  {
@@ -428,7 +564,23 @@
   "count": 11
  },
  {
+  "name": "u_",
+  "count": 1
+ },
+ {
+  "name": "admissible",
+  "count": 1
+ },
+ {
+  "name": "state",
+  "count": 3
+ },
+ {
   "name": "analogue",
+  "count": 1
+ },
+ {
+  "name": "plotting",
   "count": 1
  },
  {
@@ -436,11 +588,27 @@
   "count": 1
  },
  {
+  "name": "test",
+  "count": 1
+ },
+ {
   "name": "magnitude",
   "count": 2
  },
  {
-  "name": "state",
+  "name": "parellel",
+  "count": 1
+ },
+ {
+  "name": "xi",
+  "count": 1
+ },
+ {
+  "name": "parellelu",
+  "count": 1
+ },
+ {
+  "name": "int",
   "count": 1
  },
  {
@@ -448,12 +616,16 @@
   "count": 1
  },
  {
-  "name": "state vector",
+  "name": "th",
   "count": 1
  },
  {
-  "name": "frequency",
-  "count": 18
+  "name": "order",
+  "count": 1
+ },
+ {
+  "name": "ratio",
+  "count": 2
  },
  {
   "name": "surface",
@@ -461,51 +633,59 @@
  },
  {
   "name": "material",
-  "count": 4
+  "count": 5
  },
  {
-  "name": "use",
-  "count": 12
+  "name": "microwave",
+  "count": 5
+ },
+ {
+  "name": "roll",
+  "count": 1
  },
  {
   "name": "detect",
   "count": 1
  },
  {
-  "name": "film",
-  "count": 3
- },
- {
-  "name": "energy",
-  "count": 5
- },
- {
   "name": "hydrogen",
   "count": 1
  },
  {
+  "name": "energy",
+  "count": 4
+ },
+ {
   "name": "solar",
+  "count": 2
+ },
+ {
+  "name": "use",
+  "count": 3
+ },
+ {
+  "name": "transform",
   "count": 1
  },
  {
-  "name": "solar energy",
-  "count": 1
- },
- {
-  "name": "access",
+  "name": "thermoplastic",
   "count": 1
  },
  {
   "name": "medium",
-  "count": 3
+  "count": 4
+ },
+ {
+  "name": "record",
+  "count": 1
  },
  {
   "name": "read",
   "count": 1
  },
  {
-  "name": "device",
-  "count": 6
+  "name": "access",
+  "count": 1
  },
  {
   "name": "fiber",
@@ -516,47 +696,43 @@
   "count": 1
  },
  {
-  "name": "fiber optic",
+  "name": "transmit",
   "count": 1
  },
  {
-  "name": "light",
-  "count": 5
+  "name": "optic",
+  "count": 2
+ },
+ {
+  "name": "device",
+  "count": 4
  },
  {
   "name": "cell",
   "count": 9
  },
  {
-  "name": "form",
-  "count": 2
- },
- {
-  "name": "fuel cell",
-  "count": 1
+  "name": "potential",
+  "count": 3
  },
  {
   "name": "low",
-  "count": 3
+  "count": 2
+ },
+ {
+  "name": "many",
+  "count": 1
  },
  {
   "name": "automatic",
   "count": 2
  },
  {
-  "name": "manufacturing",
+  "name": "numerical",
   "count": 1
  },
  {
-  "name": "application",
-  "count": 5
- },
- {
-  "name": "current",
-  "count": 4
- },
- {
-  "name": "element",
+  "name": "manufacturing",
   "count": 1
  },
  {
@@ -564,8 +740,20 @@
   "count": 1
  },
  {
+  "name": "element",
+  "count": 1
+ },
+ {
   "name": "may",
   "count": 1
+ },
+ {
+  "name": "current",
+  "count": 2
+ },
+ {
+  "name": "application",
+  "count": 2
  },
  {
   "name": "weld",
@@ -580,11 +768,23 @@
   "count": 2
  },
  {
+  "name": "connect",
+  "count": 1
+ },
+ {
   "name": "line",
-  "count": 6
+  "count": 5
  },
  {
   "name": "axis",
+  "count": 1
+ },
+ {
+  "name": "polarization",
+  "count": 2
+ },
+ {
+  "name": "whose",
   "count": 1
  },
  {
@@ -592,23 +792,23 @@
   "count": 1
  },
  {
-  "name": "displacement",
-  "count": 1
- },
- {
-  "name": "polarization",
-  "count": 1
+  "name": "magnetic",
+  "count": 4
  },
  {
   "name": "field",
-  "count": 9
+  "count": 7
  },
  {
-  "name": "magnetic",
-  "count": 3
+  "name": "strong",
+  "count": 1
  },
  {
-  "name": "magnetic field",
+  "name": "solely",
+  "count": 1
+ },
+ {
+  "name": "forming",
   "count": 1
  },
  {
@@ -620,27 +820,23 @@
   "count": 1
  },
  {
+  "name": "mhd",
+  "count": 2
+ },
+ {
   "name": "power",
-  "count": 6
- },
- {
-  "name": "heat",
-  "count": 1
- },
- {
-  "name": "without",
-  "count": 1
+  "count": 3
  },
  {
   "name": "metal",
   "count": 1
  },
  {
-  "name": "speed",
-  "count": 1
+  "name": "tool",
+  "count": 2
  },
  {
-  "name": "tool",
+  "name": "speed",
   "count": 1
  },
  {
@@ -648,19 +844,15 @@
   "count": 8
  },
  {
-  "name": "sup sup",
-  "count": 3
- },
- {
   "name": "increment",
   "count": 1
  },
  {
-  "name": "equipment",
-  "count": 1
+  "name": "load",
+  "count": 2
  },
  {
-  "name": "operation",
+  "name": "oz",
   "count": 1
  },
  {
@@ -668,7 +860,15 @@
   "count": 1
  },
  {
-  "name": "associate",
+  "name": "equipment",
+  "count": 1
+ },
+ {
+  "name": "dial",
+  "count": 1
+ },
+ {
+  "name": "directly",
   "count": 1
  },
  {
@@ -676,36 +876,36 @@
   "count": 2
  },
  {
-  "name": "integrator",
-  "count": 1
- },
- {
   "name": "solion",
   "count": 1
  },
  {
-  "name": "transducer",
+  "name": "integrator",
   "count": 1
  },
  {
-  "name": "1963",
+  "name": "transducer",
+  "count": 2
+ },
+ {
+  "name": "abstract",
   "count": 253
  },
  {
-  "name": "1963 ieee",
-  "count": 253
- },
- {
-  "name": "25",
+  "name": "york",
   "count": 254
  },
  {
-  "name": "25 28",
+  "name": "28",
+  "count": 254
+ },
+ {
+  "name": "titled",
   "count": 253
  },
  {
-  "name": "28",
-  "count": 253
+  "name": "ny",
+  "count": 254
  },
  {
   "name": "display",
@@ -716,8 +916,12 @@
   "count": 2
  },
  {
-  "name": "new",
-  "count": 2
+  "name": "smith",
+  "count": 1
+ },
+ {
+  "name": "diagram",
+  "count": 1
  },
  {
   "name": "diode",
@@ -728,23 +932,27 @@
   "count": 1
  },
  {
-  "name": "cent",
-  "count": 3
+  "name": "cone",
+  "count": 1
  },
  {
-  "name": "circuit",
-  "count": 8
+  "name": "sum",
+  "count": 1
  },
  {
   "name": "memory",
+  "count": 2
+ },
+ {
+  "name": "system",
+  "count": 7
+ },
+ {
+  "name": "distribute",
   "count": 1
  },
  {
-  "name": "addressable",
-  "count": 1
- },
- {
-  "name": "addressable memory",
+  "name": "retrieval",
   "count": 1
  },
  {
@@ -752,24 +960,44 @@
   "count": 1
  },
  {
-  "name": "signal",
-  "count": 11
+  "name": "65",
+  "count": 1
  },
  {
   "name": "250",
   "count": 1
  },
  {
-  "name": "65",
+  "name": "mm",
+  "count": 2
+ },
+ {
+  "name": "volt",
   "count": 1
  },
  {
   "name": "electron",
-  "count": 2
+  "count": 1
+ },
+ {
+  "name": "photomultiplier",
+  "count": 1
+ },
+ {
+  "name": "multiplication",
+  "count": 1
+ },
+ {
+  "name": "secondary",
+  "count": 1
  },
  {
   "name": "cryotron",
   "count": 2
+ },
+ {
+  "name": "superimpose",
+  "count": 1
  },
  {
   "name": "one",
@@ -780,19 +1008,19 @@
   "count": 1
  },
  {
-  "name": "multiplex",
-  "count": 1
- },
- {
   "name": "patent",
   "count": 1
  },
  {
-  "name": "step",
+  "name": "story",
   "count": 1
  },
  {
-  "name": "story",
+  "name": "multiplex",
+  "count": 1
+ },
+ {
+  "name": "step",
   "count": 1
  },
  {
@@ -812,48 +1040,92 @@
   "count": 1
  },
  {
+  "name": "standards",
+  "count": 1
+ },
+ {
+  "name": "signal",
+  "count": 9
+ },
+ {
   "name": "receiver",
   "count": 2
  },
  {
+  "name": "sidelobe",
+  "count": 1
+ },
+ {
+  "name": "doppler",
+  "count": 1
+ },
+ {
+  "name": "waveform",
+  "count": 1
+ },
+ {
   "name": "thermoelectric",
-  "count": 1
+  "count": 2
  },
  {
-  "name": "advantage",
+  "name": "refrigeration",
   "count": 1
- },
- {
-  "name": "achieve",
-  "count": 3
  },
  {
   "name": "act",
   "count": 1
  },
  {
+  "name": "replace",
+  "count": 1
+ },
+ {
+  "name": "modify",
+  "count": 1
+ },
+ {
+  "name": "resistor",
+  "count": 1
+ },
+ {
+  "name": "rc",
+  "count": 2
+ },
+ {
   "name": "laser",
+  "count": 2
+ },
+ {
+  "name": "light",
   "count": 4
+ },
+ {
+  "name": "baso",
+  "count": 1
+ },
+ {
+  "name": "photocell",
+  "count": 1
  },
  {
   "name": "electrolyte",
   "count": 1
  },
  {
-  "name": "cell system",
+  "name": "aqueous",
   "count": 1
- },
- {
-  "name": "noise",
-  "count": 9
  },
  {
   "name": "encoded",
   "count": 1
  },
  {
-  "name": "phase",
-  "count": 3
+  "name": "white",
+  "count": 1
+ },
+ {
+  "name": "noise",
+  "count": 8
  },
  {
   "name": "converter",
@@ -862,6 +1134,10 @@
  {
   "name": "digital",
   "count": 2
+ },
+ {
+  "name": "term",
+  "count": 1
  },
  {
   "name": "instrument",
@@ -884,15 +1160,15 @@
   "count": 1
  },
  {
+  "name": "video",
+  "count": 1
+ },
+ {
   "name": "experimental",
-  "count": 4
+  "count": 1
  },
  {
-  "name": "high",
-  "count": 4
- },
- {
-  "name": "logic",
+  "name": "encoder",
   "count": 1
  },
  {
@@ -900,31 +1176,27 @@
   "count": 1
  },
  {
+  "name": "logic",
+  "count": 2
+ },
+ {
   "name": "technique",
   "count": 1
  },
  {
-  "name": "gain",
-  "count": 4
+  "name": "high",
+  "count": 2
  },
  {
   "name": "miller",
   "count": 1
  },
  {
-  "name": "effect",
-  "count": 4
- },
- {
-  "name": "compare",
-  "count": 2
- },
- {
-  "name": "detection",
+  "name": "gain",
   "count": 3
  },
  {
-  "name": "detector",
+  "name": "effect",
   "count": 3
  },
  {
@@ -932,24 +1204,40 @@
   "count": 1
  },
  {
+  "name": "transmitter",
+  "count": 1
+ },
+ {
   "name": "integration",
   "count": 1
+ },
+ {
+  "name": "detector",
+  "count": 3
+ },
+ {
+  "name": "detection",
+  "count": 3
  },
  {
   "name": "bandwidth",
   "count": 2
  },
  {
-  "name": "maser",
-  "count": 7
- },
- {
   "name": "pass",
   "count": 1
  },
  {
-  "name": "resonator",
+  "name": "single",
   "count": 1
+ },
+ {
+  "name": "maser",
+  "count": 7
+ },
+ {
+  "name": "resonator",
+  "count": 2
  },
  {
   "name": "antenna",
@@ -960,19 +1248,11 @@
   "count": 2
  },
  {
-  "name": "agreement",
+  "name": "shaped",
   "count": 1
  },
  {
-  "name": "agreement theory",
-  "count": 1
- },
- {
-  "name": "analog",
-  "count": 1
- },
- {
-  "name": "digital analog",
+  "name": "reasonable",
   "count": 1
  },
  {
@@ -980,7 +1260,11 @@
   "count": 1
  },
  {
-  "name": "beat",
+  "name": "via",
+  "count": 1
+ },
+ {
+  "name": "analog",
   "count": 1
  },
  {
@@ -988,8 +1272,20 @@
   "count": 1
  },
  {
+  "name": "beat",
+  "count": 1
+ },
+ {
   "name": "optical",
-  "count": 4
+  "count": 5
+ },
+ {
+  "name": "helix",
+  "count": 1
+ },
+ {
+  "name": "incorporate",
+  "count": 1
  },
  {
   "name": "channel",
@@ -1000,19 +1296,23 @@
   "count": 1
  },
  {
-  "name": "self",
+  "name": "aural",
   "count": 1
  },
  {
-  "name": "capability",
+  "name": "eye",
   "count": 1
  },
  {
-  "name": "optimum",
+  "name": "design",
+  "count": 2
+ },
+ {
+  "name": "organization",
   "count": 1
  },
  {
-  "name": "background",
+  "name": "size",
   "count": 1
  },
  {
@@ -1020,15 +1320,19 @@
   "count": 1
  },
  {
-  "name": "analysis",
-  "count": 4
- },
- {
-  "name": "conductor",
+  "name": "background",
   "count": 1
  },
  {
   "name": "couple",
+  "count": 1
+ },
+ {
+  "name": "conductor",
+  "count": 2
+ },
+ {
+  "name": "sense",
   "count": 1
  },
  {
@@ -1040,11 +1344,15 @@
   "count": 1
  },
  {
+  "name": "discharge",
+  "count": 1
+ },
+ {
   "name": "cesium",
   "count": 1
  },
  {
-  "name": "discharge",
+  "name": "resonance",
   "count": 1
  },
  {
@@ -1052,11 +1360,11 @@
   "count": 2
  },
  {
-  "name": "resonance",
+  "name": "picture",
   "count": 1
  },
  {
-  "name": "picture",
+  "name": "successive",
   "count": 1
  },
  {
@@ -1064,7 +1372,11 @@
   "count": 1
  },
  {
-  "name": "successive",
+  "name": "statistical",
+  "count": 1
+ },
+ {
+  "name": "bunching",
   "count": 1
  },
  {
@@ -1076,15 +1388,27 @@
   "count": 2
  },
  {
+  "name": "harmonic",
+  "count": 2
+ },
+ {
   "name": "pulse",
   "count": 2
+ },
+ {
+  "name": "relaxation",
+  "count": 1
  },
  {
   "name": "show",
   "count": 1
  },
  {
-  "name": "relaxation",
+  "name": "spectral",
+  "count": 1
+ },
+ {
+  "name": "titanium",
   "count": 1
  },
  {
@@ -1092,7 +1416,15 @@
   "count": 1
  },
  {
-  "name": "electrolytic capacitor",
+  "name": "tantalum",
+  "count": 1
+ },
+ {
+  "name": "newly",
+  "count": 1
+ },
+ {
+  "name": "tunnel",
   "count": 1
  },
  {
@@ -1100,15 +1432,19 @@
   "count": 2
  },
  {
-  "name": "tunnel",
+  "name": "tolerance",
   "count": 1
  },
  {
-  "name": "tunnel diode",
+  "name": "photodiodes",
   "count": 1
  },
  {
   "name": "mixed",
+  "count": 1
+ },
+ {
+  "name": "ge",
   "count": 1
  },
  {
@@ -1120,15 +1456,19 @@
   "count": 2
  },
  {
-  "name": "obtain",
-  "count": 3
+  "name": "semiclassical",
+  "count": 1
+ },
+ {
+  "name": "beam",
+  "count": 1
  },
  {
   "name": "reversal",
   "count": 1
  },
  {
-  "name": "approximation",
+  "name": "permanent",
   "count": 1
  },
  {
@@ -1136,15 +1476,31 @@
   "count": 1
  },
  {
+  "name": "magnet",
+  "count": 1
+ },
+ {
   "name": "gaas",
   "count": 1
  },
  {
+  "name": "threshold",
+  "count": 1
+ },
+ {
   "name": "result",
-  "count": 3
+  "count": 2
+ },
+ {
+  "name": "specific",
+  "count": 1
  },
  {
   "name": "conversion",
+  "count": 2
+ },
+ {
+  "name": "resistance",
   "count": 2
  },
  {
@@ -1152,19 +1508,19 @@
   "count": 1
  },
  {
-  "name": "detection probability",
-  "count": 1
- },
- {
   "name": "cumulative",
   "count": 1
  },
  {
-  "name": "delay",
+  "name": "target",
+  "count": 2
+ },
+ {
+  "name": "scan",
   "count": 1
  },
  {
-  "name": "delay time",
+  "name": "overdrive",
   "count": 1
  },
  {
@@ -1176,35 +1532,23 @@
   "count": 1
  },
  {
-  "name": "model",
-  "count": 1
- },
- {
   "name": "normalized",
   "count": 1
  },
  {
-  "name": "inf inf",
-  "count": 3
- },
- {
-  "name": "case",
-  "count": 4
+  "name": "model",
+  "count": 1
  },
  {
   "name": "incident",
   "count": 1
  },
  {
-  "name": "base",
-  "count": 2
- },
- {
-  "name": "diffusion",
+  "name": "radiate",
   "count": 1
  },
  {
-  "name": "flow",
+  "name": "tm",
   "count": 1
  },
  {
@@ -1212,20 +1556,28 @@
   "count": 1
  },
  {
+  "name": "diffusion",
+  "count": 2
+ },
+ {
+  "name": "flow",
+  "count": 1
+ },
+ {
+  "name": "rate",
+  "count": 1
+ },
+ {
+  "name": "base",
+  "count": 1
+ },
+ {
   "name": "interaction",
   "count": 1
  },
  {
-  "name": "harmonic",
-  "count": 2
- },
- {
-  "name": "two",
-  "count": 2
- },
- {
-  "name": "band",
-  "count": 3
+  "name": "stop",
+  "count": 1
  },
  {
   "name": "distribution",
@@ -1240,7 +1592,7 @@
   "count": 1
  },
  {
-  "name": "angular",
+  "name": "fluorescence",
   "count": 1
  },
  {
@@ -1248,8 +1600,8 @@
   "count": 1
  },
  {
-  "name": "region",
-  "count": 2
+  "name": "layer",
+  "count": 1
  },
  {
   "name": "anode",
@@ -1268,11 +1620,27 @@
   "count": 1
  },
  {
+  "name": "paper",
+  "count": 2
+ },
+ {
   "name": "emitter",
   "count": 1
  },
  {
+  "name": "interdependence",
+  "count": 1
+ },
+ {
   "name": "basic",
+  "count": 1
+ },
+ {
+  "name": "pulsed",
+  "count": 1
+ },
+ {
+  "name": "estimate",
   "count": 2
  },
  {
@@ -1280,31 +1648,51 @@
   "count": 1
  },
  {
+  "name": "behavior",
+  "count": 1
+ },
+ {
   "name": "link",
   "count": 1
  },
  {
-  "name": "measurement",
+  "name": "mirror",
+  "count": 2
+ },
+ {
+  "name": "radio",
   "count": 4
  },
  {
   "name": "temperature",
-  "count": 2
+  "count": 3
  },
  {
-  "name": "modulation",
+  "name": "german",
   "count": 1
+ },
+ {
+  "name": "pressure",
+  "count": 1
+ },
+ {
+  "name": "gate",
+  "count": 3
  },
  {
   "name": "modulator",
   "count": 1
  },
  {
-  "name": "exponential",
+  "name": "gc",
+  "count": 2
+ },
+ {
+  "name": "probing",
   "count": 1
  },
  {
-  "name": "grow",
+  "name": "optimize",
   "count": 1
  },
  {
@@ -1316,23 +1704,35 @@
   "count": 3
  },
  {
-  "name": "10",
-  "count": 3
- },
- {
   "name": "db",
   "count": 2
+ },
+ {
+  "name": "10",
+  "count": 1
+ },
+ {
+  "name": "reverse",
+  "count": 1
  },
  {
   "name": "plasma",
   "count": 2
  },
  {
+  "name": "demodulator",
+  "count": 1
+ },
+ {
+  "name": "case",
+  "count": 1
+ },
+ {
   "name": "author",
   "count": 1
  },
  {
-  "name": "demodulator",
+  "name": "theoretical",
   "count": 1
  },
  {
@@ -1340,15 +1740,19 @@
   "count": 1
  },
  {
-  "name": "gc",
+  "name": "225",
   "count": 1
  },
  {
-  "name": "mm",
+  "name": "substantially",
   "count": 1
  },
  {
-  "name": "noise temperature",
+  "name": "cubic",
+  "count": 1
+ },
+ {
+  "name": "powdered",
   "count": 1
  },
  {
@@ -1356,24 +1760,28 @@
   "count": 1
  },
  {
-  "name": "condition",
-  "count": 2
+  "name": "designate",
+  "count": 1
  },
  {
   "name": "ray",
   "count": 1
  },
  {
-  "name": "appear",
+  "name": "condition",
+  "count": 1
+ },
+ {
+  "name": "observable",
+  "count": 1
+ },
+ {
+  "name": "criticality",
   "count": 1
  },
  {
   "name": "information",
   "count": 1
- },
- {
-  "name": "variation",
-  "count": 3
  },
  {
   "name": "capacity",
@@ -1384,12 +1792,36 @@
   "count": 1
  },
  {
-  "name": "concept",
+  "name": "text",
+  "count": 1
+ },
+ {
+  "name": "learn",
+  "count": 1
+ },
+ {
+  "name": "circuit",
+  "count": 6
+ },
+ {
+  "name": "function",
+  "count": 2
+ },
+ {
+  "name": "variable",
   "count": 1
  },
  {
   "name": "generation",
-  "count": 2
+  "count": 3
+ },
+ {
+  "name": "worker",
+  "count": 1
+ },
+ {
+  "name": "movement",
+  "count": 1
  },
  {
   "name": "examination",
@@ -1408,35 +1840,43 @@
   "count": 1
  },
  {
-  "name": "nonlinear",
-  "count": 3
- },
- {
-  "name": "actively",
+  "name": "hydrocarbon",
   "count": 1
  },
  {
-  "name": "resistance",
+  "name": "emerge",
   "count": 1
  },
  {
-  "name": "amplifier",
+  "name": "inexpensive",
   "count": 1
  },
  {
   "name": "pump",
-  "count": 2
+  "count": 3
  },
  {
   "name": "amount",
   "count": 1
  },
  {
-  "name": "crystal",
+  "name": "mc",
   "count": 1
  },
  {
-  "name": "gradient",
+  "name": "review",
+  "count": 1
+ },
+ {
+  "name": "crystal",
+  "count": 2
+ },
+ {
+  "name": "third",
+  "count": 1
+ },
+ {
+  "name": "profile",
   "count": 1
  },
  {
@@ -1444,27 +1884,15 @@
   "count": 1
  },
  {
-  "name": "junction",
+  "name": "gradient",
   "count": 1
  },
  {
   "name": "semiconductor",
-  "count": 1
- },
- {
-  "name": "microwave",
-  "count": 3
- },
- {
-  "name": "also",
-  "count": 1
+  "count": 2
  },
  {
   "name": "loss",
-  "count": 1
- },
- {
-  "name": "mirror",
   "count": 1
  },
  {
@@ -1472,11 +1900,11 @@
   "count": 1
  },
  {
-  "name": "become",
+  "name": "cause",
   "count": 1
  },
  {
-  "name": "cause",
+  "name": "become",
   "count": 1
  },
  {
@@ -1484,15 +1912,19 @@
   "count": 1
  },
  {
-  "name": "phenomenon",
-  "count": 1
- },
- {
   "name": "station",
   "count": 2
  },
  {
-  "name": "along",
+  "name": "phenomenon",
+  "count": 1
+ },
+ {
+  "name": "terrestrial",
+  "count": 1
+ },
+ {
+  "name": "auroral",
   "count": 1
  },
  {
@@ -1504,7 +1936,11 @@
   "count": 1
  },
  {
-  "name": "find",
+  "name": "mixer",
+  "count": 1
+ },
+ {
+  "name": "collector",
   "count": 1
  },
  {
@@ -1512,23 +1948,39 @@
   "count": 1
  },
  {
-  "name": "arbitrary",
-  "count": 2
+  "name": "nonconfocal",
+  "count": 1
  },
  {
-  "name": "mhd",
+  "name": "find",
+  "count": 1
+ },
+ {
+  "name": "remainder",
+  "count": 1
+ },
+ {
+  "name": "status",
   "count": 1
  },
  {
   "name": "core",
-  "count": 1
+  "count": 2
+ },
+ {
+  "name": "analysis",
+  "count": 2
+ },
+ {
+  "name": "nonlinear",
+  "count": 3
  },
  {
   "name": "clock",
   "count": 1
  },
  {
-  "name": "analysis give",
+  "name": "quartz",
   "count": 1
  },
  {
@@ -1536,15 +1988,43 @@
   "count": 1
  },
  {
+  "name": "linewidth",
+  "count": 1
+ },
+ {
   "name": "transmission",
   "count": 2
+ },
+ {
+  "name": "width",
+  "count": 2
+ },
+ {
+  "name": "band",
+  "count": 1
  },
  {
   "name": "constant",
   "count": 1
  },
  {
+  "name": "phase",
+  "count": 2
+ },
+ {
   "name": "amplification",
+  "count": 1
+ },
+ {
+  "name": "propagation",
+  "count": 1
+ },
+ {
+  "name": "obtain",
+  "count": 1
+ },
+ {
+  "name": "track",
   "count": 1
  },
  {
@@ -1556,6 +2036,10 @@
   "count": 2
  },
  {
+  "name": "user",
+  "count": 1
+ },
+ {
   "name": "part",
   "count": 2
  },
@@ -1564,7 +2048,19 @@
   "count": 1
  },
  {
+  "name": "expression",
+  "count": 1
+ },
+ {
   "name": "action",
+  "count": 1
+ },
+ {
+  "name": "catabolic",
+  "count": 1
+ },
+ {
+  "name": "biochemical",
   "count": 1
  },
  {
@@ -1572,7 +2068,19 @@
   "count": 1
  },
  {
-  "name": "apply",
+  "name": "two",
+  "count": 1
+ },
+ {
+  "name": "modulators",
+  "count": 1
+ },
+ {
+  "name": "traveling",
+  "count": 1
+ },
+ {
+  "name": "broad",
   "count": 1
  },
  {
@@ -1580,19 +2088,11 @@
   "count": 1
  },
  {
+  "name": "whether",
+  "count": 1
+ },
+ {
   "name": "shift",
-  "count": 1
- },
- {
-  "name": "include",
-  "count": 1
- },
- {
-  "name": "radio",
-  "count": 3
- },
- {
-  "name": "research",
   "count": 1
  },
  {
@@ -1600,11 +2100,31 @@
   "count": 1
  },
  {
-  "name": "11",
+  "name": "research",
+  "count": 1
+ },
+ {
+  "name": "include",
+  "count": 1
+ },
+ {
+  "name": "sketch",
   "count": 1
  },
  {
   "name": "vapor",
+  "count": 1
+ },
+ {
+  "name": "filled",
+  "count": 1
+ },
+ {
+  "name": "diagnostic",
+  "count": 1
+ },
+ {
+  "name": "attempt",
   "count": 1
  },
  {
@@ -1616,15 +2136,15 @@
   "count": 1
  },
  {
+  "name": "gallium",
+  "count": 1
+ },
+ {
   "name": "arsenide",
   "count": 1
  },
  {
-  "name": "failure",
-  "count": 1
- },
- {
-  "name": "repair",
+  "name": "onsager",
   "count": 1
  },
  {
@@ -1632,15 +2152,31 @@
   "count": 1
  },
  {
+  "name": "repair",
+  "count": 1
+ },
+ {
+  "name": "failure",
+  "count": 1
+ },
+ {
   "name": "reliability",
   "count": 2
+ },
+ {
+  "name": "specified",
+  "count": 1
+ },
+ {
+  "name": "worst",
+  "count": 1
  },
  {
   "name": "man",
   "count": 1
  },
  {
-  "name": "discuss",
+  "name": "improve",
   "count": 1
  },
  {
@@ -1648,15 +2184,35 @@
   "count": 1
  },
  {
-  "name": "coherent optical",
+  "name": "radar",
   "count": 1
  },
  {
-  "name": "alternatively",
+  "name": "pull",
+  "count": 1
+ },
+ {
+  "name": "siegert",
+  "count": 1
+ },
+ {
+  "name": "give",
+  "count": 1
+ },
+ {
+  "name": "above",
+  "count": 1
+ },
+ {
+  "name": "titanate",
   "count": 1
  },
  {
   "name": "dielectric",
+  "count": 1
+ },
+ {
+  "name": "cent",
   "count": 1
  },
  {
@@ -1668,11 +2224,19 @@
   "count": 1
  },
  {
+  "name": "monthly",
+  "count": 1
+ },
+ {
+  "name": "sunspot",
+  "count": 1
+ },
+ {
   "name": "geomagnetic",
   "count": 1
  },
  {
-  "name": "cathode temperature",
+  "name": "study",
   "count": 1
  },
  {
@@ -1680,23 +2244,43 @@
   "count": 1
  },
  {
-  "name": "consider",
+  "name": "crust",
   "count": 1
  },
  {
-  "name": "crust",
+  "name": "electrical",
   "count": 1
+ },
+ {
+  "name": "standard",
+  "count": 2
  },
  {
   "name": "comparison",
   "count": 1
  },
  {
-  "name": "standard",
+  "name": "kc",
+  "count": 1
+ },
+ {
+  "name": "path",
+  "count": 1
+ },
+ {
+  "name": "audion",
   "count": 1
  },
  {
   "name": "wing",
+  "count": 1
+ },
+ {
+  "name": "audio",
+  "count": 1
+ },
+ {
+  "name": "whistler",
   "count": 1
  },
  {
@@ -1716,11 +2300,15 @@
   "count": 1
  },
  {
-  "name": "solid state",
+  "name": "thunderstorm",
   "count": 1
  },
  {
-  "name": "thunderstorm",
+  "name": "storm",
+  "count": 1
+ },
+ {
+  "name": "life",
   "count": 1
  },
  {
@@ -1728,7 +2316,11 @@
   "count": 1
  },
  {
-  "name": "100",
+  "name": "thousand",
+  "count": 1
+ },
+ {
+  "name": "foot",
   "count": 1
  },
  {
@@ -1736,15 +2328,11 @@
   "count": 1
  },
  {
-  "name": "cross section",
-  "count": 1
- },
- {
   "name": "waveguide",
   "count": 1
  },
  {
-  "name": "load",
+  "name": "conformal",
   "count": 1
  },
  {
@@ -1752,11 +2340,19 @@
   "count": 1
  },
  {
+  "name": "switch",
+  "count": 1
+ },
+ {
   "name": "spin",
   "count": 1
  },
  {
-  "name": "1000",
+  "name": "echo",
+  "count": 1
+ },
+ {
+  "name": "adapt",
   "count": 1
  },
  {
@@ -1764,19 +2360,11 @@
   "count": 1
  },
  {
-  "name": "limit",
+  "name": "require",
   "count": 1
  },
  {
-  "name": "performance",
-  "count": 1
- },
- {
-  "name": "development",
-  "count": 1
- },
- {
-  "name": "early",
+  "name": "achieve",
   "count": 1
  },
  {
@@ -1784,7 +2372,27 @@
   "count": 1
  },
  {
+  "name": "technical",
+  "count": 1
+ },
+ {
+  "name": "grow",
+  "count": 1
+ },
+ {
+  "name": "rapidly",
+  "count": 1
+ },
+ {
   "name": "in",
+  "count": 1
+ },
+ {
+  "name": "film",
+  "count": 1
+ },
+ {
+  "name": "start",
   "count": 1
  },
  {
@@ -1796,19 +2404,27 @@
   "count": 1
  },
  {
+  "name": "parametric",
+  "count": 1
+ },
+ {
   "name": "account",
   "count": 2
  },
  {
-  "name": "develop",
+  "name": "gas",
   "count": 1
  },
  {
-  "name": "frequency standard",
+  "name": "thermionic",
   "count": 1
  },
  {
-  "name": "applicable",
+  "name": "momentum",
+  "count": 1
+ },
+ {
+  "name": "velooity",
   "count": 1
  },
  {
@@ -1820,7 +2436,19 @@
   "count": 1
  },
  {
+  "name": "head",
+  "count": 1
+ },
+ {
+  "name": "reciprocity",
+  "count": 1
+ },
+ {
   "name": "fm",
+  "count": 1
+ },
+ {
+  "name": "iteration",
   "count": 1
  },
  {
@@ -1828,19 +2456,11 @@
   "count": 1
  },
  {
-  "name": "gate",
+  "name": "oxide",
   "count": 1
  },
  {
-  "name": "mode",
-  "count": 1
- },
- {
-  "name": "spectrum",
-  "count": 1
- },
- {
-  "name": "carry",
+  "name": "complex",
   "count": 1
  },
  {
@@ -1852,7 +2472,11 @@
   "count": 1
  },
  {
-  "name": "carrier density",
+  "name": "decay",
+  "count": 1
+ },
+ {
+  "name": "inject",
   "count": 1
  },
  {
@@ -1864,19 +2488,27 @@
   "count": 1
  },
  {
-  "name": "figure",
-  "count": 1
- },
- {
-  "name": "figure merit",
-  "count": 1
- },
- {
   "name": "merit",
   "count": 1
  },
  {
+  "name": "figure",
+  "count": 1
+ },
+ {
+  "name": "seebeck",
+  "count": 1
+ },
+ {
+  "name": "materials",
+  "count": 1
+ },
+ {
   "name": "tpv",
+  "count": 1
+ },
+ {
+  "name": "volume",
   "count": 1
  },
  {
@@ -1888,11 +2520,11 @@
   "count": 1
  },
  {
-  "name": "international",
+  "name": "ursi",
   "count": 1
  },
  {
-  "name": "ursi",
+  "name": "1913",
   "count": 1
  },
  {
@@ -1904,7 +2536,7 @@
   "count": 1
  },
  {
-  "name": "optic",
+  "name": "uranium",
   "count": 1
  },
  {
@@ -1912,7 +2544,11 @@
   "count": 1
  },
  {
-  "name": "cavity",
+  "name": "circularly",
+  "count": 1
+ },
+ {
+  "name": "polarize",
   "count": 1
  }
 ]

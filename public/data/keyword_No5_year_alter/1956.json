@@ -8,6 +8,10 @@
   "count": 1
  },
  {
+  "name": "strobe",
+  "count": 1
+ },
+ {
   "name": "60",
   "count": 1
  },
@@ -16,15 +20,23 @@
   "count": 1
  },
  {
+  "name": "punched",
+  "count": 1
+ },
+ {
   "name": "cam",
   "count": 1
  },
  {
-  "name": "control",
-  "count": 2
+  "name": "machine",
+  "count": 1
  },
  {
-  "name": "machine",
+  "name": "numerical",
+  "count": 1
+ },
+ {
+  "name": "cutter",
   "count": 1
  },
  {
@@ -36,7 +48,7 @@
   "count": 1
  },
  {
-  "name": "contour",
+  "name": "voltage",
   "count": 1
  },
  {
@@ -44,15 +56,15 @@
   "count": 1
  },
  {
-  "name": "tool",
-  "count": 1
- },
- {
-  "name": "signal",
+  "name": "contour",
   "count": 1
  },
  {
   "name": "record",
+  "count": 1
+ },
+ {
+  "name": "signal",
   "count": 1
  },
  {
@@ -76,11 +88,11 @@
   "count": 1
  },
  {
-  "name": "aerosol",
+  "name": "count",
   "count": 1
  },
  {
-  "name": "count",
+  "name": "aerosol",
   "count": 1
  },
  {
@@ -88,15 +100,11 @@
   "count": 1
  },
  {
-  "name": "application",
-  "count": 1
- },
- {
   "name": "television",
   "count": 1
  },
  {
-  "name": "equipment",
+  "name": "application",
   "count": 1
  },
  {
@@ -108,11 +116,7 @@
   "count": 1
  },
  {
-  "name": "nuclear",
-  "count": 1
- },
- {
-  "name": "problem",
+  "name": "equipment",
   "count": 1
  },
  {
@@ -120,11 +124,19 @@
   "count": 1
  },
  {
-  "name": "method",
+  "name": "nuclear",
   "count": 1
  },
  {
-  "name": "may",
+  "name": "control",
+  "count": 1
+ },
+ {
+  "name": "problem",
+  "count": 1
+ },
+ {
+  "name": "plant",
   "count": 1
  },
  {
@@ -132,7 +144,7 @@
   "count": 1
  },
  {
-  "name": "instrument",
+  "name": "may",
   "count": 1
  },
  {
@@ -140,7 +152,15 @@
   "count": 1
  },
  {
-  "name": "calibration",
+  "name": "instrument",
+  "count": 1
+ },
+ {
+  "name": "measure",
+  "count": 1
+ },
+ {
+  "name": "hysteresis",
   "count": 1
  },
  {
@@ -148,7 +168,7 @@
   "count": 1
  },
  {
-  "name": "hysteresis",
+  "name": "sup",
   "count": 1
  },
  {
@@ -157,10 +177,6 @@
  },
  {
   "name": "magnetic",
-  "count": 1
- },
- {
-  "name": "one",
   "count": 1
  }
 ]

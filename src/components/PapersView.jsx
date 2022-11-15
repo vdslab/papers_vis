@@ -3,7 +3,8 @@ import React ,{useState,useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {changePapersSort} from "../redux/papersSortSlice"
 import { changePapersKeyword } from '../redux/papersKeywordSlice';
-import { changePapersDetail } from '../redux/papersDetailSlice'; 
+import { changePapersDetail } from '../redux/papersDetailSlice';
+import { changeColumnsJudge } from '../redux/columnsSlice'; 
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Table from '@mui/material/Table';
@@ -21,93 +22,46 @@ import TableSortLabel from '@mui/material/TableSortLabel';
 import { visuallyHidden } from '@mui/utils';
 import { Link, Outlet } from "react-router-dom";
 
-const columns = [
-    { id: 'title', label: 'タイトル', align: 'left', disablePadding: false,minWidth: 300 },
-    { id: 'year', label: '発行年', align: 'right', disablePadding: true,minWidth: 100 },
-    { id: 'page', label: 'ページ数', align: 'right', disablePadding: false, minWidth: 150 },
-    { id: 'citing_paper_count', label: '被引用数', align: 'right', disablePadding: false, minWidth: 150 },
-    { id: 'value', label: 'キーワード重要度', align: 'right', disablePadding: false, minWidth: 150 },
-    { id: 'url', label: 'url', minWidth: 30}
-  ];
-
-function EnhancedTableHead(props) {
-    const { order, orderBy, onRequestSort } = props;
-    const createSortHandler = (property) => (event) => {
-      onRequestSort(event, property);
-    };
-  
-    return (
-      <TableHead>
-        <TableRow>
-          {columns.map((column) => (
-            <TableCell
-              key={column.id}
-              align={column.numeric ? 'right' : 'left'}
-              padding={column.disablePadding ? 'none' : 'normal'}
-              sortDirection={orderBy === column.id ? order : false}
-            >
-              <TableSortLabel
-                active={orderBy === column.id}
-                direction={orderBy === column.id ? order : 'asc'}
-                onClick={createSortHandler(column.id)}
-              >
-                {column.label}
-                {orderBy === column.id ? (
-                  <Box component="span" sx={visuallyHidden}>
-                    {order === 'desc' ? 'sorted descending' : 'sorted ascending'}
-                  </Box>
-                ) : null}
-              </TableSortLabel>
-            </TableCell>
-          ))}
-        </TableRow>
-      </TableHead>
-    );
-}
-
-EnhancedTableHead.propTypes = {
-    onRequestSort: PropTypes.func.isRequired,
-    order: PropTypes.oneOf(['asc', 'desc']).isRequired,
-    orderBy: PropTypes.string.isRequired,
-};
-
-function descendingComparator(a, b, orderBy) {
-    if (b[orderBy] < a[orderBy]) {
-      return -1;
-    }
-    if (b[orderBy] > a[orderBy]) {
-      return 1;
-    }
-    return 0;
-}
-
-function getComparator(order, orderBy) {
-    return order === 'desc'
-        ? (a, b) => descendingComparator(a, b, orderBy)
-        : (a, b) => -descendingComparator(a, b, orderBy);
-}
-
-function stableSort(array, comparator) {
-    const stabilizedThis = array.map((el, index) => [el, index]);
-    stabilizedThis.sort((a, b) => {
-      const order = comparator(a[0], b[0]);
-      if (order !== 0) {
-        return order;
-      }
-      return a[1] - b[1];
-    });
-    return stabilizedThis.map((el) => el[0]);
-}
-
 const PapersView = () => {
     const dispatch = useDispatch();
     const [order, setOrder] = useState('desc');
     const [orderBy, setOrderBy] = useState('year');
     const [page, setPage] = useState(0);
     const [rowsPerPage, setRowsPerPage] = useState(200);
+    const [columns, setColumns] = useState([]);
     const keyword = useSelector((state) => state.keyword.keyword);
     const papers = useSelector((state) => state.papersKeyword.papers);
-
+    const columnsJudge = useSelector((state) => state.columnsJudge.judge);
+    const search = useSelector((state) => state.searchForm.search);
+  useEffect(() => {
+    if(columnsJudge == 'search'){
+      const col = [
+        { id: 'title', label: 'タイトル', align: 'left', disablePadding: false,minWidth: 300 },
+        { id: 'authors', label: '著者', align: 'left', disablePadding: false,minWidth: 150},
+        { id: 'publication_year', label: '発行年', align: 'right', disablePadding: true,minWidth: 100 },
+        { id: 'page', label: 'ページ数', align: 'right', disablePadding: false, minWidth: 150 },
+        { id: 'citing_papers_count', label: '被引用数', align: 'right', disablePadding: false, minWidth: 150 },
+        { id: 'html_url', label: 'url', minWidth: 30}
+      ];
+      setColumns(col)
+    }else{
+      const col = [
+        { id: 'title', label: 'タイトル', align: 'left', disablePadding: false,minWidth: 300 },
+        { id: 'year', label: '発行年', align: 'right', disablePadding: true,minWidth: 100 },
+        { id: 'page', label: 'ページ数', align: 'right', disablePadding: false, minWidth: 150 },
+        { id: 'citing_papers_count', label: '被引用数', align: 'right', disablePadding: false, minWidth: 150 },
+        { id: 'value', label: 'キーワード重要度', align: 'right', disablePadding: false, minWidth: 150 },
+        { id: 'url', label: 'url', minWidth: 30}
+    ];
+    setColumns(col)
+    }  
+  },[columnsJudge]);
+    
+    
+    const emptyRows = page > 0 ? Math.max(0, (1 + page) * rowsPerPage - papers.length) : 0;
+    useEffect(() => {
+      console.log(columns)
+    })
     const escapeDoi = (doi) => {
       return doi.replaceAll('.', '_').replaceAll('/', '-');
     }
@@ -127,20 +81,98 @@ const PapersView = () => {
         setRowsPerPage(+event.target.value);
         setPage(0);
       };
-      const emptyRows = page > 0 ? Math.max(0, (1 + page) * rowsPerPage - papers.length) : 0;
+
+      function EnhancedTableHead(props) {
+        const { order, orderBy, onRequestSort } = props;
+        const createSortHandler = (property) => (event) => {
+          onRequestSort(event, property);
+        };
+      
+        return (
+          <TableHead>
+            <TableRow>
+              {columns.map((column) => (
+                <TableCell
+                  key={column.id}
+                  align={column.numeric ? 'right' : 'left'}
+                  padding={column.disablePadding ? 'none' : 'normal'}
+                  sortDirection={orderBy === column.id ? order : false}
+                >
+                  <TableSortLabel
+                    active={orderBy === column.id}
+                    direction={orderBy === column.id ? order : 'asc'}
+                    onClick={createSortHandler(column.id)}
+                  >
+                    {column.label}
+                    {orderBy === column.id ? (
+                      <Box component="span" sx={visuallyHidden}>
+                        {order === 'desc' ? 'sorted descending' : 'sorted ascending'}
+                      </Box>
+                    ) : null}
+                  </TableSortLabel>
+                </TableCell>
+              ))}
+            </TableRow>
+          </TableHead>
+        );
+      }
+    
+      EnhancedTableHead.propTypes = {
+        onRequestSort: PropTypes.func.isRequired,
+        order: PropTypes.oneOf(['asc', 'desc']).isRequired,
+        orderBy: PropTypes.string.isRequired,
+      };
+    
+      function descendingComparator(a, b, orderBy) {
+        if (b[orderBy] < a[orderBy]) {
+          return -1;
+        }
+        if (b[orderBy] > a[orderBy]) {
+          return 1;
+        }
+        return 0;
+      }
+    
+      function getComparator(order, orderBy) {
+        return order === 'desc'
+            ? (a, b) => descendingComparator(a, b, orderBy)
+            : (a, b) => -descendingComparator(a, b, orderBy);
+      }
+    
+      function stableSort(array, comparator) {
+        const stabilizedThis = array.map((el, index) => [el, index]);
+        stabilizedThis.sort((a, b) => {
+          const order = comparator(a[0], b[0]);
+          if (order !== 0) {
+            return order;
+          }
+          return a[1] - b[1];
+        });
+        return stabilizedThis.map((el) => el[0]);
+      }
     return (
         <div>
             <Paper sx={{ width: '100%', overflow: 'hidden' }}>
               <Toolbar sx={{pl: { sm: 2 }, pr: { xs: 1, sm: 1 }}}>
-              {keyword == '' ? (
+              {columnsJudge == 'keyword' ? (
+              keyword == '' ? (
                 <Typography sx={{ flex: '1 1 100%' }} color="justify" variant="subtitle1" component="div">
-                  キーワードを選択すると論文が表示されます
+                  検索を行うかキーワードを選択すると論文が表示されます
                 </Typography>
               ) : (
                 <Typography sx={{ flex: '1 1 100%' }} align="justify" variant="h5" id="tableTitle" component="div">
                   選択されたキーワード：{keyword}
                 </Typography>
-              )}
+              )) : (
+                search == '' ? (
+                  <Typography sx={{ flex: '1 1 100%' }} color="justify" variant="subtitle1" component="div">
+                    検索を行うかキーワードを選択すると論文が表示されます
+                  </Typography>
+                ) : (
+                  <Typography sx={{ flex: '1 1 100%' }} align="justify" variant="h5" id="tableTitle" component="div">
+                    入力されたキーワード：{search}
+                  </Typography>
+              ))}
               </Toolbar>
               <TableContainer sx={{ maxHeight: 600 }}>
                   <Table stickyHeader aria-label="sticky table">
@@ -170,7 +202,7 @@ const PapersView = () => {
                                           //console.log(paper.doi)
                                          // console.log(column)
                                         }
-                                      if(column.id === 'url'){
+                                      if(column.label === 'url'){
                                         return(
                                             <TableCell  key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
                                                 <a href={value} target='_blank'>

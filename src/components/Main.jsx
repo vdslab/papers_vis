@@ -5,6 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import { InputAdornment } from '@mui/material';
 import { Box, Grid } from "@mui/material";
 
+import SearchForm from './SearchForm';
 import YearRangeSlider from './YearRangeSlider';
 import BubbleChart from './BubbleChart';
 import PapersView from './PapersView';
@@ -14,12 +15,7 @@ export default function Main() {
     <div style={{margin: '40px'}}>
       
       {/*  論文検索フォーム */}
-      <Box sx={{ margin: '70px' }}>
-          <Box sx={{ width: '100%', height: 30 }}>
-            <TextField fullWidth id="fullWidth" label="論文検索" variant="outlined"
-            InputProps={{startAdornment:<InputAdornment position="start"><SearchIcon/></InputAdornment>}}/>
-          </Box>
-      </Box>
+      <SearchForm />
 
       <Box>
       <Grid container sx={{ p: 3 ,margin:'30px' }} columnSpacing={2} rowSpacing={2}>    

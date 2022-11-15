@@ -16,7 +16,7 @@
   "count": 1
  },
  {
-  "name": "accuracy",
+  "name": "without",
   "count": 1
  },
  {
@@ -28,15 +28,15 @@
   "count": 1
  },
  {
+  "name": "production",
+  "count": 1
+ },
+ {
   "name": "accounting",
   "count": 1
  },
  {
-  "name": "computation",
-  "count": 1
- },
- {
-  "name": "data format",
+  "name": "format",
   "count": 1
  },
  {
@@ -44,11 +44,11 @@
   "count": 1
  },
  {
-  "name": "signal",
+  "name": "synchro",
   "count": 1
  },
  {
-  "name": "synchro",
+  "name": "signal",
   "count": 1
  },
  {
@@ -56,11 +56,7 @@
   "count": 2
  },
  {
-  "name": "400",
-  "count": 1
- },
- {
-  "name": "accomplish",
+  "name": "pulse",
   "count": 1
  },
  {
@@ -68,11 +64,31 @@
   "count": 1
  },
  {
+  "name": "accomplish",
+  "count": 1
+ },
+ {
   "name": "use",
   "count": 2
  },
  {
+  "name": "result",
+  "count": 1
+ },
+ {
+  "name": "electro",
+  "count": 1
+ },
+ {
   "name": "event",
+  "count": 1
+ },
+ {
+  "name": "response",
+  "count": 1
+ },
+ {
+  "name": "fast",
   "count": 1
  },
  {
@@ -80,35 +96,23 @@
   "count": 1
  },
  {
-  "name": "capable",
-  "count": 1
- },
- {
   "name": "industrial",
   "count": 1
  },
  {
-  "name": "control",
-  "count": 2
+  "name": "computers",
+  "count": 1
  },
  {
   "name": "process",
   "count": 1
  },
  {
-  "name": "application",
-  "count": 2
- },
- {
-  "name": "20",
+  "name": "make",
   "count": 1
  },
  {
-  "name": "machine",
-  "count": 1
- },
- {
-  "name": "unit",
+  "name": "computer",
   "count": 1
  },
  {
@@ -117,6 +121,18 @@
  },
  {
   "name": "welding",
+  "count": 1
+ },
+ {
+  "name": "unit",
+  "count": 1
+ },
+ {
+  "name": "machine",
+  "count": 1
+ },
+ {
+  "name": "20",
   "count": 1
  },
  {
@@ -132,11 +148,15 @@
   "count": 1
  },
  {
-  "name": "motor",
+  "name": "thermometry",
   "count": 1
  },
  {
-  "name": "speed",
+  "name": "broad",
+  "count": 1
+ },
+ {
+  "name": "motor",
   "count": 1
  },
  {
@@ -144,7 +164,15 @@
   "count": 1
  },
  {
-  "name": "switch",
+  "name": "speed",
+  "count": 1
+ },
+ {
+  "name": "supply",
+  "count": 1
+ },
+ {
+  "name": "energy",
   "count": 1
  },
  {
@@ -152,7 +180,7 @@
   "count": 1
  },
  {
-  "name": "circuit",
+  "name": "camera",
   "count": 1
  },
  {
@@ -160,7 +188,7 @@
   "count": 1
  },
  {
-  "name": "camera",
+  "name": "circuit",
   "count": 1
  }
 ]
