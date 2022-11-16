@@ -65,7 +65,7 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
         height = "1000">
              <IconButton aria-label="delete" onClick={() => setIsOpenMenu(true)}
              style = {{margin:"5px"}}>
-            {!isOpenMenu || <KeyboardArrowUpIcon/>}
+            {isOpenMenu ?<KeyboardArrowUpIcon/>:<KeyboardArrowUpIcon/> }
             </IconButton>
         </foreignObject>
         
