@@ -60,7 +60,7 @@ const Network = () => {
 
             
             
-          
+          <div style = {{width:"65%"}}>
                 <NetworkGraph 
                 detail = {detail} setDetail = {setDetail}
                 sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} 
@@ -69,7 +69,12 @@ const Network = () => {
                 reloading = {reloading}
                 isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
                 />
-
+            </div>
+                
+                <div >
+            {!isOpenMenu || <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
+                reloading = {reloading}  setReloading = {setReloading}/>}
+                </div>
          
 
             {/*loading || <button className='button is-white' style={{margin : '0 0 0 5px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>

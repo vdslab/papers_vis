@@ -11,7 +11,7 @@ import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import Box from '@mui/material/Box';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+
 
 import CircularProgressWithLabel from "./CircularProgressWithLabel";
 
@@ -59,13 +59,13 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
         </foreignObject>
 
         <foreignObject
-        x = {width}
+        x = {width-60 - 10}
         y = {0}
         width = "1000"
         height = "1000">
              <IconButton aria-label="delete" onClick={() => setIsOpenMenu(true)}
              style = {{margin:"5px"}}>
-            {isOpenMenu ?<KeyboardArrowUpIcon/>:<KeyboardArrowUpIcon/> }
+            {!isOpenMenu || <KeyboardArrowDownIcon/>}
             </IconButton>
         </foreignObject>
         

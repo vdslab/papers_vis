@@ -3,6 +3,8 @@ import objectArray2ArrayByKey from '../objectArray2ArraybyKey';
 import CloseIcon from '@mui/icons-material/Close';
 import {useRef, useState} from 'react';
 import { Link, Outlet } from "react-router-dom";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowUp';
+import IconButton from '@mui/material/IconButton';
 
 const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, reloading, setReloading}) => {
     const escapeDoi = (doi) => {
@@ -18,11 +20,15 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, re
       console.log(detail)
     return(
           
-        <section className ="message is-info is-12" style={{position:'relative' , right:'325px', width:'150%', height :isOpenMenu?`${window.innerHeight * 0.7}px`:'0px',overflowY: 'scroll', transitionDuration: '.3s'}} >
+        <section className ="message is-info is-12" style={{position:'relative' ,top:'20px', height :isOpenMenu?`${window.innerHeight * 0.7}px`:'0px',overflowY: 'scroll', transitionDuration: '.3s'}} >
 
         <div className="message-header">
-            <h1 className="title is-5" >論文詳細</h1>
-            
+            <div className = "wrapper">
+                <h1 className="title is-5"  >論文詳細</h1>
+            </div>
+            <IconButton aria-label="delete">
+                <KeyboardArrowDownIcon/>
+            </IconButton>
         </div>
 
         
