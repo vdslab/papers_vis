@@ -15,6 +15,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 import CircularProgressWithLabel from "./CircularProgressWithLabel";
 import HelpIcon from '@mui/icons-material/Help';
+import { Link } from 'react-router-dom';
 
 /*
 todo
@@ -59,6 +60,23 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
             </IconButton>
         </foreignObject>
 
+       
+        <foreignObject
+        x={10}
+        y={60}
+        width="110"
+        height="50"
+        >
+                  <Link to = "../../help">
+             
+           
+            <IconButton aria-label="delete" 
+            style = {{margin:"5px"}}>
+                <HelpIcon />
+            </IconButton>
+            </Link>
+        </foreignObject>
+
         <foreignObject
         x = {width-60 - 10}
         y = {10}
@@ -70,6 +88,8 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
 
             </IconButton>
         </foreignObject>
+
+
         
       </svg>
     );
@@ -132,7 +152,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         //trueはラベルあり、falseはラベルなし
         return Array(maxNodeNum).fill(false);
     });
-
+    const [loadingString, setLoadingString] = useState('読み込み中');
     const params = useParams();
 
 
@@ -253,7 +273,10 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     top = stack.shift();
                     console.log("$$$$$$$$$$")
                     console.log(top);
-
+                    
+                    
+                    
+                   
                     setProgress(100*nodeData.length / nodeNum);
                     console.error(nodeData.length);
                     console.error(nodeNum);
@@ -472,7 +495,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         <div>
         
         {loading?<div style = {{position:'absolute', top : `${height/2.2}px`, left:`${width/2.2}px` }}><CircularProgressWithLabel value={progress} />
-        <br/> <br/> <p style={{position:'relative', right:'20px'}}>読み込み中...</p></div>:
+        <br/> <br/> <p style={{position:'relative', right:'20px'}} onClick = {() => setLoadingString(loadingString + ".")}>{loadingString}</p></div>:
         <ZoomableSVG width={graphWidth} height={graphHeight-6} setSideBarOpen= {setSideBarOpen} sideBarOpen = {sideBarOpen}
         isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}>
 
