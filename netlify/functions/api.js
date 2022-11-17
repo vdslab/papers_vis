@@ -7,7 +7,7 @@ const pool = new Pool({
   host: process.env.REACT_APP_PGHOST,
   user: process.env.REACT_APP_PGUSER,
   database: process.env.REACT_APP_PGDATABASE,
-  port: 5433,
+  port: 5432,
   password: process.env.REACT_APP_PGPASSWORD,
   connectionTimeoutMillis: 60000,
   statement_timeout: 60000
@@ -69,16 +69,16 @@ router.get("/authors", async (req, res) => {
   res.json(data);
 });
 
-router.get("/authors/:name", async (req, res) => {
-    const data = await selectRows(`SELECT * FROM authors WHERE name &@ $1`,[
-      req.params.name,
-    ]);  
-    if (data.length === 0) {
-      res.status(404).json({ message: "not found" });
-    } else {
-      res.json(data);
-    }
-});
+//router.get("/authors/:name", async (req, res) => {
+//    const data = await selectRows(`SELECT * FROM authors WHERE name &@ $1`,[
+//      req.params.name,
+//    ]);  
+//    if (data.length === 0) {
+//      res.status(404).json({ message: "not found" });
+//    } else {
+//      res.json(data);
+//    }
+//});
 
 
 router.get("/journals", async (req, res) => {
@@ -89,16 +89,16 @@ router.get("/journals", async (req, res) => {
 
 
 
-// router.get("/authors/:doi", async (req, res) => {
-//   const data = await selectRows(`SELECT * FROM authors WHERE doi = $1`, [
-//     req.params.doi,
-//   ]);
-//   if (data.length === 0) {
-//     res.status(404).json({ message: "not found" });
-//   } else {
-//     res.json(data);
-//   }
-// });
+ router.get("/authors/:doi", async (req, res) => {
+  const data = await selectRows(`SELECT * FROM authors WHERE doi = $1`, [
+    req.params.doi,
+   ]);
+   if (data.length === 0) {
+     res.status(404).json({ message: "not found" });
+      } else {
+     res.json(data);
+   }
+ });
 
 router.get("/keywords", async (req, res) => {
   const data = await selectRows(`SELECT * FROM keywords`);
