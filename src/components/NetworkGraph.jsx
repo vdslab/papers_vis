@@ -264,7 +264,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     const encoded = encodeURIComponent(top.doi);
 
                     //doiがnot foundになる可能性がある
-                    const tmp = await(await fetch(`/.netlify/functions/api/papers/${encoded}`)).json();
+                    const tmp = await(await fetch(`/.netlify/functions/api/papers/doi/${encoded}`)).json();
                     const data = tmp[0];
                     
                     data['id'] = top['doi'];
