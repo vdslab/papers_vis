@@ -20,7 +20,12 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, re
       console.log(detail)
     return(
           
-        <section className ="message is-info is-12" style={{position:'relative' ,top:'20px', height :isOpenMenu?`${window.innerHeight * 0.8}px`:'0px',overflowY: 'scroll', transitionDuration: '.2s'}} >
+        <section className ="message is-info is-12" 
+        style={{position:'relative' ,top:'20px', height :isOpenMenu?`${window.innerHeight * 0.8}px`:'0px', 
+        overflowY: 'scroll', 
+        transitionDuration: '.25s',
+        transitionTimingFunction: "ease-in"
+        }} >
 
         <div className="message-header">
             <div className = "wrapper">

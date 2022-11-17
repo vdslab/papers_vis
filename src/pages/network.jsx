@@ -73,7 +73,7 @@ const Network = () => {
             </div>
                 
                
-            {!isOpenMenu || <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
+            {loading || <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
                 reloading = {reloading}  setReloading = {setReloading}/>}
                 
          
