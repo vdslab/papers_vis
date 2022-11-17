@@ -21,7 +21,7 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, re
     return(
           
         <section className ="message is-info is-12" 
-        style={{position:'relative' ,top:'20px', height :isOpenMenu?`${window.innerHeight * 0.8}px`:'0px', 
+        style={{position:'relative' ,top:'20px', height :isOpenMenu?`${window.innerHeight * 0.95}px`:'0px', 
         overflowY: 'scroll', 
         transitionDuration: '.25s',
         transitionTimingFunction: "ease-in"

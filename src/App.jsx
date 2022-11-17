@@ -65,13 +65,12 @@ export default function App() {
                 <ScrollTop />
                 <Routes>
                     <Route path = "/" element = {<Layout />}>
-                        <Route index element = {<Main />} />
-                        <Route path = "network/:doi" element = {<Network />} />
+                        <Route index element = {<Main />} />    
                         <Route exact path = "help" element = {<p>f</p>} />
                         <Route path="*" element={<NotFound />} />
-                </Route>
+                    </Route>
 
-                    
+                    <Route path = "/network/:doi" element = {<Network />} />
                 </Routes>
             </BrowserRouter>
     );
