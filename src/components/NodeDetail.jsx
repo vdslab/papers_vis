@@ -36,7 +36,7 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, re
             </div>
 
             <IconButton aria-label="delete" onClick={() => setIsOpenMenu(!isOpenMenu)}>
-                <KeyboardArrowDownIcon/>
+                < CloseIcon/>
             </IconButton>
 
             

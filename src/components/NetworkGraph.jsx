@@ -15,6 +15,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 import CircularProgressWithLabel from "./CircularProgressWithLabel";
 import HelpIcon from '@mui/icons-material/Help';
+import Tooltip from '@mui/material/Tooltip';
 import { Link } from 'react-router-dom';
 
 /*
@@ -48,16 +49,20 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
 
   
         <g transform={`translate(${x},${y})scale(${k})`}>{children}</g>
+        
+        {/*ハンバーガーメニュー*/}
         <foreignObject
         x={10}
         y={10}
         width="110"
         height="50"
         >
+            <Tooltip title="ネットワーク設定" placement="right">
             <IconButton aria-label="delete" onClick={() => setSideBarOpen(!sideBarOpen)}
             style = {{margin:"5px"}}>
                 <MenuIcon />
             </IconButton>
+            </Tooltip>
         </foreignObject>
 
        
@@ -68,12 +73,12 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
         height="50"
         >
                   <Link to = "../../help">
-             
-           
+           <Tooltip title="ヘルプ" placement="right">
             <IconButton aria-label="delete" 
             style = {{margin:"5px"}}>
                 <HelpIcon />
             </IconButton>
+            </Tooltip>
             </Link>
         </foreignObject>
 
@@ -82,11 +87,15 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
         y = {10}
         width = "200"
         height = "200">
+            {isOpenMenu ||
+            <Tooltip  title="論文詳細を開く" placement="left">
              <IconButton aria-label="delete" onClick={() => setIsOpenMenu(!isOpenMenu)}
              >
             <KeyboardArrowDownIcon/>
 
             </IconButton>
+            </Tooltip>
+            }
         </foreignObject>
 
 
@@ -152,7 +161,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         //trueはラベルあり、falseはラベルなし
         return Array(maxNodeNum).fill(false);
     });
-    const [loadingString, setLoadingString] = useState('読み込み中');
+    //const [loadingString, setLoadingString] = useState('読み込み中');
     const params = useParams();
 
 
@@ -495,7 +504,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         <div>
         
         {loading?<div style = {{position:'absolute', top : `${height/2.2}px`, left:`${width/2.2}px` }}><CircularProgressWithLabel value={progress} />
-        <br/> <br/> <p style={{position:'relative', right:'20px'}} onClick = {() => setLoadingString(loadingString + ".")}>{loadingString}</p></div>:
+        <br/> <br/> <p style={{position:'relative', right:'20px'}} >読み込み中...</p></div>:
         <ZoomableSVG width={graphWidth} height={graphHeight-6} setSideBarOpen= {setSideBarOpen} sideBarOpen = {sideBarOpen}
         isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}>
 
