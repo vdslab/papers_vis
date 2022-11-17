@@ -20,13 +20,14 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, re
       console.log(detail)
     return(
           
-        <section className ="message is-info is-12" style={{position:'relative' ,top:'20px', height :isOpenMenu?`${window.innerHeight * 0.7}px`:'0px',overflowY: 'scroll', transitionDuration: '.3s'}} >
+        <section className ="message is-info is-12" style={{position:'relative' ,top:'20px', height :isOpenMenu?`${window.innerHeight * 0.8}px`:'0px',overflowY: 'scroll', transitionDuration: '.2s'}} >
 
         <div className="message-header">
             <div className = "wrapper">
                 <h1 className="title is-5"  >論文詳細</h1>
             </div>
-            <IconButton aria-label="delete">
+
+            <IconButton aria-label="delete" onClick={() => setIsOpenMenu(!isOpenMenu)}>
                 <KeyboardArrowDownIcon/>
             </IconButton>
         </div>

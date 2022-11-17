@@ -47,8 +47,8 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
   
         <g transform={`translate(${x},${y})scale(${k})`}>{children}</g>
         <foreignObject
-        x={0}
-        y={0}
+        x={10}
+        y={10}
         width="110"
         height="50"
         >
@@ -60,12 +60,13 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
 
         <foreignObject
         x = {width-60 - 10}
-        y = {0}
-        width = "1000"
-        height = "1000">
-             <IconButton aria-label="delete" onClick={() => setIsOpenMenu(true)}
-             style = {{margin:"5px"}}>
-            {!isOpenMenu || <KeyboardArrowDownIcon/>}
+        y = {10}
+        width = "200"
+        height = "200">
+             <IconButton aria-label="delete" onClick={() => setIsOpenMenu(!isOpenMenu)}
+             >
+            <KeyboardArrowDownIcon/>
+
             </IconButton>
         </foreignObject>
         

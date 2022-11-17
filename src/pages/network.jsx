@@ -16,6 +16,7 @@ import { styled } from '@mui/material/styles';
 import SelectPartOrWholeLabel from "../components/SelectPartOrWholeLabel";
 import { positions } from '@mui/system';
 
+const menuRatio = 35;
 const DrawerHeader = styled('div')(({ theme }) => ({
     display: 'flex',
     alignItems: 'center',
@@ -71,10 +72,10 @@ const Network = () => {
                 />
             </div>
                 
-                <div >
+               
             {!isOpenMenu || <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
                 reloading = {reloading}  setReloading = {setReloading}/>}
-                </div>
+                
          
 
             {/*loading || <button className='button is-white' style={{margin : '0 0 0 5px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>
