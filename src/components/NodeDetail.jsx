@@ -5,8 +5,11 @@ import {useRef, useState} from 'react';
 import { Link, Outlet } from "react-router-dom";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowUp';
 import IconButton from '@mui/material/IconButton';
+import useWindowSize from '../useWindowSize';
 
 const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, reloading, setReloading}) => {
+    const [width, height] = useWindowSize();
+
     const escapeDoi = (doi) => {
 
         if(doi !== undefined) {
@@ -21,9 +24,9 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, re
     return(
           
         <section className ="message is-info is-12" 
-        style={{position:'relative' ,top:'20px', height :isOpenMenu?`${window.innerHeight * 0.8}px`:'0px', 
+        style={{position:'relative' ,top:'20px', height :isOpenMenu?`${height * 0.95}px`:'0px', 
         overflowY: 'scroll', 
-        transitionDuration: '.25s',
+        transitionDuration: '.20s',
         transitionTimingFunction: "ease-in"
         }} >
 
@@ -33,8 +36,10 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, re
             </div>
 
             <IconButton aria-label="delete" onClick={() => setIsOpenMenu(!isOpenMenu)}>
-                <KeyboardArrowDownIcon/>
+                < CloseIcon/>
             </IconButton>
+
+            
         </div>
 
         
