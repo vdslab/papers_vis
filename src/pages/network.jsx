@@ -15,16 +15,8 @@ import Divider from '@mui/material/Divider';
 import { styled } from '@mui/material/styles';
 import SelectPartOrWholeLabel from "../components/SelectPartOrWholeLabel";
 import { positions } from '@mui/system';
+import SideBar from '../components/SideBar';
 
-const menuRatio = 35;
-const DrawerHeader = styled('div')(({ theme }) => ({
-    display: 'flex',
-    alignItems: 'center',
-    padding: theme.spacing(0, 1),
-    // necessary for content to be below app bar
-    ...theme.mixins.toolbar,
-    justifyContent: 'flex-end',
-  }));
 
 const Network = () => {
     const [detail, setDetail] = useState({});
@@ -43,21 +35,9 @@ const Network = () => {
         
         <div style={loading?{margin: '550px auto'}:{display:'flex'}}>
 
-            {/*サイドバー*/}
-            <Drawer  variant="persistent" anchor='left' open={sideBarOpen} onClose={toggleOpen}> 
-            <DrawerHeader>
-                <IconButton aria-label="delete" onClick={() => setSideBarOpen(!sideBarOpen)}>
-                    <ArrowBackIcon/>
-                </IconButton>
-                
-            </DrawerHeader>
-            <Divider />
-            
-                <Stack spacing={4}>
-                    <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
-                    <SelectPartOrWholeLabel />
-                </Stack>
-            </Drawer>
+            <SideBar sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} 
+            nodeLabel = {nodeLabel}  setNodeLabel = {setNodeLabel} />
+        
 
             
             
