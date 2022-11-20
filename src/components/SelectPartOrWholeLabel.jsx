@@ -7,26 +7,25 @@ import Container from '@mui/material/Container';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import { useState } from 'react';
 
-export default function SelectPartOrWholeLabel () {
-    const [value, setValue] = useState('female');
+export default function SelectPartOrWholeLabel ({title, LabelPart ,setLabelPart}) {
 
     const handleChange = (event) => {
-      setValue(event.target.value);
+      setLabelPart(event.target.value);
     };
   
     return (
         <Container>
         <Box >
       <FormControl>
-        <FormLabel>ノードラベル表示量</FormLabel>
+        <FormLabel>{title}</FormLabel>
         <RadioGroup
         aria-labelledby="demo-controlled-radio-buttons-group"
         name="controlled-radio-buttons-group"
-        value={value}
+        value={LabelPart}
         onChange={handleChange}
       >
-        <FormControlLabel value="female" control={<Radio />} label="一部" />
-        <FormControlLabel value="male" control={<Radio />} label="全体" />
+        <FormControlLabel value="part" control={<Radio />} label="一部" />
+        <FormControlLabel value="whole" control={<Radio />} label="全体" />
       </RadioGroup>
       </FormControl>
       </Box>

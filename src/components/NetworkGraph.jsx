@@ -132,7 +132,8 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
 
   
 
-const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen, loading, setLoading, reloading, isOpenMenu , setIsOpenMenu}) => {
+const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen, loading, setLoading, reloading, isOpenMenu , setIsOpenMenu
+                    ,LabelPart, setLabelPart}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
     const [graphWidth, graphHeight] = [width, height];
@@ -509,8 +510,11 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}>
 
         <g className="links">
-            {links.map((link) => {
+            {
+            links.map((link) => {
+                console.log(LabelPart);
                 return(
+                   
                     <line
                     key={link.source.id + "-" + link.target.id}
                     stroke= {( (nodesState[link.source.index] === 2 && nodeLabels[link.target.index] === true) || (nodesState[link.target.index] === 2 && nodeLabels[link.source.index] === true) ) || linkCol}
@@ -582,7 +586,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     style={{pointerEvents: "none"}}
                 >
         
-                    {nodeLabels[key] !== true || (nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))}
+                    { LabelPart === "part"?(nodeLabels[key] !== true || (nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')))
+                    :(nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))}
                    
                 </text>
             );

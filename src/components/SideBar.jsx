@@ -18,7 +18,8 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   }));
 
 
-const SideBar = ({sideBarOpen, setSideBarOpen, nodeLabel, setNodeLabel}) => {
+const SideBar = ({sideBarOpen, setSideBarOpen, nodeLabel, setNodeLabel, LabelPart ,setLabelPart,
+    }) => {
     return(
         <div>
             <Drawer  variant="persistent" anchor='left' open={sideBarOpen} onClose={()=> setSideBarOpen(!sideBarOpen)}> 
@@ -32,7 +33,8 @@ const SideBar = ({sideBarOpen, setSideBarOpen, nodeLabel, setNodeLabel}) => {
             
                 <Stack spacing={4}>
                     <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
-                    <SelectPartOrWholeLabel />
+                    <SelectPartOrWholeLabel title = {"ラベル表示量"} LabelPart = {LabelPart} setLabelPart = {setLabelPart}/>
+                    
                 </Stack>
             </Drawer>
         </div>

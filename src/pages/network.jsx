@@ -27,6 +27,8 @@ const Network = () => {
     const [reloading, setReloading] = useState(true);
     const query = new URLSearchParams(search);
     const [sideBarOpen, setSideBarOpen] = useState(false);
+    const [nodeLabelsPart, setNodeLabelsPart] = useState("whole");
+    const [LabelPart, setLabelPart] = useState("part");
     const toggleOpen=() => {
         setSideBarOpen(!sideBarOpen);
     }
@@ -35,8 +37,12 @@ const Network = () => {
         
         <div style={loading?{margin: '550px auto'}:{display:'flex'}}>
 
-            <SideBar sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} 
-            nodeLabel = {nodeLabel}  setNodeLabel = {setNodeLabel} />
+            <SideBar 
+            sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} 
+            nodeLabel = {nodeLabel}  setNodeLabel = {setNodeLabel}
+            LabelPart = {LabelPart} setLabelPart = {setLabelPart}
+           
+            />
         
 
             
@@ -49,6 +55,8 @@ const Network = () => {
                 setLoading = {setLoading} loading = {loading}
                 reloading = {reloading}
                 isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
+                LabelPart = {LabelPart} setLabelPart = {setLabelPart}
+               
                 />
             </div>
                 
