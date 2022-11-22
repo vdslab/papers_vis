@@ -29,9 +29,9 @@ todo
 const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpenMenu , setIsOpenMenu }) => {
 
     const svgRef = useRef();
-    const [k, setK] = useState(1.5);
-    const [x, setX] = useState(width/3.5);
-    const [y, setY] = useState(height/3.5);
+    const [k, setK] = useState(2.4);
+    const [x, setX] = useState(width/5);
+    const [y, setY] = useState(height/4);
     useEffect(() => {
       const zoom = d3.zoom().on("zoom", (event) => {
         const { x, y, k } = event.transform;
@@ -244,14 +244,14 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                 const simulation = d3
                 .forceSimulation()
                 .nodes(nodes)
-                .force("link", d3.forceLink().strength(0.2).id((d) => d['id']))
+                .force("link", d3.forceLink().strength(0.5).distance(100).id((d) => d['id']))
                 .force("center", d3.forceCenter(100, 100))
-                .force('charge', d3.forceManyBody())
+                .force('charge', d3.forceManyBody().strength(-100))
                 .force('collision', d3.forceCollide()
                       .radius(function (d) {
                         return 15;
                       })
-                      .iterations(1))
+                      .iterations(1.0))
                 //.force('x', d3.forceX().x(100).strength(0.3))
                 //.force('y', d3.forceY().y(100).strength(0.3))
               
@@ -557,7 +557,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     <circle
                         className="node"
                         key = {node.id}
-                        r = {10}
+                        r = {8}
                         style = {{fill : key !== firstSelectedNodeKey ?nodeCols[nodesState[key]]:firseSelectedNodeCol}}
                         cx = {node.x}
                         cy = {node.y}
