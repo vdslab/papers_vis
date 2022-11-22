@@ -9,7 +9,7 @@ const Header = () => {
 
   const [width, height] = useWindowSize();
   const hatenaStyle = width >= 600?{position:'relative', bottom : "30px" }:{position:'relative', bottom : "30px", left:"400px" };
-  
+  const [active, setActive] = useState('pictures');
     return (
       <header>
         
@@ -32,12 +32,16 @@ const Header = () => {
           </Box>
   
             </Grid>
-          
-        </Grid>
-          </div>
-
-
-          
+            </Grid>
+            </div>
+            <div className="tabs ">
+            <ul>
+                <li><Link to="/">AAA</Link></li>
+                <li><Link to="nokeywords">キーワードなし</Link></li>
+                <li><Link to="novis">可視化なし</Link></li>
+                
+            </ul>
+            </div>          
         </div>
       </header>
     );

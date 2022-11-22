@@ -74,13 +74,6 @@ const BubbleChart = () => {
         }
     },[keyword])
     
-    let packs = d3.pack()
-                 .size([width, height])
-                 .padding(0);
-    let root = d3.hierarchy(data);
-    root.sum(function(d) { return d.count; });
-    let node = packs(root);
-
     const styles = {
         transition:"transform 1s"
     }
@@ -121,21 +114,12 @@ const BubbleChart = () => {
                     </Typography>
                 </Toolbar>
                 <svg viewBox={`${-margin.left} ${margin.top} ${svgWidth} ${svgHeight}`} >
-                    {node.leaves().map((item,i)=>{
-                        return(
-                        <g transform={`translate(${item.x},${item.y})`} style={styles}>
-                            <circle className='key'
-                                r={item.r} 
-                                fill="#ff9500" 
-                                opacity={(node.leaves().length-i)/node.leaves().length+0.1} 
-                                onClick={(e) => onClickhandle(e,item.data.name)}
-                            />
-                            <text fontSize={item.r*0.4}  dominantBaseline="central" textAnchor="middle" style={{pointerEvents: "none"}}>
-                                {item.data.name}
-                            </text>
-                        </g>
-                        )
-                    })}
+                    <select >
+                        {data.children.map((item) => {
+                            <option value={item.count}>{item.name}</option>
+                        })}
+                    </select>
+                    
                 </svg>
             </Card>
         );

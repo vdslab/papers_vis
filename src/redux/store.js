@@ -8,6 +8,8 @@ import papersKeywordReducer from './papersKeywordSlice';
 import papersDetailReducer from './papersDetailSlice';
 import searchFormReducer from './searchFormSlice';
 import columnsJudgeReducer from './columnsSlice';
+import scrollJudgeReducer from './scrollJudge';
+import tableDataJudgeReducer from './tableDataJudge';
 
 export const store = configureStore({
   reducer: {
@@ -20,5 +22,7 @@ export const store = configureStore({
     papersDetail:papersDetailReducer,
     searchForm: searchFormReducer,
     columnsJudge: columnsJudgeReducer,
+    scrollJudge: scrollJudgeReducer,
+    tableDataJudge: tableDataJudgeReducer,
   },
 });

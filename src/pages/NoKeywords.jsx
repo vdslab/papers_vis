@@ -7,12 +7,12 @@ import { Box, Grid } from "@mui/material";
 import {useRef,useEffect } from 'react';
 import { useDispatch, useSelector } from "react-redux";
 
-import SearchForm from './SearchForm';
-import YearRangeSlider from './YearRangeSlider';
-import BubbleChart from './BubbleChart';
-import PapersView from './PapersView';
+import SearchForm from '../components/SearchForm';
+import PapersView from '../components/PapersView';
 
 import { changeScrollJudge } from '../redux/scrollJudge';
+import { changePapersKeyword } from '../redux/papersKeywordSlice';
+import { changeKeyword } from '../redux/keywordSlice';
 
 export default function Main() {
   const dispatch = useDispatch();
@@ -23,6 +23,8 @@ export default function Main() {
       scrollRef.current.scrollIntoView({behavior: 'smooth' });
       dispatch(changeScrollJudge(false));
     }
+    dispatch(changePapersKeyword([]));
+    dispatch(changeKeyword(''));
   },[scrollJudge])
     return (
     <div style={{margin: '40px'}}>
@@ -30,34 +32,9 @@ export default function Main() {
       {/*  論文検索フォーム */}
       <SearchForm />
 
-      <Box>
-      <Grid container sx={{ p: 3 ,margin:'30px' }} columnSpacing={2} rowSpacing={2} >    
-      {/* キーワードビュー　*/}
-        <Grid item xs={11} md={4}>
-          <YearRangeSlider/>
-        </Grid>
-        <Grid item xs={11} md={7} > 
-          <BubbleChart />
-        </Grid>
-        
-      </Grid>
-      </Box>
-
       {/*論文リスト */}
       <div  ref={scrollRef} style={{ margin: '40px'}} className = "menu" >
         <PapersView />
-        {/* <p className='menu-label'>
-          論文リスト
-        </p>
-
-        <ul className='menu-list'>
-          <li><p>論文1</p></li>
-          <li><p>論文1</p></li>
-          <li><p>論文1</p></li>
-          <li><p>論文1</p></li>
-          <li><p>論文1</p></li>
-          <li><p>論文1</p></li>
-        </ul> */}
       </div>
 
       
