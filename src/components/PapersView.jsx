@@ -5,7 +5,8 @@ import {changePapersSort} from "../redux/papersSortSlice"
 import { changePapersKeyword } from '../redux/papersKeywordSlice';
 import { changePapersDetail } from '../redux/papersDetailSlice';
 import { changeColumnsJudge } from '../redux/columnsSlice'; 
-import Box from '@mui/material/Box';
+import { Card, Tooltip ,Box, Skeleton} from "@mui/material";
+import CircularProgress from '@mui/material/CircularProgress';
 import Paper from '@mui/material/Paper';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -21,6 +22,7 @@ import PropTypes from 'prop-types';
 import TableSortLabel from '@mui/material/TableSortLabel';
 import { visuallyHidden } from '@mui/utils';
 import { Link, Outlet } from "react-router-dom";
+import { ThreeDots } from 'react-loader-spinner';
 
 const PapersView = () => {
     const dispatch = useDispatch();
@@ -33,24 +35,25 @@ const PapersView = () => {
     const papers = useSelector((state) => state.papersKeyword.papers);
     const columnsJudge = useSelector((state) => state.columnsJudge.judge);
     const search = useSelector((state) => state.searchForm.search);
+    const tableDataJudge = useSelector((state) => state.tableDataJudge.judge);
   useEffect(() => {
     if(columnsJudge == 'search'){
       const col = [
-        { id: 'title', label: 'タイトル', align: 'left', disablePadding: false,minWidth: 300 },
-        { id: 'authors', label: '著者', align: 'left', disablePadding: false,minWidth: 150},
-        { id: 'publication_year', label: '発行年', align: 'right', disablePadding: true,minWidth: 100 },
-        { id: 'page', label: 'ページ数', align: 'right', disablePadding: false, minWidth: 150 },
-        { id: 'citing_papers_count', label: '被引用数', align: 'right', disablePadding: false, minWidth: 150 },
+        { id: 'title', label: 'タイトル',numeric : false , align: 'left', disablePadding: false,minWidth: 300 },
+        { id: 'authors', label: '著者',numeric : false , align: 'left', disablePadding: false,minWidth: 150},
+        { id: 'publication_year', label: '発行年',numeric : true , align: 'right', disablePadding: true,minWidth: 100 },
+        { id: 'page', label: 'ページ数',numeric : true, align: 'right', disablePadding: true, minWidth: 120 },
+        { id: 'citing_papers_count', label: '被引用数',numeric : true, align: 'right', disablePadding: true, minWidth: 120 },
         { id: 'html_url', label: 'url', minWidth: 30}
       ];
       setColumns(col)
     }else{
       const col = [
-        { id: 'title', label: 'タイトル', align: 'left', disablePadding: false,minWidth: 300 },
-        { id: 'year', label: '発行年', align: 'right', disablePadding: true,minWidth: 100 },
-        { id: 'page', label: 'ページ数', align: 'right', disablePadding: false, minWidth: 150 },
-        { id: 'citing_papers_count', label: '被引用数', align: 'right', disablePadding: false, minWidth: 150 },
-        { id: 'value', label: 'キーワード重要度', align: 'right', disablePadding: false, minWidth: 150 },
+        { id: 'title', label: 'タイトル',numeric : false , align: 'left', disablePadding: false,minWidth: 300 },
+        { id: 'year', label: '発行年', numeric : true, align: 'right', disablePadding: true,minWidth: 100 },
+        { id: 'page', label: 'ページ数', numeric : true,align: 'right', disablePadding: true, minWidth: 120 },
+        { id: 'citing_papers_count', label: '被引用数', numeric : true, align: 'right', disablePadding: true, minWidth: 120 },
+        { id: 'value', label: 'キーワード重要度', numeric : true, align: 'right', disablePadding: true, minWidth: 150 },
         { id: 'url', label: 'url', minWidth: 30}
     ];
     setColumns(col)
@@ -174,7 +177,28 @@ const PapersView = () => {
                   </Typography>
               ))}
               </Toolbar>
+              
               <TableContainer sx={{ maxHeight: 600 }}>
+                
+              {!tableDataJudge ? (
+                <div>
+                  <Table stickyHeader aria-label="sticky table">
+                    <EnhancedTableHead
+                      order={order}
+                      orderBy={orderBy}
+                      onRequestSort={handleRequestSort}
+                    />
+                  </Table>
+                  <Card sx={{ Width: "100%", height: "100%" }}>
+                    {/* <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} sx={{my:5 }}> 
+                          <Skeleton sx={{ width: "100%",height: 400 }} animation="wave" variant="rectangular" />
+                        </Box>                   */}
+                    <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} sx={{my:3 ,height: 350.5}}>
+                      <ThreeDots height="100" width="100" radius="30" color="#4fa94d" ariaLabel="three-dots-loading" wrapperStyle={{}} wrapperClassName="" visible={true} />
+                    </Box> 
+                  </Card>
+                 </div>
+              ):(
                   <Table stickyHeader aria-label="sticky table">
                       <EnhancedTableHead
                           order={order}
@@ -182,8 +206,6 @@ const PapersView = () => {
                           onRequestSort={handleRequestSort}
                       />
                       <TableBody>
-
-
                         {stableSort(papers, getComparator(order, orderBy))
                           .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                           .map((paper, index) => {
@@ -202,39 +224,78 @@ const PapersView = () => {
                                           //console.log(paper.doi)
                                          // console.log(column)
                                         }
-                                      if(column.label === 'url'){
-                                        return(
+                                        if(column.label === 'url'){
+                                          return(
                                             <TableCell  key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
                                                 <a href={value} target='_blank'>
                                                     <LaunchIcon/>
                                                 </a>           
                                             </TableCell>
-                                        )
-                                      }else if(column.id === 'title'){
-                                        return(
-                                          <TableCell  key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
+                                          )
+                                        }else if(column.id === 'title'){
+                                          return(
+                                            <TableCell  key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
                                                 <nav>
                                                   <Link to={`/network/${escapeDoi(paper.doi)}`}>{value}</Link>
                                                 </nav>
                                                 <Outlet />
-                                          </TableCell>
-                                        )
-                                    }else{
-                                        return (
-                                            <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
+                                            </TableCell>
+                                          )
+                                        }else if(column.id == 'authors'){
+                                          let authors;
+                                          if(value == null){
+                                            authors = ['不明'];
+                                          }else{
+                                            authors = value.split(',');
+                                          }
+                                          let i = 0;
+                                          
+                                          if(authors.length > 2){
+                                            return(
+                                              <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth}}>
+                                                 {authors[0]},{authors[1]}
+                                             </TableCell>
+                                            )
+                                            
+                                          }else{
+                                            return(
+                                              <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth}}>
+                                                 {authors[0]}
+                                             </TableCell>
+                                            )
+                                          }
+                                          // return(
+                                          //   <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth}}>
+                                          //       {authors[0]}
+                                          //   </TableCell>
+                                          // )
+                                          
+                                        }else if(column.id =='value'){
+                                          return (
+                                            <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth,textAlign:"right"}}>
+                                                {column.format && typeof value === 'number'
+                                                ? column.format(value)
+                                                : Math.round(value*10000000)/10000000}
+                                            </TableCell>
+                                          );
+                                        }else{
+                                          return (
+                                            <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth, textAlign:"center"}}>
                                                 {column.format && typeof value === 'number'
                                                 ? column.format(value)
                                                 : value}
                                             </TableCell>
-                                            );
-                                    }
+                                          );
+                                        }
                                     })}
                                 </TableRow>
                             );
                         })}
                     </TableBody>
                 </Table>
-            </TableContainer>
+                )}
+            </TableContainer>     
+               
         <TablePagination
             rowsPerPageOptions={[50, 100,200]}
             component="div"

@@ -11,6 +11,8 @@ import {
     Outlet
 } from "react-router-dom";
 import Network from "./pages/network";
+import NoKeywords  from "./pages/NoKeywords";
+import NoVis from "./pages/NoVis";
 import * as d3 from 'd3';
 import { useEffect,useState } from "react";
 
@@ -68,8 +70,9 @@ export default function App() {
                         <Route index element = {<Main />} />    
                         <Route exact path = "help" element = {<p>f</p>} />
                         <Route path="*" element={<NotFound />} />
+                        <Route exact path="/nokeywords" element={ <NoKeywords />} />
+                        <Route exact path="/novis" element={ <NoVis />} />
                     </Route>
-
                     <Route path = "/network/:doi" element = {<Network />} />
                 </Routes>
             </BrowserRouter>

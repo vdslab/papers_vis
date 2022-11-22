@@ -1,5 +1,5 @@
 import { useSelect } from '@mui/base';
-import {Box,Card} from '@mui/material';
+import {Box,Card,Typography,Toolbar} from '@mui/material';
 import Slider from '@mui/material/Slider';
 import * as React from 'react';
 import { useDispatch, useSelector } from "react-redux";
@@ -11,18 +11,32 @@ const YearRangeSlider = () => {
   const startYear = useSelector((state) => state.startYear.year);
   const endYear = useSelector((state) => state.endYear.year);
   const [value,setValue] = React.useState([1955,2021])
+  const margin = {
+    left: 80,
+    right: 20,
+    top: 20,
+    bottom: 30,
+};
+const contentWidth = 300;
+const contentHeight = 200;
 
+const svgWidth = margin.left + margin.right + contentWidth;
+const svgHeight = margin.top + margin.bottom + contentHeight;
   function valuetext() {
     return `${value}°C`;
   }
 
     return (
-      <Card sx={{ p: 3, height: "100%" }}>
-        <p>年代の選択</p>
+      <Card sx={{  height: "100%" }}>
+        <Toolbar sx={{pl: { sm: 2 }, pr: { xs: 1, sm: 1 }}}>
+                    <Typography sx={{ flex: '1 1 100%' }} variant='p'>
+                        年代の選択
+                    </Typography>
+                </Toolbar>
         <Box sx={{ margin: 3.5 }}>
-          <Box sx={{ width: 280, height:180,marginTop:3, margin: -2 }}>
+          <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} >
             <Slider
-              sx={{ml:0.5, mt:15, height:5}}
+              sx={{ml:3, mt:10,mr:3, height:5}}
               getAriaLabel={() => 'Temperature range'}
               value={value}
               onChange = {(event) => {
@@ -39,22 +53,22 @@ const YearRangeSlider = () => {
             />
           </Box>
           
-          <Box sx={{ display: 'flex',height:150, margin: 1 }}>
+          <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} >
             <form>
               <label>
-                From  <input type="number" value={ startYear } 
+                <p>From</p>  <input type="number" value={ startYear } 
                 onChange={ (event)=>{         
                   dispatch(changeStartYear(Number(event.target.value)));
                   setValue([event.target.value,value[1]])
                 }} 
-                size="3" style={{ marginRight: '60px' }}
+                size="3" style={{ marginRight: '100px' }}
                 min="1955" max="2021"
                 />
               </label>
             </form>
             <form>
               <label>
-                To  <input type="number" value={ endYear } 
+                <p>To</p>  <input type="number" value={ endYear } 
                 onChange={ (event)=>{
                   dispatch(changeEndYear(Number(event.target.value)));
                   setValue([value[0],event.target.value])
