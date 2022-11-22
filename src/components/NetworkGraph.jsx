@@ -244,14 +244,14 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                 const simulation = d3
                 .forceSimulation()
                 .nodes(nodes)
-                .force("link", d3.forceLink().id((d) => d['id']))
+                .force("link", d3.forceLink().strength(0.2).id((d) => d['id']))
                 .force("center", d3.forceCenter(100, 100))
                 .force('charge', d3.forceManyBody())
                 .force('collision', d3.forceCollide()
                       .radius(function (d) {
                         return 15;
                       })
-                      .iterations(0.5))
+                      .iterations(1))
                 //.force('x', d3.forceX().x(100).strength(0.3))
                 //.force('y', d3.forceY().y(100).strength(0.3))
               
@@ -580,7 +580,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     key={node.id}
                     textAnchor="middle"
                     fill="black"
-                    fontSize={"5px"}
+                    fontSize={"8px"}
+                    fontFamily = {"Georgia"}
+                    fontWeight= {"bolder"}
                     x={node.x}
                     y={node.y}
                     style={{pointerEvents: "none"}}
