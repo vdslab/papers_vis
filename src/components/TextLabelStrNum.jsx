@@ -6,7 +6,7 @@ const TextLabelStrNum = ({labelStringNum ,setLabelStringNum}) => {
         setLabelStringNum(e.target.value);
     }
     return(
-        <Box sx = {{'& > :not(style)': { m: 1, width: '20ch' },}}>
+        <Box sx = {{'& > :not(style)': { m: 2.5, width: '10ch' },}}>
             <TextField 
             id="standard-basic" 
             label="ラベル文字数" 

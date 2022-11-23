@@ -173,10 +173,11 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
     }
 
     const compressLabel = (str, num) => {
-        const res = str.slice();
-  
-
-        return res.substring(0, num-1).concat('...');
+        const res = str.slice().substring(0, num);
+        if(num <= 0 || num >= str.length) {
+            return res;
+        }
+        return res.concat('...');
     }
 
     const changeNodeState = (key, state) => {

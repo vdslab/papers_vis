@@ -27,12 +27,11 @@ const Network = () => {
     const [reloading, setReloading] = useState(true);
     const query = new URLSearchParams(search);
     const [sideBarOpen, setSideBarOpen] = useState(false);
-    const [nodeLabelsPart, setNodeLabelsPart] = useState("whole");
+    const [LabelString, setLabelString] = useState("part");
     const [LabelPart, setLabelPart] = useState("part");
     const [labelStringNum, setLabelStringNum] = useState(20);
-    const toggleOpen=() => {
-        setSideBarOpen(!sideBarOpen);
-    }
+    
+
     
     return(
         
@@ -43,6 +42,7 @@ const Network = () => {
             nodeLabel = {nodeLabel}  setNodeLabel = {setNodeLabel}
             LabelPart = {LabelPart} setLabelPart = {setLabelPart}
             labelStringNum = {labelStringNum} setLabelStringNum = {setLabelStringNum}
+            LabelString = {LabelString} setLabelString = {setLabelString}
             />
         
 
