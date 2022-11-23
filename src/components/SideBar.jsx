@@ -7,6 +7,7 @@ import Divider from '@mui/material/Divider';
 import { styled } from '@mui/material/styles';
 import SelectLabel from "./SelectLabel";
 import SelectPartOrWholeLabel from "./SelectPartOrWholeLabel";
+import TextLabelStrNum from "./TextLabelStrNum";
 
 const DrawerHeader = styled('div')(({ theme }) => ({
     display: 'flex',
@@ -18,8 +19,11 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   }));
 
 
-const SideBar = ({sideBarOpen, setSideBarOpen, nodeLabel, setNodeLabel, LabelPart ,setLabelPart,
-    }) => {
+const SideBar = ({sideBarOpen, setSideBarOpen,
+                nodeLabel, setNodeLabel,
+                LabelPart ,setLabelPart,
+                labelStringNum, setLabelStringNum
+            }) => {
     return(
         <div>
             <Drawer  variant="persistent" anchor='left' open={sideBarOpen} onClose={()=> setSideBarOpen(!sideBarOpen)}> 
@@ -31,10 +35,10 @@ const SideBar = ({sideBarOpen, setSideBarOpen, nodeLabel, setNodeLabel, LabelPar
             </DrawerHeader>
             <Divider />
             
-                <Stack spacing={4}>
+                <Stack spacing={2.5}>
                     <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
                     <SelectPartOrWholeLabel title = {"ラベル表示量"} LabelPart = {LabelPart} setLabelPart = {setLabelPart}/>
-                    
+                    <TextLabelStrNum labelStringNum = {labelStringNum} setLabelStringNum = {setLabelStringNum}/>
                 </Stack>
             </Drawer>
         </div>

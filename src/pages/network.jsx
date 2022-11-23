@@ -29,6 +29,7 @@ const Network = () => {
     const [sideBarOpen, setSideBarOpen] = useState(false);
     const [nodeLabelsPart, setNodeLabelsPart] = useState("whole");
     const [LabelPart, setLabelPart] = useState("part");
+    const [labelStringNum, setLabelStringNum] = useState(20);
     const toggleOpen=() => {
         setSideBarOpen(!sideBarOpen);
     }
@@ -41,7 +42,7 @@ const Network = () => {
             sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} 
             nodeLabel = {nodeLabel}  setNodeLabel = {setNodeLabel}
             LabelPart = {LabelPart} setLabelPart = {setLabelPart}
-           
+            labelStringNum = {labelStringNum} setLabelStringNum = {setLabelStringNum}
             />
         
 
@@ -56,7 +57,7 @@ const Network = () => {
                 reloading = {reloading}
                 isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
                 LabelPart = {LabelPart} setLabelPart = {setLabelPart}
-               
+                labelStringNum = {labelStringNum} setLabelStringNum = {setLabelStringNum}
                 />
             </div>
                 

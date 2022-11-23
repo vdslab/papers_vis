@@ -133,7 +133,7 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
   
 
 const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen, loading, setLoading, reloading, isOpenMenu , setIsOpenMenu
-                    ,LabelPart, setLabelPart}) => {
+                    ,LabelPart, setLabelPart, labelStringNum, setLabelStringNum}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
     const [graphWidth, graphHeight] = [width, height];
@@ -152,7 +152,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
     const thre = 0.8;
     const nodeNum = 20;
     const maxNodeNum = 50;
-    const labelStringNum = 20;
+   
     
     const [nodesState, setNodesState] = useState(() => {
         //0は通常 1はホバー状態　2はクリック状態
