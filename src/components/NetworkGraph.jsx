@@ -29,7 +29,7 @@ todo
 const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpenMenu , setIsOpenMenu }) => {
 
     const svgRef = useRef();
-    const [k, setK] = useState(2.4);
+    const [k, setK] = useState(1);
     const [x, setX] = useState(width/5);
     const [y, setY] = useState(height/4);
     useEffect(() => {
@@ -152,6 +152,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
     const thre = 0.8;
     const nodeNum = 20;
     const maxNodeNum = 50;
+    const labelStringNum = 20;
     
     const [nodesState, setNodesState] = useState(() => {
         //0は通常 1はホバー状態　2はクリック状態
@@ -169,6 +170,13 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
 
     const deescapeDoi = (doi) => {
         return doi.replaceAll('_', '.').replaceAll('-', '/');
+    }
+
+    const compressLabel = (str, num) => {
+        const res = str.slice();
+  
+
+        return res.substring(0, num-1).concat('...');
     }
 
     const changeNodeState = (key, state) => {
@@ -244,9 +252,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                 const simulation = d3
                 .forceSimulation()
                 .nodes(nodes)
-                .force("link", d3.forceLink().strength(0.5).distance(100).id((d) => d['id']))
+                .force("link", d3.forceLink().strength(0.8).distance(200).id((d) => d['id']))
                 .force("center", d3.forceCenter(100, 100))
-                .force('charge', d3.forceManyBody().strength(-100))
+                .force('charge', d3.forceManyBody().strength(-200))
                 .force('collision', d3.forceCollide()
                       .radius(function (d) {
                         return 15;
@@ -588,8 +596,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     style={{pointerEvents: "none"}}
                 >
         
-                    { LabelPart === "part"?(nodeLabels[key] !== true || (nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')))
-                    :(nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))}
+                    { LabelPart === "part"?(nodeLabels[key] !== true || (nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')))
+                    :(nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))}
                    
                 </text>
             );
