@@ -11,7 +11,7 @@ import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import Box from '@mui/material/Box';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 import CircularProgressWithLabel from "./CircularProgressWithLabel";
 import HelpIcon from '@mui/icons-material/Help';
@@ -57,6 +57,22 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
         width="110"
         height="50"
         >
+                <Link to = "../..">
+           <Tooltip title="戻る" placement="right">
+            <IconButton aria-label="delete" 
+            style = {{margin:"5px"}}>
+                <ArrowBackIcon />
+            </IconButton>
+            </Tooltip>
+            </Link>
+        </foreignObject>
+
+        <foreignObject
+        x={10}
+        y={60}
+        width="110"
+        height="50"
+        >
             <Tooltip title="ネットワーク設定" placement="right">
             <IconButton aria-label="delete" onClick={() => setSideBarOpen(!sideBarOpen)}
             style = {{margin:"5px"}}>
@@ -68,7 +84,7 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
        
         <foreignObject
         x={10}
-        y={60}
+        y={110}
         width="110"
         height="50"
         >
