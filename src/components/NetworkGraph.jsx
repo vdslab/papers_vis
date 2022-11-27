@@ -58,7 +58,7 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
         height="50"
         >
                 <Link to = "../..">
-           <Tooltip title="戻る" placement="right">
+           <Tooltip title="トップへ戻る" placement="right">
             <IconButton aria-label="delete" 
             style = {{margin:"5px"}}>
                 <ArrowBackIcon />
@@ -73,7 +73,7 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
         width="110"
         height="50"
         >
-            <Tooltip title="ネットワーク設定" placement="right">
+            <Tooltip title="グラフ設定" placement="right">
             <IconButton aria-label="delete" onClick={() => setSideBarOpen(!sideBarOpen)}
             style = {{margin:"5px"}}>
                 <MenuIcon />
@@ -155,9 +155,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
     const [graphWidth, graphHeight] = [width, height];
     console.log(width);
     const [normalNodeCol, hoverNodeCol, clickedNodeCol, linkCol, nearestLinkCol, firseSelectedNodeCol] 
-    = ['rgb(100, 50, 255)', 'rgb(140, 90, 255)', 'rgb(200, 30, 50)', 'rgb(200, 200, 200)', 'rgb(0, 0, 0)',
-        'rgb(255, 0, 255)'];
-    const nodeCols = ['rgb(100, 50, 255)', 'rgb(120, 70, 255)', 'rgb(200, 30, 50)', 'rgb(150, 150, 150)',
+    = ['rgb(100, 50, 255)', 'rgb(140, 90, 255)', 'rgb(200, 30, 50)', 'rgb(220, 220, 220)', 'rgb(180, 180, 180)',
+        'rgb(120, 120, 255)'];
+    const nodeCols = ['rgb(210, 150, 255)', 'rgb(150, 100, 255)', 'rgb(255,  50,  50)', 'rgb(150, 150, 150)',
     'rgb(255, 0, 255)']    
     const firstSelectedNodeKey = 0;
     const [nodes, setNodes] = useState([]);
@@ -274,14 +274,10 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                 const simulation = d3
                 .forceSimulation()
                 .nodes(nodes)
-                .force("link", d3.forceLink().strength(0.5).distance(100).id((d) => d['id']))
+                .force("link", d3.forceLink().strength(1.0).distance(70).iterations(10).id((d) => d['id']))
                 .force("center", d3.forceCenter(100, 100))
-                .force('charge', d3.forceManyBody().strength(-100))
-                .force('collision', d3.forceCollide()
-                      .radius(function (d) {
-                        return 15;
-                      })
-                      .iterations(1.0))
+                .force('charge', d3.forceManyBody().strength(-150))
+                .force('collision', d3.forceCollide().radius(20).iterations(1))
                 //.force('x', d3.forceX().x(100).strength(0.3))
                 //.force('y', d3.forceY().y(100).strength(0.3))
               
@@ -563,7 +559,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     <line
                     key={link.source.id + "-" + link.target.id}
                     stroke= {( (nodesState[link.source.index] === 2 && nodeLabels[link.target.index] === true) || (nodesState[link.target.index] === 2 && nodeLabels[link.source.index] === true) ) || linkCol}
-                    strokeWidth="0.7"
+                    strokeWidth="1.0"
                     className="link"
                     x1={link.source.x}
                     y1={link.source.y}
@@ -582,7 +578,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     <line
                     key={link.source.id + "-" + link.target.id}
                     stroke= {!(( (nodesState[link.source.index] === 2 && nodeLabels[link.target.index] === true) || (nodesState[link.target.index] === 2 && nodeLabels[link.source.index] === true) ) ) || nearestLinkCol }
-                    strokeWidth="0.8"
+                    strokeWidth="2.5"
                     className="nearest-link"
                     x1={link.source.x}
                     y1={link.source.y}
