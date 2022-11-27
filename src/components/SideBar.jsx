@@ -21,9 +21,9 @@ const DrawerHeader = styled('div')(({ theme }) => ({
 
 const SideBar = ({sideBarOpen, setSideBarOpen,
                 nodeLabel, setNodeLabel,
-                LabelPart ,setLabelPart,
+                labelPart ,setLabelPart,
                 labelStringNum, setLabelStringNum,
-                LabelString, setLabelString,
+                labelString, setLabelString,
             }) => {
     return(
         <div>
@@ -38,9 +38,9 @@ const SideBar = ({sideBarOpen, setSideBarOpen,
             
                 <Stack spacing={2.5}>
                     <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
-                    <SelectPartOrWholeLabel title = {"ラベル表示量"} LabelPart = {LabelPart} setLabelPart = {setLabelPart}/>
-                    <SelectPartOrWholeLabel title = {"ラベル文字量"} LabelPart = {LabelString} setLabelPart = {setLabelString}/>
-                    {LabelString !== "part" || <TextLabelStrNum labelStringNum = {labelStringNum} setLabelStringNum = {setLabelStringNum}/>}
+                    <SelectPartOrWholeLabel title = {"ラベル表示量"} labelPart = {labelPart} setLabelPart = {setLabelPart}/>
+                    <SelectPartOrWholeLabel title = {"ラベル文字量"} labelPart = {labelString} setLabelPart = {setLabelString}/>
+                    {labelString !== "part" || <TextLabelStrNum labelStringNum = {labelStringNum} setLabelStringNum = {setLabelStringNum}/>}
                 </Stack>
             </Drawer>
         </div>

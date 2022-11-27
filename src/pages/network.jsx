@@ -27,8 +27,8 @@ const Network = () => {
     const [reloading, setReloading] = useState(true);
     const query = new URLSearchParams(search);
     const [sideBarOpen, setSideBarOpen] = useState(false);
-    const [LabelString, setLabelString] = useState("part");
-    const [LabelPart, setLabelPart] = useState("part");
+    const [labelString, setLabelString] = useState("part");
+    const [labelPart, setLabelPart] = useState("part");
     const [labelStringNum, setLabelStringNum] = useState(20);
     
 
@@ -40,9 +40,9 @@ const Network = () => {
             <SideBar 
             sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} 
             nodeLabel = {nodeLabel}  setNodeLabel = {setNodeLabel}
-            LabelPart = {LabelPart} setLabelPart = {setLabelPart}
+            labelPart = {labelPart} setLabelPart = {setLabelPart}
             labelStringNum = {labelStringNum} setLabelStringNum = {setLabelStringNum}
-            LabelString = {LabelString} setLabelString = {setLabelString}
+            labelString = {labelString} setLabelString = {setLabelString}
             />
         
 
@@ -56,7 +56,8 @@ const Network = () => {
                 setLoading = {setLoading} loading = {loading}
                 reloading = {reloading}
                 isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
-                LabelPart = {LabelPart} setLabelPart = {setLabelPart}
+                labelPart = {labelPart} setLabelPart = {setLabelPart}
+                labelString = {labelString} setLabelString = {setLabelString}
                 labelStringNum = {labelStringNum} setLabelStringNum = {setLabelStringNum}
                 />
             </div>

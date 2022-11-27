@@ -149,7 +149,7 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
   
 
 const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen, loading, setLoading, reloading, isOpenMenu , setIsOpenMenu
-                    ,LabelPart, setLabelPart, labelStringNum, setLabelStringNum}) => {
+                    ,labelPart, setLabelPart, labelStringNum, setLabelStringNum, labelString}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
     const [graphWidth, graphHeight] = [width, height];
@@ -164,11 +164,12 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
     const [links, setLinks] = useState([]);
     const [clickedNodeKey, setClickedNodeKey] = useState(-1);
     const [progress, setProgress] = useState(0);
+    const ref = useRef(true);
   
     const thre = 0.8;
     const nodeNum = 20;
     const maxNodeNum = 50;
-   
+    const maxStringNum = 1000;
     
     const [nodesState, setNodesState] = useState(() => {
         //0は通常 1はホバー状態　2はクリック状態
@@ -272,9 +273,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                 const simulation = d3
                 .forceSimulation()
                 .nodes(nodes)
-                .force("link", d3.forceLink().strength(0.8).distance(200).id((d) => d['id']))
+                .force("link", d3.forceLink().strength(0.5).distance(100).id((d) => d['id']))
                 .force("center", d3.forceCenter(100, 100))
-                .force('charge', d3.forceManyBody().strength(-200))
+                .force('charge', d3.forceManyBody().strength(-100))
                 .force('collision', d3.forceCollide()
                       .radius(function (d) {
                         return 15;
@@ -529,6 +530,20 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         changeNodeState(clickedNodeKey, 2);
     }, [clickedNodeKey]);
 
+    useEffect(() => {
+        if (ref.current) {
+            ref.current = false;
+            return;
+          }
+          
+        if(labelString >= maxStringNum) {
+            setLabelStringNum(20);
+        } else {
+            setLabelStringNum(maxStringNum);
+        }
+            
+    }, [labelString]);
+
     return(
         <div>
         
@@ -540,7 +555,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         <g className="links">
             {
             links.map((link) => {
-                console.log(LabelPart);
+                console.log(labelPart);
+                console.log(labelString);
                 return(
                    
                     <line
@@ -616,7 +632,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     style={{pointerEvents: "none"}}
                 >
         
-                    { LabelPart === "part"?(nodeLabels[key] !== true || (nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')))
+                    { labelPart === "part"?(nodeLabels[key] !== true || (nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')))
                     :(nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))}
                    
                 </text>
