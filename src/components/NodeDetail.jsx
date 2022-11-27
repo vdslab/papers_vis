@@ -68,9 +68,11 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, re
 
            <Link to = {`/network/${escapeDoi(detail.doi)}`} onClick={() => setReloading(!reloading)}> generate a network out of this paper</Link>
 
-            <Divider/><br/>
-            abstract:<br/>
-            {detail.abstract}
+            <br/><br/>
+            <Divider/>
+            <br/>
+         
+            <p>{detail.abstract}</p>
             
         </div>
 

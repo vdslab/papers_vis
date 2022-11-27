@@ -11,7 +11,7 @@ import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import Box from '@mui/material/Box';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 import CircularProgressWithLabel from "./CircularProgressWithLabel";
 import HelpIcon from '@mui/icons-material/Help';
@@ -29,9 +29,9 @@ todo
 const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpenMenu , setIsOpenMenu }) => {
 
     const svgRef = useRef();
-    const [k, setK] = useState(1.5);
-    const [x, setX] = useState(width/3.5);
-    const [y, setY] = useState(height/3.5);
+    const [k, setK] = useState(1);
+    const [x, setX] = useState(width/5);
+    const [y, setY] = useState(height/4);
     useEffect(() => {
       const zoom = d3.zoom().on("zoom", (event) => {
         const { x, y, k } = event.transform;
@@ -57,6 +57,22 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
         width="110"
         height="50"
         >
+                <Link to = "../..">
+           <Tooltip title="戻る" placement="right">
+            <IconButton aria-label="delete" 
+            style = {{margin:"5px"}}>
+                <ArrowBackIcon />
+            </IconButton>
+            </Tooltip>
+            </Link>
+        </foreignObject>
+
+        <foreignObject
+        x={10}
+        y={60}
+        width="110"
+        height="50"
+        >
             <Tooltip title="ネットワーク設定" placement="right">
             <IconButton aria-label="delete" onClick={() => setSideBarOpen(!sideBarOpen)}
             style = {{margin:"5px"}}>
@@ -68,7 +84,7 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
        
         <foreignObject
         x={10}
-        y={60}
+        y={110}
         width="110"
         height="50"
         >
@@ -132,7 +148,8 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
 
   
 
-const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen, loading, setLoading, reloading, isOpenMenu , setIsOpenMenu}) => {
+const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen, loading, setLoading, reloading, isOpenMenu , setIsOpenMenu
+                    ,labelPart, setLabelPart, labelStringNum, setLabelStringNum, labelString}) => {
     //グラフの見た目の設定
     const [width, height] = useWindowSize();
     const [graphWidth, graphHeight] = [width, height];
@@ -147,10 +164,12 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
     const [links, setLinks] = useState([]);
     const [clickedNodeKey, setClickedNodeKey] = useState(-1);
     const [progress, setProgress] = useState(0);
+    const ref = useRef(true);
   
     const thre = 0.8;
     const nodeNum = 20;
     const maxNodeNum = 50;
+    const maxStringNum = 1000;
     
     const [nodesState, setNodesState] = useState(() => {
         //0は通常 1はホバー状態　2はクリック状態
@@ -168,6 +187,18 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
 
     const deescapeDoi = (doi) => {
         return doi.replaceAll('_', '.').replaceAll('-', '/');
+    }
+
+    const compressLabel = (str, num) => {
+        num = Math.min(maxStringNum, num);
+        if(typeof str !== 'string') {
+            return str;
+        }
+        const res = str.slice().substring(0, num);
+        if(num <= 0 || num >= str.length) {
+            return res;
+        }
+        return res.concat('...');
     }
 
     const changeNodeState = (key, state) => {
@@ -243,14 +274,14 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                 const simulation = d3
                 .forceSimulation()
                 .nodes(nodes)
-                .force("link", d3.forceLink().id((d) => d['id']))
+                .force("link", d3.forceLink().strength(0.5).distance(100).id((d) => d['id']))
                 .force("center", d3.forceCenter(100, 100))
-                .force('charge', d3.forceManyBody())
+                .force('charge', d3.forceManyBody().strength(-100))
                 .force('collision', d3.forceCollide()
                       .radius(function (d) {
                         return 15;
                       })
-                      .iterations(0.5))
+                      .iterations(1.0))
                 //.force('x', d3.forceX().x(100).strength(0.3))
                 //.force('y', d3.forceY().y(100).strength(0.3))
               
@@ -500,6 +531,20 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         changeNodeState(clickedNodeKey, 2);
     }, [clickedNodeKey]);
 
+    useEffect(() => {
+        if (ref.current) {
+            ref.current = false;
+            return;
+          }
+
+        if(labelStringNum >= maxStringNum) {
+            setLabelStringNum(20);
+        } else {
+            setLabelStringNum(maxStringNum);
+        }
+            
+    }, [labelString]);
+
     return(
         <div>
         
@@ -509,8 +554,12 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}>
 
         <g className="links">
-            {links.map((link) => {
+            {
+            links.map((link) => {
+                console.log(labelPart);
+                console.log(labelString);
                 return(
+                   
                     <line
                     key={link.source.id + "-" + link.target.id}
                     stroke= {( (nodesState[link.source.index] === 2 && nodeLabels[link.target.index] === true) || (nodesState[link.target.index] === 2 && nodeLabels[link.source.index] === true) ) || linkCol}
@@ -553,7 +602,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     <circle
                         className="node"
                         key = {node.id}
-                        r = {10}
+                        r = {8}
                         style = {{fill : key !== firstSelectedNodeKey ?nodeCols[nodesState[key]]:firseSelectedNodeCol}}
                         cx = {node.x}
                         cy = {node.y}
@@ -576,13 +625,16 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     key={node.id}
                     textAnchor="middle"
                     fill="black"
-                    fontSize={"5px"}
+                    fontSize={"8px"}
+                    fontFamily = {"Georgia"}
+                    fontWeight= {"bolder"}
                     x={node.x}
                     y={node.y}
                     style={{pointerEvents: "none"}}
                 >
         
-                    {nodeLabels[key] !== true || (nodeLabel !== "author" && nodeLabel !== "keyword"?node[nodeLabel]:nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))}
+                    { labelPart === "part"?(nodeLabels[key] !== true || (nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')))
+                    :(nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))}
                    
                 </text>
             );
