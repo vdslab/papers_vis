@@ -189,6 +189,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
     }
 
     const compressLabel = (str, num) => {
+        if(typeof str !== 'string') {
+            return str;
+        }
         const res = str.slice().substring(0, num);
         if(num <= 0 || num >= str.length) {
             return res;
