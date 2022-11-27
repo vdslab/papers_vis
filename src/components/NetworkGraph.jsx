@@ -189,9 +189,13 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         return doi.replaceAll('_', '.').replaceAll('-', '/');
     }
 
-    const compressLabel = (str, num) => {
+    const compressLabel = (str, num, key) => {
         num = Math.min(maxStringNum, num);
         if(typeof str !== 'string') {
+            return str;
+        }
+
+        if(nodesState[key] === 1) {
             return str;
         }
         const res = str.slice().substring(0, num);
@@ -274,12 +278,12 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                 const simulation = d3
                 .forceSimulation()
                 .nodes(nodes)
-                .force("link", d3.forceLink().strength(1.0).distance(70).iterations(10).id((d) => d['id']))
+                .force("link", d3.forceLink().strength(1.0).distance(25).iterations(10).id((d) => d['id']))
                 .force("center", d3.forceCenter(100, 100))
                 .force('charge', d3.forceManyBody().strength(-150))
-                .force('collision', d3.forceCollide().radius(20).iterations(1))
-                //.force('x', d3.forceX().x(100).strength(0.3))
-                //.force('y', d3.forceY().y(100).strength(0.3))
+                .force('collision', d3.forceCollide().radius(70).iterations(1))
+                //.force('x', d3.forceX().x(100).strength(-0.1))
+                .force('y', d3.forceY().y(100).strength(-0.1))
               
                 ;
                 console.log(height);
@@ -629,8 +633,9 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     style={{pointerEvents: "none"}}
                 >
         
-                    { labelPart === "part"?(nodeLabels[key] !== true || (nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')))
-                    :(nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))}
+                    { labelPart === "part"?(nodeLabels[key] === true?(nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum, key):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')):(nodesState[key] !== 1 || 
+                    (nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum, key):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))))
+                    :(nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum, key):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))}
                    
                 </text>
             );
