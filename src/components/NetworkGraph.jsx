@@ -190,6 +190,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
     }
 
     const compressLabel = (str, num) => {
+        num = Math.min(maxStringNum, num);
         if(typeof str !== 'string') {
             return str;
         }
@@ -535,8 +536,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
             ref.current = false;
             return;
           }
-          
-        if(labelString >= maxStringNum) {
+
+        if(labelStringNum >= maxStringNum) {
             setLabelStringNum(20);
         } else {
             setLabelStringNum(maxStringNum);
