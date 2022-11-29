@@ -65,34 +65,16 @@ router.get("/papers/:abstract", async function (req, res) {
   }
 });
 
-router.get("/papers/:abstract/:abstract2/:abstract3", async function (req, res) {
-  const data = await selectRows(`SELECT * FROM papers WHERE (abstract ILIKE $1 AND abstract ILIKE $2 
-  AND abstract ILIKE $3) OR (title ILIKE $1 AND title ILIKE $2 AND title ILIKE $3) LIMIT 20000`,[
+router.get("/papers/:abstract/:abstract2/:abstract3/:startYear/:endYear", async function (req, res) {
+  const data = await selectRows(`SELECT * FROM papers WHERE (publication_year BETWEEN $4 and $5) 
+    AND ((abstract ILIKE $1 AND abstract ILIKE $2 
+    AND abstract ILIKE $3) OR (title ILIKE $1 AND title ILIKE $2 AND title ILIKE $3) OR (authors ILIKE 
+    $1 AND authors ILIKE $2 AND authors ILIKE $3))  LIMIT 20000`,[
     req.params.abstract,
     req.params.abstract2,
     req.params.abstract3,
-  ]);
-  res.json(data);  
-  // if (data.length === 0) {
-  //   res.status(404).json({ message: "not found" });
-  // } else {
-  //   res.json(data);
-  // }
-});
-
-router.get("/papers2", async (req, res) => {
-  const data = await selectRows(`SELECT * FROM papers`);
-  res.json(data);
-});
-
-router.get("/papers2/:title/:title2/:title3", async function (req, res) {
-  const data = await selectRows(`SELECT * FROM papers2 WHERE (abstract ILIKE $1 AND abstract ILIKE $2 
-    AND abstract ILIKE $3) OR (title ILIKE $1 AND title ILIKE $2 
-  AND title ILIKE $3) OR (authors ILIKE $1 AND authors ILIKE $2 
-    AND authors ILIKE $3) LIMIT 20000`,[
-    req.params.title,
-    req.params.title2,
-    req.params.title3,
+    req.params.startYear,
+    req.params.endYear,
   ]);
   res.json(data);  
   // if (data.length === 0) {
@@ -185,7 +167,7 @@ router.get("/keywords/:doi", async(req, res) => {
 }); 
 
 router.get("/keywords/:keyword/:startYear/:endYear", async (req, res) => {
-    const data = await selectRows(`SELECT * FROM keywords WHERE keyword = $1 AND year >= $2 AND year <= $3`, [
+    const data = await selectRows(`SELECT * FROM keywords WHERE keyword = $1 AND (year BETWEEN $2 and $3)`, [
       req.params.keyword,
       req.params.startYear,
       req.params.endYear

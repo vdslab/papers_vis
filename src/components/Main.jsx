@@ -39,13 +39,21 @@ export default function Main() {
         <Grid item xs={11} md={7} > 
           <BubbleChart />
         </Grid>
-        
+        {/* <Grid item xs={11}>
+        <PapersView />
+        </Grid> */}
       </Grid>
       </Box>
 
       {/*論文リスト */}
-      <div  ref={scrollRef} style={{ margin: '40px'}} className = "menu" >
-        <PapersView />
+      <div  ref={scrollRef} className = "menu" >
+      <Box>
+        <Grid container sx={{ p: 3 ,margin:'30px' }} columnSpacing={2} rowSpacing={2} >   
+          <Grid item xs={11}>
+            <PapersView />
+          </Grid>
+        </Grid>
+      </Box>
         {/* <p className='menu-label'>
           論文リスト
         </p>

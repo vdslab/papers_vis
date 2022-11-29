@@ -31,7 +31,7 @@ const PapersView = () => {
     const [page, setPage] = useState(0);
     const [rowsPerPage, setRowsPerPage] = useState(200);
     const [columns, setColumns] = useState([]);
-    const keyword = useSelector((state) => state.keyword.keyword);
+    const keyword = useSelector((state) => state.novisKeyword.keyword);
     const papers = useSelector((state) => state.papersKeyword.papers);
     const columnsJudge = useSelector((state) => state.columnsJudge.judge);
     const search = useSelector((state) => state.searchForm.search);

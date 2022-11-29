@@ -33,11 +33,15 @@ export default function Main() {
       <SearchForm />
 
       {/*論文リスト */}
-      <div  ref={scrollRef} style={{ margin: '40px'}} className = "menu" >
-        <PapersView />
+      <div  ref={scrollRef} className = "menu" >
+      <Box>
+        <Grid container sx={{ p: 3 ,margin:'30px' }} columnSpacing={2} rowSpacing={2} >   
+          <Grid item xs={11}>
+            <PapersView />
+          </Grid>
+        </Grid>
+      </Box>
       </div>
-
-      
     </div>
     );
   }
