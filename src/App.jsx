@@ -13,6 +13,7 @@ import {
 import Network from "./pages/network";
 import NoKeywords  from "./pages/NoKeywords";
 import NoVis from "./pages/NoVis";
+import NoVisNetwork from "./pages/NoVisNetwork";
 import * as d3 from 'd3';
 import { useEffect,useState } from "react";
 
@@ -74,6 +75,7 @@ export default function App() {
                         <Route exact path="/novis" element={ <NoVis />} />
                     </Route>
                     <Route path = "/network/:doi" element = {<Network />} />
+                    <Route path = "/novis/network/:doi" element = {<NoVisNetwork/>} />
                 </Routes>
             </BrowserRouter>
     );
