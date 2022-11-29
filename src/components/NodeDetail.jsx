@@ -6,6 +6,8 @@ import { Link, Outlet } from "react-router-dom";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowUp';
 import IconButton from '@mui/material/IconButton';
 import useWindowSize from '../useWindowSize';
+import Tooltip from '@mui/material/Tooltip';
+import { ToggleOnOutlined } from '@mui/icons-material';
 
 const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, reloading, setReloading}) => {
     const [width, height] = useWindowSize();
@@ -34,10 +36,11 @@ const NodeDetail = ({detail, isOpenMenu, setIsOpenMenu, loadidng, setLoading, re
             <div className = "wrapper">
                 <h1 className="title is-5"  >論文詳細</h1>
             </div>
-
+            <Tooltip title="論文詳細を閉じる" placement="left">
             <IconButton aria-label="delete" onClick={() => setIsOpenMenu(!isOpenMenu)}>
                 < CloseIcon/>
             </IconButton>
+            </Tooltip>
 
             
         </div>
