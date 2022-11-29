@@ -8,8 +8,9 @@ import {useRef,useEffect } from 'react';
 import { useDispatch, useSelector } from "react-redux";
 
 import SearchForm from '../components/SearchForm';
-import PapersView from '../components/PapersView';
-import BubbleChart from '../novisComponents/BubbleChart';
+import NovisPapersView from '../novisComponents/NovisPapersView';
+import NoBubbleChart from '../novisComponents/NoBubbleChart';
+import YearRangeSlider from '../novisComponents/YearRangeSlider';
 import { changeScrollJudge } from '../redux/scrollJudge';
 import { changePapersKeyword } from '../redux/papersKeywordSlice';
 import { changeKeyword } from '../redux/keywordSlice';
@@ -35,18 +36,24 @@ export default function Main() {
       <Box>
       <Grid container sx={{ p: 3 ,margin:'30px' }} columnSpacing={2} rowSpacing={2} >    
       {/* キーワードビュー　*/}
-        <Grid item xs={11} md={4}>
-          {/* <YearRangeSlider/> */}
+      <Grid item xs={11} md={4} > 
+          <YearRangeSlider />
         </Grid>
         <Grid item xs={11} md={7} > 
-          <BubbleChart />
+          <NoBubbleChart />
         </Grid>
         
       </Grid>
       </Box>
       {/*論文リスト */}
-      <div  ref={scrollRef} style={{ margin: '40px'}} className = "menu" >
-        <PapersView />
+      <div  ref={scrollRef} className = "menu" >
+      <Box>
+        <Grid container sx={{ p: 3 ,margin:'30px' }} columnSpacing={2} rowSpacing={2} >   
+          <Grid item xs={11}>
+            <NovisPapersView />
+          </Grid>
+        </Grid>
+      </Box>
       </div>
 
       

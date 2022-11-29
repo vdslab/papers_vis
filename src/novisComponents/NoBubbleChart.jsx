@@ -2,22 +2,23 @@ import * as d3 from 'd3';
 import React ,{useState,useEffect ,useRef} from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {changePapersCount} from "../redux/papersCountSlice"
-import { changeKeyword } from '../redux/keywordSlice';
+import { changeNovisKeyword } from '../redux/noVisKeyword';
 import { changePapersKeyword } from '../redux/papersKeywordSlice';
 import { changeColumnsJudge } from "../redux/columnsSlice";
 import { changeScrollJudge } from '../redux/scrollJudge';
 import { changeTableDataJudge } from '../redux/tableDataJudge';
-import { Card, Tooltip ,Box, Typography,Toolbar} from "@mui/material";
-import CircularProgress from '@mui/material/CircularProgress';
-import LabelProgress from '../components/LabelProgress';
-import Skeleton from '@mui/material/Skeleton';
+import { Card, Tooltip ,Box, Typography,Toolbar,Select} from "@mui/material";
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
 import { ThreeDots } from 'react-loader-spinner';
+import YearRangeSlider from './YearRangeSlider';
 
-const BubbleChart = () => {
+const NoBubbleChart = () => {
     const dispatch = useDispatch();
     const startYear = useSelector((state) => state.startYear.year);
     const endYear = useSelector((state) => state.endYear.year);
-    const keyword = useSelector((state) => state.keyword.keyword);
+    const novisKeyword = useSelector((state) => state.novisKeyword.keyword);
     const [data,setData] = useState([]);
     const papers = useSelector((state) => state.papersKeyword.papers);
     const [judge ,setJudge] = useState(false);
@@ -35,6 +36,7 @@ const BubbleChart = () => {
     const svgHeight = margin.top + margin.bottom + contentHeight;
     const width = 250;
     const height = 240;
+    
     useEffect(() => {
             setJudge(false);
             (async () => {
@@ -59,27 +61,27 @@ const BubbleChart = () => {
                 setJudge(true);
             })();
     },[endYear,startYear]);
-    console.log(data)
     useEffect(() => {
         if(isFirstRender.current) { // 初回レンダー判定
             isFirstRender.current = false // もう初回レンダーじゃないよ代入
         } else {
             (async () => {
-                const response = await fetch(`/.netlify/functions/api/keywords/${keyword}/${startYear}/${endYear}`);
+                const response = await fetch(`/.netlify/functions/api/keywords/${novisKeyword}/${startYear}/${endYear}`);
                 const data = await response.json();
                 dispatch(changePapersKeyword(data));
                 dispatch(changeTableDataJudge(true));
             })();
-            console.log(papers)
         }
-    },[keyword])
+    },[novisKeyword])
     
     const styles = {
         transition:"transform 1s"
     }
-
-    const onClickhandle = (e,name)=> {
-        dispatch(changeKeyword(name));
+    const [child,setChild] = useState('')
+    const onClickhandle = (e) => {
+        const name = e.target.value;
+        dispatch(changeNovisKeyword(name));
+        setChild(name);
         dispatch(changeTableDataJudge(false));
         dispatch(changeScrollJudge(true));
         dispatch(changeColumnsJudge('keyword'));
@@ -99,7 +101,7 @@ const BubbleChart = () => {
                     </Typography>
                 </Toolbar>
                 
-                <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} sx={{my:3 ,height: 350.5}}>
+                <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} sx={{my:3 ,height: 100}}>
                     {/* <Skeleton sx={{ mt:0.5,width: "100%",height: 394.5 }} animation="wave" variant="rectangular" /> */}
                     <ThreeDots height="100" width="100" radius="30" color="#4fa94d" ariaLabel="three-dots-loading" wrapperStyle={{}} wrapperClassName="" visible={true} />
                 </Box>                  
@@ -113,17 +115,30 @@ const BubbleChart = () => {
                         キーワードの選択
                     </Typography>
                 </Toolbar>
-                <svg viewBox={`${-margin.left} ${margin.top} ${svgWidth} ${svgHeight}`} >
-                    <select >
-                        {data.children.map((item) => {
-                            <option value={item.count}>{item.name}</option>
-                        })}
-                    </select>
-                    
-                </svg>
+                <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} sx={{my:3 ,height: 100}}>
+                    <FormControl sx={{ m: 1, width: 500 }} >
+                        <InputLabel id="demo-simple-select-autowidth-label">キーワードを選択</InputLabel>
+                            <Select
+                                labelId="demo-simple-select-autowidth-label"
+                                id="demo-simple-select-autowidth"
+                                value={child}
+                                onChange={(e) => onClickhandle(e)}
+                                label="キーワードを選択"
+                            >
+                                <MenuItem value="">
+                                    <em>None</em>
+                                </MenuItem>
+                                {data.children.map((item) => {
+                                    return(
+                                        <MenuItem value={item.name}>{item.name}</MenuItem>
+                                    )                     
+                                })}
+                            </Select>
+                    </FormControl>
+                </Box>        
             </Card>
         );
     }
 }
 
-export default BubbleChart
+export default NoBubbleChart

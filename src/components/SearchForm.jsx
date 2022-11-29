@@ -15,6 +15,8 @@ const SearchForm = () => {
     const dispatch = useDispatch();
     const search = useSelector((state) => state.searchForm.search);
     const papers = useSelector((state) => state.papersKeyword.papers);
+    const startYear = useSelector((state) => state.startYear.year);
+    const endYear = useSelector((state) => state.endYear.year);
     let [data, setData] = useState([]);
     const [author, setAuthor] = useState([]);
     const isFirstRender = useRef(true);
@@ -38,7 +40,7 @@ const SearchForm = () => {
                 console.log(spl);
                 //const abstract = encodeURIComponent('%' + search + '%');
                 // const response = await fetch(`/.netlify/functions/api/papers/${abstract}`);
-                const response = await fetch(`/.netlify/functions/api/papers/${sql[0]}/${sql[1]}/${sql[2]}`)
+                const response = await fetch(`/.netlify/functions/api/papers/${sql[0]}/${sql[1]}/${sql[2]}/${startYear}/${endYear}`)
                 const data = await response.json();
                 
                 // const response2 = await fetch(`/.netlify/functions/api/papers/title/${sql[0]}/${sql[1]}/${sql[2]}/${sql[3]}/${sql[4]}`)
@@ -64,7 +66,7 @@ const SearchForm = () => {
                 dispatch(changeTableDataJudge(true));
             })();
         }
-    }, [enterJudge]);
+    }, [enterJudge,startYear,endYear]);
     const array = [];
     // useEffect(() => {
     //     if(isFirstRenderAuthor.current) { // 初回レンダー判定

@@ -37,26 +37,51 @@ const BubbleChart = () => {
     const height = 240;
     useEffect(() => {
             setJudge(false);
+            const startTime = Date.now();
             (async () => {
                 let list = [];
                 for (let i = startYear;i <= endYear;i++){
                     const request = await fetch(`/data/keyword_No5_year_alter/${i}.json`);
                     const data = await request.json();
-                    list.forEach(element => {
-                        for(let j = 0;j < data.length;j++){
-                            if(element.name === data[j].name){
-                                element.count += data[j].count;
-                                data.splice(j,1);
+                    //let j = 0;
+                    // while(j < list.length){
+                    //     let k = 0;
+                    //     while(k < data.length){
+                    //         if(list[j].name === data[k].name){
+                    //             list[j].count += data[k].count;
+                    //             data.splice(k,1);
+                    //             break;
+                    //         }
+                    //         k += 1;
+                    //     }
+                    //     j += 1;
+                    // }
+                    for(let j = 0;j < list.length;j++){
+                        for(let k = 0;k < data.length;k++){
+                            if(list[j].name === data[k].name){
+                                list[j].count += data[k].count;
+                                data.splice(k,1);
                                 break;
                             }
                         }
-                    })
+                    }
+                    // list.forEach(element => {
+                    //     for(let j = 0;j < data.length;j++){
+                    //         if(element.name === data[j].name){
+                    //             element.count += data[j].count;
+                    //             data.splice(j,1);
+                    //             break;
+                    //         }
+                    //     }
+                    // })
                     list = list.concat(data);
                 }
                 list.sort((a, b) => b.count - a.count);
                 const result = {children:list.slice(0,30)}
                 setData(result);
                 setJudge(true);
+                const endTime = Date.now();
+                console.log(endTime - startTime);
             })();
     },[endYear,startYear]);
     console.log(data)
@@ -70,7 +95,6 @@ const BubbleChart = () => {
                 dispatch(changePapersKeyword(data));
                 dispatch(changeTableDataJudge(true));
             })();
-            console.log(papers)
         }
     },[keyword])
     
@@ -129,6 +153,7 @@ const BubbleChart = () => {
                                 fill="#ff9500" 
                                 opacity={(node.leaves().length-i)/node.leaves().length+0.1} 
                                 onClick={(e) => onClickhandle(e,item.data.name)}
+                                style={{cursor:'pointer'}}
                             />
                             <text fontSize={item.r*0.4}  dominantBaseline="central" textAnchor="middle" style={{pointerEvents: "none"}}>
                                 {item.data.name}
