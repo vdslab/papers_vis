@@ -11,7 +11,7 @@ import columnsJudgeReducer from './columnsSlice';
 import scrollJudgeReducer from './scrollJudge';
 import tableDataJudgeReducer from './tableDataJudge';
 
-import novisKeywordReducer from './noVisKeyword';
+import novisKeywordReducer from './novisKeyword';
 import novisPapersReducer from './novisPapers';
 
 export const store = configureStore({
