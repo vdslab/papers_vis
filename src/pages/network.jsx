@@ -14,15 +14,9 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Divider from '@mui/material/Divider';
 import { styled } from '@mui/material/styles';
 import SelectPartOrWholeLabel from "../components/SelectPartOrWholeLabel";
+import { positions } from '@mui/system';
+import SideBar from '../components/SideBar';
 
-const DrawerHeader = styled('div')(({ theme }) => ({
-    display: 'flex',
-    alignItems: 'center',
-    padding: theme.spacing(0, 1),
-    // necessary for content to be below app bar
-    ...theme.mixins.toolbar,
-    justifyContent: 'flex-end',
-  }));
 
 const Network = () => {
     const [detail, setDetail] = useState({});
@@ -33,54 +27,59 @@ const Network = () => {
     const [reloading, setReloading] = useState(true);
     const query = new URLSearchParams(search);
     const [sideBarOpen, setSideBarOpen] = useState(false);
-    const toggleOpen=() => {
-        setSideBarOpen(!sideBarOpen);
-    }
+    const [labelString, setLabelString] = useState("part");
+    const [labelPart, setLabelPart] = useState("part");
+    const [labelStringNum, setLabelStringNum] = useState(20);
+    
+
     
     return(
         
-        <section style={loading?{margin: '350px auto'}:{display:'flex', margin: '20px'}}>
+        <div style={loading?{margin: '550px auto'}:{display:'flex'}}>
 
-            {/*サイドバー*/}
-            <Drawer  variant="persistent" anchor='left' open={sideBarOpen} onClose={toggleOpen}> 
-            <DrawerHeader>
-                <IconButton aria-label="delete" onClick={() => setSideBarOpen(!sideBarOpen)}>
-                    <ArrowBackIcon/>
-                </IconButton>
-                
-            </DrawerHeader>
-            <Divider />
+            <SideBar 
+            sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} 
+            nodeLabel = {nodeLabel}  setNodeLabel = {setNodeLabel}
+            labelPart = {labelPart} setLabelPart = {setLabelPart}
+            labelStringNum = {labelStringNum} setLabelStringNum = {setLabelStringNum}
+            labelString = {labelString} setLabelString = {setLabelString}
+            />
+        
+
             
-                <Stack spacing={4}>
-                    <SelectLabel nodeLabel = {nodeLabel} setNodeLabel = {setNodeLabel}/>
-                    <SelectPartOrWholeLabel />
-                </Stack>
-            </Drawer>
-
-            <div style={{width:'55%'}}>
-                <NetworkGraph detail = {detail} setDetail = {setDetail}
+            
+          <div style = {{width:"65%"}}>
+                <NetworkGraph 
+                detail = {detail} setDetail = {setDetail}
                 sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} 
-                nodeLabel = {nodeLabel} setLoading = {setLoading} loading = {loading} reloading = {reloading}/>
+                nodeLabel = {nodeLabel} 
+                setLoading = {setLoading} loading = {loading}
+                reloading = {reloading}
+                isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
+                labelPart = {labelPart} setLabelPart = {setLabelPart}
+                labelString = {labelString} setLabelString = {setLabelString}
+                labelStringNum = {labelStringNum} setLabelStringNum = {setLabelStringNum}
+                />
             </div>
-
-           
-
-            
+                
+               
             {loading || <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
-           reloading = {reloading}  setReloading = {setReloading}/>}
+                reloading = {reloading}  setReloading = {setReloading}/>}
+                
+         
 
-            {loading || <button className='button is-white' style={{margin : '0 0 0 5px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>
+            {/*loading || <button className='button is-white' style={{margin : '0 0 0 5px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>
                 {
                 !isOpenMenu ? 
                 <KeyboardArrowDownIcon/> :
                 <KeyboardArrowUpIcon />
                 }
             </button>
-            }
+            */}
             
             
 
-        </section>
+        </div>
     );
 }
 

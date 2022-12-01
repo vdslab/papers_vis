@@ -117,6 +117,18 @@ router.get("/authors/:name/:name2/:name3/:name4/:name5", async function (req, re
   // }
 });
 
+//router.get("/authors/:name", async (req, res) => {
+//    const data = await selectRows(`SELECT * FROM authors WHERE name &@ $1`,[
+//      req.params.name,
+//    ]);  
+//    if (data.length === 0) {
+//      res.status(404).json({ message: "not found" });
+//    } else {
+//      res.json(data);
+//    }
+//});
+
+
 
 router.get("/journals", async (req, res) => {
   const data = await selectRows(`SELECT * FROM journals`);
@@ -124,6 +136,19 @@ router.get("/journals", async (req, res) => {
 });
 
 
+
+
+
+ router.get("/authors/:doi", async (req, res) => {
+  const data = await selectRows(`SELECT * FROM authors WHERE doi = $1`, [
+    req.params.doi,
+   ]);
+   if (data.length === 0) {
+     res.status(404).json({ message: "not found" });
+      } else {
+     res.json(data);
+   }
+ });
 
 router.get("/keywords", async (req, res) => {
   const data = await selectRows(`SELECT * FROM keywords`);
