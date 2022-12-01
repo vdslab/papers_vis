@@ -574,13 +574,13 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
             {
             links.map((link, key) => {
                 //console.log(nodes);
-               
-                if(link["target"]["doi"] ===  nodes[0]["doi"]) {
-                    return(<CardContent>{link["source"]["title"]}</CardContent>);
+                //console.log(clickedNodeKey);
+                if(link["target"]["doi"] ===  nodes[clickedNodeKey]["doi"]) {
+                    return(<CardContent onClick = {() => toggleOnOffNodeClick(nodes[link["source"]["index"]], link["source"]["index"])}>{link["source"]["title"]}</CardContent>);
                 }           
                 
-                if(link["source"]["doi"] ===  nodes[0]["doi"]) {
-                    return(<CardContent>{link["target"]["title"]}</CardContent>);
+                if(link["source"]["doi"] ===  nodes[clickedNodeKey]["doi"]) {
+                    return(<CardContent onClick = {() => toggleOnOffNodeClick(nodes[link["target"]["index"]], link["target"]["index"])}>{link["target"]["title"]}</CardContent>);
                 }   
             })
             }
