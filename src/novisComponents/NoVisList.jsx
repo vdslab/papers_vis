@@ -17,6 +17,12 @@ import CircularProgressWithLabel from "../components/CircularProgressWithLabel";
 import HelpIcon from '@mui/icons-material/Help';
 import Tooltip from '@mui/material/Tooltip';
 import { Link } from 'react-router-dom';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+
 
 /*
 todo
@@ -349,7 +355,6 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     console.log(data);
 
                     if(top.prev !== -1 && doiset.has(top.doi) === false) {
-                    
                         console.log(top);
                         linkData.push({source:top.prev, target:top.doi});
                     }
@@ -550,100 +555,17 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         
         {loading?<div style = {{position:'absolute', top : `${height/2.2}px`, left:`${width/2.2}px` }}><CircularProgressWithLabel value={progress} />
         <br/> <br/> <p style={{position:'relative', right:'20px'}} >読み込み中...</p></div>:
-        <ZoomableSVG width={graphWidth} height={graphHeight-6} setSideBarOpen= {setSideBarOpen} sideBarOpen = {sideBarOpen}
-        isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}>
-
-        <g className="links">
-            {
-            links.map((link) => {
-                console.log(labelPart);
-                console.log(labelString);
-                return(
-                   
-                    <line
-                    key={link.source.id + "-" + link.target.id}
-                    stroke= {( (nodesState[link.source.index] === 2 && nodeLabels[link.target.index] === true) || (nodesState[link.target.index] === 2 && nodeLabels[link.source.index] === true) ) || linkCol}
-                    strokeWidth="0.7"
-                    className="link"
-                    x1={link.source.x}
-                    y1={link.source.y}
-                    x2={link.target.x}
-                    y2={link.target.y}                    
-                    >
-                    </line>
-
-                );
-            })}
-        </g>
-
-        <g className="nearest-links">
-            {links.map((link) => {
-                return(
-                    <line
-                    key={link.source.id + "-" + link.target.id}
-                    stroke= {!(( (nodesState[link.source.index] === 2 && nodeLabels[link.target.index] === true) || (nodesState[link.target.index] === 2 && nodeLabels[link.source.index] === true) ) ) || nearestLinkCol }
-                    strokeWidth="0.8"
-                    className="nearest-link"
-                    x1={link.source.x}
-                    y1={link.source.y}
-                    x2={link.target.x}
-                    y2={link.target.y}                    
-                    >
-                    </line>
-
-                );
-            })}
-        </g>
-        
-        <g className="nodes">
-
-            {nodes.map((node, key)=> {
-                return (
-                    <circle
-                        className="node"
-                        key = {node.id}
-                        r = {8}
-                        style = {{fill : key !== firstSelectedNodeKey ?nodeCols[nodesState[key]]:firseSelectedNodeCol}}
-                        cx = {node.x}
-                        cy = {node.y}
-                        onClick = {() => toggleOnOffNodeClick(node, key)}
-                        onMouseEnter = {() => toggleOnNodeHover(key)}
-                        onMouseLeave = {() => toggleOffNodeHover(key)}
-                    />
-                );
-            })}
-        </g>
-
-        <g className="texts">
-            
-            {nodes.map((node, key)=> {
-
-            return (
-
-                <text
-                    className="text"
-                    key={node.id}
-                    textAnchor="middle"
-                    fill="black"
-                    fontSize={"8px"}
-                    fontFamily = {"Georgia"}
-                    fontWeight= {"bolder"}
-                    x={node.x}
-                    y={node.y}
-                    style={{pointerEvents: "none"}}
-                >
-        
-                    { labelPart === "part"?(nodeLabels[key] !== true || (nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(',')))
-                    :(nodeLabel !== "author" && nodeLabel !== "keyword"?compressLabel(node[nodeLabel], labelStringNum):nodeLabel === "author"?objectArray2ArrayByKey(node[nodeLabel], "name").join(','):objectArray2ArrayByKey(node[nodeLabel], "keyword").join(','))}
-                   
-                </text>
-            );
-        })}                
-            
-
-        </g>
-    </ZoomableSVG>
-}
+        <div>
+            <h1><strong>関連論文</strong></h1>
+            <Card sx={{ minWidth: 275 }}>
+                <CardContent>
+                    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                        Word of the Day
+                    </Typography>
+                </CardContent>
+            </Card>
+        </div>
+        }
     </div>);
 }
 

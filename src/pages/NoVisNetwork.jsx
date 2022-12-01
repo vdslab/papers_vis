@@ -61,9 +61,14 @@ const NoVisNetwork = () => {
                 />
             </div>
         */}
+                 {loading ||
+                 <div style = {{width:"60%", margin:"0 10px"}}> 
+                 <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} 
+                reloading = {reloading}  setReloading = {setReloading}/>
+                </div> }
                 
             
-            <div style = {{width:"65%"}}>  
+          
                 <NoVisList
                 detail = {detail} setDetail = {setDetail}
                 sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} 
@@ -75,11 +80,9 @@ const NoVisNetwork = () => {
                 labelString = {labelString} setLabelString = {setLabelString}
                 labelStringNum = {labelStringNum} setLabelStringNum = {setLabelStringNum}
                 /> 
-            </div>
-
-            {loading || <NodeDetail detail = {detail} isOpenMenu = {isOpenMenu} setIsOpenMenu = {setIsOpenMenu}
-                reloading = {reloading}  setReloading = {setReloading}/>}
-                
+          
+            
+           
          
 
             {/*loading || <button className='button is-white' style={{margin : '0 0 0 5px'}} onClick = { () => setIsOpenMenu(!isOpenMenu)}>
