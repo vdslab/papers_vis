@@ -23,6 +23,7 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Divider } from "@mui/material";
+import Stack from '@mui/material/Stack';
 
 
 /*
@@ -570,22 +571,24 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
             </Card>
             */}
 
-            <Card>
+            <Card sx={{ maxWidth:450 }}>
+                <Stack
+                divider={<Divider />}>
             {
             links.map((link, key) => {
                 //console.log(nodes);
                 //console.log(clickedNodeKey);
                 if(link["target"]["doi"] ===  nodes[clickedNodeKey]["doi"]) {
-                    return(<CardContent onClick = {() => toggleOnOffNodeClick(nodes[link["source"]["index"]], link["source"]["index"])}>{link["source"]["title"]}</CardContent>);
+                    return(<CardContent onClick = {() => toggleOnOffNodeClick(nodes[link["source"]["index"]], link["source"]["index"])}><a>{link["source"]["title"]} </a></CardContent>);
                 }           
                 
                 if(link["source"]["doi"] ===  nodes[clickedNodeKey]["doi"]) {
-                    return(<CardContent onClick = {() => toggleOnOffNodeClick(nodes[link["target"]["index"]], link["target"]["index"])}>{link["target"]["title"]}</CardContent>);
+                    return(<CardContent onClick = {() => toggleOnOffNodeClick(nodes[link["target"]["index"]], link["target"]["index"])}><a>{link["target"]["title"]}</a> </CardContent>);
                 }   
             })
             }
-
             
+                </Stack>
             </Card>
 
             
