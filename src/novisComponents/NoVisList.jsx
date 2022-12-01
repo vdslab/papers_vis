@@ -22,6 +22,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { Divider } from "@mui/material";
 
 
 /*
@@ -555,15 +556,39 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
         
         {loading?<div style = {{position:'absolute', top : `${height/2.2}px`, left:`${width/2.2}px` }}><CircularProgressWithLabel value={progress} />
         <br/> <br/> <p style={{position:'relative', right:'20px'}} >読み込み中...</p></div>:
-        <div>
+        <div style={{margin:"10px"}}>
             <h1><strong>関連論文</strong></h1>
-            <Card sx={{ minWidth: 275 }}>
+            <br/>
+
+            {/*<Card sx={{ minWidth: 275 }}>
                 <CardContent>
                     <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                         Word of the Day
                     </Typography>
                 </CardContent>
+                
             </Card>
+            */}
+
+            <Card>
+            {
+            links.map((link, key) => {
+                //console.log(nodes);
+               
+                if(link["target"]["doi"] ===  nodes[0]["doi"]) {
+                    return(<CardContent>{link["source"]["title"]}</CardContent>);
+                }           
+                
+                if(link["source"]["doi"] ===  nodes[0]["doi"]) {
+                    return(<CardContent>{link["target"]["title"]}</CardContent>);
+                }   
+            })
+            }
+
+            
+            </Card>
+
+            
         </div>
         }
     </div>);
