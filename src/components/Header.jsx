@@ -74,12 +74,16 @@ const Header = () => {
               aria-describedby="scroll-dialog-description"
             >
               <DialogTitle id="scroll-dialog-title">
-                paper vizについて
-                <IconButton>
-                  <CloseIcon onClick={handleClose}/>
-                </IconButton>
-                
-              
+                <Box sx={{ display: "flex" }}>
+                  <Typography variant='h4' sx={{mt:1,flexGrow:1}}>
+                    paper vizについて
+                  </Typography>
+                  <DialogActions>
+                    <IconButton sx={{ justifyContent: "right",  alignItems: "right"}}>
+                      <CloseIcon onClick={handleClose}/>
+                    </IconButton>
+                  </DialogActions>
+                </Box>
               </DialogTitle>
               <DialogContent dividers={scroll === 'paper'}>
               <DialogContentText
@@ -95,13 +99,24 @@ const Header = () => {
                   年代について
                 </Typography>
                 <Typography variant='p' color='black'>
-                  年代は検索する年代の範囲をスライダーで操作することができます。下に表記してあるFrom,Toの箱で入力、調整が可能です。
+                  年代は検索する年代の範囲をスライダーで操作することができます。下に表記してあるFrom,Toの箱でも入力、調整が可能です。
+                  <br/>年代の範囲は検索とキーワードの両方に影響します。
                 </Typography>
                 <Typography sx={{pt:2}} variant='h6' color='black'>
                   キーワードについて
                 </Typography>
                 <Typography variant='p' color='black'>
                   論文のabstractからtf-idfを用いて重要語句を抽出し、上位30個の語句をキーワードとして表示しています。
+                  キーワードを選択することでそのキーワードを持つ論文を表示します。
+                </Typography>
+                <Typography sx={{pt:2}} variant='h6' color='black'>
+                  論文の表示について
+                </Typography>
+                <Typography variant='p' color='black'>
+                  論文は検索またはキーワードを選択することで、それらに見合った論文を表示します。
+                  論文はソート可能で、通常は発行年でソートされています。
+                  {/* 検索の場合、（タイトル、著者、発行年、ページ数、
+                  被引用数、url）を表示します。キーワードの場合、（タイトル、発行年、ページ数、被引用数、キーワード重要度、url）を表示します。 */}
                 </Typography>
                 <Typography sx={{pt:2}} variant='h6' color='black'>
                   ネットワーク図について
@@ -113,7 +128,14 @@ const Header = () => {
                   データについて
                 </Typography>
                 <Typography variant='p' color='black'>
-                  SJRが定めたIEEE xploreが保持しているインパクトファクターの上位30個の論文雑誌を使用しています。
+                <a href='https://ieeexplore.ieee.org/Xplore/home.jsp' target='_blank'>
+                  IEEE xplore
+                  </a>
+                  が保持している論文雑誌から
+                  <a href='https://www.scimagojr.com/journalrank.php?' target='_blank'>
+                    SJR
+                  </a>
+                  が定めたインパクトファクターの上位30個を抽出し使用しています。
                 </Typography>
               </DialogContentText>
               </DialogContent>

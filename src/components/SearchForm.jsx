@@ -26,45 +26,47 @@ const SearchForm = () => {
     useEffect(() => {
         if(isFirstRender.current) { // 初回レンダー判定
             isFirstRender.current = false // もう初回レンダーじゃないよ代入
-          } else {      
-            (async () => {
-                const spl = search.split(' ');
-                while(spl.length <= 4){
-                    spl.push(' ');
-                }
-                const sql = []
-                spl.map ((item) => {
-                    const abstract = encodeURIComponent('%'+item+'%');
-                    sql.push(abstract)
-                })
-                console.log(spl);
-                //const abstract = encodeURIComponent('%' + search + '%');
-                // const response = await fetch(`/.netlify/functions/api/papers/${abstract}`);
-                const response = await fetch(`/.netlify/functions/api/papers/${sql[0]}/${sql[1]}/${sql[2]}/${startYear}/${endYear}`)
-                const data = await response.json();
-                
-                // const response2 = await fetch(`/.netlify/functions/api/papers/title/${sql[0]}/${sql[1]}/${sql[2]}/${sql[3]}/${sql[4]}`)
-                // const title = await response2.json();
-                //dispatch(changePapersKeyword(data));
-                // const name = encodeURIComponent(search);
-                // const response2 = await fetch(`/.netlify/functions/api/authors/${sql[0]}/${sql[1]}/${sql[2]}/${sql[3]}/${sql[4]}`);
-                // const authors = await response2.json();
-                // let authors_array = [];
-                // authors.map((author) => {
-                //     (async () => {
-                //         const doi = encodeURIComponent(author.doi);
-                //         const response = await fetch(`/.netlify/functions/api/papers/${doi}`);
-                //         const data2 = await response.json();
-                //         authors_array.push(data2[0]);               
-                //     })(); 
-                // })        
-                //const arr = data.concat(title)
-
-                //const newArr = arr.filter((element, index) => arr.indexOf(element) === index && console.log(element.doi));
-                setData(data); 
-                dispatch(changePapersKeyword(data));
-                dispatch(changeTableDataJudge(true));
-            })();
+          } else {
+            if(search !== ''){
+                (async () => {
+                    const spl = search.split(' ');
+                    while(spl.length <= 4){
+                        spl.push(' ');
+                    }
+                    const sql = []
+                    spl.map ((item) => {
+                        const abstract = encodeURIComponent('%'+item+'%');
+                        sql.push(abstract)
+                    })
+                    console.log(spl);
+                    //const abstract = encodeURIComponent('%' + search + '%');
+                    // const response = await fetch(`/.netlify/functions/api/papers/${abstract}`);
+                    const response = await fetch(`/.netlify/functions/api/papers/${sql[0]}/${sql[1]}/${sql[2]}/${startYear}/${endYear}`)
+                    const data = await response.json();
+                    
+                    // const response2 = await fetch(`/.netlify/functions/api/papers/title/${sql[0]}/${sql[1]}/${sql[2]}/${sql[3]}/${sql[4]}`)
+                    // const title = await response2.json();
+                    //dispatch(changePapersKeyword(data));
+                    // const name = encodeURIComponent(search);
+                    // const response2 = await fetch(`/.netlify/functions/api/authors/${sql[0]}/${sql[1]}/${sql[2]}/${sql[3]}/${sql[4]}`);
+                    // const authors = await response2.json();
+                    // let authors_array = [];
+                    // authors.map((author) => {
+                    //     (async () => {
+                    //         const doi = encodeURIComponent(author.doi);
+                    //         const response = await fetch(`/.netlify/functions/api/papers/${doi}`);
+                    //         const data2 = await response.json();
+                    //         authors_array.push(data2[0]);               
+                    //     })(); 
+                    // })        
+                    //const arr = data.concat(title)
+    
+                    //const newArr = arr.filter((element, index) => arr.indexOf(element) === index && console.log(element.doi));
+                    setData(data); 
+                    dispatch(changePapersKeyword(data));
+                    dispatch(changeTableDataJudge(true));
+                })();
+            }     
         }
     }, [enterJudge,startYear,endYear]);
     const array = [];
@@ -109,7 +111,7 @@ const SearchForm = () => {
     <div>
         <Box sx={{ margin: '70px' }}>
             <Box sx={{ width: '100%', height: 30 }}>
-                <TextField fullWidth id="fullWidth" label="論文検索" variant="outlined"
+                <TextField fullWidth id="fullWidth" label="論文検索" variant="outlined" placeholder="英語で入力をしてください"
                 InputProps={{startAdornment:<InputAdornment position="start"><SearchIcon/></InputAdornment>}}
                 onKeyDown={e => {
                     if (e.keyCode === 13) {

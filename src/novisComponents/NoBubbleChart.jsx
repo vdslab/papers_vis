@@ -40,24 +40,26 @@ const NoBubbleChart = () => {
     useEffect(() => {
             setJudge(false);
             (async () => {
-                let list = [];
-                for (let i = startYear;i <= endYear;i++){
-                    const request = await fetch(`/data/keyword_No5_year_alter/${i}.json`);
-                    const data = await request.json();
-                    list.forEach(element => {
-                        for(let j = 0;j < data.length;j++){
-                            if(element.name === data[j].name){
-                                element.count += data[j].count;
-                                data.splice(j,1);
-                                break;
-                            }
-                        }
-                    })
-                    list = list.concat(data);
-                }
-                list.sort((a, b) => b.count - a.count);
-                const result = {children:list.slice(0,30)}
-                setData(result);
+                const request = await fetch(`/data/bubble_chart/${startYear}.json`);
+                const data = await request.json();
+                // let list = [];
+                // for (let i = startYear;i <= endYear;i++){
+                //     const request = await fetch(`/data/bubble_chart/${}.json`);
+                //     const data = await request.json();
+                //     list.forEach(element => {
+                //         for(let j = 0;j < data.length;j++){
+                //             if(element.name === data[j].name){
+                //                 element.count += data[j].count;
+                //                 data.splice(j,1);
+                //                 break;
+                //             }
+                //         }
+                //     })
+                //     list = list.concat(data);
+                // }
+                // list.sort((a, b) => b.count - a.count);
+                // const result = {children:list.slice(0,30)}
+                setData({children:data[endYear]});
                 setJudge(true);
             })();
     },[endYear,startYear]);
@@ -72,7 +74,7 @@ const NoBubbleChart = () => {
                 dispatch(changeTableDataJudge(true));
             })();
         }
-    },[novisKeyword])
+    },[novisKeyword,startYear,endYear])
     
     const styles = {
         transition:"transform 1s"

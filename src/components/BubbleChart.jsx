@@ -7,11 +7,12 @@ import { changePapersKeyword } from '../redux/papersKeywordSlice';
 import { changeColumnsJudge } from "../redux/columnsSlice";
 import { changeScrollJudge } from '../redux/scrollJudge';
 import { changeTableDataJudge } from '../redux/tableDataJudge';
-import { Card, Tooltip ,Box, Typography,Toolbar} from "@mui/material";
+import { Card, Tooltip ,Box, Typography,Toolbar, StyledEngineProvider} from "@mui/material";
 import CircularProgress from '@mui/material/CircularProgress';
 import LabelProgress from '../components/LabelProgress';
 import Skeleton from '@mui/material/Skeleton';
 import { ThreeDots } from 'react-loader-spinner';
+import SelectInput from '@mui/material/Select/SelectInput';
 
 const BubbleChart = () => {
     const dispatch = useDispatch();
@@ -37,12 +38,13 @@ const BubbleChart = () => {
     const height = 240;
     useEffect(() => {
             setJudge(false);
-            const startTime = Date.now();
             (async () => {
-                let list = [];
-                for (let i = startYear;i <= endYear;i++){
-                    const request = await fetch(`/data/keyword_No5_year_alter/${i}.json`);
+                //let list = [];
+                //for (let i = startYear;i <= endYear;i++){
+                    const request = await fetch(`/data/bubble_chart/${startYear}.json`);
                     const data = await request.json();
+                    console.log(data)
+                    console.log(startYear,endYear)
                     //let j = 0;
                     // while(j < list.length){
                     //     let k = 0;
@@ -56,15 +58,18 @@ const BubbleChart = () => {
                     //     }
                     //     j += 1;
                     // }
-                    for(let j = 0;j < list.length;j++){
-                        for(let k = 0;k < data.length;k++){
-                            if(list[j].name === data[k].name){
-                                list[j].count += data[k].count;
-                                data.splice(k,1);
-                                break;
-                            }
-                        }
-                    }
+
+                    //採用
+                    // for(let j = 0;j < list.length;j++){
+                    //     for(let k = 0;k < data.length;k++){
+                    //         if(list[j].name === data[k].name){
+                    //             list[j].count += data[k].count;
+                    //             data.splice(k,1);
+                    //             break;
+                    //         }
+                    //     }
+                    // }
+
                     // list.forEach(element => {
                     //     for(let j = 0;j < data.length;j++){
                     //         if(element.name === data[j].name){
@@ -74,17 +79,18 @@ const BubbleChart = () => {
                     //         }
                     //     }
                     // })
-                    list = list.concat(data);
-                }
-                list.sort((a, b) => b.count - a.count);
-                const result = {children:list.slice(0,30)}
-                setData(result);
-                setJudge(true);
-                const endTime = Date.now();
-                console.log(endTime - startTime);
+                    
+                    //list = list.concat(data);
+                //}
+                // list.sort((a, b) => b.count - a.count);
+                // const result = {children:list.slice(0,30)}
+                setData({children:data[endYear]});   
+                console.log(data);            
             })();
+            setJudge(true);
+            
     },[endYear,startYear]);
-    console.log(data)
+    
     useEffect(() => {
         if(isFirstRender.current) { // 初回レンダー判定
             isFirstRender.current = false // もう初回レンダーじゃないよ代入
@@ -96,8 +102,8 @@ const BubbleChart = () => {
                 dispatch(changeTableDataJudge(true));
             })();
         }
-    },[keyword])
-    
+    },[keyword,startYear,endYear])
+    console.log(papers)
     let packs = d3.pack()
                  .size([width, height])
                  .padding(0);
