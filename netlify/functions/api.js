@@ -102,7 +102,7 @@ router.get("/authors/:doi", async (req, res) => {
 
 router.get("/authors/:name/:name2/:name3/:name4/:name5", async function (req, res) {
   const data = await selectRows(`SELECT * FROM authors WHERE name ILIKE $1 AND name ILIKE $2 
-  AND name ILIKE $3 AND name ILIKE $4 AND name ILIKE $5 LIMIT 20000`,[
+  AND name ILIKE $3 AND name ILIKE $4 AND name ILIKE $5 LIMIT 10000`,[
     req.params.name,
     req.params.name2,
     req.params.name3,
@@ -172,11 +172,12 @@ router.get("/keywords/:keyword/:startYear/:endYear", async (req, res) => {
       req.params.startYear,
       req.params.endYear
     ]);
-    if (data.length === 0) {
-      res.status(404).json({ message: "not found" });
-    } else {
-      res.json(data);
-    }
+    res.json(data);
+    // if (data.length === 0) {
+    //   res.status(404).json({ message: "not found" });
+    // } else {
+    //   res.json(data);
+    // }
 });
 
 
