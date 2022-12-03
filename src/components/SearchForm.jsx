@@ -35,13 +35,14 @@ const SearchForm = () => {
                     }
                     const sql = []
                     spl.map ((item) => {
-                        const abstract = encodeURI('%'+item+'%');
+                        const abstract = '%'+item+'%';
                         sql.push(abstract)
                     })
                     console.log(spl);
                     //const abstract = encodeURIComponent('%' + search + '%');
                     // const response = await fetch(`/.netlify/functions/api/papers/${abstract}`);
-                    const response = await fetch(`/.netlify/functions/api/papers/${sql[0]}/${sql[1]}/${sql[2]}/${startYear}/${endYear}`)
+                    const url = `/.netlify/functions/api/papers/${sql[0]}/${sql[1]}/${sql[2]}/${startYear}/${endYear}`
+                    const response = await fetch(encodeURI(url))
                     const data = await response.json();
                     
                     // const response2 = await fetch(`/.netlify/functions/api/papers/title/${sql[0]}/${sql[1]}/${sql[2]}/${sql[3]}/${sql[4]}`)
