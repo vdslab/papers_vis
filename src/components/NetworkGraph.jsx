@@ -12,12 +12,13 @@ import IconButton from '@mui/material/IconButton';
 import Box from '@mui/material/Box';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-
+import NetworkHelp from "../components/NetworkHelp";
 import CircularProgressWithLabel from "./CircularProgressWithLabel";
 import HelpIcon from '@mui/icons-material/Help';
 import Tooltip from '@mui/material/Tooltip';
 import { Link } from 'react-router-dom';
 
+import { useDispatch, useSelector } from "react-redux";
 /*
 todo
 グラフの調整
@@ -27,11 +28,14 @@ todo
 */
 
 const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpenMenu , setIsOpenMenu }) => {
-
+    
     const svgRef = useRef();
     const [k, setK] = useState(1);
     const [x, setX] = useState(width/5);
     const [y, setY] = useState(height/4);
+
+    const active = useSelector((state) => state.pageActive.active);
+    let toLink = '../..';
     useEffect(() => {
       const zoom = d3.zoom().on("zoom", (event) => {
         const { x, y, k } = event.transform;
@@ -41,6 +45,15 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
       });
       d3.select(svgRef.current).call(zoom);
     }, []);
+
+    useEffect(() => {
+        if(active === 'home'){
+            toLink = '../..'
+        }else if(active === 'nokeywords'){
+            toLink = '../nokeywords'
+        }
+    },[active]);
+    
     return (
       <svg ref={svgRef} width={width} height={height}
       className="graph has-background-white"
@@ -51,13 +64,14 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
         <g transform={`translate(${x},${y})scale(${k})`}>{children}</g>
         
         {/*ハンバーガーメニュー*/}
+        
         <foreignObject
         x={10}
         y={10}
         width="110"
         height="50"
         >
-                <Link to = "../..">
+                <Link to = {toLink}>
            <Tooltip title="トップへ戻る" placement="right">
             <IconButton aria-label="delete" 
             style = {{margin:"5px"}}>
@@ -82,22 +96,9 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
         </foreignObject>
 
        
-        <foreignObject
-        x={10}
-        y={110}
-        width="110"
-        height="50"
-        >
-                  <Link to = "../../help">
-           <Tooltip title="ヘルプ" placement="right">
-            <IconButton aria-label="delete" 
-            style = {{margin:"5px"}}>
-                <HelpIcon />
-            </IconButton>
-            </Tooltip>
-            </Link>
-        </foreignObject>
-
+        
+          <NetworkHelp />
+        
         <foreignObject
         x = {width-60 - 10}
         y = {10}

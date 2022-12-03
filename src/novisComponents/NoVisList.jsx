@@ -24,7 +24,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Divider } from "@mui/material";
 import Stack from '@mui/material/Stack';
-
+import NovisNetworkHelp from "./NovisNetworkHelp";
 
 /*
 todo
@@ -555,9 +555,25 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
     return(
         <div>
         
-        {loading?<div style = {{position:'absolute', top : `${height/2.2}px`, left:`${width/2.2}px` }}><CircularProgressWithLabel value={progress} />
+        {loading?<div style = {{position:'absolute', top : `${height/2.2}px`, left:`${width/2.05}px` }}><CircularProgressWithLabel value={progress} />
         <br/> <br/> <p style={{position:'relative', right:'20px'}} >読み込み中...</p></div>:
         <div style={{margin:"10px"}}>
+            <foreignObject
+                x={10}
+                y={10}
+                width="110"
+                height="50"
+            >
+                <Link to = "../novis">
+                    <Tooltip title="戻る" placement="left">
+                        <IconButton aria-label="delete" 
+                            style = {{margin:"5px"}}>
+                            <ArrowBackIcon />
+                        </IconButton>
+                    </Tooltip>
+                </Link>
+            </foreignObject>
+            <NovisNetworkHelp />
             <h1><strong>関連論文</strong></h1>
             <br/>
 
