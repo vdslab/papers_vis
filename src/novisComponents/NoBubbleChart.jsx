@@ -63,17 +63,21 @@ const NoBubbleChart = () => {
                 setJudge(true);
             })();
     },[endYear,startYear]);
+    const tableDataJudge = useSelector((state) => state.tableDataJudge.judge);
     useEffect(() => {
-        if(isFirstRender.current) { // 初回レンダー判定
-            isFirstRender.current = false // もう初回レンダーじゃないよ代入
-        } else {
+        // if(isFirstRender.current) { // 初回レンダー判定
+        //     isFirstRender.current = false // もう初回レンダーじゃないよ代入
+        // } else {
             (async () => {
                 const response = await fetch(`/.netlify/functions/api/keywords/${novisKeyword}/${startYear}/${endYear}`);
                 const data = await response.json();
                 dispatch(changePapersKeyword(data));
                 dispatch(changeTableDataJudge(true));
+                
+                
             })();
-        }
+        // }
+        console.log(tableDataJudge)
     },[novisKeyword,startYear,endYear])
     
     const styles = {

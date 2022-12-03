@@ -6,7 +6,7 @@ import { changeKeyword } from '../redux/keywordSlice';
 import { changePapersKeyword } from '../redux/papersKeywordSlice';
 import { changeColumnsJudge } from "../redux/columnsSlice";
 import { changeScrollJudge } from '../redux/scrollJudge';
-import { changeTableDataJudge } from '../redux/tableDataJudge';
+import tableDataJudge, { changeTableDataJudge } from '../redux/tableDataJudge';
 import { Card, Tooltip ,Box, Typography,Toolbar, StyledEngineProvider} from "@mui/material";
 import CircularProgress from '@mui/material/CircularProgress';
 import LabelProgress from '../components/LabelProgress';
@@ -84,8 +84,7 @@ const BubbleChart = () => {
                 //}
                 // list.sort((a, b) => b.count - a.count);
                 // const result = {children:list.slice(0,30)}
-                setData({children:data[endYear]});   
-                console.log(data);            
+                setData({children:data[endYear]});               
             })();
             setJudge(true);
             

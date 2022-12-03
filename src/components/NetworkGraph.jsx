@@ -53,7 +53,7 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
             toLink = '../nokeywords'
         }
     },[active]);
-    
+
     return (
       <svg ref={svgRef} width={width} height={height}
       className="graph has-background-white"
@@ -115,8 +115,6 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
             }
         </foreignObject>
 
-
-        
       </svg>
     );
   }
