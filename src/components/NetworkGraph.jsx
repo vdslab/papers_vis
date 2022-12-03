@@ -35,7 +35,7 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
     const [y, setY] = useState(height/4);
 
     const active = useSelector((state) => state.pageActive.active);
-    let toLink = '../..';
+    const [toLink,setToLink] = useState('../..');
     useEffect(() => {
       const zoom = d3.zoom().on("zoom", (event) => {
         const { x, y, k } = event.transform;
@@ -48,9 +48,11 @@ const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpe
 
     useEffect(() => {
         if(active === 'home'){
-            toLink = '../..'
+            setToLink('../..');
         }else if(active === 'nokeywords'){
-            toLink = '../nokeywords'
+            setToLink('../../nokeywords');
+        }else{
+            setToLink('../../novis');
         }
     },[active]);
 
