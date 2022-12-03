@@ -11,7 +11,7 @@ import {Dialog,DialogActions,DialogContent,DialogContentText,DialogTitle, IconBu
 import { useDispatch, useSelector } from "react-redux";
 import { changePapersKeyword } from '../redux/papersKeywordSlice';
 import { changeTableDataJudge } from '../redux/tableDataJudge';
-import { changeNovisKeyword } from '../redux/noVisKeyword';
+import { changeNovisKeyword } from '../redux/novisKeyword';
 import { changeKeyword } from '../redux/keywordSlice';
 import { changeSearchForm } from '../redux/searchFormSlice';
 import { changePageActive } from '../redux/pageActiveSlice';
