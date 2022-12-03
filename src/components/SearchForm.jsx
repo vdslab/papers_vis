@@ -35,7 +35,7 @@ const SearchForm = () => {
                     }
                     const sql = []
                     spl.map ((item) => {
-                        const abstract = '%25'+item+'%25';
+                        const abstract = '%'+item+'%';
                         sql.push(abstract)
                     })
                     console.log(spl);
