@@ -14,18 +14,18 @@ import { changeTableDataJudge } from '../redux/tableDataJudge';
 import { changeNovisKeyword } from '../redux/noVisKeyword';
 import { changeKeyword } from '../redux/keywordSlice';
 import { changeSearchForm } from '../redux/searchFormSlice';
+import { changePageActive } from '../redux/pageActiveSlice';
 
 const Header = () => {
   const [width, height] = useWindowSize();
   const hatenaStyle = width >= 600?{position:'relative', bottom : "30px" }:{position:'relative', bottom : "30px", left:"400px" };
-  const [active, setActive] = useState('home');
   const [open, setOpen] = React.useState(false);
   const [scroll, setScroll] = React.useState('paper');
-
+  const active = useSelector((state) => state.pageActive.active);
   //評価用
   const dispatch = useDispatch();
   const changeActive = (act) => {
-    setActive(act);
+    dispatch(changePageActive(act));
     dispatch(changePapersKeyword([]));
     dispatch(changeTableDataJudge(true));
     dispatch(changeNovisKeyword(''));

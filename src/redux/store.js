@@ -13,6 +13,7 @@ import tableDataJudgeReducer from './tableDataJudge';
 
 import novisKeywordReducer from './novisKeyword';
 import novisPapersReducer from './novisPapers';
+import pageActiveReducer from './pageActiveSlice';
 
 export const store = configureStore({
   reducer: {
@@ -30,5 +31,6 @@ export const store = configureStore({
 
     novisKeyword: novisKeywordReducer,
     novisPapers: novisPapersReducer,
+    pageActive: pageActiveReducer,
   },
 });

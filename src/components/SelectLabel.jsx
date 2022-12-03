@@ -20,7 +20,7 @@ export default function SelectLabel ({nodeLabel, setNodeLabel}) {
               labelId="demo-simple-select-label"
               id="demo-simple-select"
               value = {nodeLabel}
-              label= "nodeLabel"
+              label= "ノードラベル"
               onChange={handleChange}
             >
               <MenuItem value="title">タイトル</MenuItem>

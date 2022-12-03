@@ -236,7 +236,7 @@ const PapersView = () => {
                                           return(
                                             <TableCell  key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
                                                 <nav>
-                                                  <Link to={`/network/${escapeDoi(paper.doi)}`}>{value}</Link>
+                                                  <Link to={`/novis/network/${escapeDoi(paper.doi)}`}>{value}</Link>
                                                 </nav>
                                                 <Outlet />
                                             </TableCell>
