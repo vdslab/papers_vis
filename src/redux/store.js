@@ -11,7 +11,7 @@ import columnsJudgeReducer from './columnsSlice';
 import scrollJudgeReducer from './scrollJudge';
 import tableDataJudgeReducer from './tableDataJudge';
 
-import novisKeywordReducer from './novisKeyword';
+import novisKeywordReducer from './noVisKeyword';
 import novisPapersReducer from './novisPapers';
 import pageActiveReducer from './pageActiveSlice';
 

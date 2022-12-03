@@ -2,7 +2,7 @@ import * as d3 from 'd3';
 import React ,{useState,useEffect ,useRef} from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {changePapersCount} from "../redux/papersCountSlice"
-import { changeNovisKeyword } from '../redux/novisKeyword';
+import { changeNovisKeyword } from '../redux/noVisKeyword';
 import { changePapersKeyword } from '../redux/papersKeywordSlice';
 import { changeColumnsJudge } from "../redux/columnsSlice";
 import { changeScrollJudge } from '../redux/scrollJudge';
