@@ -35,7 +35,7 @@ const SearchForm = () => {
                     }
                     const sql = []
                     spl.map ((item) => {
-                        const abstract = '%'+item+'%';
+                        const abstract = encodeURIComponent('%'+item+'%');
                         sql.push(abstract)
                     })
                     console.log(spl);
