@@ -69,7 +69,7 @@ router.get("/papers/:abstract/:abstract2/:abstract3/:startYear/:endYear", async 
   const data = await selectRows(`SELECT * FROM papers WHERE (publication_year BETWEEN $4 and $5) 
     AND ((abstract ILIKE $1 AND abstract ILIKE $2 
     AND abstract ILIKE $3) OR (title ILIKE $1 AND title ILIKE $2 AND title ILIKE $3) OR (authors ILIKE 
-    $1 AND authors ILIKE $2 AND authors ILIKE $3))  LIMIT 5000`,[
+    $1 AND authors ILIKE $2 AND authors ILIKE $3))  LIMIT 4000`,[
     req.params.abstract,
     req.params.abstract2,
     req.params.abstract3,
