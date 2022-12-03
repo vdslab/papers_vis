@@ -42,7 +42,7 @@ const SearchForm = () => {
                     //const abstract = encodeURIComponent('%' + search + '%');
                     // const response = await fetch(`/.netlify/functions/api/papers/${abstract}`);
                     const url = `/.netlify/functions/api/papers/${sql[0]}/${sql[1]}/${sql[2]}/${startYear}/${endYear}`
-                    const response = await fetch(encodeURI(url))
+                    const response = await fetch(encodeURI(encodeURI(url)))
                     const data = await response.json();
                     
                     // const response2 = await fetch(`/.netlify/functions/api/papers/title/${sql[0]}/${sql[1]}/${sql[2]}/${sql[3]}/${sql[4]}`)
