@@ -57,7 +57,7 @@ const Header = () => {
           <div className="hero-body">
 
            
-            <h1 className='title' style= {{position:'relative', top : "20px"}} >paper viz</h1>
+            <h1 className='title' style= {{position:'relative', top : "20px"}} >paper vis</h1>
 
             <Grid container>
 
