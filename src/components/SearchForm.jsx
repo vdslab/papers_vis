@@ -24,9 +24,9 @@ const SearchForm = () => {
     const [enterJudge,setEnterJudge] = useState(false);
     
     useEffect(() => {
-        if(isFirstRender.current) { // 初回レンダー判定
-            isFirstRender.current = false // もう初回レンダーじゃないよ代入
-          } else {
+        // if(isFirstRender.current) { // 初回レンダー判定
+        //     isFirstRender.current = false // もう初回レンダーじゃないよ代入
+        //   } else {
             if(search !== ''){
                 (async () => {
                     const spl = search.split(' ');
@@ -66,7 +66,7 @@ const SearchForm = () => {
                     dispatch(changePapersKeyword(data));
                     dispatch(changeTableDataJudge(true));
                 })();
-            }     
+            // }     
         }
     }, [enterJudge,startYear,endYear]);
     const array = [];
