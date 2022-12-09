@@ -30,7 +30,7 @@ todo
 const ZoomableSVG= ({ children, width, height,sideBarOpen, setSideBarOpen, isOpenMenu , setIsOpenMenu }) => {
     
     const svgRef = useRef();
-    const [k, setK] = useState(1);
+    const [k, setK] = useState(0.1);
     const [x, setX] = useState(width/5);
     const [y, setY] = useState(height/4);
 

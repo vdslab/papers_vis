@@ -8,7 +8,8 @@ import {
     BrowserRouter,
     Routes,
     Route,
-    Outlet
+    Outlet,
+    Navigate
 } from "react-router-dom";
 import Network from "./pages/network";
 import NoKeywords  from "./pages/NoKeywords";
@@ -70,7 +71,7 @@ export default function App() {
                     <Route path = "/" element = {<Layout />}>
                         <Route index element = {<Main />} />    
                         <Route exact path = "help" element = {<p>f</p>} />
-                        <Route path="*" element={<NotFound />} />
+                        <Route path="*" element={<Navigate to="/" replace />} />
                         <Route exact path="/nokeywords" element={ <NoKeywords />} />
                         <Route exact path="/novis" element={ <NoVis />} />
                     </Route>
