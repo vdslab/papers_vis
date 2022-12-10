@@ -77,6 +77,7 @@ export default function App() {
                     </Route>
                     <Route path = "/network/:doi" element = {<Network />} />
                     <Route path = "/novis/network/:doi" element = {<NoVisNetwork/>} />
+                    <Route path="*" element={<Navigate to="/" replace />} />
                 </Routes>
             </BrowserRouter>
     );

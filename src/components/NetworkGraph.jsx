@@ -19,6 +19,7 @@ import Tooltip from '@mui/material/Tooltip';
 import { Link } from 'react-router-dom';
 
 import { useDispatch, useSelector } from "react-redux";
+import axios from "axios";
 /*
 todo
 グラフの調整
@@ -341,8 +342,15 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                     const encoded = encodeURIComponent(top.doi);
 
                     //doiがnot foundになる可能性がある
-                    const tmp = await(await fetch(`/.netlify/functions/api/papers/doi/${encoded}`)).json();
-                    const data = tmp[0];
+                    let response;
+                    try {
+                        const tmp = await axios.get(`/.netlify/functions/api/papers/doi/${encoded}`) ;
+                        console.log(tmp.data);
+                        response = tmp;
+                    } catch (e) {
+                        console.log(e);
+                    }
+                    const data = response.data[0];
                     
                     data['id'] = top['doi'];
                     data['author'] = await(await fetch(`/.netlify/functions/api/authors/${encoded}`)).json();
