@@ -1,15 +1,15 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 export const endYearSlice = createSlice({
-    name : 'endYear',
-    initialState:{
-        year : 2021,
+  name: "endYear",
+  initialState: {
+    year: 2021,
+  },
+  reducers: {
+    changeEndYear: (state, action) => {
+      state.year = action.payload;
     },
-    reducers:{
-        changeEndYear :(state,action) => {
-            state.year = action.payload;
-        }
-    }
+  },
 });
 
 export const { changeEndYear } = endYearSlice.actions;

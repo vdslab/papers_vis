@@ -1,15 +1,15 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 export const papersKeywordSlice = createSlice({
-    name : 'papersKeyword',
-    initialState:{
-        papers : [],
+  name: "papersKeyword",
+  initialState: {
+    papers: [],
+  },
+  reducers: {
+    changePapersKeyword: (state, action) => {
+      state.papers = action.payload;
     },
-    reducers:{
-        changePapersKeyword :(state,action) => {
-            state.papers = action.payload;
-        }
-    }
+  },
 });
 
 export const { changePapersKeyword } = papersKeywordSlice.actions;

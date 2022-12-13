@@ -1,1794 +1,1784 @@
 {
- "total_records": 30,
- "total_searched": 5638566,
- "articles": [
-  {
-   "doi": "10.1109/MCOM.1981.1090539",
-   "title": "A guide to the FCC's rulemaking procedures",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 2,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Federal Communications Commission, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087728366",
-      "id": 37087728366,
-      "full_name": "J. Linthicum",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090539",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090539",
-   "html_url": "https://ieeexplore.ieee.org/document/1090539/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090539/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23750,
-   "publication_year": 1981,
-   "publication_date": "July 1981",
-   "start_page": "34",
-   "end_page": "37",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "FCC",
-      "US Government",
-      "Radio broadcasting",
-      "TV broadcasting",
-      "Mobile communication",
-      "Cable TV",
-      "Communication cables",
-      "Land mobile radio",
-      "Telephony",
-      "Telegraphy"
-     ]
+  "total_records": 30,
+  "total_searched": 5638566,
+  "articles": [
+    {
+      "doi": "10.1109/MCOM.1981.1090539",
+      "title": "A guide to the FCC's rulemaking procedures",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 2,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Federal Communications Commission, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087728366",
+            "id": 37087728366,
+            "full_name": "J. Linthicum",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090539",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090539",
+      "html_url": "https://ieeexplore.ieee.org/document/1090539/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090539/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23750,
+      "publication_year": 1981,
+      "publication_date": "July 1981",
+      "start_page": "34",
+      "end_page": "37",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "FCC",
+            "US Government",
+            "Radio broadcasting",
+            "TV broadcasting",
+            "Mobile communication",
+            "Cable TV",
+            "Communication cables",
+            "Land mobile radio",
+            "Telephony",
+            "Telegraphy"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090489",
+      "title": "A review of computer-communication network classification schemes",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 3,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "IEEE COMM",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37892190900",
+            "id": 37892190900,
+            "full_name": "I. Soi",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37581233600",
+            "id": 37581233600,
+            "full_name": "K. Aggarwal",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090489",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090489",
+      "html_url": "https://ieeexplore.ieee.org/document/1090489/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090489/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23748,
+      "publication_year": 1981,
+      "publication_date": "March 1981",
+      "start_page": "24",
+      "end_page": "32",
+      "citing_paper_count": 3,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Computer networks",
+            "Communication switching",
+            "Packet switching",
+            "Computer interfaces",
+            "Classification",
+            "Time sharing computer systems",
+            "Computer network management",
+            "Switching circuits",
+            "Communication networks",
+            "ARPANET"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090556",
+      "title": "A review of optical signal processing",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 4,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Carnegie-Mellon Univ., Pittsburg, PA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37300026600",
+            "id": 37300026600,
+            "full_name": "D. Casasent",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090556",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090556",
+      "html_url": "https://ieeexplore.ieee.org/document/1090556/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090556/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23751,
+      "publication_year": 1981,
+      "publication_date": "September 1981",
+      "start_page": "40",
+      "end_page": "42",
+      "citing_paper_count": 0,
+      "citing_patent_count": 3,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Optical signal processing",
+            "Spread spectrum radar",
+            "Radar signal processing",
+            "Signal processing",
+            "Signal processing algorithms",
+            "Phased arrays",
+            "Optical computing",
+            "Laser radar",
+            "Optical diffraction"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090467",
+      "title": "A rural integrated distribution trial with fiber optics",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 5,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Elie-St. Eustache Services Trial, Manitoba Telephone System",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088098091",
+            "id": 37088098091,
+            "full_name": "R. Kachulak",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "The author discusses applying fiber optic technology in two remote towns. Current efforts by Canadian telephone companies are aimed at ther eduction of multiparty line loads to a maximum of four customers per rural line. The telephone companies providing service to rural areas of Canada share a common problem, that of economics. Recognizing this fact, studies have been undertaken to come up with solutions. The outcome of these studies indicatetsh at the increasedv alue of new rural services integrated on a common carrier system would greatly reduce the present economic barriers. These studies also led to the Department of Communications (DOC) and the Canadian Telecommunication Carriers Association (CTCA) jointly sponsoring the Elie-St. Eustache Fiber Optic Technology Trial.",
+      "article_number": "1090467",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090467",
+      "html_url": "https://ieeexplore.ieee.org/document/1090467/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090467/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23747,
+      "publication_year": 1981,
+      "publication_date": "January 1981",
+      "start_page": "36",
+      "end_page": "42",
+      "citing_paper_count": 1,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Optical fibers",
+            "Telephony",
+            "Cable TV",
+            "Telecommunication switching",
+            "Power cables",
+            "Optical fiber cables",
+            "Remote monitoring",
+            "Rural areas",
+            "Land surface temperature"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "rural",
+          "value": 0.21374114996372895
+        },
+        {
+          "keyword": "study",
+          "value": 0.21374114996372895
+        },
+        {
+          "keyword": "canadian",
+          "value": 0.1424940999758193
+        },
+        {
+          "keyword": "common",
+          "value": 0.1424940999758193
+        },
+        {
+          "keyword": "company",
+          "value": 0.1424940999758193
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090514",
+      "title": "Advanced 16-QAM techniques for digital microwave radio",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 6,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Nippon Telegraph and Telephone Public Corp., Kanagawa, Japan",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37983685800",
+            "id": 37983685800,
+            "full_name": "H. Yamamoto",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090514",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090514",
+      "html_url": "https://ieeexplore.ieee.org/document/1090514/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090514/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23749,
+      "publication_year": 1981,
+      "publication_date": "May 1981",
+      "start_page": "36",
+      "end_page": "45",
+      "citing_paper_count": 21,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Microwave theory and techniques",
+            "Digital communication",
+            "Microwave devices",
+            "Fading channels",
+            "Repeaters",
+            "Digital modulation",
+            "Quadrature amplitude modulation",
+            "Adaptive equalizers"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090543",
+      "title": "Amateur radio",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 9,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Radio Corporation of America, New York, NY, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087729575",
+            "id": 37087729575,
+            "full_name": "E. Laport",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087728176",
+            "id": 37087728176,
+            "full_name": "E. Tilton",
+            "author_order": 2
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087727897",
+            "id": 37087727897,
+            "full_name": "R. Rowe",
+            "author_order": 3
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "In this review, we look, however briefly, at some of the highlights in the nearly 70 years of amateur radio, from sparks and coherers to sophisticated solid-state transceivers. We believe that this record testifies to the worth of the amateur approach in almost every phase of the radio communications art. If we have coped with the rush of technology and kept our enthusiasm thus far hopefully, ham radio operators of the future will be able to carry on this tradition.",
+      "article_number": "1090543",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090543",
+      "html_url": "https://ieeexplore.ieee.org/document/1090543/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090543/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23750,
+      "publication_year": 1981,
+      "publication_date": "July 1981",
+      "start_page": "16",
+      "end_page": "24",
+      "citing_paper_count": 2,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Ham radios",
+            "Licenses",
+            "Radio broadcasting",
+            "Frequency",
+            "US Department of Commerce",
+            "Relays"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "radio",
+          "value": 0.3110855084191276
+        },
+        {
+          "keyword": "amateur",
+          "value": 0.20739033894608505
+        },
+        {
+          "keyword": "70",
+          "value": 0.10369516947304253
+        },
+        {
+          "keyword": "70 year",
+          "value": 0.10369516947304253
+        },
+        {
+          "keyword": "able",
+          "value": 0.10369516947304253
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090559",
+      "title": "Antennas for communications",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 12,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Royal Military College of Science, Shrivenham, Swidon, England",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37352238200",
+            "id": 37352238200,
+            "full_name": "P. Ramsdale",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "The radio spectrum suitable for communications is limited, and even with global allocation and management, the problem of spectrum congestion continues to increase. This has led to more and more being demanded from antennas so that they play their part in minimizing the problem. In the microwave bands used by satellites, the antenna characteristics must now be good enough for frequencies to be reused; at HF, broadband performance is required even from structures of a limited physical size, while in all bands, adaptive antennas are needed to minimize interference from unwanted transmissions. This paper highlights developments in communications antenna technology that are enabling these and other goals to be achieved.",
+      "article_number": "1090559",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090559",
+      "html_url": "https://ieeexplore.ieee.org/document/1090559/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090559/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23751,
+      "publication_year": 1981,
+      "publication_date": "September 1981",
+      "start_page": "28",
+      "end_page": "30",
+      "citing_paper_count": 2,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Satellite broadcasting",
+            "Aperture antennas",
+            "Satellite ground stations",
+            "Reflector antennas",
+            "Antenna feeds",
+            "Satellite antennas",
+            "Microwave communication",
+            "Transmitting antennas",
+            "Radio spectrum management"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "antenna",
+          "value": 0.33927557187198837
+        },
+        {
+          "keyword": "band",
+          "value": 0.16963778593599418
+        },
+        {
+          "keyword": "communication",
+          "value": 0.16963778593599418
+        },
+        {
+          "keyword": "even",
+          "value": 0.16963778593599418
+        },
+        {
+          "keyword": "minimize",
+          "value": 0.16963778593599418
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090540",
+      "title": "Applications of statistical communications theory",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 13,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "U.S. Army Signal Res. and Dev. Lab., Fort Monmouth, NJ, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088313732",
+            "id": 37088313732,
+            "full_name": "B. Goldberg",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090540",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090540",
+      "html_url": "https://ieeexplore.ieee.org/document/1090540/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090540/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23750,
+      "publication_year": 1981,
+      "publication_date": "July 1981",
+      "start_page": "26",
+      "end_page": "33",
+      "citing_paper_count": 12,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Communication systems",
+            "Bandwidth",
+            "Signal to noise ratio",
+            "Correlators",
+            "Matched filters",
+            "Detectors",
+            "Communication equipment",
+            "Research and development"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090462",
+      "title": "Commercial communication satellite systems in Canada",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 44,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "RCA Limited Research Laboratories, Canada",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37976428900",
+            "id": 37976428900,
+            "full_name": "J. Almond",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "The object of this paper is to provide an overview of the commercial communications systems in Canada that make use of geostationary satellites. The system includes active communications repeater satellites in geostationary orbits, tracking telemetry and command facilities, a satellite control center, a satellite network operations center, and over 100 earth stations of several different types. Transportable earth stations are also part of the system for short-term message service to remote areas and television services for special events. This includes an overview of commercial satellite communications systems and a discussion of the forthcoming ANIK C and D. The paper briefly reviews the characteristics of the present system, outlines the major features of the system under construction, and indicates future plans.",
+      "article_number": "1090462",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090462",
+      "html_url": "https://ieeexplore.ieee.org/document/1090462/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090462/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23747,
+      "publication_year": 1981,
+      "publication_date": "January 1981",
+      "start_page": "10",
+      "end_page": "20",
+      "citing_paper_count": 3,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Artificial satellites",
+            "Satellite broadcasting",
+            "TV",
+            "Message service",
+            "Satellite ground stations",
+            "Space vehicles",
+            "Satellite antennas",
+            "Satellite communication"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "system",
+          "value": 0.39477101697586137
+        },
+        {
+          "keyword": "satellite",
+          "value": 0.3289758474798845
+        },
+        {
+          "keyword": "communication",
+          "value": 0.19738550848793068
+        },
+        {
+          "keyword": "center",
+          "value": 0.1315903389919538
+        },
+        {
+          "keyword": "commercial",
+          "value": 0.1315903389919538
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090571",
+      "title": "Communications in the People's Republic of China",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 46,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "IEEE Comm.",
+            "full_name": "C. Lof",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "From 21 May to 3 June 1981, a delegation from the IEEE Communications Society visited the People's Republic of China. The group was invited by the Chinese Institute of Electronics (CIE) which oversaw the entire trip. Some of their staff personnel accompanied the mission throughout its stay. The group's technical visits included universities, research institutes, an earth station, an integrated circuits factory, and the Beijing International Telephone Service. A separate program of visits was prepared for the spouses. On several occasions the entire group visited monuments of outstanding cultural interest (a full itinerary is included at the end of article). The delegation Leader, Donald Schilling, requested that each delegate prepare a report daily to summarize the day's events. These were collected at the end of the trip and the commentaries synthesized and used to prepare this report.",
+      "article_number": "1090571",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090571",
+      "html_url": "https://ieeexplore.ieee.org/document/1090571/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090571/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23752,
+      "publication_year": 1981,
+      "publication_date": "November 1981",
+      "start_page": "35",
+      "end_page": "46",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Telephony",
+            "Cable TV",
+            "Facsimile",
+            "China",
+            "Satellite broadcasting",
+            "Telecommunication services",
+            "Optical fiber cables",
+            "Telegraphy"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "visit",
+          "value": 0.2807449625374386
+        },
+        {
+          "keyword": "group",
+          "value": 0.21055872190307892
+        },
+        {
+          "keyword": "prepare",
+          "value": 0.21055872190307892
+        },
+        {
+          "keyword": "delegation",
+          "value": 0.1403724812687193
+        },
+        {
+          "keyword": "end",
+          "value": 0.1403724812687193
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090471",
+      "title": "DDX [Japanese digital switching network]",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 61,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "NTT, Switching Systems Development Division, Japan",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087834089",
+            "id": 37087834089,
+            "full_name": "M. Kato",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087830020",
+            "id": 37087830020,
+            "full_name": "T. Takatsuki",
+            "author_order": 2
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/38121945400",
+            "id": 38121945400,
+            "full_name": "Y. Yoshida",
+            "author_order": 3
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "To meet Japan's diverse data communication needs, Nippon Telegraph &amp; Telephone Public Corporation (NTT) has been researching and developing the digital switching network, DDX. The circuit-switching network was put into commercial service in Tokyo, Osaka, Nagoya, and Yokohoma on 25 December 1979.",
+      "article_number": "1090471",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090471",
+      "html_url": "https://ieeexplore.ieee.org/document/1090471/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090471/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23748,
+      "publication_year": 1981,
+      "publication_date": "March 1981",
+      "start_page": "34",
+      "end_page": "37",
+      "citing_paper_count": 3,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Circuit switching",
+            "Data processing",
+            "Japan",
+            "Telecommunication network management"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "network",
+          "value": 0.2407717061715384
+        },
+        {
+          "keyword": "switching",
+          "value": 0.2407717061715384
+        },
+        {
+          "keyword": "switching network",
+          "value": 0.2407717061715384
+        },
+        {
+          "keyword": "1979",
+          "value": 0.1203858530857692
+        },
+        {
+          "keyword": "25",
+          "value": 0.1203858530857692
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090505",
+      "title": "Data communications",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 62,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "NTT Human Interface Laboratories, Japan",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088239777",
+            "id": 37088239777,
+            "full_name": "K. Tsukada",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088247753",
+            "id": 37088247753,
+            "full_name": "M. Imanaga",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090505",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090505",
+      "html_url": "https://ieeexplore.ieee.org/document/1090505/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090505/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23749,
+      "publication_year": 1981,
+      "publication_date": "May 1981",
+      "start_page": "23",
+      "end_page": "34",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Data communication",
+            "Telephony",
+            "Communication switching",
+            "Switching circuits",
+            "Packet switching",
+            "Switching systems",
+            "Independent component analysis",
+            "Computer networks",
+            "Data processing",
+            "Telecommunication switching"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090541",
+      "title": "Digital radio economics",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 63,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bell Telephone Labs., Holmdel, NJ, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37089112313",
+            "id": 37089112313,
+            "full_name": "C. Bailey",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090541",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090541",
+      "html_url": "https://ieeexplore.ieee.org/document/1090541/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090541/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23750,
+      "publication_year": 1981,
+      "publication_date": "July 1981",
+      "start_page": "6",
+      "end_page": "8",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Digital communication",
+            "Radio communication",
+            "Circuit switching",
+            "Channel bank filters",
+            "Electronic switching systems",
+            "Telephony",
+            "Bandwidth",
+            "Receivers",
+            "Power generation economics"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090525",
+      "title": "Digital radio technology: Present and future",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 64,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Collins Radio Group, Rockwell Int., Dallas, TX",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37285266900",
+            "id": 37285266900,
+            "full_name": "P. Hartmann",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090525",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090525",
+      "html_url": "https://ieeexplore.ieee.org/document/1090525/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090525/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23750,
+      "publication_year": 1981,
+      "publication_date": "July 1981",
+      "start_page": "10",
+      "end_page": "14",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Digital communication",
+            "Interference",
+            "Radio communication",
+            "Radio transmitters",
+            "Digital modulation",
+            "Signal processing",
+            "Nearest neighbor searches"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090589",
+      "title": "Do we know what \"technology\" means?",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 65,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Sinclair Radio Labs. Ltd., Concord, Ont., Canada",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088304932",
+            "id": 37088304932,
+            "full_name": "G. Sinclair",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090589",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090589",
+      "html_url": "https://ieeexplore.ieee.org/document/1090589/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090589/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23752,
+      "publication_year": 1981,
+      "publication_date": "November 1981",
+      "start_page": "54",
+      "end_page": "56",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Design engineering",
+            "Knowledge engineering",
+            "Technology",
+            "Mathematics"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090585",
+      "title": "Domestic communications satellites: System considerations for rural areas",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 66,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "COMSAT General, Washington, DC, USA",
+            "full_name": "R. Briskman",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "GEOSYNCHRONOUS satellite systems designed specially for providing domestic communications to geographically large rural areas are currently under investigation by several countries. The paper presents some significant technical considerations for the economical provision of both telephone and television services to such areas. Satellite launch vehicles, operating radio frequency band(s), spacecraft communications implementation and earth station engineering are discussed.",
+      "article_number": "1090585",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090585",
+      "html_url": "https://ieeexplore.ieee.org/document/1090585/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090585/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23752,
+      "publication_year": 1981,
+      "publication_date": "November 1981",
+      "start_page": "26",
+      "end_page": "33",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Artificial satellites",
+            "Rural areas",
+            "Satellite broadcasting",
+            "Sociotechnical systems",
+            "Satellite ground stations",
+            "Bandwidth"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "area",
+          "value": 0.21442250696755896
+        },
+        {
+          "keyword": "communication",
+          "value": 0.21442250696755896
+        },
+        {
+          "keyword": "satellite",
+          "value": 0.21442250696755896
+        },
+        {
+          "keyword": "area currently",
+          "value": 0.10721125348377948
+        },
+        {
+          "keyword": "area satellite",
+          "value": 0.10721125348377948
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090483",
+      "title": "Evaluation of advanced switching technologies for integrated voice/data applications",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 71,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bell Laboratories, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087826449",
+            "id": 37087826449,
+            "full_name": "A. Rudrapatna",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090483",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090483",
+      "html_url": "https://ieeexplore.ieee.org/document/1090483/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090483/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23748,
+      "publication_year": 1981,
+      "publication_date": "March 1981",
+      "start_page": "38",
+      "end_page": "44",
+      "citing_paper_count": 2,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Internet telephony",
+            "Switching systems",
+            "Data communication",
+            "Signal processing",
+            "Traffic control",
+            "Packet switching",
+            "Bandwidth"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090491",
+      "title": "ISDN",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 82,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bellcore, NJ, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37573385900",
+            "id": 37573385900,
+            "full_name": "I. Dorros",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "Describes the special features, technologies, and communications applications supported by Integrated System Digital Network (ISDN). ISDN is a set of communications standards for simultaneous digital transmission of voice, video, data, and other network services over the traditional circuits of the public switched telephone network. ",
+      "article_number": "1090491",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090491",
+      "html_url": "https://ieeexplore.ieee.org/document/1090491/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090491/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23748,
+      "publication_year": 1981,
+      "publication_date": "March 1981",
+      "start_page": "16",
+      "end_page": "19",
+      "citing_paper_count": 18,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": ["ISDN", "Data communication", "Digital communication"]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "network",
+          "value": 0.35603449745815596
+        },
+        {
+          "keyword": "communication",
+          "value": 0.23735633163877065
+        },
+        {
+          "keyword": "digital",
+          "value": 0.23735633163877065
+        },
+        {
+          "keyword": "isdn",
+          "value": 0.23735633163877065
+        },
+        {
+          "keyword": "application",
+          "value": 0.11867816581938533
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090487",
+      "title": "Local distribution in computer communications",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 90,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "McGill University, Montreal, PQ, Canada",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37382405400",
+            "id": 37382405400,
+            "full_name": "J. Hayes",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090487",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090487",
+      "html_url": "https://ieeexplore.ieee.org/document/1090487/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090487/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23748,
+      "publication_year": 1981,
+      "publication_date": "March 1981",
+      "start_page": "6",
+      "end_page": "14",
+      "citing_paper_count": 22,
+      "citing_patent_count": 2,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Distributed computing",
+            "Broadcasting",
+            "Topology",
+            "Communication system control",
+            "Mathematical model",
+            "Traffic control",
+            "Protocols",
+            "Performance analysis"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090590",
+      "title": "Machine intelligence and communications in future NASA missions",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 91,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Univ. of Santa Clara, Santa Clara, CA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087745732",
+            "id": 37087745732,
+            "full_name": "T. Healy",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090590",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090590",
+      "html_url": "https://ieeexplore.ieee.org/document/1090590/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090590/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23752,
+      "publication_year": 1981,
+      "publication_date": "November 1981",
+      "start_page": "8",
+      "end_page": "15",
+      "citing_paper_count": 1,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Machine intelligence",
+            "NASA",
+            "Earth",
+            "Space technology",
+            "Intelligent sensors",
+            "Military satellites",
+            "Space missions",
+            "Information systems",
+            "Remote sensing"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090506",
+      "title": "Master-slave synchronization techniques",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 92,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "NTT Corp., Japan",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087587670",
+            "id": 37087587670,
+            "full_name": "K. Okimi",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37974670600",
+            "id": 37974670600,
+            "full_name": "H. Fukinuki",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090506",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090506",
+      "html_url": "https://ieeexplore.ieee.org/document/1090506/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090506/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23749,
+      "publication_year": 1981,
+      "publication_date": "May 1981",
+      "start_page": "12",
+      "end_page": "21",
+      "citing_paper_count": 5,
+      "citing_patent_count": 3,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Master-slave",
+            "Oscillators",
+            "Frequency synchronization",
+            "Error correction",
+            "Synchronization"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090587",
+      "title": "Maximum likelihood sequence detection in nonlinear satellite channels",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 93,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Fairchild Space Co., Germantown, MD, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37984269900",
+            "id": 37984269900,
+            "full_name": "D. Chakraborty",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "A technical study by computer simulation has been performed to assess the potential of maximum likelihood sequence detection (MLSD) in a band-limited nonlinear satellite channel with two nonlinear elements [a high-power amplifier (HPA) and a transponder traveling wave tube amplifier (TWTA)] operating in tandem. Starting with a brief background on digital modem development, this paper outlines the basic principle of MLSD and a conceptual structure suitable for satellite channel applications. The bit-error rate has been computed for a realistic nonlinear satellite channel using Forney's approach with the Viterbi algorithm. The upper bound of channel performance improvement in a typical satellite link has been identified.",
+      "article_number": "1090587",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090587",
+      "html_url": "https://ieeexplore.ieee.org/document/1090587/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090587/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23752,
+      "publication_year": 1981,
+      "publication_date": "November 1981",
+      "start_page": "47",
+      "end_page": "53",
+      "citing_paper_count": 7,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Maximum likelihood detection",
+            "Transponders",
+            "Phase shift keying",
+            "Satellite ground stations",
+            "Modems",
+            "Degradation",
+            "Phase measurement",
+            "Nonlinear filters",
+            "Filtering"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "channel",
+          "value": 0.29568850838182914
+        },
+        {
+          "keyword": "satellite",
+          "value": 0.29568850838182914
+        },
+        {
+          "keyword": "nonlinear",
+          "value": 0.22176638128637186
+        },
+        {
+          "keyword": "satellite channel",
+          "value": 0.22176638128637186
+        },
+        {
+          "keyword": "amplifier",
+          "value": 0.14784425419091457
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090558",
+      "title": "On evaluating the performance of communications antennas",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 113,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Til-Tek Ltd., Kemptville, Ont., Canada-1988",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37972880800",
+            "id": 37972880800,
+            "full_name": "W. Tilston",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090558",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090558",
+      "html_url": "https://ieeexplore.ieee.org/document/1090558/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090558/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23751,
+      "publication_year": 1981,
+      "publication_date": "September 1981",
+      "start_page": "18",
+      "end_page": "20",
+      "citing_paper_count": 2,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Dipole antennas",
+            "Directive antennas",
+            "Reflector antennas",
+            "Radar antennas",
+            "Adaptive arrays",
+            "Linear antenna arrays",
+            "Antenna accessories",
+            "Aperture antennas",
+            "Helical antennas",
+            "Performance analysis"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090507",
+      "title": "Present and future of large capacity optical fiber transmission",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 114,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "NTT,Yokasaka-shi,Japan",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37717634900",
+            "id": 37717634900,
+            "full_name": "M. Koyama",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087692659",
+            "id": 37087692659,
+            "full_name": "T. Itoh",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090507",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090507",
+      "html_url": "https://ieeexplore.ieee.org/document/1090507/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090507/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23749,
+      "publication_year": 1981,
+      "publication_date": "May 1981",
+      "start_page": "4",
+      "end_page": "10",
+      "citing_paper_count": 1,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Optical fibers",
+            "Optical fiber cables",
+            "Coaxial cables",
+            "Repeaters",
+            "Coaxial components",
+            "Economic forecasting",
+            "Optical fiber dispersion"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090557",
+      "title": "Rural telephony and the economic challenge ahead",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 120,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Univ. of Alaska-Fairbanks, Fairbanks, AK, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087817012",
+            "id": 37087817012,
+            "full_name": "A. Hills",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090557",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090557",
+      "html_url": "https://ieeexplore.ieee.org/document/1090557/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090557/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23751,
+      "publication_year": 1981,
+      "publication_date": "September 1981",
+      "start_page": "49",
+      "end_page": "51",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Telephony",
+            "Rural areas",
+            "Pricing",
+            "Power generation economics",
+            "Investments",
+            "Resource management"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090500",
+      "title": "Special applications",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 127,
+      "volume": "19",
+      "authors": {
+        "authors": []
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "Describes the special features and technologies of micromainframes.",
+      "article_number": "1090500",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090500",
+      "html_url": "https://ieeexplore.ieee.org/document/1090500/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090500/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23749,
+      "publication_year": 1981,
+      "publication_date": "May 1981",
+      "start_page": "67",
+      "end_page": "68",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": ["Computers", "Large-scale systems"]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "describes",
+          "value": 0.3333333333333333
+        },
+        {
+          "keyword": "describes special",
+          "value": 0.3333333333333333
+        },
+        {
+          "keyword": "feature",
+          "value": 0.3333333333333333
+        },
+        {
+          "keyword": "feature technology",
+          "value": 0.3333333333333333
+        },
+        {
+          "keyword": "micromainframes",
+          "value": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090583",
+      "title": "Submarine communications",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 128,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Carnigie-Mellon University",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37621718700",
+            "id": 37621718700,
+            "full_name": "M. Callaham",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090583",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090583",
+      "html_url": "https://ieeexplore.ieee.org/document/1090583/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090583/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23752,
+      "publication_year": 1981,
+      "publication_date": "November 1981",
+      "start_page": "16",
+      "end_page": "25",
+      "citing_paper_count": 16,
+      "citing_patent_count": 2,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Underwater vehicles",
+            "Underwater cables",
+            "Frequency",
+            "Acoustic signal detection",
+            "Sonar detection",
+            "Optical surface waves",
+            "Sea surface",
+            "Receiving antennas",
+            "Directive antennas",
+            "Satellite broadcasting"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090448",
+      "title": "TELIDON - A review",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 129,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Dept. of Communications-1969 and NORPAK Ltd., Kanata, Ont., Canada",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37828392300",
+            "id": 37828392300,
+            "full_name": "H. Bown",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37840205200",
+            "id": 37840205200,
+            "full_name": "W. Sawchuk",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "TELIDON is a videotex development of the Canadian Department of Communications that differs radically in display presentation format from the earlier European developments. The name videotex is used internationally to represent a class of home and business information services which disseminate information from information suppliers into the home or office. In general, a television receiver, suitably modified or augmented, can serve as the consumer's terminal equipment. The system essentially makes use of the set as a still-picture display medium where the consumer has control over what is displayed. By utilizing the common-carrier telephone line or other interactive network, or broadcast system, users of the service are able to retrieve information stored in computer controlled databases and have it displayed.",
+      "article_number": "1090448",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090448",
+      "html_url": "https://ieeexplore.ieee.org/document/1090448/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090448/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23747,
+      "publication_year": 1981,
+      "publication_date": "January 1981",
+      "start_page": "22",
+      "end_page": "28",
+      "citing_paper_count": 3,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Computer displays",
+            "Space technology",
+            "Signal resolution",
+            "Decoding",
+            "Image storage",
+            "Image resolution"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "display",
+          "value": 0.29731765849886654
+        },
+        {
+          "keyword": "information",
+          "value": 0.29731765849886654
+        },
+        {
+          "keyword": "consumer",
+          "value": 0.14865882924943327
+        },
+        {
+          "keyword": "control",
+          "value": 0.14865882924943327
+        },
+        {
+          "keyword": "development",
+          "value": 0.14865882924943327
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090474",
+      "title": "Trends in engineering education",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 130,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "University of Illinois, Urbana, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37424440500",
+            "id": 37424440500,
+            "full_name": "M.E. Van Valkenburg",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "It is argued that to report accurately on trends in engineering education, one must first explain that higher education, in general, is in a state of crisis. Problems in individual departments must be viewed in the context of being a small part of the beleagured university as a whole.",
+      "article_number": "1090474",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090474",
+      "html_url": "https://ieeexplore.ieee.org/document/1090474/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090474/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23748,
+      "publication_year": 1981,
+      "publication_date": "March 1981",
+      "start_page": "20",
+      "end_page": "22",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": ["Engineering education", "Engineering profession"]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "education",
+          "value": 0.26967994498529685
+        },
+        {
+          "keyword": "must",
+          "value": 0.26967994498529685
+        },
+        {
+          "keyword": "accurately",
+          "value": 0.13483997249264842
+        },
+        {
+          "keyword": "accurately trend",
+          "value": 0.13483997249264842
+        },
+        {
+          "keyword": "argue",
+          "value": 0.13483997249264842
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1981.1090515",
+      "title": "UHF television and the signal strength handicap",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 137,
+      "volume": "19",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "UHF Comparability Task Force",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087606243",
+            "id": 37087606243,
+            "full_name": "P. Gieseler",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "The disparate properties of the UHF and VHF bands have produced what has become known as the \"UHF handicap\" - UHF television (TV) signals are more difficult to receive than VHF signals and therefore are not as significantly viewed. There are at least three possible types of handicaps that contribute to the disadvantage faced by UHF. First, there is the picture quality handicap. Second, there is a channel selector handicap. Finally, there is a programming handicap. In this paper we will be discussing only the picture quality handicap. Furthermore, we will explore only one type of picture quality handicap-the \"snow\" that is produced by an insufficient signal-to-noise ratio (SNR) at the TV receiver picture tube. Available evidence suggests that this is the dominant difference between UHF and VHF signals. We will utilize a model that indicates the level of this signal strength handicap for several sets of assumptions, and determine the effects of improvements to the UHF service.",
+      "article_number": "1090515",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090515",
+      "html_url": "https://ieeexplore.ieee.org/document/1090515/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090515/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23749,
+      "publication_year": 1981,
+      "publication_date": "May 1981",
+      "start_page": "46",
+      "end_page": "56",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "TV broadcasting",
+            "FCC",
+            "Radio spectrum management",
+            "TV receivers",
+            "Receiving antennas",
+            "UHF antennas",
+            "Frequency synchronization",
+            "Signal to noise ratio"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "handicap",
+          "value": 0.441054277135977
+        },
+        {
+          "keyword": "uhf",
+          "value": 0.3307907078519828
+        },
+        {
+          "keyword": "signal",
+          "value": 0.27565892320998564
+        },
+        {
+          "keyword": "picture",
+          "value": 0.2205271385679885
+        },
+        {
+          "keyword": "picture quality",
+          "value": 0.1653953539259914
+        }
+      ]
     }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090489",
-   "title": "A review of computer-communication network classification schemes",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 3,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "IEEE COMM",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37892190900",
-      "id": 37892190900,
-      "full_name": "I. Soi",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37581233600",
-      "id": 37581233600,
-      "full_name": "K. Aggarwal",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090489",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090489",
-   "html_url": "https://ieeexplore.ieee.org/document/1090489/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090489/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23748,
-   "publication_year": 1981,
-   "publication_date": "March 1981",
-   "start_page": "24",
-   "end_page": "32",
-   "citing_paper_count": 3,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Computer networks",
-      "Communication switching",
-      "Packet switching",
-      "Computer interfaces",
-      "Classification",
-      "Time sharing computer systems",
-      "Computer network management",
-      "Switching circuits",
-      "Communication networks",
-      "ARPANET"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090556",
-   "title": "A review of optical signal processing",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 4,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Carnegie-Mellon Univ., Pittsburg, PA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37300026600",
-      "id": 37300026600,
-      "full_name": "D. Casasent",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090556",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090556",
-   "html_url": "https://ieeexplore.ieee.org/document/1090556/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090556/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23751,
-   "publication_year": 1981,
-   "publication_date": "September 1981",
-   "start_page": "40",
-   "end_page": "42",
-   "citing_paper_count": 0,
-   "citing_patent_count": 3,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Optical signal processing",
-      "Spread spectrum radar",
-      "Radar signal processing",
-      "Signal processing",
-      "Signal processing algorithms",
-      "Phased arrays",
-      "Optical computing",
-      "Laser radar",
-      "Optical diffraction"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090467",
-   "title": "A rural integrated distribution trial with fiber optics",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 5,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Elie-St. Eustache Services Trial, Manitoba Telephone System",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088098091",
-      "id": 37088098091,
-      "full_name": "R. Kachulak",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "The author discusses applying fiber optic technology in two remote towns. Current efforts by Canadian telephone companies are aimed at ther eduction of multiparty line loads to a maximum of four customers per rural line. The telephone companies providing service to rural areas of Canada share a common problem, that of economics. Recognizing this fact, studies have been undertaken to come up with solutions. The outcome of these studies indicatetsh at the increasedv alue of new rural services integrated on a common carrier system would greatly reduce the present economic barriers. These studies also led to the Department of Communications (DOC) and the Canadian Telecommunication Carriers Association (CTCA) jointly sponsoring the Elie-St. Eustache Fiber Optic Technology Trial.",
-   "article_number": "1090467",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090467",
-   "html_url": "https://ieeexplore.ieee.org/document/1090467/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090467/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23747,
-   "publication_year": 1981,
-   "publication_date": "January 1981",
-   "start_page": "36",
-   "end_page": "42",
-   "citing_paper_count": 1,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Optical fibers",
-      "Telephony",
-      "Cable TV",
-      "Telecommunication switching",
-      "Power cables",
-      "Optical fiber cables",
-      "Remote monitoring",
-      "Rural areas",
-      "Land surface temperature"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "rural",
-     "value": 0.21374114996372895
-    },
-    {
-     "keyword": "study",
-     "value": 0.21374114996372895
-    },
-    {
-     "keyword": "canadian",
-     "value": 0.1424940999758193
-    },
-    {
-     "keyword": "common",
-     "value": 0.1424940999758193
-    },
-    {
-     "keyword": "company",
-     "value": 0.1424940999758193
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090514",
-   "title": "Advanced 16-QAM techniques for digital microwave radio",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 6,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Nippon Telegraph and Telephone Public Corp., Kanagawa, Japan",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37983685800",
-      "id": 37983685800,
-      "full_name": "H. Yamamoto",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090514",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090514",
-   "html_url": "https://ieeexplore.ieee.org/document/1090514/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090514/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23749,
-   "publication_year": 1981,
-   "publication_date": "May 1981",
-   "start_page": "36",
-   "end_page": "45",
-   "citing_paper_count": 21,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Microwave theory and techniques",
-      "Digital communication",
-      "Microwave devices",
-      "Fading channels",
-      "Repeaters",
-      "Digital modulation",
-      "Quadrature amplitude modulation",
-      "Adaptive equalizers"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090543",
-   "title": "Amateur radio",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 9,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Radio Corporation of America, New York, NY, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087729575",
-      "id": 37087729575,
-      "full_name": "E. Laport",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087728176",
-      "id": 37087728176,
-      "full_name": "E. Tilton",
-      "author_order": 2
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087727897",
-      "id": 37087727897,
-      "full_name": "R. Rowe",
-      "author_order": 3
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "In this review, we look, however briefly, at some of the highlights in the nearly 70 years of amateur radio, from sparks and coherers to sophisticated solid-state transceivers. We believe that this record testifies to the worth of the amateur approach in almost every phase of the radio communications art. If we have coped with the rush of technology and kept our enthusiasm thus far hopefully, ham radio operators of the future will be able to carry on this tradition.",
-   "article_number": "1090543",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090543",
-   "html_url": "https://ieeexplore.ieee.org/document/1090543/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090543/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23750,
-   "publication_year": 1981,
-   "publication_date": "July 1981",
-   "start_page": "16",
-   "end_page": "24",
-   "citing_paper_count": 2,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Ham radios",
-      "Licenses",
-      "Radio broadcasting",
-      "Frequency",
-      "US Department of Commerce",
-      "Relays"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "radio",
-     "value": 0.3110855084191276
-    },
-    {
-     "keyword": "amateur",
-     "value": 0.20739033894608505
-    },
-    {
-     "keyword": "70",
-     "value": 0.10369516947304253
-    },
-    {
-     "keyword": "70 year",
-     "value": 0.10369516947304253
-    },
-    {
-     "keyword": "able",
-     "value": 0.10369516947304253
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090559",
-   "title": "Antennas for communications",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 12,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Royal Military College of Science, Shrivenham, Swidon, England",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37352238200",
-      "id": 37352238200,
-      "full_name": "P. Ramsdale",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "The radio spectrum suitable for communications is limited, and even with global allocation and management, the problem of spectrum congestion continues to increase. This has led to more and more being demanded from antennas so that they play their part in minimizing the problem. In the microwave bands used by satellites, the antenna characteristics must now be good enough for frequencies to be reused; at HF, broadband performance is required even from structures of a limited physical size, while in all bands, adaptive antennas are needed to minimize interference from unwanted transmissions. This paper highlights developments in communications antenna technology that are enabling these and other goals to be achieved.",
-   "article_number": "1090559",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090559",
-   "html_url": "https://ieeexplore.ieee.org/document/1090559/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090559/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23751,
-   "publication_year": 1981,
-   "publication_date": "September 1981",
-   "start_page": "28",
-   "end_page": "30",
-   "citing_paper_count": 2,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Satellite broadcasting",
-      "Aperture antennas",
-      "Satellite ground stations",
-      "Reflector antennas",
-      "Antenna feeds",
-      "Satellite antennas",
-      "Microwave communication",
-      "Transmitting antennas",
-      "Radio spectrum management"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "antenna",
-     "value": 0.33927557187198837
-    },
-    {
-     "keyword": "band",
-     "value": 0.16963778593599418
-    },
-    {
-     "keyword": "communication",
-     "value": 0.16963778593599418
-    },
-    {
-     "keyword": "even",
-     "value": 0.16963778593599418
-    },
-    {
-     "keyword": "minimize",
-     "value": 0.16963778593599418
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090540",
-   "title": "Applications of statistical communications theory",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 13,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "U.S. Army Signal Res. and Dev. Lab., Fort Monmouth, NJ, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088313732",
-      "id": 37088313732,
-      "full_name": "B. Goldberg",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090540",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090540",
-   "html_url": "https://ieeexplore.ieee.org/document/1090540/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090540/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23750,
-   "publication_year": 1981,
-   "publication_date": "July 1981",
-   "start_page": "26",
-   "end_page": "33",
-   "citing_paper_count": 12,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Communication systems",
-      "Bandwidth",
-      "Signal to noise ratio",
-      "Correlators",
-      "Matched filters",
-      "Detectors",
-      "Communication equipment",
-      "Research and development"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090462",
-   "title": "Commercial communication satellite systems in Canada",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 44,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "RCA Limited Research Laboratories, Canada",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37976428900",
-      "id": 37976428900,
-      "full_name": "J. Almond",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "The object of this paper is to provide an overview of the commercial communications systems in Canada that make use of geostationary satellites. The system includes active communications repeater satellites in geostationary orbits, tracking telemetry and command facilities, a satellite control center, a satellite network operations center, and over 100 earth stations of several different types. Transportable earth stations are also part of the system for short-term message service to remote areas and television services for special events. This includes an overview of commercial satellite communications systems and a discussion of the forthcoming ANIK C and D. The paper briefly reviews the characteristics of the present system, outlines the major features of the system under construction, and indicates future plans.",
-   "article_number": "1090462",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090462",
-   "html_url": "https://ieeexplore.ieee.org/document/1090462/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090462/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23747,
-   "publication_year": 1981,
-   "publication_date": "January 1981",
-   "start_page": "10",
-   "end_page": "20",
-   "citing_paper_count": 3,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Artificial satellites",
-      "Satellite broadcasting",
-      "TV",
-      "Message service",
-      "Satellite ground stations",
-      "Space vehicles",
-      "Satellite antennas",
-      "Satellite communication"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "system",
-     "value": 0.39477101697586137
-    },
-    {
-     "keyword": "satellite",
-     "value": 0.3289758474798845
-    },
-    {
-     "keyword": "communication",
-     "value": 0.19738550848793068
-    },
-    {
-     "keyword": "center",
-     "value": 0.1315903389919538
-    },
-    {
-     "keyword": "commercial",
-     "value": 0.1315903389919538
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090571",
-   "title": "Communications in the People's Republic of China",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 46,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "IEEE Comm.",
-      "full_name": "C. Lof",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "From 21 May to 3 June 1981, a delegation from the IEEE Communications Society visited the People's Republic of China. The group was invited by the Chinese Institute of Electronics (CIE) which oversaw the entire trip. Some of their staff personnel accompanied the mission throughout its stay. The group's technical visits included universities, research institutes, an earth station, an integrated circuits factory, and the Beijing International Telephone Service. A separate program of visits was prepared for the spouses. On several occasions the entire group visited monuments of outstanding cultural interest (a full itinerary is included at the end of article). The delegation Leader, Donald Schilling, requested that each delegate prepare a report daily to summarize the day's events. These were collected at the end of the trip and the commentaries synthesized and used to prepare this report.",
-   "article_number": "1090571",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090571",
-   "html_url": "https://ieeexplore.ieee.org/document/1090571/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090571/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23752,
-   "publication_year": 1981,
-   "publication_date": "November 1981",
-   "start_page": "35",
-   "end_page": "46",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Telephony",
-      "Cable TV",
-      "Facsimile",
-      "China",
-      "Satellite broadcasting",
-      "Telecommunication services",
-      "Optical fiber cables",
-      "Telegraphy"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "visit",
-     "value": 0.2807449625374386
-    },
-    {
-     "keyword": "group",
-     "value": 0.21055872190307892
-    },
-    {
-     "keyword": "prepare",
-     "value": 0.21055872190307892
-    },
-    {
-     "keyword": "delegation",
-     "value": 0.1403724812687193
-    },
-    {
-     "keyword": "end",
-     "value": 0.1403724812687193
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090471",
-   "title": "DDX [Japanese digital switching network]",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 61,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "NTT, Switching Systems Development Division, Japan",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087834089",
-      "id": 37087834089,
-      "full_name": "M. Kato",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087830020",
-      "id": 37087830020,
-      "full_name": "T. Takatsuki",
-      "author_order": 2
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/38121945400",
-      "id": 38121945400,
-      "full_name": "Y. Yoshida",
-      "author_order": 3
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "To meet Japan's diverse data communication needs, Nippon Telegraph &amp; Telephone Public Corporation (NTT) has been researching and developing the digital switching network, DDX. The circuit-switching network was put into commercial service in Tokyo, Osaka, Nagoya, and Yokohoma on 25 December 1979.",
-   "article_number": "1090471",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090471",
-   "html_url": "https://ieeexplore.ieee.org/document/1090471/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090471/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23748,
-   "publication_year": 1981,
-   "publication_date": "March 1981",
-   "start_page": "34",
-   "end_page": "37",
-   "citing_paper_count": 3,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Circuit switching",
-      "Data processing",
-      "Japan",
-      "Telecommunication network management"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "network",
-     "value": 0.2407717061715384
-    },
-    {
-     "keyword": "switching",
-     "value": 0.2407717061715384
-    },
-    {
-     "keyword": "switching network",
-     "value": 0.2407717061715384
-    },
-    {
-     "keyword": "1979",
-     "value": 0.1203858530857692
-    },
-    {
-     "keyword": "25",
-     "value": 0.1203858530857692
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090505",
-   "title": "Data communications",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 62,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "NTT Human Interface Laboratories, Japan",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088239777",
-      "id": 37088239777,
-      "full_name": "K. Tsukada",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088247753",
-      "id": 37088247753,
-      "full_name": "M. Imanaga",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090505",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090505",
-   "html_url": "https://ieeexplore.ieee.org/document/1090505/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090505/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23749,
-   "publication_year": 1981,
-   "publication_date": "May 1981",
-   "start_page": "23",
-   "end_page": "34",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Data communication",
-      "Telephony",
-      "Communication switching",
-      "Switching circuits",
-      "Packet switching",
-      "Switching systems",
-      "Independent component analysis",
-      "Computer networks",
-      "Data processing",
-      "Telecommunication switching"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090541",
-   "title": "Digital radio economics",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 63,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bell Telephone Labs., Holmdel, NJ, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37089112313",
-      "id": 37089112313,
-      "full_name": "C. Bailey",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090541",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090541",
-   "html_url": "https://ieeexplore.ieee.org/document/1090541/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090541/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23750,
-   "publication_year": 1981,
-   "publication_date": "July 1981",
-   "start_page": "6",
-   "end_page": "8",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Digital communication",
-      "Radio communication",
-      "Circuit switching",
-      "Channel bank filters",
-      "Electronic switching systems",
-      "Telephony",
-      "Bandwidth",
-      "Receivers",
-      "Power generation economics"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090525",
-   "title": "Digital radio technology: Present and future",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 64,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Collins Radio Group, Rockwell Int., Dallas, TX",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37285266900",
-      "id": 37285266900,
-      "full_name": "P. Hartmann",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090525",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090525",
-   "html_url": "https://ieeexplore.ieee.org/document/1090525/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090525/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23750,
-   "publication_year": 1981,
-   "publication_date": "July 1981",
-   "start_page": "10",
-   "end_page": "14",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Digital communication",
-      "Interference",
-      "Radio communication",
-      "Radio transmitters",
-      "Digital modulation",
-      "Signal processing",
-      "Nearest neighbor searches"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090589",
-   "title": "Do we know what \"technology\" means?",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 65,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Sinclair Radio Labs. Ltd., Concord, Ont., Canada",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088304932",
-      "id": 37088304932,
-      "full_name": "G. Sinclair",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090589",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090589",
-   "html_url": "https://ieeexplore.ieee.org/document/1090589/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090589/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23752,
-   "publication_year": 1981,
-   "publication_date": "November 1981",
-   "start_page": "54",
-   "end_page": "56",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Design engineering",
-      "Knowledge engineering",
-      "Technology",
-      "Mathematics"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090585",
-   "title": "Domestic communications satellites: System considerations for rural areas",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 66,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "COMSAT General, Washington, DC, USA",
-      "full_name": "R. Briskman",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "GEOSYNCHRONOUS satellite systems designed specially for providing domestic communications to geographically large rural areas are currently under investigation by several countries. The paper presents some significant technical considerations for the economical provision of both telephone and television services to such areas. Satellite launch vehicles, operating radio frequency band(s), spacecraft communications implementation and earth station engineering are discussed.",
-   "article_number": "1090585",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090585",
-   "html_url": "https://ieeexplore.ieee.org/document/1090585/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090585/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23752,
-   "publication_year": 1981,
-   "publication_date": "November 1981",
-   "start_page": "26",
-   "end_page": "33",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Artificial satellites",
-      "Rural areas",
-      "Satellite broadcasting",
-      "Sociotechnical systems",
-      "Satellite ground stations",
-      "Bandwidth"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "area",
-     "value": 0.21442250696755896
-    },
-    {
-     "keyword": "communication",
-     "value": 0.21442250696755896
-    },
-    {
-     "keyword": "satellite",
-     "value": 0.21442250696755896
-    },
-    {
-     "keyword": "area currently",
-     "value": 0.10721125348377948
-    },
-    {
-     "keyword": "area satellite",
-     "value": 0.10721125348377948
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090483",
-   "title": "Evaluation of advanced switching technologies for integrated voice/data applications",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 71,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bell Laboratories, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087826449",
-      "id": 37087826449,
-      "full_name": "A. Rudrapatna",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090483",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090483",
-   "html_url": "https://ieeexplore.ieee.org/document/1090483/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090483/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23748,
-   "publication_year": 1981,
-   "publication_date": "March 1981",
-   "start_page": "38",
-   "end_page": "44",
-   "citing_paper_count": 2,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Internet telephony",
-      "Switching systems",
-      "Data communication",
-      "Signal processing",
-      "Traffic control",
-      "Packet switching",
-      "Bandwidth"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090491",
-   "title": "ISDN",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 82,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bellcore, NJ, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37573385900",
-      "id": 37573385900,
-      "full_name": "I. Dorros",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "Describes the special features, technologies, and communications applications supported by Integrated System Digital Network (ISDN). ISDN is a set of communications standards for simultaneous digital transmission of voice, video, data, and other network services over the traditional circuits of the public switched telephone network. ",
-   "article_number": "1090491",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090491",
-   "html_url": "https://ieeexplore.ieee.org/document/1090491/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090491/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23748,
-   "publication_year": 1981,
-   "publication_date": "March 1981",
-   "start_page": "16",
-   "end_page": "19",
-   "citing_paper_count": 18,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "ISDN",
-      "Data communication",
-      "Digital communication"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "network",
-     "value": 0.35603449745815596
-    },
-    {
-     "keyword": "communication",
-     "value": 0.23735633163877065
-    },
-    {
-     "keyword": "digital",
-     "value": 0.23735633163877065
-    },
-    {
-     "keyword": "isdn",
-     "value": 0.23735633163877065
-    },
-    {
-     "keyword": "application",
-     "value": 0.11867816581938533
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090487",
-   "title": "Local distribution in computer communications",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 90,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "McGill University, Montreal, PQ, Canada",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37382405400",
-      "id": 37382405400,
-      "full_name": "J. Hayes",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090487",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090487",
-   "html_url": "https://ieeexplore.ieee.org/document/1090487/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090487/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23748,
-   "publication_year": 1981,
-   "publication_date": "March 1981",
-   "start_page": "6",
-   "end_page": "14",
-   "citing_paper_count": 22,
-   "citing_patent_count": 2,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Distributed computing",
-      "Broadcasting",
-      "Topology",
-      "Communication system control",
-      "Mathematical model",
-      "Traffic control",
-      "Protocols",
-      "Performance analysis"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090590",
-   "title": "Machine intelligence and communications in future NASA missions",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 91,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Univ. of Santa Clara, Santa Clara, CA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087745732",
-      "id": 37087745732,
-      "full_name": "T. Healy",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090590",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090590",
-   "html_url": "https://ieeexplore.ieee.org/document/1090590/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090590/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23752,
-   "publication_year": 1981,
-   "publication_date": "November 1981",
-   "start_page": "8",
-   "end_page": "15",
-   "citing_paper_count": 1,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Machine intelligence",
-      "NASA",
-      "Earth",
-      "Space technology",
-      "Intelligent sensors",
-      "Military satellites",
-      "Space missions",
-      "Information systems",
-      "Remote sensing"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090506",
-   "title": "Master-slave synchronization techniques",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 92,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "NTT Corp., Japan",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087587670",
-      "id": 37087587670,
-      "full_name": "K. Okimi",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37974670600",
-      "id": 37974670600,
-      "full_name": "H. Fukinuki",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090506",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090506",
-   "html_url": "https://ieeexplore.ieee.org/document/1090506/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090506/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23749,
-   "publication_year": 1981,
-   "publication_date": "May 1981",
-   "start_page": "12",
-   "end_page": "21",
-   "citing_paper_count": 5,
-   "citing_patent_count": 3,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Master-slave",
-      "Oscillators",
-      "Frequency synchronization",
-      "Error correction",
-      "Synchronization"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090587",
-   "title": "Maximum likelihood sequence detection in nonlinear satellite channels",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 93,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Fairchild Space Co., Germantown, MD, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37984269900",
-      "id": 37984269900,
-      "full_name": "D. Chakraborty",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "A technical study by computer simulation has been performed to assess the potential of maximum likelihood sequence detection (MLSD) in a band-limited nonlinear satellite channel with two nonlinear elements [a high-power amplifier (HPA) and a transponder traveling wave tube amplifier (TWTA)] operating in tandem. Starting with a brief background on digital modem development, this paper outlines the basic principle of MLSD and a conceptual structure suitable for satellite channel applications. The bit-error rate has been computed for a realistic nonlinear satellite channel using Forney's approach with the Viterbi algorithm. The upper bound of channel performance improvement in a typical satellite link has been identified.",
-   "article_number": "1090587",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090587",
-   "html_url": "https://ieeexplore.ieee.org/document/1090587/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090587/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23752,
-   "publication_year": 1981,
-   "publication_date": "November 1981",
-   "start_page": "47",
-   "end_page": "53",
-   "citing_paper_count": 7,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Maximum likelihood detection",
-      "Transponders",
-      "Phase shift keying",
-      "Satellite ground stations",
-      "Modems",
-      "Degradation",
-      "Phase measurement",
-      "Nonlinear filters",
-      "Filtering"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "channel",
-     "value": 0.29568850838182914
-    },
-    {
-     "keyword": "satellite",
-     "value": 0.29568850838182914
-    },
-    {
-     "keyword": "nonlinear",
-     "value": 0.22176638128637186
-    },
-    {
-     "keyword": "satellite channel",
-     "value": 0.22176638128637186
-    },
-    {
-     "keyword": "amplifier",
-     "value": 0.14784425419091457
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090558",
-   "title": "On evaluating the performance of communications antennas",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 113,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Til-Tek Ltd., Kemptville, Ont., Canada-1988",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37972880800",
-      "id": 37972880800,
-      "full_name": "W. Tilston",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090558",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090558",
-   "html_url": "https://ieeexplore.ieee.org/document/1090558/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090558/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23751,
-   "publication_year": 1981,
-   "publication_date": "September 1981",
-   "start_page": "18",
-   "end_page": "20",
-   "citing_paper_count": 2,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Dipole antennas",
-      "Directive antennas",
-      "Reflector antennas",
-      "Radar antennas",
-      "Adaptive arrays",
-      "Linear antenna arrays",
-      "Antenna accessories",
-      "Aperture antennas",
-      "Helical antennas",
-      "Performance analysis"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090507",
-   "title": "Present and future of large capacity optical fiber transmission",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 114,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "NTT,Yokasaka-shi,Japan",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37717634900",
-      "id": 37717634900,
-      "full_name": "M. Koyama",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087692659",
-      "id": 37087692659,
-      "full_name": "T. Itoh",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090507",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090507",
-   "html_url": "https://ieeexplore.ieee.org/document/1090507/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090507/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23749,
-   "publication_year": 1981,
-   "publication_date": "May 1981",
-   "start_page": "4",
-   "end_page": "10",
-   "citing_paper_count": 1,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Optical fibers",
-      "Optical fiber cables",
-      "Coaxial cables",
-      "Repeaters",
-      "Coaxial components",
-      "Economic forecasting",
-      "Optical fiber dispersion"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090557",
-   "title": "Rural telephony and the economic challenge ahead",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 120,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Univ. of Alaska-Fairbanks, Fairbanks, AK, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087817012",
-      "id": 37087817012,
-      "full_name": "A. Hills",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090557",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090557",
-   "html_url": "https://ieeexplore.ieee.org/document/1090557/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090557/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23751,
-   "publication_year": 1981,
-   "publication_date": "September 1981",
-   "start_page": "49",
-   "end_page": "51",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Telephony",
-      "Rural areas",
-      "Pricing",
-      "Power generation economics",
-      "Investments",
-      "Resource management"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090500",
-   "title": "Special applications",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 127,
-   "volume": "19",
-   "authors": {
-    "authors": []
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "Describes the special features and technologies of micromainframes.",
-   "article_number": "1090500",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090500",
-   "html_url": "https://ieeexplore.ieee.org/document/1090500/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090500/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23749,
-   "publication_year": 1981,
-   "publication_date": "May 1981",
-   "start_page": "67",
-   "end_page": "68",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Computers",
-      "Large-scale systems"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "describes",
-     "value": 0.3333333333333333
-    },
-    {
-     "keyword": "describes special",
-     "value": 0.3333333333333333
-    },
-    {
-     "keyword": "feature",
-     "value": 0.3333333333333333
-    },
-    {
-     "keyword": "feature technology",
-     "value": 0.3333333333333333
-    },
-    {
-     "keyword": "micromainframes",
-     "value": 0.3333333333333333
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090583",
-   "title": "Submarine communications",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 128,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Carnigie-Mellon University",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37621718700",
-      "id": 37621718700,
-      "full_name": "M. Callaham",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090583",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090583",
-   "html_url": "https://ieeexplore.ieee.org/document/1090583/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090583/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23752,
-   "publication_year": 1981,
-   "publication_date": "November 1981",
-   "start_page": "16",
-   "end_page": "25",
-   "citing_paper_count": 16,
-   "citing_patent_count": 2,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Underwater vehicles",
-      "Underwater cables",
-      "Frequency",
-      "Acoustic signal detection",
-      "Sonar detection",
-      "Optical surface waves",
-      "Sea surface",
-      "Receiving antennas",
-      "Directive antennas",
-      "Satellite broadcasting"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090448",
-   "title": "TELIDON - A review",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 129,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Dept. of Communications-1969 and NORPAK Ltd., Kanata, Ont., Canada",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37828392300",
-      "id": 37828392300,
-      "full_name": "H. Bown",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37840205200",
-      "id": 37840205200,
-      "full_name": "W. Sawchuk",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "TELIDON is a videotex development of the Canadian Department of Communications that differs radically in display presentation format from the earlier European developments. The name videotex is used internationally to represent a class of home and business information services which disseminate information from information suppliers into the home or office. In general, a television receiver, suitably modified or augmented, can serve as the consumer's terminal equipment. The system essentially makes use of the set as a still-picture display medium where the consumer has control over what is displayed. By utilizing the common-carrier telephone line or other interactive network, or broadcast system, users of the service are able to retrieve information stored in computer controlled databases and have it displayed.",
-   "article_number": "1090448",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090448",
-   "html_url": "https://ieeexplore.ieee.org/document/1090448/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090448/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23747,
-   "publication_year": 1981,
-   "publication_date": "January 1981",
-   "start_page": "22",
-   "end_page": "28",
-   "citing_paper_count": 3,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Computer displays",
-      "Space technology",
-      "Signal resolution",
-      "Decoding",
-      "Image storage",
-      "Image resolution"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "display",
-     "value": 0.29731765849886654
-    },
-    {
-     "keyword": "information",
-     "value": 0.29731765849886654
-    },
-    {
-     "keyword": "consumer",
-     "value": 0.14865882924943327
-    },
-    {
-     "keyword": "control",
-     "value": 0.14865882924943327
-    },
-    {
-     "keyword": "development",
-     "value": 0.14865882924943327
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090474",
-   "title": "Trends in engineering education",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 130,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "University of Illinois, Urbana, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37424440500",
-      "id": 37424440500,
-      "full_name": "M.E. Van Valkenburg",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "It is argued that to report accurately on trends in engineering education, one must first explain that higher education, in general, is in a state of crisis. Problems in individual departments must be viewed in the context of being a small part of the beleagured university as a whole.",
-   "article_number": "1090474",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090474",
-   "html_url": "https://ieeexplore.ieee.org/document/1090474/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090474/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23748,
-   "publication_year": 1981,
-   "publication_date": "March 1981",
-   "start_page": "20",
-   "end_page": "22",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Engineering education",
-      "Engineering profession"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "education",
-     "value": 0.26967994498529685
-    },
-    {
-     "keyword": "must",
-     "value": 0.26967994498529685
-    },
-    {
-     "keyword": "accurately",
-     "value": 0.13483997249264842
-    },
-    {
-     "keyword": "accurately trend",
-     "value": 0.13483997249264842
-    },
-    {
-     "keyword": "argue",
-     "value": 0.13483997249264842
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1981.1090515",
-   "title": "UHF television and the signal strength handicap",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 137,
-   "volume": "19",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "UHF Comparability Task Force",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087606243",
-      "id": 37087606243,
-      "full_name": "P. Gieseler",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "The disparate properties of the UHF and VHF bands have produced what has become known as the \"UHF handicap\" - UHF television (TV) signals are more difficult to receive than VHF signals and therefore are not as significantly viewed. There are at least three possible types of handicaps that contribute to the disadvantage faced by UHF. First, there is the picture quality handicap. Second, there is a channel selector handicap. Finally, there is a programming handicap. In this paper we will be discussing only the picture quality handicap. Furthermore, we will explore only one type of picture quality handicap-the \"snow\" that is produced by an insufficient signal-to-noise ratio (SNR) at the TV receiver picture tube. Available evidence suggests that this is the dominant difference between UHF and VHF signals. We will utilize a model that indicates the level of this signal strength handicap for several sets of assumptions, and determine the effects of improvements to the UHF service.",
-   "article_number": "1090515",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090515",
-   "html_url": "https://ieeexplore.ieee.org/document/1090515/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090515/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23749,
-   "publication_year": 1981,
-   "publication_date": "May 1981",
-   "start_page": "46",
-   "end_page": "56",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "TV broadcasting",
-      "FCC",
-      "Radio spectrum management",
-      "TV receivers",
-      "Receiving antennas",
-      "UHF antennas",
-      "Frequency synchronization",
-      "Signal to noise ratio"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "handicap",
-     "value": 0.441054277135977
-    },
-    {
-     "keyword": "uhf",
-     "value": 0.3307907078519828
-    },
-    {
-     "keyword": "signal",
-     "value": 0.27565892320998564
-    },
-    {
-     "keyword": "picture",
-     "value": 0.2205271385679885
-    },
-    {
-     "keyword": "picture quality",
-     "value": 0.1653953539259914
-    }
-   ]
-  }
- ]
+  ]
 }

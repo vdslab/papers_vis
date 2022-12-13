@@ -1,1510 +1,1507 @@
 {
- "total_records": 24,
- "total_searched": 5638566,
- "articles": [
-  {
-   "doi": "10.1109/MCOM.1977.1089511",
-   "title": "An IEEE meeting on subjective testing of voiceband codecs",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "0148-9615",
-   "rank": 1,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Rutgers Univ., Piscataway, NJ, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37279111400",
-      "id": 37279111400,
-      "full_name": "D. Goodman",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "Subjective testing of existing and proposed communication systems is an important element of network planning and equipment design. With the evolution over the years of world telecommunications, the nature and levels of impairments experienced by system users have changed,and as a consequence, a variety of subjective testing procedures have come into existence. Discusses the technologies, communications services, and applications that support effective network strategic planning.",
-   "article_number": "1089511",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089511",
-   "html_url": "https://ieeexplore.ieee.org/document/1089511/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089511/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23704,
-   "publication_year": 1977,
-   "publication_date": "November 1977",
-   "start_page": "4",
-   "end_page": "5",
-   "citing_paper_count": 3,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Meetings",
-      "Business communication",
-      "Professional communication",
-      "Digital communication",
-      "Strategic planning",
-      "Collaboration",
-      "Communication systems"
-     ]
+  "total_records": 24,
+  "total_searched": 5638566,
+  "articles": [
+    {
+      "doi": "10.1109/MCOM.1977.1089511",
+      "title": "An IEEE meeting on subjective testing of voiceband codecs",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "0148-9615",
+      "rank": 1,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Rutgers Univ., Piscataway, NJ, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37279111400",
+            "id": 37279111400,
+            "full_name": "D. Goodman",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "Subjective testing of existing and proposed communication systems is an important element of network planning and equipment design. With the evolution over the years of world telecommunications, the nature and levels of impairments experienced by system users have changed,and as a consequence, a variety of subjective testing procedures have come into existence. Discusses the technologies, communications services, and applications that support effective network strategic planning.",
+      "article_number": "1089511",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089511",
+      "html_url": "https://ieeexplore.ieee.org/document/1089511/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089511/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23704,
+      "publication_year": 1977,
+      "publication_date": "November 1977",
+      "start_page": "4",
+      "end_page": "5",
+      "citing_paper_count": 3,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Meetings",
+            "Business communication",
+            "Professional communication",
+            "Digital communication",
+            "Strategic planning",
+            "Collaboration",
+            "Communication systems"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "communication",
+          "value": 0.211999576001272
+        },
+        {
+          "keyword": "network",
+          "value": 0.211999576001272
+        },
+        {
+          "keyword": "planning",
+          "value": 0.211999576001272
+        },
+        {
+          "keyword": "subjective",
+          "value": 0.211999576001272
+        },
+        {
+          "keyword": "system",
+          "value": 0.211999576001272
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089514",
+      "title": "Communications technology: 25 years in retrospect",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "0148-9615",
+      "rank": 31,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "MIT, Cambridge, MA, USA",
+            "full_name": "A. Joel",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "Reports on the technologies, applications, systems, and communications facilities that have been developed over the past 25 years.",
+      "article_number": "1089514",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089514",
+      "html_url": "https://ieeexplore.ieee.org/document/1089514/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089514/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23704,
+      "publication_year": 1977,
+      "publication_date": "November 1977",
+      "start_page": "6",
+      "end_page": "8",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Communications technology",
+            "Communication switching",
+            "Communication system control",
+            "Automatic control",
+            "History",
+            "Switching systems",
+            "Telephony"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "25",
+          "value": 0.22941573387056174
+        },
+        {
+          "keyword": "25 year",
+          "value": 0.22941573387056174
+        },
+        {
+          "keyword": "application",
+          "value": 0.22941573387056174
+        },
+        {
+          "keyword": "application system",
+          "value": 0.22941573387056174
+        },
+        {
+          "keyword": "communication",
+          "value": 0.22941573387056174
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089505",
+      "title": "Communications technology: 25 years in retrospect",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "0148-9615",
+      "rank": 32,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "IEEE COMM",
+            "full_name": "C. Strom",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "Reports on the technologies, applications, systems, and communications facilities that have been developed over the past 25 years.",
+      "article_number": "1089505",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089505",
+      "html_url": "https://ieeexplore.ieee.org/document/1089505/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089505/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23703,
+      "publication_year": 1977,
+      "publication_date": "September 1977",
+      "start_page": "6",
+      "end_page": "10",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Communications technology",
+            "History",
+            "Communication switching",
+            "Communication system control",
+            "Automatic control",
+            "Switching systems",
+            "Telephony"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089476",
+      "title": "Correlative coding: A bandwidth-efficient signaling scheme",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "0148-9615",
+      "rank": 36,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "University of Toronto, Toronto, Ontario, Canada",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37271302000",
+            "id": 37271302000,
+            "full_name": "S. Pasupathy",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "In most transmission channels, bandwidth is at a premium and an important attribute of any good digital signaling scheme is its ability to make efficient use of the bandwidth. Conventional Nyquist-type pulse amplitude modulation signaling schemes, which are designed to eliminate intersymbol interference, achieve high data rates only at the expense of a large number of signal levels. In many applications, correlative coding or partial response signaling, which introduces intersymbol interference in a controlled way, is able to achieve high data rates with fewer levels and hence with better error rate performance. In addition to higher data rates, correlative schemes achieve convenient spectral shapes and have error-detecting capabilities without introducing redundancy into the data stream. This paper explains how correlative schemes work and why they are advantageous.",
+      "article_number": "1089476",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089476",
+      "html_url": "https://ieeexplore.ieee.org/document/1089476/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089476/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23702,
+      "publication_year": 1977,
+      "publication_date": "July 1977",
+      "start_page": "4",
+      "end_page": "11",
+      "citing_paper_count": 37,
+      "citing_patent_count": 5,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Pulse shaping methods",
+            "Bandwidth",
+            "Intersymbol interference",
+            "Pulse modulation",
+            "Data communication",
+            "Telephony",
+            "Sampling methods",
+            "Filters",
+            "Noise shaping"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "data",
+          "value": 0.24854790640048002
+        },
+        {
+          "keyword": "rate",
+          "value": 0.24854790640048002
+        },
+        {
+          "keyword": "scheme",
+          "value": 0.24854790640048002
+        },
+        {
+          "keyword": "achieve",
+          "value": 0.18641092980036
+        },
+        {
+          "keyword": "correlative",
+          "value": 0.18641092980036
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089436",
+      "title": "Cost effectiveness in global satellite communications",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "0148-9615",
+      "rank": 37,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "National Aeronautics and Space Administration, Washington, D.C., USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087540876",
+            "id": 37087540876,
+            "full_name": "B. Edelson",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088265877",
+            "id": 37088265877,
+            "full_name": "H. Wood",
+            "author_order": 2
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37295054400",
+            "id": 37295054400,
+            "full_name": "C. Reber",
+            "author_order": 3
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "Global satellite communications, as the INTELSAT system has demonstrated, is a commercially successful business with over ten years of operating experience. The system provides high-quality reliable communications over a large number of links in successful competition with other modes of communications. The cost effectiveness of the INTELSAT system has increased in the last decade as measured by the per-circuit-year cost of satellites in orbit, space segment charges, and earth station and total circuit costs. Economies of scale and the use of progressively more advanced technology are expected to increase the cost effectiveness of global satellite communications in the future.",
+      "article_number": "1089436",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089436",
+      "html_url": "https://ieeexplore.ieee.org/document/1089436/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089436/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23699,
+      "publication_year": 1977,
+      "publication_date": "January 1977",
+      "start_page": "16",
+      "end_page": "27",
+      "citing_paper_count": 4,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Satellite communication",
+            "Extraterrestrial measurements",
+            "Space technology",
+            "Business communication",
+            "Current measurement",
+            "Space charge",
+            "Space stations",
+            "Satellite ground stations"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "communication",
+          "value": 0.29731765849886654
+        },
+        {
+          "keyword": "cost",
+          "value": 0.29731765849886654
+        },
+        {
+          "keyword": "satellite",
+          "value": 0.2229882438741499
+        },
+        {
+          "keyword": "system",
+          "value": 0.2229882438741499
+        },
+        {
+          "keyword": "circuit",
+          "value": 0.14865882924943327
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089439",
+      "title": "Design tradeoffs for muitibeam antennas in communication satellites",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "0148-9615",
+      "rank": 38,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Electromagnetic Radiation Section, Aeronutronic division",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37977652800",
+            "id": 37977652800,
+            "full_name": "W. Scott",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/38179808000",
+            "id": 38179808000,
+            "full_name": "H.S. Luh",
+            "author_order": 2
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37353102900",
+            "id": 37353102900,
+            "full_name": "E. Matthews",
+            "author_order": 3
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "A TEM lens antenna is described that provides the capability of generating 61 low-sidelobe dual-polarized beams over a 17\u00b0 field of view, at both 4 and 6 GHz. Isolation between these beams is examined, and it is concluded that 6 of the available 61 beams may be used simultaneously in many different positions, while maintaining at least 27 dB isolation, for a total of 12 times frequency reuse.",
+      "article_number": "1089439",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089439",
+      "html_url": "https://ieeexplore.ieee.org/document/1089439/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089439/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23700,
+      "publication_year": 1977,
+      "publication_date": "March 1977",
+      "start_page": "9",
+      "end_page": "15",
+      "citing_paper_count": 6,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Satellite antennas",
+            "Artificial satellites",
+            "Design methodology",
+            "Polarization",
+            "Performance analysis",
+            "Optical design",
+            "Time frequency analysis",
+            "Degradation"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "beam",
+          "value": 0.31799936400190804
+        },
+        {
+          "keyword": "61",
+          "value": 0.211999576001272
+        },
+        {
+          "keyword": "isolation",
+          "value": 0.211999576001272
+        },
+        {
+          "keyword": "12",
+          "value": 0.105999788000636
+        },
+        {
+          "keyword": "12 time",
+          "value": 0.105999788000636
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089428",
+      "title": "Echo cancellation in the telephone network",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "0148-9615",
+      "rank": 39,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "C&C Research Laboratories, NEC USA, Princeton, New Jersey, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087865203",
+            "id": 37087865203,
+            "full_name": "S. Weinstein",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "Most long-distance telephone connections generate echoes, which must be heavily attenuated in order to obtain satisfactory transmission quality. Voice-actuated switches (echo suppressors) are widely used to eliminate echoes but have an unfortunate tendency also to cut out part of the desired signal from the other end of the line. Because the distortion caused by echo suppressors is particularly noticeable on satellite-routed connections, the advent of telephone communication via satellite, including the recent introduction of satellite circuits into the U.S. domestic network, has motivated the search for a better way to eliminate echoes. The answer may be the echo canceler, an adaptive filter which selectively eliminates echoes. Advanced echo canceler designs have been undergoing field trials in recent years. This article explains why echo cancelers are advantageous and how they work.",
+      "article_number": "1089428",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089428",
+      "html_url": "https://ieeexplore.ieee.org/document/1089428/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089428/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23699,
+      "publication_year": 1977,
+      "publication_date": "January 1977",
+      "start_page": "8",
+      "end_page": "15",
+      "citing_paper_count": 30,
+      "citing_patent_count": 3,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Echo cancellers",
+            "Telephony",
+            "Impedance",
+            "Couplers",
+            "Artificial satellites",
+            "Attenuation",
+            "Hybrid power systems",
+            "Communication switching"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "echo",
+          "value": 0.5487396847647231
+        },
+        {
+          "keyword": "eliminate",
+          "value": 0.1829132282549077
+        },
+        {
+          "keyword": "eliminate echo",
+          "value": 0.1829132282549077
+        },
+        {
+          "keyword": "satellite",
+          "value": 0.1829132282549077
+        },
+        {
+          "keyword": "canceler",
+          "value": 0.12194215216993846
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089520",
+      "title": "From 8-1/3 bits/s to 100,000 bits/s in ten years",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "0148-9615",
+      "rank": 42,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Jet Propulsion Laboratory, Passdena, CA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37322130800",
+            "id": 37322130800,
+            "full_name": "M. Easterling",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "During the first 11 years of its planetary program, the United States sent seven spacecraft to explore the inner planets: Venus, Mars, and Mercury. At the beginning of this period, the telemetry data rate was 8-1/3 bits/s; by the end of the period it was 120 kbits/s, a more than ten-thousand-fold increase. To identify the major factors involved, the form of a deep space telemetry system is described and the values of the major factors for each of the seven spacecraft are given. The amount of the improvement in each is computed and the way in which the improvement was achieved is discussed. Finally, some possible directions for possible future improvements are suggested.",
+      "article_number": "1089520",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089520",
+      "html_url": "https://ieeexplore.ieee.org/document/1089520/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089520/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23704,
+      "publication_year": 1977,
+      "publication_date": "November 1977",
+      "start_page": "12",
+      "end_page": "15",
+      "citing_paper_count": 3,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Receiving antennas",
+            "Transmitting antennas",
+            "Telemetry",
+            "Noise figure",
+            "Temperature",
+            "Bit rate",
+            "Masers",
+            "Transmitters",
+            "Space vehicles"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "improvement",
+          "value": 0.2508726030021272
+        },
+        {
+          "keyword": "factor",
+          "value": 0.16724840200141816
+        },
+        {
+          "keyword": "major",
+          "value": 0.16724840200141816
+        },
+        {
+          "keyword": "major factor",
+          "value": 0.16724840200141816
+        },
+        {
+          "keyword": "period",
+          "value": 0.16724840200141816
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089504",
+      "title": "How does the U.S. department of commerce assist U.S. firms in overseas markets?",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "0148-9615",
+      "rank": 44,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Massachusetts Institute of Technology, Cambridge, MA, USA and Woods Hole Oceanographic Institution, Woods Hole, MA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088082018",
+            "id": 37088082018,
+            "full_name": "J. Richardson",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1089504",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089504",
+      "html_url": "https://ieeexplore.ieee.org/document/1089504/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089504/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23703,
+      "publication_year": 1977,
+      "publication_date": "September 1977",
+      "start_page": "34",
+      "end_page": "36",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "US Department of Commerce",
+            "International relations",
+            "Communication equipment",
+            "Marketing and sales",
+            "Government policies",
+            "Globalization",
+            "Artificial satellites",
+            "Business"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089524",
+      "title": "Huge iceberg in Antarctic spotted by environmental satellite",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "0148-9615",
+      "rank": 45,
+      "volume": "15",
+      "authors": {
+        "authors": []
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1089524",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089524",
+      "html_url": "https://ieeexplore.ieee.org/document/1089524/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089524/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23704,
+      "publication_year": 1977,
+      "publication_date": "November 1977",
+      "start_page": "31",
+      "end_page": "31",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Antarctica",
+            "Circuit testing",
+            "Artificial satellites",
+            "Algorithm design and analysis",
+            "Communication networks",
+            "Heuristic algorithms",
+            "Ice",
+            "Satellites",
+            "Environmental factors"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089458",
+      "title": "New versatile digital video frame synchronizer for smooth intermix of remote and studio sources",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "0148-9615",
+      "rank": 60,
+      "volume": "15",
+      "authors": {
+        "authors": []
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1089458",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089458",
+      "html_url": "https://ieeexplore.ieee.org/document/1089458/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089458/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23701,
+      "publication_year": 1977,
+      "publication_date": "May 1977",
+      "start_page": "29",
+      "end_page": "29",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Video compression",
+            "TV",
+            "Satellite broadcasting",
+            "Automatic control",
+            "Digital video broadcasting",
+            "Visual effects",
+            "Production systems",
+            "Video recording"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089513",
+      "title": "Planetary telecommunication development during the next ten years",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "0148-9615",
+      "rank": 62,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Jet Propulsion Laboratory, Passdena, CA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088081098",
+            "id": 37088081098,
+            "full_name": "J. Kolden",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088081060",
+            "id": 37088081060,
+            "full_name": "V. Evanchuk",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "The past Mariner missions to the inner planets have greatly increased our knowledge about Mars, Venus, and Mercury. The continued success of these missions has been enhanced by the evolution of communication technology, with the main growth in the ground capability. The missions during the next decade will concentrate on the outer planets, with requirements to operate over greatly increased ranges in hostile radiation environments, and for reduced weight to allow the transportation of probes. The communication requirements will be mainly achieved by increases in flight equipment performance, new larger antennas, and operation at higher frequencies. The rate of growth of the communication capability is heavily dependent on the type of missions planned. However, we do have the capability to provide significant data return from the outer planets.",
+      "article_number": "1089513",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089513",
+      "html_url": "https://ieeexplore.ieee.org/document/1089513/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089513/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23704,
+      "publication_year": 1977,
+      "publication_date": "November 1977",
+      "start_page": "16",
+      "end_page": "19",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Extraterrestrial phenomena",
+            "Space vehicles",
+            "Technology forecasting",
+            "Communications technology",
+            "Space technology",
+            "Planets",
+            "Atmospheric measurements"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "mission",
+          "value": 0.2940858488375231
+        },
+        {
+          "keyword": "capability",
+          "value": 0.22056438662814232
+        },
+        {
+          "keyword": "communication",
+          "value": 0.22056438662814232
+        },
+        {
+          "keyword": "planet",
+          "value": 0.22056438662814232
+        },
+        {
+          "keyword": "greatly",
+          "value": 0.14704292441876154
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089500",
+      "title": "Quantization",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "0148-9615",
+      "rank": 65,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Univ. of California, Santa Barbara, CA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37281163500",
+            "id": 37281163500,
+            "full_name": "A. Gersho",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "Quantization is the process of replacing analog samples with approximate values taken from a finite set of allowed values. The approximate values corresponding to a sequence of analog samples can then be specified by a digital signal for transmission, storage, or other digital processing. In this expository paper, the basic ideas of uniform quantization, companding, robustness to input power level, and optimal quantization are reviewed and explained. The performance of various schemes is compared using the ratio of signal power to mean-square quantizing noise as a criterion. Entropy coding and the ultimate theoretical bound on block quantizer performance are also compared with the simpler zero-memory quantizer.",
+      "article_number": "1089500",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089500",
+      "html_url": "https://ieeexplore.ieee.org/document/1089500/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089500/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23703,
+      "publication_year": 1977,
+      "publication_date": "September 1977",
+      "start_page": "16",
+      "end_page": "16",
+      "citing_paper_count": 53,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Quantization",
+            "Bit rate",
+            "Sampling methods",
+            "Availability",
+            "Digital signal processing",
+            "H infinity control",
+            "Communications Society",
+            "Delta modulation"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "quantization",
+          "value": 0.23214696976024105
+        },
+        {
+          "keyword": "value",
+          "value": 0.23214696976024105
+        },
+        {
+          "keyword": "analog",
+          "value": 0.15476464650682736
+        },
+        {
+          "keyword": "analog sample",
+          "value": 0.15476464650682736
+        },
+        {
+          "keyword": "approximate",
+          "value": 0.15476464650682736
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089448",
+      "title": "Report on communications society workshop: Digital switching in the local office - Who needs it",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "0148-9615",
+      "rank": 66,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bell laboratoris, Holmdel, NJ, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37322053500",
+            "id": 37322053500,
+            "full_name": "A. Joel",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1089448",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089448",
+      "html_url": "https://ieeexplore.ieee.org/document/1089448/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089448/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23700,
+      "publication_year": 1977,
+      "publication_date": "March 1977",
+      "start_page": "19",
+      "end_page": "19",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": ["Switching", "Digital communication"]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089462",
+      "title": "Service needs and systems architecture in satellite communications",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "0148-9615",
+      "rank": 68,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Telecommunications Policy",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37300039300",
+            "id": 37300039300,
+            "full_name": "R. Marsten",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "This paper examines the projected needs for satellite communications services of two fundamental types, point-to-point and broadcast, through the end of the 20th century, and relates the needs to systems architecture. This is done by considering factors which affect systems architecture, and by relating the service needs to available and developing technologies for satellite communications Systems. Some of these technologies originate from requirements on the different types of systems to share the communications channel capacity of the orbital are in allocated spectral bands. Consideration of the technologies applied to different systems architectures leads to the conclusion that developing capabilities are converging on elimination of the distinction between point-to-point and broadcast services at 12 GHz. This emerges in the discussion of systems architectures that completes the paper.",
+      "article_number": "1089462",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089462",
+      "html_url": "https://ieeexplore.ieee.org/document/1089462/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089462/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23701,
+      "publication_year": 1977,
+      "publication_date": "May 1977",
+      "start_page": "14",
+      "end_page": "23",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Satellite communication",
+            "Satellite broadcasting",
+            "Satellite ground stations",
+            "Frequency selective surfaces",
+            "Telephony",
+            "Artificial satellites",
+            "Mobile computing",
+            "Microwave communication",
+            "Communications technology",
+            "Communication channels"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "system",
+          "value": 0.3220783132004154
+        },
+        {
+          "keyword": "point",
+          "value": 0.25766265056033233
+        },
+        {
+          "keyword": "architecture",
+          "value": 0.19324698792024925
+        },
+        {
+          "keyword": "communication",
+          "value": 0.19324698792024925
+        },
+        {
+          "keyword": "need",
+          "value": 0.19324698792024925
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089445",
+      "title": "Spectrum conservation by efficient channel utilization",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "0148-9615",
+      "rank": 75,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Rand Corp., Santa Monica, CA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37331109400",
+            "id": 37331109400,
+            "full_name": "E. Bedrosian",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "The growth of the communication industry has resulted in ever-increasing demands on the radio spectrum. This, in turn, has spurred the exploitation of previously unused frequency bands and the development of techniques for making better use of those already available. In this paper, spectral utilization is examined using the information-theory techniques of Shannon. The power-bandwidth tradeoff for the ideal channel is established and the performance of practical analog and digital modulation techniques is compared with this ideal. It is shown that well-designed systems tend to operate near the \"knee\" of the power-bandwidth tradeoff curve for the ideal channel and that they are frequently within 10 dB or less of the performance of the ideal.",
+      "article_number": "1089445",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089445",
+      "html_url": "https://ieeexplore.ieee.org/document/1089445/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089445/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23700,
+      "publication_year": 1977,
+      "publication_date": "March 1977",
+      "start_page": "20",
+      "end_page": "27",
+      "citing_paper_count": 6,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Bandwidth",
+            "Radio transmitters",
+            "Frequency",
+            "Receivers",
+            "Additive noise",
+            "Interference",
+            "Channel capacity",
+            "Signal to noise ratio",
+            "Attenuation",
+            "Radio link"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "ideal",
+          "value": 0.3076923076923077
+        },
+        {
+          "keyword": "technique",
+          "value": 0.23076923076923078
+        },
+        {
+          "keyword": "bandwidth",
+          "value": 0.15384615384615385
+        },
+        {
+          "keyword": "bandwidth tradeoff",
+          "value": 0.15384615384615385
+        },
+        {
+          "keyword": "channel",
+          "value": 0.15384615384615385
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089471",
+      "title": "Telecommunications: At the leading edge of technology",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "0148-9615",
+      "rank": 76,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "National Defence College, Quebec, Canada",
+            "full_name": "J.R. Cyr",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1089471",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089471",
+      "html_url": "https://ieeexplore.ieee.org/document/1089471/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089471/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23701,
+      "publication_year": 1977,
+      "publication_date": "May 1977",
+      "start_page": "6",
+      "end_page": "12",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Telecommunication computing",
+            "Communications technology",
+            "Aircraft",
+            "Communication industry",
+            "Computer industry",
+            "Telephony",
+            "Fiber lasers",
+            "Laser beams",
+            "Legged locomotion"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089447",
+      "title": "The MOS implementation of low-speed modems",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "0148-9615",
+      "rank": 77,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Motorola Semiconductor Group",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088197169",
+            "id": 37088197169,
+            "full_name": "G. Nash",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "This paper identifies the improvements due to large-scale integration [LSI] in the areas of cost, performance, size, reliability, and testing of data communication equipments. An example using Motorola's MC6860 Digital Modem is given. Techniques for implementing linear functions using digital designs and processing methods are discussed along with future technology trends and projections.",
+      "article_number": "1089447",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089447",
+      "html_url": "https://ieeexplore.ieee.org/document/1089447/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089447/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23700,
+      "publication_year": 1977,
+      "publication_date": "March 1977",
+      "start_page": "16",
+      "end_page": "18",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Modems",
+            "Oscillators",
+            "Large scale integration",
+            "Frequency shift keying",
+            "Circuits",
+            "Data communication",
+            "Frequency conversion",
+            "MOS capacitors",
+            "Propagation delay",
+            "Digital modulation"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "digital",
+          "value": 0.2222222222222222
+        },
+        {
+          "keyword": "use",
+          "value": 0.2222222222222222
+        },
+        {
+          "keyword": "along",
+          "value": 0.1111111111111111
+        },
+        {
+          "keyword": "along future",
+          "value": 0.1111111111111111
+        },
+        {
+          "keyword": "area",
+          "value": 0.1111111111111111
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089480",
+      "title": "The industrial need for adequate computer communications",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "0148-9615",
+      "rank": 78,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "General Elec. Research Lab.",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37974629200",
+            "id": 37974629200,
+            "full_name": "R. Shuey",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1089480",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089480",
+      "html_url": "https://ieeexplore.ieee.org/document/1089480/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089480/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23702,
+      "publication_year": 1977,
+      "publication_date": "July 1977",
+      "start_page": "16",
+      "end_page": "26",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Communication system control",
+            "System testing",
+            "Circuit testing",
+            "Data engineering",
+            "Design engineering",
+            "Aircraft propulsion",
+            "Circuit analysis computing",
+            "Distributed computing"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089518",
+      "title": "The planetary exploration program",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "0148-9615",
+      "rank": 79,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Jet Propulstion Laboratory, Passadena, CA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088078733",
+            "id": 37088078733,
+            "full_name": "D. Rea",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "The U. S. program for space exploration of the planets began with the Mariner 2 flyby of Venus in 1962. Since then a series of Mariners have gone to Mercury and Mars, in addition to Venus. Pioneer-class spacecraft have flown through the asteroid belt and have passed by Jupiter. The Viking mission carried Out a spectacularly successful series of measurements at Mars. These past missions will be followed shortly by recently launched Voyager flybys of Jupiter and Saturn in 1977 and by Pioneer probes and orbiter to Venus in 1978. These missions have stressed exploration. Now there are two additional goals involving the well-being of Man which are looming on the space horizon.",
+      "article_number": "1089518",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089518",
+      "html_url": "https://ieeexplore.ieee.org/document/1089518/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089518/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23704,
+      "publication_year": 1977,
+      "publication_date": "November 1977",
+      "start_page": "10",
+      "end_page": "11",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Space exploration",
+            "Planets",
+            "Space vehicles",
+            "Extraterrestrial measurements",
+            "Saturn"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "mission",
+          "value": 0.24743582965269675
+        },
+        {
+          "keyword": "venus",
+          "value": 0.24743582965269675
+        },
+        {
+          "keyword": "exploration",
+          "value": 0.1649572197684645
+        },
+        {
+          "keyword": "jupiter",
+          "value": 0.1649572197684645
+        },
+        {
+          "keyword": "mars",
+          "value": 0.1649572197684645
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089512",
+      "title": "The search for extraterrestrial intelligence: Telecommunications technology",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "0148-9615",
+      "rank": 80,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Jet Propulsion Laboratory, Passdena, CA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088081099",
+            "id": 37088081099,
+            "full_name": "R. Edelson",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37719432000",
+            "id": 37719432000,
+            "full_name": "G. Levy",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "Efforts to discover evidence of intelligent extraterrestrial life have become not only feasible, but respectable. Fledgling observational projects have begun that will use stateof-the-art hardware to develop sophisticated receiving and data processing systems. The rationale behind the Search for Extraterrestrial Intelligence (SETI), the manner in which the program is taking shape, and the implications for telecommunications are described. We conclude that the breadth of technological development required for the detection of signals from our galactic brethren has particular relevance for the future of telecommunications in earth-oriented uses.",
+      "article_number": "1089512",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089512",
+      "html_url": "https://ieeexplore.ieee.org/document/1089512/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089512/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23704,
+      "publication_year": 1977,
+      "publication_date": "November 1977",
+      "start_page": "20",
+      "end_page": "23",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Electromagnetic scattering",
+            "Space technology",
+            "Electromagnetic propagation",
+            "Optical propagation",
+            "Position measurement",
+            "extraterrestrial phenomena",
+            "Cultural differences",
+            "Global communication",
+            "Evolution (biology)"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "extraterrestrial",
+          "value": 0.19156525704423027
+        },
+        {
+          "keyword": "telecommunication",
+          "value": 0.19156525704423027
+        },
+        {
+          "keyword": "art",
+          "value": 0.09578262852211514
+        },
+        {
+          "keyword": "art hardware",
+          "value": 0.09578262852211514
+        },
+        {
+          "keyword": "become",
+          "value": 0.09578262852211514
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089507",
+      "title": "U.S.International telecommunications industry analysed",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "0148-9615",
+      "rank": 87,
+      "volume": "15",
+      "authors": {
+        "authors": []
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1089507",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089507",
+      "html_url": "https://ieeexplore.ieee.org/document/1089507/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089507/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23704,
+      "publication_year": 1977,
+      "publication_date": "November 1977",
+      "start_page": "32",
+      "end_page": "32",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Communication industry",
+            "Radiofrequency interference",
+            "Space technology",
+            "Radiometry",
+            "US Department of Commerce",
+            "Regulators",
+            "Licenses"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089452",
+      "title": "URSI...a unique radio science institution",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "0148-9615",
+      "rank": 88,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "University of Massachusetts, Amherst, MA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37294469800",
+            "id": 37294469800,
+            "full_name": "R. McIntosh",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1089452",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089452",
+      "html_url": "https://ieeexplore.ieee.org/document/1089452/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089452/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23700,
+      "publication_year": 1977,
+      "publication_date": "March 1977",
+      "start_page": "28",
+      "end_page": "30",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Radio communication",
+            "Telegraphy",
+            "Measurement standards",
+            "Extraterrestrial measurements",
+            "Information theory",
+            "Communication systems"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1977.1089503",
+      "title": "Where are modems going?",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "0148-9615",
+      "rank": 93,
+      "volume": "15",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "IEEE Comm.",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37974570100",
+            "id": 37974570100,
+            "full_name": "J. Holsinger",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1089503",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089503",
+      "html_url": "https://ieeexplore.ieee.org/document/1089503/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1089503/",
+      "publication_title": "IEEE Communications Society Magazine",
+      "publication_number": 5488653,
+      "is_number": 23703,
+      "publication_year": 1977,
+      "publication_date": "September 1977",
+      "start_page": "3",
+      "end_page": "5",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Modems",
+            "Microprocessors",
+            "Microwave theory and techniques",
+            "Digital modulation",
+            "Data processing",
+            "Interactive systems",
+            "Marketing and sales",
+            "Adaptive equalizers",
+            "Environmental economics"
+          ]
+        }
+      }
     }
-   },
-   "keywords": [
-    {
-     "keyword": "communication",
-     "value": 0.211999576001272
-    },
-    {
-     "keyword": "network",
-     "value": 0.211999576001272
-    },
-    {
-     "keyword": "planning",
-     "value": 0.211999576001272
-    },
-    {
-     "keyword": "subjective",
-     "value": 0.211999576001272
-    },
-    {
-     "keyword": "system",
-     "value": 0.211999576001272
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089514",
-   "title": "Communications technology: 25 years in retrospect",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "0148-9615",
-   "rank": 31,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "MIT, Cambridge, MA, USA",
-      "full_name": "A. Joel",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "Reports on the technologies, applications, systems, and communications facilities that have been developed over the past 25 years.",
-   "article_number": "1089514",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089514",
-   "html_url": "https://ieeexplore.ieee.org/document/1089514/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089514/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23704,
-   "publication_year": 1977,
-   "publication_date": "November 1977",
-   "start_page": "6",
-   "end_page": "8",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Communications technology",
-      "Communication switching",
-      "Communication system control",
-      "Automatic control",
-      "History",
-      "Switching systems",
-      "Telephony"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "25",
-     "value": 0.22941573387056174
-    },
-    {
-     "keyword": "25 year",
-     "value": 0.22941573387056174
-    },
-    {
-     "keyword": "application",
-     "value": 0.22941573387056174
-    },
-    {
-     "keyword": "application system",
-     "value": 0.22941573387056174
-    },
-    {
-     "keyword": "communication",
-     "value": 0.22941573387056174
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089505",
-   "title": "Communications technology: 25 years in retrospect",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "0148-9615",
-   "rank": 32,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "IEEE COMM",
-      "full_name": "C. Strom",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "Reports on the technologies, applications, systems, and communications facilities that have been developed over the past 25 years.",
-   "article_number": "1089505",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089505",
-   "html_url": "https://ieeexplore.ieee.org/document/1089505/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089505/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23703,
-   "publication_year": 1977,
-   "publication_date": "September 1977",
-   "start_page": "6",
-   "end_page": "10",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Communications technology",
-      "History",
-      "Communication switching",
-      "Communication system control",
-      "Automatic control",
-      "Switching systems",
-      "Telephony"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089476",
-   "title": "Correlative coding: A bandwidth-efficient signaling scheme",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "0148-9615",
-   "rank": 36,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "University of Toronto, Toronto, Ontario, Canada",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37271302000",
-      "id": 37271302000,
-      "full_name": "S. Pasupathy",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "In most transmission channels, bandwidth is at a premium and an important attribute of any good digital signaling scheme is its ability to make efficient use of the bandwidth. Conventional Nyquist-type pulse amplitude modulation signaling schemes, which are designed to eliminate intersymbol interference, achieve high data rates only at the expense of a large number of signal levels. In many applications, correlative coding or partial response signaling, which introduces intersymbol interference in a controlled way, is able to achieve high data rates with fewer levels and hence with better error rate performance. In addition to higher data rates, correlative schemes achieve convenient spectral shapes and have error-detecting capabilities without introducing redundancy into the data stream. This paper explains how correlative schemes work and why they are advantageous.",
-   "article_number": "1089476",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089476",
-   "html_url": "https://ieeexplore.ieee.org/document/1089476/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089476/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23702,
-   "publication_year": 1977,
-   "publication_date": "July 1977",
-   "start_page": "4",
-   "end_page": "11",
-   "citing_paper_count": 37,
-   "citing_patent_count": 5,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Pulse shaping methods",
-      "Bandwidth",
-      "Intersymbol interference",
-      "Pulse modulation",
-      "Data communication",
-      "Telephony",
-      "Sampling methods",
-      "Filters",
-      "Noise shaping"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "data",
-     "value": 0.24854790640048002
-    },
-    {
-     "keyword": "rate",
-     "value": 0.24854790640048002
-    },
-    {
-     "keyword": "scheme",
-     "value": 0.24854790640048002
-    },
-    {
-     "keyword": "achieve",
-     "value": 0.18641092980036
-    },
-    {
-     "keyword": "correlative",
-     "value": 0.18641092980036
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089436",
-   "title": "Cost effectiveness in global satellite communications",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "0148-9615",
-   "rank": 37,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "National Aeronautics and Space Administration, Washington, D.C., USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087540876",
-      "id": 37087540876,
-      "full_name": "B. Edelson",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088265877",
-      "id": 37088265877,
-      "full_name": "H. Wood",
-      "author_order": 2
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37295054400",
-      "id": 37295054400,
-      "full_name": "C. Reber",
-      "author_order": 3
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "Global satellite communications, as the INTELSAT system has demonstrated, is a commercially successful business with over ten years of operating experience. The system provides high-quality reliable communications over a large number of links in successful competition with other modes of communications. The cost effectiveness of the INTELSAT system has increased in the last decade as measured by the per-circuit-year cost of satellites in orbit, space segment charges, and earth station and total circuit costs. Economies of scale and the use of progressively more advanced technology are expected to increase the cost effectiveness of global satellite communications in the future.",
-   "article_number": "1089436",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089436",
-   "html_url": "https://ieeexplore.ieee.org/document/1089436/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089436/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23699,
-   "publication_year": 1977,
-   "publication_date": "January 1977",
-   "start_page": "16",
-   "end_page": "27",
-   "citing_paper_count": 4,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Satellite communication",
-      "Extraterrestrial measurements",
-      "Space technology",
-      "Business communication",
-      "Current measurement",
-      "Space charge",
-      "Space stations",
-      "Satellite ground stations"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "communication",
-     "value": 0.29731765849886654
-    },
-    {
-     "keyword": "cost",
-     "value": 0.29731765849886654
-    },
-    {
-     "keyword": "satellite",
-     "value": 0.2229882438741499
-    },
-    {
-     "keyword": "system",
-     "value": 0.2229882438741499
-    },
-    {
-     "keyword": "circuit",
-     "value": 0.14865882924943327
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089439",
-   "title": "Design tradeoffs for muitibeam antennas in communication satellites",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "0148-9615",
-   "rank": 38,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Electromagnetic Radiation Section, Aeronutronic division",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37977652800",
-      "id": 37977652800,
-      "full_name": "W. Scott",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/38179808000",
-      "id": 38179808000,
-      "full_name": "H.S. Luh",
-      "author_order": 2
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37353102900",
-      "id": 37353102900,
-      "full_name": "E. Matthews",
-      "author_order": 3
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "A TEM lens antenna is described that provides the capability of generating 61 low-sidelobe dual-polarized beams over a 17\u00b0 field of view, at both 4 and 6 GHz. Isolation between these beams is examined, and it is concluded that 6 of the available 61 beams may be used simultaneously in many different positions, while maintaining at least 27 dB isolation, for a total of 12 times frequency reuse.",
-   "article_number": "1089439",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089439",
-   "html_url": "https://ieeexplore.ieee.org/document/1089439/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089439/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23700,
-   "publication_year": 1977,
-   "publication_date": "March 1977",
-   "start_page": "9",
-   "end_page": "15",
-   "citing_paper_count": 6,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Satellite antennas",
-      "Artificial satellites",
-      "Design methodology",
-      "Polarization",
-      "Performance analysis",
-      "Optical design",
-      "Time frequency analysis",
-      "Degradation"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "beam",
-     "value": 0.31799936400190804
-    },
-    {
-     "keyword": "61",
-     "value": 0.211999576001272
-    },
-    {
-     "keyword": "isolation",
-     "value": 0.211999576001272
-    },
-    {
-     "keyword": "12",
-     "value": 0.105999788000636
-    },
-    {
-     "keyword": "12 time",
-     "value": 0.105999788000636
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089428",
-   "title": "Echo cancellation in the telephone network",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "0148-9615",
-   "rank": 39,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "C&C Research Laboratories, NEC USA, Princeton, New Jersey, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087865203",
-      "id": 37087865203,
-      "full_name": "S. Weinstein",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "Most long-distance telephone connections generate echoes, which must be heavily attenuated in order to obtain satisfactory transmission quality. Voice-actuated switches (echo suppressors) are widely used to eliminate echoes but have an unfortunate tendency also to cut out part of the desired signal from the other end of the line. Because the distortion caused by echo suppressors is particularly noticeable on satellite-routed connections, the advent of telephone communication via satellite, including the recent introduction of satellite circuits into the U.S. domestic network, has motivated the search for a better way to eliminate echoes. The answer may be the echo canceler, an adaptive filter which selectively eliminates echoes. Advanced echo canceler designs have been undergoing field trials in recent years. This article explains why echo cancelers are advantageous and how they work.",
-   "article_number": "1089428",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089428",
-   "html_url": "https://ieeexplore.ieee.org/document/1089428/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089428/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23699,
-   "publication_year": 1977,
-   "publication_date": "January 1977",
-   "start_page": "8",
-   "end_page": "15",
-   "citing_paper_count": 30,
-   "citing_patent_count": 3,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Echo cancellers",
-      "Telephony",
-      "Impedance",
-      "Couplers",
-      "Artificial satellites",
-      "Attenuation",
-      "Hybrid power systems",
-      "Communication switching"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "echo",
-     "value": 0.5487396847647231
-    },
-    {
-     "keyword": "eliminate",
-     "value": 0.1829132282549077
-    },
-    {
-     "keyword": "eliminate echo",
-     "value": 0.1829132282549077
-    },
-    {
-     "keyword": "satellite",
-     "value": 0.1829132282549077
-    },
-    {
-     "keyword": "canceler",
-     "value": 0.12194215216993846
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089520",
-   "title": "From 8-1/3 bits/s to 100,000 bits/s in ten years",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "0148-9615",
-   "rank": 42,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Jet Propulsion Laboratory, Passdena, CA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37322130800",
-      "id": 37322130800,
-      "full_name": "M. Easterling",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "During the first 11 years of its planetary program, the United States sent seven spacecraft to explore the inner planets: Venus, Mars, and Mercury. At the beginning of this period, the telemetry data rate was 8-1/3 bits/s; by the end of the period it was 120 kbits/s, a more than ten-thousand-fold increase. To identify the major factors involved, the form of a deep space telemetry system is described and the values of the major factors for each of the seven spacecraft are given. The amount of the improvement in each is computed and the way in which the improvement was achieved is discussed. Finally, some possible directions for possible future improvements are suggested.",
-   "article_number": "1089520",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089520",
-   "html_url": "https://ieeexplore.ieee.org/document/1089520/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089520/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23704,
-   "publication_year": 1977,
-   "publication_date": "November 1977",
-   "start_page": "12",
-   "end_page": "15",
-   "citing_paper_count": 3,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Receiving antennas",
-      "Transmitting antennas",
-      "Telemetry",
-      "Noise figure",
-      "Temperature",
-      "Bit rate",
-      "Masers",
-      "Transmitters",
-      "Space vehicles"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "improvement",
-     "value": 0.2508726030021272
-    },
-    {
-     "keyword": "factor",
-     "value": 0.16724840200141816
-    },
-    {
-     "keyword": "major",
-     "value": 0.16724840200141816
-    },
-    {
-     "keyword": "major factor",
-     "value": 0.16724840200141816
-    },
-    {
-     "keyword": "period",
-     "value": 0.16724840200141816
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089504",
-   "title": "How does the U.S. department of commerce assist U.S. firms in overseas markets?",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "0148-9615",
-   "rank": 44,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Massachusetts Institute of Technology, Cambridge, MA, USA and Woods Hole Oceanographic Institution, Woods Hole, MA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088082018",
-      "id": 37088082018,
-      "full_name": "J. Richardson",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1089504",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089504",
-   "html_url": "https://ieeexplore.ieee.org/document/1089504/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089504/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23703,
-   "publication_year": 1977,
-   "publication_date": "September 1977",
-   "start_page": "34",
-   "end_page": "36",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "US Department of Commerce",
-      "International relations",
-      "Communication equipment",
-      "Marketing and sales",
-      "Government policies",
-      "Globalization",
-      "Artificial satellites",
-      "Business"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089524",
-   "title": "Huge iceberg in Antarctic spotted by environmental satellite",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "0148-9615",
-   "rank": 45,
-   "volume": "15",
-   "authors": {
-    "authors": []
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1089524",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089524",
-   "html_url": "https://ieeexplore.ieee.org/document/1089524/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089524/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23704,
-   "publication_year": 1977,
-   "publication_date": "November 1977",
-   "start_page": "31",
-   "end_page": "31",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Antarctica",
-      "Circuit testing",
-      "Artificial satellites",
-      "Algorithm design and analysis",
-      "Communication networks",
-      "Heuristic algorithms",
-      "Ice",
-      "Satellites",
-      "Environmental factors"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089458",
-   "title": "New versatile digital video frame synchronizer for smooth intermix of remote and studio sources",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "0148-9615",
-   "rank": 60,
-   "volume": "15",
-   "authors": {
-    "authors": []
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1089458",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089458",
-   "html_url": "https://ieeexplore.ieee.org/document/1089458/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089458/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23701,
-   "publication_year": 1977,
-   "publication_date": "May 1977",
-   "start_page": "29",
-   "end_page": "29",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Video compression",
-      "TV",
-      "Satellite broadcasting",
-      "Automatic control",
-      "Digital video broadcasting",
-      "Visual effects",
-      "Production systems",
-      "Video recording"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089513",
-   "title": "Planetary telecommunication development during the next ten years",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "0148-9615",
-   "rank": 62,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Jet Propulsion Laboratory, Passdena, CA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088081098",
-      "id": 37088081098,
-      "full_name": "J. Kolden",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088081060",
-      "id": 37088081060,
-      "full_name": "V. Evanchuk",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "The past Mariner missions to the inner planets have greatly increased our knowledge about Mars, Venus, and Mercury. The continued success of these missions has been enhanced by the evolution of communication technology, with the main growth in the ground capability. The missions during the next decade will concentrate on the outer planets, with requirements to operate over greatly increased ranges in hostile radiation environments, and for reduced weight to allow the transportation of probes. The communication requirements will be mainly achieved by increases in flight equipment performance, new larger antennas, and operation at higher frequencies. The rate of growth of the communication capability is heavily dependent on the type of missions planned. However, we do have the capability to provide significant data return from the outer planets.",
-   "article_number": "1089513",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089513",
-   "html_url": "https://ieeexplore.ieee.org/document/1089513/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089513/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23704,
-   "publication_year": 1977,
-   "publication_date": "November 1977",
-   "start_page": "16",
-   "end_page": "19",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Extraterrestrial phenomena",
-      "Space vehicles",
-      "Technology forecasting",
-      "Communications technology",
-      "Space technology",
-      "Planets",
-      "Atmospheric measurements"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "mission",
-     "value": 0.2940858488375231
-    },
-    {
-     "keyword": "capability",
-     "value": 0.22056438662814232
-    },
-    {
-     "keyword": "communication",
-     "value": 0.22056438662814232
-    },
-    {
-     "keyword": "planet",
-     "value": 0.22056438662814232
-    },
-    {
-     "keyword": "greatly",
-     "value": 0.14704292441876154
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089500",
-   "title": "Quantization",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "0148-9615",
-   "rank": 65,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Univ. of California, Santa Barbara, CA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37281163500",
-      "id": 37281163500,
-      "full_name": "A. Gersho",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "Quantization is the process of replacing analog samples with approximate values taken from a finite set of allowed values. The approximate values corresponding to a sequence of analog samples can then be specified by a digital signal for transmission, storage, or other digital processing. In this expository paper, the basic ideas of uniform quantization, companding, robustness to input power level, and optimal quantization are reviewed and explained. The performance of various schemes is compared using the ratio of signal power to mean-square quantizing noise as a criterion. Entropy coding and the ultimate theoretical bound on block quantizer performance are also compared with the simpler zero-memory quantizer.",
-   "article_number": "1089500",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089500",
-   "html_url": "https://ieeexplore.ieee.org/document/1089500/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089500/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23703,
-   "publication_year": 1977,
-   "publication_date": "September 1977",
-   "start_page": "16",
-   "end_page": "16",
-   "citing_paper_count": 53,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Quantization",
-      "Bit rate",
-      "Sampling methods",
-      "Availability",
-      "Digital signal processing",
-      "H infinity control",
-      "Communications Society",
-      "Delta modulation"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "quantization",
-     "value": 0.23214696976024105
-    },
-    {
-     "keyword": "value",
-     "value": 0.23214696976024105
-    },
-    {
-     "keyword": "analog",
-     "value": 0.15476464650682736
-    },
-    {
-     "keyword": "analog sample",
-     "value": 0.15476464650682736
-    },
-    {
-     "keyword": "approximate",
-     "value": 0.15476464650682736
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089448",
-   "title": "Report on communications society workshop: Digital switching in the local office - Who needs it",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "0148-9615",
-   "rank": 66,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bell laboratoris, Holmdel, NJ, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37322053500",
-      "id": 37322053500,
-      "full_name": "A. Joel",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1089448",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089448",
-   "html_url": "https://ieeexplore.ieee.org/document/1089448/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089448/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23700,
-   "publication_year": 1977,
-   "publication_date": "March 1977",
-   "start_page": "19",
-   "end_page": "19",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Switching",
-      "Digital communication"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089462",
-   "title": "Service needs and systems architecture in satellite communications",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "0148-9615",
-   "rank": 68,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Telecommunications Policy",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37300039300",
-      "id": 37300039300,
-      "full_name": "R. Marsten",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "This paper examines the projected needs for satellite communications services of two fundamental types, point-to-point and broadcast, through the end of the 20th century, and relates the needs to systems architecture. This is done by considering factors which affect systems architecture, and by relating the service needs to available and developing technologies for satellite communications Systems. Some of these technologies originate from requirements on the different types of systems to share the communications channel capacity of the orbital are in allocated spectral bands. Consideration of the technologies applied to different systems architectures leads to the conclusion that developing capabilities are converging on elimination of the distinction between point-to-point and broadcast services at 12 GHz. This emerges in the discussion of systems architectures that completes the paper.",
-   "article_number": "1089462",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089462",
-   "html_url": "https://ieeexplore.ieee.org/document/1089462/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089462/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23701,
-   "publication_year": 1977,
-   "publication_date": "May 1977",
-   "start_page": "14",
-   "end_page": "23",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Satellite communication",
-      "Satellite broadcasting",
-      "Satellite ground stations",
-      "Frequency selective surfaces",
-      "Telephony",
-      "Artificial satellites",
-      "Mobile computing",
-      "Microwave communication",
-      "Communications technology",
-      "Communication channels"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "system",
-     "value": 0.3220783132004154
-    },
-    {
-     "keyword": "point",
-     "value": 0.25766265056033233
-    },
-    {
-     "keyword": "architecture",
-     "value": 0.19324698792024925
-    },
-    {
-     "keyword": "communication",
-     "value": 0.19324698792024925
-    },
-    {
-     "keyword": "need",
-     "value": 0.19324698792024925
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089445",
-   "title": "Spectrum conservation by efficient channel utilization",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "0148-9615",
-   "rank": 75,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Rand Corp., Santa Monica, CA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37331109400",
-      "id": 37331109400,
-      "full_name": "E. Bedrosian",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "The growth of the communication industry has resulted in ever-increasing demands on the radio spectrum. This, in turn, has spurred the exploitation of previously unused frequency bands and the development of techniques for making better use of those already available. In this paper, spectral utilization is examined using the information-theory techniques of Shannon. The power-bandwidth tradeoff for the ideal channel is established and the performance of practical analog and digital modulation techniques is compared with this ideal. It is shown that well-designed systems tend to operate near the \"knee\" of the power-bandwidth tradeoff curve for the ideal channel and that they are frequently within 10 dB or less of the performance of the ideal.",
-   "article_number": "1089445",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089445",
-   "html_url": "https://ieeexplore.ieee.org/document/1089445/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089445/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23700,
-   "publication_year": 1977,
-   "publication_date": "March 1977",
-   "start_page": "20",
-   "end_page": "27",
-   "citing_paper_count": 6,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Bandwidth",
-      "Radio transmitters",
-      "Frequency",
-      "Receivers",
-      "Additive noise",
-      "Interference",
-      "Channel capacity",
-      "Signal to noise ratio",
-      "Attenuation",
-      "Radio link"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "ideal",
-     "value": 0.3076923076923077
-    },
-    {
-     "keyword": "technique",
-     "value": 0.23076923076923078
-    },
-    {
-     "keyword": "bandwidth",
-     "value": 0.15384615384615385
-    },
-    {
-     "keyword": "bandwidth tradeoff",
-     "value": 0.15384615384615385
-    },
-    {
-     "keyword": "channel",
-     "value": 0.15384615384615385
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089471",
-   "title": "Telecommunications: At the leading edge of technology",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "0148-9615",
-   "rank": 76,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "National Defence College, Quebec, Canada",
-      "full_name": "J.R. Cyr",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1089471",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089471",
-   "html_url": "https://ieeexplore.ieee.org/document/1089471/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089471/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23701,
-   "publication_year": 1977,
-   "publication_date": "May 1977",
-   "start_page": "6",
-   "end_page": "12",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Telecommunication computing",
-      "Communications technology",
-      "Aircraft",
-      "Communication industry",
-      "Computer industry",
-      "Telephony",
-      "Fiber lasers",
-      "Laser beams",
-      "Legged locomotion"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089447",
-   "title": "The MOS implementation of low-speed modems",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "0148-9615",
-   "rank": 77,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Motorola Semiconductor Group",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088197169",
-      "id": 37088197169,
-      "full_name": "G. Nash",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "This paper identifies the improvements due to large-scale integration [LSI] in the areas of cost, performance, size, reliability, and testing of data communication equipments. An example using Motorola's MC6860 Digital Modem is given. Techniques for implementing linear functions using digital designs and processing methods are discussed along with future technology trends and projections.",
-   "article_number": "1089447",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089447",
-   "html_url": "https://ieeexplore.ieee.org/document/1089447/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089447/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23700,
-   "publication_year": 1977,
-   "publication_date": "March 1977",
-   "start_page": "16",
-   "end_page": "18",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Modems",
-      "Oscillators",
-      "Large scale integration",
-      "Frequency shift keying",
-      "Circuits",
-      "Data communication",
-      "Frequency conversion",
-      "MOS capacitors",
-      "Propagation delay",
-      "Digital modulation"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "digital",
-     "value": 0.2222222222222222
-    },
-    {
-     "keyword": "use",
-     "value": 0.2222222222222222
-    },
-    {
-     "keyword": "along",
-     "value": 0.1111111111111111
-    },
-    {
-     "keyword": "along future",
-     "value": 0.1111111111111111
-    },
-    {
-     "keyword": "area",
-     "value": 0.1111111111111111
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089480",
-   "title": "The industrial need for adequate computer communications",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "0148-9615",
-   "rank": 78,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "General Elec. Research Lab.",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37974629200",
-      "id": 37974629200,
-      "full_name": "R. Shuey",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1089480",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089480",
-   "html_url": "https://ieeexplore.ieee.org/document/1089480/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089480/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23702,
-   "publication_year": 1977,
-   "publication_date": "July 1977",
-   "start_page": "16",
-   "end_page": "26",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Communication system control",
-      "System testing",
-      "Circuit testing",
-      "Data engineering",
-      "Design engineering",
-      "Aircraft propulsion",
-      "Circuit analysis computing",
-      "Distributed computing"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089518",
-   "title": "The planetary exploration program",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "0148-9615",
-   "rank": 79,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Jet Propulstion Laboratory, Passadena, CA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088078733",
-      "id": 37088078733,
-      "full_name": "D. Rea",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "The U. S. program for space exploration of the planets began with the Mariner 2 flyby of Venus in 1962. Since then a series of Mariners have gone to Mercury and Mars, in addition to Venus. Pioneer-class spacecraft have flown through the asteroid belt and have passed by Jupiter. The Viking mission carried Out a spectacularly successful series of measurements at Mars. These past missions will be followed shortly by recently launched Voyager flybys of Jupiter and Saturn in 1977 and by Pioneer probes and orbiter to Venus in 1978. These missions have stressed exploration. Now there are two additional goals involving the well-being of Man which are looming on the space horizon.",
-   "article_number": "1089518",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089518",
-   "html_url": "https://ieeexplore.ieee.org/document/1089518/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089518/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23704,
-   "publication_year": 1977,
-   "publication_date": "November 1977",
-   "start_page": "10",
-   "end_page": "11",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Venus",
-      "Mars",
-      "Jupiter",
-      "Space exploration",
-      "Planets",
-      "Space vehicles",
-      "Extraterrestrial measurements",
-      "Saturn"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "mission",
-     "value": 0.24743582965269675
-    },
-    {
-     "keyword": "venus",
-     "value": 0.24743582965269675
-    },
-    {
-     "keyword": "exploration",
-     "value": 0.1649572197684645
-    },
-    {
-     "keyword": "jupiter",
-     "value": 0.1649572197684645
-    },
-    {
-     "keyword": "mars",
-     "value": 0.1649572197684645
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089512",
-   "title": "The search for extraterrestrial intelligence: Telecommunications technology",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "0148-9615",
-   "rank": 80,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Jet Propulsion Laboratory, Passdena, CA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088081099",
-      "id": 37088081099,
-      "full_name": "R. Edelson",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37719432000",
-      "id": 37719432000,
-      "full_name": "G. Levy",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "Efforts to discover evidence of intelligent extraterrestrial life have become not only feasible, but respectable. Fledgling observational projects have begun that will use stateof-the-art hardware to develop sophisticated receiving and data processing systems. The rationale behind the Search for Extraterrestrial Intelligence (SETI), the manner in which the program is taking shape, and the implications for telecommunications are described. We conclude that the breadth of technological development required for the detection of signals from our galactic brethren has particular relevance for the future of telecommunications in earth-oriented uses.",
-   "article_number": "1089512",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089512",
-   "html_url": "https://ieeexplore.ieee.org/document/1089512/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089512/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23704,
-   "publication_year": 1977,
-   "publication_date": "November 1977",
-   "start_page": "20",
-   "end_page": "23",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Electromagnetic scattering",
-      "Space technology",
-      "Electromagnetic propagation",
-      "Optical propagation",
-      "Position measurement",
-      "extraterrestrial phenomena",
-      "Cultural differences",
-      "Global communication",
-      "Evolution (biology)"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "extraterrestrial",
-     "value": 0.19156525704423027
-    },
-    {
-     "keyword": "telecommunication",
-     "value": 0.19156525704423027
-    },
-    {
-     "keyword": "art",
-     "value": 0.09578262852211514
-    },
-    {
-     "keyword": "art hardware",
-     "value": 0.09578262852211514
-    },
-    {
-     "keyword": "become",
-     "value": 0.09578262852211514
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089507",
-   "title": "U.S.International telecommunications industry analysed",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "0148-9615",
-   "rank": 87,
-   "volume": "15",
-   "authors": {
-    "authors": []
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1089507",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089507",
-   "html_url": "https://ieeexplore.ieee.org/document/1089507/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089507/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23704,
-   "publication_year": 1977,
-   "publication_date": "November 1977",
-   "start_page": "32",
-   "end_page": "32",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Communication industry",
-      "Radiofrequency interference",
-      "Space technology",
-      "Radiometry",
-      "US Department of Commerce",
-      "Regulators",
-      "Licenses"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089452",
-   "title": "URSI...a unique radio science institution",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "0148-9615",
-   "rank": 88,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "University of Massachusetts, Amherst, MA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37294469800",
-      "id": 37294469800,
-      "full_name": "R. McIntosh",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1089452",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089452",
-   "html_url": "https://ieeexplore.ieee.org/document/1089452/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089452/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23700,
-   "publication_year": 1977,
-   "publication_date": "March 1977",
-   "start_page": "28",
-   "end_page": "30",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Radio communication",
-      "Telegraphy",
-      "Measurement standards",
-      "Extraterrestrial measurements",
-      "Information theory",
-      "Communication systems"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1977.1089503",
-   "title": "Where are modems going?",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "0148-9615",
-   "rank": 93,
-   "volume": "15",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "IEEE Comm.",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37974570100",
-      "id": 37974570100,
-      "full_name": "J. Holsinger",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1089503",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1089503",
-   "html_url": "https://ieeexplore.ieee.org/document/1089503/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1089503/",
-   "publication_title": "IEEE Communications Society Magazine",
-   "publication_number": 5488653,
-   "is_number": 23703,
-   "publication_year": 1977,
-   "publication_date": "September 1977",
-   "start_page": "3",
-   "end_page": "5",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Modems",
-      "Microprocessors",
-      "Microwave theory and techniques",
-      "Digital modulation",
-      "Data processing",
-      "Interactive systems",
-      "Marketing and sales",
-      "Adaptive equalizers",
-      "Environmental economics"
-     ]
-    }
-   }
-  }
- ]
+  ]
 }

@@ -1,2686 +1,2686 @@
 {
- "2000": [
-  {
-   "name": "network",
-   "count": 90
-  },
-  {
-   "name": "system",
-   "count": 90
-  },
-  {
-   "name": "model",
-   "count": 83
-  },
-  {
-   "name": "algorithm",
-   "count": 76
-  },
-  {
-   "name": "control",
-   "count": 70
-  },
-  {
-   "name": "filter",
-   "count": 70
-  },
-  {
-   "name": "spl",
-   "count": 57
-  },
-  {
-   "name": "adaptive",
-   "count": 55
-  },
-  {
-   "name": "controller",
-   "count": 55
-  },
-  {
-   "name": "sub",
-   "count": 55
-  },
-  {
-   "name": "design",
-   "count": 54
-  },
-  {
-   "name": "method",
-   "count": 51
-  },
-  {
-   "name": "image",
-   "count": 50
-  },
-  {
-   "name": "object",
-   "count": 49
-  },
-  {
-   "name": "channel",
-   "count": 47
-  },
-  {
-   "name": "fuzzy",
-   "count": 47
-  },
-  {
-   "name": "data",
-   "count": 45
-  },
-  {
-   "name": "problem",
-   "count": 45
-  },
-  {
-   "name": "error",
-   "count": 43
-  },
-  {
-   "name": "scheme",
-   "count": 42
-  },
-  {
-   "name": "power",
-   "count": 36
-  },
-  {
-   "name": "optical",
-   "count": 35
-  },
-  {
-   "name": "signal",
-   "count": 34
-  },
-  {
-   "name": "phase",
-   "count": 34
-  },
-  {
-   "name": "motion",
-   "count": 34
-  },
-  {
-   "name": "noise",
-   "count": 33
-  },
-  {
-   "name": "neural",
-   "count": 33
-  },
-  {
-   "name": "source",
-   "count": 32
-  },
-  {
-   "name": "nonlinear",
-   "count": 32
-  },
-  {
-   "name": "protocol",
-   "count": 31
-  }
- ],
- "2001": [
-  {
-   "name": "network",
-   "count": 157
-  },
-  {
-   "name": "system",
-   "count": 157
-  },
-  {
-   "name": "model",
-   "count": 153
-  },
-  {
-   "name": "algorithm",
-   "count": 147
-  },
-  {
-   "name": "control",
-   "count": 144
-  },
-  {
-   "name": "filter",
-   "count": 131
-  },
-  {
-   "name": "controller",
-   "count": 109
-  },
-  {
-   "name": "fuzzy",
-   "count": 109
-  },
-  {
-   "name": "design",
-   "count": 98
-  },
-  {
-   "name": "adaptive",
-   "count": 97
-  },
-  {
-   "name": "data",
-   "count": 95
-  },
-  {
-   "name": "spl",
-   "count": 93
-  },
-  {
-   "name": "method",
-   "count": 90
-  },
-  {
-   "name": "power",
-   "count": 88
-  },
-  {
-   "name": "sub",
-   "count": 88
-  },
-  {
-   "name": "channel",
-   "count": 86
-  },
-  {
-   "name": "image",
-   "count": 84
-  },
-  {
-   "name": "object",
-   "count": 84
-  },
-  {
-   "name": "signal",
-   "count": 83
-  },
-  {
-   "name": "scheme",
-   "count": 76
-  },
-  {
-   "name": "motion",
-   "count": 76
-  },
-  {
-   "name": "error",
-   "count": 75
-  },
-  {
-   "name": "problem",
-   "count": 71
-  },
-  {
-   "name": "frequency",
-   "count": 68
-  },
-  {
-   "name": "optical",
-   "count": 67
-  },
-  {
-   "name": "nonlinear",
-   "count": 63
-  },
-  {
-   "name": "user",
-   "count": 61
-  },
-  {
-   "name": "noise",
-   "count": 60
-  },
-  {
-   "name": "wavelet",
-   "count": 57
-  },
-  {
-   "name": "source",
-   "count": 56
-  }
- ],
- "2002": [
-  {
-   "name": "network",
-   "count": 240
-  },
-  {
-   "name": "system",
-   "count": 239
-  },
-  {
-   "name": "model",
-   "count": 225
-  },
-  {
-   "name": "algorithm",
-   "count": 210
-  },
-  {
-   "name": "control",
-   "count": 190
-  },
-  {
-   "name": "filter",
-   "count": 182
-  },
-  {
-   "name": "controller",
-   "count": 157
-  },
-  {
-   "name": "fuzzy",
-   "count": 156
-  },
-  {
-   "name": "image",
-   "count": 146
-  },
-  {
-   "name": "channel",
-   "count": 139
-  },
-  {
-   "name": "spl",
-   "count": 139
-  },
-  {
-   "name": "design",
-   "count": 139
-  },
-  {
-   "name": "data",
-   "count": 138
-  },
-  {
-   "name": "adaptive",
-   "count": 134
-  },
-  {
-   "name": "power",
-   "count": 130
-  },
-  {
-   "name": "sub",
-   "count": 124
-  },
-  {
-   "name": "method",
-   "count": 123
-  },
-  {
-   "name": "scheme",
-   "count": 120
-  },
-  {
-   "name": "signal",
-   "count": 114
-  },
-  {
-   "name": "object",
-   "count": 114
-  },
-  {
-   "name": "motion",
-   "count": 108
-  },
-  {
-   "name": "problem",
-   "count": 103
-  },
-  {
-   "name": "error",
-   "count": 100
-  },
-  {
-   "name": "frequency",
-   "count": 99
-  },
-  {
-   "name": "noise",
-   "count": 91
-  },
-  {
-   "name": "user",
-   "count": 90
-  },
-  {
-   "name": "optical",
-   "count": 88
-  },
-  {
-   "name": "parameter",
-   "count": 88
-  },
-  {
-   "name": "time",
-   "count": 86
-  },
-  {
-   "name": "nonlinear",
-   "count": 86
-  }
- ],
- "2003": [
-  {
-   "name": "network",
-   "count": 327
-  },
-  {
-   "name": "system",
-   "count": 316
-  },
-  {
-   "name": "model",
-   "count": 307
-  },
-  {
-   "name": "algorithm",
-   "count": 286
-  },
-  {
-   "name": "control",
-   "count": 277
-  },
-  {
-   "name": "filter",
-   "count": 239
-  },
-  {
-   "name": "image",
-   "count": 212
-  },
-  {
-   "name": "fuzzy",
-   "count": 200
-  },
-  {
-   "name": "channel",
-   "count": 192
-  },
-  {
-   "name": "controller",
-   "count": 189
-  },
-  {
-   "name": "spl",
-   "count": 184
-  },
-  {
-   "name": "data",
-   "count": 178
-  },
-  {
-   "name": "power",
-   "count": 175
-  },
-  {
-   "name": "design",
-   "count": 170
-  },
-  {
-   "name": "adaptive",
-   "count": 169
-  },
-  {
-   "name": "sub",
-   "count": 165
-  },
-  {
-   "name": "method",
-   "count": 164
-  },
-  {
-   "name": "signal",
-   "count": 152
-  },
-  {
-   "name": "scheme",
-   "count": 151
-  },
-  {
-   "name": "object",
-   "count": 149
-  },
-  {
-   "name": "motion",
-   "count": 144
-  },
-  {
-   "name": "user",
-   "count": 128
-  },
-  {
-   "name": "problem",
-   "count": 127
-  },
-  {
-   "name": "service",
-   "count": 125
-  },
-  {
-   "name": "frequency",
-   "count": 125
-  },
-  {
-   "name": "error",
-   "count": 124
-  },
-  {
-   "name": "optical",
-   "count": 120
-  },
-  {
-   "name": "parameter",
-   "count": 117
-  },
-  {
-   "name": "noise",
-   "count": 116
-  },
-  {
-   "name": "delay",
-   "count": 114
-  }
- ],
- "2004": [
-  {
-   "name": "network",
-   "count": 417
-  },
-  {
-   "name": "system",
-   "count": 402
-  },
-  {
-   "name": "model",
-   "count": 399
-  },
-  {
-   "name": "algorithm",
-   "count": 370
-  },
-  {
-   "name": "control",
-   "count": 364
-  },
-  {
-   "name": "filter",
-   "count": 290
-  },
-  {
-   "name": "image",
-   "count": 276
-  },
-  {
-   "name": "channel",
-   "count": 250
-  },
-  {
-   "name": "fuzzy",
-   "count": 250
-  },
-  {
-   "name": "controller",
-   "count": 240
-  },
-  {
-   "name": "method",
-   "count": 233
-  },
-  {
-   "name": "spl",
-   "count": 233
-  },
-  {
-   "name": "data",
-   "count": 231
-  },
-  {
-   "name": "power",
-   "count": 220
-  },
-  {
-   "name": "sub",
-   "count": 213
-  },
-  {
-   "name": "adaptive",
-   "count": 205
-  },
-  {
-   "name": "design",
-   "count": 203
-  },
-  {
-   "name": "scheme",
-   "count": 196
-  },
-  {
-   "name": "signal",
-   "count": 196
-  },
-  {
-   "name": "object",
-   "count": 184
-  },
-  {
-   "name": "motion",
-   "count": 181
-  },
-  {
-   "name": "user",
-   "count": 176
-  },
-  {
-   "name": "service",
-   "count": 164
-  },
-  {
-   "name": "problem",
-   "count": 161
-  },
-  {
-   "name": "robot",
-   "count": 154
-  },
-  {
-   "name": "frequency",
-   "count": 151
-  },
-  {
-   "name": "error",
-   "count": 150
-  },
-  {
-   "name": "feature",
-   "count": 148
-  },
-  {
-   "name": "delay",
-   "count": 147
-  },
-  {
-   "name": "time",
-   "count": 147
-  }
- ],
- "2005": [
-  {
-   "name": "network",
-   "count": 501
-  },
-  {
-   "name": "model",
-   "count": 496
-  },
-  {
-   "name": "system",
-   "count": 488
-  },
-  {
-   "name": "control",
-   "count": 449
-  },
-  {
-   "name": "algorithm",
-   "count": 442
-  },
-  {
-   "name": "image",
-   "count": 355
-  },
-  {
-   "name": "filter",
-   "count": 339
-  },
-  {
-   "name": "channel",
-   "count": 320
-  },
-  {
-   "name": "fuzzy",
-   "count": 301
-  },
-  {
-   "name": "data",
-   "count": 293
-  },
-  {
-   "name": "method",
-   "count": 285
-  },
-  {
-   "name": "controller",
-   "count": 274
-  },
-  {
-   "name": "spl",
-   "count": 274
-  },
-  {
-   "name": "power",
-   "count": 256
-  },
-  {
-   "name": "sub",
-   "count": 252
-  },
-  {
-   "name": "design",
-   "count": 248
-  },
-  {
-   "name": "scheme",
-   "count": 247
-  },
-  {
-   "name": "adaptive",
-   "count": 238
-  },
-  {
-   "name": "object",
-   "count": 228
-  },
-  {
-   "name": "user",
-   "count": 227
-  },
-  {
-   "name": "signal",
-   "count": 227
-  },
-  {
-   "name": "motion",
-   "count": 222
-  },
-  {
-   "name": "service",
-   "count": 218
-  },
-  {
-   "name": "problem",
-   "count": 201
-  },
-  {
-   "name": "delay",
-   "count": 195
-  },
-  {
-   "name": "time",
-   "count": 190
-  },
-  {
-   "name": "error",
-   "count": 188
-  },
-  {
-   "name": "frequency",
-   "count": 186
-  },
-  {
-   "name": "robot",
-   "count": 184
-  },
-  {
-   "name": "feature",
-   "count": 184
-  }
- ],
- "2006": [
-  {
-   "name": "network",
-   "count": 605
-  },
-  {
-   "name": "model",
-   "count": 603
-  },
-  {
-   "name": "system",
-   "count": 562
-  },
-  {
-   "name": "control",
-   "count": 522
-  },
-  {
-   "name": "algorithm",
-   "count": 516
-  },
-  {
-   "name": "image",
-   "count": 433
-  },
-  {
-   "name": "channel",
-   "count": 416
-  },
-  {
-   "name": "filter",
-   "count": 406
-  },
-  {
-   "name": "fuzzy",
-   "count": 358
-  },
-  {
-   "name": "data",
-   "count": 350
-  },
-  {
-   "name": "method",
-   "count": 332
-  },
-  {
-   "name": "sub",
-   "count": 330
-  },
-  {
-   "name": "power",
-   "count": 324
-  },
-  {
-   "name": "spl",
-   "count": 311
-  },
-  {
-   "name": "scheme",
-   "count": 297
-  },
-  {
-   "name": "user",
-   "count": 295
-  },
-  {
-   "name": "controller",
-   "count": 295
-  },
-  {
-   "name": "design",
-   "count": 295
-  },
-  {
-   "name": "adaptive",
-   "count": 278
-  },
-  {
-   "name": "signal",
-   "count": 272
-  },
-  {
-   "name": "motion",
-   "count": 272
-  },
-  {
-   "name": "object",
-   "count": 264
-  },
-  {
-   "name": "service",
-   "count": 258
-  },
-  {
-   "name": "delay",
-   "count": 248
-  },
-  {
-   "name": "problem",
-   "count": 243
-  },
-  {
-   "name": "robot",
-   "count": 235
-  },
-  {
-   "name": "time",
-   "count": 226
-  },
-  {
-   "name": "frequency",
-   "count": 224
-  },
-  {
-   "name": "error",
-   "count": 224
-  },
-  {
-   "name": "sensor",
-   "count": 219
-  }
- ],
- "2007": [
-  {
-   "name": "network",
-   "count": 713
-  },
-  {
-   "name": "model",
-   "count": 692
-  },
-  {
-   "name": "system",
-   "count": 666
-  },
-  {
-   "name": "algorithm",
-   "count": 640
-  },
-  {
-   "name": "control",
-   "count": 605
-  },
-  {
-   "name": "channel",
-   "count": 515
-  },
-  {
-   "name": "image",
-   "count": 507
-  },
-  {
-   "name": "filter",
-   "count": 484
-  },
-  {
-   "name": "sub",
-   "count": 425
-  },
-  {
-   "name": "fuzzy",
-   "count": 408
-  },
-  {
-   "name": "data",
-   "count": 400
-  },
-  {
-   "name": "method",
-   "count": 398
-  },
-  {
-   "name": "power",
-   "count": 376
-  },
-  {
-   "name": "user",
-   "count": 363
-  },
-  {
-   "name": "scheme",
-   "count": 359
-  },
-  {
-   "name": "controller",
-   "count": 344
-  },
-  {
-   "name": "design",
-   "count": 344
-  },
-  {
-   "name": "signal",
-   "count": 328
-  },
-  {
-   "name": "adaptive",
-   "count": 321
-  },
-  {
-   "name": "delay",
-   "count": 319
-  },
-  {
-   "name": "motion",
-   "count": 317
-  },
-  {
-   "name": "spl",
-   "count": 311
-  },
-  {
-   "name": "object",
-   "count": 305
-  },
-  {
-   "name": "service",
-   "count": 299
-  },
-  {
-   "name": "sensor",
-   "count": 297
-  },
-  {
-   "name": "problem",
-   "count": 293
-  },
-  {
-   "name": "robot",
-   "count": 288
-  },
-  {
-   "name": "code",
-   "count": 277
-  },
-  {
-   "name": "video",
-   "count": 272
-  },
-  {
-   "name": "frequency",
-   "count": 271
-  }
- ],
- "2008": [
-  {
-   "name": "network",
-   "count": 854
-  },
-  {
-   "name": "model",
-   "count": 814
-  },
-  {
-   "name": "system",
-   "count": 756
-  },
-  {
-   "name": "algorithm",
-   "count": 749
-  },
-  {
-   "name": "control",
-   "count": 710
-  },
-  {
-   "name": "channel",
-   "count": 606
-  },
-  {
-   "name": "image",
-   "count": 601
-  },
-  {
-   "name": "filter",
-   "count": 552
-  },
-  {
-   "name": "sub",
-   "count": 530
-  },
-  {
-   "name": "method",
-   "count": 471
-  },
-  {
-   "name": "data",
-   "count": 466
-  },
-  {
-   "name": "fuzzy",
-   "count": 458
-  },
-  {
-   "name": "user",
-   "count": 450
-  },
-  {
-   "name": "power",
-   "count": 446
-  },
-  {
-   "name": "scheme",
-   "count": 422
-  },
-  {
-   "name": "controller",
-   "count": 403
-  },
-  {
-   "name": "design",
-   "count": 397
-  },
-  {
-   "name": "sensor",
-   "count": 393
-  },
-  {
-   "name": "delay",
-   "count": 389
-  },
-  {
-   "name": "signal",
-   "count": 381
-  },
-  {
-   "name": "adaptive",
-   "count": 364
-  },
-  {
-   "name": "object",
-   "count": 360
-  },
-  {
-   "name": "service",
-   "count": 354
-  },
-  {
-   "name": "motion",
-   "count": 349
-  },
-  {
-   "name": "problem",
-   "count": 333
-  },
-  {
-   "name": "code",
-   "count": 324
-  },
-  {
-   "name": "robot",
-   "count": 324
-  },
-  {
-   "name": "video",
-   "count": 318
-  },
-  {
-   "name": "frequency",
-   "count": 315
-  },
-  {
-   "name": "detection",
-   "count": 315
-  }
- ],
- "2009": [
-  {
-   "name": "network",
-   "count": 983
-  },
-  {
-   "name": "model",
-   "count": 936
-  },
-  {
-   "name": "algorithm",
-   "count": 866
-  },
-  {
-   "name": "system",
-   "count": 849
-  },
-  {
-   "name": "control",
-   "count": 798
-  },
-  {
-   "name": "image",
-   "count": 695
-  },
-  {
-   "name": "channel",
-   "count": 678
-  },
-  {
-   "name": "filter",
-   "count": 641
-  },
-  {
-   "name": "sub",
-   "count": 638
-  },
-  {
-   "name": "user",
-   "count": 548
-  },
-  {
-   "name": "method",
-   "count": 544
-  },
-  {
-   "name": "power",
-   "count": 525
-  },
-  {
-   "name": "data",
-   "count": 520
-  },
-  {
-   "name": "sensor",
-   "count": 509
-  },
-  {
-   "name": "scheme",
-   "count": 505
-  },
-  {
-   "name": "fuzzy",
-   "count": 500
-  },
-  {
-   "name": "delay",
-   "count": 453
-  },
-  {
-   "name": "controller",
-   "count": 448
-  },
-  {
-   "name": "design",
-   "count": 443
-  },
-  {
-   "name": "signal",
-   "count": 424
-  },
-  {
-   "name": "service",
-   "count": 406
-  },
-  {
-   "name": "adaptive",
-   "count": 402
-  },
-  {
-   "name": "object",
-   "count": 392
-  },
-  {
-   "name": "motion",
-   "count": 389
-  },
-  {
-   "name": "problem",
-   "count": 384
-  },
-  {
-   "name": "code",
-   "count": 377
-  },
-  {
-   "name": "detection",
-   "count": 375
-  },
-  {
-   "name": "video",
-   "count": 369
-  },
-  {
-   "name": "time",
-   "count": 369
-  },
-  {
-   "name": "robot",
-   "count": 369
-  }
- ],
- "2010": [
-  {
-   "name": "network",
-   "count": 1093
-  },
-  {
-   "name": "model",
-   "count": 1070
-  },
-  {
-   "name": "algorithm",
-   "count": 967
-  },
-  {
-   "name": "system",
-   "count": 934
-  },
-  {
-   "name": "control",
-   "count": 882
-  },
-  {
-   "name": "image",
-   "count": 773
-  },
-  {
-   "name": "channel",
-   "count": 749
-  },
-  {
-   "name": "sub",
-   "count": 738
-  },
-  {
-   "name": "filter",
-   "count": 716
-  },
-  {
-   "name": "user",
-   "count": 629
-  },
-  {
-   "name": "power",
-   "count": 598
-  },
-  {
-   "name": "method",
-   "count": 596
-  },
-  {
-   "name": "sensor",
-   "count": 596
-  },
-  {
-   "name": "data",
-   "count": 594
-  },
-  {
-   "name": "scheme",
-   "count": 570
-  },
-  {
-   "name": "fuzzy",
-   "count": 531
-  },
-  {
-   "name": "delay",
-   "count": 511
-  },
-  {
-   "name": "design",
-   "count": 500
-  },
-  {
-   "name": "controller",
-   "count": 493
-  },
-  {
-   "name": "signal",
-   "count": 488
-  },
-  {
-   "name": "service",
-   "count": 456
-  },
-  {
-   "name": "adaptive",
-   "count": 439
-  },
-  {
-   "name": "detection",
-   "count": 437
-  },
-  {
-   "name": "object",
-   "count": 435
-  },
-  {
-   "name": "problem",
-   "count": 425
-  },
-  {
-   "name": "frequency",
-   "count": 424
-  },
-  {
-   "name": "motion",
-   "count": 421
-  },
-  {
-   "name": "time",
-   "count": 420
-  },
-  {
-   "name": "code",
-   "count": 417
-  },
-  {
-   "name": "video",
-   "count": 417
-  }
- ],
- "2011": [
-  {
-   "name": "network",
-   "count": 1238
-  },
-  {
-   "name": "model",
-   "count": 1188
-  },
-  {
-   "name": "algorithm",
-   "count": 1064
-  },
-  {
-   "name": "system",
-   "count": 1035
-  },
-  {
-   "name": "control",
-   "count": 995
-  },
-  {
-   "name": "image",
-   "count": 866
-  },
-  {
-   "name": "channel",
-   "count": 839
-  },
-  {
-   "name": "sub",
-   "count": 833
-  },
-  {
-   "name": "filter",
-   "count": 780
-  },
-  {
-   "name": "user",
-   "count": 716
-  },
-  {
-   "name": "sensor",
-   "count": 696
-  },
-  {
-   "name": "power",
-   "count": 692
-  },
-  {
-   "name": "data",
-   "count": 665
-  },
-  {
-   "name": "method",
-   "count": 661
-  },
-  {
-   "name": "scheme",
-   "count": 636
-  },
-  {
-   "name": "delay",
-   "count": 595
-  },
-  {
-   "name": "fuzzy",
-   "count": 578
-  },
-  {
-   "name": "design",
-   "count": 551
-  },
-  {
-   "name": "controller",
-   "count": 536
-  },
-  {
-   "name": "signal",
-   "count": 531
-  },
-  {
-   "name": "service",
-   "count": 512
-  },
-  {
-   "name": "detection",
-   "count": 498
-  },
-  {
-   "name": "object",
-   "count": 491
-  },
-  {
-   "name": "adaptive",
-   "count": 480
-  },
-  {
-   "name": "node",
-   "count": 478
-  },
-  {
-   "name": "motion",
-   "count": 476
-  },
-  {
-   "name": "problem",
-   "count": 475
-  },
-  {
-   "name": "video",
-   "count": 474
-  },
-  {
-   "name": "frequency",
-   "count": 470
-  },
-  {
-   "name": "time",
-   "count": 462
-  }
- ],
- "2012": [
-  {
-   "name": "network",
-   "count": 1402
-  },
-  {
-   "name": "model",
-   "count": 1310
-  },
-  {
-   "name": "algorithm",
-   "count": 1169
-  },
-  {
-   "name": "system",
-   "count": 1132
-  },
-  {
-   "name": "control",
-   "count": 1098
-  },
-  {
-   "name": "image",
-   "count": 959
-  },
-  {
-   "name": "sub",
-   "count": 949
-  },
-  {
-   "name": "channel",
-   "count": 923
-  },
-  {
-   "name": "filter",
-   "count": 849
-  },
-  {
-   "name": "user",
-   "count": 838
-  },
-  {
-   "name": "power",
-   "count": 798
-  },
-  {
-   "name": "sensor",
-   "count": 789
-  },
-  {
-   "name": "data",
-   "count": 745
-  },
-  {
-   "name": "method",
-   "count": 720
-  },
-  {
-   "name": "scheme",
-   "count": 707
-  },
-  {
-   "name": "delay",
-   "count": 663
-  },
-  {
-   "name": "fuzzy",
-   "count": 612
-  },
-  {
-   "name": "design",
-   "count": 604
-  },
-  {
-   "name": "controller",
-   "count": 596
-  },
-  {
-   "name": "signal",
-   "count": 594
-  },
-  {
-   "name": "service",
-   "count": 587
-  },
-  {
-   "name": "detection",
-   "count": 571
-  },
-  {
-   "name": "relay",
-   "count": 569
-  },
-  {
-   "name": "object",
-   "count": 558
-  },
-  {
-   "name": "node",
-   "count": 554
-  },
-  {
-   "name": "problem",
-   "count": 544
-  },
-  {
-   "name": "energy",
-   "count": 534
-  },
-  {
-   "name": "video",
-   "count": 533
-  },
-  {
-   "name": "motion",
-   "count": 530
-  },
-  {
-   "name": "adaptive",
-   "count": 521
-  }
- ],
- "2013": [
-  {
-   "name": "network",
-   "count": 1540
-  },
-  {
-   "name": "model",
-   "count": 1437
-  },
-  {
-   "name": "algorithm",
-   "count": 1267
-  },
-  {
-   "name": "system",
-   "count": 1233
-  },
-  {
-   "name": "control",
-   "count": 1216
-  },
-  {
-   "name": "image",
-   "count": 1056
-  },
-  {
-   "name": "sub",
-   "count": 1052
-  },
-  {
-   "name": "channel",
-   "count": 999
-  },
-  {
-   "name": "user",
-   "count": 953
-  },
-  {
-   "name": "filter",
-   "count": 919
-  },
-  {
-   "name": "power",
-   "count": 912
-  },
-  {
-   "name": "sensor",
-   "count": 875
-  },
-  {
-   "name": "data",
-   "count": 824
-  },
-  {
-   "name": "method",
-   "count": 787
-  },
-  {
-   "name": "scheme",
-   "count": 782
-  },
-  {
-   "name": "delay",
-   "count": 732
-  },
-  {
-   "name": "relay",
-   "count": 686
-  },
-  {
-   "name": "energy",
-   "count": 670
-  },
-  {
-   "name": "controller",
-   "count": 659
-  },
-  {
-   "name": "signal",
-   "count": 658
-  },
-  {
-   "name": "fuzzy",
-   "count": 652
-  },
-  {
-   "name": "service",
-   "count": 650
-  },
-  {
-   "name": "design",
-   "count": 648
-  },
-  {
-   "name": "node",
-   "count": 643
-  },
-  {
-   "name": "detection",
-   "count": 632
-  },
-  {
-   "name": "object",
-   "count": 612
-  },
-  {
-   "name": "video",
-   "count": 606
-  },
-  {
-   "name": "problem",
-   "count": 598
-  },
-  {
-   "name": "motion",
-   "count": 580
-  },
-  {
-   "name": "feature",
-   "count": 568
-  }
- ],
- "2014": [
-  {
-   "name": "network",
-   "count": 1698
-  },
-  {
-   "name": "model",
-   "count": 1540
-  },
-  {
-   "name": "algorithm",
-   "count": 1384
-  },
-  {
-   "name": "system",
-   "count": 1362
-  },
-  {
-   "name": "control",
-   "count": 1351
-  },
-  {
-   "name": "image",
-   "count": 1172
-  },
-  {
-   "name": "sub",
-   "count": 1169
-  },
-  {
-   "name": "user",
-   "count": 1068
-  },
-  {
-   "name": "channel",
-   "count": 1066
-  },
-  {
-   "name": "power",
-   "count": 1005
-  },
-  {
-   "name": "filter",
-   "count": 978
-  },
-  {
-   "name": "sensor",
-   "count": 971
-  },
-  {
-   "name": "data",
-   "count": 929
-  },
-  {
-   "name": "method",
-   "count": 854
-  },
-  {
-   "name": "scheme",
-   "count": 840
-  },
-  {
-   "name": "energy",
-   "count": 830
-  },
-  {
-   "name": "delay",
-   "count": 804
-  },
-  {
-   "name": "relay",
-   "count": 782
-  },
-  {
-   "name": "signal",
-   "count": 727
-  },
-  {
-   "name": "node",
-   "count": 726
-  },
-  {
-   "name": "controller",
-   "count": 719
-  },
-  {
-   "name": "service",
-   "count": 718
-  },
-  {
-   "name": "detection",
-   "count": 700
-  },
-  {
-   "name": "design",
-   "count": 688
-  },
-  {
-   "name": "video",
-   "count": 680
-  },
-  {
-   "name": "fuzzy",
-   "count": 677
-  },
-  {
-   "name": "object",
-   "count": 663
-  },
-  {
-   "name": "problem",
-   "count": 654
-  },
-  {
-   "name": "motion",
-   "count": 638
-  },
-  {
-   "name": "feature",
-   "count": 622
-  }
- ],
- "2015": [
-  {
-   "name": "network",
-   "count": 1858
-  },
-  {
-   "name": "model",
-   "count": 1671
-  },
-  {
-   "name": "control",
-   "count": 1506
-  },
-  {
-   "name": "algorithm",
-   "count": 1497
-  },
-  {
-   "name": "system",
-   "count": 1477
-  },
-  {
-   "name": "sub",
-   "count": 1333
-  },
-  {
-   "name": "image",
-   "count": 1299
-  },
-  {
-   "name": "user",
-   "count": 1185
-  },
-  {
-   "name": "channel",
-   "count": 1157
-  },
-  {
-   "name": "power",
-   "count": 1120
-  },
-  {
-   "name": "sensor",
-   "count": 1078
-  },
-  {
-   "name": "data",
-   "count": 1056
-  },
-  {
-   "name": "filter",
-   "count": 1055
-  },
-  {
-   "name": "energy",
-   "count": 1016
-  },
-  {
-   "name": "scheme",
-   "count": 924
-  },
-  {
-   "name": "method",
-   "count": 922
-  },
-  {
-   "name": "relay",
-   "count": 917
-  },
-  {
-   "name": "delay",
-   "count": 890
-  },
-  {
-   "name": "node",
-   "count": 828
-  },
-  {
-   "name": "controller",
-   "count": 796
-  },
-  {
-   "name": "signal",
-   "count": 781
-  },
-  {
-   "name": "service",
-   "count": 772
-  },
-  {
-   "name": "detection",
-   "count": 767
-  },
-  {
-   "name": "video",
-   "count": 759
-  },
-  {
-   "name": "object",
-   "count": 736
-  },
-  {
-   "name": "design",
-   "count": 735
-  },
-  {
-   "name": "fuzzy",
-   "count": 723
-  },
-  {
-   "name": "problem",
-   "count": 713
-  },
-  {
-   "name": "feature",
-   "count": 691
-  },
-  {
-   "name": "estimation",
-   "count": 682
-  }
- ],
- "2016": [
-  {
-   "name": "network",
-   "count": 2018
-  },
-  {
-   "name": "model",
-   "count": 1801
-  },
-  {
-   "name": "control",
-   "count": 1663
-  },
-  {
-   "name": "algorithm",
-   "count": 1629
-  },
-  {
-   "name": "system",
-   "count": 1618
-  },
-  {
-   "name": "sub",
-   "count": 1481
-  },
-  {
-   "name": "image",
-   "count": 1420
-  },
-  {
-   "name": "user",
-   "count": 1296
-  },
-  {
-   "name": "power",
-   "count": 1251
-  },
-  {
-   "name": "channel",
-   "count": 1250
-  },
-  {
-   "name": "data",
-   "count": 1219
-  },
-  {
-   "name": "energy",
-   "count": 1208
-  },
-  {
-   "name": "sensor",
-   "count": 1188
-  },
-  {
-   "name": "filter",
-   "count": 1132
-  },
-  {
-   "name": "relay",
-   "count": 1043
-  },
-  {
-   "name": "scheme",
-   "count": 1011
-  },
-  {
-   "name": "method",
-   "count": 1002
-  },
-  {
-   "name": "delay",
-   "count": 983
-  },
-  {
-   "name": "node",
-   "count": 919
-  },
-  {
-   "name": "controller",
-   "count": 874
-  },
-  {
-   "name": "signal",
-   "count": 856
-  },
-  {
-   "name": "video",
-   "count": 846
-  },
-  {
-   "name": "detection",
-   "count": 846
-  },
-  {
-   "name": "service",
-   "count": 840
-  },
-  {
-   "name": "object",
-   "count": 807
-  },
-  {
-   "name": "design",
-   "count": 786
-  },
-  {
-   "name": "problem",
-   "count": 784
-  },
-  {
-   "name": "feature",
-   "count": 781
-  },
-  {
-   "name": "fuzzy",
-   "count": 759
-  },
-  {
-   "name": "estimation",
-   "count": 751
-  }
- ],
- "2017": [
-  {
-   "name": "network",
-   "count": 2208
-  },
-  {
-   "name": "model",
-   "count": 1939
-  },
-  {
-   "name": "control",
-   "count": 1844
-  },
-  {
-   "name": "system",
-   "count": 1761
-  },
-  {
-   "name": "algorithm",
-   "count": 1752
-  },
-  {
-   "name": "sub",
-   "count": 1654
-  },
-  {
-   "name": "image",
-   "count": 1542
-  },
-  {
-   "name": "user",
-   "count": 1413
-  },
-  {
-   "name": "power",
-   "count": 1396
-  },
-  {
-   "name": "energy",
-   "count": 1395
-  },
-  {
-   "name": "data",
-   "count": 1383
-  },
-  {
-   "name": "channel",
-   "count": 1354
-  },
-  {
-   "name": "sensor",
-   "count": 1314
-  },
-  {
-   "name": "filter",
-   "count": 1229
-  },
-  {
-   "name": "relay",
-   "count": 1182
-  },
-  {
-   "name": "scheme",
-   "count": 1122
-  },
-  {
-   "name": "delay",
-   "count": 1095
-  },
-  {
-   "name": "method",
-   "count": 1095
-  },
-  {
-   "name": "node",
-   "count": 1015
-  },
-  {
-   "name": "controller",
-   "count": 962
-  },
-  {
-   "name": "detection",
-   "count": 954
-  },
-  {
-   "name": "video",
-   "count": 937
-  },
-  {
-   "name": "signal",
-   "count": 927
-  },
-  {
-   "name": "service",
-   "count": 910
-  },
-  {
-   "name": "object",
-   "count": 865
-  },
-  {
-   "name": "feature",
-   "count": 864
-  },
-  {
-   "name": "problem",
-   "count": 852
-  },
-  {
-   "name": "estimation",
-   "count": 844
-  },
-  {
-   "name": "fault",
-   "count": 838
-  },
-  {
-   "name": "design",
-   "count": 834
-  }
- ],
- "2018": [
-  {
-   "name": "network",
-   "count": 2399
-  },
-  {
-   "name": "control",
-   "count": 2117
-  },
-  {
-   "name": "model",
-   "count": 2068
-  },
-  {
-   "name": "system",
-   "count": 1902
-  },
-  {
-   "name": "algorithm",
-   "count": 1896
-  },
-  {
-   "name": "sub",
-   "count": 1851
-  },
-  {
-   "name": "image",
-   "count": 1691
-  },
-  {
-   "name": "energy",
-   "count": 1606
-  },
-  {
-   "name": "user",
-   "count": 1571
-  },
-  {
-   "name": "data",
-   "count": 1559
-  },
-  {
-   "name": "power",
-   "count": 1535
-  },
-  {
-   "name": "channel",
-   "count": 1478
-  },
-  {
-   "name": "sensor",
-   "count": 1454
-  },
-  {
-   "name": "filter",
-   "count": 1328
-  },
-  {
-   "name": "relay",
-   "count": 1323
-  },
-  {
-   "name": "scheme",
-   "count": 1224
-  },
-  {
-   "name": "delay",
-   "count": 1204
-  },
-  {
-   "name": "method",
-   "count": 1189
-  },
-  {
-   "name": "node",
-   "count": 1140
-  },
-  {
-   "name": "detection",
-   "count": 1086
-  },
-  {
-   "name": "controller",
-   "count": 1071
-  },
-  {
-   "name": "video",
-   "count": 1052
-  },
-  {
-   "name": "signal",
-   "count": 1009
-  },
-  {
-   "name": "service",
-   "count": 994
-  },
-  {
-   "name": "feature",
-   "count": 984
-  },
-  {
-   "name": "fault",
-   "count": 963
-  },
-  {
-   "name": "estimation",
-   "count": 953
-  },
-  {
-   "name": "object",
-   "count": 939
-  },
-  {
-   "name": "agent",
-   "count": 923
-  },
-  {
-   "name": "problem",
-   "count": 921
-  }
- ],
- "2019": [
-  {
-   "name": "network",
-   "count": 2613
-  },
-  {
-   "name": "control",
-   "count": 2346
-  },
-  {
-   "name": "model",
-   "count": 2232
-  },
-  {
-   "name": "sub",
-   "count": 2050
-  },
-  {
-   "name": "system",
-   "count": 2031
-  },
-  {
-   "name": "algorithm",
-   "count": 2030
-  },
-  {
-   "name": "image",
-   "count": 1829
-  },
-  {
-   "name": "energy",
-   "count": 1825
-  },
-  {
-   "name": "data",
-   "count": 1773
-  },
-  {
-   "name": "user",
-   "count": 1732
-  },
-  {
-   "name": "power",
-   "count": 1675
-  },
-  {
-   "name": "channel",
-   "count": 1615
-  },
-  {
-   "name": "sensor",
-   "count": 1574
-  },
-  {
-   "name": "filter",
-   "count": 1429
-  },
-  {
-   "name": "relay",
-   "count": 1411
-  },
-  {
-   "name": "scheme",
-   "count": 1338
-  },
-  {
-   "name": "delay",
-   "count": 1331
-  },
-  {
-   "name": "method",
-   "count": 1283
-  },
-  {
-   "name": "node",
-   "count": 1262
-  },
-  {
-   "name": "detection",
-   "count": 1216
-  },
-  {
-   "name": "controller",
-   "count": 1170
-  },
-  {
-   "name": "video",
-   "count": 1156
-  },
-  {
-   "name": "fault",
-   "count": 1105
-  },
-  {
-   "name": "signal",
-   "count": 1092
-  },
-  {
-   "name": "service",
-   "count": 1088
-  },
-  {
-   "name": "feature",
-   "count": 1083
-  },
-  {
-   "name": "estimation",
-   "count": 1053
-  },
-  {
-   "name": "agent",
-   "count": 1032
-  },
-  {
-   "name": "object",
-   "count": 1018
-  },
-  {
-   "name": "sup",
-   "count": 994
-  }
- ],
- "2020": [
-  {
-   "name": "network",
-   "count": 2861
-  },
-  {
-   "name": "control",
-   "count": 2607
-  },
-  {
-   "name": "model",
-   "count": 2387
-  },
-  {
-   "name": "sub",
-   "count": 2307
-  },
-  {
-   "name": "algorithm",
-   "count": 2182
-  },
-  {
-   "name": "system",
-   "count": 2176
-  },
-  {
-   "name": "data",
-   "count": 2066
-  },
-  {
-   "name": "image",
-   "count": 2037
-  },
-  {
-   "name": "energy",
-   "count": 2028
-  },
-  {
-   "name": "user",
-   "count": 1897
-  },
-  {
-   "name": "power",
-   "count": 1812
-  },
-  {
-   "name": "channel",
-   "count": 1790
-  },
-  {
-   "name": "sensor",
-   "count": 1719
-  },
-  {
-   "name": "filter",
-   "count": 1543
-  },
-  {
-   "name": "relay",
-   "count": 1499
-  },
-  {
-   "name": "delay",
-   "count": 1470
-  },
-  {
-   "name": "scheme",
-   "count": 1462
-  },
-  {
-   "name": "node",
-   "count": 1410
-  },
-  {
-   "name": "method",
-   "count": 1390
-  },
-  {
-   "name": "detection",
-   "count": 1353
-  },
-  {
-   "name": "fault",
-   "count": 1297
-  },
-  {
-   "name": "controller",
-   "count": 1290
-  },
-  {
-   "name": "video",
-   "count": 1285
-  },
-  {
-   "name": "feature",
-   "count": 1226
-  },
-  {
-   "name": "signal",
-   "count": 1183
-  },
-  {
-   "name": "agent",
-   "count": 1179
-  },
-  {
-   "name": "service",
-   "count": 1169
-  },
-  {
-   "name": "estimation",
-   "count": 1162
-  },
-  {
-   "name": "object",
-   "count": 1114
-  },
-  {
-   "name": "sup",
-   "count": 1098
-  }
- ],
- "2021": [
-  {
-   "name": "network",
-   "count": 3125
-  },
-  {
-   "name": "control",
-   "count": 3045
-  },
-  {
-   "name": "model",
-   "count": 2623
-  },
-  {
-   "name": "sub",
-   "count": 2535
-  },
-  {
-   "name": "algorithm",
-   "count": 2398
-  },
-  {
-   "name": "system",
-   "count": 2375
-  },
-  {
-   "name": "data",
-   "count": 2374
-  },
-  {
-   "name": "image",
-   "count": 2323
-  },
-  {
-   "name": "energy",
-   "count": 2240
-  },
-  {
-   "name": "user",
-   "count": 2105
-  },
-  {
-   "name": "power",
-   "count": 1979
-  },
-  {
-   "name": "channel",
-   "count": 1976
-  },
-  {
-   "name": "sensor",
-   "count": 1923
-  },
-  {
-   "name": "filter",
-   "count": 1691
-  },
-  {
-   "name": "delay",
-   "count": 1678
-  },
-  {
-   "name": "scheme",
-   "count": 1603
-  },
-  {
-   "name": "node",
-   "count": 1598
-  },
-  {
-   "name": "fault",
-   "count": 1586
-  },
-  {
-   "name": "relay",
-   "count": 1585
-  },
-  {
-   "name": "detection",
-   "count": 1577
-  },
-  {
-   "name": "method",
-   "count": 1486
-  },
-  {
-   "name": "controller",
-   "count": 1467
-  },
-  {
-   "name": "feature",
-   "count": 1443
-  },
-  {
-   "name": "video",
-   "count": 1439
-  },
-  {
-   "name": "agent",
-   "count": 1400
-  },
-  {
-   "name": "signal",
-   "count": 1332
-  },
-  {
-   "name": "estimation",
-   "count": 1328
-  },
-  {
-   "name": "service",
-   "count": 1270
-  },
-  {
-   "name": "object",
-   "count": 1261
-  },
-  {
-   "name": "time",
-   "count": 1242
-  }
- ]
+  "2000": [
+    {
+      "name": "network",
+      "count": 90
+    },
+    {
+      "name": "system",
+      "count": 90
+    },
+    {
+      "name": "model",
+      "count": 83
+    },
+    {
+      "name": "algorithm",
+      "count": 76
+    },
+    {
+      "name": "control",
+      "count": 70
+    },
+    {
+      "name": "filter",
+      "count": 70
+    },
+    {
+      "name": "spl",
+      "count": 57
+    },
+    {
+      "name": "adaptive",
+      "count": 55
+    },
+    {
+      "name": "controller",
+      "count": 55
+    },
+    {
+      "name": "sub",
+      "count": 55
+    },
+    {
+      "name": "design",
+      "count": 54
+    },
+    {
+      "name": "method",
+      "count": 51
+    },
+    {
+      "name": "image",
+      "count": 50
+    },
+    {
+      "name": "object",
+      "count": 49
+    },
+    {
+      "name": "channel",
+      "count": 47
+    },
+    {
+      "name": "fuzzy",
+      "count": 47
+    },
+    {
+      "name": "data",
+      "count": 45
+    },
+    {
+      "name": "problem",
+      "count": 45
+    },
+    {
+      "name": "error",
+      "count": 43
+    },
+    {
+      "name": "scheme",
+      "count": 42
+    },
+    {
+      "name": "power",
+      "count": 36
+    },
+    {
+      "name": "optical",
+      "count": 35
+    },
+    {
+      "name": "signal",
+      "count": 34
+    },
+    {
+      "name": "phase",
+      "count": 34
+    },
+    {
+      "name": "motion",
+      "count": 34
+    },
+    {
+      "name": "noise",
+      "count": 33
+    },
+    {
+      "name": "neural",
+      "count": 33
+    },
+    {
+      "name": "source",
+      "count": 32
+    },
+    {
+      "name": "nonlinear",
+      "count": 32
+    },
+    {
+      "name": "protocol",
+      "count": 31
+    }
+  ],
+  "2001": [
+    {
+      "name": "network",
+      "count": 157
+    },
+    {
+      "name": "system",
+      "count": 157
+    },
+    {
+      "name": "model",
+      "count": 153
+    },
+    {
+      "name": "algorithm",
+      "count": 147
+    },
+    {
+      "name": "control",
+      "count": 144
+    },
+    {
+      "name": "filter",
+      "count": 131
+    },
+    {
+      "name": "controller",
+      "count": 109
+    },
+    {
+      "name": "fuzzy",
+      "count": 109
+    },
+    {
+      "name": "design",
+      "count": 98
+    },
+    {
+      "name": "adaptive",
+      "count": 97
+    },
+    {
+      "name": "data",
+      "count": 95
+    },
+    {
+      "name": "spl",
+      "count": 93
+    },
+    {
+      "name": "method",
+      "count": 90
+    },
+    {
+      "name": "power",
+      "count": 88
+    },
+    {
+      "name": "sub",
+      "count": 88
+    },
+    {
+      "name": "channel",
+      "count": 86
+    },
+    {
+      "name": "image",
+      "count": 84
+    },
+    {
+      "name": "object",
+      "count": 84
+    },
+    {
+      "name": "signal",
+      "count": 83
+    },
+    {
+      "name": "scheme",
+      "count": 76
+    },
+    {
+      "name": "motion",
+      "count": 76
+    },
+    {
+      "name": "error",
+      "count": 75
+    },
+    {
+      "name": "problem",
+      "count": 71
+    },
+    {
+      "name": "frequency",
+      "count": 68
+    },
+    {
+      "name": "optical",
+      "count": 67
+    },
+    {
+      "name": "nonlinear",
+      "count": 63
+    },
+    {
+      "name": "user",
+      "count": 61
+    },
+    {
+      "name": "noise",
+      "count": 60
+    },
+    {
+      "name": "wavelet",
+      "count": 57
+    },
+    {
+      "name": "source",
+      "count": 56
+    }
+  ],
+  "2002": [
+    {
+      "name": "network",
+      "count": 240
+    },
+    {
+      "name": "system",
+      "count": 239
+    },
+    {
+      "name": "model",
+      "count": 225
+    },
+    {
+      "name": "algorithm",
+      "count": 210
+    },
+    {
+      "name": "control",
+      "count": 190
+    },
+    {
+      "name": "filter",
+      "count": 182
+    },
+    {
+      "name": "controller",
+      "count": 157
+    },
+    {
+      "name": "fuzzy",
+      "count": 156
+    },
+    {
+      "name": "image",
+      "count": 146
+    },
+    {
+      "name": "channel",
+      "count": 139
+    },
+    {
+      "name": "spl",
+      "count": 139
+    },
+    {
+      "name": "design",
+      "count": 139
+    },
+    {
+      "name": "data",
+      "count": 138
+    },
+    {
+      "name": "adaptive",
+      "count": 134
+    },
+    {
+      "name": "power",
+      "count": 130
+    },
+    {
+      "name": "sub",
+      "count": 124
+    },
+    {
+      "name": "method",
+      "count": 123
+    },
+    {
+      "name": "scheme",
+      "count": 120
+    },
+    {
+      "name": "signal",
+      "count": 114
+    },
+    {
+      "name": "object",
+      "count": 114
+    },
+    {
+      "name": "motion",
+      "count": 108
+    },
+    {
+      "name": "problem",
+      "count": 103
+    },
+    {
+      "name": "error",
+      "count": 100
+    },
+    {
+      "name": "frequency",
+      "count": 99
+    },
+    {
+      "name": "noise",
+      "count": 91
+    },
+    {
+      "name": "user",
+      "count": 90
+    },
+    {
+      "name": "optical",
+      "count": 88
+    },
+    {
+      "name": "parameter",
+      "count": 88
+    },
+    {
+      "name": "time",
+      "count": 86
+    },
+    {
+      "name": "nonlinear",
+      "count": 86
+    }
+  ],
+  "2003": [
+    {
+      "name": "network",
+      "count": 327
+    },
+    {
+      "name": "system",
+      "count": 316
+    },
+    {
+      "name": "model",
+      "count": 307
+    },
+    {
+      "name": "algorithm",
+      "count": 286
+    },
+    {
+      "name": "control",
+      "count": 277
+    },
+    {
+      "name": "filter",
+      "count": 239
+    },
+    {
+      "name": "image",
+      "count": 212
+    },
+    {
+      "name": "fuzzy",
+      "count": 200
+    },
+    {
+      "name": "channel",
+      "count": 192
+    },
+    {
+      "name": "controller",
+      "count": 189
+    },
+    {
+      "name": "spl",
+      "count": 184
+    },
+    {
+      "name": "data",
+      "count": 178
+    },
+    {
+      "name": "power",
+      "count": 175
+    },
+    {
+      "name": "design",
+      "count": 170
+    },
+    {
+      "name": "adaptive",
+      "count": 169
+    },
+    {
+      "name": "sub",
+      "count": 165
+    },
+    {
+      "name": "method",
+      "count": 164
+    },
+    {
+      "name": "signal",
+      "count": 152
+    },
+    {
+      "name": "scheme",
+      "count": 151
+    },
+    {
+      "name": "object",
+      "count": 149
+    },
+    {
+      "name": "motion",
+      "count": 144
+    },
+    {
+      "name": "user",
+      "count": 128
+    },
+    {
+      "name": "problem",
+      "count": 127
+    },
+    {
+      "name": "service",
+      "count": 125
+    },
+    {
+      "name": "frequency",
+      "count": 125
+    },
+    {
+      "name": "error",
+      "count": 124
+    },
+    {
+      "name": "optical",
+      "count": 120
+    },
+    {
+      "name": "parameter",
+      "count": 117
+    },
+    {
+      "name": "noise",
+      "count": 116
+    },
+    {
+      "name": "delay",
+      "count": 114
+    }
+  ],
+  "2004": [
+    {
+      "name": "network",
+      "count": 417
+    },
+    {
+      "name": "system",
+      "count": 402
+    },
+    {
+      "name": "model",
+      "count": 399
+    },
+    {
+      "name": "algorithm",
+      "count": 370
+    },
+    {
+      "name": "control",
+      "count": 364
+    },
+    {
+      "name": "filter",
+      "count": 290
+    },
+    {
+      "name": "image",
+      "count": 276
+    },
+    {
+      "name": "channel",
+      "count": 250
+    },
+    {
+      "name": "fuzzy",
+      "count": 250
+    },
+    {
+      "name": "controller",
+      "count": 240
+    },
+    {
+      "name": "method",
+      "count": 233
+    },
+    {
+      "name": "spl",
+      "count": 233
+    },
+    {
+      "name": "data",
+      "count": 231
+    },
+    {
+      "name": "power",
+      "count": 220
+    },
+    {
+      "name": "sub",
+      "count": 213
+    },
+    {
+      "name": "adaptive",
+      "count": 205
+    },
+    {
+      "name": "design",
+      "count": 203
+    },
+    {
+      "name": "scheme",
+      "count": 196
+    },
+    {
+      "name": "signal",
+      "count": 196
+    },
+    {
+      "name": "object",
+      "count": 184
+    },
+    {
+      "name": "motion",
+      "count": 181
+    },
+    {
+      "name": "user",
+      "count": 176
+    },
+    {
+      "name": "service",
+      "count": 164
+    },
+    {
+      "name": "problem",
+      "count": 161
+    },
+    {
+      "name": "robot",
+      "count": 154
+    },
+    {
+      "name": "frequency",
+      "count": 151
+    },
+    {
+      "name": "error",
+      "count": 150
+    },
+    {
+      "name": "feature",
+      "count": 148
+    },
+    {
+      "name": "delay",
+      "count": 147
+    },
+    {
+      "name": "time",
+      "count": 147
+    }
+  ],
+  "2005": [
+    {
+      "name": "network",
+      "count": 501
+    },
+    {
+      "name": "model",
+      "count": 496
+    },
+    {
+      "name": "system",
+      "count": 488
+    },
+    {
+      "name": "control",
+      "count": 449
+    },
+    {
+      "name": "algorithm",
+      "count": 442
+    },
+    {
+      "name": "image",
+      "count": 355
+    },
+    {
+      "name": "filter",
+      "count": 339
+    },
+    {
+      "name": "channel",
+      "count": 320
+    },
+    {
+      "name": "fuzzy",
+      "count": 301
+    },
+    {
+      "name": "data",
+      "count": 293
+    },
+    {
+      "name": "method",
+      "count": 285
+    },
+    {
+      "name": "controller",
+      "count": 274
+    },
+    {
+      "name": "spl",
+      "count": 274
+    },
+    {
+      "name": "power",
+      "count": 256
+    },
+    {
+      "name": "sub",
+      "count": 252
+    },
+    {
+      "name": "design",
+      "count": 248
+    },
+    {
+      "name": "scheme",
+      "count": 247
+    },
+    {
+      "name": "adaptive",
+      "count": 238
+    },
+    {
+      "name": "object",
+      "count": 228
+    },
+    {
+      "name": "user",
+      "count": 227
+    },
+    {
+      "name": "signal",
+      "count": 227
+    },
+    {
+      "name": "motion",
+      "count": 222
+    },
+    {
+      "name": "service",
+      "count": 218
+    },
+    {
+      "name": "problem",
+      "count": 201
+    },
+    {
+      "name": "delay",
+      "count": 195
+    },
+    {
+      "name": "time",
+      "count": 190
+    },
+    {
+      "name": "error",
+      "count": 188
+    },
+    {
+      "name": "frequency",
+      "count": 186
+    },
+    {
+      "name": "robot",
+      "count": 184
+    },
+    {
+      "name": "feature",
+      "count": 184
+    }
+  ],
+  "2006": [
+    {
+      "name": "network",
+      "count": 605
+    },
+    {
+      "name": "model",
+      "count": 603
+    },
+    {
+      "name": "system",
+      "count": 562
+    },
+    {
+      "name": "control",
+      "count": 522
+    },
+    {
+      "name": "algorithm",
+      "count": 516
+    },
+    {
+      "name": "image",
+      "count": 433
+    },
+    {
+      "name": "channel",
+      "count": 416
+    },
+    {
+      "name": "filter",
+      "count": 406
+    },
+    {
+      "name": "fuzzy",
+      "count": 358
+    },
+    {
+      "name": "data",
+      "count": 350
+    },
+    {
+      "name": "method",
+      "count": 332
+    },
+    {
+      "name": "sub",
+      "count": 330
+    },
+    {
+      "name": "power",
+      "count": 324
+    },
+    {
+      "name": "spl",
+      "count": 311
+    },
+    {
+      "name": "scheme",
+      "count": 297
+    },
+    {
+      "name": "user",
+      "count": 295
+    },
+    {
+      "name": "controller",
+      "count": 295
+    },
+    {
+      "name": "design",
+      "count": 295
+    },
+    {
+      "name": "adaptive",
+      "count": 278
+    },
+    {
+      "name": "signal",
+      "count": 272
+    },
+    {
+      "name": "motion",
+      "count": 272
+    },
+    {
+      "name": "object",
+      "count": 264
+    },
+    {
+      "name": "service",
+      "count": 258
+    },
+    {
+      "name": "delay",
+      "count": 248
+    },
+    {
+      "name": "problem",
+      "count": 243
+    },
+    {
+      "name": "robot",
+      "count": 235
+    },
+    {
+      "name": "time",
+      "count": 226
+    },
+    {
+      "name": "frequency",
+      "count": 224
+    },
+    {
+      "name": "error",
+      "count": 224
+    },
+    {
+      "name": "sensor",
+      "count": 219
+    }
+  ],
+  "2007": [
+    {
+      "name": "network",
+      "count": 713
+    },
+    {
+      "name": "model",
+      "count": 692
+    },
+    {
+      "name": "system",
+      "count": 666
+    },
+    {
+      "name": "algorithm",
+      "count": 640
+    },
+    {
+      "name": "control",
+      "count": 605
+    },
+    {
+      "name": "channel",
+      "count": 515
+    },
+    {
+      "name": "image",
+      "count": 507
+    },
+    {
+      "name": "filter",
+      "count": 484
+    },
+    {
+      "name": "sub",
+      "count": 425
+    },
+    {
+      "name": "fuzzy",
+      "count": 408
+    },
+    {
+      "name": "data",
+      "count": 400
+    },
+    {
+      "name": "method",
+      "count": 398
+    },
+    {
+      "name": "power",
+      "count": 376
+    },
+    {
+      "name": "user",
+      "count": 363
+    },
+    {
+      "name": "scheme",
+      "count": 359
+    },
+    {
+      "name": "controller",
+      "count": 344
+    },
+    {
+      "name": "design",
+      "count": 344
+    },
+    {
+      "name": "signal",
+      "count": 328
+    },
+    {
+      "name": "adaptive",
+      "count": 321
+    },
+    {
+      "name": "delay",
+      "count": 319
+    },
+    {
+      "name": "motion",
+      "count": 317
+    },
+    {
+      "name": "spl",
+      "count": 311
+    },
+    {
+      "name": "object",
+      "count": 305
+    },
+    {
+      "name": "service",
+      "count": 299
+    },
+    {
+      "name": "sensor",
+      "count": 297
+    },
+    {
+      "name": "problem",
+      "count": 293
+    },
+    {
+      "name": "robot",
+      "count": 288
+    },
+    {
+      "name": "code",
+      "count": 277
+    },
+    {
+      "name": "video",
+      "count": 272
+    },
+    {
+      "name": "frequency",
+      "count": 271
+    }
+  ],
+  "2008": [
+    {
+      "name": "network",
+      "count": 854
+    },
+    {
+      "name": "model",
+      "count": 814
+    },
+    {
+      "name": "system",
+      "count": 756
+    },
+    {
+      "name": "algorithm",
+      "count": 749
+    },
+    {
+      "name": "control",
+      "count": 710
+    },
+    {
+      "name": "channel",
+      "count": 606
+    },
+    {
+      "name": "image",
+      "count": 601
+    },
+    {
+      "name": "filter",
+      "count": 552
+    },
+    {
+      "name": "sub",
+      "count": 530
+    },
+    {
+      "name": "method",
+      "count": 471
+    },
+    {
+      "name": "data",
+      "count": 466
+    },
+    {
+      "name": "fuzzy",
+      "count": 458
+    },
+    {
+      "name": "user",
+      "count": 450
+    },
+    {
+      "name": "power",
+      "count": 446
+    },
+    {
+      "name": "scheme",
+      "count": 422
+    },
+    {
+      "name": "controller",
+      "count": 403
+    },
+    {
+      "name": "design",
+      "count": 397
+    },
+    {
+      "name": "sensor",
+      "count": 393
+    },
+    {
+      "name": "delay",
+      "count": 389
+    },
+    {
+      "name": "signal",
+      "count": 381
+    },
+    {
+      "name": "adaptive",
+      "count": 364
+    },
+    {
+      "name": "object",
+      "count": 360
+    },
+    {
+      "name": "service",
+      "count": 354
+    },
+    {
+      "name": "motion",
+      "count": 349
+    },
+    {
+      "name": "problem",
+      "count": 333
+    },
+    {
+      "name": "code",
+      "count": 324
+    },
+    {
+      "name": "robot",
+      "count": 324
+    },
+    {
+      "name": "video",
+      "count": 318
+    },
+    {
+      "name": "frequency",
+      "count": 315
+    },
+    {
+      "name": "detection",
+      "count": 315
+    }
+  ],
+  "2009": [
+    {
+      "name": "network",
+      "count": 983
+    },
+    {
+      "name": "model",
+      "count": 936
+    },
+    {
+      "name": "algorithm",
+      "count": 866
+    },
+    {
+      "name": "system",
+      "count": 849
+    },
+    {
+      "name": "control",
+      "count": 798
+    },
+    {
+      "name": "image",
+      "count": 695
+    },
+    {
+      "name": "channel",
+      "count": 678
+    },
+    {
+      "name": "filter",
+      "count": 641
+    },
+    {
+      "name": "sub",
+      "count": 638
+    },
+    {
+      "name": "user",
+      "count": 548
+    },
+    {
+      "name": "method",
+      "count": 544
+    },
+    {
+      "name": "power",
+      "count": 525
+    },
+    {
+      "name": "data",
+      "count": 520
+    },
+    {
+      "name": "sensor",
+      "count": 509
+    },
+    {
+      "name": "scheme",
+      "count": 505
+    },
+    {
+      "name": "fuzzy",
+      "count": 500
+    },
+    {
+      "name": "delay",
+      "count": 453
+    },
+    {
+      "name": "controller",
+      "count": 448
+    },
+    {
+      "name": "design",
+      "count": 443
+    },
+    {
+      "name": "signal",
+      "count": 424
+    },
+    {
+      "name": "service",
+      "count": 406
+    },
+    {
+      "name": "adaptive",
+      "count": 402
+    },
+    {
+      "name": "object",
+      "count": 392
+    },
+    {
+      "name": "motion",
+      "count": 389
+    },
+    {
+      "name": "problem",
+      "count": 384
+    },
+    {
+      "name": "code",
+      "count": 377
+    },
+    {
+      "name": "detection",
+      "count": 375
+    },
+    {
+      "name": "video",
+      "count": 369
+    },
+    {
+      "name": "time",
+      "count": 369
+    },
+    {
+      "name": "robot",
+      "count": 369
+    }
+  ],
+  "2010": [
+    {
+      "name": "network",
+      "count": 1093
+    },
+    {
+      "name": "model",
+      "count": 1070
+    },
+    {
+      "name": "algorithm",
+      "count": 967
+    },
+    {
+      "name": "system",
+      "count": 934
+    },
+    {
+      "name": "control",
+      "count": 882
+    },
+    {
+      "name": "image",
+      "count": 773
+    },
+    {
+      "name": "channel",
+      "count": 749
+    },
+    {
+      "name": "sub",
+      "count": 738
+    },
+    {
+      "name": "filter",
+      "count": 716
+    },
+    {
+      "name": "user",
+      "count": 629
+    },
+    {
+      "name": "power",
+      "count": 598
+    },
+    {
+      "name": "method",
+      "count": 596
+    },
+    {
+      "name": "sensor",
+      "count": 596
+    },
+    {
+      "name": "data",
+      "count": 594
+    },
+    {
+      "name": "scheme",
+      "count": 570
+    },
+    {
+      "name": "fuzzy",
+      "count": 531
+    },
+    {
+      "name": "delay",
+      "count": 511
+    },
+    {
+      "name": "design",
+      "count": 500
+    },
+    {
+      "name": "controller",
+      "count": 493
+    },
+    {
+      "name": "signal",
+      "count": 488
+    },
+    {
+      "name": "service",
+      "count": 456
+    },
+    {
+      "name": "adaptive",
+      "count": 439
+    },
+    {
+      "name": "detection",
+      "count": 437
+    },
+    {
+      "name": "object",
+      "count": 435
+    },
+    {
+      "name": "problem",
+      "count": 425
+    },
+    {
+      "name": "frequency",
+      "count": 424
+    },
+    {
+      "name": "motion",
+      "count": 421
+    },
+    {
+      "name": "time",
+      "count": 420
+    },
+    {
+      "name": "code",
+      "count": 417
+    },
+    {
+      "name": "video",
+      "count": 417
+    }
+  ],
+  "2011": [
+    {
+      "name": "network",
+      "count": 1238
+    },
+    {
+      "name": "model",
+      "count": 1188
+    },
+    {
+      "name": "algorithm",
+      "count": 1064
+    },
+    {
+      "name": "system",
+      "count": 1035
+    },
+    {
+      "name": "control",
+      "count": 995
+    },
+    {
+      "name": "image",
+      "count": 866
+    },
+    {
+      "name": "channel",
+      "count": 839
+    },
+    {
+      "name": "sub",
+      "count": 833
+    },
+    {
+      "name": "filter",
+      "count": 780
+    },
+    {
+      "name": "user",
+      "count": 716
+    },
+    {
+      "name": "sensor",
+      "count": 696
+    },
+    {
+      "name": "power",
+      "count": 692
+    },
+    {
+      "name": "data",
+      "count": 665
+    },
+    {
+      "name": "method",
+      "count": 661
+    },
+    {
+      "name": "scheme",
+      "count": 636
+    },
+    {
+      "name": "delay",
+      "count": 595
+    },
+    {
+      "name": "fuzzy",
+      "count": 578
+    },
+    {
+      "name": "design",
+      "count": 551
+    },
+    {
+      "name": "controller",
+      "count": 536
+    },
+    {
+      "name": "signal",
+      "count": 531
+    },
+    {
+      "name": "service",
+      "count": 512
+    },
+    {
+      "name": "detection",
+      "count": 498
+    },
+    {
+      "name": "object",
+      "count": 491
+    },
+    {
+      "name": "adaptive",
+      "count": 480
+    },
+    {
+      "name": "node",
+      "count": 478
+    },
+    {
+      "name": "motion",
+      "count": 476
+    },
+    {
+      "name": "problem",
+      "count": 475
+    },
+    {
+      "name": "video",
+      "count": 474
+    },
+    {
+      "name": "frequency",
+      "count": 470
+    },
+    {
+      "name": "time",
+      "count": 462
+    }
+  ],
+  "2012": [
+    {
+      "name": "network",
+      "count": 1402
+    },
+    {
+      "name": "model",
+      "count": 1310
+    },
+    {
+      "name": "algorithm",
+      "count": 1169
+    },
+    {
+      "name": "system",
+      "count": 1132
+    },
+    {
+      "name": "control",
+      "count": 1098
+    },
+    {
+      "name": "image",
+      "count": 959
+    },
+    {
+      "name": "sub",
+      "count": 949
+    },
+    {
+      "name": "channel",
+      "count": 923
+    },
+    {
+      "name": "filter",
+      "count": 849
+    },
+    {
+      "name": "user",
+      "count": 838
+    },
+    {
+      "name": "power",
+      "count": 798
+    },
+    {
+      "name": "sensor",
+      "count": 789
+    },
+    {
+      "name": "data",
+      "count": 745
+    },
+    {
+      "name": "method",
+      "count": 720
+    },
+    {
+      "name": "scheme",
+      "count": 707
+    },
+    {
+      "name": "delay",
+      "count": 663
+    },
+    {
+      "name": "fuzzy",
+      "count": 612
+    },
+    {
+      "name": "design",
+      "count": 604
+    },
+    {
+      "name": "controller",
+      "count": 596
+    },
+    {
+      "name": "signal",
+      "count": 594
+    },
+    {
+      "name": "service",
+      "count": 587
+    },
+    {
+      "name": "detection",
+      "count": 571
+    },
+    {
+      "name": "relay",
+      "count": 569
+    },
+    {
+      "name": "object",
+      "count": 558
+    },
+    {
+      "name": "node",
+      "count": 554
+    },
+    {
+      "name": "problem",
+      "count": 544
+    },
+    {
+      "name": "energy",
+      "count": 534
+    },
+    {
+      "name": "video",
+      "count": 533
+    },
+    {
+      "name": "motion",
+      "count": 530
+    },
+    {
+      "name": "adaptive",
+      "count": 521
+    }
+  ],
+  "2013": [
+    {
+      "name": "network",
+      "count": 1540
+    },
+    {
+      "name": "model",
+      "count": 1437
+    },
+    {
+      "name": "algorithm",
+      "count": 1267
+    },
+    {
+      "name": "system",
+      "count": 1233
+    },
+    {
+      "name": "control",
+      "count": 1216
+    },
+    {
+      "name": "image",
+      "count": 1056
+    },
+    {
+      "name": "sub",
+      "count": 1052
+    },
+    {
+      "name": "channel",
+      "count": 999
+    },
+    {
+      "name": "user",
+      "count": 953
+    },
+    {
+      "name": "filter",
+      "count": 919
+    },
+    {
+      "name": "power",
+      "count": 912
+    },
+    {
+      "name": "sensor",
+      "count": 875
+    },
+    {
+      "name": "data",
+      "count": 824
+    },
+    {
+      "name": "method",
+      "count": 787
+    },
+    {
+      "name": "scheme",
+      "count": 782
+    },
+    {
+      "name": "delay",
+      "count": 732
+    },
+    {
+      "name": "relay",
+      "count": 686
+    },
+    {
+      "name": "energy",
+      "count": 670
+    },
+    {
+      "name": "controller",
+      "count": 659
+    },
+    {
+      "name": "signal",
+      "count": 658
+    },
+    {
+      "name": "fuzzy",
+      "count": 652
+    },
+    {
+      "name": "service",
+      "count": 650
+    },
+    {
+      "name": "design",
+      "count": 648
+    },
+    {
+      "name": "node",
+      "count": 643
+    },
+    {
+      "name": "detection",
+      "count": 632
+    },
+    {
+      "name": "object",
+      "count": 612
+    },
+    {
+      "name": "video",
+      "count": 606
+    },
+    {
+      "name": "problem",
+      "count": 598
+    },
+    {
+      "name": "motion",
+      "count": 580
+    },
+    {
+      "name": "feature",
+      "count": 568
+    }
+  ],
+  "2014": [
+    {
+      "name": "network",
+      "count": 1698
+    },
+    {
+      "name": "model",
+      "count": 1540
+    },
+    {
+      "name": "algorithm",
+      "count": 1384
+    },
+    {
+      "name": "system",
+      "count": 1362
+    },
+    {
+      "name": "control",
+      "count": 1351
+    },
+    {
+      "name": "image",
+      "count": 1172
+    },
+    {
+      "name": "sub",
+      "count": 1169
+    },
+    {
+      "name": "user",
+      "count": 1068
+    },
+    {
+      "name": "channel",
+      "count": 1066
+    },
+    {
+      "name": "power",
+      "count": 1005
+    },
+    {
+      "name": "filter",
+      "count": 978
+    },
+    {
+      "name": "sensor",
+      "count": 971
+    },
+    {
+      "name": "data",
+      "count": 929
+    },
+    {
+      "name": "method",
+      "count": 854
+    },
+    {
+      "name": "scheme",
+      "count": 840
+    },
+    {
+      "name": "energy",
+      "count": 830
+    },
+    {
+      "name": "delay",
+      "count": 804
+    },
+    {
+      "name": "relay",
+      "count": 782
+    },
+    {
+      "name": "signal",
+      "count": 727
+    },
+    {
+      "name": "node",
+      "count": 726
+    },
+    {
+      "name": "controller",
+      "count": 719
+    },
+    {
+      "name": "service",
+      "count": 718
+    },
+    {
+      "name": "detection",
+      "count": 700
+    },
+    {
+      "name": "design",
+      "count": 688
+    },
+    {
+      "name": "video",
+      "count": 680
+    },
+    {
+      "name": "fuzzy",
+      "count": 677
+    },
+    {
+      "name": "object",
+      "count": 663
+    },
+    {
+      "name": "problem",
+      "count": 654
+    },
+    {
+      "name": "motion",
+      "count": 638
+    },
+    {
+      "name": "feature",
+      "count": 622
+    }
+  ],
+  "2015": [
+    {
+      "name": "network",
+      "count": 1858
+    },
+    {
+      "name": "model",
+      "count": 1671
+    },
+    {
+      "name": "control",
+      "count": 1506
+    },
+    {
+      "name": "algorithm",
+      "count": 1497
+    },
+    {
+      "name": "system",
+      "count": 1477
+    },
+    {
+      "name": "sub",
+      "count": 1333
+    },
+    {
+      "name": "image",
+      "count": 1299
+    },
+    {
+      "name": "user",
+      "count": 1185
+    },
+    {
+      "name": "channel",
+      "count": 1157
+    },
+    {
+      "name": "power",
+      "count": 1120
+    },
+    {
+      "name": "sensor",
+      "count": 1078
+    },
+    {
+      "name": "data",
+      "count": 1056
+    },
+    {
+      "name": "filter",
+      "count": 1055
+    },
+    {
+      "name": "energy",
+      "count": 1016
+    },
+    {
+      "name": "scheme",
+      "count": 924
+    },
+    {
+      "name": "method",
+      "count": 922
+    },
+    {
+      "name": "relay",
+      "count": 917
+    },
+    {
+      "name": "delay",
+      "count": 890
+    },
+    {
+      "name": "node",
+      "count": 828
+    },
+    {
+      "name": "controller",
+      "count": 796
+    },
+    {
+      "name": "signal",
+      "count": 781
+    },
+    {
+      "name": "service",
+      "count": 772
+    },
+    {
+      "name": "detection",
+      "count": 767
+    },
+    {
+      "name": "video",
+      "count": 759
+    },
+    {
+      "name": "object",
+      "count": 736
+    },
+    {
+      "name": "design",
+      "count": 735
+    },
+    {
+      "name": "fuzzy",
+      "count": 723
+    },
+    {
+      "name": "problem",
+      "count": 713
+    },
+    {
+      "name": "feature",
+      "count": 691
+    },
+    {
+      "name": "estimation",
+      "count": 682
+    }
+  ],
+  "2016": [
+    {
+      "name": "network",
+      "count": 2018
+    },
+    {
+      "name": "model",
+      "count": 1801
+    },
+    {
+      "name": "control",
+      "count": 1663
+    },
+    {
+      "name": "algorithm",
+      "count": 1629
+    },
+    {
+      "name": "system",
+      "count": 1618
+    },
+    {
+      "name": "sub",
+      "count": 1481
+    },
+    {
+      "name": "image",
+      "count": 1420
+    },
+    {
+      "name": "user",
+      "count": 1296
+    },
+    {
+      "name": "power",
+      "count": 1251
+    },
+    {
+      "name": "channel",
+      "count": 1250
+    },
+    {
+      "name": "data",
+      "count": 1219
+    },
+    {
+      "name": "energy",
+      "count": 1208
+    },
+    {
+      "name": "sensor",
+      "count": 1188
+    },
+    {
+      "name": "filter",
+      "count": 1132
+    },
+    {
+      "name": "relay",
+      "count": 1043
+    },
+    {
+      "name": "scheme",
+      "count": 1011
+    },
+    {
+      "name": "method",
+      "count": 1002
+    },
+    {
+      "name": "delay",
+      "count": 983
+    },
+    {
+      "name": "node",
+      "count": 919
+    },
+    {
+      "name": "controller",
+      "count": 874
+    },
+    {
+      "name": "signal",
+      "count": 856
+    },
+    {
+      "name": "video",
+      "count": 846
+    },
+    {
+      "name": "detection",
+      "count": 846
+    },
+    {
+      "name": "service",
+      "count": 840
+    },
+    {
+      "name": "object",
+      "count": 807
+    },
+    {
+      "name": "design",
+      "count": 786
+    },
+    {
+      "name": "problem",
+      "count": 784
+    },
+    {
+      "name": "feature",
+      "count": 781
+    },
+    {
+      "name": "fuzzy",
+      "count": 759
+    },
+    {
+      "name": "estimation",
+      "count": 751
+    }
+  ],
+  "2017": [
+    {
+      "name": "network",
+      "count": 2208
+    },
+    {
+      "name": "model",
+      "count": 1939
+    },
+    {
+      "name": "control",
+      "count": 1844
+    },
+    {
+      "name": "system",
+      "count": 1761
+    },
+    {
+      "name": "algorithm",
+      "count": 1752
+    },
+    {
+      "name": "sub",
+      "count": 1654
+    },
+    {
+      "name": "image",
+      "count": 1542
+    },
+    {
+      "name": "user",
+      "count": 1413
+    },
+    {
+      "name": "power",
+      "count": 1396
+    },
+    {
+      "name": "energy",
+      "count": 1395
+    },
+    {
+      "name": "data",
+      "count": 1383
+    },
+    {
+      "name": "channel",
+      "count": 1354
+    },
+    {
+      "name": "sensor",
+      "count": 1314
+    },
+    {
+      "name": "filter",
+      "count": 1229
+    },
+    {
+      "name": "relay",
+      "count": 1182
+    },
+    {
+      "name": "scheme",
+      "count": 1122
+    },
+    {
+      "name": "delay",
+      "count": 1095
+    },
+    {
+      "name": "method",
+      "count": 1095
+    },
+    {
+      "name": "node",
+      "count": 1015
+    },
+    {
+      "name": "controller",
+      "count": 962
+    },
+    {
+      "name": "detection",
+      "count": 954
+    },
+    {
+      "name": "video",
+      "count": 937
+    },
+    {
+      "name": "signal",
+      "count": 927
+    },
+    {
+      "name": "service",
+      "count": 910
+    },
+    {
+      "name": "object",
+      "count": 865
+    },
+    {
+      "name": "feature",
+      "count": 864
+    },
+    {
+      "name": "problem",
+      "count": 852
+    },
+    {
+      "name": "estimation",
+      "count": 844
+    },
+    {
+      "name": "fault",
+      "count": 838
+    },
+    {
+      "name": "design",
+      "count": 834
+    }
+  ],
+  "2018": [
+    {
+      "name": "network",
+      "count": 2399
+    },
+    {
+      "name": "control",
+      "count": 2117
+    },
+    {
+      "name": "model",
+      "count": 2068
+    },
+    {
+      "name": "system",
+      "count": 1902
+    },
+    {
+      "name": "algorithm",
+      "count": 1896
+    },
+    {
+      "name": "sub",
+      "count": 1851
+    },
+    {
+      "name": "image",
+      "count": 1691
+    },
+    {
+      "name": "energy",
+      "count": 1606
+    },
+    {
+      "name": "user",
+      "count": 1571
+    },
+    {
+      "name": "data",
+      "count": 1559
+    },
+    {
+      "name": "power",
+      "count": 1535
+    },
+    {
+      "name": "channel",
+      "count": 1478
+    },
+    {
+      "name": "sensor",
+      "count": 1454
+    },
+    {
+      "name": "filter",
+      "count": 1328
+    },
+    {
+      "name": "relay",
+      "count": 1323
+    },
+    {
+      "name": "scheme",
+      "count": 1224
+    },
+    {
+      "name": "delay",
+      "count": 1204
+    },
+    {
+      "name": "method",
+      "count": 1189
+    },
+    {
+      "name": "node",
+      "count": 1140
+    },
+    {
+      "name": "detection",
+      "count": 1086
+    },
+    {
+      "name": "controller",
+      "count": 1071
+    },
+    {
+      "name": "video",
+      "count": 1052
+    },
+    {
+      "name": "signal",
+      "count": 1009
+    },
+    {
+      "name": "service",
+      "count": 994
+    },
+    {
+      "name": "feature",
+      "count": 984
+    },
+    {
+      "name": "fault",
+      "count": 963
+    },
+    {
+      "name": "estimation",
+      "count": 953
+    },
+    {
+      "name": "object",
+      "count": 939
+    },
+    {
+      "name": "agent",
+      "count": 923
+    },
+    {
+      "name": "problem",
+      "count": 921
+    }
+  ],
+  "2019": [
+    {
+      "name": "network",
+      "count": 2613
+    },
+    {
+      "name": "control",
+      "count": 2346
+    },
+    {
+      "name": "model",
+      "count": 2232
+    },
+    {
+      "name": "sub",
+      "count": 2050
+    },
+    {
+      "name": "system",
+      "count": 2031
+    },
+    {
+      "name": "algorithm",
+      "count": 2030
+    },
+    {
+      "name": "image",
+      "count": 1829
+    },
+    {
+      "name": "energy",
+      "count": 1825
+    },
+    {
+      "name": "data",
+      "count": 1773
+    },
+    {
+      "name": "user",
+      "count": 1732
+    },
+    {
+      "name": "power",
+      "count": 1675
+    },
+    {
+      "name": "channel",
+      "count": 1615
+    },
+    {
+      "name": "sensor",
+      "count": 1574
+    },
+    {
+      "name": "filter",
+      "count": 1429
+    },
+    {
+      "name": "relay",
+      "count": 1411
+    },
+    {
+      "name": "scheme",
+      "count": 1338
+    },
+    {
+      "name": "delay",
+      "count": 1331
+    },
+    {
+      "name": "method",
+      "count": 1283
+    },
+    {
+      "name": "node",
+      "count": 1262
+    },
+    {
+      "name": "detection",
+      "count": 1216
+    },
+    {
+      "name": "controller",
+      "count": 1170
+    },
+    {
+      "name": "video",
+      "count": 1156
+    },
+    {
+      "name": "fault",
+      "count": 1105
+    },
+    {
+      "name": "signal",
+      "count": 1092
+    },
+    {
+      "name": "service",
+      "count": 1088
+    },
+    {
+      "name": "feature",
+      "count": 1083
+    },
+    {
+      "name": "estimation",
+      "count": 1053
+    },
+    {
+      "name": "agent",
+      "count": 1032
+    },
+    {
+      "name": "object",
+      "count": 1018
+    },
+    {
+      "name": "sup",
+      "count": 994
+    }
+  ],
+  "2020": [
+    {
+      "name": "network",
+      "count": 2861
+    },
+    {
+      "name": "control",
+      "count": 2607
+    },
+    {
+      "name": "model",
+      "count": 2387
+    },
+    {
+      "name": "sub",
+      "count": 2307
+    },
+    {
+      "name": "algorithm",
+      "count": 2182
+    },
+    {
+      "name": "system",
+      "count": 2176
+    },
+    {
+      "name": "data",
+      "count": 2066
+    },
+    {
+      "name": "image",
+      "count": 2037
+    },
+    {
+      "name": "energy",
+      "count": 2028
+    },
+    {
+      "name": "user",
+      "count": 1897
+    },
+    {
+      "name": "power",
+      "count": 1812
+    },
+    {
+      "name": "channel",
+      "count": 1790
+    },
+    {
+      "name": "sensor",
+      "count": 1719
+    },
+    {
+      "name": "filter",
+      "count": 1543
+    },
+    {
+      "name": "relay",
+      "count": 1499
+    },
+    {
+      "name": "delay",
+      "count": 1470
+    },
+    {
+      "name": "scheme",
+      "count": 1462
+    },
+    {
+      "name": "node",
+      "count": 1410
+    },
+    {
+      "name": "method",
+      "count": 1390
+    },
+    {
+      "name": "detection",
+      "count": 1353
+    },
+    {
+      "name": "fault",
+      "count": 1297
+    },
+    {
+      "name": "controller",
+      "count": 1290
+    },
+    {
+      "name": "video",
+      "count": 1285
+    },
+    {
+      "name": "feature",
+      "count": 1226
+    },
+    {
+      "name": "signal",
+      "count": 1183
+    },
+    {
+      "name": "agent",
+      "count": 1179
+    },
+    {
+      "name": "service",
+      "count": 1169
+    },
+    {
+      "name": "estimation",
+      "count": 1162
+    },
+    {
+      "name": "object",
+      "count": 1114
+    },
+    {
+      "name": "sup",
+      "count": 1098
+    }
+  ],
+  "2021": [
+    {
+      "name": "network",
+      "count": 3125
+    },
+    {
+      "name": "control",
+      "count": 3045
+    },
+    {
+      "name": "model",
+      "count": 2623
+    },
+    {
+      "name": "sub",
+      "count": 2535
+    },
+    {
+      "name": "algorithm",
+      "count": 2398
+    },
+    {
+      "name": "system",
+      "count": 2375
+    },
+    {
+      "name": "data",
+      "count": 2374
+    },
+    {
+      "name": "image",
+      "count": 2323
+    },
+    {
+      "name": "energy",
+      "count": 2240
+    },
+    {
+      "name": "user",
+      "count": 2105
+    },
+    {
+      "name": "power",
+      "count": 1979
+    },
+    {
+      "name": "channel",
+      "count": 1976
+    },
+    {
+      "name": "sensor",
+      "count": 1923
+    },
+    {
+      "name": "filter",
+      "count": 1691
+    },
+    {
+      "name": "delay",
+      "count": 1678
+    },
+    {
+      "name": "scheme",
+      "count": 1603
+    },
+    {
+      "name": "node",
+      "count": 1598
+    },
+    {
+      "name": "fault",
+      "count": 1586
+    },
+    {
+      "name": "relay",
+      "count": 1585
+    },
+    {
+      "name": "detection",
+      "count": 1577
+    },
+    {
+      "name": "method",
+      "count": 1486
+    },
+    {
+      "name": "controller",
+      "count": 1467
+    },
+    {
+      "name": "feature",
+      "count": 1443
+    },
+    {
+      "name": "video",
+      "count": 1439
+    },
+    {
+      "name": "agent",
+      "count": 1400
+    },
+    {
+      "name": "signal",
+      "count": 1332
+    },
+    {
+      "name": "estimation",
+      "count": 1328
+    },
+    {
+      "name": "service",
+      "count": 1270
+    },
+    {
+      "name": "object",
+      "count": 1261
+    },
+    {
+      "name": "time",
+      "count": 1242
+    }
+  ]
 }
