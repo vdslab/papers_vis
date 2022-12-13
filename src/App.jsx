@@ -74,6 +74,7 @@ export default function App() {
                         <Route path="*" element={<Navigate to="/" replace />} />
                         <Route exact path="/nokeywords" element={ <NoKeywords />} />
                         <Route exact path="/novis" element={ <NoVis />} />
+                        <Route exact path = "/notfound" element = {<NotFound />} />
                     </Route>
                     <Route path = "/network/:doi" element = {<Network />} />
                     <Route path = "/novis/network/:doi" element = {<NoVisNetwork/>} />

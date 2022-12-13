@@ -16,7 +16,7 @@ import NetworkHelp from "../components/NetworkHelp";
 import CircularProgressWithLabel from "./CircularProgressWithLabel";
 import HelpIcon from '@mui/icons-material/Help';
 import Tooltip from '@mui/material/Tooltip';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
@@ -166,6 +166,7 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
     const [links, setLinks] = useState([]);
     const [clickedNodeKey, setClickedNodeKey] = useState(-1);
     const [progress, setProgress] = useState(0);
+    const navigate = useNavigate();
     const ref = useRef(true);
   
     const thre = 0.8;
@@ -348,6 +349,8 @@ const NetworkGraph = ({detail, setDetail, nodeLabel, sideBarOpen, setSideBarOpen
                         console.log(tmp.data);
                         response = tmp;
                     } catch (e) {
+                        console.log("fail!!!");
+                        navigate("../../notfound");
                         console.log(e);
                     }
                     const data = response.data[0];
