@@ -360,11 +360,14 @@ const NetworkGraph = ({
           console.error(nodeData.length / nodeNum);
 
           if (nodeData.length >= nodeNum) {
+            console.log(nodeData);
+            console.log(linkData);
             return;
           }
           const encoded = encodeURIComponent(top.doi);
 
           //doiがnot foundになる可能性がある
+          /*
           let response;
           try {
             const tmp = await axios.get(
@@ -376,10 +379,10 @@ const NetworkGraph = ({
             console.log("fail!!!");
             navigate("../../network_notfound");
             console.log(e);
-          }
-          const data = response.data[0];
-
-          data["id"] = top["doi"];
+          }*/
+          let data;
+          let similarities;
+          /*data["id"] = top["doi"];
           data["author"] = await (
             await fetch(`/.netlify/functions/api/authors/${encoded}`)
           ).json();
@@ -396,7 +399,26 @@ const NetworkGraph = ({
           } catch (err) {
             data["keyword"] = [];
           }
+          */
 
+          const response = await Promise.all(
+            [
+           axios.get( `/.netlify/functions/api/papers/doi/${encoded}`),
+           axios.get(`/.netlify/functions/api/keywords/${encoded}`),
+           axios.get(`/.netlify/functions/api/authors/${encoded}`),
+           axios.get(`/.netlify/functions/api/similarity/${encoded}`)
+          ]);
+
+          console.log(response);
+      
+            
+            data = response[0].data[0];
+            data["id"] = top["doi"];
+            data["author"] = response[2].data;
+            data["keyword"] = response[1].data;
+            similarities = response[3].data;
+            console.log(data);
+          
           console.log(`push!!!!!!!!!!!${nodeData.length}`);
           console.log(data);
 
@@ -413,13 +435,14 @@ const NetworkGraph = ({
             continue;
           }
 
-          const similarities = await (
+          /*const similarities = await (
             await fetch(
               `/.netlify/functions/api/similarity/${encodeURIComponent(
                 top.doi
               )}`
             )
           ).json();
+          */
           similarities.sort((a, b) => {
             return b.similarity - a.similarity;
           });
@@ -464,6 +487,7 @@ const NetworkGraph = ({
       let linkData = [];
 
       //キャッシュ関係
+      /*
       if (localStorage.getItem(doi)) {
         const networkCache = JSON.parse(localStorage.getItem(doi));
         nodeData = networkCache["nodeData"];
@@ -472,9 +496,10 @@ const NetworkGraph = ({
         console.log(linkData);
         console.log("&&&&&&&&&&&&&&&&&&&&&&&&&&");
       } else {
-        await bfs(doi);
+        
       }
-
+      */
+      await bfs(doi);
       if (!(nodeData && linkData)) {
         console.log("yay");
         nodeData = [];
