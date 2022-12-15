@@ -401,7 +401,7 @@ const NetworkGraph = ({
           }
           */
 
-          const response = await Promise.all(
+          const response = await Promise.allSettled(
             [
            axios.get( `/.netlify/functions/api/papers/doi/${encoded}`),
            axios.get(`/.netlify/functions/api/keywords/${encoded}`),
@@ -412,11 +412,11 @@ const NetworkGraph = ({
           console.log(response);
       
             
-            data = response[0].data[0];
+            data = response[0].value.data[0];
             data["id"] = top["doi"];
-            data["author"] = response[2].data;
-            data["keyword"] = response[1].data;
-            similarities = response[3].data;
+            data["author"] = response[2].value.data;
+            data["keyword"] = response[1] !== 'fulfilled'?response[1].value.data:[];
+            similarities = response[3].value.data;
             console.log(data);
           
           console.log(`push!!!!!!!!!!!${nodeData.length}`);
