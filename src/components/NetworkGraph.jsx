@@ -348,6 +348,7 @@ const NetworkGraph = ({
         const doiset = new Set();
         stack.push({ doi: doi, prev: -1 });
         let top;
+        const paper_promise_urls = [];
 
         while (stack.length !== 0) {
           top = stack.shift();
@@ -359,7 +360,18 @@ const NetworkGraph = ({
           console.error(nodeNum);
           console.error(nodeData.length / nodeNum);
 
-          if (nodeData.length >= nodeNum) {
+          if (linkData.length >= nodeNum-1) {
+            //ここでallpromise
+            console.log(paper_promise_urls.length / 3);
+            const response = await Promise.allSettled(paper_promise_urls.map(axios.get));
+            
+            for(let i = 0; i < response.length / 3; i++) {
+              const data = response[3*i].value.data[0];
+              data["id"] = data["doi"];
+              data['keyword'] = response[3*i + 1].status === 'rejected'?[]:response[3*i+1].value.data;;
+              data['authoer'] = response[3*i + 2].value.data;
+              nodeData.push(data);
+            }
             console.log(nodeData);
             console.log(linkData);
             return;
@@ -403,24 +415,32 @@ const NetworkGraph = ({
 
           const response = await Promise.allSettled(
             [
-           axios.get( `/.netlify/functions/api/papers/doi/${encoded}`),
-           axios.get(`/.netlify/functions/api/keywords/${encoded}`),
-           axios.get(`/.netlify/functions/api/authors/${encoded}`),
+          // axios.get( `/.netlify/functions/api/papers/doi/${encoded}`),
+          // axios.get(`/.netlify/functions/api/keywords/${encoded}`),
+          // axios.get(`/.netlify/functions/api/authors/${encoded}`),
            axios.get(`/.netlify/functions/api/similarity/${encoded}`)
           ]);
 
+          paper_promise_urls.push(`/.netlify/functions/api/papers/doi/${encoded}`);
+          paper_promise_urls.push(`/.netlify/functions/api/keywords/${encoded}`);
+          paper_promise_urls.push(`/.netlify/functions/api/authors/${encoded}`);
+
           console.log(response);
       
-            
+            /*
             data = response[0].value.data[0];
             data["id"] = top["doi"];
             data["author"] = response[2].value.data;
-            data["keyword"] = response[1] !== 'fulfilled'?response[1].value.data:[];
+            data["keyword"] = response[1].status === 'rejected'?[]:response[1].value.data;
             similarities = response[3].value.data;
             console.log(data);
-          
+          */
+
+            //data = response[0].value.data[0];
+            //data["id"] = top["doi"];
+            similarities = response[0].value.data;
           console.log(`push!!!!!!!!!!!${nodeData.length}`);
-          console.log(data);
+          //console.log(data);
 
           if (top.prev !== -1 && doiset.has(top.doi) === false) {
             console.log(top);
@@ -428,7 +448,7 @@ const NetworkGraph = ({
           }
 
           if (doiset.has(top.doi) === false) {
-            nodeData.push(data);
+            //nodeData.push(data);
             doiset.add(top.doi);
           } else {
             console.log("UEUEUE");
