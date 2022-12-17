@@ -109,7 +109,13 @@ const BubbleChart = () => {
     let root = d3.hierarchy(data);
     root.sum(function(d) { return d.count; });
     let node = packs(root);
-
+    const id = 'rect'
+    const url = "url('#" + id + "')";
+    const colorHandle = (value) => {
+        const color =  d3.interpolateOranges(value);
+        return color;
+    };
+    
     const styles = {
         transition:"transform 1s"
     }
@@ -154,18 +160,53 @@ const BubbleChart = () => {
                         return(
                         <g transform={`translate(${item.x},${item.y})`} style={styles}>
                             <circle className='key'
-                                r={item.r} 
-                                fill="#ff9500" 
-                                opacity={(node.leaves().length-i)/node.leaves().length+0.1} 
+                                r={item.r}
+                                fill='#ff9500' 
+                                opacity={(node.leaves().length-i)/node.leaves().length+0.1}
+                                
                                 onClick={(e) => onClickhandle(e,item.data.name)}
                                 style={{cursor:'pointer'}}
                             />
-                            <text fontSize={item.r*0.4}  dominantBaseline="central" textAnchor="middle" style={{pointerEvents: "none"}}>
+                            <text fontSize={item.r*0.45}  dominantBaseline="central" textAnchor="middle" style={{pointerEvents: "none"}}>
                                 {item.data.name}
                             </text>
                         </g>
                         )
                     })}
+                    {/* <defs>
+                        <linearGradient id={id} x1={0} y1={1} x2={0} y2={0}>
+                            <stop offset="0%" stopColor={colorHandle(0)} />
+                            <stop offset="5%" stopColor={colorHandle(0.05)} />
+                            <stop offset="10%" stopColor={colorHandle(0.1)} />
+                            <stop offset="15%" stopColor={colorHandle(0.15)} />
+                            <stop offset="20%" stopColor={colorHandle(0.2)} />
+                            <stop offset="25%" stopColor={colorHandle(0.25)} />
+                            <stop offset="30%" stopColor={colorHandle(0.3)} />
+                            <stop offset="35%" stopColor={colorHandle(0.35)} />
+                            <stop offset="40%" stopColor={colorHandle(0.4)} />
+                            <stop offset="45%" stopColor={colorHandle(0.45)} />
+                            <stop offset="50%" stopColor={colorHandle(0.5)} />
+                            <stop offset="55%" stopColor={colorHandle(0.55)} />
+                            <stop offset="60%" stopColor={colorHandle(0.6)} />
+                            <stop offset="65%" stopColor={colorHandle(0.65)} />
+                            <stop offset="70%" stopColor={colorHandle(0.7)} />
+                            <stop offset="75%" stopColor={colorHandle(0.75)} />
+                            <stop offset="80%" stopColor={colorHandle(0.8)} />
+                            <stop offset="85%" stopColor={colorHandle(0.85)} />
+                            <stop offset="90%" stopColor={colorHandle(0.9)} />
+                            <stop offset="95%" stopColor={colorHandle(0.95)} />
+                            <stop offset="100%" stopColor={colorHandle(1)} />
+                        </linearGradient>
+                    </defs>
+                    <rect id={id} x='270' y='100' width="10" height="100" fill={url}/>
+                    <line x1='280' y1='100.5' x2='285' y2='100.5' stroke='black'/>
+                    <text x='286' y='102.5' font-size='5'>
+                        
+                    </text>
+                    <line x1='280' y1='199.5' x2='285' y2='199.5' stroke='black'/>
+                    <text x='286' y='197.5' font-size='5'>
+                        
+                    </text> */}
                 </svg>
             </Card>
         );
