@@ -62,9 +62,11 @@ const PapersView = () => {
     
     
     const emptyRows = page > 0 ? Math.max(0, (1 + page) * rowsPerPage - papers.length) : 0;
+    
     useEffect(() => {
-      console.log(columns)
-    })
+      setPage(0);
+    },[keyword,search])
+
     const escapeDoi = (doi) => {
       return doi.replaceAll('.', '_').replaceAll('/', '-');
     }
