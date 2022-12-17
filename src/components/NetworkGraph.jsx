@@ -38,7 +38,7 @@ const ZoomableSVG = ({
   setIsOpenMenu,
 }) => {
   const svgRef = useRef();
-  const [k, setK] = useState(0.1);
+  const [k, setK] = useState(1);
   const [x, setX] = useState(width / 5);
   const [y, setY] = useState(height / 4);
 
@@ -355,7 +355,8 @@ const NetworkGraph = ({
           console.log("$$$$$$$$$$");
           console.log(top);
 
-          setProgress((100 * nodeData.length) / nodeNum);
+          
+          setProgress(Math.max((100 * (linkData.length+1) / nodeNum) - 35, 0) );
           console.error(nodeData.length);
           console.error(nodeNum);
           console.error(nodeData.length / nodeNum);
@@ -364,7 +365,7 @@ const NetworkGraph = ({
             //ここでallpromise
             console.log(paper_promise_urls.length / 3);
             const response = await Promise.allSettled(paper_promise_urls.map(axios.get));
-            
+            setProgress(100);
             for(let i = 0; i < response.length / 3; i++) {
               const data = response[3*i].value.data[0];
               data["id"] = data["doi"];
@@ -372,6 +373,7 @@ const NetworkGraph = ({
               data['authoer'] = response[3*i + 2].value.data;
               nodeData.push(data);
             }
+            
             console.log(nodeData);
             console.log(linkData);
             return;
