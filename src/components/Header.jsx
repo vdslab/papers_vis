@@ -99,8 +99,8 @@ const Header = () => {
                   年代について
                 </Typography>
                 <Typography variant='p' color='black'>
-                  年代は検索する年代の範囲をスライダーで操作することができます。下に表記してあるFrom,Toの箱でも入力、調整が可能です。
-                  <br/>年代の範囲は検索とキーワードの両方に影響します。
+                  年代は検索する年代の範囲をスライダーで操作することができます。入力でも調整が可能です。
+                  年代の範囲は検索とキーワードの両方に影響します。
                 </Typography>
                 <Typography sx={{pt:2}} variant='h6' color='black'>
                   キーワードについて
@@ -146,7 +146,7 @@ const Header = () => {
             </Grid>
             </Grid>
             </div>
-            <div className="tabs is-boxed">
+            {/* <div className="tabs is-boxed">
             <ul >
                 <li className={active === 'home' && 'is-active'}>
                   <a onClick = {() => changeActive('home')}>
@@ -171,7 +171,7 @@ const Header = () => {
                 </li>
                 
             </ul>
-            </div>          
+            </div>           */}
         </div>
       </header>
     );

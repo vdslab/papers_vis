@@ -1,4 +1,4 @@
-import { Box, Grid } from "@mui/material";
+import { Box, Grid,Button } from "@mui/material";
 import TextField from '@mui/material/TextField';
 import SearchIcon from '@mui/icons-material/Search';
 import { InputAdornment } from '@mui/material';
@@ -22,7 +22,7 @@ const SearchForm = () => {
     const isFirstRender = useRef(true);
     const isFirstRenderAuthor = useRef(true);
     const [enterJudge,setEnterJudge] = useState(false);
-    
+    const [input,setInput] = useState();
     useEffect(() => {
         // if(isFirstRender.current) { // 初回レンダー判定
         //     isFirstRender.current = false // もう初回レンダーじゃないよ代入
@@ -111,11 +111,27 @@ const SearchForm = () => {
         }
         
     }
+
+    const changeButtonHandle = (e) => {
+        dispatch(changeSearchForm(input));
+        if(enterJudge){
+            setEnterJudge(false);
+            dispatch(changeColumnsJudge('search'));
+            dispatch(changeScrollJudge(true));
+            dispatch(changeTableDataJudge(false));
+        }else{
+            setEnterJudge(true);
+            dispatch(changeColumnsJudge('search'));
+            dispatch(changeScrollJudge(true));
+            dispatch(changeTableDataJudge(false));
+        }
+    }
     console.log(search)
     return(
     <div>
-        <Box sx={{ margin: '70px' }}>
-            <Box sx={{ width: '100%', height: 30 }}>
+        <Box sx={{ ml: '67.5px',mt:'50px',mb:'50px' }}>
+        <Grid container sx={{  width: '100%',height: 30 }} >
+            <Grid item xs={10}>
                 <TextField fullWidth id="fullWidth" label="論文検索" variant="outlined" placeholder="英語で入力をしてください"
                 InputProps={{startAdornment:<InputAdornment position="start"><SearchIcon/></InputAdornment>}}
                 onKeyDown={e => {
@@ -123,8 +139,13 @@ const SearchForm = () => {
                         changeHandle(e)
                     }
                   }}
+                onChange={(event) => setInput(event.target.value)}
                 />
-            </Box>
+            </Grid>
+            <Grid item xs={1}>
+            <Button variant="contained" sx={{ width: '123.5%', height: 56 }} onClick={e => {changeButtonHandle(e)}}>検索</Button>
+            </Grid>
+        </Grid>  
         </Box>
     </div>
     )
