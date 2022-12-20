@@ -24,16 +24,18 @@ const SearchForm = () => {
     const [enterJudge,setEnterJudge] = useState(false);
     const [input,setInput] = useState();
     useEffect(() => {
-        // if(isFirstRender.current) { // 初回レンダー判定
-        //     isFirstRender.current = false // もう初回レンダーじゃないよ代入
-        //   } else {
-            if(search !== ''){
+        if(isFirstRender.current) { // 初回レンダー判定
+            isFirstRender.current = false // もう初回レンダーじゃないよ代入
+          } else {
+            if(search !== '' && search !== undefined){
                 (async () => {
                     const spl = search.split(' ');
                     while(spl.length <= 4){
                         spl.push(' ');
                     }
                     const sql = []
+                    
+                    //ローカル用
                     // spl.map ((item) => {
                     //         const abstract = encodeURIComponent('%'+item+'%');
                     //         sql.push(abstract)
@@ -41,6 +43,8 @@ const SearchForm = () => {
                     // console.log(spl);
                     // const response = await fetch(`/.netlify/functions/api/papers/${sql[0]}/${sql[1]}/${sql[2]}/${startYear}/${endYear}`)
                     // const data = await response.json();
+
+                    //本番用
                     spl.map ((item) => {
                         const abstract = '%'+item+'%';
                         sql.push(abstract)
@@ -49,29 +53,27 @@ const SearchForm = () => {
                     const response = await fetch(encodeURI(encodeURI(url)))
                     const data = await response.json();
                     
-                    // const response2 = await fetch(`/.netlify/functions/api/papers/title/${sql[0]}/${sql[1]}/${sql[2]}/${sql[3]}/${sql[4]}`)
-                    // const title = await response2.json();
-                    //dispatch(changePapersKeyword(data));
-                    // const name = encodeURIComponent(search);
-                    // const response2 = await fetch(`/.netlify/functions/api/authors/${sql[0]}/${sql[1]}/${sql[2]}/${sql[3]}/${sql[4]}`);
-                    // const authors = await response2.json();
-                    // let authors_array = [];
-                    // authors.map((author) => {
-                    //     (async () => {
-                    //         const doi = encodeURIComponent(author.doi);
-                    //         const response = await fetch(`/.netlify/functions/api/papers/${doi}`);
-                    //         const data2 = await response.json();
-                    //         authors_array.push(data2[0]);               
-                    //     })(); 
-                    // })        
-                    //const arr = data.concat(title)
-    
-                    //const newArr = arr.filter((element, index) => arr.indexOf(element) === index && console.log(element.doi));
+                    setData(data); 
+                    dispatch(changePapersKeyword(data));
+                    dispatch(changeTableDataJudge(true));
+                })();     
+            }else{
+                (async () => {
+                    //ローカル用
+                    // const blank = encodeURIComponent('% %');
+                    // const response = await fetch(`/.netlify/functions/api/papers/${blank}/${startYear}/${endYear}`)
+
+                    //本番用
+                    const blank = '% %';
+                    const url = `/.netlify/functions/api/papers/${blank}/${startYear}/${endYear}`;
+                    const response = await fetch(encodeURI(encodeURI(url)));
+
+                    const data = await response.json();
                     setData(data); 
                     dispatch(changePapersKeyword(data));
                     dispatch(changeTableDataJudge(true));
                 })();
-            // }     
+            }
         }
     }, [enterJudge,startYear,endYear]);
     const array = [];
@@ -114,6 +116,7 @@ const SearchForm = () => {
 
     const changeButtonHandle = (e) => {
         dispatch(changeSearchForm(input));
+        console.log(input);
         if(enterJudge){
             setEnterJudge(false);
             dispatch(changeColumnsJudge('search'));
