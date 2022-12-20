@@ -63,7 +63,7 @@ const SearchForm = () => {
                     // const blank = encodeURIComponent('% %');
                     // const response = await fetch(`/.netlify/functions/api/papers/${blank}/${startYear}/${endYear}`)
 
-                    本番用
+                    //本番用
                     const blank = '% %';
                     const url = `/.netlify/functions/api/papers/${blank}/${startYear}/${endYear}`;
                     const response = await fetch(encodeURI(encodeURI(url)));
