@@ -65,6 +65,18 @@ router.get("/papers/:abstract", async function (req, res) {
   }
 });
 
+router.get("/papers/:abstract/:startYear/:endYear", async function (req, res) {
+  const data = await selectRows(`SELECT 
+  doi doi,title title,authors authors,html_url html_url,publication_year publication_year,page page,citing_paper_count citing_paper_count
+   FROM papers 
+  WHERE (publication_year BETWEEN $2 and $3) AND abstract ILIKE $1 LIMIT 5000`,[
+    req.params.abstract,
+    req.params.startYear,
+    req.params.endYear,
+  ]);  
+  res.json(data);
+});
+
 router.get("/papers/:abstract/:abstract2/:abstract3/:startYear/:endYear", async function (req, res) {
   const data = await selectRows(`SELECT 
     doi doi,title title,authors authors,html_url html_url,publication_year publication_year,page page,citing_paper_count citing_paper_count

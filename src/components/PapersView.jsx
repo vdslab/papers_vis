@@ -47,6 +47,7 @@ const PapersView = () => {
         { id: 'html_url', label: 'url', minWidth: 30}
       ];
       setColumns(col)
+      setOrderBy('publication_year');
     }else{
       const col = [
         { id: 'title', label: 'タイトル',numeric : false , align: 'left', disablePadding: false,minWidth: 300 },
@@ -57,6 +58,7 @@ const PapersView = () => {
         { id: 'url', label: 'url', minWidth: 30}
     ];
     setColumns(col)
+    setOrderBy('year');
     }  
   },[columnsJudge]);
     
@@ -169,7 +171,7 @@ const PapersView = () => {
                   選択されたキーワード：{keyword}
                 </Typography>
               )) : (
-                search == '' ? (
+                search == '' || search == undefined ? (
                   <Typography sx={{ flex: '1 1 100%' }} color="justify" variant="subtitle1" component="div">
                     検索を行うかキーワードを選択すると論文が表示されます
                   </Typography>
