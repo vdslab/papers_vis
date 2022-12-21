@@ -38,7 +38,7 @@ const ZoomableSVG = ({
   setIsOpenMenu,
 }) => {
   const svgRef = useRef();
-  const [k, setK] = useState(1);
+  const [k, setK] = useState(0.5);
   const [x, setX] = useState(width / 5);
   const [y, setY] = useState(height / 4);
 
@@ -361,9 +361,11 @@ const NetworkGraph = ({
           console.error(nodeNum);
           console.error(nodeData.length / nodeNum);
 
-          if (linkData.length >= nodeNum-1) {
+          if (paper_promise_urls.length / 3 >= nodeNum) {
             //ここでallpromise
             console.log(paper_promise_urls.length / 3);
+            console.log("####$U)#IUREJKFN")
+            console.log(doiset);
             const response = await Promise.allSettled(paper_promise_urls.map(axios.get));
             setProgress(100);
             for(let i = 0; i < response.length / 3; i++) {
@@ -423,9 +425,6 @@ const NetworkGraph = ({
            axios.get(`/.netlify/functions/api/similarity/${encoded}`)
           ]);
 
-          paper_promise_urls.push(`/.netlify/functions/api/papers/doi/${encoded}`);
-          paper_promise_urls.push(`/.netlify/functions/api/keywords/${encoded}`);
-          paper_promise_urls.push(`/.netlify/functions/api/authors/${encoded}`);
 
           console.log(response);
       
@@ -456,6 +455,10 @@ const NetworkGraph = ({
             console.log("UEUEUE");
             continue;
           }
+          paper_promise_urls.push(`/.netlify/functions/api/papers/doi/${encoded}`);
+          paper_promise_urls.push(`/.netlify/functions/api/keywords/${encoded}`);
+          paper_promise_urls.push(`/.netlify/functions/api/authors/${encoded}`);
+
 
           /*const similarities = await (
             await fetch(
@@ -521,6 +524,13 @@ const NetworkGraph = ({
         
       }
       */
+      try {
+        (await axios.get(`/.netlify/functions/api/papers/doi/${encodeURIComponent(doi)}`));
+      } catch (e) {
+        console.error(e);
+        navigate("/../network_notfound");
+      }
+
       await bfs(doi);
       if (!(nodeData && linkData)) {
         console.log("yay");
@@ -665,8 +675,8 @@ const NetworkGraph = ({
         >
           <g className="links">
             {links.map((link) => {
-              console.log(labelPart);
-              console.log(labelString);
+              //console.log(labelPart);
+              //console.log(labelString);
               return (
                 <line
                   key={link.source.id + "-" + link.target.id}
@@ -716,7 +726,7 @@ const NetworkGraph = ({
 
           <g className="nodes">
             {nodes.map((node, key) => {
-              console.log(nodesState[firstSelectedNodeKey]);
+              //console.log(nodesState[firstSelectedNodeKey]);
               return (
                 <circle
                   className="node"
