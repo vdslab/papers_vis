@@ -1,2666 +1,2666 @@
 {
- "total_records": 49,
- "total_searched": 5638566,
- "articles": [
-  {
-   "doi": "10.1109/MCOM.1983.1091465",
-   "title": "A Fiber-optic Broadband LAN/OCS Using a PBX",
-   "publisher": "IEEE",
-   "issue": "7",
-   "issn": "1558-1896",
-   "rank": 1,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Department of Communications, Ottawa, Ont.,Canada",
-      "authorUrl": "https://ieeexplore.ieee.org/author/38181584500",
-      "id": 38181584500,
-      "full_name": "E. Hara",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091465",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091465",
-   "html_url": "https://ieeexplore.ieee.org/document/1091465/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091465/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23784,
-   "publication_year": 1983,
-   "publication_date": "October 1983",
-   "start_page": "22",
-   "end_page": "27",
-   "citing_paper_count": 2,
-   "citing_patent_count": 12,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Optical fiber LAN",
-      "Local area networks",
-      "Telephony",
-      "Optical fiber communication",
-      "Communication switching",
-      "Telecommunication traffic"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091440",
-   "title": "A PCM frame switching concept leading to burst switching network architecture",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 2,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "GTE Laboratories",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37976015700",
-      "id": 37976015700,
-      "full_name": "E. Haselton",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091440",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091440",
-   "html_url": "https://ieeexplore.ieee.org/document/1091440/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091440/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23783,
-   "publication_year": 1983,
-   "publication_date": "September 1983",
-   "start_page": "13",
-   "end_page": "19",
-   "citing_paper_count": 37,
-   "citing_patent_count": 13,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Phase change materials",
-      "Burst switching",
-      "Switching circuits",
-      "Packet switching",
-      "Telecommunication switching",
-      "Speech analysis",
-      "Interpolation",
-      "Data analysis"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091337",
-   "title": "A comparison between frequency hopping and direct spread pn as antijam techniques",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 3,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Harris Government Communications System Division, Melbourne, Florida",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37389285800",
-      "id": 37389285800,
-      "full_name": "M. Spellman",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "FREQUENCY Hopping (FH) and Direct Spread Pseudonoise (PN) are the signal processing techniques most often used to achieve an antijam capability. However, comparisons between the techniques in order to determine relative superiority have often been marred in the past by one-sided defenses of one technique or the other. In this paper, an unbiased and comprehensive comparison between the two techniques is presented. The comparison is based on the premise that neither technique is categorically superior, and compares the relative merit of the two techniques for each of a number of issues relevant to antijam systems. By noting both the important issues for a particular application and the relative performance of the two techniques for those important issues, support can be provided for the process of selecting the appropriate technique.",
-   "article_number": "1091337",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091337",
-   "html_url": "https://ieeexplore.ieee.org/document/1091337/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091337/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23779,
-   "publication_year": 1983,
-   "publication_date": "March 1983",
-   "start_page": "37",
-   "end_page": "42",
-   "citing_paper_count": 7,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Frequency",
-      "Jamming",
-      "Signal processing",
-      "Protection",
-      "Bandwidth"
-     ]
-    }
-   },
-   "keywords": [
+  "total_records": 49,
+  "total_searched": 5638566,
+  "articles": [
     {
-     "keyword": "technique",
-     "value": 0.5196558419693047
+      "doi": "10.1109/MCOM.1983.1091465",
+      "title": "A Fiber-optic Broadband LAN/OCS Using a PBX",
+      "publisher": "IEEE",
+      "issue": "7",
+      "issn": "1558-1896",
+      "rank": 1,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Department of Communications, Ottawa, Ont.,Canada",
+            "authorUrl": "https://ieeexplore.ieee.org/author/38181584500",
+            "id": 38181584500,
+            "full_name": "E. Hara",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091465",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091465",
+      "html_url": "https://ieeexplore.ieee.org/document/1091465/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091465/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23784,
+      "publication_year": 1983,
+      "publication_date": "October 1983",
+      "start_page": "22",
+      "end_page": "27",
+      "citing_paper_count": 2,
+      "citing_patent_count": 12,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Optical fiber LAN",
+            "Local area networks",
+            "Telephony",
+            "Optical fiber communication",
+            "Communication switching",
+            "Telecommunication traffic"
+          ]
+        }
+      }
     },
     {
-     "keyword": "comparison",
-     "value": 0.19487094073848926
+      "doi": "10.1109/MCOM.1983.1091440",
+      "title": "A PCM frame switching concept leading to burst switching network architecture",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 2,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "GTE Laboratories",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37976015700",
+            "id": 37976015700,
+            "full_name": "E. Haselton",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091440",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091440",
+      "html_url": "https://ieeexplore.ieee.org/document/1091440/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091440/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23783,
+      "publication_year": 1983,
+      "publication_date": "September 1983",
+      "start_page": "13",
+      "end_page": "19",
+      "citing_paper_count": 37,
+      "citing_patent_count": 13,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Phase change materials",
+            "Burst switching",
+            "Switching circuits",
+            "Packet switching",
+            "Telecommunication switching",
+            "Speech analysis",
+            "Interpolation",
+            "Data analysis"
+          ]
+        }
+      }
     },
     {
-     "keyword": "issue",
-     "value": 0.19487094073848926
+      "doi": "10.1109/MCOM.1983.1091337",
+      "title": "A comparison between frequency hopping and direct spread pn as antijam techniques",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 3,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Harris Government Communications System Division, Melbourne, Florida",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37389285800",
+            "id": 37389285800,
+            "full_name": "M. Spellman",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "FREQUENCY Hopping (FH) and Direct Spread Pseudonoise (PN) are the signal processing techniques most often used to achieve an antijam capability. However, comparisons between the techniques in order to determine relative superiority have often been marred in the past by one-sided defenses of one technique or the other. In this paper, an unbiased and comprehensive comparison between the two techniques is presented. The comparison is based on the premise that neither technique is categorically superior, and compares the relative merit of the two techniques for each of a number of issues relevant to antijam systems. By noting both the important issues for a particular application and the relative performance of the two techniques for those important issues, support can be provided for the process of selecting the appropriate technique.",
+      "article_number": "1091337",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091337",
+      "html_url": "https://ieeexplore.ieee.org/document/1091337/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091337/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23779,
+      "publication_year": 1983,
+      "publication_date": "March 1983",
+      "start_page": "37",
+      "end_page": "42",
+      "citing_paper_count": 7,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Frequency",
+            "Jamming",
+            "Signal processing",
+            "Protection",
+            "Bandwidth"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "technique",
+          "value": 0.5196558419693047
+        },
+        {
+          "keyword": "comparison",
+          "value": 0.19487094073848926
+        },
+        {
+          "keyword": "issue",
+          "value": 0.19487094073848926
+        },
+        {
+          "keyword": "relative",
+          "value": 0.19487094073848926
+        },
+        {
+          "keyword": "two",
+          "value": 0.19487094073848926
+        }
+      ]
     },
     {
-     "keyword": "relative",
-     "value": 0.19487094073848926
+      "doi": "10.1109/MCOM.1983.1091437",
+      "title": "A new wideband HF technique for MHz-Bandwidth spread-spectrum radio communications",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 4,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Wideband HF communications program at MITRE",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37987769800",
+            "id": 37987769800,
+            "full_name": "B. Perry",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091437",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091437",
+      "html_url": "https://ieeexplore.ieee.org/document/1091437/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091437/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23783,
+      "publication_year": 1983,
+      "publication_date": "September 1983",
+      "start_page": "28",
+      "end_page": "36",
+      "citing_paper_count": 15,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Wideband",
+            "Spread spectrum communication",
+            "Radio communication",
+            "Bandwidth",
+            "Fading",
+            "Equalizers",
+            "Satellite broadcasting",
+            "Signal resolution"
+          ]
+        }
+      }
     },
     {
-     "keyword": "two",
-     "value": 0.19487094073848926
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091437",
-   "title": "A new wideband HF technique for MHz-Bandwidth spread-spectrum radio communications",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 4,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Wideband HF communications program at MITRE",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37987769800",
-      "id": 37987769800,
-      "full_name": "B. Perry",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091437",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091437",
-   "html_url": "https://ieeexplore.ieee.org/document/1091437/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091437/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23783,
-   "publication_year": 1983,
-   "publication_date": "September 1983",
-   "start_page": "28",
-   "end_page": "36",
-   "citing_paper_count": 15,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Wideband",
-      "Spread spectrum communication",
-      "Radio communication",
-      "Bandwidth",
-      "Fading",
-      "Equalizers",
-      "Satellite broadcasting",
-      "Signal resolution"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091459",
-   "title": "A structured overview of digital communications--A tutorial review--Part II",
-   "publisher": "IEEE",
-   "issue": "7",
-   "issn": "1558-1896",
-   "rank": 5,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Communications Engineering Services, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37277445000",
-      "id": 37277445000,
-      "full_name": "B. Sklar",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "I N THE first part of this two-part paper, a structure and hierarchy were developed for tracing the key signal processing steps of a typical digital communications system. With the structure as a guide, formatting, source coding, and modulation transformations were examined. Also treated were potential trade-offs for power-limited and bandwidth-limited systems. In Part II, the signal processing overview continues with channel coding, multiplexing and multiple access, frequency spreading, encryption, and synchronization. To complete the overview, fundamental link analysis relationships are reviewed in the context of a satellite repeater channel.",
-   "article_number": "1091459",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091459",
-   "html_url": "https://ieeexplore.ieee.org/document/1091459/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091459/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23784,
-   "publication_year": 1983,
-   "publication_date": "October 1983",
-   "start_page": "6",
-   "end_page": "21",
-   "citing_paper_count": 10,
-   "citing_patent_count": 108,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Tutorials",
-      "Digital signal processing",
-      "Digital communication",
-      "Source coding",
-      "Modulation coding",
-      "Signal processing",
-      "Channel coding",
-      "Cryptography",
-      "Frequency synchronization"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "part",
-     "value": 0.2526455763199557
+      "doi": "10.1109/MCOM.1983.1091459",
+      "title": "A structured overview of digital communications--A tutorial review--Part II",
+      "publisher": "IEEE",
+      "issue": "7",
+      "issn": "1558-1896",
+      "rank": 5,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Communications Engineering Services, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37277445000",
+            "id": 37277445000,
+            "full_name": "B. Sklar",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "I N THE first part of this two-part paper, a structure and hierarchy were developed for tracing the key signal processing steps of a typical digital communications system. With the structure as a guide, formatting, source coding, and modulation transformations were examined. Also treated were potential trade-offs for power-limited and bandwidth-limited systems. In Part II, the signal processing overview continues with channel coding, multiplexing and multiple access, frequency spreading, encryption, and synchronization. To complete the overview, fundamental link analysis relationships are reviewed in the context of a satellite repeater channel.",
+      "article_number": "1091459",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091459",
+      "html_url": "https://ieeexplore.ieee.org/document/1091459/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091459/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23784,
+      "publication_year": 1983,
+      "publication_date": "October 1983",
+      "start_page": "6",
+      "end_page": "21",
+      "citing_paper_count": 10,
+      "citing_patent_count": 108,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Tutorials",
+            "Digital signal processing",
+            "Digital communication",
+            "Source coding",
+            "Modulation coding",
+            "Signal processing",
+            "Channel coding",
+            "Cryptography",
+            "Frequency synchronization"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "part",
+          "value": 0.2526455763199557
+        },
+        {
+          "keyword": "channel",
+          "value": 0.1684303842133038
+        },
+        {
+          "keyword": "coding",
+          "value": 0.1684303842133038
+        },
+        {
+          "keyword": "limited",
+          "value": 0.1684303842133038
+        },
+        {
+          "keyword": "overview",
+          "value": 0.1684303842133038
+        }
+      ]
     },
     {
-     "keyword": "channel",
-     "value": 0.1684303842133038
+      "doi": "10.1109/MCOM.1983.1091426",
+      "title": "A structured overview of digital communications-A tutorial review-part I",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 6,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Communications Engineering Services, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37277445000",
+            "id": 37277445000,
+            "full_name": "B. Sklar",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091426",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091426",
+      "html_url": "https://ieeexplore.ieee.org/document/1091426/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091426/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23782,
+      "publication_year": 1983,
+      "publication_date": "August 1983",
+      "start_page": "4",
+      "end_page": "17",
+      "citing_paper_count": 14,
+      "citing_patent_count": 104,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Tutorial",
+            "Signal processing",
+            "Digital communication",
+            "Distributed control",
+            "Frequency",
+            "Transmitters",
+            "Modems",
+            "Satellite communication",
+            "Context",
+            "Source coding"
+          ]
+        }
+      }
     },
     {
-     "keyword": "coding",
-     "value": 0.1684303842133038
+      "doi": "10.1109/MCOM.1983.1091485",
+      "title": "An adaptive computer communications network designed with decentralized control",
+      "publisher": "IEEE",
+      "issue": "8",
+      "issn": "1558-1896",
+      "rank": 16,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "MITRE Corp., Bedford, MA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37282635700",
+            "id": 37282635700,
+            "full_name": "K. Brayer",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091485",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091485",
+      "html_url": "https://ieeexplore.ieee.org/document/1091485/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091485/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23785,
+      "publication_year": 1983,
+      "publication_date": "November 1983",
+      "start_page": "30",
+      "end_page": "35",
+      "citing_paper_count": 3,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Adaptive systems",
+            "Programmable control",
+            "Adaptive control",
+            "Computer networks",
+            "Communication networks",
+            "Distributed control",
+            "Network topology",
+            "Algorithm design and analysis"
+          ]
+        }
+      }
     },
     {
-     "keyword": "limited",
-     "value": 0.1684303842133038
+      "doi": "10.1109/MCOM.1983.1091476",
+      "title": "An introduction to network architectures",
+      "publisher": "IEEE",
+      "issue": "7",
+      "issn": "1558-1896",
+      "rank": 17,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Cleveland State University, OH",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37271102700",
+            "id": 37271102700,
+            "full_name": "V. Konangi",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37988555200",
+            "id": 37988555200,
+            "full_name": "C. Dhas",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091476",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091476",
+      "html_url": "https://ieeexplore.ieee.org/document/1091476/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091476/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23784,
+      "publication_year": 1983,
+      "publication_date": "October 1983",
+      "start_page": "44",
+      "end_page": "50",
+      "citing_paper_count": 3,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Protocols",
+            "Distributed computing",
+            "Spatial databases",
+            "Computer architecture",
+            "Interconnected systems",
+            "Distributed databases",
+            "Computer networks",
+            "Information management",
+            "Environmental management"
+          ]
+        }
+      }
     },
     {
-     "keyword": "overview",
-     "value": 0.1684303842133038
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091426",
-   "title": "A structured overview of digital communications-A tutorial review-part I",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 6,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Communications Engineering Services, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37277445000",
-      "id": 37277445000,
-      "full_name": "B. Sklar",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091426",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091426",
-   "html_url": "https://ieeexplore.ieee.org/document/1091426/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091426/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23782,
-   "publication_year": 1983,
-   "publication_date": "August 1983",
-   "start_page": "4",
-   "end_page": "17",
-   "citing_paper_count": 14,
-   "citing_patent_count": 104,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Tutorial",
-      "Signal processing",
-      "Digital communication",
-      "Distributed control",
-      "Frequency",
-      "Transmitters",
-      "Modems",
-      "Satellite communication",
-      "Context",
-      "Source coding"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091485",
-   "title": "An adaptive computer communications network designed with decentralized control",
-   "publisher": "IEEE",
-   "issue": "8",
-   "issn": "1558-1896",
-   "rank": 16,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "MITRE Corp., Bedford, MA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37282635700",
-      "id": 37282635700,
-      "full_name": "K. Brayer",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091485",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091485",
-   "html_url": "https://ieeexplore.ieee.org/document/1091485/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091485/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23785,
-   "publication_year": 1983,
-   "publication_date": "November 1983",
-   "start_page": "30",
-   "end_page": "35",
-   "citing_paper_count": 3,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Adaptive systems",
-      "Programmable control",
-      "Adaptive control",
-      "Computer networks",
-      "Communication networks",
-      "Distributed control",
-      "Network topology",
-      "Algorithm design and analysis"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091476",
-   "title": "An introduction to network architectures",
-   "publisher": "IEEE",
-   "issue": "7",
-   "issn": "1558-1896",
-   "rank": 17,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Cleveland State University, OH",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37271102700",
-      "id": 37271102700,
-      "full_name": "V. Konangi",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37988555200",
-      "id": 37988555200,
-      "full_name": "C. Dhas",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091476",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091476",
-   "html_url": "https://ieeexplore.ieee.org/document/1091476/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091476/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23784,
-   "publication_year": 1983,
-   "publication_date": "October 1983",
-   "start_page": "44",
-   "end_page": "50",
-   "citing_paper_count": 3,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Protocols",
-      "Distributed computing",
-      "Spatial databases",
-      "Computer architecture",
-      "Interconnected systems",
-      "Distributed databases",
-      "Computer networks",
-      "Information management",
-      "Environmental management"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091346",
-   "title": "An introduction to spread spectrum",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 18,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "The MITRE Corp., Bedford, MA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37287210700",
-      "id": 37287210700,
-      "full_name": "C. Cook",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088190107",
-      "id": 37088190107,
-      "full_name": "H. Marsh",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091346",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091346",
-   "html_url": "https://ieeexplore.ieee.org/document/1091346/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091346/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23779,
-   "publication_year": 1983,
-   "publication_date": "March 1983",
-   "start_page": "8",
-   "end_page": "16",
-   "citing_paper_count": 53,
-   "citing_patent_count": 7,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Spread spectrum communication",
-      "Bandwidth",
-      "Interference",
-      "Radio frequency",
-      "RF signals",
-      "Bit error rate",
-      "Digital communication",
-      "Gaussian noise",
-      "Signal to noise ratio",
-      "Military communication"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091403",
-   "title": "Army communications for the airLand Battle",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 19,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Joint Tactical Communications(TRI-TAC) Office, Fort Monmouth, NJ",
-      "full_name": "J. Blackman",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "Provides an overview of current thinking on tactical communication. With support and emphasis from the highest levels of the Department of Defense (DoD) and the Department of Army (DA), a new attitude is being formed. The United States Army Training and Doctrine Command, at Fort Monroe, VA; and theU nited States Army ateriel Development and Readiness Command, at Alexandria, VA, are cooperating in a joint venture to assure that appropriate communications equipment will be available when it is needed to support the new AirLand Battle doctrine.",
-   "article_number": "1091403",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091403",
-   "html_url": "https://ieeexplore.ieee.org/document/1091403/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091403/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23781,
-   "publication_year": 1983,
-   "publication_date": "July 1983",
-   "start_page": "19",
-   "end_page": "22",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Communication equipment",
-      "Vehicles",
-      "Command and control systems",
-      "Guns",
-      "Aerospace control",
-      "Military aircraft",
-      "Communication switching",
-      "Communication system control"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "army",
-     "value": 0.26620695282483414
+      "doi": "10.1109/MCOM.1983.1091346",
+      "title": "An introduction to spread spectrum",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 18,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "The MITRE Corp., Bedford, MA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37287210700",
+            "id": 37287210700,
+            "full_name": "C. Cook",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088190107",
+            "id": 37088190107,
+            "full_name": "H. Marsh",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091346",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091346",
+      "html_url": "https://ieeexplore.ieee.org/document/1091346/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091346/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23779,
+      "publication_year": 1983,
+      "publication_date": "March 1983",
+      "start_page": "8",
+      "end_page": "16",
+      "citing_paper_count": 53,
+      "citing_patent_count": 7,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Spread spectrum communication",
+            "Bandwidth",
+            "Interference",
+            "Radio frequency",
+            "RF signals",
+            "Bit error rate",
+            "Digital communication",
+            "Gaussian noise",
+            "Signal to noise ratio",
+            "Military communication"
+          ]
+        }
+      }
     },
     {
-     "keyword": "command",
-     "value": 0.17747130188322277
+      "doi": "10.1109/MCOM.1983.1091403",
+      "title": "Army communications for the airLand Battle",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 19,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Joint Tactical Communications(TRI-TAC) Office, Fort Monmouth, NJ",
+            "full_name": "J. Blackman",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "Provides an overview of current thinking on tactical communication. With support and emphasis from the highest levels of the Department of Defense (DoD) and the Department of Army (DA), a new attitude is being formed. The United States Army Training and Doctrine Command, at Fort Monroe, VA; and theU nited States Army ateriel Development and Readiness Command, at Alexandria, VA, are cooperating in a joint venture to assure that appropriate communications equipment will be available when it is needed to support the new AirLand Battle doctrine.",
+      "article_number": "1091403",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091403",
+      "html_url": "https://ieeexplore.ieee.org/document/1091403/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091403/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23781,
+      "publication_year": 1983,
+      "publication_date": "July 1983",
+      "start_page": "19",
+      "end_page": "22",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Communication equipment",
+            "Vehicles",
+            "Command and control systems",
+            "Guns",
+            "Aerospace control",
+            "Military aircraft",
+            "Communication switching",
+            "Communication system control"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "army",
+          "value": 0.26620695282483414
+        },
+        {
+          "keyword": "command",
+          "value": 0.17747130188322277
+        },
+        {
+          "keyword": "communication",
+          "value": 0.17747130188322277
+        },
+        {
+          "keyword": "department",
+          "value": 0.17747130188322277
+        },
+        {
+          "keyword": "doctrine",
+          "value": 0.17747130188322277
+        }
+      ]
     },
     {
-     "keyword": "communication",
-     "value": 0.17747130188322277
+      "doi": "10.1109/MCOM.1983.1091503",
+      "title": "Automatic speech synthesis",
+      "publisher": "IEEE",
+      "issue": "9",
+      "issn": "1558-1896",
+      "rank": 20,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "INRS-Telecommun., Montreal, Que., Canada",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37267294000",
+            "id": 37267294000,
+            "full_name": "D. O'Shaughnessy",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091503",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091503",
+      "html_url": "https://ieeexplore.ieee.org/document/1091503/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091503/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23786,
+      "publication_year": 1983,
+      "publication_date": "December 1983",
+      "start_page": "26",
+      "end_page": "34",
+      "citing_paper_count": 6,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Speech synthesis",
+            "Synthesizers",
+            "Frequency",
+            "Speech coding",
+            "Application software",
+            "Telephony",
+            "Resonance",
+            "Pulse modulation",
+            "Signal synthesis"
+          ]
+        }
+      }
     },
     {
-     "keyword": "department",
-     "value": 0.17747130188322277
+      "doi": "10.1109/MCOM.1983.1091484",
+      "title": "Burst switching - An introduction",
+      "publisher": "IEEE",
+      "issue": "8",
+      "issn": "1558-1896",
+      "rank": 32,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Honeywell Computer Control Div., Framingham, MA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37322752500",
+            "id": 37322752500,
+            "full_name": "S. Amstutz",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091484",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091484",
+      "html_url": "https://ieeexplore.ieee.org/document/1091484/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091484/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23785,
+      "publication_year": 1983,
+      "publication_date": "November 1983",
+      "start_page": "36",
+      "end_page": "42",
+      "citing_paper_count": 71,
+      "citing_patent_count": 17,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Burst switching",
+            "Bandwidth",
+            "Switching circuits",
+            "Central office",
+            "ISDN"
+          ]
+        }
+      }
     },
     {
-     "keyword": "doctrine",
-     "value": 0.17747130188322277
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091503",
-   "title": "Automatic speech synthesis",
-   "publisher": "IEEE",
-   "issue": "9",
-   "issn": "1558-1896",
-   "rank": 20,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "INRS-Telecommun., Montreal, Que., Canada",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37267294000",
-      "id": 37267294000,
-      "full_name": "D. O'Shaughnessy",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091503",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091503",
-   "html_url": "https://ieeexplore.ieee.org/document/1091503/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091503/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23786,
-   "publication_year": 1983,
-   "publication_date": "December 1983",
-   "start_page": "26",
-   "end_page": "34",
-   "citing_paper_count": 6,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Speech synthesis",
-      "Synthesizers",
-      "Frequency",
-      "Speech coding",
-      "Application software",
-      "Telephony",
-      "Resonance",
-      "Pulse modulation",
-      "Signal synthesis"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091484",
-   "title": "Burst switching - An introduction",
-   "publisher": "IEEE",
-   "issue": "8",
-   "issn": "1558-1896",
-   "rank": 32,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Honeywell Computer Control Div., Framingham, MA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37322752500",
-      "id": 37322752500,
-      "full_name": "S. Amstutz",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091484",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091484",
-   "html_url": "https://ieeexplore.ieee.org/document/1091484/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091484/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23785,
-   "publication_year": 1983,
-   "publication_date": "November 1983",
-   "start_page": "36",
-   "end_page": "42",
-   "citing_paper_count": 71,
-   "citing_patent_count": 17,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Burst switching",
-      "Bandwidth",
-      "Switching circuits",
-      "Central office",
-      "ISDN"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091496",
-   "title": "Cellular mobile radio",
-   "publisher": "IEEE",
-   "issue": "8",
-   "issn": "1558-1896",
-   "rank": 33,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Booz, Allen and Hamilton, Inc., Bethesda, MD, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087956262",
-      "id": 37087956262,
-      "full_name": "J. Oetting",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091496",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091496",
-   "html_url": "https://ieeexplore.ieee.org/document/1091496/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091496/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23785,
-   "publication_year": 1983,
-   "publication_date": "November 1983",
-   "start_page": "10",
-   "end_page": "15",
-   "citing_paper_count": 15,
-   "citing_patent_count": 4,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Land mobile radio",
-      "Cellular phones",
-      "Telephony",
-      "Licenses",
-      "Radio control",
-      "Control systems"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091493",
-   "title": "Considerations of atmospheric noise effects on wideband MF communications",
-   "publisher": "IEEE",
-   "issue": "8",
-   "issn": "1558-1896",
-   "rank": 72,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "GTE, Sylvania System Group, Strategic System Div., Westborough, MA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088322971",
-      "id": 37088322971,
-      "full_name": "J. Herman",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088322159",
-      "id": 37088322159,
-      "full_name": "X. DeAngelis",
-      "author_order": 2
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37089038645",
-      "id": 37089038645,
-      "full_name": "A. Giordano",
-      "author_order": 3
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088323185",
-      "id": 37088323185,
-      "full_name": "K. Marzotto",
-      "author_order": 4
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088318294",
-      "id": 37088318294,
-      "full_name": "F. Hsu",
-      "author_order": 5
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091493",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091493",
-   "html_url": "https://ieeexplore.ieee.org/document/1091493/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091493/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23785,
-   "publication_year": 1983,
-   "publication_date": "November 1983",
-   "start_page": "24",
-   "end_page": "29",
-   "citing_paper_count": 12,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Wideband",
-      "Noise measurement",
-      "Bandwidth",
-      "Antenna measurements",
-      "Magnetic field measurement",
-      "System performance",
-      "Higher order statistics",
-      "Working environment noise"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091335",
-   "title": "Current perspectives in digital speech",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 74,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bell Labs., Murray Hill, NJ",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37328712800",
-      "id": 37328712800,
-      "full_name": "R. Crochiere",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37276880000",
-      "id": 37276880000,
-      "full_name": "J. Flanagan",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "THE field of digital speech is rapidly coming to fruition as an area of opportunity for commercial application. In this paper we attempt to give a broad tutorial overview of some of the key aspects of this technology. We briefly outline some of the basic properties of speech and the techniques of coding that use these properties and point to areas of current research and areas of practical hardware implementation. We also attempt to outline some of the potential application areas for this new technology.",
-   "article_number": "1091335",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091335",
-   "html_url": "https://ieeexplore.ieee.org/document/1091335/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091335/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23778,
-   "publication_year": 1983,
-   "publication_date": "January 1983",
-   "start_page": "32",
-   "end_page": "40",
-   "citing_paper_count": 16,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Bit rate",
-      "Speech processing",
-      "Encoding",
-      "Digital communication",
-      "Integrated circuit technology",
-      "Acoustic noise",
-      "Resonance"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "area",
-     "value": 0.3796631983009996
+      "doi": "10.1109/MCOM.1983.1091496",
+      "title": "Cellular mobile radio",
+      "publisher": "IEEE",
+      "issue": "8",
+      "issn": "1558-1896",
+      "rank": 33,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Booz, Allen and Hamilton, Inc., Bethesda, MD, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087956262",
+            "id": 37087956262,
+            "full_name": "J. Oetting",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091496",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091496",
+      "html_url": "https://ieeexplore.ieee.org/document/1091496/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091496/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23785,
+      "publication_year": 1983,
+      "publication_date": "November 1983",
+      "start_page": "10",
+      "end_page": "15",
+      "citing_paper_count": 15,
+      "citing_patent_count": 4,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Land mobile radio",
+            "Cellular phones",
+            "Telephony",
+            "Licenses",
+            "Radio control",
+            "Control systems"
+          ]
+        }
+      }
     },
     {
-     "keyword": "application",
-     "value": 0.1898315991504998
+      "doi": "10.1109/MCOM.1983.1091493",
+      "title": "Considerations of atmospheric noise effects on wideband MF communications",
+      "publisher": "IEEE",
+      "issue": "8",
+      "issn": "1558-1896",
+      "rank": 72,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "GTE, Sylvania System Group, Strategic System Div., Westborough, MA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088322971",
+            "id": 37088322971,
+            "full_name": "J. Herman",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088322159",
+            "id": 37088322159,
+            "full_name": "X. DeAngelis",
+            "author_order": 2
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37089038645",
+            "id": 37089038645,
+            "full_name": "A. Giordano",
+            "author_order": 3
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088323185",
+            "id": 37088323185,
+            "full_name": "K. Marzotto",
+            "author_order": 4
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088318294",
+            "id": 37088318294,
+            "full_name": "F. Hsu",
+            "author_order": 5
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091493",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091493",
+      "html_url": "https://ieeexplore.ieee.org/document/1091493/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091493/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23785,
+      "publication_year": 1983,
+      "publication_date": "November 1983",
+      "start_page": "24",
+      "end_page": "29",
+      "citing_paper_count": 12,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Wideband",
+            "Noise measurement",
+            "Bandwidth",
+            "Antenna measurements",
+            "Magnetic field measurement",
+            "System performance",
+            "Higher order statistics",
+            "Working environment noise"
+          ]
+        }
+      }
     },
     {
-     "keyword": "attempt",
-     "value": 0.1898315991504998
+      "doi": "10.1109/MCOM.1983.1091335",
+      "title": "Current perspectives in digital speech",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 74,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bell Labs., Murray Hill, NJ",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37328712800",
+            "id": 37328712800,
+            "full_name": "R. Crochiere",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37276880000",
+            "id": 37276880000,
+            "full_name": "J. Flanagan",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "THE field of digital speech is rapidly coming to fruition as an area of opportunity for commercial application. In this paper we attempt to give a broad tutorial overview of some of the key aspects of this technology. We briefly outline some of the basic properties of speech and the techniques of coding that use these properties and point to areas of current research and areas of practical hardware implementation. We also attempt to outline some of the potential application areas for this new technology.",
+      "article_number": "1091335",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091335",
+      "html_url": "https://ieeexplore.ieee.org/document/1091335/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091335/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23778,
+      "publication_year": 1983,
+      "publication_date": "January 1983",
+      "start_page": "32",
+      "end_page": "40",
+      "citing_paper_count": 16,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Bit rate",
+            "Speech processing",
+            "Encoding",
+            "Digital communication",
+            "Integrated circuit technology",
+            "Acoustic noise",
+            "Resonance"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "area",
+          "value": 0.3796631983009996
+        },
+        {
+          "keyword": "application",
+          "value": 0.1898315991504998
+        },
+        {
+          "keyword": "attempt",
+          "value": 0.1898315991504998
+        },
+        {
+          "keyword": "outline",
+          "value": 0.1898315991504998
+        },
+        {
+          "keyword": "property",
+          "value": 0.1898315991504998
+        }
+      ]
     },
     {
-     "keyword": "outline",
-     "value": 0.1898315991504998
+      "doi": "10.1109/MCOM.1983.1091385",
+      "title": "Digital private branch exchanges",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 75,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "North Electric Co., Galion, OH, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087440594",
+            "id": 37087440594,
+            "full_name": "S. Junker",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087440277",
+            "id": 37087440277,
+            "full_name": "W. Noller",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091385",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091385",
+      "html_url": "https://ieeexplore.ieee.org/document/1091385/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091385/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23780,
+      "publication_year": 1983,
+      "publication_date": "May 1983",
+      "start_page": "11",
+      "end_page": "17",
+      "citing_paper_count": 4,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Switching systems",
+            "Telephony",
+            "Switches",
+            "Delta modulation",
+            "Computer aided manufacturing",
+            "Pulse modulation",
+            "Phase change materials",
+            "Communication switching",
+            "Switching circuits"
+          ]
+        }
+      }
     },
     {
-     "keyword": "property",
-     "value": 0.1898315991504998
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091385",
-   "title": "Digital private branch exchanges",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 75,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "North Electric Co., Galion, OH, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087440594",
-      "id": 37087440594,
-      "full_name": "S. Junker",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087440277",
-      "id": 37087440277,
-      "full_name": "W. Noller",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091385",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091385",
-   "html_url": "https://ieeexplore.ieee.org/document/1091385/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091385/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23780,
-   "publication_year": 1983,
-   "publication_date": "May 1983",
-   "start_page": "11",
-   "end_page": "17",
-   "citing_paper_count": 4,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Switching systems",
-      "Telephony",
-      "Switches",
-      "Delta modulation",
-      "Computer aided manufacturing",
-      "Pulse modulation",
-      "Phase change materials",
-      "Communication switching",
-      "Switching circuits"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091367",
-   "title": "Digital switching in local area networks",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 76,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Contel Information Systems",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088189579",
-      "id": 37088189579,
-      "full_name": "T. Lissack",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37282220900",
-      "id": 37282220900,
-      "full_name": "B. Maglaris",
-      "author_order": 2
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37388709500",
-      "id": 37388709500,
-      "full_name": "I. Frisch",
-      "author_order": 3
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091367",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091367",
-   "html_url": "https://ieeexplore.ieee.org/document/1091367/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091367/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23780,
-   "publication_year": 1983,
-   "publication_date": "May 1983",
-   "start_page": "26",
-   "end_page": "37",
-   "citing_paper_count": 7,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Local area networks",
-      "Packet switching",
-      "Switching circuits",
-      "Communication switching",
-      "Resource management",
-      "Microprocessors",
-      "Bandwidth",
-      "Communication system control"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091351",
-   "title": "FCC Testimony",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 89,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Northern Electric Company Ltd.,Ottawa, Ont., Canada",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088288471",
-      "id": 37088288471,
-      "full_name": "S. Karp",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091351",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091351",
-   "html_url": "https://ieeexplore.ieee.org/document/1091351/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091351/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23779,
-   "publication_year": 1983,
-   "publication_date": "March 1983",
-   "start_page": "59",
-   "end_page": "63",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "FCC",
-      "Spread spectrum communication",
-      "Wideband",
-      "Multiple access interference",
-      "Interference constraints"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091435",
-   "title": "FET technology for low-noise front ends",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 90,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "SRI Int., Menlo Park, CA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37287309400",
-      "id": 37287309400,
-      "full_name": "J. Arnold",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091435",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091435",
-   "html_url": "https://ieeexplore.ieee.org/document/1091435/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091435/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23783,
-   "publication_year": 1983,
-   "publication_date": "September 1983",
-   "start_page": "37",
-   "end_page": "42",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "FETs",
-      "MESFETs",
-      "Substrates",
-      "Noise figure",
-      "Electron mobility",
-      "Conductivity"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091347",
-   "title": "Filtering and equalization for digital transmission",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 91,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "AT&T Bell Lab., Andover, MA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37424465700",
-      "id": 37424465700,
-      "full_name": "T. Aprille",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091347",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091347",
-   "html_url": "https://ieeexplore.ieee.org/document/1091347/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091347/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23779,
-   "publication_year": 1983,
-   "publication_date": "March 1983",
-   "start_page": "17",
-   "end_page": "24",
-   "citing_paper_count": 4,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Digital filters",
-      "Filtering",
-      "Baseband",
-      "Coaxial cables",
-      "Digital modulation",
-      "Equalizers",
-      "Frequency modulation",
-      "Band pass filters"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091318",
-   "title": "Forward error correction schemes for digital communications",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 92,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Univ. of Victoria, B.C., Canada",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37272741500",
-      "id": 37272741500,
-      "full_name": "V. Bhargava",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091318",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091318",
-   "html_url": "https://ieeexplore.ieee.org/document/1091318/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091318/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23778,
-   "publication_year": 1983,
-   "publication_date": "January 1983",
-   "start_page": "11",
-   "end_page": "19",
-   "citing_paper_count": 26,
-   "citing_patent_count": 12,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Forward error correction",
-      "Digital communication",
-      "Convolutional codes",
-      "Error correction codes",
-      "Phase shift keying",
-      "Automatic repeat request",
-      "Block codes",
-      "Linear code"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091451",
-   "title": "GTD-5 EAX hardware overview",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 97,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "GTD 5 EAX network and peripheral hardware development group, Phoenix",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087978337",
-      "id": 37087978337,
-      "full_name": "S. Magnusson",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087981538",
-      "id": 37087981538,
-      "full_name": "W. Jinbo",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091451",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091451",
-   "html_url": "https://ieeexplore.ieee.org/document/1091451/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091451/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23783,
-   "publication_year": 1983,
-   "publication_date": "September 1983",
-   "start_page": "6",
-   "end_page": "12",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Hardware",
-      "Centralized control",
-      "Process control",
-      "Switching systems",
-      "Carbon capture and storage",
-      "Integrated circuit interconnections",
-      "Computer peripherals",
-      "Control equipment",
-      "Distributed processing"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091355",
-   "title": "High speed switched digital service",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 102,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "American Bell, Inc., Parsippany, NJ, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087293332",
-      "id": 37087293332,
-      "full_name": "H. London",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37086998757",
-      "id": 37086998757,
-      "full_name": "T. Giuffrida",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091355",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091355",
-   "html_url": "https://ieeexplore.ieee.org/document/1091355/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091355/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23779,
-   "publication_year": 1983,
-   "publication_date": "March 1983",
-   "start_page": "25",
-   "end_page": "29",
-   "citing_paper_count": 4,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Communication switching",
-      "Protection switching",
-      "Telephony",
-      "Telegraphy",
-      "Communication system control",
-      "Meeting services",
-      "Bandwidth",
-      "Monitoring",
-      "Urban areas",
-      "Satellites"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091391",
-   "title": "Implementation and performance of survivable computer communication with autonomous decentralized control",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 106,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "MITRE Corp., Bedford, MA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37282635700",
-      "id": 37282635700,
-      "full_name": "K. Brayer",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091391",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091391",
-   "html_url": "https://ieeexplore.ieee.org/document/1091391/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091391/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23781,
-   "publication_year": 1983,
-   "publication_date": "July 1983",
-   "start_page": "34",
-   "end_page": "41",
-   "citing_paper_count": 6,
-   "citing_patent_count": 51,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Distributed control",
-      "Computer networks",
-      "Routing",
-      "Packet switching",
-      "Switches",
-      "Integrated circuit interconnections",
-      "Communication switching",
-      "Command and control systems"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091402",
-   "title": "Low probability of intercept",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 121,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "RCA Aerospace Communications and Control Div., Camden, NJ, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37978492700",
-      "id": 37978492700,
-      "full_name": "A. Glenn",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091402",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091402",
-   "html_url": "https://ieeexplore.ieee.org/document/1091402/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091402/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23781,
-   "publication_year": 1983,
-   "publication_date": "July 1983",
-   "start_page": "26",
-   "end_page": "33",
-   "citing_paper_count": 20,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Underwater vehicles",
-      "Performance analysis",
-      "Artificial satellites",
-      "Aircraft",
-      "Satellite communication",
-      "Signal processing",
-      "Marine vehicles"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091386",
-   "title": "Military/government digital switching systems",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 129,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "GTE Products, Inc., MA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37418739500",
-      "id": 37418739500,
-      "full_name": "M. Ross",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091386",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091386",
-   "html_url": "https://ieeexplore.ieee.org/document/1091386/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091386/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23780,
-   "publication_year": 1983,
-   "publication_date": "May 1983",
-   "start_page": "18",
-   "end_page": "25",
-   "citing_paper_count": 1,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Switching systems",
-      "Telecommunication traffic",
-      "Switching circuits",
-      "Military communication",
-      "Investments",
-      "Telephony",
-      "Security"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091481",
-   "title": "Minimum-shift keyed modem implementations for high data rates",
-   "publisher": "IEEE",
-   "issue": "7",
-   "issn": "1558-1896",
-   "rank": 130,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "University of Colorado, Colorado Springs, CO, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37301033700",
-      "id": 37301033700,
-      "full_name": "R. Ziemer",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37288092900",
-      "id": 37288092900,
-      "full_name": "C. Ryan",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091481",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091481",
-   "html_url": "https://ieeexplore.ieee.org/document/1091481/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091481/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23784,
-   "publication_year": 1983,
-   "publication_date": "October 1983",
-   "start_page": "28",
-   "end_page": "37",
-   "citing_paper_count": 19,
-   "citing_patent_count": 2,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Modems",
-      "Demodulation",
-      "Quadrature phase shift keying",
-      "Time division multiple access",
-      "Bandwidth",
-      "Artificial satellites",
-      "Binary phase shift keying",
-      "Downlink",
-      "Satellite antennas"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091425",
-   "title": "Multiple-Bit-Rate synchronous terminals towards ISDN",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 131,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Yokusha Electrical Communication Laboratory",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087282095",
-      "id": 37087282095,
-      "full_name": "K. Aihara",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37089093708",
-      "id": 37089093708,
-      "full_name": "K. Kikuchi",
-      "author_order": 2
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087283302",
-      "id": 37087283302,
-      "full_name": "H. Yamaguchi",
-      "author_order": 3
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091425",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091425",
-   "html_url": "https://ieeexplore.ieee.org/document/1091425/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091425/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23782,
-   "publication_year": 1983,
-   "publication_date": "August 1983",
-   "start_page": "45",
-   "end_page": "50",
-   "citing_paper_count": 1,
-   "citing_patent_count": 2,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "ISDN",
-      "Telephony",
-      "Costs",
-      "Multiplexing",
-      "Circuit testing",
-      "Intserv networks",
-      "Digital systems"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091383",
-   "title": "Orbital efficiency through satellite digital switching",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 150,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Space Communications Company, Gaithersburg, MD, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37974617500",
-      "id": 37974617500,
-      "full_name": "T. Scarcella",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087441613",
-      "id": 37087441613,
-      "full_name": "R. Abbott",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091383",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091383",
-   "html_url": "https://ieeexplore.ieee.org/document/1091383/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091383/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23780,
-   "publication_year": 1983,
-   "publication_date": "May 1983",
-   "start_page": "38",
-   "end_page": "46",
-   "citing_paper_count": 10,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Time division multiple access",
-      "Frequency conversion",
-      "Artificial satellites",
-      "Radio spectrum management",
-      "Frequency division multiaccess",
-      "Transponders",
-      "Bandwidth",
-      "Frequency synchronization",
-      "Satellite antennas"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091384",
-   "title": "Public digital switching systems",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 160,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "MIT, Cambridge, MA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37322053500",
-      "id": 37322053500,
-      "full_name": "A. Joel",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091384",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091384",
-   "html_url": "https://ieeexplore.ieee.org/document/1091384/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091384/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23780,
-   "publication_year": 1983,
-   "publication_date": "May 1983",
-   "start_page": "6",
-   "end_page": "10",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Switching systems",
-      "Switching circuits",
-      "Time division multiplexing",
-      "Telecommunication switching",
-      "Telephony",
-      "Buffer storage",
-      "Communication switching"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091322",
-   "title": "Robust signal processing for communication systems",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 161,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Univ. of Pennsylvania, Philadelphia, PA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37285118500",
-      "id": 37285118500,
-      "full_name": "S. Kassam",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/38558600000",
-      "id": 38558600000,
-      "full_name": "H. Poor",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091322",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091322",
-   "html_url": "https://ieeexplore.ieee.org/document/1091322/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091322/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23778,
-   "publication_year": 1983,
-   "publication_date": "January 1983",
-   "start_page": "20",
-   "end_page": "28",
-   "citing_paper_count": 31,
-   "citing_patent_count": 2,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Robustness",
-      "Signal processing",
-      "Minimax techniques",
-      "Signal design",
-      "Power system modeling",
-      "Signal to noise ratio",
-      "Additive noise",
-      "Statistics"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091512",
-   "title": "Selected military applications of automatic speech recognition technology",
-   "publisher": "IEEE",
-   "issue": "9",
-   "issn": "1558-1896",
-   "rank": 162,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Voice Control Systems Inc., Dallas, TX",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088194394",
-      "id": 37088194394,
-      "full_name": "J. Woodard",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37374127400",
-      "id": 37374127400,
-      "full_name": "E. Cupples",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091512",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091512",
-   "html_url": "https://ieeexplore.ieee.org/document/1091512/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091512/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23786,
-   "publication_year": 1983,
-   "publication_date": "December 1983",
-   "start_page": "35",
-   "end_page": "41",
-   "citing_paper_count": 6,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Automatic speech recognition",
-      "Military computing",
-      "Speech recognition",
-      "Application software",
-      "Space technology",
-      "Command and control systems",
-      "Communication system control"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091444",
-   "title": "Semiconductor optoelectronic devices for free-space optical communications",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 163,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Jet Propulsion Laboratory, Pasadena, CA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37386879800",
-      "id": 37386879800,
-      "full_name": "J. Katz",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "LIGHT emitting devices based AlGaAs lasers are very useful radiation sources in free-space opticalcommunications systems. Following a brief review of the properties of individual injection lasers, more complex devices are described. These include (or are relevant to) monolithic integration configurations of the lasers with their electronic driving circuitry, power combining methods of semiconductor lasers, and electronic methods of steering the radiation patterns of semiconductor lasers and laser arrays. Fabrication of such devices is one of the major prerequisites for realizing fully the potential advantages of free-space optical communications.",
-   "article_number": "1091444",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091444",
-   "html_url": "https://ieeexplore.ieee.org/document/1091444/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091444/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23783,
-   "publication_year": 1983,
-   "publication_date": "September 1983",
-   "start_page": "20",
-   "end_page": "27",
-   "citing_paper_count": 4,
-   "citing_patent_count": 6,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Optoelectronic devices",
-      "Optical fiber communication",
-      "Semiconductor laser arrays",
-      "Power lasers",
-      "Semiconductor lasers",
-      "Stimulated emission",
-      "Optical devices",
-      "Monolithic integrated circuits",
-      "Optical arrays",
-      "Optical device fabrication"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "laser",
-     "value": 0.45883146774112354
+      "doi": "10.1109/MCOM.1983.1091367",
+      "title": "Digital switching in local area networks",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 76,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Contel Information Systems",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088189579",
+            "id": 37088189579,
+            "full_name": "T. Lissack",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37282220900",
+            "id": 37282220900,
+            "full_name": "B. Maglaris",
+            "author_order": 2
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37388709500",
+            "id": 37388709500,
+            "full_name": "I. Frisch",
+            "author_order": 3
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091367",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091367",
+      "html_url": "https://ieeexplore.ieee.org/document/1091367/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091367/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23780,
+      "publication_year": 1983,
+      "publication_date": "May 1983",
+      "start_page": "26",
+      "end_page": "37",
+      "citing_paper_count": 7,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Local area networks",
+            "Packet switching",
+            "Switching circuits",
+            "Communication switching",
+            "Resource management",
+            "Microprocessors",
+            "Bandwidth",
+            "Communication system control"
+          ]
+        }
+      }
     },
     {
-     "keyword": "device",
-     "value": 0.22941573387056177
+      "doi": "10.1109/MCOM.1983.1091351",
+      "title": "FCC Testimony",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 89,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Northern Electric Company Ltd.,Ottawa, Ont., Canada",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088288471",
+            "id": 37088288471,
+            "full_name": "S. Karp",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091351",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091351",
+      "html_url": "https://ieeexplore.ieee.org/document/1091351/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091351/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23779,
+      "publication_year": 1983,
+      "publication_date": "March 1983",
+      "start_page": "59",
+      "end_page": "63",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "FCC",
+            "Spread spectrum communication",
+            "Wideband",
+            "Multiple access interference",
+            "Interference constraints"
+          ]
+        }
+      }
     },
     {
-     "keyword": "electronic",
-     "value": 0.1529438225803745
+      "doi": "10.1109/MCOM.1983.1091435",
+      "title": "FET technology for low-noise front ends",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 90,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "SRI Int., Menlo Park, CA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37287309400",
+            "id": 37287309400,
+            "full_name": "J. Arnold",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091435",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091435",
+      "html_url": "https://ieeexplore.ieee.org/document/1091435/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091435/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23783,
+      "publication_year": 1983,
+      "publication_date": "September 1983",
+      "start_page": "37",
+      "end_page": "42",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "FETs",
+            "MESFETs",
+            "Substrates",
+            "Noise figure",
+            "Electron mobility",
+            "Conductivity"
+          ]
+        }
+      }
     },
     {
-     "keyword": "free",
-     "value": 0.1529438225803745
+      "doi": "10.1109/MCOM.1983.1091347",
+      "title": "Filtering and equalization for digital transmission",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 91,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "AT&T Bell Lab., Andover, MA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37424465700",
+            "id": 37424465700,
+            "full_name": "T. Aprille",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091347",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091347",
+      "html_url": "https://ieeexplore.ieee.org/document/1091347/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091347/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23779,
+      "publication_year": 1983,
+      "publication_date": "March 1983",
+      "start_page": "17",
+      "end_page": "24",
+      "citing_paper_count": 4,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Digital filters",
+            "Filtering",
+            "Baseband",
+            "Coaxial cables",
+            "Digital modulation",
+            "Equalizers",
+            "Frequency modulation",
+            "Band pass filters"
+          ]
+        }
+      }
     },
     {
-     "keyword": "free space",
-     "value": 0.1529438225803745
-    }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091418",
-   "title": "Some recent advances in radio communications",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 171,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "GTE Lenkurt and chairman of Radio Communications Committee",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087978910",
-      "id": 37087978910,
-      "full_name": "A. Walker",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091418",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091418",
-   "html_url": "https://ieeexplore.ieee.org/document/1091418/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091418/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23782,
-   "publication_year": 1983,
-   "publication_date": "August 1983",
-   "start_page": "51",
-   "end_page": "53",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Radio communication",
-      "Microwave technology",
-      "Microwave devices",
-      "Diversity reception",
-      "Microwave communication",
-      "Bit error rate",
-      "Phase change materials",
-      "Adaptive equalizers"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091411",
-   "title": "Strategic/tactical interface connectivity",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 172,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "National Communications Security Committee",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087981077",
-      "id": 37087981077,
-      "full_name": "E. Edwards",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091411",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091411",
-   "html_url": "https://ieeexplore.ieee.org/document/1091411/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091411/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23781,
-   "publication_year": 1983,
-   "publication_date": "July 1983",
-   "start_page": "6",
-   "end_page": "9",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Communication switching",
-      "Information processing",
-      "Information systems",
-      "Large-scale systems",
-      "Computer displays",
-      "Military communication",
-      "Strategic planning",
-      "Degradation"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091329",
-   "title": "Switched digital capability: An overview",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 173,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bell Labs., North Andover, Mass., USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37974656200",
-      "id": 37974656200,
-      "full_name": "F. Kelcourse",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087536215",
-      "id": 37087536215,
-      "full_name": "E. Siegel",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "abstract": "SDC (Switched Digital Capability) allows end-to-end circuit-switched 56 kb/s data over much of the existing Bell System Network. Since SDC is based largely on the stored program-controlled space and time-division switches, 2-wire local loops, and T-carrier facilities that are already deployed in the network, it can be realized with minimum modification to the existing network. SDC is expected to play a major role in the evolution of the present network to the ISDN (Integrated Services Digital Network) of the future.",
-   "article_number": "1091329",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091329",
-   "html_url": "https://ieeexplore.ieee.org/document/1091329/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091329/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23778,
-   "publication_year": 1983,
-   "publication_date": "January 1983",
-   "start_page": "29",
-   "end_page": "31",
-   "citing_paper_count": 4,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Electronic switching systems",
-      "ISDN",
-      "Repeaters",
-      "Channel bank filters",
-      "Large-scale systems",
-      "Communication switching",
-      "Switching circuits",
-      "Telecommunication switching"
-     ]
-    }
-   },
-   "keywords": [
-    {
-     "keyword": "network",
-     "value": 0.41522739926869984
+      "doi": "10.1109/MCOM.1983.1091318",
+      "title": "Forward error correction schemes for digital communications",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 92,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Univ. of Victoria, B.C., Canada",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37272741500",
+            "id": 37272741500,
+            "full_name": "V. Bhargava",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091318",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091318",
+      "html_url": "https://ieeexplore.ieee.org/document/1091318/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091318/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23778,
+      "publication_year": 1983,
+      "publication_date": "January 1983",
+      "start_page": "11",
+      "end_page": "19",
+      "citing_paper_count": 26,
+      "citing_patent_count": 12,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Forward error correction",
+            "Digital communication",
+            "Convolutional codes",
+            "Error correction codes",
+            "Phase shift keying",
+            "Automatic repeat request",
+            "Block codes",
+            "Linear code"
+          ]
+        }
+      }
     },
     {
-     "keyword": "sdc",
-     "value": 0.2491364395612199
+      "doi": "10.1109/MCOM.1983.1091451",
+      "title": "GTD-5 EAX hardware overview",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 97,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "GTD 5 EAX network and peripheral hardware development group, Phoenix",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087978337",
+            "id": 37087978337,
+            "full_name": "S. Magnusson",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087981538",
+            "id": 37087981538,
+            "full_name": "W. Jinbo",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091451",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091451",
+      "html_url": "https://ieeexplore.ieee.org/document/1091451/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091451/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23783,
+      "publication_year": 1983,
+      "publication_date": "September 1983",
+      "start_page": "6",
+      "end_page": "12",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Hardware",
+            "Centralized control",
+            "Process control",
+            "Switching systems",
+            "Carbon capture and storage",
+            "Integrated circuit interconnections",
+            "Computer peripherals",
+            "Control equipment",
+            "Distributed processing"
+          ]
+        }
+      }
     },
     {
-     "keyword": "digital",
-     "value": 0.16609095970747995
+      "doi": "10.1109/MCOM.1983.1091355",
+      "title": "High speed switched digital service",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 102,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "American Bell, Inc., Parsippany, NJ, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087293332",
+            "id": 37087293332,
+            "full_name": "H. London",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37086998757",
+            "id": 37086998757,
+            "full_name": "T. Giuffrida",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091355",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091355",
+      "html_url": "https://ieeexplore.ieee.org/document/1091355/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091355/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23779,
+      "publication_year": 1983,
+      "publication_date": "March 1983",
+      "start_page": "25",
+      "end_page": "29",
+      "citing_paper_count": 4,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Communication switching",
+            "Protection switching",
+            "Telephony",
+            "Telegraphy",
+            "Communication system control",
+            "Meeting services",
+            "Bandwidth",
+            "Monitoring",
+            "Urban areas",
+            "Satellites"
+          ]
+        }
+      }
     },
     {
-     "keyword": "end",
-     "value": 0.16609095970747995
+      "doi": "10.1109/MCOM.1983.1091391",
+      "title": "Implementation and performance of survivable computer communication with autonomous decentralized control",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 106,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "MITRE Corp., Bedford, MA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37282635700",
+            "id": 37282635700,
+            "full_name": "K. Brayer",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091391",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091391",
+      "html_url": "https://ieeexplore.ieee.org/document/1091391/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091391/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23781,
+      "publication_year": 1983,
+      "publication_date": "July 1983",
+      "start_page": "34",
+      "end_page": "41",
+      "citing_paper_count": 6,
+      "citing_patent_count": 51,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Distributed control",
+            "Computer networks",
+            "Routing",
+            "Packet switching",
+            "Switches",
+            "Integrated circuit interconnections",
+            "Communication switching",
+            "Command and control systems"
+          ]
+        }
+      }
     },
     {
-     "keyword": "exist",
-     "value": 0.16609095970747995
+      "doi": "10.1109/MCOM.1983.1091402",
+      "title": "Low probability of intercept",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 121,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "RCA Aerospace Communications and Control Div., Camden, NJ, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37978492700",
+            "id": 37978492700,
+            "full_name": "A. Glenn",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091402",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091402",
+      "html_url": "https://ieeexplore.ieee.org/document/1091402/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091402/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23781,
+      "publication_year": 1983,
+      "publication_date": "July 1983",
+      "start_page": "26",
+      "end_page": "33",
+      "citing_paper_count": 20,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Underwater vehicles",
+            "Performance analysis",
+            "Artificial satellites",
+            "Aircraft",
+            "Satellite communication",
+            "Signal processing",
+            "Marine vehicles"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091386",
+      "title": "Military/government digital switching systems",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 129,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "GTE Products, Inc., MA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37418739500",
+            "id": 37418739500,
+            "full_name": "M. Ross",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091386",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091386",
+      "html_url": "https://ieeexplore.ieee.org/document/1091386/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091386/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23780,
+      "publication_year": 1983,
+      "publication_date": "May 1983",
+      "start_page": "18",
+      "end_page": "25",
+      "citing_paper_count": 1,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Switching systems",
+            "Telecommunication traffic",
+            "Switching circuits",
+            "Military communication",
+            "Investments",
+            "Telephony",
+            "Security"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091481",
+      "title": "Minimum-shift keyed modem implementations for high data rates",
+      "publisher": "IEEE",
+      "issue": "7",
+      "issn": "1558-1896",
+      "rank": 130,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "University of Colorado, Colorado Springs, CO, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37301033700",
+            "id": 37301033700,
+            "full_name": "R. Ziemer",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37288092900",
+            "id": 37288092900,
+            "full_name": "C. Ryan",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091481",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091481",
+      "html_url": "https://ieeexplore.ieee.org/document/1091481/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091481/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23784,
+      "publication_year": 1983,
+      "publication_date": "October 1983",
+      "start_page": "28",
+      "end_page": "37",
+      "citing_paper_count": 19,
+      "citing_patent_count": 2,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Modems",
+            "Demodulation",
+            "Quadrature phase shift keying",
+            "Time division multiple access",
+            "Bandwidth",
+            "Artificial satellites",
+            "Binary phase shift keying",
+            "Downlink",
+            "Satellite antennas"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091425",
+      "title": "Multiple-Bit-Rate synchronous terminals towards ISDN",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 131,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Yokusha Electrical Communication Laboratory",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087282095",
+            "id": 37087282095,
+            "full_name": "K. Aihara",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37089093708",
+            "id": 37089093708,
+            "full_name": "K. Kikuchi",
+            "author_order": 2
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087283302",
+            "id": 37087283302,
+            "full_name": "H. Yamaguchi",
+            "author_order": 3
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091425",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091425",
+      "html_url": "https://ieeexplore.ieee.org/document/1091425/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091425/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23782,
+      "publication_year": 1983,
+      "publication_date": "August 1983",
+      "start_page": "45",
+      "end_page": "50",
+      "citing_paper_count": 1,
+      "citing_patent_count": 2,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "ISDN",
+            "Telephony",
+            "Costs",
+            "Multiplexing",
+            "Circuit testing",
+            "Intserv networks",
+            "Digital systems"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091383",
+      "title": "Orbital efficiency through satellite digital switching",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 150,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Space Communications Company, Gaithersburg, MD, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37974617500",
+            "id": 37974617500,
+            "full_name": "T. Scarcella",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087441613",
+            "id": 37087441613,
+            "full_name": "R. Abbott",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091383",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091383",
+      "html_url": "https://ieeexplore.ieee.org/document/1091383/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091383/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23780,
+      "publication_year": 1983,
+      "publication_date": "May 1983",
+      "start_page": "38",
+      "end_page": "46",
+      "citing_paper_count": 10,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Time division multiple access",
+            "Frequency conversion",
+            "Artificial satellites",
+            "Radio spectrum management",
+            "Frequency division multiaccess",
+            "Transponders",
+            "Bandwidth",
+            "Frequency synchronization",
+            "Satellite antennas"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091384",
+      "title": "Public digital switching systems",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 160,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "MIT, Cambridge, MA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37322053500",
+            "id": 37322053500,
+            "full_name": "A. Joel",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091384",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091384",
+      "html_url": "https://ieeexplore.ieee.org/document/1091384/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091384/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23780,
+      "publication_year": 1983,
+      "publication_date": "May 1983",
+      "start_page": "6",
+      "end_page": "10",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Switching systems",
+            "Switching circuits",
+            "Time division multiplexing",
+            "Telecommunication switching",
+            "Telephony",
+            "Buffer storage",
+            "Communication switching"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091322",
+      "title": "Robust signal processing for communication systems",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 161,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Univ. of Pennsylvania, Philadelphia, PA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37285118500",
+            "id": 37285118500,
+            "full_name": "S. Kassam",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/38558600000",
+            "id": 38558600000,
+            "full_name": "H. Poor",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091322",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091322",
+      "html_url": "https://ieeexplore.ieee.org/document/1091322/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091322/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23778,
+      "publication_year": 1983,
+      "publication_date": "January 1983",
+      "start_page": "20",
+      "end_page": "28",
+      "citing_paper_count": 31,
+      "citing_patent_count": 2,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Robustness",
+            "Signal processing",
+            "Minimax techniques",
+            "Signal design",
+            "Power system modeling",
+            "Signal to noise ratio",
+            "Additive noise",
+            "Statistics"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091512",
+      "title": "Selected military applications of automatic speech recognition technology",
+      "publisher": "IEEE",
+      "issue": "9",
+      "issn": "1558-1896",
+      "rank": 162,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Voice Control Systems Inc., Dallas, TX",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088194394",
+            "id": 37088194394,
+            "full_name": "J. Woodard",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37374127400",
+            "id": 37374127400,
+            "full_name": "E. Cupples",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091512",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091512",
+      "html_url": "https://ieeexplore.ieee.org/document/1091512/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091512/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23786,
+      "publication_year": 1983,
+      "publication_date": "December 1983",
+      "start_page": "35",
+      "end_page": "41",
+      "citing_paper_count": 6,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Automatic speech recognition",
+            "Military computing",
+            "Speech recognition",
+            "Application software",
+            "Space technology",
+            "Command and control systems",
+            "Communication system control"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091444",
+      "title": "Semiconductor optoelectronic devices for free-space optical communications",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 163,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Jet Propulsion Laboratory, Pasadena, CA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37386879800",
+            "id": 37386879800,
+            "full_name": "J. Katz",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "LIGHT emitting devices based AlGaAs lasers are very useful radiation sources in free-space opticalcommunications systems. Following a brief review of the properties of individual injection lasers, more complex devices are described. These include (or are relevant to) monolithic integration configurations of the lasers with their electronic driving circuitry, power combining methods of semiconductor lasers, and electronic methods of steering the radiation patterns of semiconductor lasers and laser arrays. Fabrication of such devices is one of the major prerequisites for realizing fully the potential advantages of free-space optical communications.",
+      "article_number": "1091444",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091444",
+      "html_url": "https://ieeexplore.ieee.org/document/1091444/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091444/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23783,
+      "publication_year": 1983,
+      "publication_date": "September 1983",
+      "start_page": "20",
+      "end_page": "27",
+      "citing_paper_count": 4,
+      "citing_patent_count": 6,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Optoelectronic devices",
+            "Optical fiber communication",
+            "Semiconductor laser arrays",
+            "Power lasers",
+            "Semiconductor lasers",
+            "Stimulated emission",
+            "Optical devices",
+            "Monolithic integrated circuits",
+            "Optical arrays",
+            "Optical device fabrication"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "laser",
+          "value": 0.45883146774112354
+        },
+        {
+          "keyword": "device",
+          "value": 0.22941573387056177
+        },
+        {
+          "keyword": "electronic",
+          "value": 0.1529438225803745
+        },
+        {
+          "keyword": "free",
+          "value": 0.1529438225803745
+        },
+        {
+          "keyword": "free space",
+          "value": 0.1529438225803745
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091418",
+      "title": "Some recent advances in radio communications",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 171,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "GTE Lenkurt and chairman of Radio Communications Committee",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087978910",
+            "id": 37087978910,
+            "full_name": "A. Walker",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091418",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091418",
+      "html_url": "https://ieeexplore.ieee.org/document/1091418/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091418/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23782,
+      "publication_year": 1983,
+      "publication_date": "August 1983",
+      "start_page": "51",
+      "end_page": "53",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Radio communication",
+            "Microwave technology",
+            "Microwave devices",
+            "Diversity reception",
+            "Microwave communication",
+            "Bit error rate",
+            "Phase change materials",
+            "Adaptive equalizers"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091411",
+      "title": "Strategic/tactical interface connectivity",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 172,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "National Communications Security Committee",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087981077",
+            "id": 37087981077,
+            "full_name": "E. Edwards",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091411",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091411",
+      "html_url": "https://ieeexplore.ieee.org/document/1091411/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091411/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23781,
+      "publication_year": 1983,
+      "publication_date": "July 1983",
+      "start_page": "6",
+      "end_page": "9",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Communication switching",
+            "Information processing",
+            "Information systems",
+            "Large-scale systems",
+            "Computer displays",
+            "Military communication",
+            "Strategic planning",
+            "Degradation"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091329",
+      "title": "Switched digital capability: An overview",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 173,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bell Labs., North Andover, Mass., USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37974656200",
+            "id": 37974656200,
+            "full_name": "F. Kelcourse",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087536215",
+            "id": 37087536215,
+            "full_name": "E. Siegel",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "abstract": "SDC (Switched Digital Capability) allows end-to-end circuit-switched 56 kb/s data over much of the existing Bell System Network. Since SDC is based largely on the stored program-controlled space and time-division switches, 2-wire local loops, and T-carrier facilities that are already deployed in the network, it can be realized with minimum modification to the existing network. SDC is expected to play a major role in the evolution of the present network to the ISDN (Integrated Services Digital Network) of the future.",
+      "article_number": "1091329",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091329",
+      "html_url": "https://ieeexplore.ieee.org/document/1091329/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091329/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23778,
+      "publication_year": 1983,
+      "publication_date": "January 1983",
+      "start_page": "29",
+      "end_page": "31",
+      "citing_paper_count": 4,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Electronic switching systems",
+            "ISDN",
+            "Repeaters",
+            "Channel bank filters",
+            "Large-scale systems",
+            "Communication switching",
+            "Switching circuits",
+            "Telecommunication switching"
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "keyword": "network",
+          "value": 0.41522739926869984
+        },
+        {
+          "keyword": "sdc",
+          "value": 0.2491364395612199
+        },
+        {
+          "keyword": "digital",
+          "value": 0.16609095970747995
+        },
+        {
+          "keyword": "end",
+          "value": 0.16609095970747995
+        },
+        {
+          "keyword": "exist",
+          "value": 0.16609095970747995
+        }
+      ]
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091520",
+      "title": "Technology for tomorrow",
+      "publisher": "IEEE",
+      "issue": "9",
+      "issn": "1558-1896",
+      "rank": 174,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bell Laboratories, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37609532700",
+            "id": 37609532700,
+            "full_name": "I. Ross",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091520",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091520",
+      "html_url": "https://ieeexplore.ieee.org/document/1091520/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091520/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23786,
+      "publication_year": 1983,
+      "publication_date": "December 1983",
+      "start_page": "42",
+      "end_page": "45",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Microelectronics",
+            "Josephson junctions",
+            "Communication industry",
+            "Photonics",
+            "Pervasive computing"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091523",
+      "title": "Text independent speaker recognition",
+      "publisher": "IEEE",
+      "issue": "9",
+      "issn": "1558-1896",
+      "rank": 175,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "GTE Sylvania, Mountain View, CA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088195045",
+            "id": 37088195045,
+            "full_name": "J. Foil",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37275766500",
+            "id": 37275766500,
+            "full_name": "D. Johnson",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091523",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091523",
+      "html_url": "https://ieeexplore.ieee.org/document/1091523/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091523/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23786,
+      "publication_year": 1983,
+      "publication_date": "December 1983",
+      "start_page": "22",
+      "end_page": "25",
+      "citing_paper_count": 2,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Speaker recognition",
+            "Magnetic separation",
+            "Magnetic materials",
+            "Information security",
+            "Military communication",
+            "Monitoring",
+            "Radio communication"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091500",
+      "title": "The competitive potential of cellular mobile telecommunications",
+      "publisher": "IEEE",
+      "issue": "8",
+      "issn": "1558-1896",
+      "rank": 176,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "National Economic Research Associates, Inc.",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088195846",
+            "id": 37088195846,
+            "full_name": "H. Ware",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091500",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091500",
+      "html_url": "https://ieeexplore.ieee.org/document/1091500/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091500/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23785,
+      "publication_year": 1983,
+      "publication_date": "November 1983",
+      "start_page": "16",
+      "end_page": "23",
+      "citing_paper_count": 3,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Telephony",
+            "FCC",
+            "Broadcasting",
+            "Land mobile radio",
+            "Cellular radio",
+            "Base stations",
+            "Privacy",
+            "Land mobile radio cellular systems",
+            "Auditory system"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091354",
+      "title": "The design of picturephone meeting service conference centers for video teleconferencing",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 177,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bell Laboratories, Holmdel, N.J.",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088113889",
+            "id": 37088113889,
+            "full_name": "B. Wright",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091354",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091354",
+      "html_url": "https://ieeexplore.ieee.org/document/1091354/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091354/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23779,
+      "publication_year": 1983,
+      "publication_date": "March 1983",
+      "start_page": "30",
+      "end_page": "36",
+      "citing_paper_count": 7,
+      "citing_patent_count": 12,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Meeting services",
+            "Videoconference",
+            "Teleconferencing",
+            "Signal processing",
+            "Video compression",
+            "Control systems",
+            "Acoustic noise",
+            "Electric variables control"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091319",
+      "title": "The early history of the binary code",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 178,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Technical University, Aachen, Germany",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087540234",
+            "id": 37087540234,
+            "full_name": "V. Aschoff",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "PROMOTIONAL",
+      "content_type": "Magazines",
+      "article_number": "1091319",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091319",
+      "html_url": "https://ieeexplore.ieee.org/document/1091319/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091319/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23778,
+      "publication_year": 1983,
+      "publication_date": "January 1983",
+      "start_page": "4",
+      "end_page": "10",
+      "citing_paper_count": 3,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "History",
+            "Binary codes",
+            "Algebra",
+            "Telegraphy",
+            "Acoustical engineering",
+            "Communications technology"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091365",
+      "title": "Trends in digital switching system architectures",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 180,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Musashino Electrical Comm. Lab., NTT, Tokyo, Japan",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088017858",
+            "id": 37088017858,
+            "full_name": "M. Kajiwara",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091365",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091365",
+      "html_url": "https://ieeexplore.ieee.org/document/1091365/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091365/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23780,
+      "publication_year": 1983,
+      "publication_date": "May 1983",
+      "start_page": "47",
+      "end_page": "52",
+      "citing_paper_count": 1,
+      "citing_patent_count": 3,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Switching systems",
+            "Computer architecture",
+            "Signal processing",
+            "Large scale integration",
+            "Control systems",
+            "Electronic switching systems",
+            "ISDN",
+            "Signal detection"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091427",
+      "title": "Undersea cables for telephony",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 190,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bell Laboratories",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087981861",
+            "id": 37087981861,
+            "full_name": "R. Ehrbar",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091427",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091427",
+      "html_url": "https://ieeexplore.ieee.org/document/1091427/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091427/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23782,
+      "publication_year": 1983,
+      "publication_date": "August 1983",
+      "start_page": "18",
+      "end_page": "27",
+      "citing_paper_count": 2,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Repeaters",
+            "Communication cables",
+            "Underwater vehicles",
+            "Underwater communication",
+            "Telephony"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091417",
+      "title": "User-Oriented performance measurements on the ARPANET",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 191,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "National Telecommunications and Information Administration, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37366738200",
+            "id": 37366738200,
+            "full_name": "N. Seitz",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37376362900",
+            "id": 37376362900,
+            "full_name": "D. Wortendyke",
+            "author_order": 2
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37089044700",
+            "id": 37089044700,
+            "full_name": "K. Spies",
+            "author_order": 3
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091417",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091417",
+      "html_url": "https://ieeexplore.ieee.org/document/1091417/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091417/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23782,
+      "publication_year": 1983,
+      "publication_date": "August 1983",
+      "start_page": "28",
+      "end_page": "34",
+      "citing_paper_count": 8,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "ARPANET",
+            "Measurement standards",
+            "Data communication",
+            "Communication standards",
+            "NIST",
+            "Computer networks",
+            "Standards development",
+            "Telecommunication standards",
+            "Telecommunication computing"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091516",
+      "title": "Vector quantization: A pattern-matching technique for speech coding",
+      "publisher": "IEEE",
+      "issue": "9",
+      "issn": "1558-1896",
+      "rank": 192,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37281163500",
+            "id": 37281163500,
+            "full_name": "A. Gersho",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37284485700",
+            "id": 37284485700,
+            "full_name": "V. Cuperman",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091516",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091516",
+      "html_url": "https://ieeexplore.ieee.org/document/1091516/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091516/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23786,
+      "publication_year": 1983,
+      "publication_date": "December 1983",
+      "start_page": "15",
+      "end_page": "21",
+      "citing_paper_count": 130,
+      "citing_patent_count": 7,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Vector quantization",
+            "Speech coding",
+            "Phase change materials",
+            "Pattern matching",
+            "Speech analysis",
+            "Speech synthesis",
+            "Linear predictive coding",
+            "Source coding",
+            "Speech codecs"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091392",
+      "title": "Viewpoints on control of military satellite communications",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 193,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Stanford Telecommunications, Inc.",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087440218",
+            "id": 37087440218,
+            "full_name": "S. Heppe",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091392",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091392",
+      "html_url": "https://ieeexplore.ieee.org/document/1091392/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091392/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23781,
+      "publication_year": 1983,
+      "publication_date": "July 1983",
+      "start_page": "10",
+      "end_page": "18",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Communication system control",
+            "Military satellites",
+            "Control systems",
+            "Distributed control",
+            "Automatic control",
+            "Communication standards",
+            "Control system synthesis",
+            "Military standards"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091525",
+      "title": "Voice channel echo cancellation",
+      "publisher": "IEEE",
+      "issue": "9",
+      "issn": "1558-1896",
+      "rank": 194,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "AT&T International",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088195913",
+            "id": 37088195913,
+            "full_name": "G. Fang",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091525",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091525",
+      "html_url": "https://ieeexplore.ieee.org/document/1091525/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091525/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23786,
+      "publication_year": 1983,
+      "publication_date": "December 1983",
+      "start_page": "11",
+      "end_page": "14",
+      "citing_paper_count": 3,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Echo cancellers",
+            "Detectors",
+            "Signal synthesis",
+            "Hybrid power systems",
+            "Circuit testing",
+            "Network synthesis",
+            "Speech synthesis",
+            "Signal generators"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091521",
+      "title": "Voice message systems",
+      "publisher": "IEEE",
+      "issue": "9",
+      "issn": "1558-1896",
+      "rank": 195,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "McGill Univ., Montreal, Que., Canada",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37273263000",
+            "id": 37273263000,
+            "full_name": "P. Mermelstein",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091521",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091521",
+      "html_url": "https://ieeexplore.ieee.org/document/1091521/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091521/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23786,
+      "publication_year": 1983,
+      "publication_date": "December 1983",
+      "start_page": "8",
+      "end_page": "10",
+      "citing_paper_count": 1,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Message systems",
+            "Communication systems",
+            "Real time systems",
+            "Memory management",
+            "Object recognition",
+            "Oral communication",
+            "Speech processing"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1983.1091406",
+      "title": "Why is the army interested in spread spectrum?",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 196,
+      "volume": "21",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "CECOM Space & Terrestrial Communications Directorate, Fort Monmouth, NJ, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37388943800",
+            "id": 37388943800,
+            "full_name": "P. Sass",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091406",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091406",
+      "html_url": "https://ieeexplore.ieee.org/document/1091406/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091406/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23781,
+      "publication_year": 1983,
+      "publication_date": "July 1983",
+      "start_page": "23",
+      "end_page": "25",
+      "citing_paper_count": 10,
+      "citing_patent_count": 1,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Spread spectrum communication",
+            "Jamming",
+            "Electronic countermeasures",
+            "Signal to noise ratio",
+            "Counting circuits",
+            "Multiaccess communication",
+            "Wideband"
+          ]
+        }
+      }
     }
-   ]
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091520",
-   "title": "Technology for tomorrow",
-   "publisher": "IEEE",
-   "issue": "9",
-   "issn": "1558-1896",
-   "rank": 174,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bell Laboratories, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37609532700",
-      "id": 37609532700,
-      "full_name": "I. Ross",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091520",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091520",
-   "html_url": "https://ieeexplore.ieee.org/document/1091520/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091520/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23786,
-   "publication_year": 1983,
-   "publication_date": "December 1983",
-   "start_page": "42",
-   "end_page": "45",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Microelectronics",
-      "Josephson junctions",
-      "Communication industry",
-      "Photonics",
-      "Pervasive computing"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091523",
-   "title": "Text independent speaker recognition",
-   "publisher": "IEEE",
-   "issue": "9",
-   "issn": "1558-1896",
-   "rank": 175,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "GTE Sylvania, Mountain View, CA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088195045",
-      "id": 37088195045,
-      "full_name": "J. Foil",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37275766500",
-      "id": 37275766500,
-      "full_name": "D. Johnson",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091523",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091523",
-   "html_url": "https://ieeexplore.ieee.org/document/1091523/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091523/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23786,
-   "publication_year": 1983,
-   "publication_date": "December 1983",
-   "start_page": "22",
-   "end_page": "25",
-   "citing_paper_count": 2,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Speaker recognition",
-      "Magnetic separation",
-      "Magnetic materials",
-      "Information security",
-      "Military communication",
-      "Monitoring",
-      "Radio communication"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091500",
-   "title": "The competitive potential of cellular mobile telecommunications",
-   "publisher": "IEEE",
-   "issue": "8",
-   "issn": "1558-1896",
-   "rank": 176,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "National Economic Research Associates, Inc.",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088195846",
-      "id": 37088195846,
-      "full_name": "H. Ware",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091500",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091500",
-   "html_url": "https://ieeexplore.ieee.org/document/1091500/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091500/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23785,
-   "publication_year": 1983,
-   "publication_date": "November 1983",
-   "start_page": "16",
-   "end_page": "23",
-   "citing_paper_count": 3,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Telephony",
-      "FCC",
-      "Broadcasting",
-      "Land mobile radio",
-      "Cellular radio",
-      "Base stations",
-      "Privacy",
-      "Land mobile radio cellular systems",
-      "Auditory system"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091354",
-   "title": "The design of picturephone meeting service conference centers for video teleconferencing",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 177,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bell Laboratories, Holmdel, N.J.",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088113889",
-      "id": 37088113889,
-      "full_name": "B. Wright",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091354",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091354",
-   "html_url": "https://ieeexplore.ieee.org/document/1091354/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091354/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23779,
-   "publication_year": 1983,
-   "publication_date": "March 1983",
-   "start_page": "30",
-   "end_page": "36",
-   "citing_paper_count": 7,
-   "citing_patent_count": 12,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Meeting services",
-      "Videoconference",
-      "Teleconferencing",
-      "Signal processing",
-      "Video compression",
-      "Control systems",
-      "Acoustic noise",
-      "Electric variables control"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091319",
-   "title": "The early history of the binary code",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 178,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Technical University, Aachen, Germany",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087540234",
-      "id": 37087540234,
-      "full_name": "V. Aschoff",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "PROMOTIONAL",
-   "content_type": "Magazines",
-   "article_number": "1091319",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091319",
-   "html_url": "https://ieeexplore.ieee.org/document/1091319/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091319/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23778,
-   "publication_year": 1983,
-   "publication_date": "January 1983",
-   "start_page": "4",
-   "end_page": "10",
-   "citing_paper_count": 3,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "History",
-      "Binary codes",
-      "Algebra",
-      "Telegraphy",
-      "Acoustical engineering",
-      "Communications technology"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091365",
-   "title": "Trends in digital switching system architectures",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 180,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Musashino Electrical Comm. Lab., NTT, Tokyo, Japan",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088017858",
-      "id": 37088017858,
-      "full_name": "M. Kajiwara",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091365",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091365",
-   "html_url": "https://ieeexplore.ieee.org/document/1091365/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091365/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23780,
-   "publication_year": 1983,
-   "publication_date": "May 1983",
-   "start_page": "47",
-   "end_page": "52",
-   "citing_paper_count": 1,
-   "citing_patent_count": 3,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Switching systems",
-      "Computer architecture",
-      "Signal processing",
-      "Large scale integration",
-      "Control systems",
-      "Electronic switching systems",
-      "ISDN",
-      "Signal detection"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091427",
-   "title": "Undersea cables for telephony",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 190,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bell Laboratories",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087981861",
-      "id": 37087981861,
-      "full_name": "R. Ehrbar",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091427",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091427",
-   "html_url": "https://ieeexplore.ieee.org/document/1091427/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091427/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23782,
-   "publication_year": 1983,
-   "publication_date": "August 1983",
-   "start_page": "18",
-   "end_page": "27",
-   "citing_paper_count": 2,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Repeaters",
-      "Communication cables",
-      "Underwater vehicles",
-      "Underwater communication",
-      "Telephony"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091417",
-   "title": "User-Oriented performance measurements on the ARPANET",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 191,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "National Telecommunications and Information Administration, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37366738200",
-      "id": 37366738200,
-      "full_name": "N. Seitz",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37376362900",
-      "id": 37376362900,
-      "full_name": "D. Wortendyke",
-      "author_order": 2
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37089044700",
-      "id": 37089044700,
-      "full_name": "K. Spies",
-      "author_order": 3
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091417",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091417",
-   "html_url": "https://ieeexplore.ieee.org/document/1091417/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091417/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23782,
-   "publication_year": 1983,
-   "publication_date": "August 1983",
-   "start_page": "28",
-   "end_page": "34",
-   "citing_paper_count": 8,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "ARPANET",
-      "Measurement standards",
-      "Data communication",
-      "Communication standards",
-      "NIST",
-      "Computer networks",
-      "Standards development",
-      "Telecommunication standards",
-      "Telecommunication computing"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091516",
-   "title": "Vector quantization: A pattern-matching technique for speech coding",
-   "publisher": "IEEE",
-   "issue": "9",
-   "issn": "1558-1896",
-   "rank": 192,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37281163500",
-      "id": 37281163500,
-      "full_name": "A. Gersho",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37284485700",
-      "id": 37284485700,
-      "full_name": "V. Cuperman",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091516",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091516",
-   "html_url": "https://ieeexplore.ieee.org/document/1091516/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091516/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23786,
-   "publication_year": 1983,
-   "publication_date": "December 1983",
-   "start_page": "15",
-   "end_page": "21",
-   "citing_paper_count": 130,
-   "citing_patent_count": 7,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Vector quantization",
-      "Speech coding",
-      "Phase change materials",
-      "Pattern matching",
-      "Speech analysis",
-      "Speech synthesis",
-      "Linear predictive coding",
-      "Source coding",
-      "Speech codecs"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091392",
-   "title": "Viewpoints on control of military satellite communications",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 193,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Stanford Telecommunications, Inc.",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087440218",
-      "id": 37087440218,
-      "full_name": "S. Heppe",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091392",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091392",
-   "html_url": "https://ieeexplore.ieee.org/document/1091392/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091392/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23781,
-   "publication_year": 1983,
-   "publication_date": "July 1983",
-   "start_page": "10",
-   "end_page": "18",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Communication system control",
-      "Military satellites",
-      "Control systems",
-      "Distributed control",
-      "Automatic control",
-      "Communication standards",
-      "Control system synthesis",
-      "Military standards"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091525",
-   "title": "Voice channel echo cancellation",
-   "publisher": "IEEE",
-   "issue": "9",
-   "issn": "1558-1896",
-   "rank": 194,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "AT&T International",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088195913",
-      "id": 37088195913,
-      "full_name": "G. Fang",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091525",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091525",
-   "html_url": "https://ieeexplore.ieee.org/document/1091525/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091525/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23786,
-   "publication_year": 1983,
-   "publication_date": "December 1983",
-   "start_page": "11",
-   "end_page": "14",
-   "citing_paper_count": 3,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Echo cancellers",
-      "Detectors",
-      "Signal synthesis",
-      "Hybrid power systems",
-      "Circuit testing",
-      "Network synthesis",
-      "Speech synthesis",
-      "Signal generators"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091521",
-   "title": "Voice message systems",
-   "publisher": "IEEE",
-   "issue": "9",
-   "issn": "1558-1896",
-   "rank": 195,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "McGill Univ., Montreal, Que., Canada",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37273263000",
-      "id": 37273263000,
-      "full_name": "P. Mermelstein",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091521",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091521",
-   "html_url": "https://ieeexplore.ieee.org/document/1091521/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091521/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23786,
-   "publication_year": 1983,
-   "publication_date": "December 1983",
-   "start_page": "8",
-   "end_page": "10",
-   "citing_paper_count": 1,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Message systems",
-      "Communication systems",
-      "Real time systems",
-      "Memory management",
-      "Object recognition",
-      "Oral communication",
-      "Speech processing"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1983.1091406",
-   "title": "Why is the army interested in spread spectrum?",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 196,
-   "volume": "21",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "CECOM Space & Terrestrial Communications Directorate, Fort Monmouth, NJ, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37388943800",
-      "id": 37388943800,
-      "full_name": "P. Sass",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091406",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091406",
-   "html_url": "https://ieeexplore.ieee.org/document/1091406/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091406/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23781,
-   "publication_year": 1983,
-   "publication_date": "July 1983",
-   "start_page": "23",
-   "end_page": "25",
-   "citing_paper_count": 10,
-   "citing_patent_count": 1,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Spread spectrum communication",
-      "Jamming",
-      "Electronic countermeasures",
-      "Signal to noise ratio",
-      "Counting circuits",
-      "Multiaccess communication",
-      "Wideband"
-     ]
-    }
-   }
-  }
- ]
+  ]
 }

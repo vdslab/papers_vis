@@ -1,15 +1,15 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 export const tableDataJudgeSlice = createSlice({
-    name : 'tableDataJudge',
-    initialState:{
-        judge : true,
+  name: "tableDataJudge",
+  initialState: {
+    judge: true,
+  },
+  reducers: {
+    changeTableDataJudge: (state, action) => {
+      state.judge = action.payload;
     },
-    reducers:{
-        changeTableDataJudge :(state,action) => {
-            state.judge = action.payload;
-        }
-    }
+  },
 });
 
 export const { changeTableDataJudge } = tableDataJudgeSlice.actions;

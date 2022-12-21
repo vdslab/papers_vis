@@ -6,7 +6,7 @@ import { useEffect,useState,useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { changeSearchForm } from "../redux/searchFormSlice";
 import { changePapersKeyword } from "../redux/papersKeywordSlice";
-import PapersView from './PapersView';
+import PapersView from "./PapersView";
 import { changeColumnsJudge } from "../redux/columnsSlice";
 import { changeScrollJudge } from "../redux/scrollJudge";
 import { changeTableDataJudge } from "../redux/tableDataJudge";
@@ -111,8 +111,83 @@ const SearchForm = () => {
             dispatch(changeScrollJudge(true));
             dispatch(changeTableDataJudge(false));
         }
-        
+        const sql = [];
+        // spl.map ((item) => {
+        //         const abstract = encodeURIComponent('%'+item+'%');
+        //         sql.push(abstract)
+        //     })
+        // console.log(spl);
+        // const response = await fetch(`/.netlify/functions/api/papers/${sql[0]}/${sql[1]}/${sql[2]}/${startYear}/${endYear}`)
+        // const data = await response.json();
+        spl.map((item) => {
+          const abstract = "%" + item + "%";
+          sql.push(abstract);
+        });
+        const url = `/.netlify/functions/api/papers/${sql[0]}/${sql[1]}/${sql[2]}/${startYear}/${endYear}`;
+        const response = await fetch(encodeURI(encodeURI(url)));
+        const data = await response.json();
+
+        // const response2 = await fetch(`/.netlify/functions/api/papers/title/${sql[0]}/${sql[1]}/${sql[2]}/${sql[3]}/${sql[4]}`)
+        // const title = await response2.json();
+        //dispatch(changePapersKeyword(data));
+        // const name = encodeURIComponent(search);
+        // const response2 = await fetch(`/.netlify/functions/api/authors/${sql[0]}/${sql[1]}/${sql[2]}/${sql[3]}/${sql[4]}`);
+        // const authors = await response2.json();
+        // let authors_array = [];
+        // authors.map((author) => {
+        //     (async () => {
+        //         const doi = encodeURIComponent(author.doi);
+        //         const response = await fetch(`/.netlify/functions/api/papers/${doi}`);
+        //         const data2 = await response.json();
+        //         authors_array.push(data2[0]);
+        //     })();
+        // })
+        //const arr = data.concat(title)
+
+        //const newArr = arr.filter((element, index) => arr.indexOf(element) === index && console.log(element.doi));
+        setData(data);
+        dispatch(changePapersKeyword(data));
+        dispatch(changeTableDataJudge(true));
+      })();
+      // }
     }
+  }, [enterJudge, startYear, endYear]);
+  const array = [];
+  // useEffect(() => {
+  //     if(isFirstRenderAuthor.current) { // 初回レンダー判定
+  //         isFirstRenderAuthor.current = false // もう初回レンダーじゃないよ代入
+  //       } else {
+  //         data.map((item) => {
+  //             (async () => {
+  //                 let obj = item;
+  //                 const doi = encodeURIComponent(item.doi);
+  //                 const response2 = await fetch(`/.netlify/functions/api/authors/${doi}`)
+  //                 const authors = await response2.json();
+  //                 console.log(authors)
+  //                 // obj.authors = authors;
+  //                 // array.push(obj);
+  //             })();
+  //         })
+  //     }
+  // },[data])
+  // author.map((auth) => {
+  //     data.push(auth);
+  // })
+  console.log(data);
+  const changeHandle = (e) => {
+    dispatch(changeSearchForm(e.target.value));
+    if (enterJudge) {
+      setEnterJudge(false);
+      dispatch(changeColumnsJudge("search"));
+      dispatch(changeScrollJudge(true));
+      dispatch(changeTableDataJudge(false));
+    } else {
+      setEnterJudge(true);
+      dispatch(changeColumnsJudge("search"));
+      dispatch(changeScrollJudge(true));
+      dispatch(changeTableDataJudge(false));
+    }
+
 
     const changeButtonHandle = (e) => {
         dispatch(changeSearchForm(input));
@@ -150,9 +225,9 @@ const SearchForm = () => {
             </Grid>
         </Grid>  
         </Box>
+      </Box>
     </div>
-    )
-}
+  );
+};
 
 export default SearchForm;
-

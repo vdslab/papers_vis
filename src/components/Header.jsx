@@ -1,26 +1,37 @@
-import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
-import CloseIcon from '@mui/icons-material/Close';
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import { Link } from 'react-router-dom';
-import React, { useLayoutEffect, useState } from 'react';
-import useWindowSize from '../useWindowSize';
-import {Dialog,DialogActions,DialogContent,DialogContentText,DialogTitle, IconButton, Typography} from '@mui/material';
+import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
+import CloseIcon from "@mui/icons-material/Close";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import { Link } from "react-router-dom";
+import React, { useLayoutEffect, useState } from "react";
+import useWindowSize from "../useWindowSize";
+import {
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
+  IconButton,
+  Typography,
+} from "@mui/material";
 
 //評価用
 import { useDispatch, useSelector } from "react-redux";
-import { changePapersKeyword } from '../redux/papersKeywordSlice';
-import { changeTableDataJudge } from '../redux/tableDataJudge';
-import { changeNovisKeyword } from '../redux/noVisKeyword';
-import { changeKeyword } from '../redux/keywordSlice';
-import { changeSearchForm } from '../redux/searchFormSlice';
-import { changePageActive } from '../redux/pageActiveSlice';
+import { changePapersKeyword } from "../redux/papersKeywordSlice";
+import { changeTableDataJudge } from "../redux/tableDataJudge";
+import { changeNovisKeyword } from "../redux/noVisKeyword";
+import { changeKeyword } from "../redux/keywordSlice";
+import { changeSearchForm } from "../redux/searchFormSlice";
+import { changePageActive } from "../redux/pageActiveSlice";
 
 const Header = () => {
   const [width, height] = useWindowSize();
-  const hatenaStyle = width >= 600?{position:'relative', bottom : "30px" }:{position:'relative', bottom : "30px", left:"400px" };
+  const hatenaStyle =
+    width >= 600
+      ? { position: "relative", bottom: "30px" }
+      : { position: "relative", bottom: "30px", left: "400px" };
   const [open, setOpen] = React.useState(false);
-  const [scroll, setScroll] = React.useState('paper');
+  const [scroll, setScroll] = React.useState("paper");
   const active = useSelector((state) => state.pageActive.active);
   //評価用
   const dispatch = useDispatch();
@@ -28,10 +39,10 @@ const Header = () => {
     dispatch(changePageActive(act));
     dispatch(changePapersKeyword([]));
     dispatch(changeTableDataJudge(true));
-    dispatch(changeNovisKeyword(''));
-    dispatch(changeKeyword(''));
-    dispatch(changeSearchForm(''));
-  }
+    dispatch(changeNovisKeyword(""));
+    dispatch(changeKeyword(""));
+    dispatch(changeSearchForm(""));
+  };
   const handleClickOpen = (scrollType) => () => {
     setOpen(true);
     setScroll(scrollType);
@@ -50,16 +61,13 @@ const Header = () => {
       }
     }
   }, [open]);
-    return (
-      <header>
-        
-        <div className="hero is-small is-info">
-          <div className="hero-body">
-
-           
-            <h1 className='title' style= {{position:'relative', top : "20px"}} >paper vis</h1>
-
-            <Grid container>
+  return (
+    <header>
+      <div className="hero is-small is-info">
+        <div className="hero-body">
+          <h1 className="title" style={{ position: "relative", top: "20px" }}>
+            paper vis
+          </h1>
 
            
             <Grid item sm={11} >
@@ -117,32 +125,36 @@ const Header = () => {
                   論文はソート可能で、通常は発行年でソートされています。
                   {/* 検索の場合、（タイトル、著者、発行年、ページ数、
                   被引用数、url）を表示します。キーワードの場合、（タイトル、発行年、ページ数、被引用数、キーワード重要度、url）を表示します。 */}
-                </Typography>
-                <Typography sx={{pt:2}} variant='h6' color='black'>
-                  ネットワーク図について
-                </Typography>
-                <Typography variant='p' color='black'>
-                  論文のabstractの類似度を計算し、選択した論文と類似論文を線で結びネットワークを形成して表示しています。
-                </Typography>
-                <Typography sx={{pt:2}} variant='h6' color='black'>
-                  データについて
-                </Typography>
-                <Typography variant='p' color='black'>
-                <a href='https://ieeexplore.ieee.org/Xplore/home.jsp' target='_blank'>
-                  IEEE xplore
-                  </a>
-                  が保持している論文雑誌から
-                  <a href='https://www.scimagojr.com/journalrank.php?' target='_blank'>
-                    SJR
-                  </a>
-                  が定めたインパクトファクターの上位30個を抽出し使用しています。
-                </Typography>
-              </DialogContentText>
-              </DialogContent>
-            </Dialog>           
-   
-          </Box>
-  
+                      </Typography>
+                      <Typography sx={{ pt: 2 }} variant="h6" color="black">
+                        ネットワーク図について
+                      </Typography>
+                      <Typography variant="p" color="black">
+                        論文のabstractの類似度を計算し、選択した論文と類似論文を線で結びネットワークを形成して表示しています。
+                      </Typography>
+                      <Typography sx={{ pt: 2 }} variant="h6" color="black">
+                        データについて
+                      </Typography>
+                      <Typography variant="p" color="black">
+                        <a
+                          href="https://ieeexplore.ieee.org/Xplore/home.jsp"
+                          target="_blank"
+                        >
+                          IEEE xplore
+                        </a>
+                        が保持している論文雑誌から
+                        <a
+                          href="https://www.scimagojr.com/journalrank.php?"
+                          target="_blank"
+                        >
+                          SJR
+                        </a>
+                        が定めたインパクトファクターの上位30個を抽出し使用しています。
+                      </Typography>
+                    </DialogContentText>
+                  </DialogContent>
+                </Dialog>
+              </Box>
             </Grid>
             </Grid>
             </div>
@@ -172,8 +184,29 @@ const Header = () => {
                 
             </ul>
             </div>           */}
+
         </div>
-      </header>
-    );
-  };
-  export default Header;
+        <div className="tabs is-boxed">
+          <ul>
+            <li className={active === "home" && "is-active"}>
+              <a onClick={() => changeActive("home")}>
+                <Link to="/">home</Link>
+              </a>
+            </li>
+            <li className={active === "nokeywords" && "is-active"}>
+              <a onClick={() => changeActive("nokeywords")}>
+                <Link to="nokeywords">キーワードなし</Link>
+              </a>
+            </li>
+            <li className={active === "novis" && "is-active"}>
+              <a onClick={() => changeActive("novis")}>
+                <Link to="novis">可視化なし</Link>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  );
+};
+export default Header;

@@ -1,1316 +1,1316 @@
 {
- "total_records": 26,
- "total_searched": 5638566,
- "articles": [
-  {
-   "doi": "10.1109/MCOM.1982.1090956",
-   "title": "A comparison of architectural alternatives for local voice/data communications",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 1,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bell Laboratories, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088276995",
-      "id": 37088276995,
-      "full_name": "L. Baxter",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088275669",
-      "id": 37088275669,
-      "full_name": "C. Baugh",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090956",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090956",
-   "html_url": "https://ieeexplore.ieee.org/document/1090956/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090956/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23766,
-   "publication_year": 1982,
-   "publication_date": "January 1982",
-   "start_page": "44",
-   "end_page": "51",
-   "citing_paper_count": 5,
-   "citing_patent_count": 4,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Data communication",
-      "Communication switching",
-      "Switching circuits",
-      "Bandwidth",
-      "Telecommunication traffic",
-      "Computer peripherals",
-      "Pervasive computing",
-      "Time sharing computer systems"
-     ]
+  "total_records": 26,
+  "total_searched": 5638566,
+  "articles": [
+    {
+      "doi": "10.1109/MCOM.1982.1090956",
+      "title": "A comparison of architectural alternatives for local voice/data communications",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 1,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bell Laboratories, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088276995",
+            "id": 37088276995,
+            "full_name": "L. Baxter",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088275669",
+            "id": 37088275669,
+            "full_name": "C. Baugh",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090956",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090956",
+      "html_url": "https://ieeexplore.ieee.org/document/1090956/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090956/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23766,
+      "publication_year": 1982,
+      "publication_date": "January 1982",
+      "start_page": "44",
+      "end_page": "51",
+      "citing_paper_count": 5,
+      "citing_patent_count": 4,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Data communication",
+            "Communication switching",
+            "Switching circuits",
+            "Bandwidth",
+            "Telecommunication traffic",
+            "Computer peripherals",
+            "Pervasive computing",
+            "Time sharing computer systems"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1090993",
+      "title": "A vocabulary for computer communications problems faced in synchronous polled networks",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 6,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "AT&T Bell Lab., Middletown, NJ, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37089045109",
+            "id": 37089045109,
+            "full_name": "L. Bernstein",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090993",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090993",
+      "html_url": "https://ieeexplore.ieee.org/document/1090993/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090993/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23767,
+      "publication_year": 1982,
+      "publication_date": "March 1982",
+      "start_page": "18",
+      "end_page": "22",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Vocabulary",
+            "Computer networks",
+            "Application software",
+            "Protocols",
+            "Terminology",
+            "Communication system control",
+            "Computational modeling",
+            "Computer interfaces",
+            "Intelligent networks",
+            "Communication switching"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1090994",
+      "title": "Adaptive equalization",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 7,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Codex Corp., Mansfield, MA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37338021900",
+            "id": 37338021900,
+            "full_name": "S. Qureshi",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090994",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090994",
+      "html_url": "https://ieeexplore.ieee.org/document/1090994/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090994/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23767,
+      "publication_year": 1982,
+      "publication_date": "March 1982",
+      "start_page": "9",
+      "end_page": "16",
+      "citing_paper_count": 59,
+      "citing_patent_count": 18,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Adaptive equalizers",
+            "Pulse modulation",
+            "Intersymbol interference",
+            "Modems",
+            "Data communication",
+            "Telephony",
+            "Background noise",
+            "Transmitters",
+            "Frequency shift keying"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091056",
+      "title": "American management style: Time for a change",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 14,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Stanford University, CA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088002007",
+            "id": 37088002007,
+            "full_name": "R. Pascale",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088005095",
+            "id": 37088005095,
+            "full_name": "A. Athos",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091056",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091056",
+      "html_url": "https://ieeexplore.ieee.org/document/1091056/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091056/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23770,
+      "publication_year": 1982,
+      "publication_date": "September 1982",
+      "start_page": "5",
+      "end_page": "9",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Professional commuication",
+            "Management",
+            "Business",
+            "Engineering profession"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091082",
+      "title": "Applying automatic speech recognition to telephone services",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 16,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "American Bell Inc., USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087746227",
+            "id": 37087746227,
+            "full_name": "J. Holmgren",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091082",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091082",
+      "html_url": "https://ieeexplore.ieee.org/document/1091082/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091082/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23771,
+      "publication_year": 1982,
+      "publication_date": "November 1982",
+      "start_page": "31",
+      "end_page": "34",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Automatic speech recognition",
+            "Telephony",
+            "Vocabulary",
+            "Human factors",
+            "Feature extraction",
+            "Application software",
+            "Speech synthesis"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091024",
+      "title": "Architectural considerations for the defense communications system of 2004",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 17,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Defense Communications Agency, VA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088330746",
+            "id": 37088330746,
+            "full_name": "W. McKee",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091024",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091024",
+      "html_url": "https://ieeexplore.ieee.org/document/1091024/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091024/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23769,
+      "publication_year": 1982,
+      "publication_date": "July 1982",
+      "start_page": "5",
+      "end_page": "12",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Distributed control",
+            "Communication switching",
+            "Circuits",
+            "Degradation",
+            "US Department of Defense",
+            "Environmental economics",
+            "Systems engineering and theory",
+            "Minimization"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091012",
+      "title": "Communications through EM-wave scattering",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 39,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Technical University of Istanbul, Istanbul, Turkey",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088320936",
+            "id": 37088320936,
+            "full_name": "A. Ince",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091012",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091012",
+      "html_url": "https://ieeexplore.ieee.org/document/1091012/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091012/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23768,
+      "publication_year": 1982,
+      "publication_date": "May 1982",
+      "start_page": "27",
+      "end_page": "43",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Optical scattering",
+            "Mie scattering",
+            "Rayleigh scattering",
+            "Resonance light scattering",
+            "Electromagnetic scattering",
+            "Particle scattering",
+            "Diffraction",
+            "Optical propagation",
+            "Electromagnetic propagation"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091035",
+      "title": "Design trade-offs in antijam military satellite communications",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 54,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "MITRE Corp., Bedford, MA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37378699200",
+            "id": 37378699200,
+            "full_name": "W. Brandon",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091035",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091035",
+      "html_url": "https://ieeexplore.ieee.org/document/1091035/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091035/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23769,
+      "publication_year": 1982,
+      "publication_date": "July 1982",
+      "start_page": "18",
+      "end_page": "22",
+      "citing_paper_count": 2,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Military satellites",
+            "Design methdology",
+            "Costs",
+            "Satellite communication",
+            "Counting circuits",
+            "Satellite broadcasting",
+            "Military communication",
+            "Communication system control"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091084",
+      "title": "Digital switch digitalks",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 55,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bell-Northern Research, Ottawa, Ontario, Canada",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37355394000",
+            "id": 37355394000,
+            "full_name": "E. Munter",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091084",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091084",
+      "html_url": "https://ieeexplore.ieee.org/document/1091084/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091084/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23771,
+      "publication_year": 1982,
+      "publication_date": "November 1982",
+      "start_page": "15",
+      "end_page": "23",
+      "citing_paper_count": 4,
+      "citing_patent_count": 3,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Digital signal processing",
+            "Telecommunication switching",
+            "Phase change materials",
+            "Speech codecs",
+            "Communication switching",
+            "Speech processing",
+            "Signal generators",
+            "Signal processing"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091085",
+      "title": "Experiments in telecommunications technology",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 59,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bell Labs., Murray Hill, NJ, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37299358000",
+            "id": 37299358000,
+            "full_name": "G. Bergland",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091085",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091085",
+      "html_url": "https://ieeexplore.ieee.org/document/1091085/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091085/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23771,
+      "publication_year": 1982,
+      "publication_date": "November 1982",
+      "start_page": "4",
+      "end_page": "14",
+      "citing_paper_count": 2,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Very large scale integration",
+            "Microelectronics",
+            "Telecommunication computing",
+            "Electron tubes",
+            "Remuneration",
+            "Large scale integration",
+            "Software systems"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091039",
+      "title": "Implications of FCC regulation of telecommunications technical standards",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 70,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "M/A-COM Labs., USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088317250",
+            "id": 37088317250,
+            "full_name": "J. Krauss",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091039",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091039",
+      "html_url": "https://ieeexplore.ieee.org/document/1091039/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091039/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23770,
+      "publication_year": 1982,
+      "publication_date": "September 1982",
+      "start_page": "28",
+      "end_page": "32",
+      "citing_paper_count": 3,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "FCC",
+            "Telecommunication standards",
+            "Communication standards",
+            "TV broadcasting",
+            "Radio frequency",
+            "Technological innovation",
+            "Radio control",
+            "Communication system control",
+            "Microwave devices"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091014",
+      "title": "Information processing by optoelectronics",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 71,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Fujitsu Limited, Japan",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088055523",
+            "id": 37088055523,
+            "full_name": "T. Yamamoto",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091014",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091014",
+      "html_url": "https://ieeexplore.ieee.org/document/1091014/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091014/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23768,
+      "publication_year": 1982,
+      "publication_date": "May 1982",
+      "start_page": "4",
+      "end_page": "11",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Information processing",
+            "User interfaces",
+            "Man machine systems",
+            "Electrooptic devices",
+            "Communication networks",
+            "Computer interfaces",
+            "Optical devices",
+            "Computer aided manufacturing",
+            "Facsimile"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091059",
+      "title": "Managing ISDN through international standards activities",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 79,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "IEEE Comm",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37296002600",
+            "id": 37296002600,
+            "full_name": "M. Decina",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091059",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091059",
+      "html_url": "https://ieeexplore.ieee.org/document/1091059/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091059/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23770,
+      "publication_year": 1982,
+      "publication_date": "September 1982",
+      "start_page": "19",
+      "end_page": "25",
+      "citing_paper_count": 6,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "ISDN",
+            "Standards activities",
+            "Speech processing",
+            "Telephony",
+            "Communication switching",
+            "Phase change materials",
+            "Telecommunication standards",
+            "Communication standards"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1090952",
+      "title": "New dimensions in telecommunications",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 86,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "GTE Laboratories Inc., Waltham, MA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087763959",
+            "id": 37087763959,
+            "full_name": "E. Carne",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090952",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090952",
+      "html_url": "https://ieeexplore.ieee.org/document/1090952/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090952/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23766,
+      "publication_year": 1982,
+      "publication_date": "January 1982",
+      "start_page": "17",
+      "end_page": "25",
+      "citing_paper_count": 2,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Telephony",
+            "Telegraphy",
+            "Electronic mail",
+            "Data communication",
+            "Videotex",
+            "Teleconferencing",
+            "Productivity",
+            "Consumer electronics"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091038",
+      "title": "On managing R&amp;D investment",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 101,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Raytheon Company, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087874112",
+            "id": 37087874112,
+            "full_name": "G. Jones",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091038",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091038",
+      "html_url": "https://ieeexplore.ieee.org/document/1091038/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091038/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23770,
+      "publication_year": 1982,
+      "publication_date": "September 1982",
+      "start_page": "15",
+      "end_page": "18",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Investments",
+            "Technology forecasting",
+            "Research and development",
+            "Equations",
+            "Radar",
+            "System performance",
+            "Performance analysis",
+            "Resource management",
+            "Financial management"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091086",
+      "title": "Optical communications research program to demonstrate 2.5 bits/detected photon",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 102,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "California Institute of Technology, Pasedena, CA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37270939400",
+            "id": 37270939400,
+            "full_name": "J. Lesh",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091086",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091086",
+      "html_url": "https://ieeexplore.ieee.org/document/1091086/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091086/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23771,
+      "publication_year": 1982,
+      "publication_date": "November 1982",
+      "start_page": "35",
+      "end_page": "37",
+      "citing_paper_count": 16,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Optical fiber communication",
+            "Research and development",
+            "Optical transmitters",
+            "Optical noise",
+            "Optical signal processing",
+            "Optical pulses",
+            "Optical sensors",
+            "Quantum mechanics",
+            "Gaussian noise"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1090970",
+      "title": "Optical fiber communications systems development in the UK",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 103,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "British Telecom Research Labs., Suffolk, UK",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37332217000",
+            "id": 37332217000,
+            "full_name": "J. Midwinter",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090970",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090970",
+      "html_url": "https://ieeexplore.ieee.org/document/1090970/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090970/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23766,
+      "publication_year": 1982,
+      "publication_date": "January 1982",
+      "start_page": "6",
+      "end_page": "11",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Optical fiber communication",
+            "Optical fiber cables",
+            "Optical fibers",
+            "Optical attenuators",
+            "Fiber lasers",
+            "Optical waveguides",
+            "Silicon compounds",
+            "Repeaters"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1090991",
+      "title": "Public facsimile communication network",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 110,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "NTT, Visual Communication System Section, Japan",
+            "full_name": "T. Kamae",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090991",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090991",
+      "html_url": "https://ieeexplore.ieee.org/document/1090991/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090991/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23767,
+      "publication_year": 1982,
+      "publication_date": "March 1982",
+      "start_page": "47",
+      "end_page": "51",
+      "citing_paper_count": 5,
+      "citing_patent_count": 7,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Facsimile",
+            "Communication networks",
+            "Telephony",
+            "Switches",
+            "Communication switching",
+            "Communication system control",
+            "Transmitters",
+            "Signal design"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1090992",
+      "title": "Telecommunications down under",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 118,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "PMG Department, Australia",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087815636",
+            "id": 37087815636,
+            "full_name": "W. Thurman",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090992",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090992",
+      "html_url": "https://ieeexplore.ieee.org/document/1090992/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090992/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23767,
+      "publication_year": 1982,
+      "publication_date": "March 1982",
+      "start_page": "31",
+      "end_page": "36",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Australia",
+            "Telecommunication services",
+            "Telecommunication switching",
+            "Geography",
+            "Demography",
+            "Sea measurements"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091083",
+      "title": "Television bandwidth compression transmission by motion-compensated interframe coding",
+      "publisher": "IEEE",
+      "issue": "6",
+      "issn": "1558-1896",
+      "rank": 119,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Nippon Electric Company, Ltd., Kawasaki, Japan",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37980767700",
+            "id": 37980767700,
+            "full_name": "T. Ishiguro",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37429230800",
+            "id": 37429230800,
+            "full_name": "K. Iinuma",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091083",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091083",
+      "html_url": "https://ieeexplore.ieee.org/document/1091083/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091083/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23771,
+      "publication_year": 1982,
+      "publication_date": "November 1982",
+      "start_page": "24",
+      "end_page": "30",
+      "citing_paper_count": 28,
+      "citing_patent_count": 3,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "TV",
+            "Bandwidth",
+            "Video compression",
+            "Teleconferencing",
+            "Satellite broadcasting",
+            "Costs",
+            "Videoconference",
+            "Satellite communication",
+            "Motion compensation",
+            "Transponders"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1090953",
+      "title": "The concept of frequency in linear system analysis",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 120,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Bell Laboratories, NJ, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087766120",
+            "id": 37087766120,
+            "full_name": "J. Manley",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090953",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090953",
+      "html_url": "https://ieeexplore.ieee.org/document/1090953/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090953/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23766,
+      "publication_year": 1982,
+      "publication_date": "January 1982",
+      "start_page": "26",
+      "end_page": "35",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Frequency",
+            "Linear systems",
+            "Differential equations",
+            "Motion analysis",
+            "Acceleration",
+            "Calculus",
+            "Resonance",
+            "Structural beams",
+            "Geometry"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1090967",
+      "title": "The corporate network - System and services",
+      "publisher": "IEEE",
+      "issue": "1",
+      "issn": "1558-1896",
+      "rank": 121,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Harris Corporation, Melbourne, FL, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088290291",
+            "id": 37088290291,
+            "full_name": "D. Hemmings",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090967",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090967",
+      "html_url": "https://ieeexplore.ieee.org/document/1090967/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090967/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23766,
+      "publication_year": 1982,
+      "publication_date": "January 1982",
+      "start_page": "12",
+      "end_page": "15",
+      "citing_paper_count": 1,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Telecommunication traffic",
+            "Satellites",
+            "Telecommunication control",
+            "Telephony",
+            "Business communication",
+            "Communication system control",
+            "Communication industry"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091013",
+      "title": "The discrete fourier transform applied to time domain signal processing",
+      "publisher": "IEEE",
+      "issue": "3",
+      "issn": "1558-1896",
+      "rank": 122,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "San Diego State Univ., San Diego, CA, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37277456200",
+            "id": 37277456200,
+            "full_name": "F. Harris",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091013",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091013",
+      "html_url": "https://ieeexplore.ieee.org/document/1091013/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091013/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23768,
+      "publication_year": 1982,
+      "publication_date": "May 1982",
+      "start_page": "13",
+      "end_page": "22",
+      "citing_paper_count": 14,
+      "citing_patent_count": 2,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Discrete Fourier transforms",
+            "Signal processing",
+            "Signal processing algorithms",
+            "Bandwidth",
+            "Frequency domain analysis",
+            "Fast Fourier transforms",
+            "Fourier transforms",
+            "Computational efficiency",
+            "Low pass filters"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091036",
+      "title": "The need for dynamic routing in a network spanning several time zones",
+      "publisher": "IEEE",
+      "issue": "4",
+      "issn": "1558-1896",
+      "rank": 124,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "North Carolina State University, NC, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087313942",
+            "id": 37087313942,
+            "full_name": "Wushow Chou",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37281640200",
+            "id": 37281640200,
+            "full_name": "A. Nilsson",
+            "author_order": 2
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37353874800",
+            "id": 37353874800,
+            "full_name": "A. Bragg",
+            "author_order": 3
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091036",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091036",
+      "html_url": "https://ieeexplore.ieee.org/document/1091036/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091036/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23769,
+      "publication_year": 1982,
+      "publication_date": "July 1982",
+      "start_page": "13",
+      "end_page": "17",
+      "citing_paper_count": 0,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Routing",
+            "Telecommunication traffic",
+            "Traffic control",
+            "Switches",
+            "Packet switching",
+            "Intelligent networks",
+            "Resource management",
+            "Dynamic programming"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1091043",
+      "title": "Trend in office automation technology",
+      "publisher": "IEEE",
+      "issue": "5",
+      "issn": "1558-1896",
+      "rank": 125,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Terminal Technologies, Yorktown Heights, NY, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37087961703",
+            "id": 37087961703,
+            "full_name": "R. Myers",
+            "author_order": 1
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1091043",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091043",
+      "html_url": "https://ieeexplore.ieee.org/document/1091043/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1091043/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23770,
+      "publication_year": 1982,
+      "publication_date": "September 1982",
+      "start_page": "10",
+      "end_page": "14",
+      "citing_paper_count": 2,
+      "citing_patent_count": 0,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Office automation",
+            "Optical character recognition software",
+            "Optical films",
+            "Optical packet switching",
+            "Displays",
+            "Optical network units",
+            "Optical fiber cables",
+            "Optical fibers"
+          ]
+        }
+      }
+    },
+    {
+      "doi": "10.1109/MCOM.1982.1090990",
+      "title": "Underwater acoustic communications",
+      "publisher": "IEEE",
+      "issue": "2",
+      "issn": "1558-1896",
+      "rank": 132,
+      "volume": "20",
+      "authors": {
+        "authors": [
+          {
+            "affiliation": "Naval Underwater Systems Center, New London, CT, USA",
+            "authorUrl": "https://ieeexplore.ieee.org/author/37088274830",
+            "id": 37088274830,
+            "full_name": "A. Quazi",
+            "author_order": 1
+          },
+          {
+            "authorUrl": "https://ieeexplore.ieee.org/author/37089039512",
+            "id": 37089039512,
+            "full_name": "W. Konrad",
+            "author_order": 2
+          }
+        ]
+      },
+      "access_type": "LOCKED",
+      "content_type": "Magazines",
+      "article_number": "1090990",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090990",
+      "html_url": "https://ieeexplore.ieee.org/document/1090990/",
+      "abstract_url": "https://ieeexplore.ieee.org/document/1090990/",
+      "publication_title": "IEEE Communications Magazine",
+      "publication_number": 35,
+      "is_number": 23767,
+      "publication_year": 1982,
+      "publication_date": "March 1982",
+      "start_page": "24",
+      "end_page": "30",
+      "citing_paper_count": 82,
+      "citing_patent_count": 3,
+      "index_terms": {
+        "ieee_terms": {
+          "terms": [
+            "Underwater acoustics",
+            "Underwater communication",
+            "Acoustic beams",
+            "Ocean temperature",
+            "Acoustic propagation",
+            "Sea surface",
+            "Electromagnetic wave absorption"
+          ]
+        }
+      }
     }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1090993",
-   "title": "A vocabulary for computer communications problems faced in synchronous polled networks",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 6,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "AT&T Bell Lab., Middletown, NJ, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37089045109",
-      "id": 37089045109,
-      "full_name": "L. Bernstein",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090993",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090993",
-   "html_url": "https://ieeexplore.ieee.org/document/1090993/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090993/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23767,
-   "publication_year": 1982,
-   "publication_date": "March 1982",
-   "start_page": "18",
-   "end_page": "22",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Vocabulary",
-      "Computer networks",
-      "Application software",
-      "Protocols",
-      "Terminology",
-      "Communication system control",
-      "Computational modeling",
-      "Computer interfaces",
-      "Intelligent networks",
-      "Communication switching"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1090994",
-   "title": "Adaptive equalization",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 7,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Codex Corp., Mansfield, MA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37338021900",
-      "id": 37338021900,
-      "full_name": "S. Qureshi",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090994",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090994",
-   "html_url": "https://ieeexplore.ieee.org/document/1090994/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090994/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23767,
-   "publication_year": 1982,
-   "publication_date": "March 1982",
-   "start_page": "9",
-   "end_page": "16",
-   "citing_paper_count": 59,
-   "citing_patent_count": 18,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Adaptive equalizers",
-      "Pulse modulation",
-      "Intersymbol interference",
-      "Modems",
-      "Data communication",
-      "Telephony",
-      "Background noise",
-      "Transmitters",
-      "Frequency shift keying"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091056",
-   "title": "American management style: Time for a change",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 14,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Stanford University, CA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088002007",
-      "id": 37088002007,
-      "full_name": "R. Pascale",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088005095",
-      "id": 37088005095,
-      "full_name": "A. Athos",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091056",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091056",
-   "html_url": "https://ieeexplore.ieee.org/document/1091056/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091056/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23770,
-   "publication_year": 1982,
-   "publication_date": "September 1982",
-   "start_page": "5",
-   "end_page": "9",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Professional commuication",
-      "Management",
-      "Business",
-      "Engineering profession"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091082",
-   "title": "Applying automatic speech recognition to telephone services",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 16,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "American Bell Inc., USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087746227",
-      "id": 37087746227,
-      "full_name": "J. Holmgren",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091082",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091082",
-   "html_url": "https://ieeexplore.ieee.org/document/1091082/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091082/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23771,
-   "publication_year": 1982,
-   "publication_date": "November 1982",
-   "start_page": "31",
-   "end_page": "34",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Automatic speech recognition",
-      "Telephony",
-      "Vocabulary",
-      "Human factors",
-      "Feature extraction",
-      "Application software",
-      "Speech synthesis"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091024",
-   "title": "Architectural considerations for the defense communications system of 2004",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 17,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Defense Communications Agency, VA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088330746",
-      "id": 37088330746,
-      "full_name": "W. McKee",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091024",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091024",
-   "html_url": "https://ieeexplore.ieee.org/document/1091024/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091024/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23769,
-   "publication_year": 1982,
-   "publication_date": "July 1982",
-   "start_page": "5",
-   "end_page": "12",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Distributed control",
-      "Communication switching",
-      "Circuits",
-      "Degradation",
-      "US Department of Defense",
-      "Environmental economics",
-      "Systems engineering and theory",
-      "Minimization"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091012",
-   "title": "Communications through EM-wave scattering",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 39,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Technical University of Istanbul, Istanbul, Turkey",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088320936",
-      "id": 37088320936,
-      "full_name": "A. Ince",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091012",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091012",
-   "html_url": "https://ieeexplore.ieee.org/document/1091012/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091012/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23768,
-   "publication_year": 1982,
-   "publication_date": "May 1982",
-   "start_page": "27",
-   "end_page": "43",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Optical scattering",
-      "Mie scattering",
-      "Rayleigh scattering",
-      "Resonance light scattering",
-      "Electromagnetic scattering",
-      "Particle scattering",
-      "Diffraction",
-      "Optical propagation",
-      "Electromagnetic propagation"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091035",
-   "title": "Design trade-offs in antijam military satellite communications",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 54,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "MITRE Corp., Bedford, MA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37378699200",
-      "id": 37378699200,
-      "full_name": "W. Brandon",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091035",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091035",
-   "html_url": "https://ieeexplore.ieee.org/document/1091035/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091035/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23769,
-   "publication_year": 1982,
-   "publication_date": "July 1982",
-   "start_page": "18",
-   "end_page": "22",
-   "citing_paper_count": 2,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Military satellites",
-      "Design methdology",
-      "Costs",
-      "Satellite communication",
-      "Counting circuits",
-      "Satellite broadcasting",
-      "Military communication",
-      "Communication system control"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091084",
-   "title": "Digital switch digitalks",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 55,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bell-Northern Research, Ottawa, Ontario, Canada",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37355394000",
-      "id": 37355394000,
-      "full_name": "E. Munter",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091084",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091084",
-   "html_url": "https://ieeexplore.ieee.org/document/1091084/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091084/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23771,
-   "publication_year": 1982,
-   "publication_date": "November 1982",
-   "start_page": "15",
-   "end_page": "23",
-   "citing_paper_count": 4,
-   "citing_patent_count": 3,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Digital signal processing",
-      "Telecommunication switching",
-      "Phase change materials",
-      "Speech codecs",
-      "Communication switching",
-      "Speech processing",
-      "Signal generators",
-      "Signal processing"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091085",
-   "title": "Experiments in telecommunications technology",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 59,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bell Labs., Murray Hill, NJ, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37299358000",
-      "id": 37299358000,
-      "full_name": "G. Bergland",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091085",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091085",
-   "html_url": "https://ieeexplore.ieee.org/document/1091085/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091085/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23771,
-   "publication_year": 1982,
-   "publication_date": "November 1982",
-   "start_page": "4",
-   "end_page": "14",
-   "citing_paper_count": 2,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Very large scale integration",
-      "Microelectronics",
-      "Telecommunication computing",
-      "Electron tubes",
-      "Remuneration",
-      "Large scale integration",
-      "Software systems"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091039",
-   "title": "Implications of FCC regulation of telecommunications technical standards",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 70,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "M/A-COM Labs., USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088317250",
-      "id": 37088317250,
-      "full_name": "J. Krauss",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091039",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091039",
-   "html_url": "https://ieeexplore.ieee.org/document/1091039/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091039/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23770,
-   "publication_year": 1982,
-   "publication_date": "September 1982",
-   "start_page": "28",
-   "end_page": "32",
-   "citing_paper_count": 3,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "FCC",
-      "Telecommunication standards",
-      "Communication standards",
-      "TV broadcasting",
-      "Radio frequency",
-      "Technological innovation",
-      "Radio control",
-      "Communication system control",
-      "Microwave devices"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091014",
-   "title": "Information processing by optoelectronics",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 71,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Fujitsu Limited, Japan",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088055523",
-      "id": 37088055523,
-      "full_name": "T. Yamamoto",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091014",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091014",
-   "html_url": "https://ieeexplore.ieee.org/document/1091014/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091014/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23768,
-   "publication_year": 1982,
-   "publication_date": "May 1982",
-   "start_page": "4",
-   "end_page": "11",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Information processing",
-      "User interfaces",
-      "Man machine systems",
-      "Electrooptic devices",
-      "Communication networks",
-      "Computer interfaces",
-      "Optical devices",
-      "Computer aided manufacturing",
-      "Facsimile"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091059",
-   "title": "Managing ISDN through international standards activities",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 79,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "IEEE Comm",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37296002600",
-      "id": 37296002600,
-      "full_name": "M. Decina",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091059",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091059",
-   "html_url": "https://ieeexplore.ieee.org/document/1091059/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091059/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23770,
-   "publication_year": 1982,
-   "publication_date": "September 1982",
-   "start_page": "19",
-   "end_page": "25",
-   "citing_paper_count": 6,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "ISDN",
-      "Standards activities",
-      "Speech processing",
-      "Telephony",
-      "Communication switching",
-      "Phase change materials",
-      "Telecommunication standards",
-      "Communication standards"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1090952",
-   "title": "New dimensions in telecommunications",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 86,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "GTE Laboratories Inc., Waltham, MA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087763959",
-      "id": 37087763959,
-      "full_name": "E. Carne",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090952",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090952",
-   "html_url": "https://ieeexplore.ieee.org/document/1090952/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090952/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23766,
-   "publication_year": 1982,
-   "publication_date": "January 1982",
-   "start_page": "17",
-   "end_page": "25",
-   "citing_paper_count": 2,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Telephony",
-      "Telegraphy",
-      "Electronic mail",
-      "Data communication",
-      "Videotex",
-      "Teleconferencing",
-      "Productivity",
-      "Consumer electronics"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091038",
-   "title": "On managing R&amp;D investment",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 101,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Raytheon Company, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087874112",
-      "id": 37087874112,
-      "full_name": "G. Jones",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091038",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091038",
-   "html_url": "https://ieeexplore.ieee.org/document/1091038/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091038/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23770,
-   "publication_year": 1982,
-   "publication_date": "September 1982",
-   "start_page": "15",
-   "end_page": "18",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Investments",
-      "Technology forecasting",
-      "Research and development",
-      "Equations",
-      "Radar",
-      "System performance",
-      "Performance analysis",
-      "Resource management",
-      "Financial management"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091086",
-   "title": "Optical communications research program to demonstrate 2.5 bits/detected photon",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 102,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "California Institute of Technology, Pasedena, CA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37270939400",
-      "id": 37270939400,
-      "full_name": "J. Lesh",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091086",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091086",
-   "html_url": "https://ieeexplore.ieee.org/document/1091086/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091086/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23771,
-   "publication_year": 1982,
-   "publication_date": "November 1982",
-   "start_page": "35",
-   "end_page": "37",
-   "citing_paper_count": 16,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Optical fiber communication",
-      "Research and development",
-      "Optical transmitters",
-      "Optical noise",
-      "Optical signal processing",
-      "Optical pulses",
-      "Optical sensors",
-      "Quantum mechanics",
-      "Gaussian noise"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1090970",
-   "title": "Optical fiber communications systems development in the UK",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 103,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "British Telecom Research Labs., Suffolk, UK",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37332217000",
-      "id": 37332217000,
-      "full_name": "J. Midwinter",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090970",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090970",
-   "html_url": "https://ieeexplore.ieee.org/document/1090970/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090970/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23766,
-   "publication_year": 1982,
-   "publication_date": "January 1982",
-   "start_page": "6",
-   "end_page": "11",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Optical fiber communication",
-      "Optical fiber cables",
-      "Optical fibers",
-      "Optical attenuators",
-      "Fiber lasers",
-      "Optical waveguides",
-      "Silicon compounds",
-      "Repeaters"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1090991",
-   "title": "Public facsimile communication network",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 110,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "NTT, Visual Communication System Section, Japan",
-      "full_name": "T. Kamae",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090991",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090991",
-   "html_url": "https://ieeexplore.ieee.org/document/1090991/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090991/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23767,
-   "publication_year": 1982,
-   "publication_date": "March 1982",
-   "start_page": "47",
-   "end_page": "51",
-   "citing_paper_count": 5,
-   "citing_patent_count": 7,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Facsimile",
-      "Communication networks",
-      "Telephony",
-      "Switches",
-      "Communication switching",
-      "Communication system control",
-      "Transmitters",
-      "Signal design"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1090992",
-   "title": "Telecommunications down under",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 118,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "PMG Department, Australia",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087815636",
-      "id": 37087815636,
-      "full_name": "W. Thurman",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090992",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090992",
-   "html_url": "https://ieeexplore.ieee.org/document/1090992/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090992/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23767,
-   "publication_year": 1982,
-   "publication_date": "March 1982",
-   "start_page": "31",
-   "end_page": "36",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Australia",
-      "Telecommunication services",
-      "Telecommunication switching",
-      "Geography",
-      "Demography",
-      "Sea measurements"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091083",
-   "title": "Television bandwidth compression transmission by motion-compensated interframe coding",
-   "publisher": "IEEE",
-   "issue": "6",
-   "issn": "1558-1896",
-   "rank": 119,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Nippon Electric Company, Ltd., Kawasaki, Japan",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37980767700",
-      "id": 37980767700,
-      "full_name": "T. Ishiguro",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37429230800",
-      "id": 37429230800,
-      "full_name": "K. Iinuma",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091083",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091083",
-   "html_url": "https://ieeexplore.ieee.org/document/1091083/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091083/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23771,
-   "publication_year": 1982,
-   "publication_date": "November 1982",
-   "start_page": "24",
-   "end_page": "30",
-   "citing_paper_count": 28,
-   "citing_patent_count": 3,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "TV",
-      "Bandwidth",
-      "Video compression",
-      "Teleconferencing",
-      "Satellite broadcasting",
-      "Costs",
-      "Videoconference",
-      "Satellite communication",
-      "Motion compensation",
-      "Transponders"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1090953",
-   "title": "The concept of frequency in linear system analysis",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 120,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Bell Laboratories, NJ, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087766120",
-      "id": 37087766120,
-      "full_name": "J. Manley",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090953",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090953",
-   "html_url": "https://ieeexplore.ieee.org/document/1090953/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090953/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23766,
-   "publication_year": 1982,
-   "publication_date": "January 1982",
-   "start_page": "26",
-   "end_page": "35",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Frequency",
-      "Linear systems",
-      "Differential equations",
-      "Motion analysis",
-      "Acceleration",
-      "Calculus",
-      "Resonance",
-      "Structural beams",
-      "Geometry"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1090967",
-   "title": "The corporate network - System and services",
-   "publisher": "IEEE",
-   "issue": "1",
-   "issn": "1558-1896",
-   "rank": 121,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Harris Corporation, Melbourne, FL, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088290291",
-      "id": 37088290291,
-      "full_name": "D. Hemmings",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090967",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090967",
-   "html_url": "https://ieeexplore.ieee.org/document/1090967/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090967/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23766,
-   "publication_year": 1982,
-   "publication_date": "January 1982",
-   "start_page": "12",
-   "end_page": "15",
-   "citing_paper_count": 1,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Telecommunication traffic",
-      "Satellites",
-      "Telecommunication control",
-      "Telephony",
-      "Business communication",
-      "Communication system control",
-      "Communication industry"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091013",
-   "title": "The discrete fourier transform applied to time domain signal processing",
-   "publisher": "IEEE",
-   "issue": "3",
-   "issn": "1558-1896",
-   "rank": 122,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "San Diego State Univ., San Diego, CA, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37277456200",
-      "id": 37277456200,
-      "full_name": "F. Harris",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091013",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091013",
-   "html_url": "https://ieeexplore.ieee.org/document/1091013/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091013/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23768,
-   "publication_year": 1982,
-   "publication_date": "May 1982",
-   "start_page": "13",
-   "end_page": "22",
-   "citing_paper_count": 14,
-   "citing_patent_count": 2,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Discrete Fourier transforms",
-      "Signal processing",
-      "Signal processing algorithms",
-      "Bandwidth",
-      "Frequency domain analysis",
-      "Fast Fourier transforms",
-      "Fourier transforms",
-      "Computational efficiency",
-      "Low pass filters"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091036",
-   "title": "The need for dynamic routing in a network spanning several time zones",
-   "publisher": "IEEE",
-   "issue": "4",
-   "issn": "1558-1896",
-   "rank": 124,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "North Carolina State University, NC, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087313942",
-      "id": 37087313942,
-      "full_name": "Wushow Chou",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37281640200",
-      "id": 37281640200,
-      "full_name": "A. Nilsson",
-      "author_order": 2
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37353874800",
-      "id": 37353874800,
-      "full_name": "A. Bragg",
-      "author_order": 3
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091036",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091036",
-   "html_url": "https://ieeexplore.ieee.org/document/1091036/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091036/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23769,
-   "publication_year": 1982,
-   "publication_date": "July 1982",
-   "start_page": "13",
-   "end_page": "17",
-   "citing_paper_count": 0,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Routing",
-      "Telecommunication traffic",
-      "Traffic control",
-      "Switches",
-      "Packet switching",
-      "Intelligent networks",
-      "Resource management",
-      "Dynamic programming"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1091043",
-   "title": "Trend in office automation technology",
-   "publisher": "IEEE",
-   "issue": "5",
-   "issn": "1558-1896",
-   "rank": 125,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Terminal Technologies, Yorktown Heights, NY, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37087961703",
-      "id": 37087961703,
-      "full_name": "R. Myers",
-      "author_order": 1
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1091043",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1091043",
-   "html_url": "https://ieeexplore.ieee.org/document/1091043/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1091043/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23770,
-   "publication_year": 1982,
-   "publication_date": "September 1982",
-   "start_page": "10",
-   "end_page": "14",
-   "citing_paper_count": 2,
-   "citing_patent_count": 0,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Office automation",
-      "Optical character recognition software",
-      "Optical films",
-      "Optical packet switching",
-      "Displays",
-      "Optical network units",
-      "Optical fiber cables",
-      "Optical fibers"
-     ]
-    }
-   }
-  },
-  {
-   "doi": "10.1109/MCOM.1982.1090990",
-   "title": "Underwater acoustic communications",
-   "publisher": "IEEE",
-   "issue": "2",
-   "issn": "1558-1896",
-   "rank": 132,
-   "volume": "20",
-   "authors": {
-    "authors": [
-     {
-      "affiliation": "Naval Underwater Systems Center, New London, CT, USA",
-      "authorUrl": "https://ieeexplore.ieee.org/author/37088274830",
-      "id": 37088274830,
-      "full_name": "A. Quazi",
-      "author_order": 1
-     },
-     {
-      "authorUrl": "https://ieeexplore.ieee.org/author/37089039512",
-      "id": 37089039512,
-      "full_name": "W. Konrad",
-      "author_order": 2
-     }
-    ]
-   },
-   "access_type": "LOCKED",
-   "content_type": "Magazines",
-   "article_number": "1090990",
-   "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1090990",
-   "html_url": "https://ieeexplore.ieee.org/document/1090990/",
-   "abstract_url": "https://ieeexplore.ieee.org/document/1090990/",
-   "publication_title": "IEEE Communications Magazine",
-   "publication_number": 35,
-   "is_number": 23767,
-   "publication_year": 1982,
-   "publication_date": "March 1982",
-   "start_page": "24",
-   "end_page": "30",
-   "citing_paper_count": 82,
-   "citing_patent_count": 3,
-   "index_terms": {
-    "ieee_terms": {
-     "terms": [
-      "Underwater acoustics",
-      "Underwater communication",
-      "Acoustic beams",
-      "Ocean temperature",
-      "Acoustic propagation",
-      "Sea surface",
-      "Electromagnetic wave absorption"
-     ]
-    }
-   }
-  }
- ]
+  ]
 }

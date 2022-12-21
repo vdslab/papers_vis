@@ -1,15 +1,15 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 export const novisPapersSlice = createSlice({
-    name : 'novisPapers',
-    initialState:{
-        papers : [],
+  name: "novisPapers",
+  initialState: {
+    papers: [],
+  },
+  reducers: {
+    changeNovisPapers: (state, action) => {
+      state.papers = action.payload;
     },
-    reducers:{
-        changeNovisPapers :(state,action) => {
-            state.papers = action.payload;
-        }
-    }
+  },
 });
 
 export const { changeNovisPapers } = novisPapersSlice.actions;

@@ -5,6 +5,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { Link } from 'react-router-dom';
 
 const NotFound = () => {
+
     return(
         <Card sx={{ Width: "100%", height: "100%" }}>        
         <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} sx={{my:3 ,height: 60}}>
@@ -29,5 +30,6 @@ const NotFound = () => {
     </Card>
     );
 }
+
 
 export default NotFound;
