@@ -69,69 +69,61 @@ const Header = () => {
             paper vis
           </h1>
 
-          <Grid container>
-            <Grid item sm={11}>
-              <Box display="flex" justifyContent="flex-end" sx={hatenaStyle}>
-                <HelpOutlineIcon
-                  onClick={handleClickOpen("paper")}
-                  style={{ cursor: "pointer" }}
-                />
-                <Dialog
-                  open={open}
-                  onClose={handleClose}
-                  scroll={scroll}
-                  aria-labelledby="scroll-dialog-title"
-                  aria-describedby="scroll-dialog-description"
-                >
-                  <DialogTitle id="scroll-dialog-title">
-                    <Box sx={{ display: "flex" }}>
-                      <Typography variant="h4" sx={{ mt: 1, flexGrow: 1 }}>
-                        paper vizについて
-                      </Typography>
-                      <DialogActions>
-                        <IconButton
-                          sx={{ justifyContent: "right", alignItems: "right" }}
-                        >
-                          <CloseIcon onClick={handleClose} />
-                        </IconButton>
-                      </DialogActions>
-                    </Box>
-                  </DialogTitle>
-                  <DialogContent dividers={scroll === "paper"}>
-                    <DialogContentText
-                      id="scroll-dialog-description"
-                      ref={descriptionElementRef}
-                      tabIndex={1}
-                    >
-                      <Typography variant="h6" color="black">
-                        paper vizについて
-                      </Typography>
-                      <Typography variant="p" color="black">
-                        paper
-                        vizはキーワードとネットワーク図を用いた論文探索サービスです。
-                      </Typography>
-                      <Typography sx={{ pt: 2 }} variant="h6" color="black">
-                        年代について
-                      </Typography>
-                      <Typography variant="p" color="black">
-                        年代は検索する年代の範囲をスライダーで操作することができます。下に表記してあるFrom,Toの箱でも入力、調整が可能です。
-                        <br />
-                        年代の範囲は検索とキーワードの両方に影響します。
-                      </Typography>
-                      <Typography sx={{ pt: 2 }} variant="h6" color="black">
-                        キーワードについて
-                      </Typography>
-                      <Typography variant="p" color="black">
-                        論文のabstractからtf-idfを用いて重要語句を抽出し、上位30個の語句をキーワードとして表示しています。
-                        キーワードを選択することでそのキーワードを持つ論文を表示します。
-                      </Typography>
-                      <Typography sx={{ pt: 2 }} variant="h6" color="black">
-                        論文の表示について
-                      </Typography>
-                      <Typography variant="p" color="black">
-                        論文は検索またはキーワードを選択することで、それらに見合った論文を表示します。
-                        論文はソート可能で、通常は発行年でソートされています。
-                        {/* 検索の場合、（タイトル、著者、発行年、ページ数、
+           
+            <Grid item sm={11} >
+            <Box display="flex" justifyContent="flex-end" sx = {hatenaStyle} >
+            
+            <HelpOutlineIcon onClick={handleClickOpen('paper')} style={{cursor:'pointer'}}/>
+            <Dialog
+              open={open}
+              onClose={handleClose}
+              scroll={scroll}
+              aria-labelledby="scroll-dialog-title"
+              aria-describedby="scroll-dialog-description"
+            >
+              <DialogTitle id="scroll-dialog-title">
+                <Box sx={{ display: "flex" }}>
+                  <Typography variant='h4' sx={{mt:1,flexGrow:1}}>
+                    paper vizについて
+                  </Typography>
+                  <DialogActions>
+                    <IconButton sx={{ justifyContent: "right",  alignItems: "right"}}>
+                      <CloseIcon onClick={handleClose}/>
+                    </IconButton>
+                  </DialogActions>
+                </Box>
+              </DialogTitle>
+              <DialogContent dividers={scroll === 'paper'}>
+              <DialogContentText
+                id="scroll-dialog-description"
+                ref={descriptionElementRef}
+                tabIndex={1}
+              >
+                <Typography variant='h6' color='black'>paper vizについて</Typography>
+                <Typography variant='p' color='black'>
+                  paper vizはキーワードとネットワーク図を用いた論文探索サービスです。
+                </Typography>
+                <Typography sx={{pt:2}} variant='h6' color='black'>
+                  年代について
+                </Typography>
+                <Typography variant='p' color='black'>
+                  年代は検索する年代の範囲をスライダーで操作することができます。入力でも調整が可能です。
+                  年代の範囲は検索とキーワードの両方に影響します。
+                </Typography>
+                <Typography sx={{pt:2}} variant='h6' color='black'>
+                  キーワードについて
+                </Typography>
+                <Typography variant='p' color='black'>
+                  論文のabstractからtf-idfを用いて重要語句を抽出し、上位30個の語句をキーワードとして表示しています。
+                  キーワードを選択することでそのキーワードを持つ論文を表示します。
+                </Typography>
+                <Typography sx={{pt:2}} variant='h6' color='black'>
+                  論文の表示について
+                </Typography>
+                <Typography variant='p' color='black'>
+                  論文は検索またはキーワードを選択することで、それらに見合った論文を表示します。
+                  論文はソート可能で、通常は発行年でソートされています。
+                  {/* 検索の場合、（タイトル、著者、発行年、ページ数、
                   被引用数、url）を表示します。キーワードの場合、（タイトル、発行年、ページ数、被引用数、キーワード重要度、url）を表示します。 */}
                       </Typography>
                       <Typography sx={{ pt: 2 }} variant="h6" color="black">
@@ -164,7 +156,35 @@ const Header = () => {
                 </Dialog>
               </Box>
             </Grid>
-          </Grid>
+            </Grid>
+            </div>
+            {/* <div className="tabs is-boxed">
+            <ul >
+                <li className={active === 'home' && 'is-active'}>
+                  <a onClick = {() => changeActive('home')}>
+                    <Link to="/">
+                      home
+                    </Link>
+                  </a>
+                </li>
+                <li className={active === 'nokeywords' && 'is-active'}>
+                  <a onClick = {() => changeActive('nokeywords')}>
+                    <Link to="nokeywords">
+                      キーワードなし
+                    </Link>
+                  </a>
+                </li>
+                <li className={active === 'novis' && 'is-active'}>
+                  <a onClick = {() => changeActive('novis')}>
+                    <Link to="novis">
+                      可視化なし
+                    </Link>
+                  </a>
+                </li>
+                
+            </ul>
+            </div>           */}
+
         </div>
         <div className="tabs is-boxed">
           <ul>

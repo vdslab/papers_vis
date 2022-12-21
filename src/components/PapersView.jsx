@@ -81,52 +81,32 @@ const PapersView = () => {
         },
         { id: "html_url", label: "url", minWidth: 30 },
       ];
-      setColumns(col);
-    } else {
+
+      setColumns(col)
+      setOrderBy('publication_year');
+    }else{
       const col = [
-        {
-          id: "title",
-          label: "タイトル",
-          numeric: false,
-          align: "left",
-          disablePadding: false,
-          minWidth: 300,
-        },
-        {
-          id: "year",
-          label: "発行年",
-          numeric: true,
-          align: "right",
-          disablePadding: true,
-          minWidth: 100,
-        },
-        {
-          id: "page",
-          label: "ページ数",
-          numeric: true,
-          align: "right",
-          disablePadding: true,
-          minWidth: 120,
-        },
-        {
-          id: "citing_paper_count",
-          label: "被引用数",
-          numeric: true,
-          align: "right",
-          disablePadding: true,
-          minWidth: 120,
-        },
-        {
-          id: "value",
-          label: "キーワード重要度",
-          numeric: true,
-          align: "right",
-          disablePadding: true,
-          minWidth: 150,
-        },
-        { id: "url", label: "url", minWidth: 30 },
-      ];
-      setColumns(col);
+        { id: 'title', label: 'タイトル',numeric : false , align: 'left', disablePadding: false,minWidth: 300 },
+        { id: 'year', label: '発行年', numeric : true, align: 'right', disablePadding: true,minWidth: 100 },
+        { id: 'page', label: 'ページ数', numeric : true,align: 'right', disablePadding: true, minWidth: 120 },
+        { id: 'citing_paper_count', label: '被引用数', numeric : true, align: 'right', disablePadding: true, minWidth: 120 },
+        { id: 'value', label: 'キーワード重要度', numeric : true, align: 'right', disablePadding: true, minWidth: 150 },
+        { id: 'url', label: 'url', minWidth: 30}
+    ];
+    setColumns(col)
+    setOrderBy('year');
+    }  
+  },[columnsJudge]);
+    
+    
+    const emptyRows = page > 0 ? Math.max(0, (1 + page) * rowsPerPage - papers.length) : 0;
+    
+    useEffect(() => {
+      setPage(0);
+    },[keyword,search])
+
+    const escapeDoi = (doi) => {
+      return doi.replaceAll('.', '_').replaceAll('/', '-');
     }
   }, [columnsJudge]);
 
@@ -161,128 +141,44 @@ const PapersView = () => {
     };
 
     return (
-      <TableHead>
-        <TableRow>
-          {columns.map((column) => (
-            <TableCell
-              key={column.id}
-              align={column.numeric ? "right" : "left"}
-              padding={column.disablePadding ? "none" : "normal"}
-              sortDirection={orderBy === column.id ? order : false}
-            >
-              <TableSortLabel
-                active={orderBy === column.id}
-                direction={orderBy === column.id ? order : "asc"}
-                onClick={createSortHandler(column.id)}
-              >
-                {column.label}
-                {orderBy === column.id ? (
-                  <Box component="span" sx={visuallyHidden}>
-                    {order === "desc"
-                      ? "sorted descending"
-                      : "sorted ascending"}
-                  </Box>
-                ) : null}
-              </TableSortLabel>
-            </TableCell>
-          ))}
-        </TableRow>
-      </TableHead>
-    );
-  }
 
-  EnhancedTableHead.propTypes = {
-    onRequestSort: PropTypes.func.isRequired,
-    order: PropTypes.oneOf(["asc", "desc"]).isRequired,
-    orderBy: PropTypes.string.isRequired,
-  };
-
-  function descendingComparator(a, b, orderBy) {
-    if (b[orderBy] < a[orderBy]) {
-      return -1;
-    }
-    if (b[orderBy] > a[orderBy]) {
-      return 1;
-    }
-    return 0;
-  }
-
-  function getComparator(order, orderBy) {
-    return order === "desc"
-      ? (a, b) => descendingComparator(a, b, orderBy)
-      : (a, b) => -descendingComparator(a, b, orderBy);
-  }
-
-  function stableSort(array, comparator) {
-    const stabilizedThis = array.map((el, index) => [el, index]);
-    stabilizedThis.sort((a, b) => {
-      const order = comparator(a[0], b[0]);
-      if (order !== 0) {
-        return order;
-      }
-      return a[1] - b[1];
-    });
-    return stabilizedThis.map((el) => el[0]);
-  }
-  return (
-    <div>
-      <Paper sx={{ width: "100%", overflow: "hidden" }}>
-        <Toolbar sx={{ pl: { sm: 2 }, pr: { xs: 1, sm: 1 } }}>
-          {columnsJudge == "keyword" ? (
-            keyword == "" ? (
-              <Typography
-                sx={{ flex: "1 1 100%" }}
-                color="justify"
-                variant="subtitle1"
-                component="div"
-              >
-                検索を行うかキーワードを選択すると論文が表示されます
-              </Typography>
-            ) : (
-              <Typography
-                sx={{ flex: "1 1 100%" }}
-                align="justify"
-                variant="h5"
-                id="tableTitle"
-                component="div"
-              >
-                選択されたキーワード：{keyword}
-              </Typography>
-            )
-          ) : search == "" ? (
-            <Typography
-              sx={{ flex: "1 1 100%" }}
-              color="justify"
-              variant="subtitle1"
-              component="div"
-            >
-              検索を行うかキーワードを選択すると論文が表示されます
-            </Typography>
-          ) : (
-            <Typography
-              sx={{ flex: "1 1 100%" }}
-              align="justify"
-              variant="h5"
-              id="tableTitle"
-              component="div"
-            >
-              入力されたキーワード：{search}
-            </Typography>
-          )}
-        </Toolbar>
-
-        <TableContainer sx={{ maxHeight: 600 }}>
-          {!tableDataJudge ? (
-            <div>
-              <Table stickyHeader aria-label="sticky table">
-                <EnhancedTableHead
-                  order={order}
-                  orderBy={orderBy}
-                  onRequestSort={handleRequestSort}
-                />
-              </Table>
-              <Card sx={{ Width: "100%", height: "100%" }}>
-                {/* <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} sx={{my:5 }}> 
+        <div>
+            <Paper sx={{ width: '100%', overflow: 'hidden' }}>
+              <Toolbar sx={{pl: { sm: 2 }, pr: { xs: 1, sm: 1 }}}>
+              {columnsJudge == 'keyword' ? (
+              keyword == '' ? (
+                <Typography sx={{ flex: '1 1 100%' }} color="justify" variant="subtitle1" component="div">
+                  検索を行うかキーワードを選択すると論文が表示されます
+                </Typography>
+              ) : (
+                <Typography sx={{ flex: '1 1 100%' }} align="justify" variant="h5" id="tableTitle" component="div">
+                  選択されたキーワード：{keyword}
+                </Typography>
+              )) : (
+                search == '' || search == undefined ? (
+                  <Typography sx={{ flex: '1 1 100%' }} color="justify" variant="subtitle1" component="div">
+                    検索を行うかキーワードを選択すると論文が表示されます
+                  </Typography>
+                ) : (
+                  <Typography sx={{ flex: '1 1 100%' }} align="justify" variant="h5" id="tableTitle" component="div">
+                    入力されたキーワード：{search}
+                  </Typography>
+              ))}
+              </Toolbar>
+              
+              <TableContainer sx={{ maxHeight: 600 }}>
+                
+              {!tableDataJudge ? (
+                <div>
+                  <Table stickyHeader aria-label="sticky table">
+                    <EnhancedTableHead
+                      order={order}
+                      orderBy={orderBy}
+                      onRequestSort={handleRequestSort}
+                    />
+                  </Table>
+                  <Card sx={{ Width: "100%", height: "100%" }}>
+                    {/* <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} sx={{my:5 }}> 
                           <Skeleton sx={{ width: "100%",height: 400 }} animation="wave" variant="rectangular" />
                         </Box>                   */}
                 <Box
