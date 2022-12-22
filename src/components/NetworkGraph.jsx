@@ -372,7 +372,7 @@ const NetworkGraph = ({
               const data = response[3*i].value.data[0];
               data["id"] = data["doi"];
               data['keyword'] = response[3*i + 1].status === 'rejected'?[]:response[3*i+1].value.data;;
-              data['authoer'] = response[3*i + 2].value.data;
+              data['author'] = response[3*i + 2].value.data;
               nodeData.push(data);
             }
             
@@ -627,6 +627,7 @@ const NetworkGraph = ({
       //console.log(localStorage.getItem(doi))
 
       console.log(linkData);
+      setProgress(0);
       startSimulation(nodeData, linkData);
     };
 
