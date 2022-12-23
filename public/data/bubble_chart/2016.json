@@ -1,734 +1,734 @@
 {
- "2016": [
-  {
-   "name": "energy",
-   "count": 192
-  },
-  {
-   "name": "data",
-   "count": 163
-  },
-  {
-   "name": "network",
-   "count": 160
-  },
-  {
-   "name": "control",
-   "count": 157
-  },
-  {
-   "name": "sub",
-   "count": 148
-  },
-  {
-   "name": "system",
-   "count": 141
-  },
-  {
-   "name": "algorithm",
-   "count": 132
-  },
-  {
-   "name": "power",
-   "count": 131
-  },
-  {
-   "name": "model",
-   "count": 130
-  },
-  {
-   "name": "relay",
-   "count": 126
-  },
-  {
-   "name": "image",
-   "count": 121
-  },
-  {
-   "name": "user",
-   "count": 111
-  },
-  {
-   "name": "sensor",
-   "count": 110
-  },
-  {
-   "name": "delay",
-   "count": 93
-  },
-  {
-   "name": "channel",
-   "count": 93
-  },
-  {
-   "name": "node",
-   "count": 91
-  },
-  {
-   "name": "cell",
-   "count": 90
-  },
-  {
-   "name": "feature",
-   "count": 90
-  },
-  {
-   "name": "video",
-   "count": 87
-  },
-  {
-   "name": "scheme",
-   "count": 87
-  },
-  {
-   "name": "fault",
-   "count": 81
-  },
-  {
-   "name": "method",
-   "count": 80
-  },
-  {
-   "name": "sup",
-   "count": 80
-  },
-  {
-   "name": "detection",
-   "count": 79
-  },
-  {
-   "name": "controller",
-   "count": 78
-  },
-  {
-   "name": "agent",
-   "count": 77
-  },
-  {
-   "name": "filter",
-   "count": 77
-  },
-  {
-   "name": "signal",
-   "count": 75
-  },
-  {
-   "name": "phase",
-   "count": 75
-  },
-  {
-   "name": "spectrum",
-   "count": 74
-  }
- ],
- "2017": [
-  {
-   "name": "energy",
-   "count": 379
-  },
-  {
-   "name": "network",
-   "count": 350
-  },
-  {
-   "name": "control",
-   "count": 338
-  },
-  {
-   "name": "data",
-   "count": 327
-  },
-  {
-   "name": "sub",
-   "count": 321
-  },
-  {
-   "name": "system",
-   "count": 284
-  },
-  {
-   "name": "power",
-   "count": 276
-  },
-  {
-   "name": "model",
-   "count": 268
-  },
-  {
-   "name": "relay",
-   "count": 265
-  },
-  {
-   "name": "algorithm",
-   "count": 255
-  },
-  {
-   "name": "image",
-   "count": 243
-  },
-  {
-   "name": "sensor",
-   "count": 236
-  },
-  {
-   "name": "user",
-   "count": 228
-  },
-  {
-   "name": "delay",
-   "count": 205
-  },
-  {
-   "name": "fault",
-   "count": 203
-  },
-  {
-   "name": "scheme",
-   "count": 198
-  },
-  {
-   "name": "channel",
-   "count": 197
-  },
-  {
-   "name": "agent",
-   "count": 195
-  },
-  {
-   "name": "cell",
-   "count": 188
-  },
-  {
-   "name": "node",
-   "count": 187
-  },
-  {
-   "name": "detection",
-   "count": 187
-  },
-  {
-   "name": "video",
-   "count": 178
-  },
-  {
-   "name": "filter",
-   "count": 174
-  },
-  {
-   "name": "method",
-   "count": 173
-  },
-  {
-   "name": "feature",
-   "count": 173
-  },
-  {
-   "name": "controller",
-   "count": 166
-  },
-  {
-   "name": "estimation",
-   "count": 162
-  },
-  {
-   "name": "vehicle",
-   "count": 157
-  },
-  {
-   "name": "sup",
-   "count": 155
-  },
-  {
-   "name": "graph",
-   "count": 153
-  }
- ],
- "2018": [
-  {
-   "name": "control",
-   "count": 611
-  },
-  {
-   "name": "energy",
-   "count": 590
-  },
-  {
-   "name": "network",
-   "count": 541
-  },
-  {
-   "name": "sub",
-   "count": 518
-  },
-  {
-   "name": "data",
-   "count": 503
-  },
-  {
-   "name": "system",
-   "count": 425
-  },
-  {
-   "name": "power",
-   "count": 415
-  },
-  {
-   "name": "relay",
-   "count": 406
-  },
-  {
-   "name": "algorithm",
-   "count": 399
-  },
-  {
-   "name": "model",
-   "count": 397
-  },
-  {
-   "name": "image",
-   "count": 392
-  },
-  {
-   "name": "user",
-   "count": 386
-  },
-  {
-   "name": "sensor",
-   "count": 376
-  },
-  {
-   "name": "fault",
-   "count": 328
-  },
-  {
-   "name": "channel",
-   "count": 321
-  },
-  {
-   "name": "detection",
-   "count": 319
-  },
-  {
-   "name": "delay",
-   "count": 314
-  },
-  {
-   "name": "node",
-   "count": 312
-  },
-  {
-   "name": "scheme",
-   "count": 300
-  },
-  {
-   "name": "video",
-   "count": 293
-  },
-  {
-   "name": "feature",
-   "count": 293
-  },
-  {
-   "name": "agent",
-   "count": 286
-  },
-  {
-   "name": "controller",
-   "count": 275
-  },
-  {
-   "name": "filter",
-   "count": 273
-  },
-  {
-   "name": "vehicle",
-   "count": 271
-  },
-  {
-   "name": "estimation",
-   "count": 271
-  },
-  {
-   "name": "cell",
-   "count": 267
-  },
-  {
-   "name": "method",
-   "count": 267
-  },
-  {
-   "name": "graph",
-   "count": 254
-  },
-  {
-   "name": "sup",
-   "count": 245
-  }
- ],
- "2019": [
-  {
-   "name": "control",
-   "count": 840
-  },
-  {
-   "name": "energy",
-   "count": 809
-  },
-  {
-   "name": "network",
-   "count": 755
-  },
-  {
-   "name": "data",
-   "count": 717
-  },
-  {
-   "name": "sub",
-   "count": 717
-  },
-  {
-   "name": "model",
-   "count": 561
-  },
-  {
-   "name": "power",
-   "count": 555
-  },
-  {
-   "name": "system",
-   "count": 554
-  },
-  {
-   "name": "user",
-   "count": 547
-  },
-  {
-   "name": "algorithm",
-   "count": 533
-  },
-  {
-   "name": "image",
-   "count": 530
-  },
-  {
-   "name": "sensor",
-   "count": 496
-  },
-  {
-   "name": "relay",
-   "count": 494
-  },
-  {
-   "name": "fault",
-   "count": 470
-  },
-  {
-   "name": "channel",
-   "count": 458
-  },
-  {
-   "name": "detection",
-   "count": 449
-  },
-  {
-   "name": "delay",
-   "count": 441
-  },
-  {
-   "name": "node",
-   "count": 434
-  },
-  {
-   "name": "scheme",
-   "count": 414
-  },
-  {
-   "name": "video",
-   "count": 397
-  },
-  {
-   "name": "agent",
-   "count": 395
-  },
-  {
-   "name": "feature",
-   "count": 392
-  },
-  {
-   "name": "vehicle",
-   "count": 377
-  },
-  {
-   "name": "filter",
-   "count": 374
-  },
-  {
-   "name": "controller",
-   "count": 374
-  },
-  {
-   "name": "estimation",
-   "count": 371
-  },
-  {
-   "name": "attack",
-   "count": 367
-  },
-  {
-   "name": "method",
-   "count": 361
-  },
-  {
-   "name": "event",
-   "count": 352
-  },
-  {
-   "name": "graph",
-   "count": 344
-  }
- ],
- "2020": [
-  {
-   "name": "control",
-   "count": 1101
-  },
-  {
-   "name": "energy",
-   "count": 1012
-  },
-  {
-   "name": "data",
-   "count": 1010
-  },
-  {
-   "name": "network",
-   "count": 1003
-  },
-  {
-   "name": "sub",
-   "count": 974
-  },
-  {
-   "name": "image",
-   "count": 738
-  },
-  {
-   "name": "model",
-   "count": 716
-  },
-  {
-   "name": "user",
-   "count": 712
-  },
-  {
-   "name": "system",
-   "count": 699
-  },
-  {
-   "name": "power",
-   "count": 692
-  },
-  {
-   "name": "algorithm",
-   "count": 685
-  },
-  {
-   "name": "fault",
-   "count": 662
-  },
-  {
-   "name": "sensor",
-   "count": 641
-  },
-  {
-   "name": "channel",
-   "count": 633
-  },
-  {
-   "name": "detection",
-   "count": 586
-  },
-  {
-   "name": "node",
-   "count": 582
-  },
-  {
-   "name": "relay",
-   "count": 582
-  },
-  {
-   "name": "delay",
-   "count": 580
-  },
-  {
-   "name": "agent",
-   "count": 542
-  },
-  {
-   "name": "attack",
-   "count": 539
-  },
-  {
-   "name": "scheme",
-   "count": 538
-  },
-  {
-   "name": "feature",
-   "count": 535
-  },
-  {
-   "name": "video",
-   "count": 526
-  },
-  {
-   "name": "event",
-   "count": 509
-  },
-  {
-   "name": "vehicle",
-   "count": 506
-  },
-  {
-   "name": "controller",
-   "count": 494
-  },
-  {
-   "name": "graph",
-   "count": 488
-  },
-  {
-   "name": "filter",
-   "count": 488
-  },
-  {
-   "name": "iot",
-   "count": 485
-  },
-  {
-   "name": "estimation",
-   "count": 480
-  }
- ],
- "2021": [
-  {
-   "name": "control",
-   "count": 1539
-  },
-  {
-   "name": "data",
-   "count": 1318
-  },
-  {
-   "name": "network",
-   "count": 1267
-  },
-  {
-   "name": "energy",
-   "count": 1224
-  },
-  {
-   "name": "sub",
-   "count": 1202
-  },
-  {
-   "name": "image",
-   "count": 1024
-  },
-  {
-   "name": "model",
-   "count": 952
-  },
-  {
-   "name": "fault",
-   "count": 951
-  },
-  {
-   "name": "user",
-   "count": 920
-  },
-  {
-   "name": "algorithm",
-   "count": 901
-  },
-  {
-   "name": "system",
-   "count": 898
-  },
-  {
-   "name": "power",
-   "count": 859
-  },
-  {
-   "name": "sensor",
-   "count": 845
-  },
-  {
-   "name": "attack",
-   "count": 844
-  },
-  {
-   "name": "channel",
-   "count": 819
-  },
-  {
-   "name": "detection",
-   "count": 810
-  },
-  {
-   "name": "event",
-   "count": 808
-  },
-  {
-   "name": "delay",
-   "count": 788
-  },
-  {
-   "name": "node",
-   "count": 770
-  },
-  {
-   "name": "agent",
-   "count": 763
-  },
-  {
-   "name": "feature",
-   "count": 752
-  },
-  {
-   "name": "graph",
-   "count": 718
-  },
-  {
-   "name": "video",
-   "count": 680
-  },
-  {
-   "name": "scheme",
-   "count": 679
-  },
-  {
-   "name": "controller",
-   "count": 671
-  },
-  {
-   "name": "relay",
-   "count": 668
-  },
-  {
-   "name": "iot",
-   "count": 660
-  },
-  {
-   "name": "vehicle",
-   "count": 654
-  },
-  {
-   "name": "edge",
-   "count": 651
-  },
-  {
-   "name": "estimation",
-   "count": 646
-  }
- ]
+  "2016": [
+    {
+      "name": "energy",
+      "count": 192
+    },
+    {
+      "name": "data",
+      "count": 163
+    },
+    {
+      "name": "network",
+      "count": 160
+    },
+    {
+      "name": "control",
+      "count": 157
+    },
+    {
+      "name": "sub",
+      "count": 148
+    },
+    {
+      "name": "system",
+      "count": 141
+    },
+    {
+      "name": "algorithm",
+      "count": 132
+    },
+    {
+      "name": "power",
+      "count": 131
+    },
+    {
+      "name": "model",
+      "count": 130
+    },
+    {
+      "name": "relay",
+      "count": 126
+    },
+    {
+      "name": "image",
+      "count": 121
+    },
+    {
+      "name": "user",
+      "count": 111
+    },
+    {
+      "name": "sensor",
+      "count": 110
+    },
+    {
+      "name": "delay",
+      "count": 93
+    },
+    {
+      "name": "channel",
+      "count": 93
+    },
+    {
+      "name": "node",
+      "count": 91
+    },
+    {
+      "name": "cell",
+      "count": 90
+    },
+    {
+      "name": "feature",
+      "count": 90
+    },
+    {
+      "name": "video",
+      "count": 87
+    },
+    {
+      "name": "scheme",
+      "count": 87
+    },
+    {
+      "name": "fault",
+      "count": 81
+    },
+    {
+      "name": "method",
+      "count": 80
+    },
+    {
+      "name": "sup",
+      "count": 80
+    },
+    {
+      "name": "detection",
+      "count": 79
+    },
+    {
+      "name": "controller",
+      "count": 78
+    },
+    {
+      "name": "agent",
+      "count": 77
+    },
+    {
+      "name": "filter",
+      "count": 77
+    },
+    {
+      "name": "signal",
+      "count": 75
+    },
+    {
+      "name": "phase",
+      "count": 75
+    },
+    {
+      "name": "spectrum",
+      "count": 74
+    }
+  ],
+  "2017": [
+    {
+      "name": "energy",
+      "count": 379
+    },
+    {
+      "name": "network",
+      "count": 350
+    },
+    {
+      "name": "control",
+      "count": 338
+    },
+    {
+      "name": "data",
+      "count": 327
+    },
+    {
+      "name": "sub",
+      "count": 321
+    },
+    {
+      "name": "system",
+      "count": 284
+    },
+    {
+      "name": "power",
+      "count": 276
+    },
+    {
+      "name": "model",
+      "count": 268
+    },
+    {
+      "name": "relay",
+      "count": 265
+    },
+    {
+      "name": "algorithm",
+      "count": 255
+    },
+    {
+      "name": "image",
+      "count": 243
+    },
+    {
+      "name": "sensor",
+      "count": 236
+    },
+    {
+      "name": "user",
+      "count": 228
+    },
+    {
+      "name": "delay",
+      "count": 205
+    },
+    {
+      "name": "fault",
+      "count": 203
+    },
+    {
+      "name": "scheme",
+      "count": 198
+    },
+    {
+      "name": "channel",
+      "count": 197
+    },
+    {
+      "name": "agent",
+      "count": 195
+    },
+    {
+      "name": "cell",
+      "count": 188
+    },
+    {
+      "name": "node",
+      "count": 187
+    },
+    {
+      "name": "detection",
+      "count": 187
+    },
+    {
+      "name": "video",
+      "count": 178
+    },
+    {
+      "name": "filter",
+      "count": 174
+    },
+    {
+      "name": "method",
+      "count": 173
+    },
+    {
+      "name": "feature",
+      "count": 173
+    },
+    {
+      "name": "controller",
+      "count": 166
+    },
+    {
+      "name": "estimation",
+      "count": 162
+    },
+    {
+      "name": "vehicle",
+      "count": 157
+    },
+    {
+      "name": "sup",
+      "count": 155
+    },
+    {
+      "name": "graph",
+      "count": 153
+    }
+  ],
+  "2018": [
+    {
+      "name": "control",
+      "count": 611
+    },
+    {
+      "name": "energy",
+      "count": 590
+    },
+    {
+      "name": "network",
+      "count": 541
+    },
+    {
+      "name": "sub",
+      "count": 518
+    },
+    {
+      "name": "data",
+      "count": 503
+    },
+    {
+      "name": "system",
+      "count": 425
+    },
+    {
+      "name": "power",
+      "count": 415
+    },
+    {
+      "name": "relay",
+      "count": 406
+    },
+    {
+      "name": "algorithm",
+      "count": 399
+    },
+    {
+      "name": "model",
+      "count": 397
+    },
+    {
+      "name": "image",
+      "count": 392
+    },
+    {
+      "name": "user",
+      "count": 386
+    },
+    {
+      "name": "sensor",
+      "count": 376
+    },
+    {
+      "name": "fault",
+      "count": 328
+    },
+    {
+      "name": "channel",
+      "count": 321
+    },
+    {
+      "name": "detection",
+      "count": 319
+    },
+    {
+      "name": "delay",
+      "count": 314
+    },
+    {
+      "name": "node",
+      "count": 312
+    },
+    {
+      "name": "scheme",
+      "count": 300
+    },
+    {
+      "name": "video",
+      "count": 293
+    },
+    {
+      "name": "feature",
+      "count": 293
+    },
+    {
+      "name": "agent",
+      "count": 286
+    },
+    {
+      "name": "controller",
+      "count": 275
+    },
+    {
+      "name": "filter",
+      "count": 273
+    },
+    {
+      "name": "vehicle",
+      "count": 271
+    },
+    {
+      "name": "estimation",
+      "count": 271
+    },
+    {
+      "name": "cell",
+      "count": 267
+    },
+    {
+      "name": "method",
+      "count": 267
+    },
+    {
+      "name": "graph",
+      "count": 254
+    },
+    {
+      "name": "sup",
+      "count": 245
+    }
+  ],
+  "2019": [
+    {
+      "name": "control",
+      "count": 840
+    },
+    {
+      "name": "energy",
+      "count": 809
+    },
+    {
+      "name": "network",
+      "count": 755
+    },
+    {
+      "name": "data",
+      "count": 717
+    },
+    {
+      "name": "sub",
+      "count": 717
+    },
+    {
+      "name": "model",
+      "count": 561
+    },
+    {
+      "name": "power",
+      "count": 555
+    },
+    {
+      "name": "system",
+      "count": 554
+    },
+    {
+      "name": "user",
+      "count": 547
+    },
+    {
+      "name": "algorithm",
+      "count": 533
+    },
+    {
+      "name": "image",
+      "count": 530
+    },
+    {
+      "name": "sensor",
+      "count": 496
+    },
+    {
+      "name": "relay",
+      "count": 494
+    },
+    {
+      "name": "fault",
+      "count": 470
+    },
+    {
+      "name": "channel",
+      "count": 458
+    },
+    {
+      "name": "detection",
+      "count": 449
+    },
+    {
+      "name": "delay",
+      "count": 441
+    },
+    {
+      "name": "node",
+      "count": 434
+    },
+    {
+      "name": "scheme",
+      "count": 414
+    },
+    {
+      "name": "video",
+      "count": 397
+    },
+    {
+      "name": "agent",
+      "count": 395
+    },
+    {
+      "name": "feature",
+      "count": 392
+    },
+    {
+      "name": "vehicle",
+      "count": 377
+    },
+    {
+      "name": "filter",
+      "count": 374
+    },
+    {
+      "name": "controller",
+      "count": 374
+    },
+    {
+      "name": "estimation",
+      "count": 371
+    },
+    {
+      "name": "attack",
+      "count": 367
+    },
+    {
+      "name": "method",
+      "count": 361
+    },
+    {
+      "name": "event",
+      "count": 352
+    },
+    {
+      "name": "graph",
+      "count": 344
+    }
+  ],
+  "2020": [
+    {
+      "name": "control",
+      "count": 1101
+    },
+    {
+      "name": "energy",
+      "count": 1012
+    },
+    {
+      "name": "data",
+      "count": 1010
+    },
+    {
+      "name": "network",
+      "count": 1003
+    },
+    {
+      "name": "sub",
+      "count": 974
+    },
+    {
+      "name": "image",
+      "count": 738
+    },
+    {
+      "name": "model",
+      "count": 716
+    },
+    {
+      "name": "user",
+      "count": 712
+    },
+    {
+      "name": "system",
+      "count": 699
+    },
+    {
+      "name": "power",
+      "count": 692
+    },
+    {
+      "name": "algorithm",
+      "count": 685
+    },
+    {
+      "name": "fault",
+      "count": 662
+    },
+    {
+      "name": "sensor",
+      "count": 641
+    },
+    {
+      "name": "channel",
+      "count": 633
+    },
+    {
+      "name": "detection",
+      "count": 586
+    },
+    {
+      "name": "node",
+      "count": 582
+    },
+    {
+      "name": "relay",
+      "count": 582
+    },
+    {
+      "name": "delay",
+      "count": 580
+    },
+    {
+      "name": "agent",
+      "count": 542
+    },
+    {
+      "name": "attack",
+      "count": 539
+    },
+    {
+      "name": "scheme",
+      "count": 538
+    },
+    {
+      "name": "feature",
+      "count": 535
+    },
+    {
+      "name": "video",
+      "count": 526
+    },
+    {
+      "name": "event",
+      "count": 509
+    },
+    {
+      "name": "vehicle",
+      "count": 506
+    },
+    {
+      "name": "controller",
+      "count": 494
+    },
+    {
+      "name": "graph",
+      "count": 488
+    },
+    {
+      "name": "filter",
+      "count": 488
+    },
+    {
+      "name": "iot",
+      "count": 485
+    },
+    {
+      "name": "estimation",
+      "count": 480
+    }
+  ],
+  "2021": [
+    {
+      "name": "control",
+      "count": 1539
+    },
+    {
+      "name": "data",
+      "count": 1318
+    },
+    {
+      "name": "network",
+      "count": 1267
+    },
+    {
+      "name": "energy",
+      "count": 1224
+    },
+    {
+      "name": "sub",
+      "count": 1202
+    },
+    {
+      "name": "image",
+      "count": 1024
+    },
+    {
+      "name": "model",
+      "count": 952
+    },
+    {
+      "name": "fault",
+      "count": 951
+    },
+    {
+      "name": "user",
+      "count": 920
+    },
+    {
+      "name": "algorithm",
+      "count": 901
+    },
+    {
+      "name": "system",
+      "count": 898
+    },
+    {
+      "name": "power",
+      "count": 859
+    },
+    {
+      "name": "sensor",
+      "count": 845
+    },
+    {
+      "name": "attack",
+      "count": 844
+    },
+    {
+      "name": "channel",
+      "count": 819
+    },
+    {
+      "name": "detection",
+      "count": 810
+    },
+    {
+      "name": "event",
+      "count": 808
+    },
+    {
+      "name": "delay",
+      "count": 788
+    },
+    {
+      "name": "node",
+      "count": 770
+    },
+    {
+      "name": "agent",
+      "count": 763
+    },
+    {
+      "name": "feature",
+      "count": 752
+    },
+    {
+      "name": "graph",
+      "count": 718
+    },
+    {
+      "name": "video",
+      "count": 680
+    },
+    {
+      "name": "scheme",
+      "count": 679
+    },
+    {
+      "name": "controller",
+      "count": 671
+    },
+    {
+      "name": "relay",
+      "count": 668
+    },
+    {
+      "name": "iot",
+      "count": 660
+    },
+    {
+      "name": "vehicle",
+      "count": 654
+    },
+    {
+      "name": "edge",
+      "count": 651
+    },
+    {
+      "name": "estimation",
+      "count": 646
+    }
+  ]
 }

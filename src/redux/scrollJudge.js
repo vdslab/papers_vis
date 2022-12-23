@@ -1,15 +1,15 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 export const scrollJudgeSlice = createSlice({
-    name : 'scrollJudge',
-    initialState:{
-        judge : false,
+  name: "scrollJudge",
+  initialState: {
+    judge: false,
+  },
+  reducers: {
+    changeScrollJudge: (state, action) => {
+      state.judge = action.payload;
     },
-    reducers:{
-        changeScrollJudge :(state,action) => {
-            state.judge = action.payload;
-        }
-    }
+  },
 });
 
 export const { changeScrollJudge } = scrollJudgeSlice.actions;

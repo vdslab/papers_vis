@@ -5,43 +5,43 @@ import ScrollTop from "./components/Scrolltop";
 import NotFound from "./pages/NotFound";
 import "bulma/css/bulma.css";
 import {
-    BrowserRouter,
-    Routes,
-    Route,
-    Outlet
+  BrowserRouter,
+  Routes,
+  Route,
+  Outlet,
+  Navigate,
 } from "react-router-dom";
 import Network from "./pages/network";
-import NoKeywords  from "./pages/NoKeywords";
+import NoKeywords from "./pages/NoKeywords";
 import NoVis from "./pages/NoVis";
 import NoVisNetwork from "./pages/NoVisNetwork";
-import * as d3 from 'd3';
-import { useEffect,useState } from "react";
+import * as d3 from "d3";
+import { useEffect, useState } from "react";
 
+//論文のauthor_idを取得 このテーブル消すかも。タイムアウトしなければ直接authorを検索できるようにする。
+//const response = await fetch(`/.netlify/functions/api/authorsearch/${encoded}`);
 
-      //論文のauthor_idを取得 このテーブル消すかも。タイムアウトしなければ直接authorを検索できるようにする。
-      //const response = await fetch(`/.netlify/functions/api/authorsearch/${encoded}`);
-      
-      //author_idからauthorの情報の検索
-    //   const response = await fetch(`/.netlify/functions/api/authors/${target_encoded}`);
-    //   const data = await response.json();
-    //   setData(data);
+//author_idからauthorの情報の検索
+//   const response = await fetch(`/.netlify/functions/api/authors/${target_encoded}`);
+//   const data = await response.json();
+//   setData(data);
 
-    //   const response = await fetch(`/.netlify/functions/api/authors/${author_id}`);
-    //   const data = await response.json();
+//   const response = await fetch(`/.netlify/functions/api/authors/${author_id}`);
+//   const data = await response.json();
 
-const Layout = ({children}) => {
-    return(
-        <>
-            <Header />
-                <Outlet />
-            <Footer/>
-        </>
-    );
-}
+const Layout = ({ children }) => {
+  return (
+    <>
+      <Header />
+      <Outlet />
+      <Footer />
+    </>
+  );
+};
 export default function App() {
-    //const [data, setData] = useState([]);
-    useEffect(() => {
-        /*
+  //const [data, setData] = useState([]);
+  useEffect(() => {
+    /*
     (async () => {
     //検索されたdoiとauthor_id
       const doi = "10.1109/MCOM.1977.1089436"
@@ -61,22 +61,24 @@ export default function App() {
     setData(data);
     })();
     */
-    }, []);
+  }, []);
 
-    return (
-            <BrowserRouter>
-                <ScrollTop />
-                <Routes>
-                    <Route path = "/" element = {<Layout />}>
-                        <Route index element = {<Main />} />    
-                        <Route exact path = "help" element = {<p>f</p>} />
-                        <Route path="*" element={<NotFound />} />
-                        <Route exact path="/nokeywords" element={ <NoKeywords />} />
-                        <Route exact path="/novis" element={ <NoVis />} />
-                    </Route>
-                    <Route path = "/network/:doi" element = {<Network />} />
-                    <Route path = "/novis/network/:doi" element = {<NoVisNetwork/>} />
-                </Routes>
-            </BrowserRouter>
-    );
-  }
+  return (
+    <BrowserRouter>
+      <ScrollTop />
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Main />} />
+          <Route exact path="help" element={<p>f</p>} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+          <Route exact path="/nokeywords" element={<NoKeywords />} />
+          <Route exact path="/novis" element={<NoVis />} />
+          <Route exact path="/network_notfound" element={<NotFound />} />
+        </Route>
+        <Route path="/network/:doi" element={<Network />} />
+        <Route path="/novis/network/:doi" element={<NoVisNetwork />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
