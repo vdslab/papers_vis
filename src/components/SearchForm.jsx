@@ -23,6 +23,7 @@ const SearchForm = () => {
     const isFirstRenderAuthor = useRef(true);
     const [enterJudge,setEnterJudge] = useState(false);
     const [input,setInput] = useState();
+    
     useEffect(() => {
         if(isFirstRender.current) { // 初回レンダー判定
             isFirstRender.current = false // もう初回レンダーじゃないよ代入
