@@ -47,6 +47,7 @@ const PapersView = () => {
         { id: 'html_url', label: 'url', minWidth: 30}
       ];
       setColumns(col)
+      setOrderBy('publication_year')
     }else{
       const col = [
         { id: 'title', label: 'タイトル',numeric : false , align: 'left', disablePadding: false,minWidth: 300 },
@@ -57,6 +58,7 @@ const PapersView = () => {
         { id: 'url', label: 'url', minWidth: 30}
     ];
     setColumns(col)
+    setOrderBy('year');
     }  
   },[columnsJudge]);
     
