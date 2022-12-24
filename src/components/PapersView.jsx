@@ -171,7 +171,7 @@ const PapersView = () => {
                   選択されたキーワード：{keyword}
                 </Typography>
               )) : (
-                search == '' ? (
+                search == '' || undefined ? (
                   <Typography sx={{ flex: '1 1 100%' }} color="justify" variant="subtitle1" component="div">
                     検索を行うかキーワードを選択すると論文が表示されます
                   </Typography>
