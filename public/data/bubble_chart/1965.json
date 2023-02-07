@@ -1,6956 +1,6956 @@
 {
-  "1965": [
-    {
-      "name": "system",
-      "count": 14
-    },
-    {
-      "name": "tex",
-      "count": 12
-    },
-    {
-      "name": "inf",
-      "count": 10
-    },
-    {
-      "name": "noise",
-      "count": 9
-    },
-    {
-      "name": "measurement",
-      "count": 8
-    },
-    {
-      "name": "target",
-      "count": 8
-    },
-    {
-      "name": "wave",
-      "count": 7
-    },
-    {
-      "name": "signal",
-      "count": 7
-    },
-    {
-      "name": "control",
-      "count": 6
-    },
-    {
-      "name": "sample",
-      "count": 6
-    },
-    {
-      "name": "method",
-      "count": 6
-    },
-    {
-      "name": "plant",
-      "count": 6
-    },
-    {
-      "name": "time",
-      "count": 6
-    },
-    {
-      "name": "cross",
-      "count": 5
-    },
-    {
-      "name": "sup",
-      "count": 5
-    },
-    {
-      "name": "response",
-      "count": 5
-    },
-    {
-      "name": "error",
-      "count": 5
-    },
-    {
-      "name": "parameter",
-      "count": 5
-    },
-    {
-      "name": "gain",
-      "count": 5
-    },
-    {
-      "name": "equation",
-      "count": 5
-    },
-    {
-      "name": "field",
-      "count": 5
-    },
-    {
-      "name": "device",
-      "count": 5
-    },
-    {
-      "name": "technique",
-      "count": 5
-    },
-    {
-      "name": "transistor",
-      "count": 5
-    },
-    {
-      "name": "surface",
-      "count": 5
-    },
-    {
-      "name": "line",
-      "count": 5
-    },
-    {
-      "name": "array",
-      "count": 5
-    },
-    {
-      "name": "rcs",
-      "count": 5
-    },
-    {
-      "name": "seismic",
-      "count": 5
-    },
-    {
-      "name": "nonlinear",
-      "count": 4
-    }
-  ],
-  "1966": [
-    {
-      "name": "system",
-      "count": 36
-    },
-    {
-      "name": "tex",
-      "count": 29
-    },
-    {
-      "name": "control",
-      "count": 20
-    },
-    {
-      "name": "inf",
-      "count": 20
-    },
-    {
-      "name": "noise",
-      "count": 17
-    },
-    {
-      "name": "sup",
-      "count": 16
-    },
-    {
-      "name": "signal",
-      "count": 16
-    },
-    {
-      "name": "sample",
-      "count": 12
-    },
-    {
-      "name": "method",
-      "count": 12
-    },
-    {
-      "name": "plant",
-      "count": 12
-    },
-    {
-      "name": "state",
-      "count": 11
-    },
-    {
-      "name": "frequency",
-      "count": 11
-    },
-    {
-      "name": "model",
-      "count": 11
-    },
-    {
-      "name": "parameter",
-      "count": 10
-    },
-    {
-      "name": "design",
-      "count": 10
-    },
-    {
-      "name": "laser",
-      "count": 10
-    },
-    {
-      "name": "matrix",
-      "count": 10
-    },
-    {
-      "name": "wave",
-      "count": 9
-    },
-    {
-      "name": "gain",
-      "count": 9
-    },
-    {
-      "name": "problem",
-      "count": 9
-    },
-    {
-      "name": "process",
-      "count": 9
-    },
-    {
-      "name": "stability",
-      "count": 9
-    },
-    {
-      "name": "value",
-      "count": 9
-    },
-    {
-      "name": "circuit",
-      "count": 9
-    },
-    {
-      "name": "target",
-      "count": 9
-    },
-    {
-      "name": "field",
-      "count": 9
-    },
-    {
-      "name": "device",
-      "count": 9
-    },
-    {
-      "name": "technique",
-      "count": 9
-    },
-    {
-      "name": "pulse",
-      "count": 9
-    },
-    {
-      "name": "error",
-      "count": 8
-    }
-  ],
-  "1967": [
-    {
-      "name": "inf",
-      "count": 61
-    },
-    {
-      "name": "system",
-      "count": 59
-    },
-    {
-      "name": "sup",
-      "count": 51
-    },
-    {
-      "name": "tex",
-      "count": 47
-    },
-    {
-      "name": "noise",
-      "count": 35
-    },
-    {
-      "name": "control",
-      "count": 33
-    },
-    {
-      "name": "matrix",
-      "count": 29
-    },
-    {
-      "name": "signal",
-      "count": 27
-    },
-    {
-      "name": "method",
-      "count": 27
-    },
-    {
-      "name": "pulse",
-      "count": 27
-    },
-    {
-      "name": "wave",
-      "count": 25
-    },
-    {
-      "name": "problem",
-      "count": 24
-    },
-    {
-      "name": "measurement",
-      "count": 24
-    },
-    {
-      "name": "design",
-      "count": 24
-    },
-    {
-      "name": "parameter",
-      "count": 23
-    },
-    {
-      "name": "network",
-      "count": 23
-    },
-    {
-      "name": "function",
-      "count": 22
-    },
-    {
-      "name": "device",
-      "count": 22
-    },
-    {
-      "name": "line",
-      "count": 22
-    },
-    {
-      "name": "gain",
-      "count": 21
-    },
-    {
-      "name": "stability",
-      "count": 21
-    },
-    {
-      "name": "filter",
-      "count": 20
-    },
-    {
-      "name": "circuit",
-      "count": 20
-    },
-    {
-      "name": "frequency",
-      "count": 20
-    },
-    {
-      "name": "power",
-      "count": 20
-    },
-    {
-      "name": "model",
-      "count": 20
-    },
-    {
-      "name": "phase",
-      "count": 20
-    },
-    {
-      "name": "diode",
-      "count": 20
-    },
-    {
-      "name": "state",
-      "count": 19
-    },
-    {
-      "name": "computer",
-      "count": 19
-    }
-  ],
-  "1968": [
-    {
-      "name": "inf",
-      "count": 97
-    },
-    {
-      "name": "sup",
-      "count": 84
-    },
-    {
-      "name": "system",
-      "count": 77
-    },
-    {
-      "name": "tex",
-      "count": 67
-    },
-    {
-      "name": "control",
-      "count": 60
-    },
-    {
-      "name": "noise",
-      "count": 51
-    },
-    {
-      "name": "matrix",
-      "count": 46
-    },
-    {
-      "name": "signal",
-      "count": 41
-    },
-    {
-      "name": "method",
-      "count": 40
-    },
-    {
-      "name": "wave",
-      "count": 39
-    },
-    {
-      "name": "model",
-      "count": 36
-    },
-    {
-      "name": "device",
-      "count": 36
-    },
-    {
-      "name": "filter",
-      "count": 35
-    },
-    {
-      "name": "array",
-      "count": 35
-    },
-    {
-      "name": "pulse",
-      "count": 35
-    },
-    {
-      "name": "diode",
-      "count": 33
-    },
-    {
-      "name": "network",
-      "count": 33
-    },
-    {
-      "name": "parameter",
-      "count": 32
-    },
-    {
-      "name": "process",
-      "count": 32
-    },
-    {
-      "name": "function",
-      "count": 32
-    },
-    {
-      "name": "line",
-      "count": 32
-    },
-    {
-      "name": "problem",
-      "count": 31
-    },
-    {
-      "name": "equation",
-      "count": 31
-    },
-    {
-      "name": "stability",
-      "count": 30
-    },
-    {
-      "name": "measurement",
-      "count": 30
-    },
-    {
-      "name": "circuit",
-      "count": 30
-    },
-    {
-      "name": "mode",
-      "count": 30
-    },
-    {
-      "name": "error",
-      "count": 29
-    },
-    {
-      "name": "design",
-      "count": 29
-    },
-    {
-      "name": "phase",
-      "count": 29
-    }
-  ],
-  "1969": [
-    {
-      "name": "inf",
-      "count": 145
-    },
-    {
-      "name": "sup",
-      "count": 121
-    },
-    {
-      "name": "system",
-      "count": 101
-    },
-    {
-      "name": "tex",
-      "count": 93
-    },
-    {
-      "name": "control",
-      "count": 82
-    },
-    {
-      "name": "method",
-      "count": 69
-    },
-    {
-      "name": "noise",
-      "count": 68
-    },
-    {
-      "name": "filter",
-      "count": 59
-    },
-    {
-      "name": "matrix",
-      "count": 58
-    },
-    {
-      "name": "signal",
-      "count": 56
-    },
-    {
-      "name": "model",
-      "count": 50
-    },
-    {
-      "name": "wave",
-      "count": 49
-    },
-    {
-      "name": "problem",
-      "count": 47
-    },
-    {
-      "name": "function",
-      "count": 46
-    },
-    {
-      "name": "network",
-      "count": 45
-    },
-    {
-      "name": "pulse",
-      "count": 45
-    },
-    {
-      "name": "circuit",
-      "count": 44
-    },
-    {
-      "name": "design",
-      "count": 44
-    },
-    {
-      "name": "algorithm",
-      "count": 44
-    },
-    {
-      "name": "phase",
-      "count": 44
-    },
-    {
-      "name": "diode",
-      "count": 44
-    },
-    {
-      "name": "equation",
-      "count": 43
-    },
-    {
-      "name": "measurement",
-      "count": 43
-    },
-    {
-      "name": "parameter",
-      "count": 42
-    },
-    {
-      "name": "frequency",
-      "count": 42
-    },
-    {
-      "name": "device",
-      "count": 42
-    },
-    {
-      "name": "mode",
-      "count": 42
-    },
-    {
-      "name": "array",
-      "count": 41
-    },
-    {
-      "name": "response",
-      "count": 40
-    },
-    {
-      "name": "error",
-      "count": 40
-    }
-  ],
-  "1970": [
-    {
-      "name": "inf",
-      "count": 181
-    },
-    {
-      "name": "sup",
-      "count": 150
-    },
-    {
-      "name": "system",
-      "count": 134
-    },
-    {
-      "name": "tex",
-      "count": 130
-    },
-    {
-      "name": "control",
-      "count": 98
-    },
-    {
-      "name": "noise",
-      "count": 88
-    },
-    {
-      "name": "method",
-      "count": 84
-    },
-    {
-      "name": "matrix",
-      "count": 71
-    },
-    {
-      "name": "filter",
-      "count": 69
-    },
-    {
-      "name": "model",
-      "count": 67
-    },
-    {
-      "name": "signal",
-      "count": 66
-    },
-    {
-      "name": "pulse",
-      "count": 61
-    },
-    {
-      "name": "function",
-      "count": 60
-    },
-    {
-      "name": "diode",
-      "count": 59
-    },
-    {
-      "name": "problem",
-      "count": 58
-    },
-    {
-      "name": "wave",
-      "count": 57
-    },
-    {
-      "name": "equation",
-      "count": 57
-    },
-    {
-      "name": "circuit",
-      "count": 57
-    },
-    {
-      "name": "algorithm",
-      "count": 56
-    },
-    {
-      "name": "network",
-      "count": 55
-    },
-    {
-      "name": "stability",
-      "count": 53
-    },
-    {
-      "name": "measurement",
-      "count": 52
-    },
-    {
-      "name": "frequency",
-      "count": 52
-    },
-    {
-      "name": "error",
-      "count": 51
-    },
-    {
-      "name": "process",
-      "count": 51
-    },
-    {
-      "name": "device",
-      "count": 51
-    },
-    {
-      "name": "line",
-      "count": 51
-    },
-    {
-      "name": "parameter",
-      "count": 49
-    },
-    {
-      "name": "laser",
-      "count": 49
-    },
-    {
-      "name": "response",
-      "count": 48
-    }
-  ],
-  "1971": [
-    {
-      "name": "inf",
-      "count": 208
-    },
-    {
-      "name": "sup",
-      "count": 177
-    },
-    {
-      "name": "tex",
-      "count": 155
-    },
-    {
-      "name": "system",
-      "count": 155
-    },
-    {
-      "name": "control",
-      "count": 115
-    },
-    {
-      "name": "noise",
-      "count": 101
-    },
-    {
-      "name": "method",
-      "count": 96
-    },
-    {
-      "name": "matrix",
-      "count": 86
-    },
-    {
-      "name": "filter",
-      "count": 85
-    },
-    {
-      "name": "diode",
-      "count": 78
-    },
-    {
-      "name": "model",
-      "count": 77
-    },
-    {
-      "name": "signal",
-      "count": 74
-    },
-    {
-      "name": "circuit",
-      "count": 72
-    },
-    {
-      "name": "function",
-      "count": 70
-    },
-    {
-      "name": "problem",
-      "count": 69
-    },
-    {
-      "name": "algorithm",
-      "count": 69
-    },
-    {
-      "name": "equation",
-      "count": 67
-    },
-    {
-      "name": "wave",
-      "count": 66
-    },
-    {
-      "name": "network",
-      "count": 66
-    },
-    {
-      "name": "pulse",
-      "count": 65
-    },
-    {
-      "name": "device",
-      "count": 64
-    },
-    {
-      "name": "stability",
-      "count": 61
-    },
-    {
-      "name": "error",
-      "count": 60
-    },
-    {
-      "name": "process",
-      "count": 60
-    },
-    {
-      "name": "frequency",
-      "count": 60
-    },
-    {
-      "name": "phase",
-      "count": 60
-    },
-    {
-      "name": "parameter",
-      "count": 59
-    },
-    {
-      "name": "input",
-      "count": 57
-    },
-    {
-      "name": "design",
-      "count": 57
-    },
-    {
-      "name": "line",
-      "count": 57
-    }
-  ],
-  "1972": [
-    {
-      "name": "inf",
-      "count": 228
-    },
-    {
-      "name": "sup",
-      "count": 192
-    },
-    {
-      "name": "tex",
-      "count": 187
-    },
-    {
-      "name": "system",
-      "count": 185
-    },
-    {
-      "name": "control",
-      "count": 145
-    },
-    {
-      "name": "noise",
-      "count": 120
-    },
-    {
-      "name": "method",
-      "count": 108
-    },
-    {
-      "name": "model",
-      "count": 108
-    },
-    {
-      "name": "filter",
-      "count": 98
-    },
-    {
-      "name": "matrix",
-      "count": 98
-    },
-    {
-      "name": "signal",
-      "count": 92
-    },
-    {
-      "name": "problem",
-      "count": 87
-    },
-    {
-      "name": "algorithm",
-      "count": 87
-    },
-    {
-      "name": "diode",
-      "count": 85
-    },
-    {
-      "name": "network",
-      "count": 85
-    },
-    {
-      "name": "circuit",
-      "count": 82
-    },
-    {
-      "name": "function",
-      "count": 81
-    },
-    {
-      "name": "equation",
-      "count": 78
-    },
-    {
-      "name": "time",
-      "count": 77
-    },
-    {
-      "name": "parameter",
-      "count": 76
-    },
-    {
-      "name": "device",
-      "count": 74
-    },
-    {
-      "name": "pulse",
-      "count": 74
-    },
-    {
-      "name": "wave",
-      "count": 73
-    },
-    {
-      "name": "frequency",
-      "count": 73
-    },
-    {
-      "name": "error",
-      "count": 71
-    },
-    {
-      "name": "stability",
-      "count": 68
-    },
-    {
-      "name": "design",
-      "count": 68
-    },
-    {
-      "name": "process",
-      "count": 67
-    },
-    {
-      "name": "line",
-      "count": 67
-    },
-    {
-      "name": "state",
-      "count": 66
-    }
-  ],
-  "1973": [
-    {
-      "name": "inf",
-      "count": 259
-    },
-    {
-      "name": "sup",
-      "count": 219
-    },
-    {
-      "name": "tex",
-      "count": 210
-    },
-    {
-      "name": "system",
-      "count": 208
-    },
-    {
-      "name": "control",
-      "count": 168
-    },
-    {
-      "name": "noise",
-      "count": 136
-    },
-    {
-      "name": "model",
-      "count": 131
-    },
-    {
-      "name": "method",
-      "count": 120
-    },
-    {
-      "name": "filter",
-      "count": 113
-    },
-    {
-      "name": "matrix",
-      "count": 112
-    },
-    {
-      "name": "signal",
-      "count": 104
-    },
-    {
-      "name": "problem",
-      "count": 103
-    },
-    {
-      "name": "algorithm",
-      "count": 96
-    },
-    {
-      "name": "diode",
-      "count": 95
-    },
-    {
-      "name": "network",
-      "count": 95
-    },
-    {
-      "name": "parameter",
-      "count": 93
-    },
-    {
-      "name": "circuit",
-      "count": 89
-    },
-    {
-      "name": "equation",
-      "count": 88
-    },
-    {
-      "name": "function",
-      "count": 88
-    },
-    {
-      "name": "time",
-      "count": 87
-    },
-    {
-      "name": "frequency",
-      "count": 83
-    },
-    {
-      "name": "pulse",
-      "count": 82
-    },
-    {
-      "name": "wave",
-      "count": 81
-    },
-    {
-      "name": "device",
-      "count": 81
-    },
-    {
-      "name": "design",
-      "count": 80
-    },
-    {
-      "name": "state",
-      "count": 78
-    },
-    {
-      "name": "error",
-      "count": 77
-    },
-    {
-      "name": "process",
-      "count": 76
-    },
-    {
-      "name": "line",
-      "count": 73
-    },
-    {
-      "name": "input",
-      "count": 70
-    }
-  ],
-  "1974": [
-    {
-      "name": "inf",
-      "count": 279
-    },
-    {
-      "name": "tex",
-      "count": 246
-    },
-    {
-      "name": "sup",
-      "count": 241
-    },
-    {
-      "name": "system",
-      "count": 238
-    },
-    {
-      "name": "control",
-      "count": 191
-    },
-    {
-      "name": "model",
-      "count": 151
-    },
-    {
-      "name": "noise",
-      "count": 146
-    },
-    {
-      "name": "method",
-      "count": 142
-    },
-    {
-      "name": "filter",
-      "count": 140
-    },
-    {
-      "name": "matrix",
-      "count": 129
-    },
-    {
-      "name": "signal",
-      "count": 121
-    },
-    {
-      "name": "problem",
-      "count": 119
-    },
-    {
-      "name": "algorithm",
-      "count": 114
-    },
-    {
-      "name": "equation",
-      "count": 109
-    },
-    {
-      "name": "network",
-      "count": 106
-    },
-    {
-      "name": "parameter",
-      "count": 103
-    },
-    {
-      "name": "diode",
-      "count": 103
-    },
-    {
-      "name": "function",
-      "count": 102
-    },
-    {
-      "name": "circuit",
-      "count": 98
-    },
-    {
-      "name": "time",
-      "count": 97
-    },
-    {
-      "name": "design",
-      "count": 96
-    },
-    {
-      "name": "pulse",
-      "count": 94
-    },
-    {
-      "name": "device",
-      "count": 91
-    },
-    {
-      "name": "error",
-      "count": 90
-    },
-    {
-      "name": "frequency",
-      "count": 90
-    },
-    {
-      "name": "wave",
-      "count": 89
-    },
-    {
-      "name": "state",
-      "count": 89
-    },
-    {
-      "name": "process",
-      "count": 85
-    },
-    {
-      "name": "solution",
-      "count": 82
-    },
-    {
-      "name": "output",
-      "count": 81
-    }
-  ],
-  "1975": [
-    {
-      "name": "inf",
-      "count": 301
-    },
-    {
-      "name": "tex",
-      "count": 285
-    },
-    {
-      "name": "system",
-      "count": 266
-    },
-    {
-      "name": "sup",
-      "count": 260
-    },
-    {
-      "name": "control",
-      "count": 218
-    },
-    {
-      "name": "model",
-      "count": 184
-    },
-    {
-      "name": "method",
-      "count": 173
-    },
-    {
-      "name": "filter",
-      "count": 163
-    },
-    {
-      "name": "noise",
-      "count": 156
-    },
-    {
-      "name": "matrix",
-      "count": 144
-    },
-    {
-      "name": "algorithm",
-      "count": 137
-    },
-    {
-      "name": "problem",
-      "count": 134
-    },
-    {
-      "name": "signal",
-      "count": 131
-    },
-    {
-      "name": "function",
-      "count": 122
-    },
-    {
-      "name": "parameter",
-      "count": 121
-    },
-    {
-      "name": "equation",
-      "count": 120
-    },
-    {
-      "name": "network",
-      "count": 114
-    },
-    {
-      "name": "design",
-      "count": 113
-    },
-    {
-      "name": "time",
-      "count": 110
-    },
-    {
-      "name": "circuit",
-      "count": 110
-    },
-    {
-      "name": "diode",
-      "count": 108
-    },
-    {
-      "name": "frequency",
-      "count": 107
-    },
-    {
-      "name": "error",
-      "count": 100
-    },
-    {
-      "name": "process",
-      "count": 97
-    },
-    {
-      "name": "pulse",
-      "count": 97
-    },
-    {
-      "name": "state",
-      "count": 95
-    },
-    {
-      "name": "device",
-      "count": 95
-    },
-    {
-      "name": "wave",
-      "count": 93
-    },
-    {
-      "name": "input",
-      "count": 92
-    },
-    {
-      "name": "solution",
-      "count": 92
-    }
-  ],
-  "1976": [
-    {
-      "name": "inf",
-      "count": 318
-    },
-    {
-      "name": "tex",
-      "count": 317
-    },
-    {
-      "name": "system",
-      "count": 294
-    },
-    {
-      "name": "sup",
-      "count": 279
-    },
-    {
-      "name": "control",
-      "count": 243
-    },
-    {
-      "name": "model",
-      "count": 212
-    },
-    {
-      "name": "method",
-      "count": 200
-    },
-    {
-      "name": "filter",
-      "count": 197
-    },
-    {
-      "name": "noise",
-      "count": 170
-    },
-    {
-      "name": "matrix",
-      "count": 162
-    },
-    {
-      "name": "algorithm",
-      "count": 153
-    },
-    {
-      "name": "problem",
-      "count": 149
-    },
-    {
-      "name": "signal",
-      "count": 146
-    },
-    {
-      "name": "function",
-      "count": 138
-    },
-    {
-      "name": "parameter",
-      "count": 137
-    },
-    {
-      "name": "design",
-      "count": 133
-    },
-    {
-      "name": "equation",
-      "count": 132
-    },
-    {
-      "name": "time",
-      "count": 130
-    },
-    {
-      "name": "network",
-      "count": 124
-    },
-    {
-      "name": "frequency",
-      "count": 119
-    },
-    {
-      "name": "circuit",
-      "count": 117
-    },
-    {
-      "name": "error",
-      "count": 111
-    },
-    {
-      "name": "process",
-      "count": 111
-    },
-    {
-      "name": "diode",
-      "count": 110
-    },
-    {
-      "name": "state",
-      "count": 109
-    },
-    {
-      "name": "device",
-      "count": 106
-    },
-    {
-      "name": "solution",
-      "count": 103
-    },
-    {
-      "name": "output",
-      "count": 102
-    },
-    {
-      "name": "pulse",
-      "count": 99
-    },
-    {
-      "name": "wave",
-      "count": 98
-    }
-  ],
-  "1977": [
-    {
-      "name": "tex",
-      "count": 346
-    },
-    {
-      "name": "inf",
-      "count": 339
-    },
-    {
-      "name": "system",
-      "count": 323
-    },
-    {
-      "name": "sup",
-      "count": 291
-    },
-    {
-      "name": "control",
-      "count": 269
-    },
-    {
-      "name": "model",
-      "count": 233
-    },
-    {
-      "name": "filter",
-      "count": 225
-    },
-    {
-      "name": "method",
-      "count": 224
-    },
-    {
-      "name": "matrix",
-      "count": 183
-    },
-    {
-      "name": "noise",
-      "count": 178
-    },
-    {
-      "name": "algorithm",
-      "count": 173
-    },
-    {
-      "name": "signal",
-      "count": 162
-    },
-    {
-      "name": "problem",
-      "count": 156
-    },
-    {
-      "name": "parameter",
-      "count": 152
-    },
-    {
-      "name": "design",
-      "count": 151
-    },
-    {
-      "name": "function",
-      "count": 145
-    },
-    {
-      "name": "equation",
-      "count": 144
-    },
-    {
-      "name": "network",
-      "count": 138
-    },
-    {
-      "name": "time",
-      "count": 137
-    },
-    {
-      "name": "circuit",
-      "count": 129
-    },
-    {
-      "name": "frequency",
-      "count": 128
-    },
-    {
-      "name": "state",
-      "count": 124
-    },
-    {
-      "name": "error",
-      "count": 124
-    },
-    {
-      "name": "process",
-      "count": 120
-    },
-    {
-      "name": "solution",
-      "count": 117
-    },
-    {
-      "name": "device",
-      "count": 111
-    },
-    {
-      "name": "diode",
-      "count": 111
-    },
-    {
-      "name": "output",
-      "count": 109
-    },
-    {
-      "name": "data",
-      "count": 109
-    },
-    {
-      "name": "pulse",
-      "count": 107
-    }
-  ],
-  "1978": [
-    {
-      "name": "tex",
-      "count": 375
-    },
-    {
-      "name": "system",
-      "count": 361
-    },
-    {
-      "name": "inf",
-      "count": 349
-    },
-    {
-      "name": "sup",
-      "count": 300
-    },
-    {
-      "name": "control",
-      "count": 294
-    },
-    {
-      "name": "model",
-      "count": 257
-    },
-    {
-      "name": "filter",
-      "count": 253
-    },
-    {
-      "name": "method",
-      "count": 241
-    },
-    {
-      "name": "algorithm",
-      "count": 201
-    },
-    {
-      "name": "matrix",
-      "count": 195
-    },
-    {
-      "name": "noise",
-      "count": 190
-    },
-    {
-      "name": "signal",
-      "count": 184
-    },
-    {
-      "name": "problem",
-      "count": 169
-    },
-    {
-      "name": "design",
-      "count": 163
-    },
-    {
-      "name": "parameter",
-      "count": 160
-    },
-    {
-      "name": "function",
-      "count": 157
-    },
-    {
-      "name": "network",
-      "count": 153
-    },
-    {
-      "name": "time",
-      "count": 149
-    },
-    {
-      "name": "equation",
-      "count": 149
-    },
-    {
-      "name": "frequency",
-      "count": 143
-    },
-    {
-      "name": "process",
-      "count": 140
-    },
-    {
-      "name": "circuit",
-      "count": 140
-    },
-    {
-      "name": "state",
-      "count": 133
-    },
-    {
-      "name": "error",
-      "count": 132
-    },
-    {
-      "name": "solution",
-      "count": 129
-    },
-    {
-      "name": "output",
-      "count": 121
-    },
-    {
-      "name": "data",
-      "count": 118
-    },
-    {
-      "name": "stability",
-      "count": 115
-    },
-    {
-      "name": "device",
-      "count": 114
-    },
-    {
-      "name": "input",
-      "count": 113
-    }
-  ],
-  "1979": [
-    {
-      "name": "tex",
-      "count": 414
-    },
-    {
-      "name": "system",
-      "count": 393
-    },
-    {
-      "name": "inf",
-      "count": 372
-    },
-    {
-      "name": "control",
-      "count": 324
-    },
-    {
-      "name": "sup",
-      "count": 319
-    },
-    {
-      "name": "filter",
-      "count": 290
-    },
-    {
-      "name": "model",
-      "count": 285
-    },
-    {
-      "name": "method",
-      "count": 269
-    },
-    {
-      "name": "algorithm",
-      "count": 224
-    },
-    {
-      "name": "matrix",
-      "count": 208
-    },
-    {
-      "name": "noise",
-      "count": 204
-    },
-    {
-      "name": "signal",
-      "count": 201
-    },
-    {
-      "name": "design",
-      "count": 183
-    },
-    {
-      "name": "problem",
-      "count": 178
-    },
-    {
-      "name": "parameter",
-      "count": 169
-    },
-    {
-      "name": "function",
-      "count": 167
-    },
-    {
-      "name": "network",
-      "count": 162
-    },
-    {
-      "name": "time",
-      "count": 158
-    },
-    {
-      "name": "equation",
-      "count": 153
-    },
-    {
-      "name": "circuit",
-      "count": 150
-    },
-    {
-      "name": "frequency",
-      "count": 149
-    },
-    {
-      "name": "error",
-      "count": 147
-    },
-    {
-      "name": "process",
-      "count": 147
-    },
-    {
-      "name": "solution",
-      "count": 143
-    },
-    {
-      "name": "state",
-      "count": 140
-    },
-    {
-      "name": "output",
-      "count": 132
-    },
-    {
-      "name": "data",
-      "count": 129
-    },
-    {
-      "name": "technique",
-      "count": 128
-    },
-    {
-      "name": "stability",
-      "count": 120
-    },
-    {
-      "name": "procedure",
-      "count": 119
-    }
-  ],
-  "1980": [
-    {
-      "name": "tex",
-      "count": 447
-    },
-    {
-      "name": "system",
-      "count": 426
-    },
-    {
-      "name": "inf",
-      "count": 389
-    },
-    {
-      "name": "control",
-      "count": 342
-    },
-    {
-      "name": "sup",
-      "count": 336
-    },
-    {
-      "name": "model",
-      "count": 313
-    },
-    {
-      "name": "filter",
-      "count": 308
-    },
-    {
-      "name": "method",
-      "count": 289
-    },
-    {
-      "name": "algorithm",
-      "count": 245
-    },
-    {
-      "name": "matrix",
-      "count": 227
-    },
-    {
-      "name": "noise",
-      "count": 223
-    },
-    {
-      "name": "signal",
-      "count": 218
-    },
-    {
-      "name": "design",
-      "count": 207
-    },
-    {
-      "name": "problem",
-      "count": 192
-    },
-    {
-      "name": "function",
-      "count": 184
-    },
-    {
-      "name": "parameter",
-      "count": 178
-    },
-    {
-      "name": "time",
-      "count": 178
-    },
-    {
-      "name": "network",
-      "count": 171
-    },
-    {
-      "name": "equation",
-      "count": 165
-    },
-    {
-      "name": "error",
-      "count": 164
-    },
-    {
-      "name": "circuit",
-      "count": 160
-    },
-    {
-      "name": "frequency",
-      "count": 159
-    },
-    {
-      "name": "process",
-      "count": 158
-    },
-    {
-      "name": "solution",
-      "count": 158
-    },
-    {
-      "name": "state",
-      "count": 151
-    },
-    {
-      "name": "output",
-      "count": 149
-    },
-    {
-      "name": "technique",
-      "count": 146
-    },
-    {
-      "name": "data",
-      "count": 145
-    },
-    {
-      "name": "input",
-      "count": 133
-    },
-    {
-      "name": "phase",
-      "count": 133
-    }
-  ],
-  "1981": [
-    {
-      "name": "tex",
-      "count": 486
-    },
-    {
-      "name": "system",
-      "count": 457
-    },
-    {
-      "name": "inf",
-      "count": 406
-    },
-    {
-      "name": "control",
-      "count": 366
-    },
-    {
-      "name": "sup",
-      "count": 347
-    },
-    {
-      "name": "model",
-      "count": 344
-    },
-    {
-      "name": "filter",
-      "count": 343
-    },
-    {
-      "name": "method",
-      "count": 314
-    },
-    {
-      "name": "algorithm",
-      "count": 273
-    },
-    {
-      "name": "noise",
-      "count": 243
-    },
-    {
-      "name": "matrix",
-      "count": 236
-    },
-    {
-      "name": "signal",
-      "count": 235
-    },
-    {
-      "name": "design",
-      "count": 233
-    },
-    {
-      "name": "problem",
-      "count": 203
-    },
-    {
-      "name": "time",
-      "count": 198
-    },
-    {
-      "name": "function",
-      "count": 198
-    },
-    {
-      "name": "parameter",
-      "count": 187
-    },
-    {
-      "name": "process",
-      "count": 177
-    },
-    {
-      "name": "network",
-      "count": 177
-    },
-    {
-      "name": "equation",
-      "count": 172
-    },
-    {
-      "name": "frequency",
-      "count": 172
-    },
-    {
-      "name": "error",
-      "count": 170
-    },
-    {
-      "name": "circuit",
-      "count": 169
-    },
-    {
-      "name": "solution",
-      "count": 167
-    },
-    {
-      "name": "state",
-      "count": 160
-    },
-    {
-      "name": "output",
-      "count": 158
-    },
-    {
-      "name": "data",
-      "count": 158
-    },
-    {
-      "name": "technique",
-      "count": 156
-    },
-    {
-      "name": "input",
-      "count": 149
-    },
-    {
-      "name": "phase",
-      "count": 147
-    }
-  ],
-  "1982": [
-    {
-      "name": "tex",
-      "count": 530
-    },
-    {
-      "name": "system",
-      "count": 490
-    },
-    {
-      "name": "inf",
-      "count": 424
-    },
-    {
-      "name": "control",
-      "count": 395
-    },
-    {
-      "name": "model",
-      "count": 370
-    },
-    {
-      "name": "filter",
-      "count": 369
-    },
-    {
-      "name": "sup",
-      "count": 362
-    },
-    {
-      "name": "method",
-      "count": 334
-    },
-    {
-      "name": "algorithm",
-      "count": 298
-    },
-    {
-      "name": "signal",
-      "count": 256
-    },
-    {
-      "name": "design",
-      "count": 255
-    },
-    {
-      "name": "matrix",
-      "count": 254
-    },
-    {
-      "name": "noise",
-      "count": 250
-    },
-    {
-      "name": "problem",
-      "count": 222
-    },
-    {
-      "name": "function",
-      "count": 218
-    },
-    {
-      "name": "time",
-      "count": 212
-    },
-    {
-      "name": "parameter",
-      "count": 204
-    },
-    {
-      "name": "process",
-      "count": 191
-    },
-    {
-      "name": "equation",
-      "count": 190
-    },
-    {
-      "name": "network",
-      "count": 185
-    },
-    {
-      "name": "error",
-      "count": 183
-    },
-    {
-      "name": "circuit",
-      "count": 175
-    },
-    {
-      "name": "frequency",
-      "count": 174
-    },
-    {
-      "name": "solution",
-      "count": 174
-    },
-    {
-      "name": "data",
-      "count": 173
-    },
-    {
-      "name": "technique",
-      "count": 172
-    },
-    {
-      "name": "state",
-      "count": 170
-    },
-    {
-      "name": "output",
-      "count": 167
-    },
-    {
-      "name": "input",
-      "count": 164
-    },
-    {
-      "name": "image",
-      "count": 163
-    }
-  ],
-  "1983": [
-    {
-      "name": "tex",
-      "count": 566
-    },
-    {
-      "name": "system",
-      "count": 532
-    },
-    {
-      "name": "inf",
-      "count": 439
-    },
-    {
-      "name": "control",
-      "count": 409
-    },
-    {
-      "name": "model",
-      "count": 403
-    },
-    {
-      "name": "filter",
-      "count": 401
-    },
-    {
-      "name": "sup",
-      "count": 381
-    },
-    {
-      "name": "method",
-      "count": 363
-    },
-    {
-      "name": "algorithm",
-      "count": 320
-    },
-    {
-      "name": "design",
-      "count": 272
-    },
-    {
-      "name": "signal",
-      "count": 271
-    },
-    {
-      "name": "noise",
-      "count": 264
-    },
-    {
-      "name": "matrix",
-      "count": 264
-    },
-    {
-      "name": "problem",
-      "count": 246
-    },
-    {
-      "name": "function",
-      "count": 235
-    },
-    {
-      "name": "time",
-      "count": 228
-    },
-    {
-      "name": "parameter",
-      "count": 222
-    },
-    {
-      "name": "network",
-      "count": 215
-    },
-    {
-      "name": "process",
-      "count": 206
-    },
-    {
-      "name": "error",
-      "count": 205
-    },
-    {
-      "name": "equation",
-      "count": 205
-    },
-    {
-      "name": "data",
-      "count": 193
-    },
-    {
-      "name": "image",
-      "count": 190
-    },
-    {
-      "name": "circuit",
-      "count": 189
-    },
-    {
-      "name": "technique",
-      "count": 188
-    },
-    {
-      "name": "frequency",
-      "count": 186
-    },
-    {
-      "name": "state",
-      "count": 183
-    },
-    {
-      "name": "output",
-      "count": 180
-    },
-    {
-      "name": "solution",
-      "count": 180
-    },
-    {
-      "name": "input",
-      "count": 174
-    }
-  ],
-  "1984": [
-    {
-      "name": "tex",
-      "count": 614
-    },
-    {
-      "name": "system",
-      "count": 560
-    },
-    {
-      "name": "inf",
-      "count": 460
-    },
-    {
-      "name": "model",
-      "count": 449
-    },
-    {
-      "name": "filter",
-      "count": 440
-    },
-    {
-      "name": "control",
-      "count": 435
-    },
-    {
-      "name": "sup",
-      "count": 405
-    },
-    {
-      "name": "method",
-      "count": 394
-    },
-    {
-      "name": "algorithm",
-      "count": 359
-    },
-    {
-      "name": "design",
-      "count": 299
-    },
-    {
-      "name": "matrix",
-      "count": 294
-    },
-    {
-      "name": "signal",
-      "count": 288
-    },
-    {
-      "name": "noise",
-      "count": 285
-    },
-    {
-      "name": "problem",
-      "count": 268
-    },
-    {
-      "name": "function",
-      "count": 249
-    },
-    {
-      "name": "time",
-      "count": 244
-    },
-    {
-      "name": "parameter",
-      "count": 237
-    },
-    {
-      "name": "network",
-      "count": 237
-    },
-    {
-      "name": "data",
-      "count": 228
-    },
-    {
-      "name": "process",
-      "count": 226
-    },
-    {
-      "name": "error",
-      "count": 218
-    },
-    {
-      "name": "image",
-      "count": 218
-    },
-    {
-      "name": "equation",
-      "count": 214
-    },
-    {
-      "name": "frequency",
-      "count": 202
-    },
-    {
-      "name": "technique",
-      "count": 201
-    },
-    {
-      "name": "state",
-      "count": 196
-    },
-    {
-      "name": "circuit",
-      "count": 192
-    },
-    {
-      "name": "solution",
-      "count": 191
-    },
-    {
-      "name": "output",
-      "count": 190
-    },
-    {
-      "name": "input",
-      "count": 185
-    }
-  ],
-  "1985": [
-    {
-      "name": "tex",
-      "count": 662
-    },
-    {
-      "name": "system",
-      "count": 618
-    },
-    {
-      "name": "model",
-      "count": 488
-    },
-    {
-      "name": "filter",
-      "count": 478
-    },
-    {
-      "name": "inf",
-      "count": 476
-    },
-    {
-      "name": "control",
-      "count": 467
-    },
-    {
-      "name": "sup",
-      "count": 430
-    },
-    {
-      "name": "method",
-      "count": 420
-    },
-    {
-      "name": "algorithm",
-      "count": 411
-    },
-    {
-      "name": "matrix",
-      "count": 321
-    },
-    {
-      "name": "design",
-      "count": 316
-    },
-    {
-      "name": "signal",
-      "count": 311
-    },
-    {
-      "name": "noise",
-      "count": 302
-    },
-    {
-      "name": "problem",
-      "count": 280
-    },
-    {
-      "name": "time",
-      "count": 270
-    },
-    {
-      "name": "function",
-      "count": 269
-    },
-    {
-      "name": "network",
-      "count": 253
-    },
-    {
-      "name": "parameter",
-      "count": 251
-    },
-    {
-      "name": "process",
-      "count": 245
-    },
-    {
-      "name": "data",
-      "count": 244
-    },
-    {
-      "name": "error",
-      "count": 238
-    },
-    {
-      "name": "image",
-      "count": 238
-    },
-    {
-      "name": "equation",
-      "count": 225
-    },
-    {
-      "name": "technique",
-      "count": 217
-    },
-    {
-      "name": "frequency",
-      "count": 213
-    },
-    {
-      "name": "state",
-      "count": 206
-    },
-    {
-      "name": "solution",
-      "count": 201
-    },
-    {
-      "name": "circuit",
-      "count": 200
-    },
-    {
-      "name": "input",
-      "count": 198
-    },
-    {
-      "name": "output",
-      "count": 197
-    }
-  ],
-  "1986": [
-    {
-      "name": "tex",
-      "count": 707
-    },
-    {
-      "name": "system",
-      "count": 665
-    },
-    {
-      "name": "model",
-      "count": 520
-    },
-    {
-      "name": "filter",
-      "count": 514
-    },
-    {
-      "name": "inf",
-      "count": 487
-    },
-    {
-      "name": "control",
-      "count": 486
-    },
-    {
-      "name": "algorithm",
-      "count": 457
-    },
-    {
-      "name": "method",
-      "count": 448
-    },
-    {
-      "name": "sup",
-      "count": 447
-    },
-    {
-      "name": "design",
-      "count": 350
-    },
-    {
-      "name": "matrix",
-      "count": 349
-    },
-    {
-      "name": "signal",
-      "count": 330
-    },
-    {
-      "name": "noise",
-      "count": 325
-    },
-    {
-      "name": "problem",
-      "count": 303
-    },
-    {
-      "name": "time",
-      "count": 291
-    },
-    {
-      "name": "function",
-      "count": 280
-    },
-    {
-      "name": "network",
-      "count": 279
-    },
-    {
-      "name": "parameter",
-      "count": 267
-    },
-    {
-      "name": "data",
-      "count": 266
-    },
-    {
-      "name": "image",
-      "count": 265
-    },
-    {
-      "name": "process",
-      "count": 261
-    },
-    {
-      "name": "error",
-      "count": 256
-    },
-    {
-      "name": "equation",
-      "count": 239
-    },
-    {
-      "name": "technique",
-      "count": 229
-    },
-    {
-      "name": "frequency",
-      "count": 226
-    },
-    {
-      "name": "solution",
-      "count": 221
-    },
-    {
-      "name": "state",
-      "count": 220
-    },
-    {
-      "name": "circuit",
-      "count": 215
-    },
-    {
-      "name": "stability",
-      "count": 207
-    },
-    {
-      "name": "input",
-      "count": 206
-    }
-  ],
-  "1987": [
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "system",
-      "count": 716
-    },
-    {
-      "name": "model",
-      "count": 557
-    },
-    {
-      "name": "filter",
-      "count": 551
-    },
-    {
-      "name": "control",
-      "count": 518
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "algorithm",
-      "count": 502
-    },
-    {
-      "name": "method",
-      "count": 480
-    },
-    {
-      "name": "sup",
-      "count": 466
-    },
-    {
-      "name": "matrix",
-      "count": 376
-    },
-    {
-      "name": "design",
-      "count": 374
-    },
-    {
-      "name": "signal",
-      "count": 363
-    },
-    {
-      "name": "noise",
-      "count": 340
-    },
-    {
-      "name": "problem",
-      "count": 320
-    },
-    {
-      "name": "network",
-      "count": 309
-    },
-    {
-      "name": "time",
-      "count": 306
-    },
-    {
-      "name": "function",
-      "count": 300
-    },
-    {
-      "name": "image",
-      "count": 297
-    },
-    {
-      "name": "parameter",
-      "count": 289
-    },
-    {
-      "name": "data",
-      "count": 289
-    },
-    {
-      "name": "error",
-      "count": 274
-    },
-    {
-      "name": "process",
-      "count": 273
-    },
-    {
-      "name": "equation",
-      "count": 250
-    },
-    {
-      "name": "technique",
-      "count": 247
-    },
-    {
-      "name": "frequency",
-      "count": 243
-    },
-    {
-      "name": "state",
-      "count": 233
-    },
-    {
-      "name": "solution",
-      "count": 228
-    },
-    {
-      "name": "circuit",
-      "count": 221
-    },
-    {
-      "name": "adaptive",
-      "count": 220
-    },
-    {
-      "name": "phase",
-      "count": 218
-    }
-  ],
-  "1988": [
-    {
-      "name": "system",
-      "count": 768
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "model",
-      "count": 611
-    },
-    {
-      "name": "filter",
-      "count": 575
-    },
-    {
-      "name": "control",
-      "count": 554
-    },
-    {
-      "name": "algorithm",
-      "count": 550
-    },
-    {
-      "name": "method",
-      "count": 507
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "sup",
-      "count": 481
-    },
-    {
-      "name": "design",
-      "count": 398
-    },
-    {
-      "name": "matrix",
-      "count": 394
-    },
-    {
-      "name": "signal",
-      "count": 384
-    },
-    {
-      "name": "noise",
-      "count": 354
-    },
-    {
-      "name": "network",
-      "count": 344
-    },
-    {
-      "name": "problem",
-      "count": 334
-    },
-    {
-      "name": "time",
-      "count": 329
-    },
-    {
-      "name": "function",
-      "count": 325
-    },
-    {
-      "name": "image",
-      "count": 325
-    },
-    {
-      "name": "data",
-      "count": 310
-    },
-    {
-      "name": "parameter",
-      "count": 304
-    },
-    {
-      "name": "process",
-      "count": 294
-    },
-    {
-      "name": "error",
-      "count": 293
-    },
-    {
-      "name": "technique",
-      "count": 266
-    },
-    {
-      "name": "equation",
-      "count": 261
-    },
-    {
-      "name": "frequency",
-      "count": 258
-    },
-    {
-      "name": "state",
-      "count": 242
-    },
-    {
-      "name": "adaptive",
-      "count": 236
-    },
-    {
-      "name": "phase",
-      "count": 234
-    },
-    {
-      "name": "stability",
-      "count": 233
-    },
-    {
-      "name": "input",
-      "count": 232
-    }
-  ],
-  "1989": [
-    {
-      "name": "system",
-      "count": 810
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "model",
-      "count": 662
-    },
-    {
-      "name": "filter",
-      "count": 627
-    },
-    {
-      "name": "algorithm",
-      "count": 609
-    },
-    {
-      "name": "control",
-      "count": 586
-    },
-    {
-      "name": "method",
-      "count": 554
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "sup",
-      "count": 500
-    },
-    {
-      "name": "design",
-      "count": 421
-    },
-    {
-      "name": "matrix",
-      "count": 415
-    },
-    {
-      "name": "signal",
-      "count": 401
-    },
-    {
-      "name": "network",
-      "count": 384
-    },
-    {
-      "name": "noise",
-      "count": 370
-    },
-    {
-      "name": "image",
-      "count": 355
-    },
-    {
-      "name": "problem",
-      "count": 352
-    },
-    {
-      "name": "time",
-      "count": 352
-    },
-    {
-      "name": "function",
-      "count": 342
-    },
-    {
-      "name": "data",
-      "count": 329
-    },
-    {
-      "name": "parameter",
-      "count": 323
-    },
-    {
-      "name": "error",
-      "count": 313
-    },
-    {
-      "name": "process",
-      "count": 312
-    },
-    {
-      "name": "technique",
-      "count": 280
-    },
-    {
-      "name": "equation",
-      "count": 279
-    },
-    {
-      "name": "frequency",
-      "count": 278
-    },
-    {
-      "name": "adaptive",
-      "count": 268
-    },
-    {
-      "name": "state",
-      "count": 258
-    },
-    {
-      "name": "solution",
-      "count": 248
-    },
-    {
-      "name": "phase",
-      "count": 247
-    },
-    {
-      "name": "stability",
-      "count": 246
-    }
-  ],
-  "1990": [
-    {
-      "name": "system",
-      "count": 866
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "model",
-      "count": 715
-    },
-    {
-      "name": "filter",
-      "count": 672
-    },
-    {
-      "name": "algorithm",
-      "count": 661
-    },
-    {
-      "name": "control",
-      "count": 627
-    },
-    {
-      "name": "method",
-      "count": 596
-    },
-    {
-      "name": "sup",
-      "count": 517
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "network",
-      "count": 452
-    },
-    {
-      "name": "design",
-      "count": 449
-    },
-    {
-      "name": "matrix",
-      "count": 433
-    },
-    {
-      "name": "signal",
-      "count": 428
-    },
-    {
-      "name": "noise",
-      "count": 391
-    },
-    {
-      "name": "problem",
-      "count": 384
-    },
-    {
-      "name": "image",
-      "count": 384
-    },
-    {
-      "name": "time",
-      "count": 380
-    },
-    {
-      "name": "function",
-      "count": 368
-    },
-    {
-      "name": "data",
-      "count": 350
-    },
-    {
-      "name": "parameter",
-      "count": 348
-    },
-    {
-      "name": "process",
-      "count": 334
-    },
-    {
-      "name": "error",
-      "count": 330
-    },
-    {
-      "name": "equation",
-      "count": 296
-    },
-    {
-      "name": "frequency",
-      "count": 296
-    },
-    {
-      "name": "technique",
-      "count": 293
-    },
-    {
-      "name": "adaptive",
-      "count": 290
-    },
-    {
-      "name": "state",
-      "count": 272
-    },
-    {
-      "name": "solution",
-      "count": 269
-    },
-    {
-      "name": "phase",
-      "count": 260
-    },
-    {
-      "name": "stability",
-      "count": 258
-    }
-  ],
-  "1991": [
-    {
-      "name": "system",
-      "count": 909
-    },
-    {
-      "name": "model",
-      "count": 777
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "filter",
-      "count": 720
-    },
-    {
-      "name": "algorithm",
-      "count": 709
-    },
-    {
-      "name": "control",
-      "count": 670
-    },
-    {
-      "name": "method",
-      "count": 656
-    },
-    {
-      "name": "sup",
-      "count": 529
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "design",
-      "count": 500
-    },
-    {
-      "name": "network",
-      "count": 500
-    },
-    {
-      "name": "signal",
-      "count": 461
-    },
-    {
-      "name": "matrix",
-      "count": 449
-    },
-    {
-      "name": "image",
-      "count": 421
-    },
-    {
-      "name": "problem",
-      "count": 418
-    },
-    {
-      "name": "noise",
-      "count": 412
-    },
-    {
-      "name": "time",
-      "count": 411
-    },
-    {
-      "name": "function",
-      "count": 385
-    },
-    {
-      "name": "data",
-      "count": 370
-    },
-    {
-      "name": "parameter",
-      "count": 367
-    },
-    {
-      "name": "process",
-      "count": 351
-    },
-    {
-      "name": "error",
-      "count": 347
-    },
-    {
-      "name": "frequency",
-      "count": 322
-    },
-    {
-      "name": "adaptive",
-      "count": 318
-    },
-    {
-      "name": "technique",
-      "count": 318
-    },
-    {
-      "name": "equation",
-      "count": 305
-    },
-    {
-      "name": "solution",
-      "count": 293
-    },
-    {
-      "name": "state",
-      "count": 284
-    },
-    {
-      "name": "controller",
-      "count": 276
-    },
-    {
-      "name": "phase",
-      "count": 275
-    }
-  ],
-  "1992": [
-    {
-      "name": "system",
-      "count": 976
-    },
-    {
-      "name": "model",
-      "count": 816
-    },
-    {
-      "name": "filter",
-      "count": 777
-    },
-    {
-      "name": "algorithm",
-      "count": 766
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "control",
-      "count": 718
-    },
-    {
-      "name": "method",
-      "count": 690
-    },
-    {
-      "name": "network",
-      "count": 557
-    },
-    {
-      "name": "sup",
-      "count": 550
-    },
-    {
-      "name": "design",
-      "count": 527
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "signal",
-      "count": 492
-    },
-    {
-      "name": "matrix",
-      "count": 486
-    },
-    {
-      "name": "image",
-      "count": 459
-    },
-    {
-      "name": "time",
-      "count": 448
-    },
-    {
-      "name": "problem",
-      "count": 444
-    },
-    {
-      "name": "noise",
-      "count": 439
-    },
-    {
-      "name": "function",
-      "count": 402
-    },
-    {
-      "name": "data",
-      "count": 397
-    },
-    {
-      "name": "parameter",
-      "count": 395
-    },
-    {
-      "name": "error",
-      "count": 390
-    },
-    {
-      "name": "process",
-      "count": 371
-    },
-    {
-      "name": "adaptive",
-      "count": 354
-    },
-    {
-      "name": "frequency",
-      "count": 344
-    },
-    {
-      "name": "technique",
-      "count": 339
-    },
-    {
-      "name": "equation",
-      "count": 318
-    },
-    {
-      "name": "solution",
-      "count": 307
-    },
-    {
-      "name": "controller",
-      "count": 305
-    },
-    {
-      "name": "state",
-      "count": 303
-    },
-    {
-      "name": "stability",
-      "count": 299
-    }
-  ],
-  "1993": [
-    {
-      "name": "system",
-      "count": 1030
-    },
-    {
-      "name": "model",
-      "count": 873
-    },
-    {
-      "name": "algorithm",
-      "count": 839
-    },
-    {
-      "name": "filter",
-      "count": 830
-    },
-    {
-      "name": "control",
-      "count": 773
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "method",
-      "count": 726
-    },
-    {
-      "name": "network",
-      "count": 622
-    },
-    {
-      "name": "sup",
-      "count": 565
-    },
-    {
-      "name": "design",
-      "count": 563
-    },
-    {
-      "name": "signal",
-      "count": 533
-    },
-    {
-      "name": "matrix",
-      "count": 512
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "image",
-      "count": 491
-    },
-    {
-      "name": "time",
-      "count": 476
-    },
-    {
-      "name": "problem",
-      "count": 475
-    },
-    {
-      "name": "noise",
-      "count": 458
-    },
-    {
-      "name": "data",
-      "count": 425
-    },
-    {
-      "name": "parameter",
-      "count": 419
-    },
-    {
-      "name": "function",
-      "count": 418
-    },
-    {
-      "name": "error",
-      "count": 416
-    },
-    {
-      "name": "process",
-      "count": 391
-    },
-    {
-      "name": "adaptive",
-      "count": 387
-    },
-    {
-      "name": "frequency",
-      "count": 370
-    },
-    {
-      "name": "technique",
-      "count": 357
-    },
-    {
-      "name": "controller",
-      "count": 334
-    },
-    {
-      "name": "equation",
-      "count": 327
-    },
-    {
-      "name": "solution",
-      "count": 324
-    },
-    {
-      "name": "phase",
-      "count": 322
-    },
-    {
-      "name": "stability",
-      "count": 316
-    }
-  ],
-  "1994": [
-    {
-      "name": "system",
-      "count": 1097
-    },
-    {
-      "name": "model",
-      "count": 963
-    },
-    {
-      "name": "algorithm",
-      "count": 911
-    },
-    {
-      "name": "filter",
-      "count": 906
-    },
-    {
-      "name": "control",
-      "count": 828
-    },
-    {
-      "name": "method",
-      "count": 769
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "network",
-      "count": 699
-    },
-    {
-      "name": "design",
-      "count": 609
-    },
-    {
-      "name": "sup",
-      "count": 589
-    },
-    {
-      "name": "signal",
-      "count": 567
-    },
-    {
-      "name": "matrix",
-      "count": 536
-    },
-    {
-      "name": "image",
-      "count": 525
-    },
-    {
-      "name": "time",
-      "count": 515
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "problem",
-      "count": 500
-    },
-    {
-      "name": "noise",
-      "count": 480
-    },
-    {
-      "name": "data",
-      "count": 458
-    },
-    {
-      "name": "error",
-      "count": 450
-    },
-    {
-      "name": "parameter",
-      "count": 445
-    },
-    {
-      "name": "function",
-      "count": 439
-    },
-    {
-      "name": "adaptive",
-      "count": 437
-    },
-    {
-      "name": "process",
-      "count": 417
-    },
-    {
-      "name": "frequency",
-      "count": 400
-    },
-    {
-      "name": "technique",
-      "count": 371
-    },
-    {
-      "name": "controller",
-      "count": 368
-    },
-    {
-      "name": "solution",
-      "count": 352
-    },
-    {
-      "name": "equation",
-      "count": 345
-    },
-    {
-      "name": "phase",
-      "count": 342
-    },
-    {
-      "name": "stability",
-      "count": 336
-    }
-  ],
-  "1995": [
-    {
-      "name": "system",
-      "count": 1155
-    },
-    {
-      "name": "model",
-      "count": 1036
-    },
-    {
-      "name": "filter",
-      "count": 985
-    },
-    {
-      "name": "algorithm",
-      "count": 980
-    },
-    {
-      "name": "control",
-      "count": 882
-    },
-    {
-      "name": "method",
-      "count": 819
-    },
-    {
-      "name": "network",
-      "count": 765
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "design",
-      "count": 663
-    },
-    {
-      "name": "signal",
-      "count": 602
-    },
-    {
-      "name": "sup",
-      "count": 601
-    },
-    {
-      "name": "image",
-      "count": 570
-    },
-    {
-      "name": "matrix",
-      "count": 567
-    },
-    {
-      "name": "time",
-      "count": 547
-    },
-    {
-      "name": "problem",
-      "count": 522
-    },
-    {
-      "name": "noise",
-      "count": 513
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "data",
-      "count": 496
-    },
-    {
-      "name": "adaptive",
-      "count": 476
-    },
-    {
-      "name": "parameter",
-      "count": 475
-    },
-    {
-      "name": "error",
-      "count": 474
-    },
-    {
-      "name": "function",
-      "count": 463
-    },
-    {
-      "name": "process",
-      "count": 437
-    },
-    {
-      "name": "frequency",
-      "count": 435
-    },
-    {
-      "name": "technique",
-      "count": 395
-    },
-    {
-      "name": "controller",
-      "count": 391
-    },
-    {
-      "name": "solution",
-      "count": 381
-    },
-    {
-      "name": "phase",
-      "count": 370
-    },
-    {
-      "name": "optimal",
-      "count": 364
-    },
-    {
-      "name": "stability",
-      "count": 360
-    }
-  ],
-  "1996": [
-    {
-      "name": "system",
-      "count": 1217
-    },
-    {
-      "name": "model",
-      "count": 1101
-    },
-    {
-      "name": "filter",
-      "count": 1058
-    },
-    {
-      "name": "algorithm",
-      "count": 1039
-    },
-    {
-      "name": "control",
-      "count": 937
-    },
-    {
-      "name": "method",
-      "count": 862
-    },
-    {
-      "name": "network",
-      "count": 827
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "design",
-      "count": 711
-    },
-    {
-      "name": "signal",
-      "count": 636
-    },
-    {
-      "name": "image",
-      "count": 612
-    },
-    {
-      "name": "sup",
-      "count": 611
-    },
-    {
-      "name": "matrix",
-      "count": 593
-    },
-    {
-      "name": "time",
-      "count": 576
-    },
-    {
-      "name": "problem",
-      "count": 558
-    },
-    {
-      "name": "data",
-      "count": 544
-    },
-    {
-      "name": "noise",
-      "count": 533
-    },
-    {
-      "name": "adaptive",
-      "count": 510
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "parameter",
-      "count": 505
-    },
-    {
-      "name": "error",
-      "count": 494
-    },
-    {
-      "name": "function",
-      "count": 482
-    },
-    {
-      "name": "frequency",
-      "count": 456
-    },
-    {
-      "name": "process",
-      "count": 451
-    },
-    {
-      "name": "controller",
-      "count": 416
-    },
-    {
-      "name": "technique",
-      "count": 415
-    },
-    {
-      "name": "solution",
-      "count": 405
-    },
-    {
-      "name": "phase",
-      "count": 403
-    },
-    {
-      "name": "stability",
-      "count": 379
-    },
-    {
-      "name": "optimal",
-      "count": 379
-    }
-  ],
-  "1997": [
-    {
-      "name": "system",
-      "count": 1289
-    },
-    {
-      "name": "model",
-      "count": 1188
-    },
-    {
-      "name": "algorithm",
-      "count": 1132
-    },
-    {
-      "name": "filter",
-      "count": 1124
-    },
-    {
-      "name": "control",
-      "count": 986
-    },
-    {
-      "name": "method",
-      "count": 915
-    },
-    {
-      "name": "network",
-      "count": 913
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "design",
-      "count": 748
-    },
-    {
-      "name": "signal",
-      "count": 668
-    },
-    {
-      "name": "image",
-      "count": 649
-    },
-    {
-      "name": "sup",
-      "count": 620
-    },
-    {
-      "name": "matrix",
-      "count": 617
-    },
-    {
-      "name": "time",
-      "count": 607
-    },
-    {
-      "name": "problem",
-      "count": 603
-    },
-    {
-      "name": "data",
-      "count": 573
-    },
-    {
-      "name": "noise",
-      "count": 563
-    },
-    {
-      "name": "adaptive",
-      "count": 534
-    },
-    {
-      "name": "parameter",
-      "count": 533
-    },
-    {
-      "name": "error",
-      "count": 521
-    },
-    {
-      "name": "function",
-      "count": 507
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "frequency",
-      "count": 490
-    },
-    {
-      "name": "process",
-      "count": 462
-    },
-    {
-      "name": "controller",
-      "count": 452
-    },
-    {
-      "name": "technique",
-      "count": 433
-    },
-    {
-      "name": "solution",
-      "count": 431
-    },
-    {
-      "name": "phase",
-      "count": 424
-    },
-    {
-      "name": "optimal",
-      "count": 401
-    },
-    {
-      "name": "state",
-      "count": 399
-    }
-  ],
-  "1998": [
-    {
-      "name": "system",
-      "count": 1363
-    },
-    {
-      "name": "model",
-      "count": 1284
-    },
-    {
-      "name": "algorithm",
-      "count": 1215
-    },
-    {
-      "name": "filter",
-      "count": 1196
-    },
-    {
-      "name": "control",
-      "count": 1057
-    },
-    {
-      "name": "network",
-      "count": 991
-    },
-    {
-      "name": "method",
-      "count": 968
-    },
-    {
-      "name": "design",
-      "count": 791
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "signal",
-      "count": 702
-    },
-    {
-      "name": "image",
-      "count": 695
-    },
-    {
-      "name": "time",
-      "count": 651
-    },
-    {
-      "name": "matrix",
-      "count": 638
-    },
-    {
-      "name": "sup",
-      "count": 637
-    },
-    {
-      "name": "problem",
-      "count": 633
-    },
-    {
-      "name": "data",
-      "count": 621
-    },
-    {
-      "name": "noise",
-      "count": 596
-    },
-    {
-      "name": "adaptive",
-      "count": 572
-    },
-    {
-      "name": "parameter",
-      "count": 565
-    },
-    {
-      "name": "error",
-      "count": 550
-    },
-    {
-      "name": "function",
-      "count": 539
-    },
-    {
-      "name": "frequency",
-      "count": 512
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "controller",
-      "count": 491
-    },
-    {
-      "name": "process",
-      "count": 491
-    },
-    {
-      "name": "solution",
-      "count": 461
-    },
-    {
-      "name": "technique",
-      "count": 452
-    },
-    {
-      "name": "phase",
-      "count": 447
-    },
-    {
-      "name": "fuzzy",
-      "count": 444
-    },
-    {
-      "name": "optimal",
-      "count": 432
-    }
-  ],
-  "1999": [
-    {
-      "name": "system",
-      "count": 1432
-    },
-    {
-      "name": "model",
-      "count": 1391
-    },
-    {
-      "name": "algorithm",
-      "count": 1308
-    },
-    {
-      "name": "filter",
-      "count": 1287
-    },
-    {
-      "name": "control",
-      "count": 1112
-    },
-    {
-      "name": "network",
-      "count": 1075
-    },
-    {
-      "name": "method",
-      "count": 1032
-    },
-    {
-      "name": "design",
-      "count": 833
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "image",
-      "count": 746
-    },
-    {
-      "name": "signal",
-      "count": 743
-    },
-    {
-      "name": "time",
-      "count": 685
-    },
-    {
-      "name": "problem",
-      "count": 672
-    },
-    {
-      "name": "matrix",
-      "count": 664
-    },
-    {
-      "name": "data",
-      "count": 659
-    },
-    {
-      "name": "sup",
-      "count": 658
-    },
-    {
-      "name": "noise",
-      "count": 630
-    },
-    {
-      "name": "adaptive",
-      "count": 618
-    },
-    {
-      "name": "parameter",
-      "count": 603
-    },
-    {
-      "name": "error",
-      "count": 582
-    },
-    {
-      "name": "function",
-      "count": 568
-    },
-    {
-      "name": "controller",
-      "count": 538
-    },
-    {
-      "name": "frequency",
-      "count": 537
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "process",
-      "count": 504
-    },
-    {
-      "name": "fuzzy",
-      "count": 504
-    },
-    {
-      "name": "phase",
-      "count": 483
-    },
-    {
-      "name": "technique",
-      "count": 482
-    },
-    {
-      "name": "solution",
-      "count": 480
-    },
-    {
-      "name": "optimal",
-      "count": 460
-    }
-  ],
-  "2000": [
-    {
-      "name": "system",
-      "count": 1522
-    },
-    {
-      "name": "model",
-      "count": 1474
-    },
-    {
-      "name": "algorithm",
-      "count": 1384
-    },
-    {
-      "name": "filter",
-      "count": 1357
-    },
-    {
-      "name": "control",
-      "count": 1182
-    },
-    {
-      "name": "network",
-      "count": 1165
-    },
-    {
-      "name": "method",
-      "count": 1083
-    },
-    {
-      "name": "design",
-      "count": 887
-    },
-    {
-      "name": "image",
-      "count": 796
-    },
-    {
-      "name": "signal",
-      "count": 777
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "problem",
-      "count": 717
-    },
-    {
-      "name": "time",
-      "count": 716
-    },
-    {
-      "name": "data",
-      "count": 704
-    },
-    {
-      "name": "matrix",
-      "count": 685
-    },
-    {
-      "name": "sup",
-      "count": 679
-    },
-    {
-      "name": "adaptive",
-      "count": 673
-    },
-    {
-      "name": "noise",
-      "count": 663
-    },
-    {
-      "name": "parameter",
-      "count": 634
-    },
-    {
-      "name": "error",
-      "count": 625
-    },
-    {
-      "name": "function",
-      "count": 598
-    },
-    {
-      "name": "controller",
-      "count": 593
-    },
-    {
-      "name": "frequency",
-      "count": 566
-    },
-    {
-      "name": "fuzzy",
-      "count": 551
-    },
-    {
-      "name": "process",
-      "count": 529
-    },
-    {
-      "name": "phase",
-      "count": 517
-    },
-    {
-      "name": "sub",
-      "count": 515
-    },
-    {
-      "name": "inf",
-      "count": 506
-    },
-    {
-      "name": "solution",
-      "count": 501
-    },
-    {
-      "name": "technique",
-      "count": 501
-    }
-  ],
-  "2001": [
-    {
-      "name": "system",
-      "count": 1589
-    },
-    {
-      "name": "model",
-      "count": 1544
-    },
-    {
-      "name": "algorithm",
-      "count": 1455
-    },
-    {
-      "name": "filter",
-      "count": 1418
-    },
-    {
-      "name": "control",
-      "count": 1256
-    },
-    {
-      "name": "network",
-      "count": 1232
-    },
-    {
-      "name": "method",
-      "count": 1122
-    },
-    {
-      "name": "design",
-      "count": 931
-    },
-    {
-      "name": "image",
-      "count": 830
-    },
-    {
-      "name": "signal",
-      "count": 826
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "data",
-      "count": 754
-    },
-    {
-      "name": "problem",
-      "count": 743
-    },
-    {
-      "name": "time",
-      "count": 737
-    },
-    {
-      "name": "adaptive",
-      "count": 715
-    },
-    {
-      "name": "matrix",
-      "count": 714
-    },
-    {
-      "name": "sup",
-      "count": 699
-    },
-    {
-      "name": "noise",
-      "count": 690
-    },
-    {
-      "name": "parameter",
-      "count": 659
-    },
-    {
-      "name": "error",
-      "count": 657
-    },
-    {
-      "name": "controller",
-      "count": 647
-    },
-    {
-      "name": "function",
-      "count": 616
-    },
-    {
-      "name": "fuzzy",
-      "count": 613
-    },
-    {
-      "name": "frequency",
-      "count": 605
-    },
-    {
-      "name": "sub",
-      "count": 548
-    },
-    {
-      "name": "process",
-      "count": 545
-    },
-    {
-      "name": "phase",
-      "count": 536
-    },
-    {
-      "name": "scheme",
-      "count": 531
-    },
-    {
-      "name": "object",
-      "count": 531
-    },
-    {
-      "name": "technique",
-      "count": 523
-    }
-  ],
-  "2002": [
-    {
-      "name": "system",
-      "count": 1671
-    },
-    {
-      "name": "model",
-      "count": 1616
-    },
-    {
-      "name": "algorithm",
-      "count": 1518
-    },
-    {
-      "name": "filter",
-      "count": 1469
-    },
-    {
-      "name": "network",
-      "count": 1315
-    },
-    {
-      "name": "control",
-      "count": 1302
-    },
-    {
-      "name": "method",
-      "count": 1155
-    },
-    {
-      "name": "design",
-      "count": 972
-    },
-    {
-      "name": "image",
-      "count": 892
-    },
-    {
-      "name": "signal",
-      "count": 857
-    },
-    {
-      "name": "data",
-      "count": 797
-    },
-    {
-      "name": "problem",
-      "count": 775
-    },
-    {
-      "name": "time",
-      "count": 771
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "adaptive",
-      "count": 752
-    },
-    {
-      "name": "matrix",
-      "count": 734
-    },
-    {
-      "name": "noise",
-      "count": 721
-    },
-    {
-      "name": "sup",
-      "count": 711
-    },
-    {
-      "name": "controller",
-      "count": 695
-    },
-    {
-      "name": "parameter",
-      "count": 691
-    },
-    {
-      "name": "error",
-      "count": 682
-    },
-    {
-      "name": "fuzzy",
-      "count": 660
-    },
-    {
-      "name": "function",
-      "count": 641
-    },
-    {
-      "name": "frequency",
-      "count": 636
-    },
-    {
-      "name": "sub",
-      "count": 584
-    },
-    {
-      "name": "scheme",
-      "count": 575
-    },
-    {
-      "name": "object",
-      "count": 561
-    },
-    {
-      "name": "process",
-      "count": 557
-    },
-    {
-      "name": "phase",
-      "count": 556
-    },
-    {
-      "name": "technique",
-      "count": 546
-    }
-  ],
-  "2003": [
-    {
-      "name": "system",
-      "count": 1748
-    },
-    {
-      "name": "model",
-      "count": 1698
-    },
-    {
-      "name": "algorithm",
-      "count": 1594
-    },
-    {
-      "name": "filter",
-      "count": 1526
-    },
-    {
-      "name": "network",
-      "count": 1402
-    },
-    {
-      "name": "control",
-      "count": 1389
-    },
-    {
-      "name": "method",
-      "count": 1196
-    },
-    {
-      "name": "design",
-      "count": 1003
-    },
-    {
-      "name": "image",
-      "count": 958
-    },
-    {
-      "name": "signal",
-      "count": 895
-    },
-    {
-      "name": "data",
-      "count": 837
-    },
-    {
-      "name": "problem",
-      "count": 799
-    },
-    {
-      "name": "time",
-      "count": 794
-    },
-    {
-      "name": "adaptive",
-      "count": 787
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "matrix",
-      "count": 755
-    },
-    {
-      "name": "noise",
-      "count": 746
-    },
-    {
-      "name": "controller",
-      "count": 727
-    },
-    {
-      "name": "sup",
-      "count": 726
-    },
-    {
-      "name": "parameter",
-      "count": 720
-    },
-    {
-      "name": "error",
-      "count": 706
-    },
-    {
-      "name": "fuzzy",
-      "count": 704
-    },
-    {
-      "name": "frequency",
-      "count": 662
-    },
-    {
-      "name": "function",
-      "count": 660
-    },
-    {
-      "name": "sub",
-      "count": 625
-    },
-    {
-      "name": "scheme",
-      "count": 606
-    },
-    {
-      "name": "object",
-      "count": 596
-    },
-    {
-      "name": "channel",
-      "count": 592
-    },
-    {
-      "name": "phase",
-      "count": 584
-    },
-    {
-      "name": "power",
-      "count": 577
-    }
-  ],
-  "2004": [
-    {
-      "name": "system",
-      "count": 1834
-    },
-    {
-      "name": "model",
-      "count": 1790
-    },
-    {
-      "name": "algorithm",
-      "count": 1678
-    },
-    {
-      "name": "filter",
-      "count": 1577
-    },
-    {
-      "name": "network",
-      "count": 1492
-    },
-    {
-      "name": "control",
-      "count": 1476
-    },
-    {
-      "name": "method",
-      "count": 1265
-    },
-    {
-      "name": "design",
-      "count": 1036
-    },
-    {
-      "name": "image",
-      "count": 1022
-    },
-    {
-      "name": "signal",
-      "count": 939
-    },
-    {
-      "name": "data",
-      "count": 890
-    },
-    {
-      "name": "problem",
-      "count": 833
-    },
-    {
-      "name": "time",
-      "count": 832
-    },
-    {
-      "name": "adaptive",
-      "count": 823
-    },
-    {
-      "name": "matrix",
-      "count": 785
-    },
-    {
-      "name": "controller",
-      "count": 778
-    },
-    {
-      "name": "noise",
-      "count": 772
-    },
-    {
-      "name": "tex",
-      "count": 756
-    },
-    {
-      "name": "fuzzy",
-      "count": 754
-    },
-    {
-      "name": "sup",
-      "count": 747
-    },
-    {
-      "name": "parameter",
-      "count": 747
-    },
-    {
-      "name": "error",
-      "count": 732
-    },
-    {
-      "name": "function",
-      "count": 690
-    },
-    {
-      "name": "frequency",
-      "count": 688
-    },
-    {
-      "name": "sub",
-      "count": 673
-    },
-    {
-      "name": "scheme",
-      "count": 651
-    },
-    {
-      "name": "channel",
-      "count": 650
-    },
-    {
-      "name": "object",
-      "count": 631
-    },
-    {
-      "name": "power",
-      "count": 622
-    },
-    {
-      "name": "phase",
-      "count": 618
-    }
-  ],
-  "2005": [
-    {
-      "name": "system",
-      "count": 1920
-    },
-    {
-      "name": "model",
-      "count": 1887
-    },
-    {
-      "name": "algorithm",
-      "count": 1750
-    },
-    {
-      "name": "filter",
-      "count": 1626
-    },
-    {
-      "name": "network",
-      "count": 1576
-    },
-    {
-      "name": "control",
-      "count": 1561
-    },
-    {
-      "name": "method",
-      "count": 1317
-    },
-    {
-      "name": "image",
-      "count": 1101
-    },
-    {
-      "name": "design",
-      "count": 1081
-    },
-    {
-      "name": "signal",
-      "count": 970
-    },
-    {
-      "name": "data",
-      "count": 952
-    },
-    {
-      "name": "time",
-      "count": 875
-    },
-    {
-      "name": "problem",
-      "count": 873
-    },
-    {
-      "name": "adaptive",
-      "count": 856
-    },
-    {
-      "name": "matrix",
-      "count": 813
-    },
-    {
-      "name": "controller",
-      "count": 812
-    },
-    {
-      "name": "fuzzy",
-      "count": 805
-    },
-    {
-      "name": "noise",
-      "count": 797
-    },
-    {
-      "name": "parameter",
-      "count": 776
-    },
-    {
-      "name": "error",
-      "count": 770
-    },
-    {
-      "name": "sup",
-      "count": 763
-    },
-    {
-      "name": "tex",
-      "count": 757
-    },
-    {
-      "name": "frequency",
-      "count": 723
-    },
-    {
-      "name": "channel",
-      "count": 720
-    },
-    {
-      "name": "function",
-      "count": 715
-    },
-    {
-      "name": "sub",
-      "count": 712
-    },
-    {
-      "name": "scheme",
-      "count": 702
-    },
-    {
-      "name": "object",
-      "count": 675
-    },
-    {
-      "name": "power",
-      "count": 658
-    },
-    {
-      "name": "phase",
-      "count": 653
-    }
-  ],
-  "2006": [
-    {
-      "name": "system",
-      "count": 1994
-    },
-    {
-      "name": "model",
-      "count": 1994
-    },
-    {
-      "name": "algorithm",
-      "count": 1824
-    },
-    {
-      "name": "filter",
-      "count": 1693
-    },
-    {
-      "name": "network",
-      "count": 1680
-    },
-    {
-      "name": "control",
-      "count": 1634
-    },
-    {
-      "name": "method",
-      "count": 1364
-    },
-    {
-      "name": "image",
-      "count": 1179
-    },
-    {
-      "name": "design",
-      "count": 1128
-    },
-    {
-      "name": "signal",
-      "count": 1015
-    },
-    {
-      "name": "data",
-      "count": 1009
-    },
-    {
-      "name": "problem",
-      "count": 915
-    },
-    {
-      "name": "time",
-      "count": 911
-    },
-    {
-      "name": "adaptive",
-      "count": 896
-    },
-    {
-      "name": "fuzzy",
-      "count": 862
-    },
-    {
-      "name": "matrix",
-      "count": 854
-    },
-    {
-      "name": "noise",
-      "count": 837
-    },
-    {
-      "name": "controller",
-      "count": 833
-    },
-    {
-      "name": "channel",
-      "count": 816
-    },
-    {
-      "name": "error",
-      "count": 806
-    },
-    {
-      "name": "sup",
-      "count": 801
-    },
-    {
-      "name": "parameter",
-      "count": 797
-    },
-    {
-      "name": "sub",
-      "count": 790
-    },
-    {
-      "name": "tex",
-      "count": 786
-    },
-    {
-      "name": "frequency",
-      "count": 761
-    },
-    {
-      "name": "function",
-      "count": 753
-    },
-    {
-      "name": "scheme",
-      "count": 752
-    },
-    {
-      "name": "power",
-      "count": 726
-    },
-    {
-      "name": "object",
-      "count": 711
-    },
-    {
-      "name": "phase",
-      "count": 681
-    }
-  ],
-  "2007": [
-    {
-      "name": "system",
-      "count": 2098
-    },
-    {
-      "name": "model",
-      "count": 2083
-    },
-    {
-      "name": "algorithm",
-      "count": 1948
-    },
-    {
-      "name": "network",
-      "count": 1788
-    },
-    {
-      "name": "filter",
-      "count": 1771
-    },
-    {
-      "name": "control",
-      "count": 1717
-    },
-    {
-      "name": "method",
-      "count": 1430
-    },
-    {
-      "name": "image",
-      "count": 1253
-    },
-    {
-      "name": "design",
-      "count": 1177
-    },
-    {
-      "name": "signal",
-      "count": 1071
-    },
-    {
-      "name": "data",
-      "count": 1059
-    },
-    {
-      "name": "problem",
-      "count": 965
-    },
-    {
-      "name": "time",
-      "count": 954
-    },
-    {
-      "name": "adaptive",
-      "count": 939
-    },
-    {
-      "name": "channel",
-      "count": 915
-    },
-    {
-      "name": "fuzzy",
-      "count": 912
-    },
-    {
-      "name": "matrix",
-      "count": 897
-    },
-    {
-      "name": "sub",
-      "count": 885
-    },
-    {
-      "name": "controller",
-      "count": 882
-    },
-    {
-      "name": "noise",
-      "count": 868
-    },
-    {
-      "name": "sup",
-      "count": 855
-    },
-    {
-      "name": "parameter",
-      "count": 840
-    },
-    {
-      "name": "error",
-      "count": 835
-    },
-    {
-      "name": "tex",
-      "count": 820
-    },
-    {
-      "name": "scheme",
-      "count": 814
-    },
-    {
-      "name": "frequency",
-      "count": 808
-    },
-    {
-      "name": "function",
-      "count": 793
-    },
-    {
-      "name": "power",
-      "count": 778
-    },
-    {
-      "name": "object",
-      "count": 752
-    },
-    {
-      "name": "delay",
-      "count": 746
-    }
-  ],
-  "2008": [
-    {
-      "name": "model",
-      "count": 2205
-    },
-    {
-      "name": "system",
-      "count": 2188
-    },
-    {
-      "name": "algorithm",
-      "count": 2057
-    },
-    {
-      "name": "network",
-      "count": 1929
-    },
-    {
-      "name": "filter",
-      "count": 1839
-    },
-    {
-      "name": "control",
-      "count": 1822
-    },
-    {
-      "name": "method",
-      "count": 1503
-    },
-    {
-      "name": "image",
-      "count": 1347
-    },
-    {
-      "name": "design",
-      "count": 1230
-    },
-    {
-      "name": "data",
-      "count": 1125
-    },
-    {
-      "name": "signal",
-      "count": 1124
-    },
-    {
-      "name": "channel",
-      "count": 1006
-    },
-    {
-      "name": "problem",
-      "count": 1005
-    },
-    {
-      "name": "time",
-      "count": 999
-    },
-    {
-      "name": "sub",
-      "count": 990
-    },
-    {
-      "name": "adaptive",
-      "count": 982
-    },
-    {
-      "name": "fuzzy",
-      "count": 962
-    },
-    {
-      "name": "matrix",
-      "count": 946
-    },
-    {
-      "name": "controller",
-      "count": 941
-    },
-    {
-      "name": "noise",
-      "count": 913
-    },
-    {
-      "name": "sup",
-      "count": 896
-    },
-    {
-      "name": "error",
-      "count": 878
-    },
-    {
-      "name": "scheme",
-      "count": 877
-    },
-    {
-      "name": "tex",
-      "count": 874
-    },
-    {
-      "name": "parameter",
-      "count": 873
-    },
-    {
-      "name": "frequency",
-      "count": 852
-    },
-    {
-      "name": "power",
-      "count": 848
-    },
-    {
-      "name": "function",
-      "count": 837
-    },
-    {
-      "name": "delay",
-      "count": 816
-    },
-    {
-      "name": "object",
-      "count": 807
-    }
-  ],
-  "2009": [
-    {
-      "name": "model",
-      "count": 2327
-    },
-    {
-      "name": "system",
-      "count": 2281
-    },
-    {
-      "name": "algorithm",
-      "count": 2174
-    },
-    {
-      "name": "network",
-      "count": 2058
-    },
-    {
-      "name": "filter",
-      "count": 1928
-    },
-    {
-      "name": "control",
-      "count": 1910
-    },
-    {
-      "name": "method",
-      "count": 1576
-    },
-    {
-      "name": "image",
-      "count": 1441
-    },
-    {
-      "name": "design",
-      "count": 1276
-    },
-    {
-      "name": "data",
-      "count": 1179
-    },
-    {
-      "name": "signal",
-      "count": 1167
-    },
-    {
-      "name": "sub",
-      "count": 1098
-    },
-    {
-      "name": "channel",
-      "count": 1078
-    },
-    {
-      "name": "problem",
-      "count": 1056
-    },
-    {
-      "name": "time",
-      "count": 1054
-    },
-    {
-      "name": "adaptive",
-      "count": 1020
-    },
-    {
-      "name": "fuzzy",
-      "count": 1004
-    },
-    {
-      "name": "controller",
-      "count": 986
-    },
-    {
-      "name": "matrix",
-      "count": 986
-    },
-    {
-      "name": "sup",
-      "count": 964
-    },
-    {
-      "name": "scheme",
-      "count": 960
-    },
-    {
-      "name": "noise",
-      "count": 952
-    },
-    {
-      "name": "tex",
-      "count": 951
-    },
-    {
-      "name": "power",
-      "count": 927
-    },
-    {
-      "name": "error",
-      "count": 912
-    },
-    {
-      "name": "parameter",
-      "count": 907
-    },
-    {
-      "name": "frequency",
-      "count": 897
-    },
-    {
-      "name": "delay",
-      "count": 880
-    },
-    {
-      "name": "function",
-      "count": 867
-    },
-    {
-      "name": "object",
-      "count": 839
-    }
-  ],
-  "2010": [
-    {
-      "name": "model",
-      "count": 2461
-    },
-    {
-      "name": "system",
-      "count": 2366
-    },
-    {
-      "name": "algorithm",
-      "count": 2275
-    },
-    {
-      "name": "network",
-      "count": 2168
-    },
-    {
-      "name": "filter",
-      "count": 2003
-    },
-    {
-      "name": "control",
-      "count": 1994
-    },
-    {
-      "name": "method",
-      "count": 1628
-    },
-    {
-      "name": "image",
-      "count": 1519
-    },
-    {
-      "name": "design",
-      "count": 1333
-    },
-    {
-      "name": "data",
-      "count": 1253
-    },
-    {
-      "name": "signal",
-      "count": 1231
-    },
-    {
-      "name": "sub",
-      "count": 1198
-    },
-    {
-      "name": "channel",
-      "count": 1149
-    },
-    {
-      "name": "time",
-      "count": 1105
-    },
-    {
-      "name": "problem",
-      "count": 1097
-    },
-    {
-      "name": "adaptive",
-      "count": 1057
-    },
-    {
-      "name": "fuzzy",
-      "count": 1035
-    },
-    {
-      "name": "matrix",
-      "count": 1034
-    },
-    {
-      "name": "controller",
-      "count": 1031
-    },
-    {
-      "name": "scheme",
-      "count": 1025
-    },
-    {
-      "name": "sup",
-      "count": 1023
-    },
-    {
-      "name": "tex",
-      "count": 1004
-    },
-    {
-      "name": "power",
-      "count": 1000
-    },
-    {
-      "name": "noise",
-      "count": 991
-    },
-    {
-      "name": "frequency",
-      "count": 961
-    },
-    {
-      "name": "error",
-      "count": 949
-    },
-    {
-      "name": "parameter",
-      "count": 939
-    },
-    {
-      "name": "delay",
-      "count": 938
-    },
-    {
-      "name": "sensor",
-      "count": 908
-    },
-    {
-      "name": "function",
-      "count": 900
-    }
-  ],
-  "2011": [
-    {
-      "name": "model",
-      "count": 2579
-    },
-    {
-      "name": "system",
-      "count": 2467
-    },
-    {
-      "name": "algorithm",
-      "count": 2372
-    },
-    {
-      "name": "network",
-      "count": 2313
-    },
-    {
-      "name": "control",
-      "count": 2107
-    },
-    {
-      "name": "filter",
-      "count": 2067
-    },
-    {
-      "name": "method",
-      "count": 1693
-    },
-    {
-      "name": "image",
-      "count": 1612
-    },
-    {
-      "name": "design",
-      "count": 1384
-    },
-    {
-      "name": "data",
-      "count": 1324
-    },
-    {
-      "name": "sub",
-      "count": 1293
-    },
-    {
-      "name": "signal",
-      "count": 1274
-    },
-    {
-      "name": "channel",
-      "count": 1239
-    },
-    {
-      "name": "problem",
-      "count": 1147
-    },
-    {
-      "name": "time",
-      "count": 1147
-    },
-    {
-      "name": "adaptive",
-      "count": 1098
-    },
-    {
-      "name": "power",
-      "count": 1094
-    },
-    {
-      "name": "scheme",
-      "count": 1091
-    },
-    {
-      "name": "matrix",
-      "count": 1084
-    },
-    {
-      "name": "fuzzy",
-      "count": 1082
-    },
-    {
-      "name": "controller",
-      "count": 1074
-    },
-    {
-      "name": "sup",
-      "count": 1074
-    },
-    {
-      "name": "tex",
-      "count": 1068
-    },
-    {
-      "name": "noise",
-      "count": 1030
-    },
-    {
-      "name": "delay",
-      "count": 1022
-    },
-    {
-      "name": "sensor",
-      "count": 1008
-    },
-    {
-      "name": "frequency",
-      "count": 1007
-    },
-    {
-      "name": "error",
-      "count": 981
-    },
-    {
-      "name": "parameter",
-      "count": 980
-    },
-    {
-      "name": "user",
-      "count": 969
-    }
-  ],
-  "2012": [
-    {
-      "name": "model",
-      "count": 2701
-    },
-    {
-      "name": "system",
-      "count": 2564
-    },
-    {
-      "name": "algorithm",
-      "count": 2477
-    },
-    {
-      "name": "network",
-      "count": 2477
-    },
-    {
-      "name": "control",
-      "count": 2210
-    },
-    {
-      "name": "filter",
-      "count": 2136
-    },
-    {
-      "name": "method",
-      "count": 1752
-    },
-    {
-      "name": "image",
-      "count": 1705
-    },
-    {
-      "name": "design",
-      "count": 1437
-    },
-    {
-      "name": "sub",
-      "count": 1409
-    },
-    {
-      "name": "data",
-      "count": 1404
-    },
-    {
-      "name": "signal",
-      "count": 1337
-    },
-    {
-      "name": "channel",
-      "count": 1323
-    },
-    {
-      "name": "problem",
-      "count": 1216
-    },
-    {
-      "name": "power",
-      "count": 1200
-    },
-    {
-      "name": "time",
-      "count": 1192
-    },
-    {
-      "name": "tex",
-      "count": 1163
-    },
-    {
-      "name": "scheme",
-      "count": 1162
-    },
-    {
-      "name": "matrix",
-      "count": 1146
-    },
-    {
-      "name": "adaptive",
-      "count": 1139
-    },
-    {
-      "name": "controller",
-      "count": 1134
-    },
-    {
-      "name": "sup",
-      "count": 1134
-    },
-    {
-      "name": "fuzzy",
-      "count": 1116
-    },
-    {
-      "name": "sensor",
-      "count": 1101
-    },
-    {
-      "name": "user",
-      "count": 1091
-    },
-    {
-      "name": "delay",
-      "count": 1090
-    },
-    {
-      "name": "noise",
-      "count": 1063
-    },
-    {
-      "name": "frequency",
-      "count": 1050
-    },
-    {
-      "name": "error",
-      "count": 1017
-    },
-    {
-      "name": "parameter",
-      "count": 1012
-    }
-  ],
-  "2013": [
-    {
-      "name": "model",
-      "count": 2828
-    },
-    {
-      "name": "system",
-      "count": 2665
-    },
-    {
-      "name": "network",
-      "count": 2615
-    },
-    {
-      "name": "algorithm",
-      "count": 2575
-    },
-    {
-      "name": "control",
-      "count": 2328
-    },
-    {
-      "name": "filter",
-      "count": 2206
-    },
-    {
-      "name": "method",
-      "count": 1819
-    },
-    {
-      "name": "image",
-      "count": 1802
-    },
-    {
-      "name": "sub",
-      "count": 1512
-    },
-    {
-      "name": "data",
-      "count": 1483
-    },
-    {
-      "name": "design",
-      "count": 1481
-    },
-    {
-      "name": "signal",
-      "count": 1401
-    },
-    {
-      "name": "channel",
-      "count": 1399
-    },
-    {
-      "name": "power",
-      "count": 1314
-    },
-    {
-      "name": "problem",
-      "count": 1270
-    },
-    {
-      "name": "tex",
-      "count": 1251
-    },
-    {
-      "name": "scheme",
-      "count": 1237
-    },
-    {
-      "name": "time",
-      "count": 1234
-    },
-    {
-      "name": "user",
-      "count": 1206
-    },
-    {
-      "name": "matrix",
-      "count": 1202
-    },
-    {
-      "name": "controller",
-      "count": 1197
-    },
-    {
-      "name": "sup",
-      "count": 1189
-    },
-    {
-      "name": "sensor",
-      "count": 1187
-    },
-    {
-      "name": "adaptive",
-      "count": 1173
-    },
-    {
-      "name": "delay",
-      "count": 1159
-    },
-    {
-      "name": "fuzzy",
-      "count": 1156
-    },
-    {
-      "name": "noise",
-      "count": 1104
-    },
-    {
-      "name": "frequency",
-      "count": 1096
-    },
-    {
-      "name": "object",
-      "count": 1059
-    },
-    {
-      "name": "parameter",
-      "count": 1049
-    }
-  ],
-  "2014": [
-    {
-      "name": "model",
-      "count": 2931
-    },
-    {
-      "name": "system",
-      "count": 2794
-    },
-    {
-      "name": "network",
-      "count": 2773
-    },
-    {
-      "name": "algorithm",
-      "count": 2692
-    },
-    {
-      "name": "control",
-      "count": 2463
-    },
-    {
-      "name": "filter",
-      "count": 2265
-    },
-    {
-      "name": "image",
-      "count": 1918
-    },
-    {
-      "name": "method",
-      "count": 1886
-    },
-    {
-      "name": "sub",
-      "count": 1629
-    },
-    {
-      "name": "data",
-      "count": 1588
-    },
-    {
-      "name": "design",
-      "count": 1521
-    },
-    {
-      "name": "signal",
-      "count": 1470
-    },
-    {
-      "name": "channel",
-      "count": 1466
-    },
-    {
-      "name": "power",
-      "count": 1407
-    },
-    {
-      "name": "problem",
-      "count": 1326
-    },
-    {
-      "name": "user",
-      "count": 1321
-    },
-    {
-      "name": "tex",
-      "count": 1303
-    },
-    {
-      "name": "scheme",
-      "count": 1295
-    },
-    {
-      "name": "sensor",
-      "count": 1283
-    },
-    {
-      "name": "time",
-      "count": 1274
-    },
-    {
-      "name": "controller",
-      "count": 1257
-    },
-    {
-      "name": "sup",
-      "count": 1252
-    },
-    {
-      "name": "matrix",
-      "count": 1252
-    },
-    {
-      "name": "delay",
-      "count": 1231
-    },
-    {
-      "name": "adaptive",
-      "count": 1214
-    },
-    {
-      "name": "fuzzy",
-      "count": 1181
-    },
-    {
-      "name": "noise",
-      "count": 1151
-    },
-    {
-      "name": "frequency",
-      "count": 1149
-    },
-    {
-      "name": "object",
-      "count": 1110
-    },
-    {
-      "name": "error",
-      "count": 1084
-    }
-  ],
-  "2015": [
-    {
-      "name": "model",
-      "count": 3062
-    },
-    {
-      "name": "network",
-      "count": 2933
-    },
-    {
-      "name": "system",
-      "count": 2909
-    },
-    {
-      "name": "algorithm",
-      "count": 2805
-    },
-    {
-      "name": "control",
-      "count": 2618
-    },
-    {
-      "name": "filter",
-      "count": 2342
-    },
-    {
-      "name": "image",
-      "count": 2045
-    },
-    {
-      "name": "method",
-      "count": 1954
-    },
-    {
-      "name": "sub",
-      "count": 1793
-    },
-    {
-      "name": "data",
-      "count": 1715
-    },
-    {
-      "name": "design",
-      "count": 1568
-    },
-    {
-      "name": "channel",
-      "count": 1557
-    },
-    {
-      "name": "signal",
-      "count": 1524
-    },
-    {
-      "name": "power",
-      "count": 1522
-    },
-    {
-      "name": "user",
-      "count": 1438
-    },
-    {
-      "name": "sensor",
-      "count": 1390
-    },
-    {
-      "name": "problem",
-      "count": 1385
-    },
-    {
-      "name": "scheme",
-      "count": 1379
-    },
-    {
-      "name": "tex",
-      "count": 1345
-    },
-    {
-      "name": "controller",
-      "count": 1334
-    },
-    {
-      "name": "time",
-      "count": 1332
-    },
-    {
-      "name": "sup",
-      "count": 1323
-    },
-    {
-      "name": "delay",
-      "count": 1317
-    },
-    {
-      "name": "matrix",
-      "count": 1301
-    },
-    {
-      "name": "adaptive",
-      "count": 1250
-    },
-    {
-      "name": "fuzzy",
-      "count": 1227
-    },
-    {
-      "name": "energy",
-      "count": 1222
-    },
-    {
-      "name": "frequency",
-      "count": 1212
-    },
-    {
-      "name": "noise",
-      "count": 1193
-    },
-    {
-      "name": "object",
-      "count": 1183
-    }
-  ],
-  "2016": [
-    {
-      "name": "model",
-      "count": 3192
-    },
-    {
-      "name": "network",
-      "count": 3093
-    },
-    {
-      "name": "system",
-      "count": 3050
-    },
-    {
-      "name": "algorithm",
-      "count": 2937
-    },
-    {
-      "name": "control",
-      "count": 2775
-    },
-    {
-      "name": "filter",
-      "count": 2419
-    },
-    {
-      "name": "image",
-      "count": 2166
-    },
-    {
-      "name": "method",
-      "count": 2034
-    },
-    {
-      "name": "sub",
-      "count": 1941
-    },
-    {
-      "name": "data",
-      "count": 1878
-    },
-    {
-      "name": "power",
-      "count": 1653
-    },
-    {
-      "name": "channel",
-      "count": 1650
-    },
-    {
-      "name": "design",
-      "count": 1619
-    },
-    {
-      "name": "signal",
-      "count": 1599
-    },
-    {
-      "name": "user",
-      "count": 1549
-    },
-    {
-      "name": "sensor",
-      "count": 1500
-    },
-    {
-      "name": "scheme",
-      "count": 1466
-    },
-    {
-      "name": "problem",
-      "count": 1456
-    },
-    {
-      "name": "energy",
-      "count": 1414
-    },
-    {
-      "name": "controller",
-      "count": 1412
-    },
-    {
-      "name": "delay",
-      "count": 1410
-    },
-    {
-      "name": "sup",
-      "count": 1403
-    },
-    {
-      "name": "tex",
-      "count": 1387
-    },
-    {
-      "name": "time",
-      "count": 1387
-    },
-    {
-      "name": "matrix",
-      "count": 1365
-    },
-    {
-      "name": "adaptive",
-      "count": 1306
-    },
-    {
-      "name": "fuzzy",
-      "count": 1263
-    },
-    {
-      "name": "frequency",
-      "count": 1258
-    },
-    {
-      "name": "object",
-      "count": 1254
-    },
-    {
-      "name": "noise",
-      "count": 1250
-    }
-  ],
-  "2017": [
-    {
-      "name": "model",
-      "count": 3330
-    },
-    {
-      "name": "network",
-      "count": 3283
-    },
-    {
-      "name": "system",
-      "count": 3193
-    },
-    {
-      "name": "algorithm",
-      "count": 3060
-    },
-    {
-      "name": "control",
-      "count": 2956
-    },
-    {
-      "name": "filter",
-      "count": 2516
-    },
-    {
-      "name": "image",
-      "count": 2288
-    },
-    {
-      "name": "method",
-      "count": 2127
-    },
-    {
-      "name": "sub",
-      "count": 2114
-    },
-    {
-      "name": "data",
-      "count": 2042
-    },
-    {
-      "name": "power",
-      "count": 1798
-    },
-    {
-      "name": "channel",
-      "count": 1754
-    },
-    {
-      "name": "signal",
-      "count": 1670
-    },
-    {
-      "name": "design",
-      "count": 1667
-    },
-    {
-      "name": "user",
-      "count": 1666
-    },
-    {
-      "name": "sensor",
-      "count": 1626
-    },
-    {
-      "name": "energy",
-      "count": 1601
-    },
-    {
-      "name": "scheme",
-      "count": 1577
-    },
-    {
-      "name": "problem",
-      "count": 1524
-    },
-    {
-      "name": "delay",
-      "count": 1522
-    },
-    {
-      "name": "controller",
-      "count": 1500
-    },
-    {
-      "name": "sup",
-      "count": 1478
-    },
-    {
-      "name": "time",
-      "count": 1462
-    },
-    {
-      "name": "matrix",
-      "count": 1436
-    },
-    {
-      "name": "tex",
-      "count": 1415
-    },
-    {
-      "name": "adaptive",
-      "count": 1367
-    },
-    {
-      "name": "fuzzy",
-      "count": 1326
-    },
-    {
-      "name": "frequency",
-      "count": 1315
-    },
-    {
-      "name": "noise",
-      "count": 1313
-    },
-    {
-      "name": "object",
-      "count": 1312
-    }
-  ],
-  "2018": [
-    {
-      "name": "network",
-      "count": 3474
-    },
-    {
-      "name": "model",
-      "count": 3459
-    },
-    {
-      "name": "system",
-      "count": 3334
-    },
-    {
-      "name": "control",
-      "count": 3229
-    },
-    {
-      "name": "algorithm",
-      "count": 3204
-    },
-    {
-      "name": "filter",
-      "count": 2615
-    },
-    {
-      "name": "image",
-      "count": 2437
-    },
-    {
-      "name": "sub",
-      "count": 2311
-    },
-    {
-      "name": "method",
-      "count": 2221
-    },
-    {
-      "name": "data",
-      "count": 2218
-    },
-    {
-      "name": "power",
-      "count": 1937
-    },
-    {
-      "name": "channel",
-      "count": 1878
-    },
-    {
-      "name": "user",
-      "count": 1824
-    },
-    {
-      "name": "energy",
-      "count": 1812
-    },
-    {
-      "name": "sensor",
-      "count": 1766
-    },
-    {
-      "name": "signal",
-      "count": 1752
-    },
-    {
-      "name": "design",
-      "count": 1718
-    },
-    {
-      "name": "scheme",
-      "count": 1679
-    },
-    {
-      "name": "delay",
-      "count": 1631
-    },
-    {
-      "name": "controller",
-      "count": 1609
-    },
-    {
-      "name": "problem",
-      "count": 1593
-    },
-    {
-      "name": "sup",
-      "count": 1568
-    },
-    {
-      "name": "time",
-      "count": 1550
-    },
-    {
-      "name": "matrix",
-      "count": 1518
-    },
-    {
-      "name": "tex",
-      "count": 1463
-    },
-    {
-      "name": "adaptive",
-      "count": 1444
-    },
-    {
-      "name": "noise",
-      "count": 1398
-    },
-    {
-      "name": "object",
-      "count": 1386
-    },
-    {
-      "name": "fuzzy",
-      "count": 1367
-    },
-    {
-      "name": "frequency",
-      "count": 1366
-    }
-  ],
-  "2019": [
-    {
-      "name": "network",
-      "count": 3688
-    },
-    {
-      "name": "model",
-      "count": 3623
-    },
-    {
-      "name": "system",
-      "count": 3463
-    },
-    {
-      "name": "control",
-      "count": 3458
-    },
-    {
-      "name": "algorithm",
-      "count": 3338
-    },
-    {
-      "name": "filter",
-      "count": 2716
-    },
-    {
-      "name": "image",
-      "count": 2575
-    },
-    {
-      "name": "sub",
-      "count": 2510
-    },
-    {
-      "name": "data",
-      "count": 2432
-    },
-    {
-      "name": "method",
-      "count": 2315
-    },
-    {
-      "name": "power",
-      "count": 2077
-    },
-    {
-      "name": "energy",
-      "count": 2031
-    },
-    {
-      "name": "channel",
-      "count": 2015
-    },
-    {
-      "name": "user",
-      "count": 1985
-    },
-    {
-      "name": "sensor",
-      "count": 1886
-    },
-    {
-      "name": "signal",
-      "count": 1835
-    },
-    {
-      "name": "scheme",
-      "count": 1793
-    },
-    {
-      "name": "design",
-      "count": 1767
-    },
-    {
-      "name": "delay",
-      "count": 1758
-    },
-    {
-      "name": "controller",
-      "count": 1708
-    },
-    {
-      "name": "sup",
-      "count": 1652
-    },
-    {
-      "name": "problem",
-      "count": 1648
-    },
-    {
-      "name": "time",
-      "count": 1642
-    },
-    {
-      "name": "matrix",
-      "count": 1583
-    },
-    {
-      "name": "tex",
-      "count": 1506
-    },
-    {
-      "name": "adaptive",
-      "count": 1506
-    },
-    {
-      "name": "object",
-      "count": 1465
-    },
-    {
-      "name": "detection",
-      "count": 1463
-    },
-    {
-      "name": "noise",
-      "count": 1459
-    },
-    {
-      "name": "frequency",
-      "count": 1452
-    }
-  ],
-  "2020": [
-    {
-      "name": "network",
-      "count": 3936
-    },
-    {
-      "name": "model",
-      "count": 3778
-    },
-    {
-      "name": "control",
-      "count": 3719
-    },
-    {
-      "name": "system",
-      "count": 3608
-    },
-    {
-      "name": "algorithm",
-      "count": 3490
-    },
-    {
-      "name": "filter",
-      "count": 2830
-    },
-    {
-      "name": "image",
-      "count": 2783
-    },
-    {
-      "name": "sub",
-      "count": 2767
-    },
-    {
-      "name": "data",
-      "count": 2725
-    },
-    {
-      "name": "method",
-      "count": 2422
-    },
-    {
-      "name": "energy",
-      "count": 2234
-    },
-    {
-      "name": "power",
-      "count": 2214
-    },
-    {
-      "name": "channel",
-      "count": 2190
-    },
-    {
-      "name": "user",
-      "count": 2150
-    },
-    {
-      "name": "sensor",
-      "count": 2031
-    },
-    {
-      "name": "signal",
-      "count": 1926
-    },
-    {
-      "name": "scheme",
-      "count": 1917
-    },
-    {
-      "name": "delay",
-      "count": 1897
-    },
-    {
-      "name": "controller",
-      "count": 1828
-    },
-    {
-      "name": "design",
-      "count": 1821
-    },
-    {
-      "name": "sup",
-      "count": 1756
-    },
-    {
-      "name": "time",
-      "count": 1730
-    },
-    {
-      "name": "problem",
-      "count": 1705
-    },
-    {
-      "name": "matrix",
-      "count": 1675
-    },
-    {
-      "name": "detection",
-      "count": 1600
-    },
-    {
-      "name": "adaptive",
-      "count": 1593
-    },
-    {
-      "name": "feature",
-      "count": 1581
-    },
-    {
-      "name": "node",
-      "count": 1570
-    },
-    {
-      "name": "object",
-      "count": 1561
-    },
-    {
-      "name": "noise",
-      "count": 1541
-    }
-  ],
-  "2021": [
-    {
-      "name": "network",
-      "count": 4200
-    },
-    {
-      "name": "control",
-      "count": 4157
-    },
-    {
-      "name": "model",
-      "count": 4014
-    },
-    {
-      "name": "system",
-      "count": 3807
-    },
-    {
-      "name": "algorithm",
-      "count": 3706
-    },
-    {
-      "name": "image",
-      "count": 3069
-    },
-    {
-      "name": "data",
-      "count": 3033
-    },
-    {
-      "name": "sub",
-      "count": 2995
-    },
-    {
-      "name": "filter",
-      "count": 2978
-    },
-    {
-      "name": "method",
-      "count": 2518
-    },
-    {
-      "name": "energy",
-      "count": 2446
-    },
-    {
-      "name": "power",
-      "count": 2381
-    },
-    {
-      "name": "channel",
-      "count": 2376
-    },
-    {
-      "name": "user",
-      "count": 2358
-    },
-    {
-      "name": "sensor",
-      "count": 2235
-    },
-    {
-      "name": "delay",
-      "count": 2105
-    },
-    {
-      "name": "signal",
-      "count": 2075
-    },
-    {
-      "name": "scheme",
-      "count": 2058
-    },
-    {
-      "name": "controller",
-      "count": 2005
-    },
-    {
-      "name": "time",
-      "count": 1927
-    },
-    {
-      "name": "design",
-      "count": 1884
-    },
-    {
-      "name": "sup",
-      "count": 1869
-    },
-    {
-      "name": "detection",
-      "count": 1824
-    },
-    {
-      "name": "feature",
-      "count": 1798
-    },
-    {
-      "name": "matrix",
-      "count": 1789
-    },
-    {
-      "name": "tex",
-      "count": 1788
-    },
-    {
-      "name": "problem",
-      "count": 1779
-    },
-    {
-      "name": "node",
-      "count": 1758
-    },
-    {
-      "name": "fault",
-      "count": 1742
-    },
-    {
-      "name": "object",
-      "count": 1708
-    }
-  ]
+ "1965": [
+  {
+   "name": "system",
+   "count": 28
+  },
+  {
+   "name": "tex",
+   "count": 24
+  },
+  {
+   "name": "inf",
+   "count": 20
+  },
+  {
+   "name": "noise",
+   "count": 18
+  },
+  {
+   "name": "measurement",
+   "count": 16
+  },
+  {
+   "name": "target",
+   "count": 16
+  },
+  {
+   "name": "wave",
+   "count": 14
+  },
+  {
+   "name": "signal",
+   "count": 14
+  },
+  {
+   "name": "control",
+   "count": 12
+  },
+  {
+   "name": "sample",
+   "count": 12
+  },
+  {
+   "name": "method",
+   "count": 12
+  },
+  {
+   "name": "plant",
+   "count": 12
+  },
+  {
+   "name": "time",
+   "count": 12
+  },
+  {
+   "name": "cross",
+   "count": 10
+  },
+  {
+   "name": "sup",
+   "count": 10
+  },
+  {
+   "name": "response",
+   "count": 10
+  },
+  {
+   "name": "error",
+   "count": 10
+  },
+  {
+   "name": "parameter",
+   "count": 10
+  },
+  {
+   "name": "gain",
+   "count": 10
+  },
+  {
+   "name": "equation",
+   "count": 10
+  },
+  {
+   "name": "field",
+   "count": 10
+  },
+  {
+   "name": "device",
+   "count": 10
+  },
+  {
+   "name": "technique",
+   "count": 10
+  },
+  {
+   "name": "transistor",
+   "count": 10
+  },
+  {
+   "name": "surface",
+   "count": 10
+  },
+  {
+   "name": "line",
+   "count": 10
+  },
+  {
+   "name": "array",
+   "count": 10
+  },
+  {
+   "name": "rcs",
+   "count": 10
+  },
+  {
+   "name": "seismic",
+   "count": 10
+  },
+  {
+   "name": "nonlinear",
+   "count": 8
+  }
+ ],
+ "1966": [
+  {
+   "name": "system",
+   "count": 50
+  },
+  {
+   "name": "tex",
+   "count": 41
+  },
+  {
+   "name": "inf",
+   "count": 30
+  },
+  {
+   "name": "control",
+   "count": 26
+  },
+  {
+   "name": "noise",
+   "count": 26
+  },
+  {
+   "name": "signal",
+   "count": 23
+  },
+  {
+   "name": "sup",
+   "count": 21
+  },
+  {
+   "name": "sample",
+   "count": 18
+  },
+  {
+   "name": "method",
+   "count": 18
+  },
+  {
+   "name": "plant",
+   "count": 18
+  },
+  {
+   "name": "target",
+   "count": 17
+  },
+  {
+   "name": "wave",
+   "count": 16
+  },
+  {
+   "name": "measurement",
+   "count": 16
+  },
+  {
+   "name": "state",
+   "count": 15
+  },
+  {
+   "name": "parameter",
+   "count": 15
+  },
+  {
+   "name": "model",
+   "count": 15
+  },
+  {
+   "name": "gain",
+   "count": 14
+  },
+  {
+   "name": "time",
+   "count": 14
+  },
+  {
+   "name": "frequency",
+   "count": 14
+  },
+  {
+   "name": "field",
+   "count": 14
+  },
+  {
+   "name": "device",
+   "count": 14
+  },
+  {
+   "name": "technique",
+   "count": 14
+  },
+  {
+   "name": "matrix",
+   "count": 14
+  },
+  {
+   "name": "error",
+   "count": 13
+  },
+  {
+   "name": "problem",
+   "count": 13
+  },
+  {
+   "name": "process",
+   "count": 13
+  },
+  {
+   "name": "equation",
+   "count": 13
+  },
+  {
+   "name": "value",
+   "count": 13
+  },
+  {
+   "name": "circuit",
+   "count": 13
+  },
+  {
+   "name": "design",
+   "count": 13
+  }
+ ],
+ "1967": [
+  {
+   "name": "system",
+   "count": 73
+  },
+  {
+   "name": "inf",
+   "count": 71
+  },
+  {
+   "name": "tex",
+   "count": 59
+  },
+  {
+   "name": "sup",
+   "count": 56
+  },
+  {
+   "name": "noise",
+   "count": 44
+  },
+  {
+   "name": "control",
+   "count": 39
+  },
+  {
+   "name": "signal",
+   "count": 34
+  },
+  {
+   "name": "method",
+   "count": 33
+  },
+  {
+   "name": "matrix",
+   "count": 33
+  },
+  {
+   "name": "wave",
+   "count": 32
+  },
+  {
+   "name": "measurement",
+   "count": 32
+  },
+  {
+   "name": "pulse",
+   "count": 31
+  },
+  {
+   "name": "parameter",
+   "count": 28
+  },
+  {
+   "name": "problem",
+   "count": 28
+  },
+  {
+   "name": "design",
+   "count": 27
+  },
+  {
+   "name": "device",
+   "count": 27
+  },
+  {
+   "name": "line",
+   "count": 27
+  },
+  {
+   "name": "gain",
+   "count": 26
+  },
+  {
+   "name": "network",
+   "count": 25
+  },
+  {
+   "name": "sample",
+   "count": 24
+  },
+  {
+   "name": "plant",
+   "count": 24
+  },
+  {
+   "name": "time",
+   "count": 24
+  },
+  {
+   "name": "stability",
+   "count": 24
+  },
+  {
+   "name": "function",
+   "count": 24
+  },
+  {
+   "name": "circuit",
+   "count": 24
+  },
+  {
+   "name": "power",
+   "count": 24
+  },
+  {
+   "name": "model",
+   "count": 24
+  },
+  {
+   "name": "state",
+   "count": 23
+  },
+  {
+   "name": "response",
+   "count": 23
+  },
+  {
+   "name": "error",
+   "count": 23
+  }
+ ],
+ "1968": [
+  {
+   "name": "inf",
+   "count": 107
+  },
+  {
+   "name": "system",
+   "count": 91
+  },
+  {
+   "name": "sup",
+   "count": 89
+  },
+  {
+   "name": "tex",
+   "count": 79
+  },
+  {
+   "name": "control",
+   "count": 66
+  },
+  {
+   "name": "noise",
+   "count": 60
+  },
+  {
+   "name": "matrix",
+   "count": 50
+  },
+  {
+   "name": "signal",
+   "count": 48
+  },
+  {
+   "name": "wave",
+   "count": 46
+  },
+  {
+   "name": "method",
+   "count": 46
+  },
+  {
+   "name": "device",
+   "count": 41
+  },
+  {
+   "name": "model",
+   "count": 40
+  },
+  {
+   "name": "array",
+   "count": 40
+  },
+  {
+   "name": "pulse",
+   "count": 39
+  },
+  {
+   "name": "measurement",
+   "count": 38
+  },
+  {
+   "name": "filter",
+   "count": 38
+  },
+  {
+   "name": "parameter",
+   "count": 37
+  },
+  {
+   "name": "line",
+   "count": 37
+  },
+  {
+   "name": "process",
+   "count": 36
+  },
+  {
+   "name": "equation",
+   "count": 36
+  },
+  {
+   "name": "problem",
+   "count": 35
+  },
+  {
+   "name": "diode",
+   "count": 35
+  },
+  {
+   "name": "network",
+   "count": 35
+  },
+  {
+   "name": "error",
+   "count": 34
+  },
+  {
+   "name": "function",
+   "count": 34
+  },
+  {
+   "name": "circuit",
+   "count": 34
+  },
+  {
+   "name": "mode",
+   "count": 34
+  },
+  {
+   "name": "time",
+   "count": 33
+  },
+  {
+   "name": "stability",
+   "count": 33
+  },
+  {
+   "name": "response",
+   "count": 32
+  }
+ ],
+ "1969": [
+  {
+   "name": "inf",
+   "count": 155
+  },
+  {
+   "name": "sup",
+   "count": 126
+  },
+  {
+   "name": "system",
+   "count": 115
+  },
+  {
+   "name": "tex",
+   "count": 105
+  },
+  {
+   "name": "control",
+   "count": 88
+  },
+  {
+   "name": "noise",
+   "count": 77
+  },
+  {
+   "name": "method",
+   "count": 75
+  },
+  {
+   "name": "signal",
+   "count": 63
+  },
+  {
+   "name": "filter",
+   "count": 62
+  },
+  {
+   "name": "matrix",
+   "count": 62
+  },
+  {
+   "name": "wave",
+   "count": 56
+  },
+  {
+   "name": "model",
+   "count": 54
+  },
+  {
+   "name": "problem",
+   "count": 51
+  },
+  {
+   "name": "measurement",
+   "count": 51
+  },
+  {
+   "name": "pulse",
+   "count": 49
+  },
+  {
+   "name": "equation",
+   "count": 48
+  },
+  {
+   "name": "function",
+   "count": 48
+  },
+  {
+   "name": "circuit",
+   "count": 48
+  },
+  {
+   "name": "parameter",
+   "count": 47
+  },
+  {
+   "name": "design",
+   "count": 47
+  },
+  {
+   "name": "device",
+   "count": 47
+  },
+  {
+   "name": "phase",
+   "count": 47
+  },
+  {
+   "name": "network",
+   "count": 47
+  },
+  {
+   "name": "algorithm",
+   "count": 46
+  },
+  {
+   "name": "diode",
+   "count": 46
+  },
+  {
+   "name": "mode",
+   "count": 46
+  },
+  {
+   "name": "array",
+   "count": 46
+  },
+  {
+   "name": "response",
+   "count": 45
+  },
+  {
+   "name": "error",
+   "count": 45
+  },
+  {
+   "name": "gain",
+   "count": 45
+  }
+ ],
+ "1970": [
+  {
+   "name": "inf",
+   "count": 191
+  },
+  {
+   "name": "sup",
+   "count": 155
+  },
+  {
+   "name": "system",
+   "count": 148
+  },
+  {
+   "name": "tex",
+   "count": 142
+  },
+  {
+   "name": "control",
+   "count": 104
+  },
+  {
+   "name": "noise",
+   "count": 97
+  },
+  {
+   "name": "method",
+   "count": 90
+  },
+  {
+   "name": "matrix",
+   "count": 75
+  },
+  {
+   "name": "signal",
+   "count": 73
+  },
+  {
+   "name": "filter",
+   "count": 72
+  },
+  {
+   "name": "model",
+   "count": 71
+  },
+  {
+   "name": "pulse",
+   "count": 65
+  },
+  {
+   "name": "wave",
+   "count": 64
+  },
+  {
+   "name": "problem",
+   "count": 62
+  },
+  {
+   "name": "equation",
+   "count": 62
+  },
+  {
+   "name": "function",
+   "count": 62
+  },
+  {
+   "name": "circuit",
+   "count": 61
+  },
+  {
+   "name": "diode",
+   "count": 61
+  },
+  {
+   "name": "measurement",
+   "count": 60
+  },
+  {
+   "name": "algorithm",
+   "count": 58
+  },
+  {
+   "name": "network",
+   "count": 57
+  },
+  {
+   "name": "error",
+   "count": 56
+  },
+  {
+   "name": "stability",
+   "count": 56
+  },
+  {
+   "name": "device",
+   "count": 56
+  },
+  {
+   "name": "line",
+   "count": 56
+  },
+  {
+   "name": "process",
+   "count": 55
+  },
+  {
+   "name": "frequency",
+   "count": 55
+  },
+  {
+   "name": "parameter",
+   "count": 54
+  },
+  {
+   "name": "response",
+   "count": 53
+  },
+  {
+   "name": "time",
+   "count": 53
+  }
+ ],
+ "1971": [
+  {
+   "name": "inf",
+   "count": 218
+  },
+  {
+   "name": "sup",
+   "count": 182
+  },
+  {
+   "name": "system",
+   "count": 169
+  },
+  {
+   "name": "tex",
+   "count": 167
+  },
+  {
+   "name": "control",
+   "count": 121
+  },
+  {
+   "name": "noise",
+   "count": 110
+  },
+  {
+   "name": "method",
+   "count": 102
+  },
+  {
+   "name": "matrix",
+   "count": 90
+  },
+  {
+   "name": "filter",
+   "count": 88
+  },
+  {
+   "name": "signal",
+   "count": 81
+  },
+  {
+   "name": "model",
+   "count": 81
+  },
+  {
+   "name": "diode",
+   "count": 80
+  },
+  {
+   "name": "circuit",
+   "count": 76
+  },
+  {
+   "name": "wave",
+   "count": 73
+  },
+  {
+   "name": "problem",
+   "count": 73
+  },
+  {
+   "name": "equation",
+   "count": 72
+  },
+  {
+   "name": "function",
+   "count": 72
+  },
+  {
+   "name": "algorithm",
+   "count": 71
+  },
+  {
+   "name": "device",
+   "count": 69
+  },
+  {
+   "name": "pulse",
+   "count": 69
+  },
+  {
+   "name": "network",
+   "count": 68
+  },
+  {
+   "name": "error",
+   "count": 65
+  },
+  {
+   "name": "parameter",
+   "count": 64
+  },
+  {
+   "name": "process",
+   "count": 64
+  },
+  {
+   "name": "stability",
+   "count": 64
+  },
+  {
+   "name": "measurement",
+   "count": 64
+  },
+  {
+   "name": "frequency",
+   "count": 63
+  },
+  {
+   "name": "phase",
+   "count": 63
+  },
+  {
+   "name": "line",
+   "count": 62
+  },
+  {
+   "name": "input",
+   "count": 60
+  }
+ ],
+ "1972": [
+  {
+   "name": "inf",
+   "count": 238
+  },
+  {
+   "name": "tex",
+   "count": 199
+  },
+  {
+   "name": "system",
+   "count": 199
+  },
+  {
+   "name": "sup",
+   "count": 197
+  },
+  {
+   "name": "control",
+   "count": 151
+  },
+  {
+   "name": "noise",
+   "count": 129
+  },
+  {
+   "name": "method",
+   "count": 114
+  },
+  {
+   "name": "model",
+   "count": 112
+  },
+  {
+   "name": "matrix",
+   "count": 102
+  },
+  {
+   "name": "filter",
+   "count": 101
+  },
+  {
+   "name": "signal",
+   "count": 99
+  },
+  {
+   "name": "problem",
+   "count": 91
+  },
+  {
+   "name": "algorithm",
+   "count": 89
+  },
+  {
+   "name": "diode",
+   "count": 87
+  },
+  {
+   "name": "network",
+   "count": 87
+  },
+  {
+   "name": "circuit",
+   "count": 86
+  },
+  {
+   "name": "time",
+   "count": 83
+  },
+  {
+   "name": "equation",
+   "count": 83
+  },
+  {
+   "name": "function",
+   "count": 83
+  },
+  {
+   "name": "parameter",
+   "count": 81
+  },
+  {
+   "name": "wave",
+   "count": 80
+  },
+  {
+   "name": "device",
+   "count": 79
+  },
+  {
+   "name": "pulse",
+   "count": 78
+  },
+  {
+   "name": "error",
+   "count": 76
+  },
+  {
+   "name": "frequency",
+   "count": 76
+  },
+  {
+   "name": "line",
+   "count": 72
+  },
+  {
+   "name": "process",
+   "count": 71
+  },
+  {
+   "name": "stability",
+   "count": 71
+  },
+  {
+   "name": "design",
+   "count": 71
+  },
+  {
+   "name": "state",
+   "count": 70
+  }
+ ],
+ "1973": [
+  {
+   "name": "inf",
+   "count": 269
+  },
+  {
+   "name": "sup",
+   "count": 224
+  },
+  {
+   "name": "tex",
+   "count": 222
+  },
+  {
+   "name": "system",
+   "count": 222
+  },
+  {
+   "name": "control",
+   "count": 174
+  },
+  {
+   "name": "noise",
+   "count": 145
+  },
+  {
+   "name": "model",
+   "count": 135
+  },
+  {
+   "name": "method",
+   "count": 126
+  },
+  {
+   "name": "filter",
+   "count": 116
+  },
+  {
+   "name": "matrix",
+   "count": 116
+  },
+  {
+   "name": "signal",
+   "count": 111
+  },
+  {
+   "name": "problem",
+   "count": 107
+  },
+  {
+   "name": "parameter",
+   "count": 98
+  },
+  {
+   "name": "algorithm",
+   "count": 98
+  },
+  {
+   "name": "diode",
+   "count": 97
+  },
+  {
+   "name": "network",
+   "count": 97
+  },
+  {
+   "name": "time",
+   "count": 93
+  },
+  {
+   "name": "equation",
+   "count": 93
+  },
+  {
+   "name": "circuit",
+   "count": 93
+  },
+  {
+   "name": "function",
+   "count": 90
+  },
+  {
+   "name": "wave",
+   "count": 88
+  },
+  {
+   "name": "frequency",
+   "count": 86
+  },
+  {
+   "name": "device",
+   "count": 86
+  },
+  {
+   "name": "pulse",
+   "count": 86
+  },
+  {
+   "name": "design",
+   "count": 83
+  },
+  {
+   "name": "state",
+   "count": 82
+  },
+  {
+   "name": "error",
+   "count": 82
+  },
+  {
+   "name": "process",
+   "count": 80
+  },
+  {
+   "name": "line",
+   "count": 78
+  },
+  {
+   "name": "measurement",
+   "count": 74
+  }
+ ],
+ "1974": [
+  {
+   "name": "inf",
+   "count": 289
+  },
+  {
+   "name": "tex",
+   "count": 258
+  },
+  {
+   "name": "system",
+   "count": 252
+  },
+  {
+   "name": "sup",
+   "count": 246
+  },
+  {
+   "name": "control",
+   "count": 197
+  },
+  {
+   "name": "noise",
+   "count": 155
+  },
+  {
+   "name": "model",
+   "count": 155
+  },
+  {
+   "name": "method",
+   "count": 148
+  },
+  {
+   "name": "filter",
+   "count": 143
+  },
+  {
+   "name": "matrix",
+   "count": 133
+  },
+  {
+   "name": "signal",
+   "count": 128
+  },
+  {
+   "name": "problem",
+   "count": 123
+  },
+  {
+   "name": "algorithm",
+   "count": 116
+  },
+  {
+   "name": "equation",
+   "count": 114
+  },
+  {
+   "name": "parameter",
+   "count": 108
+  },
+  {
+   "name": "network",
+   "count": 108
+  },
+  {
+   "name": "diode",
+   "count": 105
+  },
+  {
+   "name": "function",
+   "count": 104
+  },
+  {
+   "name": "time",
+   "count": 103
+  },
+  {
+   "name": "circuit",
+   "count": 102
+  },
+  {
+   "name": "design",
+   "count": 99
+  },
+  {
+   "name": "pulse",
+   "count": 98
+  },
+  {
+   "name": "wave",
+   "count": 96
+  },
+  {
+   "name": "device",
+   "count": 96
+  },
+  {
+   "name": "error",
+   "count": 95
+  },
+  {
+   "name": "state",
+   "count": 93
+  },
+  {
+   "name": "frequency",
+   "count": 93
+  },
+  {
+   "name": "process",
+   "count": 89
+  },
+  {
+   "name": "solution",
+   "count": 85
+  },
+  {
+   "name": "measurement",
+   "count": 84
+  }
+ ],
+ "1975": [
+  {
+   "name": "inf",
+   "count": 311
+  },
+  {
+   "name": "tex",
+   "count": 297
+  },
+  {
+   "name": "system",
+   "count": 280
+  },
+  {
+   "name": "sup",
+   "count": 265
+  },
+  {
+   "name": "control",
+   "count": 224
+  },
+  {
+   "name": "model",
+   "count": 188
+  },
+  {
+   "name": "method",
+   "count": 179
+  },
+  {
+   "name": "filter",
+   "count": 166
+  },
+  {
+   "name": "noise",
+   "count": 165
+  },
+  {
+   "name": "matrix",
+   "count": 148
+  },
+  {
+   "name": "algorithm",
+   "count": 139
+  },
+  {
+   "name": "signal",
+   "count": 138
+  },
+  {
+   "name": "problem",
+   "count": 138
+  },
+  {
+   "name": "parameter",
+   "count": 126
+  },
+  {
+   "name": "equation",
+   "count": 125
+  },
+  {
+   "name": "function",
+   "count": 124
+  },
+  {
+   "name": "time",
+   "count": 116
+  },
+  {
+   "name": "design",
+   "count": 116
+  },
+  {
+   "name": "network",
+   "count": 116
+  },
+  {
+   "name": "circuit",
+   "count": 114
+  },
+  {
+   "name": "frequency",
+   "count": 110
+  },
+  {
+   "name": "diode",
+   "count": 110
+  },
+  {
+   "name": "error",
+   "count": 105
+  },
+  {
+   "name": "process",
+   "count": 101
+  },
+  {
+   "name": "pulse",
+   "count": 101
+  },
+  {
+   "name": "wave",
+   "count": 100
+  },
+  {
+   "name": "device",
+   "count": 100
+  },
+  {
+   "name": "state",
+   "count": 99
+  },
+  {
+   "name": "measurement",
+   "count": 96
+  },
+  {
+   "name": "input",
+   "count": 95
+  }
+ ],
+ "1976": [
+  {
+   "name": "tex",
+   "count": 329
+  },
+  {
+   "name": "inf",
+   "count": 328
+  },
+  {
+   "name": "system",
+   "count": 308
+  },
+  {
+   "name": "sup",
+   "count": 284
+  },
+  {
+   "name": "control",
+   "count": 249
+  },
+  {
+   "name": "model",
+   "count": 216
+  },
+  {
+   "name": "method",
+   "count": 206
+  },
+  {
+   "name": "filter",
+   "count": 200
+  },
+  {
+   "name": "noise",
+   "count": 179
+  },
+  {
+   "name": "matrix",
+   "count": 166
+  },
+  {
+   "name": "algorithm",
+   "count": 155
+  },
+  {
+   "name": "signal",
+   "count": 153
+  },
+  {
+   "name": "problem",
+   "count": 153
+  },
+  {
+   "name": "parameter",
+   "count": 142
+  },
+  {
+   "name": "function",
+   "count": 140
+  },
+  {
+   "name": "equation",
+   "count": 137
+  },
+  {
+   "name": "time",
+   "count": 136
+  },
+  {
+   "name": "design",
+   "count": 136
+  },
+  {
+   "name": "network",
+   "count": 126
+  },
+  {
+   "name": "frequency",
+   "count": 122
+  },
+  {
+   "name": "circuit",
+   "count": 121
+  },
+  {
+   "name": "error",
+   "count": 116
+  },
+  {
+   "name": "process",
+   "count": 115
+  },
+  {
+   "name": "state",
+   "count": 113
+  },
+  {
+   "name": "diode",
+   "count": 112
+  },
+  {
+   "name": "device",
+   "count": 111
+  },
+  {
+   "name": "solution",
+   "count": 106
+  },
+  {
+   "name": "wave",
+   "count": 105
+  },
+  {
+   "name": "output",
+   "count": 104
+  },
+  {
+   "name": "pulse",
+   "count": 103
+  }
+ ],
+ "1977": [
+  {
+   "name": "tex",
+   "count": 358
+  },
+  {
+   "name": "inf",
+   "count": 349
+  },
+  {
+   "name": "system",
+   "count": 337
+  },
+  {
+   "name": "sup",
+   "count": 296
+  },
+  {
+   "name": "control",
+   "count": 275
+  },
+  {
+   "name": "model",
+   "count": 237
+  },
+  {
+   "name": "method",
+   "count": 230
+  },
+  {
+   "name": "filter",
+   "count": 228
+  },
+  {
+   "name": "noise",
+   "count": 187
+  },
+  {
+   "name": "matrix",
+   "count": 187
+  },
+  {
+   "name": "algorithm",
+   "count": 175
+  },
+  {
+   "name": "signal",
+   "count": 169
+  },
+  {
+   "name": "problem",
+   "count": 160
+  },
+  {
+   "name": "parameter",
+   "count": 157
+  },
+  {
+   "name": "design",
+   "count": 154
+  },
+  {
+   "name": "equation",
+   "count": 149
+  },
+  {
+   "name": "function",
+   "count": 147
+  },
+  {
+   "name": "time",
+   "count": 143
+  },
+  {
+   "name": "network",
+   "count": 140
+  },
+  {
+   "name": "circuit",
+   "count": 133
+  },
+  {
+   "name": "frequency",
+   "count": 131
+  },
+  {
+   "name": "error",
+   "count": 129
+  },
+  {
+   "name": "state",
+   "count": 128
+  },
+  {
+   "name": "process",
+   "count": 124
+  },
+  {
+   "name": "solution",
+   "count": 120
+  },
+  {
+   "name": "device",
+   "count": 116
+  },
+  {
+   "name": "diode",
+   "count": 113
+  },
+  {
+   "name": "wave",
+   "count": 112
+  },
+  {
+   "name": "output",
+   "count": 111
+  },
+  {
+   "name": "data",
+   "count": 111
+  }
+ ],
+ "1978": [
+  {
+   "name": "tex",
+   "count": 387
+  },
+  {
+   "name": "system",
+   "count": 375
+  },
+  {
+   "name": "inf",
+   "count": 359
+  },
+  {
+   "name": "sup",
+   "count": 305
+  },
+  {
+   "name": "control",
+   "count": 300
+  },
+  {
+   "name": "model",
+   "count": 261
+  },
+  {
+   "name": "filter",
+   "count": 256
+  },
+  {
+   "name": "method",
+   "count": 247
+  },
+  {
+   "name": "algorithm",
+   "count": 203
+  },
+  {
+   "name": "noise",
+   "count": 199
+  },
+  {
+   "name": "matrix",
+   "count": 199
+  },
+  {
+   "name": "signal",
+   "count": 191
+  },
+  {
+   "name": "problem",
+   "count": 173
+  },
+  {
+   "name": "design",
+   "count": 166
+  },
+  {
+   "name": "parameter",
+   "count": 165
+  },
+  {
+   "name": "function",
+   "count": 159
+  },
+  {
+   "name": "time",
+   "count": 155
+  },
+  {
+   "name": "network",
+   "count": 155
+  },
+  {
+   "name": "equation",
+   "count": 154
+  },
+  {
+   "name": "frequency",
+   "count": 146
+  },
+  {
+   "name": "process",
+   "count": 144
+  },
+  {
+   "name": "circuit",
+   "count": 144
+  },
+  {
+   "name": "state",
+   "count": 137
+  },
+  {
+   "name": "error",
+   "count": 137
+  },
+  {
+   "name": "solution",
+   "count": 132
+  },
+  {
+   "name": "output",
+   "count": 123
+  },
+  {
+   "name": "data",
+   "count": 120
+  },
+  {
+   "name": "device",
+   "count": 119
+  },
+  {
+   "name": "stability",
+   "count": 118
+  },
+  {
+   "name": "input",
+   "count": 116
+  }
+ ],
+ "1979": [
+  {
+   "name": "tex",
+   "count": 426
+  },
+  {
+   "name": "system",
+   "count": 407
+  },
+  {
+   "name": "inf",
+   "count": 382
+  },
+  {
+   "name": "control",
+   "count": 330
+  },
+  {
+   "name": "sup",
+   "count": 324
+  },
+  {
+   "name": "filter",
+   "count": 293
+  },
+  {
+   "name": "model",
+   "count": 289
+  },
+  {
+   "name": "method",
+   "count": 275
+  },
+  {
+   "name": "algorithm",
+   "count": 226
+  },
+  {
+   "name": "noise",
+   "count": 213
+  },
+  {
+   "name": "matrix",
+   "count": 212
+  },
+  {
+   "name": "signal",
+   "count": 208
+  },
+  {
+   "name": "design",
+   "count": 186
+  },
+  {
+   "name": "problem",
+   "count": 182
+  },
+  {
+   "name": "parameter",
+   "count": 174
+  },
+  {
+   "name": "function",
+   "count": 169
+  },
+  {
+   "name": "time",
+   "count": 164
+  },
+  {
+   "name": "network",
+   "count": 164
+  },
+  {
+   "name": "equation",
+   "count": 158
+  },
+  {
+   "name": "circuit",
+   "count": 154
+  },
+  {
+   "name": "error",
+   "count": 152
+  },
+  {
+   "name": "frequency",
+   "count": 152
+  },
+  {
+   "name": "process",
+   "count": 151
+  },
+  {
+   "name": "solution",
+   "count": 146
+  },
+  {
+   "name": "state",
+   "count": 144
+  },
+  {
+   "name": "output",
+   "count": 134
+  },
+  {
+   "name": "technique",
+   "count": 133
+  },
+  {
+   "name": "data",
+   "count": 131
+  },
+  {
+   "name": "stability",
+   "count": 123
+  },
+  {
+   "name": "device",
+   "count": 123
+  }
+ ],
+ "1980": [
+  {
+   "name": "tex",
+   "count": 459
+  },
+  {
+   "name": "system",
+   "count": 440
+  },
+  {
+   "name": "inf",
+   "count": 399
+  },
+  {
+   "name": "control",
+   "count": 348
+  },
+  {
+   "name": "sup",
+   "count": 341
+  },
+  {
+   "name": "model",
+   "count": 317
+  },
+  {
+   "name": "filter",
+   "count": 311
+  },
+  {
+   "name": "method",
+   "count": 295
+  },
+  {
+   "name": "algorithm",
+   "count": 247
+  },
+  {
+   "name": "noise",
+   "count": 232
+  },
+  {
+   "name": "matrix",
+   "count": 231
+  },
+  {
+   "name": "signal",
+   "count": 225
+  },
+  {
+   "name": "design",
+   "count": 210
+  },
+  {
+   "name": "problem",
+   "count": 196
+  },
+  {
+   "name": "function",
+   "count": 186
+  },
+  {
+   "name": "time",
+   "count": 184
+  },
+  {
+   "name": "parameter",
+   "count": 183
+  },
+  {
+   "name": "network",
+   "count": 173
+  },
+  {
+   "name": "equation",
+   "count": 170
+  },
+  {
+   "name": "error",
+   "count": 169
+  },
+  {
+   "name": "circuit",
+   "count": 164
+  },
+  {
+   "name": "process",
+   "count": 162
+  },
+  {
+   "name": "frequency",
+   "count": 162
+  },
+  {
+   "name": "solution",
+   "count": 161
+  },
+  {
+   "name": "state",
+   "count": 155
+  },
+  {
+   "name": "output",
+   "count": 151
+  },
+  {
+   "name": "technique",
+   "count": 151
+  },
+  {
+   "name": "data",
+   "count": 147
+  },
+  {
+   "name": "input",
+   "count": 136
+  },
+  {
+   "name": "phase",
+   "count": 136
+  }
+ ],
+ "1981": [
+  {
+   "name": "tex",
+   "count": 498
+  },
+  {
+   "name": "system",
+   "count": 471
+  },
+  {
+   "name": "inf",
+   "count": 416
+  },
+  {
+   "name": "control",
+   "count": 372
+  },
+  {
+   "name": "sup",
+   "count": 352
+  },
+  {
+   "name": "model",
+   "count": 348
+  },
+  {
+   "name": "filter",
+   "count": 346
+  },
+  {
+   "name": "method",
+   "count": 320
+  },
+  {
+   "name": "algorithm",
+   "count": 275
+  },
+  {
+   "name": "noise",
+   "count": 252
+  },
+  {
+   "name": "signal",
+   "count": 242
+  },
+  {
+   "name": "matrix",
+   "count": 240
+  },
+  {
+   "name": "design",
+   "count": 236
+  },
+  {
+   "name": "problem",
+   "count": 207
+  },
+  {
+   "name": "time",
+   "count": 204
+  },
+  {
+   "name": "function",
+   "count": 200
+  },
+  {
+   "name": "parameter",
+   "count": 192
+  },
+  {
+   "name": "process",
+   "count": 181
+  },
+  {
+   "name": "network",
+   "count": 179
+  },
+  {
+   "name": "equation",
+   "count": 177
+  },
+  {
+   "name": "error",
+   "count": 175
+  },
+  {
+   "name": "frequency",
+   "count": 175
+  },
+  {
+   "name": "circuit",
+   "count": 173
+  },
+  {
+   "name": "solution",
+   "count": 170
+  },
+  {
+   "name": "state",
+   "count": 164
+  },
+  {
+   "name": "technique",
+   "count": 161
+  },
+  {
+   "name": "output",
+   "count": 160
+  },
+  {
+   "name": "data",
+   "count": 160
+  },
+  {
+   "name": "input",
+   "count": 152
+  },
+  {
+   "name": "phase",
+   "count": 150
+  }
+ ],
+ "1982": [
+  {
+   "name": "tex",
+   "count": 542
+  },
+  {
+   "name": "system",
+   "count": 504
+  },
+  {
+   "name": "inf",
+   "count": 434
+  },
+  {
+   "name": "control",
+   "count": 401
+  },
+  {
+   "name": "model",
+   "count": 374
+  },
+  {
+   "name": "filter",
+   "count": 372
+  },
+  {
+   "name": "sup",
+   "count": 367
+  },
+  {
+   "name": "method",
+   "count": 340
+  },
+  {
+   "name": "algorithm",
+   "count": 300
+  },
+  {
+   "name": "signal",
+   "count": 263
+  },
+  {
+   "name": "noise",
+   "count": 259
+  },
+  {
+   "name": "design",
+   "count": 258
+  },
+  {
+   "name": "matrix",
+   "count": 258
+  },
+  {
+   "name": "problem",
+   "count": 226
+  },
+  {
+   "name": "function",
+   "count": 220
+  },
+  {
+   "name": "time",
+   "count": 218
+  },
+  {
+   "name": "parameter",
+   "count": 209
+  },
+  {
+   "name": "process",
+   "count": 195
+  },
+  {
+   "name": "equation",
+   "count": 195
+  },
+  {
+   "name": "error",
+   "count": 188
+  },
+  {
+   "name": "network",
+   "count": 187
+  },
+  {
+   "name": "circuit",
+   "count": 179
+  },
+  {
+   "name": "frequency",
+   "count": 177
+  },
+  {
+   "name": "solution",
+   "count": 177
+  },
+  {
+   "name": "technique",
+   "count": 177
+  },
+  {
+   "name": "data",
+   "count": 175
+  },
+  {
+   "name": "state",
+   "count": 174
+  },
+  {
+   "name": "output",
+   "count": 169
+  },
+  {
+   "name": "input",
+   "count": 167
+  },
+  {
+   "name": "phase",
+   "count": 163
+  }
+ ],
+ "1983": [
+  {
+   "name": "tex",
+   "count": 578
+  },
+  {
+   "name": "system",
+   "count": 546
+  },
+  {
+   "name": "inf",
+   "count": 449
+  },
+  {
+   "name": "control",
+   "count": 415
+  },
+  {
+   "name": "model",
+   "count": 407
+  },
+  {
+   "name": "filter",
+   "count": 404
+  },
+  {
+   "name": "sup",
+   "count": 386
+  },
+  {
+   "name": "method",
+   "count": 369
+  },
+  {
+   "name": "algorithm",
+   "count": 322
+  },
+  {
+   "name": "signal",
+   "count": 278
+  },
+  {
+   "name": "design",
+   "count": 275
+  },
+  {
+   "name": "noise",
+   "count": 273
+  },
+  {
+   "name": "matrix",
+   "count": 268
+  },
+  {
+   "name": "problem",
+   "count": 250
+  },
+  {
+   "name": "function",
+   "count": 237
+  },
+  {
+   "name": "time",
+   "count": 234
+  },
+  {
+   "name": "parameter",
+   "count": 227
+  },
+  {
+   "name": "network",
+   "count": 217
+  },
+  {
+   "name": "error",
+   "count": 210
+  },
+  {
+   "name": "process",
+   "count": 210
+  },
+  {
+   "name": "equation",
+   "count": 210
+  },
+  {
+   "name": "data",
+   "count": 195
+  },
+  {
+   "name": "circuit",
+   "count": 193
+  },
+  {
+   "name": "technique",
+   "count": 193
+  },
+  {
+   "name": "image",
+   "count": 190
+  },
+  {
+   "name": "frequency",
+   "count": 189
+  },
+  {
+   "name": "state",
+   "count": 187
+  },
+  {
+   "name": "solution",
+   "count": 183
+  },
+  {
+   "name": "output",
+   "count": 182
+  },
+  {
+   "name": "input",
+   "count": 177
+  }
+ ],
+ "1984": [
+  {
+   "name": "tex",
+   "count": 626
+  },
+  {
+   "name": "system",
+   "count": 574
+  },
+  {
+   "name": "inf",
+   "count": 470
+  },
+  {
+   "name": "model",
+   "count": 453
+  },
+  {
+   "name": "filter",
+   "count": 443
+  },
+  {
+   "name": "control",
+   "count": 441
+  },
+  {
+   "name": "sup",
+   "count": 410
+  },
+  {
+   "name": "method",
+   "count": 400
+  },
+  {
+   "name": "algorithm",
+   "count": 361
+  },
+  {
+   "name": "design",
+   "count": 302
+  },
+  {
+   "name": "matrix",
+   "count": 298
+  },
+  {
+   "name": "signal",
+   "count": 295
+  },
+  {
+   "name": "noise",
+   "count": 294
+  },
+  {
+   "name": "problem",
+   "count": 272
+  },
+  {
+   "name": "function",
+   "count": 251
+  },
+  {
+   "name": "time",
+   "count": 250
+  },
+  {
+   "name": "parameter",
+   "count": 242
+  },
+  {
+   "name": "network",
+   "count": 239
+  },
+  {
+   "name": "process",
+   "count": 230
+  },
+  {
+   "name": "data",
+   "count": 230
+  },
+  {
+   "name": "error",
+   "count": 223
+  },
+  {
+   "name": "equation",
+   "count": 219
+  },
+  {
+   "name": "image",
+   "count": 218
+  },
+  {
+   "name": "technique",
+   "count": 206
+  },
+  {
+   "name": "frequency",
+   "count": 205
+  },
+  {
+   "name": "state",
+   "count": 200
+  },
+  {
+   "name": "circuit",
+   "count": 196
+  },
+  {
+   "name": "solution",
+   "count": 194
+  },
+  {
+   "name": "output",
+   "count": 192
+  },
+  {
+   "name": "input",
+   "count": 188
+  }
+ ],
+ "1985": [
+  {
+   "name": "tex",
+   "count": 674
+  },
+  {
+   "name": "system",
+   "count": 632
+  },
+  {
+   "name": "model",
+   "count": 492
+  },
+  {
+   "name": "inf",
+   "count": 486
+  },
+  {
+   "name": "filter",
+   "count": 481
+  },
+  {
+   "name": "control",
+   "count": 473
+  },
+  {
+   "name": "sup",
+   "count": 435
+  },
+  {
+   "name": "method",
+   "count": 426
+  },
+  {
+   "name": "algorithm",
+   "count": 413
+  },
+  {
+   "name": "matrix",
+   "count": 325
+  },
+  {
+   "name": "design",
+   "count": 319
+  },
+  {
+   "name": "signal",
+   "count": 318
+  },
+  {
+   "name": "noise",
+   "count": 311
+  },
+  {
+   "name": "problem",
+   "count": 284
+  },
+  {
+   "name": "time",
+   "count": 276
+  },
+  {
+   "name": "function",
+   "count": 271
+  },
+  {
+   "name": "parameter",
+   "count": 256
+  },
+  {
+   "name": "network",
+   "count": 255
+  },
+  {
+   "name": "process",
+   "count": 249
+  },
+  {
+   "name": "data",
+   "count": 246
+  },
+  {
+   "name": "error",
+   "count": 243
+  },
+  {
+   "name": "image",
+   "count": 238
+  },
+  {
+   "name": "equation",
+   "count": 230
+  },
+  {
+   "name": "technique",
+   "count": 222
+  },
+  {
+   "name": "frequency",
+   "count": 216
+  },
+  {
+   "name": "state",
+   "count": 210
+  },
+  {
+   "name": "circuit",
+   "count": 204
+  },
+  {
+   "name": "solution",
+   "count": 204
+  },
+  {
+   "name": "input",
+   "count": 201
+  },
+  {
+   "name": "output",
+   "count": 199
+  }
+ ],
+ "1986": [
+  {
+   "name": "tex",
+   "count": 719
+  },
+  {
+   "name": "system",
+   "count": 679
+  },
+  {
+   "name": "model",
+   "count": 524
+  },
+  {
+   "name": "filter",
+   "count": 517
+  },
+  {
+   "name": "inf",
+   "count": 497
+  },
+  {
+   "name": "control",
+   "count": 492
+  },
+  {
+   "name": "algorithm",
+   "count": 459
+  },
+  {
+   "name": "method",
+   "count": 454
+  },
+  {
+   "name": "sup",
+   "count": 452
+  },
+  {
+   "name": "design",
+   "count": 353
+  },
+  {
+   "name": "matrix",
+   "count": 353
+  },
+  {
+   "name": "signal",
+   "count": 337
+  },
+  {
+   "name": "noise",
+   "count": 334
+  },
+  {
+   "name": "problem",
+   "count": 307
+  },
+  {
+   "name": "time",
+   "count": 297
+  },
+  {
+   "name": "function",
+   "count": 282
+  },
+  {
+   "name": "network",
+   "count": 281
+  },
+  {
+   "name": "parameter",
+   "count": 272
+  },
+  {
+   "name": "data",
+   "count": 268
+  },
+  {
+   "name": "process",
+   "count": 265
+  },
+  {
+   "name": "image",
+   "count": 265
+  },
+  {
+   "name": "error",
+   "count": 261
+  },
+  {
+   "name": "equation",
+   "count": 244
+  },
+  {
+   "name": "technique",
+   "count": 234
+  },
+  {
+   "name": "frequency",
+   "count": 229
+  },
+  {
+   "name": "state",
+   "count": 224
+  },
+  {
+   "name": "solution",
+   "count": 224
+  },
+  {
+   "name": "circuit",
+   "count": 219
+  },
+  {
+   "name": "stability",
+   "count": 210
+  },
+  {
+   "name": "input",
+   "count": 209
+  }
+ ],
+ "1987": [
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "system",
+   "count": 730
+  },
+  {
+   "name": "model",
+   "count": 561
+  },
+  {
+   "name": "filter",
+   "count": 554
+  },
+  {
+   "name": "control",
+   "count": 524
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "algorithm",
+   "count": 504
+  },
+  {
+   "name": "method",
+   "count": 486
+  },
+  {
+   "name": "sup",
+   "count": 471
+  },
+  {
+   "name": "matrix",
+   "count": 380
+  },
+  {
+   "name": "design",
+   "count": 377
+  },
+  {
+   "name": "signal",
+   "count": 370
+  },
+  {
+   "name": "noise",
+   "count": 349
+  },
+  {
+   "name": "problem",
+   "count": 324
+  },
+  {
+   "name": "time",
+   "count": 312
+  },
+  {
+   "name": "network",
+   "count": 311
+  },
+  {
+   "name": "function",
+   "count": 302
+  },
+  {
+   "name": "image",
+   "count": 297
+  },
+  {
+   "name": "parameter",
+   "count": 294
+  },
+  {
+   "name": "data",
+   "count": 291
+  },
+  {
+   "name": "error",
+   "count": 279
+  },
+  {
+   "name": "process",
+   "count": 277
+  },
+  {
+   "name": "equation",
+   "count": 255
+  },
+  {
+   "name": "technique",
+   "count": 252
+  },
+  {
+   "name": "frequency",
+   "count": 246
+  },
+  {
+   "name": "state",
+   "count": 237
+  },
+  {
+   "name": "solution",
+   "count": 231
+  },
+  {
+   "name": "circuit",
+   "count": 225
+  },
+  {
+   "name": "adaptive",
+   "count": 223
+  },
+  {
+   "name": "phase",
+   "count": 221
+  }
+ ],
+ "1988": [
+  {
+   "name": "system",
+   "count": 782
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "model",
+   "count": 615
+  },
+  {
+   "name": "filter",
+   "count": 578
+  },
+  {
+   "name": "control",
+   "count": 560
+  },
+  {
+   "name": "algorithm",
+   "count": 552
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "method",
+   "count": 513
+  },
+  {
+   "name": "sup",
+   "count": 486
+  },
+  {
+   "name": "design",
+   "count": 401
+  },
+  {
+   "name": "matrix",
+   "count": 398
+  },
+  {
+   "name": "signal",
+   "count": 391
+  },
+  {
+   "name": "noise",
+   "count": 363
+  },
+  {
+   "name": "network",
+   "count": 346
+  },
+  {
+   "name": "problem",
+   "count": 338
+  },
+  {
+   "name": "time",
+   "count": 335
+  },
+  {
+   "name": "function",
+   "count": 327
+  },
+  {
+   "name": "image",
+   "count": 325
+  },
+  {
+   "name": "data",
+   "count": 312
+  },
+  {
+   "name": "parameter",
+   "count": 309
+  },
+  {
+   "name": "error",
+   "count": 298
+  },
+  {
+   "name": "process",
+   "count": 298
+  },
+  {
+   "name": "technique",
+   "count": 271
+  },
+  {
+   "name": "equation",
+   "count": 266
+  },
+  {
+   "name": "frequency",
+   "count": 261
+  },
+  {
+   "name": "state",
+   "count": 246
+  },
+  {
+   "name": "adaptive",
+   "count": 239
+  },
+  {
+   "name": "phase",
+   "count": 237
+  },
+  {
+   "name": "stability",
+   "count": 236
+  },
+  {
+   "name": "circuit",
+   "count": 236
+  }
+ ],
+ "1989": [
+  {
+   "name": "system",
+   "count": 824
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "model",
+   "count": 666
+  },
+  {
+   "name": "filter",
+   "count": 630
+  },
+  {
+   "name": "algorithm",
+   "count": 611
+  },
+  {
+   "name": "control",
+   "count": 592
+  },
+  {
+   "name": "method",
+   "count": 560
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "sup",
+   "count": 505
+  },
+  {
+   "name": "design",
+   "count": 424
+  },
+  {
+   "name": "matrix",
+   "count": 419
+  },
+  {
+   "name": "signal",
+   "count": 408
+  },
+  {
+   "name": "network",
+   "count": 386
+  },
+  {
+   "name": "noise",
+   "count": 379
+  },
+  {
+   "name": "time",
+   "count": 358
+  },
+  {
+   "name": "problem",
+   "count": 356
+  },
+  {
+   "name": "image",
+   "count": 355
+  },
+  {
+   "name": "function",
+   "count": 344
+  },
+  {
+   "name": "data",
+   "count": 331
+  },
+  {
+   "name": "parameter",
+   "count": 328
+  },
+  {
+   "name": "error",
+   "count": 318
+  },
+  {
+   "name": "process",
+   "count": 316
+  },
+  {
+   "name": "technique",
+   "count": 285
+  },
+  {
+   "name": "equation",
+   "count": 284
+  },
+  {
+   "name": "frequency",
+   "count": 281
+  },
+  {
+   "name": "adaptive",
+   "count": 271
+  },
+  {
+   "name": "state",
+   "count": 262
+  },
+  {
+   "name": "solution",
+   "count": 251
+  },
+  {
+   "name": "phase",
+   "count": 250
+  },
+  {
+   "name": "stability",
+   "count": 249
+  }
+ ],
+ "1990": [
+  {
+   "name": "system",
+   "count": 880
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "model",
+   "count": 719
+  },
+  {
+   "name": "filter",
+   "count": 675
+  },
+  {
+   "name": "algorithm",
+   "count": 663
+  },
+  {
+   "name": "control",
+   "count": 633
+  },
+  {
+   "name": "method",
+   "count": 602
+  },
+  {
+   "name": "sup",
+   "count": 522
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "network",
+   "count": 454
+  },
+  {
+   "name": "design",
+   "count": 452
+  },
+  {
+   "name": "matrix",
+   "count": 437
+  },
+  {
+   "name": "signal",
+   "count": 435
+  },
+  {
+   "name": "noise",
+   "count": 400
+  },
+  {
+   "name": "problem",
+   "count": 388
+  },
+  {
+   "name": "time",
+   "count": 386
+  },
+  {
+   "name": "image",
+   "count": 384
+  },
+  {
+   "name": "function",
+   "count": 370
+  },
+  {
+   "name": "parameter",
+   "count": 353
+  },
+  {
+   "name": "data",
+   "count": 352
+  },
+  {
+   "name": "process",
+   "count": 338
+  },
+  {
+   "name": "error",
+   "count": 335
+  },
+  {
+   "name": "equation",
+   "count": 301
+  },
+  {
+   "name": "frequency",
+   "count": 299
+  },
+  {
+   "name": "technique",
+   "count": 298
+  },
+  {
+   "name": "adaptive",
+   "count": 293
+  },
+  {
+   "name": "state",
+   "count": 276
+  },
+  {
+   "name": "solution",
+   "count": 272
+  },
+  {
+   "name": "phase",
+   "count": 263
+  },
+  {
+   "name": "stability",
+   "count": 261
+  }
+ ],
+ "1991": [
+  {
+   "name": "system",
+   "count": 923
+  },
+  {
+   "name": "model",
+   "count": 781
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "filter",
+   "count": 723
+  },
+  {
+   "name": "algorithm",
+   "count": 711
+  },
+  {
+   "name": "control",
+   "count": 676
+  },
+  {
+   "name": "method",
+   "count": 662
+  },
+  {
+   "name": "sup",
+   "count": 534
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "design",
+   "count": 503
+  },
+  {
+   "name": "network",
+   "count": 502
+  },
+  {
+   "name": "signal",
+   "count": 468
+  },
+  {
+   "name": "matrix",
+   "count": 453
+  },
+  {
+   "name": "problem",
+   "count": 422
+  },
+  {
+   "name": "noise",
+   "count": 421
+  },
+  {
+   "name": "image",
+   "count": 421
+  },
+  {
+   "name": "time",
+   "count": 417
+  },
+  {
+   "name": "function",
+   "count": 387
+  },
+  {
+   "name": "parameter",
+   "count": 372
+  },
+  {
+   "name": "data",
+   "count": 372
+  },
+  {
+   "name": "process",
+   "count": 355
+  },
+  {
+   "name": "error",
+   "count": 352
+  },
+  {
+   "name": "frequency",
+   "count": 325
+  },
+  {
+   "name": "technique",
+   "count": 323
+  },
+  {
+   "name": "adaptive",
+   "count": 321
+  },
+  {
+   "name": "equation",
+   "count": 310
+  },
+  {
+   "name": "solution",
+   "count": 296
+  },
+  {
+   "name": "state",
+   "count": 288
+  },
+  {
+   "name": "controller",
+   "count": 278
+  },
+  {
+   "name": "phase",
+   "count": 278
+  }
+ ],
+ "1992": [
+  {
+   "name": "system",
+   "count": 990
+  },
+  {
+   "name": "model",
+   "count": 820
+  },
+  {
+   "name": "filter",
+   "count": 780
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "algorithm",
+   "count": 768
+  },
+  {
+   "name": "control",
+   "count": 724
+  },
+  {
+   "name": "method",
+   "count": 696
+  },
+  {
+   "name": "network",
+   "count": 559
+  },
+  {
+   "name": "sup",
+   "count": 555
+  },
+  {
+   "name": "design",
+   "count": 530
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "signal",
+   "count": 499
+  },
+  {
+   "name": "matrix",
+   "count": 490
+  },
+  {
+   "name": "image",
+   "count": 459
+  },
+  {
+   "name": "time",
+   "count": 454
+  },
+  {
+   "name": "noise",
+   "count": 448
+  },
+  {
+   "name": "problem",
+   "count": 448
+  },
+  {
+   "name": "function",
+   "count": 404
+  },
+  {
+   "name": "parameter",
+   "count": 400
+  },
+  {
+   "name": "data",
+   "count": 399
+  },
+  {
+   "name": "error",
+   "count": 395
+  },
+  {
+   "name": "process",
+   "count": 375
+  },
+  {
+   "name": "adaptive",
+   "count": 357
+  },
+  {
+   "name": "frequency",
+   "count": 347
+  },
+  {
+   "name": "technique",
+   "count": 344
+  },
+  {
+   "name": "equation",
+   "count": 323
+  },
+  {
+   "name": "solution",
+   "count": 310
+  },
+  {
+   "name": "controller",
+   "count": 307
+  },
+  {
+   "name": "state",
+   "count": 307
+  },
+  {
+   "name": "stability",
+   "count": 302
+  }
+ ],
+ "1993": [
+  {
+   "name": "system",
+   "count": 1044
+  },
+  {
+   "name": "model",
+   "count": 877
+  },
+  {
+   "name": "algorithm",
+   "count": 841
+  },
+  {
+   "name": "filter",
+   "count": 833
+  },
+  {
+   "name": "control",
+   "count": 779
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "method",
+   "count": 732
+  },
+  {
+   "name": "network",
+   "count": 624
+  },
+  {
+   "name": "sup",
+   "count": 570
+  },
+  {
+   "name": "design",
+   "count": 566
+  },
+  {
+   "name": "signal",
+   "count": 540
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "matrix",
+   "count": 516
+  },
+  {
+   "name": "image",
+   "count": 491
+  },
+  {
+   "name": "time",
+   "count": 482
+  },
+  {
+   "name": "problem",
+   "count": 479
+  },
+  {
+   "name": "noise",
+   "count": 467
+  },
+  {
+   "name": "data",
+   "count": 427
+  },
+  {
+   "name": "parameter",
+   "count": 424
+  },
+  {
+   "name": "error",
+   "count": 421
+  },
+  {
+   "name": "function",
+   "count": 420
+  },
+  {
+   "name": "process",
+   "count": 395
+  },
+  {
+   "name": "adaptive",
+   "count": 390
+  },
+  {
+   "name": "frequency",
+   "count": 373
+  },
+  {
+   "name": "technique",
+   "count": 362
+  },
+  {
+   "name": "controller",
+   "count": 336
+  },
+  {
+   "name": "equation",
+   "count": 332
+  },
+  {
+   "name": "solution",
+   "count": 327
+  },
+  {
+   "name": "phase",
+   "count": 325
+  },
+  {
+   "name": "stability",
+   "count": 319
+  }
+ ],
+ "1994": [
+  {
+   "name": "system",
+   "count": 1111
+  },
+  {
+   "name": "model",
+   "count": 967
+  },
+  {
+   "name": "algorithm",
+   "count": 913
+  },
+  {
+   "name": "filter",
+   "count": 909
+  },
+  {
+   "name": "control",
+   "count": 834
+  },
+  {
+   "name": "method",
+   "count": 775
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "network",
+   "count": 701
+  },
+  {
+   "name": "design",
+   "count": 612
+  },
+  {
+   "name": "sup",
+   "count": 594
+  },
+  {
+   "name": "signal",
+   "count": 574
+  },
+  {
+   "name": "matrix",
+   "count": 540
+  },
+  {
+   "name": "image",
+   "count": 525
+  },
+  {
+   "name": "time",
+   "count": 521
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "problem",
+   "count": 504
+  },
+  {
+   "name": "noise",
+   "count": 489
+  },
+  {
+   "name": "data",
+   "count": 460
+  },
+  {
+   "name": "error",
+   "count": 455
+  },
+  {
+   "name": "parameter",
+   "count": 450
+  },
+  {
+   "name": "function",
+   "count": 441
+  },
+  {
+   "name": "adaptive",
+   "count": 440
+  },
+  {
+   "name": "process",
+   "count": 421
+  },
+  {
+   "name": "frequency",
+   "count": 403
+  },
+  {
+   "name": "technique",
+   "count": 376
+  },
+  {
+   "name": "controller",
+   "count": 370
+  },
+  {
+   "name": "solution",
+   "count": 355
+  },
+  {
+   "name": "equation",
+   "count": 350
+  },
+  {
+   "name": "phase",
+   "count": 345
+  },
+  {
+   "name": "stability",
+   "count": 339
+  }
+ ],
+ "1995": [
+  {
+   "name": "system",
+   "count": 1171
+  },
+  {
+   "name": "model",
+   "count": 1040
+  },
+  {
+   "name": "filter",
+   "count": 988
+  },
+  {
+   "name": "algorithm",
+   "count": 983
+  },
+  {
+   "name": "control",
+   "count": 888
+  },
+  {
+   "name": "method",
+   "count": 827
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "network",
+   "count": 768
+  },
+  {
+   "name": "design",
+   "count": 666
+  },
+  {
+   "name": "signal",
+   "count": 609
+  },
+  {
+   "name": "sup",
+   "count": 606
+  },
+  {
+   "name": "matrix",
+   "count": 571
+  },
+  {
+   "name": "image",
+   "count": 571
+  },
+  {
+   "name": "time",
+   "count": 553
+  },
+  {
+   "name": "problem",
+   "count": 526
+  },
+  {
+   "name": "noise",
+   "count": 523
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "data",
+   "count": 502
+  },
+  {
+   "name": "parameter",
+   "count": 480
+  },
+  {
+   "name": "adaptive",
+   "count": 479
+  },
+  {
+   "name": "error",
+   "count": 479
+  },
+  {
+   "name": "function",
+   "count": 466
+  },
+  {
+   "name": "process",
+   "count": 441
+  },
+  {
+   "name": "frequency",
+   "count": 438
+  },
+  {
+   "name": "technique",
+   "count": 401
+  },
+  {
+   "name": "controller",
+   "count": 393
+  },
+  {
+   "name": "solution",
+   "count": 384
+  },
+  {
+   "name": "phase",
+   "count": 373
+  },
+  {
+   "name": "optimal",
+   "count": 367
+  },
+  {
+   "name": "stability",
+   "count": 363
+  }
+ ],
+ "1996": [
+  {
+   "name": "system",
+   "count": 1235
+  },
+  {
+   "name": "model",
+   "count": 1105
+  },
+  {
+   "name": "filter",
+   "count": 1061
+  },
+  {
+   "name": "algorithm",
+   "count": 1043
+  },
+  {
+   "name": "control",
+   "count": 943
+  },
+  {
+   "name": "method",
+   "count": 871
+  },
+  {
+   "name": "network",
+   "count": 830
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "design",
+   "count": 715
+  },
+  {
+   "name": "signal",
+   "count": 644
+  },
+  {
+   "name": "sup",
+   "count": 616
+  },
+  {
+   "name": "image",
+   "count": 614
+  },
+  {
+   "name": "matrix",
+   "count": 597
+  },
+  {
+   "name": "time",
+   "count": 584
+  },
+  {
+   "name": "problem",
+   "count": 562
+  },
+  {
+   "name": "data",
+   "count": 552
+  },
+  {
+   "name": "noise",
+   "count": 543
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "adaptive",
+   "count": 513
+  },
+  {
+   "name": "parameter",
+   "count": 511
+  },
+  {
+   "name": "error",
+   "count": 500
+  },
+  {
+   "name": "function",
+   "count": 485
+  },
+  {
+   "name": "frequency",
+   "count": 459
+  },
+  {
+   "name": "process",
+   "count": 455
+  },
+  {
+   "name": "technique",
+   "count": 421
+  },
+  {
+   "name": "controller",
+   "count": 418
+  },
+  {
+   "name": "solution",
+   "count": 408
+  },
+  {
+   "name": "phase",
+   "count": 406
+  },
+  {
+   "name": "stability",
+   "count": 382
+  },
+  {
+   "name": "optimal",
+   "count": 382
+  }
+ ],
+ "1997": [
+  {
+   "name": "system",
+   "count": 1308
+  },
+  {
+   "name": "model",
+   "count": 1193
+  },
+  {
+   "name": "algorithm",
+   "count": 1136
+  },
+  {
+   "name": "filter",
+   "count": 1128
+  },
+  {
+   "name": "control",
+   "count": 992
+  },
+  {
+   "name": "method",
+   "count": 925
+  },
+  {
+   "name": "network",
+   "count": 916
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "design",
+   "count": 752
+  },
+  {
+   "name": "signal",
+   "count": 676
+  },
+  {
+   "name": "image",
+   "count": 651
+  },
+  {
+   "name": "sup",
+   "count": 625
+  },
+  {
+   "name": "matrix",
+   "count": 621
+  },
+  {
+   "name": "time",
+   "count": 616
+  },
+  {
+   "name": "problem",
+   "count": 607
+  },
+  {
+   "name": "data",
+   "count": 583
+  },
+  {
+   "name": "noise",
+   "count": 573
+  },
+  {
+   "name": "parameter",
+   "count": 539
+  },
+  {
+   "name": "adaptive",
+   "count": 537
+  },
+  {
+   "name": "error",
+   "count": 527
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "function",
+   "count": 512
+  },
+  {
+   "name": "frequency",
+   "count": 493
+  },
+  {
+   "name": "process",
+   "count": 466
+  },
+  {
+   "name": "controller",
+   "count": 454
+  },
+  {
+   "name": "technique",
+   "count": 439
+  },
+  {
+   "name": "solution",
+   "count": 434
+  },
+  {
+   "name": "phase",
+   "count": 427
+  },
+  {
+   "name": "optimal",
+   "count": 404
+  },
+  {
+   "name": "state",
+   "count": 403
+  }
+ ],
+ "1998": [
+  {
+   "name": "system",
+   "count": 1385
+  },
+  {
+   "name": "model",
+   "count": 1291
+  },
+  {
+   "name": "algorithm",
+   "count": 1221
+  },
+  {
+   "name": "filter",
+   "count": 1200
+  },
+  {
+   "name": "control",
+   "count": 1063
+  },
+  {
+   "name": "network",
+   "count": 994
+  },
+  {
+   "name": "method",
+   "count": 978
+  },
+  {
+   "name": "design",
+   "count": 795
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "signal",
+   "count": 710
+  },
+  {
+   "name": "image",
+   "count": 698
+  },
+  {
+   "name": "time",
+   "count": 661
+  },
+  {
+   "name": "sup",
+   "count": 642
+  },
+  {
+   "name": "matrix",
+   "count": 642
+  },
+  {
+   "name": "problem",
+   "count": 637
+  },
+  {
+   "name": "data",
+   "count": 633
+  },
+  {
+   "name": "noise",
+   "count": 606
+  },
+  {
+   "name": "adaptive",
+   "count": 575
+  },
+  {
+   "name": "parameter",
+   "count": 571
+  },
+  {
+   "name": "error",
+   "count": 557
+  },
+  {
+   "name": "function",
+   "count": 544
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "frequency",
+   "count": 515
+  },
+  {
+   "name": "process",
+   "count": 495
+  },
+  {
+   "name": "controller",
+   "count": 493
+  },
+  {
+   "name": "solution",
+   "count": 464
+  },
+  {
+   "name": "technique",
+   "count": 458
+  },
+  {
+   "name": "phase",
+   "count": 450
+  },
+  {
+   "name": "fuzzy",
+   "count": 444
+  },
+  {
+   "name": "optimal",
+   "count": 435
+  }
+ ],
+ "1999": [
+  {
+   "name": "system",
+   "count": 1456
+  },
+  {
+   "name": "model",
+   "count": 1402
+  },
+  {
+   "name": "algorithm",
+   "count": 1315
+  },
+  {
+   "name": "filter",
+   "count": 1291
+  },
+  {
+   "name": "control",
+   "count": 1118
+  },
+  {
+   "name": "network",
+   "count": 1078
+  },
+  {
+   "name": "method",
+   "count": 1044
+  },
+  {
+   "name": "design",
+   "count": 837
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "signal",
+   "count": 751
+  },
+  {
+   "name": "image",
+   "count": 750
+  },
+  {
+   "name": "time",
+   "count": 695
+  },
+  {
+   "name": "problem",
+   "count": 676
+  },
+  {
+   "name": "data",
+   "count": 673
+  },
+  {
+   "name": "matrix",
+   "count": 668
+  },
+  {
+   "name": "sup",
+   "count": 663
+  },
+  {
+   "name": "noise",
+   "count": 640
+  },
+  {
+   "name": "adaptive",
+   "count": 622
+  },
+  {
+   "name": "parameter",
+   "count": 609
+  },
+  {
+   "name": "error",
+   "count": 590
+  },
+  {
+   "name": "function",
+   "count": 574
+  },
+  {
+   "name": "controller",
+   "count": 540
+  },
+  {
+   "name": "frequency",
+   "count": 540
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "process",
+   "count": 508
+  },
+  {
+   "name": "fuzzy",
+   "count": 504
+  },
+  {
+   "name": "technique",
+   "count": 488
+  },
+  {
+   "name": "phase",
+   "count": 486
+  },
+  {
+   "name": "solution",
+   "count": 483
+  },
+  {
+   "name": "sub",
+   "count": 464
+  }
+ ],
+ "2000": [
+  {
+   "name": "system",
+   "count": 1547
+  },
+  {
+   "name": "model",
+   "count": 1488
+  },
+  {
+   "name": "algorithm",
+   "count": 1392
+  },
+  {
+   "name": "filter",
+   "count": 1361
+  },
+  {
+   "name": "control",
+   "count": 1188
+  },
+  {
+   "name": "network",
+   "count": 1168
+  },
+  {
+   "name": "method",
+   "count": 1096
+  },
+  {
+   "name": "design",
+   "count": 891
+  },
+  {
+   "name": "image",
+   "count": 801
+  },
+  {
+   "name": "signal",
+   "count": 785
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "time",
+   "count": 726
+  },
+  {
+   "name": "data",
+   "count": 722
+  },
+  {
+   "name": "problem",
+   "count": 721
+  },
+  {
+   "name": "matrix",
+   "count": 689
+  },
+  {
+   "name": "sup",
+   "count": 684
+  },
+  {
+   "name": "adaptive",
+   "count": 677
+  },
+  {
+   "name": "noise",
+   "count": 673
+  },
+  {
+   "name": "parameter",
+   "count": 640
+  },
+  {
+   "name": "error",
+   "count": 633
+  },
+  {
+   "name": "function",
+   "count": 605
+  },
+  {
+   "name": "controller",
+   "count": 595
+  },
+  {
+   "name": "frequency",
+   "count": 569
+  },
+  {
+   "name": "fuzzy",
+   "count": 551
+  },
+  {
+   "name": "process",
+   "count": 533
+  },
+  {
+   "name": "phase",
+   "count": 520
+  },
+  {
+   "name": "sub",
+   "count": 519
+  },
+  {
+   "name": "inf",
+   "count": 516
+  },
+  {
+   "name": "technique",
+   "count": 508
+  },
+  {
+   "name": "object",
+   "count": 506
+  }
+ ],
+ "2001": [
+  {
+   "name": "system",
+   "count": 1614
+  },
+  {
+   "name": "model",
+   "count": 1559
+  },
+  {
+   "name": "algorithm",
+   "count": 1465
+  },
+  {
+   "name": "filter",
+   "count": 1422
+  },
+  {
+   "name": "control",
+   "count": 1263
+  },
+  {
+   "name": "network",
+   "count": 1235
+  },
+  {
+   "name": "method",
+   "count": 1136
+  },
+  {
+   "name": "design",
+   "count": 935
+  },
+  {
+   "name": "image",
+   "count": 837
+  },
+  {
+   "name": "signal",
+   "count": 835
+  },
+  {
+   "name": "data",
+   "count": 774
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "problem",
+   "count": 747
+  },
+  {
+   "name": "time",
+   "count": 747
+  },
+  {
+   "name": "adaptive",
+   "count": 719
+  },
+  {
+   "name": "matrix",
+   "count": 718
+  },
+  {
+   "name": "sup",
+   "count": 705
+  },
+  {
+   "name": "noise",
+   "count": 700
+  },
+  {
+   "name": "parameter",
+   "count": 666
+  },
+  {
+   "name": "error",
+   "count": 665
+  },
+  {
+   "name": "controller",
+   "count": 649
+  },
+  {
+   "name": "function",
+   "count": 624
+  },
+  {
+   "name": "fuzzy",
+   "count": 613
+  },
+  {
+   "name": "frequency",
+   "count": 608
+  },
+  {
+   "name": "sub",
+   "count": 552
+  },
+  {
+   "name": "process",
+   "count": 549
+  },
+  {
+   "name": "object",
+   "count": 543
+  },
+  {
+   "name": "phase",
+   "count": 539
+  },
+  {
+   "name": "scheme",
+   "count": 534
+  },
+  {
+   "name": "technique",
+   "count": 531
+  }
+ ],
+ "2002": [
+  {
+   "name": "system",
+   "count": 1697
+  },
+  {
+   "name": "model",
+   "count": 1632
+  },
+  {
+   "name": "algorithm",
+   "count": 1529
+  },
+  {
+   "name": "filter",
+   "count": 1475
+  },
+  {
+   "name": "network",
+   "count": 1318
+  },
+  {
+   "name": "control",
+   "count": 1309
+  },
+  {
+   "name": "method",
+   "count": 1169
+  },
+  {
+   "name": "design",
+   "count": 976
+  },
+  {
+   "name": "image",
+   "count": 901
+  },
+  {
+   "name": "signal",
+   "count": 866
+  },
+  {
+   "name": "data",
+   "count": 822
+  },
+  {
+   "name": "time",
+   "count": 783
+  },
+  {
+   "name": "problem",
+   "count": 779
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "adaptive",
+   "count": 756
+  },
+  {
+   "name": "matrix",
+   "count": 738
+  },
+  {
+   "name": "noise",
+   "count": 731
+  },
+  {
+   "name": "sup",
+   "count": 717
+  },
+  {
+   "name": "parameter",
+   "count": 698
+  },
+  {
+   "name": "controller",
+   "count": 697
+  },
+  {
+   "name": "error",
+   "count": 690
+  },
+  {
+   "name": "fuzzy",
+   "count": 660
+  },
+  {
+   "name": "function",
+   "count": 650
+  },
+  {
+   "name": "frequency",
+   "count": 639
+  },
+  {
+   "name": "sub",
+   "count": 588
+  },
+  {
+   "name": "scheme",
+   "count": 578
+  },
+  {
+   "name": "object",
+   "count": 573
+  },
+  {
+   "name": "process",
+   "count": 561
+  },
+  {
+   "name": "phase",
+   "count": 559
+  },
+  {
+   "name": "technique",
+   "count": 555
+  }
+ ],
+ "2003": [
+  {
+   "name": "system",
+   "count": 1776
+  },
+  {
+   "name": "model",
+   "count": 1717
+  },
+  {
+   "name": "algorithm",
+   "count": 1606
+  },
+  {
+   "name": "filter",
+   "count": 1532
+  },
+  {
+   "name": "network",
+   "count": 1406
+  },
+  {
+   "name": "control",
+   "count": 1396
+  },
+  {
+   "name": "method",
+   "count": 1211
+  },
+  {
+   "name": "design",
+   "count": 1008
+  },
+  {
+   "name": "image",
+   "count": 971
+  },
+  {
+   "name": "signal",
+   "count": 904
+  },
+  {
+   "name": "data",
+   "count": 864
+  },
+  {
+   "name": "time",
+   "count": 807
+  },
+  {
+   "name": "problem",
+   "count": 803
+  },
+  {
+   "name": "adaptive",
+   "count": 791
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "matrix",
+   "count": 759
+  },
+  {
+   "name": "noise",
+   "count": 756
+  },
+  {
+   "name": "sup",
+   "count": 732
+  },
+  {
+   "name": "controller",
+   "count": 729
+  },
+  {
+   "name": "parameter",
+   "count": 728
+  },
+  {
+   "name": "error",
+   "count": 714
+  },
+  {
+   "name": "fuzzy",
+   "count": 704
+  },
+  {
+   "name": "function",
+   "count": 669
+  },
+  {
+   "name": "frequency",
+   "count": 665
+  },
+  {
+   "name": "sub",
+   "count": 629
+  },
+  {
+   "name": "object",
+   "count": 611
+  },
+  {
+   "name": "scheme",
+   "count": 610
+  },
+  {
+   "name": "channel",
+   "count": 592
+  },
+  {
+   "name": "phase",
+   "count": 587
+  },
+  {
+   "name": "power",
+   "count": 581
+  }
+ ],
+ "2004": [
+  {
+   "name": "system",
+   "count": 1862
+  },
+  {
+   "name": "model",
+   "count": 1811
+  },
+  {
+   "name": "algorithm",
+   "count": 1695
+  },
+  {
+   "name": "filter",
+   "count": 1584
+  },
+  {
+   "name": "network",
+   "count": 1496
+  },
+  {
+   "name": "control",
+   "count": 1483
+  },
+  {
+   "name": "method",
+   "count": 1281
+  },
+  {
+   "name": "design",
+   "count": 1041
+  },
+  {
+   "name": "image",
+   "count": 1038
+  },
+  {
+   "name": "signal",
+   "count": 948
+  },
+  {
+   "name": "data",
+   "count": 922
+  },
+  {
+   "name": "time",
+   "count": 847
+  },
+  {
+   "name": "problem",
+   "count": 837
+  },
+  {
+   "name": "adaptive",
+   "count": 827
+  },
+  {
+   "name": "matrix",
+   "count": 789
+  },
+  {
+   "name": "noise",
+   "count": 782
+  },
+  {
+   "name": "controller",
+   "count": 780
+  },
+  {
+   "name": "tex",
+   "count": 768
+  },
+  {
+   "name": "parameter",
+   "count": 755
+  },
+  {
+   "name": "fuzzy",
+   "count": 755
+  },
+  {
+   "name": "sup",
+   "count": 754
+  },
+  {
+   "name": "error",
+   "count": 741
+  },
+  {
+   "name": "function",
+   "count": 701
+  },
+  {
+   "name": "frequency",
+   "count": 691
+  },
+  {
+   "name": "sub",
+   "count": 677
+  },
+  {
+   "name": "scheme",
+   "count": 655
+  },
+  {
+   "name": "channel",
+   "count": 650
+  },
+  {
+   "name": "object",
+   "count": 649
+  },
+  {
+   "name": "power",
+   "count": 626
+  },
+  {
+   "name": "phase",
+   "count": 622
+  }
+ ],
+ "2005": [
+  {
+   "name": "system",
+   "count": 1950
+  },
+  {
+   "name": "model",
+   "count": 1911
+  },
+  {
+   "name": "algorithm",
+   "count": 1767
+  },
+  {
+   "name": "filter",
+   "count": 1634
+  },
+  {
+   "name": "network",
+   "count": 1580
+  },
+  {
+   "name": "control",
+   "count": 1569
+  },
+  {
+   "name": "method",
+   "count": 1335
+  },
+  {
+   "name": "image",
+   "count": 1120
+  },
+  {
+   "name": "design",
+   "count": 1087
+  },
+  {
+   "name": "data",
+   "count": 985
+  },
+  {
+   "name": "signal",
+   "count": 979
+  },
+  {
+   "name": "time",
+   "count": 891
+  },
+  {
+   "name": "problem",
+   "count": 878
+  },
+  {
+   "name": "adaptive",
+   "count": 860
+  },
+  {
+   "name": "matrix",
+   "count": 818
+  },
+  {
+   "name": "controller",
+   "count": 814
+  },
+  {
+   "name": "noise",
+   "count": 807
+  },
+  {
+   "name": "fuzzy",
+   "count": 806
+  },
+  {
+   "name": "parameter",
+   "count": 784
+  },
+  {
+   "name": "error",
+   "count": 780
+  },
+  {
+   "name": "sup",
+   "count": 770
+  },
+  {
+   "name": "tex",
+   "count": 769
+  },
+  {
+   "name": "function",
+   "count": 727
+  },
+  {
+   "name": "frequency",
+   "count": 726
+  },
+  {
+   "name": "channel",
+   "count": 720
+  },
+  {
+   "name": "sub",
+   "count": 716
+  },
+  {
+   "name": "scheme",
+   "count": 706
+  },
+  {
+   "name": "object",
+   "count": 694
+  },
+  {
+   "name": "power",
+   "count": 662
+  },
+  {
+   "name": "phase",
+   "count": 657
+  }
+ ],
+ "2006": [
+  {
+   "name": "system",
+   "count": 2026
+  },
+  {
+   "name": "model",
+   "count": 2020
+  },
+  {
+   "name": "algorithm",
+   "count": 1841
+  },
+  {
+   "name": "filter",
+   "count": 1702
+  },
+  {
+   "name": "network",
+   "count": 1687
+  },
+  {
+   "name": "control",
+   "count": 1643
+  },
+  {
+   "name": "method",
+   "count": 1383
+  },
+  {
+   "name": "image",
+   "count": 1200
+  },
+  {
+   "name": "design",
+   "count": 1136
+  },
+  {
+   "name": "data",
+   "count": 1054
+  },
+  {
+   "name": "signal",
+   "count": 1025
+  },
+  {
+   "name": "time",
+   "count": 931
+  },
+  {
+   "name": "problem",
+   "count": 920
+  },
+  {
+   "name": "adaptive",
+   "count": 900
+  },
+  {
+   "name": "fuzzy",
+   "count": 863
+  },
+  {
+   "name": "matrix",
+   "count": 860
+  },
+  {
+   "name": "noise",
+   "count": 848
+  },
+  {
+   "name": "controller",
+   "count": 835
+  },
+  {
+   "name": "error",
+   "count": 818
+  },
+  {
+   "name": "channel",
+   "count": 816
+  },
+  {
+   "name": "sup",
+   "count": 809
+  },
+  {
+   "name": "parameter",
+   "count": 806
+  },
+  {
+   "name": "tex",
+   "count": 798
+  },
+  {
+   "name": "sub",
+   "count": 794
+  },
+  {
+   "name": "function",
+   "count": 768
+  },
+  {
+   "name": "frequency",
+   "count": 766
+  },
+  {
+   "name": "scheme",
+   "count": 758
+  },
+  {
+   "name": "object",
+   "count": 735
+  },
+  {
+   "name": "power",
+   "count": 730
+  },
+  {
+   "name": "phase",
+   "count": 685
+  }
+ ],
+ "2007": [
+  {
+   "name": "system",
+   "count": 2134
+  },
+  {
+   "name": "model",
+   "count": 2111
+  },
+  {
+   "name": "algorithm",
+   "count": 1967
+  },
+  {
+   "name": "network",
+   "count": 1797
+  },
+  {
+   "name": "filter",
+   "count": 1780
+  },
+  {
+   "name": "control",
+   "count": 1726
+  },
+  {
+   "name": "method",
+   "count": 1452
+  },
+  {
+   "name": "image",
+   "count": 1280
+  },
+  {
+   "name": "design",
+   "count": 1187
+  },
+  {
+   "name": "data",
+   "count": 1111
+  },
+  {
+   "name": "signal",
+   "count": 1081
+  },
+  {
+   "name": "time",
+   "count": 975
+  },
+  {
+   "name": "problem",
+   "count": 970
+  },
+  {
+   "name": "adaptive",
+   "count": 944
+  },
+  {
+   "name": "channel",
+   "count": 915
+  },
+  {
+   "name": "fuzzy",
+   "count": 913
+  },
+  {
+   "name": "matrix",
+   "count": 904
+  },
+  {
+   "name": "sub",
+   "count": 889
+  },
+  {
+   "name": "controller",
+   "count": 884
+  },
+  {
+   "name": "noise",
+   "count": 880
+  },
+  {
+   "name": "sup",
+   "count": 863
+  },
+  {
+   "name": "parameter",
+   "count": 852
+  },
+  {
+   "name": "error",
+   "count": 848
+  },
+  {
+   "name": "tex",
+   "count": 832
+  },
+  {
+   "name": "scheme",
+   "count": 820
+  },
+  {
+   "name": "frequency",
+   "count": 813
+  },
+  {
+   "name": "function",
+   "count": 811
+  },
+  {
+   "name": "power",
+   "count": 782
+  },
+  {
+   "name": "object",
+   "count": 782
+  },
+  {
+   "name": "delay",
+   "count": 750
+  }
+ ],
+ "2008": [
+  {
+   "name": "model",
+   "count": 2239
+  },
+  {
+   "name": "system",
+   "count": 2225
+  },
+  {
+   "name": "algorithm",
+   "count": 2081
+  },
+  {
+   "name": "network",
+   "count": 1941
+  },
+  {
+   "name": "filter",
+   "count": 1848
+  },
+  {
+   "name": "control",
+   "count": 1834
+  },
+  {
+   "name": "method",
+   "count": 1527
+  },
+  {
+   "name": "image",
+   "count": 1382
+  },
+  {
+   "name": "design",
+   "count": 1246
+  },
+  {
+   "name": "data",
+   "count": 1188
+  },
+  {
+   "name": "signal",
+   "count": 1135
+  },
+  {
+   "name": "time",
+   "count": 1026
+  },
+  {
+   "name": "problem",
+   "count": 1010
+  },
+  {
+   "name": "channel",
+   "count": 1006
+  },
+  {
+   "name": "sub",
+   "count": 994
+  },
+  {
+   "name": "adaptive",
+   "count": 987
+  },
+  {
+   "name": "fuzzy",
+   "count": 963
+  },
+  {
+   "name": "matrix",
+   "count": 953
+  },
+  {
+   "name": "controller",
+   "count": 943
+  },
+  {
+   "name": "noise",
+   "count": 927
+  },
+  {
+   "name": "sup",
+   "count": 904
+  },
+  {
+   "name": "error",
+   "count": 891
+  },
+  {
+   "name": "parameter",
+   "count": 887
+  },
+  {
+   "name": "tex",
+   "count": 886
+  },
+  {
+   "name": "scheme",
+   "count": 884
+  },
+  {
+   "name": "function",
+   "count": 857
+  },
+  {
+   "name": "frequency",
+   "count": 857
+  },
+  {
+   "name": "power",
+   "count": 852
+  },
+  {
+   "name": "object",
+   "count": 839
+  },
+  {
+   "name": "delay",
+   "count": 820
+  }
+ ],
+ "2009": [
+  {
+   "name": "model",
+   "count": 2364
+  },
+  {
+   "name": "system",
+   "count": 2323
+  },
+  {
+   "name": "algorithm",
+   "count": 2200
+  },
+  {
+   "name": "network",
+   "count": 2072
+  },
+  {
+   "name": "filter",
+   "count": 1937
+  },
+  {
+   "name": "control",
+   "count": 1922
+  },
+  {
+   "name": "method",
+   "count": 1604
+  },
+  {
+   "name": "image",
+   "count": 1480
+  },
+  {
+   "name": "design",
+   "count": 1296
+  },
+  {
+   "name": "data",
+   "count": 1250
+  },
+  {
+   "name": "signal",
+   "count": 1178
+  },
+  {
+   "name": "sub",
+   "count": 1102
+  },
+  {
+   "name": "time",
+   "count": 1086
+  },
+  {
+   "name": "channel",
+   "count": 1079
+  },
+  {
+   "name": "problem",
+   "count": 1061
+  },
+  {
+   "name": "adaptive",
+   "count": 1025
+  },
+  {
+   "name": "fuzzy",
+   "count": 1005
+  },
+  {
+   "name": "matrix",
+   "count": 994
+  },
+  {
+   "name": "controller",
+   "count": 988
+  },
+  {
+   "name": "sup",
+   "count": 972
+  },
+  {
+   "name": "scheme",
+   "count": 967
+  },
+  {
+   "name": "noise",
+   "count": 966
+  },
+  {
+   "name": "tex",
+   "count": 963
+  },
+  {
+   "name": "power",
+   "count": 932
+  },
+  {
+   "name": "error",
+   "count": 926
+  },
+  {
+   "name": "parameter",
+   "count": 923
+  },
+  {
+   "name": "frequency",
+   "count": 902
+  },
+  {
+   "name": "function",
+   "count": 890
+  },
+  {
+   "name": "delay",
+   "count": 884
+  },
+  {
+   "name": "object",
+   "count": 874
+  }
+ ],
+ "2010": [
+  {
+   "name": "model",
+   "count": 2501
+  },
+  {
+   "name": "system",
+   "count": 2408
+  },
+  {
+   "name": "algorithm",
+   "count": 2301
+  },
+  {
+   "name": "network",
+   "count": 2184
+  },
+  {
+   "name": "filter",
+   "count": 2013
+  },
+  {
+   "name": "control",
+   "count": 2007
+  },
+  {
+   "name": "method",
+   "count": 1656
+  },
+  {
+   "name": "image",
+   "count": 1564
+  },
+  {
+   "name": "design",
+   "count": 1356
+  },
+  {
+   "name": "data",
+   "count": 1333
+  },
+  {
+   "name": "signal",
+   "count": 1244
+  },
+  {
+   "name": "sub",
+   "count": 1203
+  },
+  {
+   "name": "channel",
+   "count": 1151
+  },
+  {
+   "name": "time",
+   "count": 1137
+  },
+  {
+   "name": "problem",
+   "count": 1103
+  },
+  {
+   "name": "adaptive",
+   "count": 1062
+  },
+  {
+   "name": "matrix",
+   "count": 1043
+  },
+  {
+   "name": "fuzzy",
+   "count": 1036
+  },
+  {
+   "name": "controller",
+   "count": 1033
+  },
+  {
+   "name": "scheme",
+   "count": 1032
+  },
+  {
+   "name": "sup",
+   "count": 1031
+  },
+  {
+   "name": "tex",
+   "count": 1016
+  },
+  {
+   "name": "noise",
+   "count": 1005
+  },
+  {
+   "name": "power",
+   "count": 1005
+  },
+  {
+   "name": "frequency",
+   "count": 967
+  },
+  {
+   "name": "error",
+   "count": 966
+  },
+  {
+   "name": "parameter",
+   "count": 959
+  },
+  {
+   "name": "delay",
+   "count": 942
+  },
+  {
+   "name": "function",
+   "count": 925
+  },
+  {
+   "name": "object",
+   "count": 918
+  }
+ ],
+ "2011": [
+  {
+   "name": "model",
+   "count": 2624
+  },
+  {
+   "name": "system",
+   "count": 2513
+  },
+  {
+   "name": "algorithm",
+   "count": 2401
+  },
+  {
+   "name": "network",
+   "count": 2333
+  },
+  {
+   "name": "control",
+   "count": 2120
+  },
+  {
+   "name": "filter",
+   "count": 2077
+  },
+  {
+   "name": "method",
+   "count": 1726
+  },
+  {
+   "name": "image",
+   "count": 1668
+  },
+  {
+   "name": "data",
+   "count": 1416
+  },
+  {
+   "name": "design",
+   "count": 1410
+  },
+  {
+   "name": "sub",
+   "count": 1298
+  },
+  {
+   "name": "signal",
+   "count": 1287
+  },
+  {
+   "name": "channel",
+   "count": 1241
+  },
+  {
+   "name": "time",
+   "count": 1181
+  },
+  {
+   "name": "problem",
+   "count": 1154
+  },
+  {
+   "name": "adaptive",
+   "count": 1103
+  },
+  {
+   "name": "scheme",
+   "count": 1100
+  },
+  {
+   "name": "power",
+   "count": 1099
+  },
+  {
+   "name": "matrix",
+   "count": 1094
+  },
+  {
+   "name": "fuzzy",
+   "count": 1083
+  },
+  {
+   "name": "sup",
+   "count": 1082
+  },
+  {
+   "name": "tex",
+   "count": 1080
+  },
+  {
+   "name": "controller",
+   "count": 1076
+  },
+  {
+   "name": "noise",
+   "count": 1045
+  },
+  {
+   "name": "delay",
+   "count": 1026
+  },
+  {
+   "name": "sensor",
+   "count": 1014
+  },
+  {
+   "name": "frequency",
+   "count": 1014
+  },
+  {
+   "name": "parameter",
+   "count": 1002
+  },
+  {
+   "name": "error",
+   "count": 1000
+  },
+  {
+   "name": "user",
+   "count": 996
+  }
+ ],
+ "2012": [
+  {
+   "name": "model",
+   "count": 2753
+  },
+  {
+   "name": "system",
+   "count": 2613
+  },
+  {
+   "name": "algorithm",
+   "count": 2510
+  },
+  {
+   "name": "network",
+   "count": 2505
+  },
+  {
+   "name": "control",
+   "count": 2225
+  },
+  {
+   "name": "filter",
+   "count": 2148
+  },
+  {
+   "name": "method",
+   "count": 1788
+  },
+  {
+   "name": "image",
+   "count": 1767
+  },
+  {
+   "name": "data",
+   "count": 1508
+  },
+  {
+   "name": "design",
+   "count": 1469
+  },
+  {
+   "name": "sub",
+   "count": 1414
+  },
+  {
+   "name": "signal",
+   "count": 1350
+  },
+  {
+   "name": "channel",
+   "count": 1327
+  },
+  {
+   "name": "time",
+   "count": 1233
+  },
+  {
+   "name": "problem",
+   "count": 1223
+  },
+  {
+   "name": "power",
+   "count": 1207
+  },
+  {
+   "name": "tex",
+   "count": 1175
+  },
+  {
+   "name": "scheme",
+   "count": 1173
+  },
+  {
+   "name": "matrix",
+   "count": 1157
+  },
+  {
+   "name": "adaptive",
+   "count": 1144
+  },
+  {
+   "name": "sup",
+   "count": 1142
+  },
+  {
+   "name": "controller",
+   "count": 1138
+  },
+  {
+   "name": "user",
+   "count": 1121
+  },
+  {
+   "name": "fuzzy",
+   "count": 1118
+  },
+  {
+   "name": "sensor",
+   "count": 1107
+  },
+  {
+   "name": "delay",
+   "count": 1095
+  },
+  {
+   "name": "noise",
+   "count": 1080
+  },
+  {
+   "name": "frequency",
+   "count": 1058
+  },
+  {
+   "name": "object",
+   "count": 1052
+  },
+  {
+   "name": "error",
+   "count": 1038
+  }
+ ],
+ "2013": [
+  {
+   "name": "model",
+   "count": 2889
+  },
+  {
+   "name": "system",
+   "count": 2718
+  },
+  {
+   "name": "network",
+   "count": 2647
+  },
+  {
+   "name": "algorithm",
+   "count": 2610
+  },
+  {
+   "name": "control",
+   "count": 2344
+  },
+  {
+   "name": "filter",
+   "count": 2221
+  },
+  {
+   "name": "image",
+   "count": 1872
+  },
+  {
+   "name": "method",
+   "count": 1859
+  },
+  {
+   "name": "data",
+   "count": 1600
+  },
+  {
+   "name": "design",
+   "count": 1518
+  },
+  {
+   "name": "sub",
+   "count": 1517
+  },
+  {
+   "name": "signal",
+   "count": 1414
+  },
+  {
+   "name": "channel",
+   "count": 1403
+  },
+  {
+   "name": "power",
+   "count": 1322
+  },
+  {
+   "name": "problem",
+   "count": 1281
+  },
+  {
+   "name": "time",
+   "count": 1276
+  },
+  {
+   "name": "tex",
+   "count": 1263
+  },
+  {
+   "name": "scheme",
+   "count": 1249
+  },
+  {
+   "name": "user",
+   "count": 1238
+  },
+  {
+   "name": "matrix",
+   "count": 1215
+  },
+  {
+   "name": "controller",
+   "count": 1201
+  },
+  {
+   "name": "sup",
+   "count": 1197
+  },
+  {
+   "name": "sensor",
+   "count": 1193
+  },
+  {
+   "name": "adaptive",
+   "count": 1178
+  },
+  {
+   "name": "delay",
+   "count": 1164
+  },
+  {
+   "name": "fuzzy",
+   "count": 1159
+  },
+  {
+   "name": "noise",
+   "count": 1123
+  },
+  {
+   "name": "object",
+   "count": 1110
+  },
+  {
+   "name": "frequency",
+   "count": 1107
+  },
+  {
+   "name": "parameter",
+   "count": 1077
+  }
+ ],
+ "2014": [
+  {
+   "name": "model",
+   "count": 3000
+  },
+  {
+   "name": "system",
+   "count": 2849
+  },
+  {
+   "name": "network",
+   "count": 2812
+  },
+  {
+   "name": "algorithm",
+   "count": 2731
+  },
+  {
+   "name": "control",
+   "count": 2481
+  },
+  {
+   "name": "filter",
+   "count": 2283
+  },
+  {
+   "name": "image",
+   "count": 1999
+  },
+  {
+   "name": "method",
+   "count": 1927
+  },
+  {
+   "name": "data",
+   "count": 1711
+  },
+  {
+   "name": "sub",
+   "count": 1634
+  },
+  {
+   "name": "design",
+   "count": 1562
+  },
+  {
+   "name": "signal",
+   "count": 1483
+  },
+  {
+   "name": "channel",
+   "count": 1471
+  },
+  {
+   "name": "power",
+   "count": 1415
+  },
+  {
+   "name": "user",
+   "count": 1359
+  },
+  {
+   "name": "problem",
+   "count": 1339
+  },
+  {
+   "name": "time",
+   "count": 1319
+  },
+  {
+   "name": "tex",
+   "count": 1315
+  },
+  {
+   "name": "scheme",
+   "count": 1308
+  },
+  {
+   "name": "sensor",
+   "count": 1289
+  },
+  {
+   "name": "matrix",
+   "count": 1266
+  },
+  {
+   "name": "controller",
+   "count": 1261
+  },
+  {
+   "name": "sup",
+   "count": 1260
+  },
+  {
+   "name": "delay",
+   "count": 1236
+  },
+  {
+   "name": "adaptive",
+   "count": 1220
+  },
+  {
+   "name": "fuzzy",
+   "count": 1184
+  },
+  {
+   "name": "noise",
+   "count": 1170
+  },
+  {
+   "name": "object",
+   "count": 1167
+  },
+  {
+   "name": "frequency",
+   "count": 1160
+  },
+  {
+   "name": "parameter",
+   "count": 1112
+  }
+ ],
+ "2015": [
+  {
+   "name": "model",
+   "count": 3134
+  },
+  {
+   "name": "network",
+   "count": 2973
+  },
+  {
+   "name": "system",
+   "count": 2969
+  },
+  {
+   "name": "algorithm",
+   "count": 2844
+  },
+  {
+   "name": "control",
+   "count": 2637
+  },
+  {
+   "name": "filter",
+   "count": 2360
+  },
+  {
+   "name": "image",
+   "count": 2131
+  },
+  {
+   "name": "method",
+   "count": 1995
+  },
+  {
+   "name": "data",
+   "count": 1845
+  },
+  {
+   "name": "sub",
+   "count": 1798
+  },
+  {
+   "name": "design",
+   "count": 1610
+  },
+  {
+   "name": "channel",
+   "count": 1562
+  },
+  {
+   "name": "signal",
+   "count": 1537
+  },
+  {
+   "name": "power",
+   "count": 1530
+  },
+  {
+   "name": "user",
+   "count": 1476
+  },
+  {
+   "name": "problem",
+   "count": 1398
+  },
+  {
+   "name": "sensor",
+   "count": 1397
+  },
+  {
+   "name": "scheme",
+   "count": 1392
+  },
+  {
+   "name": "time",
+   "count": 1378
+  },
+  {
+   "name": "tex",
+   "count": 1357
+  },
+  {
+   "name": "controller",
+   "count": 1338
+  },
+  {
+   "name": "sup",
+   "count": 1331
+  },
+  {
+   "name": "delay",
+   "count": 1322
+  },
+  {
+   "name": "matrix",
+   "count": 1316
+  },
+  {
+   "name": "adaptive",
+   "count": 1258
+  },
+  {
+   "name": "object",
+   "count": 1243
+  },
+  {
+   "name": "energy",
+   "count": 1232
+  },
+  {
+   "name": "fuzzy",
+   "count": 1230
+  },
+  {
+   "name": "frequency",
+   "count": 1224
+  },
+  {
+   "name": "noise",
+   "count": 1212
+  }
+ ],
+ "2016": [
+  {
+   "name": "model",
+   "count": 3270
+  },
+  {
+   "name": "network",
+   "count": 3137
+  },
+  {
+   "name": "system",
+   "count": 3112
+  },
+  {
+   "name": "algorithm",
+   "count": 2978
+  },
+  {
+   "name": "control",
+   "count": 2795
+  },
+  {
+   "name": "filter",
+   "count": 2438
+  },
+  {
+   "name": "image",
+   "count": 2263
+  },
+  {
+   "name": "method",
+   "count": 2075
+  },
+  {
+   "name": "data",
+   "count": 2025
+  },
+  {
+   "name": "sub",
+   "count": 1947
+  },
+  {
+   "name": "design",
+   "count": 1665
+  },
+  {
+   "name": "power",
+   "count": 1661
+  },
+  {
+   "name": "channel",
+   "count": 1655
+  },
+  {
+   "name": "signal",
+   "count": 1612
+  },
+  {
+   "name": "user",
+   "count": 1588
+  },
+  {
+   "name": "sensor",
+   "count": 1507
+  },
+  {
+   "name": "scheme",
+   "count": 1480
+  },
+  {
+   "name": "problem",
+   "count": 1469
+  },
+  {
+   "name": "time",
+   "count": 1438
+  },
+  {
+   "name": "energy",
+   "count": 1425
+  },
+  {
+   "name": "controller",
+   "count": 1416
+  },
+  {
+   "name": "delay",
+   "count": 1415
+  },
+  {
+   "name": "sup",
+   "count": 1411
+  },
+  {
+   "name": "tex",
+   "count": 1399
+  },
+  {
+   "name": "matrix",
+   "count": 1382
+  },
+  {
+   "name": "object",
+   "count": 1320
+  },
+  {
+   "name": "adaptive",
+   "count": 1316
+  },
+  {
+   "name": "noise",
+   "count": 1271
+  },
+  {
+   "name": "frequency",
+   "count": 1271
+  },
+  {
+   "name": "fuzzy",
+   "count": 1266
+  }
+ ],
+ "2017": [
+  {
+   "name": "model",
+   "count": 3414
+  },
+  {
+   "name": "network",
+   "count": 3332
+  },
+  {
+   "name": "system",
+   "count": 3259
+  },
+  {
+   "name": "algorithm",
+   "count": 3106
+  },
+  {
+   "name": "control",
+   "count": 2976
+  },
+  {
+   "name": "filter",
+   "count": 2535
+  },
+  {
+   "name": "image",
+   "count": 2392
+  },
+  {
+   "name": "data",
+   "count": 2204
+  },
+  {
+   "name": "method",
+   "count": 2169
+  },
+  {
+   "name": "sub",
+   "count": 2120
+  },
+  {
+   "name": "power",
+   "count": 1806
+  },
+  {
+   "name": "channel",
+   "count": 1759
+  },
+  {
+   "name": "design",
+   "count": 1717
+  },
+  {
+   "name": "user",
+   "count": 1707
+  },
+  {
+   "name": "signal",
+   "count": 1683
+  },
+  {
+   "name": "sensor",
+   "count": 1633
+  },
+  {
+   "name": "energy",
+   "count": 1613
+  },
+  {
+   "name": "scheme",
+   "count": 1592
+  },
+  {
+   "name": "problem",
+   "count": 1537
+  },
+  {
+   "name": "delay",
+   "count": 1527
+  },
+  {
+   "name": "time",
+   "count": 1516
+  },
+  {
+   "name": "controller",
+   "count": 1504
+  },
+  {
+   "name": "sup",
+   "count": 1486
+  },
+  {
+   "name": "matrix",
+   "count": 1454
+  },
+  {
+   "name": "tex",
+   "count": 1427
+  },
+  {
+   "name": "object",
+   "count": 1379
+  },
+  {
+   "name": "adaptive",
+   "count": 1377
+  },
+  {
+   "name": "noise",
+   "count": 1335
+  },
+  {
+   "name": "frequency",
+   "count": 1329
+  },
+  {
+   "name": "fuzzy",
+   "count": 1329
+  }
+ ],
+ "2018": [
+  {
+   "name": "model",
+   "count": 3552
+  },
+  {
+   "name": "network",
+   "count": 3527
+  },
+  {
+   "name": "system",
+   "count": 3401
+  },
+  {
+   "name": "algorithm",
+   "count": 3255
+  },
+  {
+   "name": "control",
+   "count": 3251
+  },
+  {
+   "name": "filter",
+   "count": 2635
+  },
+  {
+   "name": "image",
+   "count": 2547
+  },
+  {
+   "name": "data",
+   "count": 2401
+  },
+  {
+   "name": "sub",
+   "count": 2318
+  },
+  {
+   "name": "method",
+   "count": 2267
+  },
+  {
+   "name": "power",
+   "count": 1945
+  },
+  {
+   "name": "channel",
+   "count": 1883
+  },
+  {
+   "name": "user",
+   "count": 1867
+  },
+  {
+   "name": "energy",
+   "count": 1824
+  },
+  {
+   "name": "sensor",
+   "count": 1773
+  },
+  {
+   "name": "design",
+   "count": 1773
+  },
+  {
+   "name": "signal",
+   "count": 1765
+  },
+  {
+   "name": "scheme",
+   "count": 1694
+  },
+  {
+   "name": "delay",
+   "count": 1636
+  },
+  {
+   "name": "controller",
+   "count": 1613
+  },
+  {
+   "name": "time",
+   "count": 1607
+  },
+  {
+   "name": "problem",
+   "count": 1606
+  },
+  {
+   "name": "sup",
+   "count": 1576
+  },
+  {
+   "name": "matrix",
+   "count": 1539
+  },
+  {
+   "name": "tex",
+   "count": 1475
+  },
+  {
+   "name": "object",
+   "count": 1461
+  },
+  {
+   "name": "adaptive",
+   "count": 1454
+  },
+  {
+   "name": "noise",
+   "count": 1421
+  },
+  {
+   "name": "feature",
+   "count": 1396
+  },
+  {
+   "name": "frequency",
+   "count": 1381
+  }
+ ],
+ "2019": [
+  {
+   "name": "network",
+   "count": 3749
+  },
+  {
+   "name": "model",
+   "count": 3730
+  },
+  {
+   "name": "system",
+   "count": 3533
+  },
+  {
+   "name": "control",
+   "count": 3481
+  },
+  {
+   "name": "algorithm",
+   "count": 3393
+  },
+  {
+   "name": "filter",
+   "count": 2740
+  },
+  {
+   "name": "image",
+   "count": 2691
+  },
+  {
+   "name": "data",
+   "count": 2625
+  },
+  {
+   "name": "sub",
+   "count": 2518
+  },
+  {
+   "name": "method",
+   "count": 2362
+  },
+  {
+   "name": "power",
+   "count": 2085
+  },
+  {
+   "name": "energy",
+   "count": 2045
+  },
+  {
+   "name": "user",
+   "count": 2030
+  },
+  {
+   "name": "channel",
+   "count": 2020
+  },
+  {
+   "name": "sensor",
+   "count": 1893
+  },
+  {
+   "name": "signal",
+   "count": 1848
+  },
+  {
+   "name": "design",
+   "count": 1826
+  },
+  {
+   "name": "scheme",
+   "count": 1810
+  },
+  {
+   "name": "delay",
+   "count": 1763
+  },
+  {
+   "name": "controller",
+   "count": 1712
+  },
+  {
+   "name": "time",
+   "count": 1701
+  },
+  {
+   "name": "problem",
+   "count": 1661
+  },
+  {
+   "name": "sup",
+   "count": 1660
+  },
+  {
+   "name": "matrix",
+   "count": 1604
+  },
+  {
+   "name": "object",
+   "count": 1546
+  },
+  {
+   "name": "tex",
+   "count": 1518
+  },
+  {
+   "name": "adaptive",
+   "count": 1516
+  },
+  {
+   "name": "feature",
+   "count": 1501
+  },
+  {
+   "name": "detection",
+   "count": 1490
+  },
+  {
+   "name": "noise",
+   "count": 1485
+  }
+ ],
+ "2020": [
+  {
+   "name": "network",
+   "count": 4005
+  },
+  {
+   "name": "model",
+   "count": 3896
+  },
+  {
+   "name": "control",
+   "count": 3742
+  },
+  {
+   "name": "system",
+   "count": 3681
+  },
+  {
+   "name": "algorithm",
+   "count": 3549
+  },
+  {
+   "name": "data",
+   "count": 2931
+  },
+  {
+   "name": "image",
+   "count": 2905
+  },
+  {
+   "name": "filter",
+   "count": 2855
+  },
+  {
+   "name": "sub",
+   "count": 2775
+  },
+  {
+   "name": "method",
+   "count": 2474
+  },
+  {
+   "name": "energy",
+   "count": 2248
+  },
+  {
+   "name": "power",
+   "count": 2223
+  },
+  {
+   "name": "user",
+   "count": 2198
+  },
+  {
+   "name": "channel",
+   "count": 2195
+  },
+  {
+   "name": "sensor",
+   "count": 2039
+  },
+  {
+   "name": "signal",
+   "count": 1940
+  },
+  {
+   "name": "scheme",
+   "count": 1935
+  },
+  {
+   "name": "delay",
+   "count": 1902
+  },
+  {
+   "name": "design",
+   "count": 1882
+  },
+  {
+   "name": "controller",
+   "count": 1832
+  },
+  {
+   "name": "time",
+   "count": 1793
+  },
+  {
+   "name": "sup",
+   "count": 1764
+  },
+  {
+   "name": "problem",
+   "count": 1720
+  },
+  {
+   "name": "matrix",
+   "count": 1697
+  },
+  {
+   "name": "feature",
+   "count": 1647
+  },
+  {
+   "name": "object",
+   "count": 1647
+  },
+  {
+   "name": "detection",
+   "count": 1628
+  },
+  {
+   "name": "adaptive",
+   "count": 1604
+  },
+  {
+   "name": "node",
+   "count": 1602
+  },
+  {
+   "name": "noise",
+   "count": 1568
+  }
+ ],
+ "2021": [
+  {
+   "name": "network",
+   "count": 4275
+  },
+  {
+   "name": "control",
+   "count": 4181
+  },
+  {
+   "name": "model",
+   "count": 4150
+  },
+  {
+   "name": "system",
+   "count": 3882
+  },
+  {
+   "name": "algorithm",
+   "count": 3769
+  },
+  {
+   "name": "data",
+   "count": 3257
+  },
+  {
+   "name": "image",
+   "count": 3198
+  },
+  {
+   "name": "filter",
+   "count": 3007
+  },
+  {
+   "name": "sub",
+   "count": 3003
+  },
+  {
+   "name": "method",
+   "count": 2572
+  },
+  {
+   "name": "energy",
+   "count": 2460
+  },
+  {
+   "name": "user",
+   "count": 2410
+  },
+  {
+   "name": "power",
+   "count": 2392
+  },
+  {
+   "name": "channel",
+   "count": 2381
+  },
+  {
+   "name": "sensor",
+   "count": 2245
+  },
+  {
+   "name": "delay",
+   "count": 2111
+  },
+  {
+   "name": "signal",
+   "count": 2089
+  },
+  {
+   "name": "scheme",
+   "count": 2077
+  },
+  {
+   "name": "controller",
+   "count": 2011
+  },
+  {
+   "name": "time",
+   "count": 1994
+  },
+  {
+   "name": "design",
+   "count": 1952
+  },
+  {
+   "name": "sup",
+   "count": 1877
+  },
+  {
+   "name": "feature",
+   "count": 1872
+  },
+  {
+   "name": "detection",
+   "count": 1853
+  },
+  {
+   "name": "matrix",
+   "count": 1813
+  },
+  {
+   "name": "tex",
+   "count": 1800
+  },
+  {
+   "name": "object",
+   "count": 1799
+  },
+  {
+   "name": "problem",
+   "count": 1796
+  },
+  {
+   "name": "node",
+   "count": 1793
+  },
+  {
+   "name": "fault",
+   "count": 1746
+  }
+ ]
 }
