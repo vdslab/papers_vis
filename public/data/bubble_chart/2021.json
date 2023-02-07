@@ -1,124 +1,124 @@
 {
-  "2021": [
-    {
-      "name": "control",
-      "count": 438
-    },
-    {
-      "name": "data",
-      "count": 308
-    },
-    {
-      "name": "attack",
-      "count": 305
-    },
-    {
-      "name": "event",
-      "count": 299
-    },
-    {
-      "name": "fault",
-      "count": 289
-    },
-    {
-      "name": "image",
-      "count": 286
-    },
-    {
-      "name": "network",
-      "count": 264
-    },
-    {
-      "name": "tex",
-      "count": 250
-    },
-    {
-      "name": "model",
-      "count": 236
-    },
-    {
-      "name": "graph",
-      "count": 230
-    },
-    {
-      "name": "sub",
-      "count": 228
-    },
-    {
-      "name": "detection",
-      "count": 224
-    },
-    {
-      "name": "agent",
-      "count": 221
-    },
-    {
-      "name": "math",
-      "count": 219
-    },
-    {
-      "name": "feature",
-      "count": 217
-    },
-    {
-      "name": "algorithm",
-      "count": 216
-    },
-    {
-      "name": "task",
-      "count": 213
-    },
-    {
-      "name": "energy",
-      "count": 212
-    },
-    {
-      "name": "domain",
-      "count": 210
-    },
-    {
-      "name": "user",
-      "count": 208
-    },
-    {
-      "name": "delay",
-      "count": 208
-    },
-    {
-      "name": "edge",
-      "count": 207
-    },
-    {
-      "name": "sensor",
-      "count": 204
-    },
-    {
-      "name": "inline",
-      "count": 204
-    },
-    {
-      "name": "system",
-      "count": 199
-    },
-    {
-      "name": "formula",
-      "count": 197
-    },
-    {
-      "name": "time",
-      "count": 197
-    },
-    {
-      "name": "uav",
-      "count": 192
-    },
-    {
-      "name": "node",
-      "count": 188
-    },
-    {
-      "name": "consensus",
-      "count": 187
-    }
-  ]
+ "2021": [
+  {
+   "name": "control",
+   "count": 878
+  },
+  {
+   "name": "data",
+   "count": 652
+  },
+  {
+   "name": "attack",
+   "count": 612
+  },
+  {
+   "name": "event",
+   "count": 606
+  },
+  {
+   "name": "image",
+   "count": 586
+  },
+  {
+   "name": "fault",
+   "count": 580
+  },
+  {
+   "name": "network",
+   "count": 540
+  },
+  {
+   "name": "model",
+   "count": 508
+  },
+  {
+   "name": "tex",
+   "count": 500
+  },
+  {
+   "name": "graph",
+   "count": 486
+  },
+  {
+   "name": "sub",
+   "count": 456
+  },
+  {
+   "name": "feature",
+   "count": 450
+  },
+  {
+   "name": "agent",
+   "count": 450
+  },
+  {
+   "name": "detection",
+   "count": 450
+  },
+  {
+   "name": "algorithm",
+   "count": 440
+  },
+  {
+   "name": "task",
+   "count": 438
+  },
+  {
+   "name": "math",
+   "count": 438
+  },
+  {
+   "name": "energy",
+   "count": 424
+  },
+  {
+   "name": "user",
+   "count": 424
+  },
+  {
+   "name": "domain",
+   "count": 420
+  },
+  {
+   "name": "edge",
+   "count": 418
+  },
+  {
+   "name": "delay",
+   "count": 418
+  },
+  {
+   "name": "sensor",
+   "count": 412
+  },
+  {
+   "name": "inline",
+   "count": 408
+  },
+  {
+   "name": "system",
+   "count": 402
+  },
+  {
+   "name": "time",
+   "count": 402
+  },
+  {
+   "name": "formula",
+   "count": 394
+  },
+  {
+   "name": "uav",
+   "count": 384
+  },
+  {
+   "name": "node",
+   "count": 382
+  },
+  {
+   "name": "consensus",
+   "count": 374
+  }
+ ]
 }

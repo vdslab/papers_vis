@@ -1,246 +1,246 @@
 {
-  "2020": [
-    {
-      "name": "data",
-      "count": 293
-    },
-    {
-      "name": "control",
-      "count": 261
-    },
-    {
-      "name": "sub",
-      "count": 257
-    },
-    {
-      "name": "network",
-      "count": 248
-    },
-    {
-      "name": "image",
-      "count": 208
-    },
-    {
-      "name": "energy",
-      "count": 203
-    },
-    {
-      "name": "fault",
-      "count": 192
-    },
-    {
-      "name": "channel",
-      "count": 175
-    },
-    {
-      "name": "attack",
-      "count": 172
-    },
-    {
-      "name": "user",
-      "count": 165
-    },
-    {
-      "name": "event",
-      "count": 157
-    },
-    {
-      "name": "model",
-      "count": 155
-    },
-    {
-      "name": "iot",
-      "count": 153
-    },
-    {
-      "name": "algorithm",
-      "count": 152
-    },
-    {
-      "name": "edge",
-      "count": 148
-    },
-    {
-      "name": "node",
-      "count": 148
-    },
-    {
-      "name": "agent",
-      "count": 147
-    },
-    {
-      "name": "system",
-      "count": 145
-    },
-    {
-      "name": "sensor",
-      "count": 145
-    },
-    {
-      "name": "graph",
-      "count": 144
-    },
-    {
-      "name": "feature",
-      "count": 143
-    },
-    {
-      "name": "uav",
-      "count": 141
-    },
-    {
-      "name": "delay",
-      "count": 139
-    },
-    {
-      "name": "power",
-      "count": 137
-    },
-    {
-      "name": "detection",
-      "count": 137
-    },
-    {
-      "name": "video",
-      "count": 129
-    },
-    {
-      "name": "vehicle",
-      "count": 129
-    },
-    {
-      "name": "consensus",
-      "count": 129
-    },
-    {
-      "name": "scheme",
-      "count": 124
-    },
-    {
-      "name": "communication",
-      "count": 120
-    }
-  ],
-  "2021": [
-    {
-      "name": "control",
-      "count": 699
-    },
-    {
-      "name": "data",
-      "count": 601
-    },
-    {
-      "name": "network",
-      "count": 512
-    },
-    {
-      "name": "image",
-      "count": 494
-    },
-    {
-      "name": "sub",
-      "count": 485
-    },
-    {
-      "name": "fault",
-      "count": 481
-    },
-    {
-      "name": "attack",
-      "count": 477
-    },
-    {
-      "name": "event",
-      "count": 456
-    },
-    {
-      "name": "energy",
-      "count": 415
-    },
-    {
-      "name": "model",
-      "count": 391
-    },
-    {
-      "name": "graph",
-      "count": 374
-    },
-    {
-      "name": "user",
-      "count": 373
-    },
-    {
-      "name": "algorithm",
-      "count": 368
-    },
-    {
-      "name": "agent",
-      "count": 368
-    },
-    {
-      "name": "detection",
-      "count": 361
-    },
-    {
-      "name": "channel",
-      "count": 361
-    },
-    {
-      "name": "feature",
-      "count": 360
-    },
-    {
-      "name": "edge",
-      "count": 355
-    },
-    {
-      "name": "sensor",
-      "count": 349
-    },
-    {
-      "name": "delay",
-      "count": 347
-    },
-    {
-      "name": "system",
-      "count": 344
-    },
-    {
-      "name": "node",
-      "count": 336
-    },
-    {
-      "name": "uav",
-      "count": 333
-    },
-    {
-      "name": "task",
-      "count": 333
-    },
-    {
-      "name": "iot",
-      "count": 328
-    },
-    {
-      "name": "consensus",
-      "count": 316
-    },
-    {
-      "name": "domain",
-      "count": 305
-    },
-    {
-      "name": "power",
-      "count": 304
-    },
-    {
-      "name": "controller",
-      "count": 297
-    },
-    {
-      "name": "time",
-      "count": 285
-    }
-  ]
+ "2020": [
+  {
+   "name": "data",
+   "count": 612
+  },
+  {
+   "name": "control",
+   "count": 522
+  },
+  {
+   "name": "sub",
+   "count": 514
+  },
+  {
+   "name": "network",
+   "count": 512
+  },
+  {
+   "name": "image",
+   "count": 428
+  },
+  {
+   "name": "energy",
+   "count": 406
+  },
+  {
+   "name": "fault",
+   "count": 384
+  },
+  {
+   "name": "channel",
+   "count": 350
+  },
+  {
+   "name": "attack",
+   "count": 348
+  },
+  {
+   "name": "user",
+   "count": 336
+  },
+  {
+   "name": "model",
+   "count": 332
+  },
+  {
+   "name": "event",
+   "count": 320
+  },
+  {
+   "name": "algorithm",
+   "count": 312
+  },
+  {
+   "name": "iot",
+   "count": 306
+  },
+  {
+   "name": "graph",
+   "count": 306
+  },
+  {
+   "name": "node",
+   "count": 304
+  },
+  {
+   "name": "edge",
+   "count": 300
+  },
+  {
+   "name": "system",
+   "count": 296
+  },
+  {
+   "name": "agent",
+   "count": 294
+  },
+  {
+   "name": "feature",
+   "count": 292
+  },
+  {
+   "name": "sensor",
+   "count": 292
+  },
+  {
+   "name": "uav",
+   "count": 282
+  },
+  {
+   "name": "delay",
+   "count": 278
+  },
+  {
+   "name": "power",
+   "count": 276
+  },
+  {
+   "name": "detection",
+   "count": 276
+  },
+  {
+   "name": "video",
+   "count": 264
+  },
+  {
+   "name": "vehicle",
+   "count": 260
+  },
+  {
+   "name": "consensus",
+   "count": 258
+  },
+  {
+   "name": "scheme",
+   "count": 250
+  },
+  {
+   "name": "task",
+   "count": 248
+  }
+ ],
+ "2021": [
+  {
+   "name": "control",
+   "count": 961
+  },
+  {
+   "name": "data",
+   "count": 938
+  },
+  {
+   "name": "network",
+   "count": 782
+  },
+  {
+   "name": "sub",
+   "count": 742
+  },
+  {
+   "name": "image",
+   "count": 721
+  },
+  {
+   "name": "fault",
+   "count": 674
+  },
+  {
+   "name": "attack",
+   "count": 654
+  },
+  {
+   "name": "event",
+   "count": 623
+  },
+  {
+   "name": "energy",
+   "count": 618
+  },
+  {
+   "name": "model",
+   "count": 586
+  },
+  {
+   "name": "graph",
+   "count": 549
+  },
+  {
+   "name": "user",
+   "count": 548
+  },
+  {
+   "name": "channel",
+   "count": 536
+  },
+  {
+   "name": "algorithm",
+   "count": 532
+  },
+  {
+   "name": "agent",
+   "count": 519
+  },
+  {
+   "name": "feature",
+   "count": 517
+  },
+  {
+   "name": "edge",
+   "count": 509
+  },
+  {
+   "name": "detection",
+   "count": 501
+  },
+  {
+   "name": "sensor",
+   "count": 498
+  },
+  {
+   "name": "system",
+   "count": 497
+  },
+  {
+   "name": "node",
+   "count": 495
+  },
+  {
+   "name": "delay",
+   "count": 487
+  },
+  {
+   "name": "iot",
+   "count": 481
+  },
+  {
+   "name": "uav",
+   "count": 474
+  },
+  {
+   "name": "task",
+   "count": 467
+  },
+  {
+   "name": "power",
+   "count": 445
+  },
+  {
+   "name": "consensus",
+   "count": 445
+  },
+  {
+   "name": "video",
+   "count": 424
+  },
+  {
+   "name": "controller",
+   "count": 419
+  },
+  {
+   "name": "vehicle",
+   "count": 410
+  }
+ ]
 }

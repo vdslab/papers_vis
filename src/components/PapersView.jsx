@@ -221,13 +221,9 @@ const PapersView = () => {
                                     >
                                     {columns.map((column) => {
                                         let value;
-                                        if(column.id == 'page'){
-                                          value = Math.abs(paper[column.id])
-                                        }else{
-                                          value = paper[column.id]
+                                        value = paper[column.id]
                                           //console.log(paper.doi)
                                          // console.log(column)
-                                        }
                                         if(column.label === 'url'){
                                           return(
                                             <TableCell  key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
@@ -274,7 +270,7 @@ const PapersView = () => {
                                           //   </TableCell>
                                           // )
                                           
-                                        }else if(column.id =='value'){
+                                        }else if(column.id === 'value'){
                                           return (
                                             <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth,textAlign:"right"}}>
                                                 {column.format && typeof value === 'number'
@@ -282,6 +278,22 @@ const PapersView = () => {
                                                 : Math.round(value*10000)/10000}
                                             </TableCell>
                                           );
+                                        }else if(column.id === 'page'){
+                                          if(value == null){
+                                            return (
+                                              <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth, textAlign:"center"}}>
+                                                  NaN
+                                              </TableCell>
+                                            );
+                                          }else{
+                                            return (
+                                              <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth, textAlign:"center"}}>
+                                                  {column.format && typeof value === 'number'
+                                                  ? column.format(value)
+                                                  : value}
+                                              </TableCell>
+                                            );
+                                          }
                                         }else{
                                           return (
                                             <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth, textAlign:"center"}}>
