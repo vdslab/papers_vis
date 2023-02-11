@@ -216,7 +216,7 @@ const NetworkGraph = ({
   const params = useParams();
 
   const deescapeDoi = (doi) => {
-    return doi.replaceAll("_", ".").replaceAll("-", "/");
+    return doi.replaceAll("_", ".").replaceAll("~", "/");
   };
 
   const compressLabel = (str, num, key) => {
