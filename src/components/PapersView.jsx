@@ -70,7 +70,7 @@ const PapersView = () => {
     },[keyword,search])
 
     const escapeDoi = (doi) => {
-      return doi.replaceAll('.', '_').replaceAll('/', '-');
+      return doi.replaceAll('.', '_').replaceAll('/', '~');
     }
 
     const handleRequestSort = (event, property) => {
