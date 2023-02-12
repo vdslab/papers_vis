@@ -70,7 +70,7 @@ const PapersView = () => {
     },[keyword,search])
 
     const escapeDoi = (doi) => {
-      return doi.replaceAll('.', '_').replaceAll('/', '-');
+      return doi.replaceAll('.', '_').replaceAll('/', '~');
     }
 
     const handleRequestSort = (event, property) => {
@@ -279,7 +279,7 @@ const PapersView = () => {
                                             </TableCell>
                                           );
                                         }else if(column.id === 'page'){
-                                          if(value == null){
+                                          if(value == -1){
                                             return (
                                               <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth, textAlign:"center"}}>
                                                   NaN
