@@ -147,7 +147,7 @@ const SearchForm = () => {
                 />
             </Grid>
             <Grid item xs={1}>
-            <Button variant="contained" sx={{ width: '123.5%', height: 56 }} onClick={e => {changeButtonHandle(e)}}>検索</Button>
+            <Button variant="contained" sx={{ width: '123.5%', height: 56 ,fontSize: 18}} onClick={e => {changeButtonHandle(e)}}>検索</Button>
             </Grid>
         </Grid>  
         </Box>
