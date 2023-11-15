@@ -20,6 +20,8 @@ import { Link, useNavigate } from "react-router-dom";
 
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
+
+import { deescapeDoi } from "../utils/doi";
 /*
 todo
 グラフの調整
@@ -215,10 +217,6 @@ const NetworkGraph = ({
   //const [loadingString, setLoadingString] = useState('読み込み中');
   const params = useParams();
 
-  const deescapeDoi = (doi) => {
-    return doi.replaceAll("_", ".").replaceAll("~", "/");
-  };
-
   const compressLabel = (str, num, key) => {
     num = Math.min(maxStringNum, num);
     if (typeof str !== "string") {
@@ -355,7 +353,7 @@ const NetworkGraph = ({
           console.log("$$$$$$$$$$");
           console.log(top);
 
-          
+
           setProgress(Math.max((100 * (linkData.length+1) / nodeNum) - 35, 0) );
           console.error(nodeData.length);
           console.error(nodeNum);
@@ -375,7 +373,6 @@ const NetworkGraph = ({
               data['author'] = response[3*i + 2].value.data;
               nodeData.push(data);
             }
-            
             console.log(nodeData);
             console.log(linkData);
             return;
@@ -427,7 +424,6 @@ const NetworkGraph = ({
 
 
           console.log(response);
-      
             /*
             data = response[0].value.data[0];
             data["id"] = top["doi"];
@@ -479,7 +475,7 @@ const NetworkGraph = ({
             /*
                         console.log("$$$$$$$$$$");
                         console.log(prev);
-                        
+
                         console.log("$$$$$$$$$$\n");
                         */
 
@@ -521,7 +517,7 @@ const NetworkGraph = ({
         console.log(linkData);
         console.log("&&&&&&&&&&&&&&&&&&&&&&&&&&");
       } else {
-        
+
       }
       */
       try {
@@ -557,7 +553,7 @@ const NetworkGraph = ({
             nodeData[0]['author'] = await(await fetch(`/.netlify/functions/api/authors/${encoded}`)).json();
             try {
                 const response = await fetch(`/.netlify/functions/api/keywords/${encodeURIComponent(encoded)}`);
-                
+
                 if(response.status === 404) {
                     throw 'keyword not found';
                 }
@@ -569,10 +565,10 @@ const NetworkGraph = ({
                 console.error(err);
             }
 
-            
+
             const filtered_simirarities = simirarities.filter(item =>   Number(item.similarity) >= 0.69 );
 
-           
+
            // console.log(filtered_simirarities);
             for(const item of filtered_simirarities) {
                 //console.log(item['doi'])
@@ -596,7 +592,7 @@ const NetworkGraph = ({
                 }
                 //console.log(node['keyword']);
                 nodeData.push(node);
-            }; 
+            };
 
             //console.log("####")
             //console.log(nodeData);
@@ -607,7 +603,6 @@ const NetworkGraph = ({
             //author
             //title
             //html_url
-            
 
             //リンクデータを作る
             const linkData = []

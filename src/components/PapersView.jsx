@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {changePapersSort} from "../redux/papersSortSlice"
 import { changePapersKeyword } from '../redux/papersKeywordSlice';
 import { changePapersDetail } from '../redux/papersDetailSlice';
-import { changeColumnsJudge } from '../redux/columnsSlice'; 
+import { changeColumnsJudge } from '../redux/columnsSlice';
 import { Card, Tooltip ,Box, Skeleton} from "@mui/material";
 import CircularProgress from '@mui/material/CircularProgress';
 import Paper from '@mui/material/Paper';
@@ -23,6 +23,7 @@ import TableSortLabel from '@mui/material/TableSortLabel';
 import { visuallyHidden } from '@mui/utils';
 import { Link, Outlet } from "react-router-dom";
 import { ThreeDots } from 'react-loader-spinner';
+import { escapeDoi } from '../utils/doi';
 
 const PapersView = () => {
     const dispatch = useDispatch();
@@ -59,31 +60,28 @@ const PapersView = () => {
     ];
     setColumns(col)
     setOrderBy('year');
-    }  
+    }
   },[columnsJudge]);
-    
-    
+
+
     const emptyRows = page > 0 ? Math.max(0, (1 + page) * rowsPerPage - papers.length) : 0;
-    
+
     useEffect(() => {
       setPage(0);
     },[keyword,search])
 
-    const escapeDoi = (doi) => {
-      return doi.replaceAll('.', '_').replaceAll('/', '~');
-    }
 
     const handleRequestSort = (event, property) => {
         const isAsc = orderBy === property && order === 'asc';
         setOrder(isAsc ? 'desc' : 'asc');
         setOrderBy(property);
-        
+
       };
 
     const handleChangePage = (event, newPage) => {
         setPage(newPage);
       };
-    
+
       const handleChangeRowsPerPage = (event) => {
         setRowsPerPage(+event.target.value);
         setPage(0);
@@ -94,7 +92,7 @@ const PapersView = () => {
         const createSortHandler = (property) => (event) => {
           onRequestSort(event, property);
         };
-      
+
         return (
           <TableHead>
             <TableRow>
@@ -123,13 +121,13 @@ const PapersView = () => {
           </TableHead>
         );
       }
-    
+
       EnhancedTableHead.propTypes = {
         onRequestSort: PropTypes.func.isRequired,
         order: PropTypes.oneOf(['asc', 'desc']).isRequired,
         orderBy: PropTypes.string.isRequired,
       };
-    
+
       function descendingComparator(a, b, orderBy) {
         if (b[orderBy] < a[orderBy]) {
           return -1;
@@ -139,13 +137,13 @@ const PapersView = () => {
         }
         return 0;
       }
-    
+
       function getComparator(order, orderBy) {
         return order === 'desc'
             ? (a, b) => descendingComparator(a, b, orderBy)
             : (a, b) => -descendingComparator(a, b, orderBy);
       }
-    
+
       function stableSort(array, comparator) {
         const stabilizedThis = array.map((el, index) => [el, index]);
         stabilizedThis.sort((a, b) => {
@@ -181,9 +179,9 @@ const PapersView = () => {
                   </Typography>
               ))}
               </Toolbar>
-              
+
               <TableContainer sx={{ maxHeight: 600 }}>
-                
+
               {!tableDataJudge ? (
                 <div>
                   <Table stickyHeader aria-label="sticky table">
@@ -194,12 +192,12 @@ const PapersView = () => {
                     />
                   </Table>
                   <Card sx={{ Width: "100%", height: "100%" }}>
-                    {/* <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} sx={{my:5 }}> 
+                    {/* <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} sx={{my:5 }}>
                           <Skeleton sx={{ width: "100%",height: 400 }} animation="wave" variant="rectangular" />
                         </Box>                   */}
                     <Box style={{display: "flex", justifyContent: "center", alignItems: "center"}} sx={{my:3 ,height: 350.5}}>
                       <ThreeDots height="100" width="100" radius="30" color="#4fa94d" ariaLabel="three-dots-loading" wrapperStyle={{}} wrapperClassName="" visible={true} />
-                    </Box> 
+                    </Box>
                   </Card>
                  </div>
               ):(
@@ -229,7 +227,7 @@ const PapersView = () => {
                                             <TableCell  key={column.id} align={column.align} style={{ minWidth: column.minWidth }}>
                                                 <a href={value} target='_blank'>
                                                     <LaunchIcon/>
-                                                </a>           
+                                                </a>
                                             </TableCell>
                                           )
                                         }else if(column.id === 'title'){
@@ -249,14 +247,14 @@ const PapersView = () => {
                                             authors = value.split(',');
                                           }
                                           let i = 0;
-                                          
+
                                           if(authors.length > 2){
                                             return(
                                               <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth}}>
                                                  {authors[0]}, {authors[1]} など
                                              </TableCell>
                                             )
-                                            
+
                                           }else{
                                             return(
                                               <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth}}>
@@ -269,7 +267,7 @@ const PapersView = () => {
                                           //       {authors[0]}
                                           //   </TableCell>
                                           // )
-                                          
+
                                         }else if(column.id === 'value'){
                                           return (
                                             <TableCell key={column.id} align={column.align} style={{ minWidth: column.minWidth,textAlign:"right"}}>
@@ -310,8 +308,8 @@ const PapersView = () => {
                     </TableBody>
                 </Table>
                 )}
-            </TableContainer>     
-               
+            </TableContainer>
+
         <TablePagination
             rowsPerPageOptions={[50, 100,200]}
             component="div"

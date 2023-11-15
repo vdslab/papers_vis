@@ -3,30 +3,19 @@ import objectArray2ArrayByKey from "../objectArray2ArraybyKey";
 import CloseIcon from "@mui/icons-material/Close";
 import { useRef, useState } from "react";
 import { Link, Outlet } from "react-router-dom";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowUp";
 import IconButton from "@mui/material/IconButton";
 import useWindowSize from "../useWindowSize";
 import Tooltip from "@mui/material/Tooltip";
-import { ToggleOnOutlined } from "@mui/icons-material";
+import { escapeDoi } from "../utils/doi";
 
 const NodeDetail = ({
   detail,
   isOpenMenu,
   setIsOpenMenu,
-  loadidng,
-  setLoading,
   reloading,
   setReloading,
 }) => {
   const [width, height] = useWindowSize();
-
-  const escapeDoi = (doi) => {
-    if (doi !== undefined) {
-      return doi.replaceAll(".", "_").replaceAll("/", "-");
-    } else {
-      return doi;
-    }
-  };
 
   console.log(detail);
   return (
